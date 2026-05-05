@@ -96,10 +96,10 @@ h2 {
 
 .countdown {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
   gap: 2px 6px;
   align-items: baseline;
-  min-width: 168px;
+  min-width: 214px;
   padding: 10px 12px;
   border: 1px solid var(--line);
   background: var(--panel);
@@ -497,8 +497,9 @@ h2 {
   }
 
   .countdown {
-    min-width: 132px;
+    min-width: 174px;
     padding: 8px;
+    gap: 2px 4px;
   }
 
   .countdown strong {

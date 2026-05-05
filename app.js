@@ -41,6 +41,7 @@ const els = {
   quizScreen: document.querySelector("#quizScreen"),
   countdownDays: document.querySelector("#countdownDays"),
   countdownHours: document.querySelector("#countdownHours"),
+  countdownMinutes: document.querySelector("#countdownMinutes"),
   homeLevelText: document.querySelector("#homeLevelText"),
   homeXpText: document.querySelector("#homeXpText"),
   allCardCount: document.querySelector("#allCardCount"),
@@ -88,6 +89,7 @@ function updateCountdown() {
   const remaining = Math.max(0, getExamDate() - new Date());
   els.countdownDays.textContent = Math.floor(remaining / 86400000);
   els.countdownHours.textContent = Math.floor((remaining % 86400000) / 3600000);
+  els.countdownMinutes.textContent = Math.floor((remaining % 3600000) / 60000);
 }
 
 function classifyQuestion(question) {
@@ -408,13 +410,12 @@ function paintAnsweredOptions(selected, correct, isCorrect) {
 }
 
 function showFeedback(question, isCorrect) {
-  const progress = cardProgress(question.id);
   els.resultLine.textContent = isCorrect
     ? `Correct. Answer ${question.correctAnswer}.`
     : `Wrong. Correct answer: ${question.correctAnswer}.`;
   els.resultLine.classList.add(isCorrect ? "correct" : "wrong");
   els.explanation.textContent = question.explanation;
-  els.relevantTheory.textContent = `${question.relevantTheory} Mastery status: ${progress.mastered ? "mastered" : `${progress.streak}/2 correct streak needed`}.`;
+  els.relevantTheory.textContent = question.relevantTheory;
   els.feedback.hidden = false;
   els.nextButton.disabled = false;
 }
@@ -454,7 +455,7 @@ function goHome() {
 
 async function init() {
   updateCountdown();
-  window.setInterval(updateCountdown, 60 * 60 * 1000);
+  window.setInterval(updateCountdown, 60 * 1000);
   const decoratedQuestions = decorateQuestions(window.TMM_QUESTIONS || []);
   state.skippedQuestions = decoratedQuestions.filter((question) => !isStudyReady(question));
   state.allQuestions = decoratedQuestions.filter(isStudyReady);
