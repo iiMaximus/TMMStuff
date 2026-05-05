@@ -1,0 +1,670 @@
+In the context of material properties, what does Stiffness measure?: It measures a material's resistance to elastic (reversible) deformation.
+Which physical property quantifies the Stiffness of a material?: Young's Modulus (E).
+In the context of material properties, what does Strength measure?: It measures the stress level at which a material begins to deform plastically (permanently).
+Which physical property quantifies the Strength (specifically the onset of plasticity) of a material?: Yield Strength ($\sigma_y$).
+In the context of material properties, what does Toughness measure?: It measures the ability of a material to absorb energy and resist fracture when a crack is present.
+Which physical property quantifies the Toughness of a material?: Fracture Toughness ($K_{IC}$).
+What is the defining characteristic of a Metallic Bond regarding electrons?: Electrons are delocalized (a "sea of electrons") and shared among all atoms.
+How does the Metallic Bond influence electrical and thermal conductivity?: It leads to High conductivity (due to free-moving electrons).
+How does the Metallic Bond generally influence mechanical ductility?: It makes metals Ductile (atoms can slide past each other without breaking the non-directional bond).
+Contrast Ionic/Covalent materials with Metals regarding ductility.: Ionic/Covalent materials are generally Brittle, whereas Metals are Ductile.
+Chemically, what is Bronze?: An alloy of Copper (Cu) and Tin (Sn).
+Chemically, what is Steel?: An alloy of Iron (Fe) and Carbon (C).
+In the Materials Science Tetrahedron, what are the four interconnected vertices?: Structure, Properties, Processing, and Performance.
+What is a grain boundary?: The interface between two grains where the crystal orientation changes.
+At the Atomic Scale vs Nano/Micro Scale, which properties are determined at each?: Atomic - Young's Modulus, Thermal Expansion. Micro - Yield Strength, Tensile Strength, Ductility.
+What does BCC and FCC stand for?: Body-Centered Cubic and Face-Centered Cubic.
+Compare Fe, Al, and Cu in terms of key properties.: Fe; Cheapest, BCC, magnetic. Al; Low density (1/3 of steel), FCC, corrosion-resistant (oxide layer). Cu; Highest conductivity, FCC, high density.
+What are the "Other 3" high-performance metals and their key properties?: Ni; High-temp superalloys (jet engines). Ti; High strength-to-weight, biocompatible. M; Lightest structural metal, flammable.
+What is Anisotropy?: When material properties vary depending on the direction in which they are measured.
+Describe the polymorphism of Iron during cooling from liquid.: Liquid $\rightarrow$ $\delta$-Fe (BCC, 1538$^{\circ}$C) $\rightarrow$ $\gamma$-Fe (FCC, 1394$^{\circ}$C) $\rightarrow$ $\alpha$-Fe (BCC, 912$^{\circ}$C). FCC$\rightarrow$BCC causes volume expansion.
+What is the difference between Equiaxed and Columnar grains?: Equiaxed - Equal dimensions (isotropic). Columnar - Elongated in heat flow direction (anisotropic).
+What are the three main lattice defects?: Vacancies (0D), Dislocations (1D), Grain Boundaries (2D).
+What is a Dislocation and what does it create?: A linear lattice defect. Creates strain fields (compression + tension) that decrease with distance from core.
+What defines a Slip System?: A combination of a Slip Plane (high atomic density) and Slip Direction (close-packed).
+How many slip systems do BCC, FCC, and HCP have?: BCC - 48. FCC - 12. HCP - 3. More slip systems = more ductile.
+What is the Hall-Petch relationship?: As grain size decreases, yield strength increases ($\sigma_y = \sigma_0 + k d^{-1/2}$).
+What are the four main strengthening mechanisms?: 1. Solid Solution 2. Precipitation Hardening 3. Strain Hardening 4. Grain Refinement. All work by impeding dislocation motion.
+What is unique about Grain Refinement as a strengthening mechanism?: It increases both strength AND toughness (unlike others which sacrifice toughness).
+What is a "Cottrell Atmosphere"?: Solute atoms (C, N) clustered around a dislocation core, pinning it. Causes yield point phenomenon in mild steel.
+What is the "Orowan Mechanism"?: Dislocations bow around and bypass non-deformable precipitates, leaving loops behind. Strength $\propto$ 1/particle spacing.
+What is the "Schmid's Law"?: It relates the macroscopic applied stress to the resolved shear stress on a slip system; slip occurs when this resolved shear stress reaches a critical value.
+Why do substitutional atoms increase strength?: They create lattice strains (compression or tension) that interact with the strain fields of dislocations, pinning them.
+What is a "Cottrell Atmosphere"?: A concentration of solute atoms (usually interstitial like Carbon) around a dislocation core that "locks" the dislocation, leading to a yield point phenomenon.
+Why does the first stage of aging sometimes decrease strength?: Because if the precipitates are not yet formed or are too small/coherent, they may not effectively impede dislocations compared to the solid solution state.
+What is the main strengthening mechanism in High Strength Low Alloy (HSLA) steels?: Grain refinement and precipitation hardening.
+Which is usually more ductile - FCC or BCC?: FCC is generally considered more ductile/formable (e.g., Al, Cu) due to close-packed planes, though BCC has more *theoretical* slip systems (but requires higher thermal activation). *Note; Slides explicitly state "BCC and FCC... are more ductile than HCP".*
+What is the "Orowan Mechanism"?: A strengthening mechanism where dislocations bow around and bypass large, non-deformable precipitates, leaving dislocation loops behind.
+What determines the "Security of supply" for a material?: Geopolitical stability of the source countries and abundance of the resource.
+Why is Magnesium (Mg) hazardous during processing?: It is highly flammable in powder/dust form.
+What are the "Hume-Rothery Rules" used for?: Determining the conditions under which two metals can form a substitutional solid solution (alloy).
+According to the Hume-Rothery "Dimensional Factor" rule, what is the maximum allowable difference in atomic radii between solute and solvent?: 15% (Atoms must be of similar size).
+According to the Hume-Rothery "Crystal Structure" rule, what condition must be met for solid solubility?: The solute and solvent must have identical crystal structures.
+According to the Hume-Rothery "Electronegativity" rule, what happens if the electronegativities of solute and solvent are too different?: They are likely to form an intermetallic compound (ionic/covalent character) rather than a solid solution.
+According to the Hume-Rothery "Valence Factor" rule, is a metal more likely to dissolve a metal of higher or lower valence?: A metal is more likely to dissolve a metal of higher valence (than vice versa).
+In the Condon-Morse model, what defines the equilibrium distance ($r_0$) between two atoms?: The distance where the attractive forces and repulsive forces balance each other ($\Sigma F = 0$).
+In the Condon-Morse potential energy curve, what is the Force ($F$) at the minimum energy point ($U_{min}$ or $r_0$)?: Zero.
+What physical property is directly proportional to the curvature (second derivative) of the Potential Energy curve at equilibrium ($r_0$)?: The Elastic Modulus (Young's Modulus, $E$).
+How does a deeper Potential Energy well (higher bonding energy) affect the Melting Point ($T_m$)?: A deeper well corresponds to a higher Melting Point.
+How does a deeper Potential Energy well (higher bonding energy) affect the Elastic Modulus ($E$)?: A deeper well corresponds to a steeper curvature, and thus a higher Elastic Modulus (stiffness).
+Why is Carbon much more soluble in Austenite ($\gamma$-Fe) than in Ferrite ($\alpha$-Fe)?: FCC interstitial sites are larger than BCC sites, better accommodating Carbon atoms.
+What is Crystallographic Texture and how does it affect properties?: Preferred orientation of grains (from rolling). Makes material anisotropic.
+What are Intrinsic vs Extrinsic properties?: Intrinsic - Bond-determined, microstructure-insensitive (E, density, thermal expansion). Extrinsic - Microstructure-sensitive (yield strength, toughness, hardness).
+What is the Critical Resolved Shear Stress ($\tau_{CRSS}$) and Schmid's Law?: $\tau_{CRSS}$ is the min shear stress to initiate slip. Schmid's Law - $\tau_{RSS} = \sigma \cos\phi \cos\lambda$. Maximum when $\phi = \lambda = 45^{\circ}$.
+Under what orientation conditions is $\tau_{RSS}$ equal to zero?:If the slip plane is perpendicular to the tensile stress ($\phi = 0^\circ, \lambda=90^\circ$) or parallel to it ($\phi = 90^\circ$). The crystal will fracture rather than slip.
+At what orientation is the Resolved Shear Stress ($\tau_{RSS}$) maximized?:When both $\phi$ and $\lambda$ are $45^{\circ}$.
+What is the value of the maximum $\tau_{RSS}$ when $\phi = \lambda = 45^\circ$?:$\tau_{RSS, max} = \frac{\sigma}{2}$
+How does the Yield Stress ($\sigma_y$) of a single crystal relate to $\tau_{CRSS}$?:$\sigma_y = \frac{\tau_{CRSS}}{(\cos\phi \cos\lambda)_{max}}$ (Yield stress depends on orientation; $\tau_{CRSS}$ is constant).
+What is the difference between Slip Bands and Slip Lines?:Slip Bands are large aggregates of dislocations (visible macroscopically); Slip Lines are small aggregates appearing as fine markings on the surface.
+During single crystal tensile deformation, how does the crystal lattice rotate?:The slip direction rotates toward the tensile axis.
+Why are polycrystals stronger than single crystals?: Grain boundaries hinder dislocations, and random grain orientations require higher stress to activate slip across the material.
+What is the Taylor Factor ($M$)?: Relates polycrystal yield stress to single crystal $\tau_{CRSS}$. For FCC - $M \approx 3.1$, so $\sigma_{y,poly} \approx 3.1 \times \tau_{CRSS}$.
+What conditions favor slip compatibility in polycrystals?: At least 5 independent slip systems must be active. Materials with fewer (like HCP) may be ductile as single crystals but brittle as polycrystals.
+What are Small-Angle vs Large-Angle Grain Boundaries?: Small-angle - $\theta \le 15^{\circ}$, modeled as dislocation arrays. Large-angle - $\theta > 15^{\circ}$, higher energy, more complex structure.
+List the 4 main roles of Grain Boundaries.: 1. Dislocation sources/sinks 2. Strengthening (Hall-Petch) 3. Impurity segregation sites 4. Nucleation sites for second phases.
+What is Stacking Fault Energy (SFE) and how does it affect work hardening?: High SFE (Al) - Easy cross-slip, low work hardening. Low SFE (Brass/SS) - Difficult cross-slip, dislocations pile up, high work hardening.
+What are Lüders' bands?: Visible bands of localized deformation propagating during yield point elongation, caused by sequential unpinning of dislocations from Cottrell atmospheres.
+What is the Frank-Read source?: Primary dislocation multiplication mechanism - a pinned segment bows out and loops back, generating new dislocations.
+Where should precipitates form for strengthening vs embrittlement?: Inside grains = strengthening (blocks dislocations). At grain boundaries = risk of brittleness/intergranular fracture.
+What is dynamic strain aging (Portevin-Le Chatelier effect)?: Solute atoms diffuse fast enough to repeatedly pin moving dislocations during deformation, causing serrated flow.
+What is Taylor's Law for flow stress?: $\tau_{flow} = \tau_0 + k\sqrt{\rho}$. Strength increases with square root of dislocation density.
+What is the Ludwik-Hollomon law?: $\sigma_T = K\varepsilon_T^n$. The strain hardening coefficient $n$ measures ability to harden and delay necking.
+What are GP zones?: Guinier-Preston zones are tiny coherent solute clusters in early aging stages (e.g., Al-Cu), creating lattice strain and strengthening.
+What is the difference between Coherent and Incoherent precipitates?: Coherent - Continuous lattice planes (high strain, cut by dislocations). Incoherent - Discontinuous (low strain, bypassed by Orowan mechanism).
+Why does Overaging decrease strength?: Precipitates coarsen (grow larger), increasing inter-particle spacing, making it easier for dislocations to bypass them.
+When is Twinning favored over Slip?: Low temperatures, high strain rates, limited slip systems (HCP), and low SFE.
+What is the main strengthening mechanism in HSLA (High Strength Low Alloy) steels?:Grain Refinement (combined often with precipitation of micro-alloying elements).
+What is the effect of Strontium (Sr) modification in Al-Si castings?:It transforms the Silicon eutectic morphology from coarse needles (brittle) to a fine fibrous structure, improving toughness.
+What are Stringers in rolled steels?:Elongated inclusions (like MnS) aligned with the rolling direction. They cause anisotropy, reducing toughness in the transverse direction.
+What is the microstructure of Maraging Steel?:Low-carbon, high-nickel martensite strengthened by the precipitation of intermetallic compounds (like $\text{Ni}_3\text{Ti}$) during aging.
+What is Dynamic Strain Aging (Portevin-Le Chatelier effect)?:A phenomenon where solute atoms diffuse fast enough to repeatedly pin dislocations during plastic deformation, causing serrated yielding on the stress-strain curve.
+Why do small grains result in higher stress concentrations at grain boundaries?:Because the dislocation pile-up length is limited by the grain diameter ($d$). A pile-up acts like a crack tip; stress at the tip $\propto \sigma_{applied} \sqrt{d}$.
+In the Hall-Petch equation $\sigma = \sigma_0 + k d^{-1/2}$, what does $\sigma_0$ represent?:The friction stress resisting dislocation motion within the grain interior (lattice friction).
+Which strengthening method creates a texture that increases strength along the fiber direction?:Cold Rolling or Forging.
+Why is Strain Hardening maximized in alloys like Brass compared to pure Copper?:Alloying (Zn in Cu) lowers the SFE, which suppresses cross-slip and promotes dislocation accumulation (higher work hardening coefficient $n$).
+What is the primary factor controlling strength in the Orowan bowing regime?:The inter-particle spacing ($L$).
+What happens to the lattice strain when a coherent precipitate becomes incoherent?:The lattice strain is reduced, leading to a decrease in strength (overaging).
+How does the presence of Annealing Twins relate to SFE?:Annealing twins are prominent in Low SFE metals (like FCC Stainless Steel, Brass) and rare in High SFE metals (like Al).
+What is the Taylor Factor ($M$) used for?:To relate the critical resolved shear stress ($\tau$) of a single crystal to the yield stress ($\sigma$) of a polycrystal ($\sigma = M \tau$).
+Why does precipitation at Grain Boundaries (GBs) often reduce ductility?:It leads to Precipitate Free Zones (PFZ) or brittle grain boundary films, which can promote intergranular fracture.
+What is the main strengthening mechanism for 7xxx series Aluminum (Al-Zn-Mg)?:Precipitation Hardening.
+What characterizes the Peak Aged condition (T6)?:The optimal dispersion of fine, coherent (or semi-coherent) precipitates that provide the maximum resistance to dislocation motion (cutting/bowing transition).
+What is the effect of Recovery (before Recrystallization) on properties?:It reduces internal stresses and rearranges dislocations (polygonization) without significantly changing the grain structure or mechanical strength.
+Why are dislocation sources essential for strain hardening?:Because the initial dislocation density is insufficient to accommodate large plastic strains; new dislocations must be continuously generated (e.g., by Frank-Read sources) to sustain deformation.
+What specific features characterize the stress-strain curve during Lüders band formation in steel?:An initial high yield stress (upper yield point), followed by a sudden drop to a lower yield stress, and a plateau of constant stress (yield point extension).
+What is the "Yield Point Extension" in the context of yielding?:The region of nearly constant stress on the stress-strain curve where Lüders bands propagate until they cover the entire gauge length of the specimen.
+Visually, how do Lüders bands appear on a polished metallographic specimen?:As distinct bright or dark streaks (bands) that nucleate at stress concentrations and propagate across the surface, distinguishing deformed material from undeformed material.
+When applying Schmid's Law, how do you calculate the angle $\phi$ between a tensile axis $[u v w]$ and a slip plane normal $(h k l)$ in a cubic crystal?:By taking the dot product of the two vectors and dividing by the product of their magnitudes - $\cos \phi = \frac{uh + vk + wl}{\sqrt{u^2+v^2+w^2}\sqrt{h^2+k^2+l^2}}$.
+In the Schmid's Law exercise, if the Critical Resolved Shear Stress ($\tau_{CRSS}$) is 10 MPa and the geometric factor ($\cos\phi \cos\lambda$) is roughly 0.49, how is the yield stress ($\sigma$) calculated?:$\sigma = \frac{\tau_{CRSS}}{\cos\phi \cos\lambda} \approx \frac{10}{0.49} \approx 20.4 \text{ MPa}$. (The applied tensile stress is always higher than the CRSS).
+What is the crystal structure of Pure Iron (Fe) between $1394^{\circ}C$ and $912^{\circ}C$?:FCC ($\gamma$-iron / Austenite)
+What is the crystal structure of Pure Iron (Fe) below $912^{\circ}C$?:BCC ($\alpha$-iron / Ferrite)
+What happens to the magnetic properties of BCC $\alpha$-iron upon cooling below $768^{\circ}C$?:It becomes magnetic (ferromagnetic).
+Summarize the key points of the Fe-C diagram.: Eutectoid; $\gamma \leftrightarrow \alpha + Fe_3C$ at 727$^{\circ}$C, 0.76%C. Eutectic; 1147$^{\circ}$C, 4.3%C. Max C in $\gamma$; 2.14%. Max C in $\alpha$; 0.022%. A1=eutectoid temp, A3=$\gamma$/$\alpha$ boundary, Acm=C solubility in $\gamma$.
+What are Hypo-eutectoid, Eutectoid, and Hyper-eutectoid steels?: Hypo (<0.76%C) - Ferrite + Pearlite. Eutectoid (0.76%C) - 100% Pearlite. Hyper (>0.76%C) - Cementite + Pearlite. Pro-eutectoid phase forms first at GBs.
+What is Pearlite and why is it lamellar?: Alternating lamellae of Ferrite + Cementite. Forms because C diffuses ahead of growing Ferrite. Finer lamellae (faster cooling) = higher strength.
+What is Cementite ($Fe_3C$)?: Iron carbide, 6.67%C, orthorhombic, very hard (550 HB) and brittle. Continuous GB networks cause brittleness.
+What are Austenitizers vs Ferritizers?: Austenitizers expand $\gamma$ field - Ni, Mn, C, N, Cu. Ferritizers stabilize $\alpha$ - Cr, Si, Al, Mo, Ti, V. They shift A1 temperature accordingly.
+How do you use the Lever Rule?: At a given T in a 2-phase region - $W_{phase} = \frac{opposite~arm}{total~tie~line~length}$. Fulcrum is alloy composition.
+How do you decode EN steel designations?: Unalloyed - C45 = 0.45%C. Low alloy - 42CrMo4 = 0.42%C, Cr/4=1%, Mo present. High alloy (X) - X100CrMoV5 = 1%C, 5%Cr (no multiplier). S235JR = Structural, 235MPa yield, 27J impact at RT.
+How do you decode AISI steel designations?: 10XX = plain carbon. 41XX = Cr-Mo. 43XX = Ni-Cr-Mo. 2XXX = Ni steels. Last 2 digits = %C x 100.
+What are the effects of major alloying elements in steel?: Mn - hardenability, binds S. Ni - toughness, no ductility loss. Mo - high-temp strength, prevents temper embrittlement. Cr - corrosion resistance, hard carbides. V - wear resistance.
+What is Stainless Steel composition?: Cr > 10.5%, C < 1.2%. Cr forms passive oxide film for corrosion resistance.
+Calculate the approximate Chromium content in **20NiCrMo2-2** (using factor 4).:The first number after the elements usually refers to the first element. However, in "2-2", the numbers correspond to the elements in order. $2 / 4 = 0.5\%$.
+What defines a **Dual Phase (X)** steel in the EN designation (e.g., HCT600X)?:A microstructure containing Ferrite and Martensite (or Bainite).
+What does the "T" stand for in **TRIP** steels (e.g., HCT690T)?:Transformation Induced Plasticity.
+In **S355**, what is the range of Ultimate Tensile Strength ($R_m$) typically?:510 - 680 MPa.
+What is the distinction between **AISI 10XX** and **AISI 11XX**?:10XX is plain carbon; 11XX is resulfurized (free machining).
+What is the typical application of **Group S** steels?:Structural applications (beams, construction).
+If a steel is designated **X5CrNi18-10**, what is the approximate Chromium content?:$18\%$ (High alloy, no multiplier).
+If a steel is designated **X5CrNi18-10**, what is the approximate Carbon content?:$0.05\%$ ($5 / 100$).
+What are the main concentration limits (weight %) to discern alloyed from unalloyed steels according to standard classifications (e.g., EN 10020)?:Common limits include - Mn $\ge$ 1.65%, Si $\ge$ 0.60%, Cu $\ge$ 0.40%, Cr $\ge$ 0.30%, Ni $\ge$ 0.30%, Mo $\ge$ 0.08%, Al $\ge$ 0.30%. (Any element exceeding its limit makes the steel "alloyed").
+Provide the alphanumeric code for a structural steel with a minimum yield strength of 550 MPa and minimum impact energy of 30 J at $-30^{\circ}C$.: **S550...** (The suffix depends on the specific standard revision, but often **NL** or **QL** designates low-temperature toughness at high strengths in EN standards).
+Specify the alphanumeric code for a tempering unalloyed steel (< 1% Mn) of average $\%C=0.25$.: **C25** (Sometimes **C25E** or **C25R** depending on sulfur/quality controls).
+Specify the alphanumeric code for a tempering low-alloy steel (< 5% alloying elements) of average $C=0.42\%$, $Cr=1\%$, and present but unspecified Mo and S.: **42CrMoS4** (Logic - Carbon $0.42 \times 100$; Cr factor is 4, so $1 \times 4$ is usually omitted if it's the main group, but here likely **4** refers to the Cr content).
+Specify the alphanumeric code for a tempering alloyed steel (high alloy) of average $C=0.38\%$, $Cr=5\%$, $Mo=3\%$ and present but unspecified V.: **X38CrMoV5-3** (Logic - **X** indicates high alloy; Carbon $0.38 \times 100$; Alloys listed by actual % integers).
+What are the primary alloying elements and nominal concentrations of **AISI 4140**?: **Chromium (0.80 - 1.10%)** and **Molybdenum (0.15 - 0.25%)**. (Carbon is approx 0.40%).
+What are the primary alloying elements and nominal concentrations of **AISI 4340**?: **Nickel (1.65 - 2.00%)**, **Chromium (0.70 - 0.90%)**, and **Molybdenum (0.20 - 0.30%)**. (Carbon is approx 0.40%).
+What are the primary alloying elements and nominal concentrations of **AISI 4620**?: **Nickel (1.65 - 2.00%)** and **Molybdenum (0.20 - 0.30%)**. (Carbon is approx 0.20%).
+What are the primary alloying elements of **AISI 1020**?: **None (Plain Carbon Steel)**. Contains only Manganese (0.30 - 0.60%) and Carbon (approx 0.20%).
+Specify the AISI designation series for a Nickel steel.: **2xxx** series (e.g., 23xx, 25xx).
+What are the two main routes for modern steel production?:1. Integral Production (Blast Furnace $\to$ BOF) starting from iron ore. 2. Direct/Electric Production (Electric Arc Furnace) starting largely from recycled scrap.
+What are the three main raw materials charged into the top of a Blast Furnace?:Iron Ore (source of Iron), Coke (fuel and reducing agent), and Limestone (flux).
+What is the primary output product of the Blast Furnace?:Pig Iron (Hot Metal).
+What is the approximate Carbon content of Pig Iron produced in a Blast Furnace?:3% to 4.5% C (much too high for steel).
+What is the chemical function of **Coke** in the Blast Furnace?:It burns to produce heat ($C + O_2 \to CO_2$) and produces Carbon Monoxide ($CO$), which acts as the reducing agent for the iron ore.
+Write the primary reduction reaction occurring in the Blast Furnace where Iron Ore is converted to Iron.:$Fe_2O_3 + 3CO \to 2Fe + 3CO_2$
+What is the function of **Limestone** (Flux) in the Blast Furnace?:It reacts with impurities (like silica $SiO_2$) to form liquid Slag, which floats on top of the molten iron and is removed.
+What is the main purpose of the **Basic Oxygen Furnace (BOF)** operations?:To convert high-carbon Pig Iron into Steel by blowing oxygen to oxidize Carbon (lowering it) and other impurities.
+What is the primary heat source in an **Electric Arc Furnace (EAF)**?:An electric arc struck between graphite electrodes and the metal charge (mostly scrap).
+Why is the Electric Arc Furnace (EAF) preferred for producing high-alloy steels containing oxidizable elements like Cr or W?:The EAF atmosphere can be controlled to prevent excessive oxidation of expensive alloying elements, unlike the oxidizing environment of the BOF.
+What are "Secondary Production" or "Ladle Metallurgy" processes used for?:Fine-tuning composition, deoxidizing, desulfurizing, removing inclusions, and controlling temperature before casting.
+What are the "harmful impurities" in steel that must typically be minimized?:Sulfur (S), Phosphorus (P), Hydrogen (H), Oxygen (O), and Nitrogen (N).
+What specific defect does **Phosphorus (P)** cause in steel?:Cold shortness (low-temperature embrittlement) due to segregation at grain boundaries.
+What specific defect does **Sulfur (S)** cause in steel?:Hot shortness (brittleness at high temperatures) due to the formation of low-melting-point Iron Sulfide ($FeS$) films at grain boundaries.
+In which specific type of steel are Sulfur and Phosphorus deliberately added?:Free-machining steels (resulfurized/rephosphorized) to promote brittle chip formation during machining.
+What is **Deoxidation** (or "killing") of steel?:The removal of dissolved Oxygen from the melt to prevent gas porosity (blowholes) during solidification.
+Which elements are commonly used as deoxidizers, in increasing order of effectiveness?:Silicon (Si), Manganese (Mn), and Aluminum (Al).
+What is the product of deoxidation with Aluminum?:Solid Aluminum Oxide ($Al_2O_3$) inclusions, which must be floated out or controlled.
+What is **VOD** (Vacuum Oxygen Decarburization) mainly used for?:Producing Stainless Steels; it allows decarburization (lowering C) without excessive loss of Chromium by lowering the partial pressure of $CO$.
+What is **AOD** (Argon Oxygen Decarburization)?:A refining process for stainless steel using a mixture of Argon and Oxygen to promote the oxidation of Carbon over Chromium.
+What is **Continuous Casting**?:A process where molten steel is poured continuously into a water-cooled mold to produce semi-finished shapes (slabs, blooms, billets) directly, bypassing large ingots.
+What are the three main shapes produced by continuous casting and what are they used for?:1. **Slabs** (wide/flat) for rolling into plates/sheets. 2. **Blooms** (large square) for structural shapes/rails. 3. **Billets** (small square) for bars/rods/wire.
+What is **Macrosegregation** in large steel ingots?:The non-uniform distribution of alloying elements and impurities (like S, P) on a macroscopic scale due to solidification dynamics.
+What is a **Shrinkage Cavity** (or Pipe) in an ingot?:A void formed at the top center of an ingot because the metal contracts (shrinks) as it solidifies.
+What is the primary metallurgical benefit of **Hot Rolling** besides shaping the metal?:It refines the grain structure through **Recrystallization**, replacing coarse cast grains with finer, uniform grains.
+What is **Recrystallization** during hot rolling?:The replacement of deformed, elongated grains with a new set of defect-free, equiaxed grains.
+What happens if the finish rolling temperature is too high (well above the recrystallization temperature)?:Grain growth occurs, leading to coarse grains and reduced mechanical properties.
+What is **TMCP** (Thermo-Mechanical Controlled Processing)?:A sophisticated rolling process that controls both deformation (rolling) and temperature (cooling rate) to achieve ultra-fine grain sizes and high strength without heat treatment.
+In HSLA steels, what is the role of Microalloying elements like **Niobium (Nb)** during TMCP?:They form precipitates ($Nb(C,N)$) that pin grain boundaries, retarding recrystallization and preventing grain growth, leading to a very fine ferrite structure.
+What is the effect of **Manganese Sulfide (MnS)** inclusions in rolled steel?:They deform and elongate in the rolling direction, causing **anisotropy** in mechanical properties (properties differ in longitudinal vs. transverse directions).
+How do elongated MnS inclusions affect the toughness (Charpy impact energy) of steel?:The toughness is high in the longitudinal direction (parallel to rolling) but significantly lower in the transverse direction.
+What is **Inclusion Shape Control**?:Adding elements like Calcium (Ca) or Rare Earths (Ce) to modify MnS inclusions into hard, globular shapes that do not deform/elongate during rolling, thus improving transverse toughness.
+What is the "Yield Point Phenomenon" observed in low carbon steels?:A sharp drop in stress after the elastic limit, followed by a plateau (yield point elongation), caused by solute atoms (C, N) pinning dislocations (Cottrell atmospheres).
+What is **Strain Aging**?:The return of the yield point and an increase in strength (with loss of ductility) over time after cold working, caused by C and N atoms diffusing back to pin dislocations.
+How can the Yield Point Phenomenon be temporarily eliminated in sheet steels for deep drawing?:By "Skin Passing" or "Temper Rolling" (a light cold reduction of ~1%) to unlock dislocations just before forming.
+What is **Dynamic Strain Aging**?:Strain aging that occurs *during* plastic deformation at elevated temperatures (typically 200-400$^{\circ}$C), resulting in jerky flow and reduced ductility (blue brittleness).
+What is the difference between a **Bloom** and a **Billet**?:A Bloom has a larger cross-section (typically $> 150 \times 150$ mm) while a Billet is smaller; Blooms are rolled into structural shapes, Billets into bars/wire.
+What is **Skelp**?:A hot-rolled strip primarily used as the feedstock for making welded pipes.
+Why are **Al-Si** alloys or **Ca-Si** wires injected into the ladle?:To modify inclusion morphology (shape control) and improve the fluidity/castability of the steel.
+In the context of solidification, what is the **Columnar Zone**?:The region in a cast structure characterized by long, thin grains growing perpendicular to the mold walls, following the direction of heat extraction.
+What is the **Equiaxed Zone** in a cast structure?:The central region of an ingot or casting containing randomly oriented, roughly spherical grains, formed where the temperature gradient is low.
+What is the typical microstructure of a **Normalized** Hypo-eutectoid steel?:Fine-grained Ferrite + Pearlite.
+What is the difference between **killed** and **rimmed** steel?:Killed steel is fully deoxidized (no gas evolution); Rimmed steel is partially deoxidized, allowing CO gas bubbles to form a pure "rim" of iron, often used for surface finish but has center segregation.
+What is the main advantage of the **Direct Reduction (DRI)** process?:It produces solid iron from ore using natural gas (without melting), which can then be fed directly into an EAF, bypassing the need for coke and blast furnaces.
+What is the primary purpose of heat treating steel?:To control the microstructure to achieve specific mechanical properties (like strength, ductility, toughness).
+What are the three main variables in steel processing?:Alloying, work hardening, and thermal processing (heat treatment).
+What is the defining characteristic of the Austenitization process?:Heating the steel into the austenitic range to obtain a single-phase solid solution (Austenite).
+Ideally, what is the target temperature for Austenitization regarding the $A_3$ line?:Approximately $A_3 + 50^{\circ}C$.
+Why is Austenitization performed at $A_3 + 50^{\circ}C$ rather than a much higher temperature?:To maximize solubility and chemical homogeneity while preventing excessive grain growth.
+What is the cooling medium typically used for the Normalizing process?:Still air.
+What is the primary microstructural goal of Annealing?:To achieve maximum softening and an equilibrium microstructure.
+What is the cooling method used for Annealing?:Furnace cooling (very slow cooling).
+In hypo-eutectoid steels, what is the temperature range for Normalizing?:$55^{\circ}C$ above $A_3$.
+In hypo-eutectoid steels, what is the temperature range for Full Annealing?:$30^{\circ}C$ above $A_3$.
+In hyper-eutectoid steels, what is the temperature range for Spheroidizing?:Oscillating around (or just below) $A_1$.
+What is the resulting microstructure of a Normalized hypo-eutectoid steel?:Fine Ferritic-Pearlitic structure.
+What is the resulting microstructure of a Full Annealed hypo-eutectoid steel?:Coarse Ferritic-Pearlitic structure.
+Which heat treatment produces the softest and most ductile condition in hyper-eutectoid steels?:Spheroidizing Annealing.
+Structurally, why is Spheroidite the softest form of steel?:It has the minimum interfacial area between the ferrite matrix and cementite particles ($\alpha/\theta$).
+What is the driving force for Spheroidization?:The reduction of interfacial surface energy between ferrite and cementite.
+How long does Spheroidizing typically take?:It is a prolonged process (e.g., 18-24 hours).
+What is a TTT diagram?:Time-Temperature-Transformation diagram (isothermal).
+What is a CCT diagram?:Continuous Cooling Transformation diagram.
+In a TTT diagram, what does the "knee" or "nose" represent?:The temperature at which the austenite transformation occurs most rapidly (shortest incubation time).
+Why do CCT curves shift to the right and down compared to TTT curves?:Because continuous cooling delays the start of transformation compared to holding at a constant temperature.
+What is the Critical Cooling Rate (CCR) in the context of quenching?:The minimum cooling rate required to miss the "nose" of the CCT curve and form 100% Martensite.
+What phase transformation occurs if the cooling rate is faster than the Critical Cooling Rate?:Austenite $\to$ Martensite.
+What is the crystal structure of Austenite?:Face-Centered Cubic (FCC).
+What is the crystal structure of Martensite?:Body-Centered Tetragonal (BCT).
+Why does Martensite have a BCT structure instead of BCC?:Carbon atoms are trapped in interstitial sites, distorting the lattice because they cannot diffuse out during rapid cooling.
+Structurally, what is Bainite?:A fine mixture of ferrite and cementite (carbides).
+Where does Bainite form on a TTT/CCT diagram?:Below the nose of the curve (below Pearlite) but above the Martensite start temperature ($M_s$).
+What is the difference between Upper Bainite and Lower Bainite morphologically?:Upper Bainite has "rod-like" carbides; Lower Bainite has fine "acicular" (needle-like) carbides within the ferrite plates.
+Which microstructure offers an optimum tradeoff between mechanical strength and toughness without tempering?:Bainite.
+What is the Martensite Start ($M_s$) temperature?:The temperature at which the transformation from Austenite to Martensite begins upon cooling.
+Does the Martensite transformation depend on time or temperature?:Temperature (it is athermal/diffusionless).
+What volume change occurs when Austenite transforms to Martensite?:A volume expansion ($\approx 1\%$).
+What is the effect of Carbon content on the $M_s$ temperature?:Increasing Carbon content lowers the $M_s$ temperature.
+What is Quench Severity ($H$)?:A measure of the cooling capacity of a quenching medium.
+Order the following quenching media from lowest to highest Quench Severity - Water, Oil, Brine?: Oil < Water < Brine.
+What is the definition of Hardenability?:The ability of a steel to form martensite to a certain depth (depth of hardening).
+What standard test is used to measure Hardenability?:The Jominy End-Quench Test.
+In a Jominy test, why does hardness decrease as distance from the quenched end increases?:The cooling rate decreases, leading to the formation of softer microstructures (Bainite, Pearlite) instead of Martensite.
+How do alloying elements (like Cr, Mo, Ni, Mn) affect Hardenability?:They increase Hardenability by shifting the TTT/CCT nose to the right (delaying diffusion-controlled transformations).
+Which alloying element has the strongest effect on increasing Hardenability?:Manganese (Mn), followed closely by Molybdenum (Mo) and Chromium (Cr).
+Why is Martensite rarely used in its as-quenched state?:It is extremely hard but very brittle and contains high residual stresses.
+What heat treatment follows quenching to restore toughness?:Tempering.
+What is the typical temperature range for Tempering?:$250^{\circ}C$ to $650^{\circ}C$ (always below $A_1$).
+What microstructural change occurs during Tempering of Martensite?:The BCT martensite decomposes into equilibrium Ferrite ($\alpha$) and fine spheroidal Cementite ($Fe_3C$).
+What is the resulting microstructure after tempering martensite called?:Tempered Martensite.
+How does Tempering affect Hardness and Ductility compared to as-quenched Martensite?:Hardness decreases; Ductility and Toughness increase.
+What is Temper Embrittlement (also known as Krupp's illness)?:A specific drop in impact toughness when alloy steels are tempered in (or slowly cooled through) the $400-550^{\circ}C$ range.
+What causes Temper Embrittlement?:The segregation of impurities (P, As, Sb, Sn) to grain boundaries.
+Which alloying element is added to suppress Temper Embrittlement?:Molybdenum (Mo).
+What is Residual (Retained) Austenite?:Austenite that does not transform to martensite upon quenching because the $M_f$ (finish) temperature is below room temperature.
+Why is Retained Austenite problematic in dimensionally critical parts?:It can transform later (due to stress or time), causing volume expansion and dimensional instability.
+How can Retained Austenite be eliminated?:By Cryogenic (Sub-zero) treatment or multiple tempering cycles.
+What causes Quenching Cracks?:Differential volume expansion between the surface (which transforms to martensite first) and the core (which transforms later) creating tensile stresses at the surface.
+What is Marquenching (Martempering)?:Quenching into a bath just above $M_s$, holding until the temperature equalizes throughout the part, then cooling slowly to form Martensite.
+What is the primary advantage of Marquenching?:It reduces residual thermal stresses, minimizing distortion and cracking.
+What is Austempering?:Quenching into a bath above $M_s$ (bainitic region) and holding isothermally until the transformation to Bainite is complete.
+What is the product of Austempering?:Bainite.
+In phase transformation kinetics, what does the Avrami equation describe?:The fraction of transformation ($y$) as a function of time ($t$) at a constant temperature.
+What is the shape of the curve described by the Avrami equation?:Sigmoidal (S-shaped).
+Phase transformation rate is a product of which two competing factors?:Nucleation rate and Growth rate.
+How does Nucleation rate behave as temperature drops below the equilibrium temperature ($T_E$)?:It increases (due to higher driving force/undercooling).
+How does Growth rate behave as temperature drops below the equilibrium temperature ($T_E$)?:It decreases (due to slower diffusion).
+Coarse Pearlite forms at temperatures just below $A_1$. Is this driven by nucleation or growth?:High growth rate, low nucleation rate.
+Fine Pearlite forms at lower temperatures (near the nose). Is this driven by nucleation or growth?:High nucleation rate, low growth rate.
+What is the difference between Mild Steel and High-Strength Steel (HSS) in terms of yield strength?:Mild steel - 140-210 MPa; HSS - 210-550 MPa.
+What defines Advanced High-Strength Steels (AHSS) in terms of yield strength?:Yield strength > 550 MPa.
+What characterizes Interstitial-Free (IF) steel microstructure?:Pure Ferrite (very ductile, low strength).
+What characterizes Dual-Phase (DP) steel microstructure?:Ferrite matrix with islands of Martensite.
+What characterizes TRIP (Transformation-Induced Plasticity) steel microstructure?:Ferrite, Bainite, and Retained Austenite.
+How does Retained Austenite in TRIP steel improve mechanical properties?:It transforms to Martensite during deformation (plastic straining), absorbing energy and increasing strength/ductility.
+What are the three main classes of Stainless Steels?:Ferritic, Martensitic, and Austenitic.
+Which element is primarily responsible for the corrosion resistance of Stainless Steel?:Chromium (Cr) (minimum 12%).
+Which Stainless Steel class is non-magnetic?:Austenitic Stainless Steel.
+Why are Austenitic Stainless Steels not heat-treatable (cannot be hardened by quenching)?:High Nickel content stabilizes the Austenite phase down to room temperature, preventing phase transformation to martensite.
+Which Stainless Steel class is heat-treatable (can be quenched and tempered)?:Martensitic Stainless Steel.
+What is the microstructure of Ferritic Stainless Steel?:BCC Ferrite (cannot be hardened by heat treatment).
+What is the effect of Boron (B) as an alloying element?:It significantly increases Hardenability ($H$) even in very small amounts.
+What is the relationship between grain size and hardenability?:Coarser grains generally increase hardenability (fewer nucleation sites for pearlite/ferrite), but decrease toughness.
+What is the "Skin-passing" or "Temper rolling" step in steel production?:A light cold rolling ($\sim 2\%$ deformation) to eliminate the yield point phenomenon and improve surface flatness.
+In the context of CCT diagrams, what is the "Incubation time"?:The time required before the phase transformation begins.
+Comparing TTT and CCT, which has longer incubation times?:CCT diagrams have longer incubation times.
+What is the primary engineering objective of Surface Hardening?:To create a component with a hard, wear-resistant surface (case) while retaining a tough, ductile core.
+What are the two main categories of Surface Hardening methods?:1. Thermal Surface Hardening (energy beams, no chemical change). 2. Thermochemical Surface Hardening (diffusion of atoms).
+In Thermal Surface Hardening (like Induction or Flame), does the chemical composition of the steel surface change?:No, the hardening comes solely from phase transformation (rapid heating and quenching).
+In Thermochemical Surface Hardening, how is the surface hardened?:By diffusing atoms (typically C or N) into the surface to alter the composition and microstructure.
+What is the primary diffusing species in Carburizing?:Carbon.
+What type of base steel is typically required for Carburizing?:Low carbon steel (typically < 0.25% C).
+Why is Carburizing performed in the temperature range of $850-950^{\circ}C$?:To ensure the steel is in the Austenite ($\gamma$) phase, which has high solubility for Carbon.
+What is the typical target Carbon content at the surface after Carburizing?:0.8% to 1.0% Carbon (eutectoid or slightly hyper-eutectoid).
+Does Carburizing alone harden the steel?:No, it must be followed by quenching to transform the high-carbon case into martensite.
+In Gas Carburizing, what parameter is strictly controlled to prevent soot formation or decarburization?:The Carbon Potential ($C_p$) of the atmosphere.
+What is a common chemical reaction producing Carbon in Gas Carburizing (involving CO)?:$2CO \leftrightarrows CO_2 + C$ (Boudouard reaction).
+What is a major disadvantage of conventional Gas Carburizing related to oxygen?:Intergranular Oxidation (IGO) or Internal Oxidation at the surface, which reduces fatigue strength.
+How does Low Pressure Carburizing (Vacuum Carburizing) prevent Intergranular Oxidation?:It operates in the absence of oxygen, preventing the oxidation of alloying elements like Si, Mn, and Cr.
+Which element diffuses into the steel during Nitriding?:Nitrogen.
+What is the typical temperature range for Nitriding?:$500-590^{\circ}C$ (Sub-critical / Ferritic region).
+Why is Nitriding performed at temperatures below $A_1$?:To avoid phase transformation (austenite formation) in the core, which minimizes dimensional distortion.
+Is quenching required after Nitriding to achieve hardness?:No, hardness comes from the formation of stable nitrides, not martensitic transformation.
+What are the two distinct layers formed during Nitriding?:1. The Compound Layer (White Layer). 2. The Diffusion Zone.
+What are the primary constituents of the Nitriding "White Layer"?:Iron Nitrides - $\epsilon$ phase ($Fe_{2-3}N$) and $\gamma'$ phase ($Fe_4N$).
+What is a key mechanical property of the Nitriding White Layer?:It is very hard and brittle, but provides excellent wear and corrosion resistance.
+Which alloying elements are essential in steels destined for Nitriding (Nitralloy)?:Strong nitride formers - Aluminum (Al), Chromium (Cr), Vanadium (V), Molybdenum (Mo), and Titanium (Ti).
+Why doesn't plain carbon steel respond well to Nitriding for high hardness?:Iron nitrides are relatively soft and unstable compared to alloy nitrides (like AlN or CrN).
+What is the source of Nitrogen in Gas Nitriding?:Ammonia ($NH_3$).
+What is Plasma (Ion) Nitriding?:A process using a glow discharge to bombard the surface with nitrogen ions, allowing precise control over the white layer structure.
+What is Carbonitriding?:A process where both Carbon and Nitrogen are diffused into the surface simultaneously.
+What is the typical temperature range for Carbonitriding?:$800-880^{\circ}C$ (Austenitic region, but lower than Carburizing).
+How does the addition of Nitrogen affect the case during Carbonitriding?:Nitrogen stabilizes Austenite and significantly increases the hardenability of the case.
+Why is Carbonitriding often used for cheaper, low-alloy steels?:The increased hardenability from Nitrogen allows these steels to form martensite even with milder quenching (like oil), reducing distortion.
+What is Ferritic Nitrocarburizing (FNC)?:A thermochemical treatment dissolving N and C in the ferrite phase at low temperatures ($\sim 570^{\circ}C$).
+What is the primary goal of Ferritic Nitrocarburizing?:To produce a thin, porous compound layer that improves scuffing resistance and lubricant retention (anti-seizure).
+What is the main difference between Induction Hardening and Carburizing regarding chemical composition?:Induction hardening does not change chemical composition; Carburizing adds carbon.
+What type of steel is suitable for Induction Hardening?:Medium to high carbon steels ($>0.35\%$ C) that have sufficient inherent hardenability.
+How does Induction Hardening heat the steel?:By induced eddy currents (from a copper coil) which generate heat via electrical resistance ($I^2R$).
+What is the "Skin Effect" in Induction Hardening?:High-frequency current tends to flow only on the surface of the conductor, allowing localized surface heating.
+What type of residual stress is typically produced on the surface by Induction Hardening?:Compressive residual stress (beneficial for fatigue life).
+What are the three stages of Quenching?:1. Vapor Blanket (Film Boiling). 2. Nucleate Boiling (Vapor Transport). 3. Convection.
+Which quenching stage provides the fastest cooling rate?:The Nucleate Boiling stage.
+What happens during the Vapor Blanket stage of quenching?:An insulating vapor film surrounds the part, causing the cooling rate to be relatively slow.
+What is the Leidenfrost temperature in the context of quenching?:The temperature at which the stable vapor film collapses and nucleate boiling begins (drastic increase in cooling rate).
+What is the Grossmann Ideal Critical Diameter ($D_I$)?:The diameter of a steel bar that would form 50% martensite at its center if quenched with infinite severity ($H = \infty$).
+What does $D_I$ (Ideal Critical Diameter) depend on?:Only on the steel's chemical composition and grain size (independent of the actual quenching medium).
+What is the Quench Severity factor ($H$) for still water?:Approximately 1.0.
+What is the Quench Severity factor ($H$) for still oil?:Approximately 0.25 - 0.30.
+Why is agitation used during quenching?:To mechanically break the vapor blanket and increase the heat transfer coefficient (increasing $H$).
+What is the "Critical Diameter" ($D_c$)?:The maximum diameter of a bar that can be hardened (50% martensite at center) using a *specific* quenching medium.
+How is the Jominy End-Quench test related to cooling rates?:Each distance from the quenched end corresponds to a specific cooling rate, allowing prediction of hardness for various part geometries.
+What is "Mass Effect" in heat treatment?:The phenomenon where larger cross-sections cool more slowly at the center, resulting in lower hardness compared to the surface.
+What is Polymer Quenching?:Using a water-polymer solution (like PAG) to achieve cooling rates between water and oil, reducing the risk of cracking while cooling faster than oil.
+What is the main risk of using Water as a quenchant?:High thermal shock and rapid transformation stress, which can lead to distortion and cracking.
+In Vacuum Carburizing, what gas is typically used as the carbon source?:Acetylene ($C_2H_2$) or Propane.
+What is the defining characteristic of a "Diffusion Coating" (like Chromizing)?:The coating element diffuses *into* the substrate, creating a metallurgical bond and a gradual composition change.
+Why does Nitriding produce less distortion than Carburizing?:Because it is performed at lower temperatures (ferritic region) and does not involve a phase transformation (quenching) to achieve hardness.
+What is the main purpose of the "Boost-Diffuse" cycle in Carburizing?:Boost adds C rapidly to the surface (high potential); Diffuse allows C to penetrate deeper and homogenize the profile.
+What is the practical limit for effective case depth in Nitriding?:Usually shallow (e.g., 0.3 - 0.6 mm) compared to Carburizing, due to slow diffusion of Nitrogen.
+Which surface treatment can be applied to finished (machined) parts with virtually no dimensional change?:Ion (Plasma) Nitriding.
+What is the general definition of Corrosion?:The deterioration of a material (usually a metal) that results from a chemical or electrochemical reaction with its environment.
+What are the four essential components required for an electrochemical corrosion cell?:1. Anode (oxidation site) <br> 2. Cathode (reduction site) <br> 3. Electrolyte (conducting medium) <br> 4. Electrical Connection (electron path).
+What fundamental reaction occurs at the Anode?:Oxidation (loss of electrons), typically written as $M \rightarrow M^{n+} + ne^-$.
+What fundamental reaction occurs at the Cathode?:Reduction (gain of electrons).
+In an acidic solution with no dissolved oxygen, what is the typical cathodic reaction?:Hydrogen evolution - $2H^+ + 2e^- \rightarrow H_2$.
+In a neutral or basic solution containing dissolved oxygen, what is the typical cathodic reaction?:Oxygen reduction - $O_2 + 2H_2O + 4e^- \rightarrow 4OH^-$.
+What determines the "driving force" for corrosion thermodynamics?:The change in Gibbs Free Energy ($\Delta G$). If $\Delta G < 0$, the corrosion reaction is spontaneous.
+What is the Standard EMF Series?:A ranking of metals based on their standard electrode potentials ($E^0$) measured against a standard hydrogen electrode under standard conditions.
+What is the Galvanic Series?:A ranking of metals and alloys based on their relative corrosion potentials in a *specific* environment (usually seawater).
+Why is the Galvanic Series often more useful than the EMF Series for engineering applications?:Because it accounts for real-world environments and alloys, whereas the EMF series applies only to pure metals in standard solutions.
+What is "Passivity" in the context of corrosion?:The loss of chemical reactivity due to the formation of a thin, protective surface film (usually an oxide).
+Name two common metals that exhibit active-passive behavior.:Chromium (and Stainless Steels) and Titanium.
+What is Uniform Attack (General Corrosion)?:Corrosion that proceeds at approximately the same rate over the entire exposed surface.
+Which form of corrosion accounts for the greatest tonnage of metal destruction?:Uniform Attack.
+What is Galvanic Corrosion?:Accelerated corrosion of a metal because of an electrical contact with a more noble (cathodic) metal in a corrosive electrolyte.
+In a Galvanic couple, which metal corrodes?:The Anode (the more active/less noble metal).
+What is the "Area Effect" in Galvanic Corrosion?:The corrosion rate of the anode is determined by the ratio of the Cathode Area to the Anode Area ($A_c / A_a$).
+Why is a "Small Anode / Large Cathode" scenario dangerous?:The current is concentrated on a small anodic area, leading to extremely rapid penetration and failure.
+What is Crevice Corrosion?:Intensive localized corrosion occurring within crevices or shielded areas where a stagnant solution is present.
+What is the primary mechanism driving Crevice Corrosion?:Differential Aeration (or Oxygen Concentration Cell). The crevice becomes oxygen-starved and anodic relative to the exterior.
+What happens to the pH inside a propagating crevice or pit?:The pH decreases (becomes more acidic) due to hydrolysis reactions (e.g., $M^+ + H_2O \rightarrow M(OH) + H^+$).
+What is Pitting Corrosion?:A form of extremely localized attack that results in holes in the metal.
+Why is Pitting considered "autocatalytic" or self-sustaining?:The corrosion processes inside the pit produce conditions (high acidity, high chloride ion concentration) that stimulate further corrosion.
+Which alloying elements are commonly added to Stainless Steel to improve Pitting resistance?:Chromium (Cr), Molybdenum (Mo), and Nitrogen (N).
+What is Intergranular Corrosion?:Localized attack along the grain boundaries of an alloy, while the grains themselves remain largely unaffected.
+What phenomenon typically causes Intergranular Corrosion in austenitic stainless steels?:Sensitization.
+What is "Sensitization" in stainless steel?:The precipitation of Chromium Carbides ($Cr_{23}C_6$) at grain boundaries, creating adjacent Chromium-depleted zones that are vulnerable to corrosion.
+What are two ways to prevent Intergranular Corrosion in stainless steels?:1. Use Low-Carbon grades (e.g., 304L). <br> 2. Use Stabilized grades with strong carbide formers (e.g., Ti in 321, Nb in 347).
+What is Selective Leaching (Dealloying)?:The preferential removal of one element from an alloy by corrosion (e.g., Dezincification of brass).
+What is Erosion Corrosion?:An acceleration in the rate of corrosion attack due to the relative motion of a corrosive fluid and the metal surface.
+What is Stress Corrosion Cracking (SCC)?:Cracking caused by the simultaneous presence of a tensile stress and a specific corrosive medium.
+Is the stress required for SCC typically above or below the yield strength?:Often below the macroscopic yield strength.
+Give a classic example of a metal-environment pair susceptible to SCC.:Austenitic Stainless Steel (e.g., 304) in Chloride environments.
+What is Hydrogen Embrittlement?:The brittle failure of a metal caused by the ingress of atomic hydrogen into the metal lattice.
+How does material selection help prevent corrosion?:By choosing a material with inherent resistance to the specific environment (e.g., using Stainless Steel instead of Carbon Steel in nitric acid).
+How can design changes prevent corrosion?:By avoiding crevices, ensuring complete drainage of fluids, and electrically insulating dissimilar metals.
+What is an Inhibitor?:A chemical substance that, when added in small concentrations to an environment, decreases the corrosion rate.
+What is Cathodic Protection?:Reducing or eliminating corrosion by making the metal a cathode in an electrochemical cell.
+What are the two types of Cathodic Protection systems?:1. Sacrificial Anode (Galvanic). <br> 2. Impressed Current.
+How does a Sacrificial Anode system work?:A more active metal (like Zn or Mg) is connected to the structure; the anode corrodes preferentially, supplying electrons to the structure to keep it cathodic.
+How does Impressed Current Cathodic Protection work?:An external DC power source forces current to flow from an auxiliary anode to the structure, making the structure cathodic.
+What is Anodic Protection?:Maintaining a metal in its passive potential range using an external potentiostat (applicable only to active-passive metals).
+What is the Pilling-Bedworth Ratio (PBR) used to predict?:The protectiveness of a metal oxide layer based on volume expansion. (If PBR $\approx 1-2$, the oxide is likely protective).
+Why is Titanium extremely resistant to corrosion?:It forms a highly stable, continuous, and self-healing oxide film ($TiO_2$) instantaneously upon exposure to oxygen.
+What is the difference between "wet" and "dry" corrosion?:Wet corrosion involves a liquid electrolyte; Dry corrosion involves reaction with gases at high temperatures (oxidation/sulfidation).
+How does temperature generally affect corrosion rates?:Increasing temperature usually increases the reaction rate (exponentially) and diffusion rates, worsening corrosion.
+In a differential aeration cell, does the area with High Oxygen or Low Oxygen become the anode?:The area with Low Oxygen becomes the Anode (and corrodes).
+What is the "Galvanic Series" position of Gold compared to Zinc?:Gold is Noble (Cathodic); Zinc is Active (Anodic).
+What is Fretting Corrosion?:Corrosion occurring at the interface of two surfaces under load and subjected to slight oscillatory slip/vibration.
+What is Cavitation damage?:A form of erosion-corrosion caused by the formation and collapse of vapor bubbles in a liquid near a metal surface.
+What is the minimum Chromium content required for a steel to be classified as "Stainless"?:At least $11.5\%$
+What is the fundamental mechanism by which Chromium provides corrosion resistance in stainless steels?:It forms a thin, stable, transparent, and self-healing chromium oxide passivating film on the surface.
+Why is careful degassing of liquid steel required during the manufacturing of stainless steels?:To remove Oxygen, which has a high affinity for Chromium; excess oxygen would oxidize the Cr, reducing its corrosion resistance.
+In the context of Fe-Cr phase diagrams, what is the effect of Chromium on the austenite ($\gamma$) field?:Chromium is a ferritizer; it restricts and eventually completely closes the $\gamma$ field (austenite loop).
+In the context of Fe-Ni phase diagrams, what is the effect of Nickel on the austenite ($\gamma$) field?:Nickel is an austenitizer; it widens and stabilizes the $\gamma$ field.
+List the primary ferritizing elements in stainless steels (stabilize BCC structure).:Cr, Mo, Si, Nb, Ta, Al.
+List the primary austenitizing elements in stainless steels (stabilize FCC structure).:Ni, C, N, Mn, Cu.
+What is the $\sigma$ (sigma) phase in stainless steels, and why is it undesirable?:It is an intermetallic phase that reduces toughness and corrosion resistance.
+What are the four main families of Stainless Steels based on their microstructure?:Ferritic, Austenitic, Martensitic, and Duplex (Austeno-ferritic).
+What is the typical Carbon content range for Ferritic Stainless Steels?:Very low ($0.010 - 0.12\%$).
+Which family of stainless steels contains high Chromium (16-28%) and high Nickel (6-32%)?:Austenitic Stainless Steels.
+Which family of stainless steels is characterized by high Chromium (10.5-30%) but very low or no Nickel?:Ferritic Stainless Steels.
+What is the microstructure of Duplex stainless steels?:A mixture of Austenite and Ferrite phases.
+Which alloying element allows Martensitic stainless steels to be hardenable by quenching?:Higher Carbon content ($0.08 - 1.2\%$) compared to Ferritic grades.
+What is the Schaeffler Diagram used for?:Predicting the microstructure of stainless steels (and welds) based on the balance between ferrite-forming and austenite-forming elements ($Cr_{eq}$ vs $Ni_{eq}$).
+What is the formula for Chromium Equivalent ($Cr_{eq}$) used in the Schaeffler Diagram?:$Cr_{eq} = \%Cr + \%Mo + 1.5 \times \%Si + 0.5 \times \%Nb$
+What is the formula for Nickel Equivalent ($Ni_{eq}$) used in the Schaeffler Diagram?:$Ni_{eq} = \%Ni + 30 \times \%C + 0.5 \times \%Mn$
+In the Schaeffler diagram formulas, which element has the strongest "multiplier" effect for stabilizing austenite?:Carbon (multiplied by 30).
+What does the region labeled "A+M+F" on a Schaeffler Diagram indicate?:A microstructure containing Austenite, Martensite, and Ferrite.
+Ideally, what type of stainless steel has high chemical properties but lower yield strength?:Austenitic SS.
+Ideally, what type of stainless steel has high mechanical properties but lower corrosion resistance?:Martensitic SS.
+What is the specific role of Molybdenum (Mo) as an alloying element in stainless steels?:It increases the stability of the passivating film (especially in reducing environments) and improves mechanical properties at high temperatures.
+What is the specific role of Titanium (Ti) and Niobium (Nb) in stainless steels?:They are carbide-forming elements used to prevent intergranular corrosion.
+How does Manganese (Mn) function in Austenitic stainless steels?:It acts as an austenitizing element and may replace Nickel.
+What are the main advantages of Austenitic Stainless Steels (Series 3XX)?:Excellent corrosion resistance, high toughness, no DBTT, and good weldability.
+How are Austenitic stainless steels strengthened?:By cold working (they cannot be hardened by heat treatment).
+Are Austenitic stainless steels magnetic?:No, they are generally paramagnetic.
+What is the main corrosion-related limitation of Austenitic stainless steels?:They suffer from pitting corrosion and Stress Corrosion Cracking (SCC).
+What is the crystal structure of Ferritic Stainless Steels?:BCC ($\alpha$-ferrite).
+Compare the cost of Ferritic vs. Austenitic Stainless Steels?:Ferritic steels are less expensive (contain little to no Nickel).
+Are Ferritic stainless steels magnetic?:Yes, they are ferromagnetic.
+What is a significant mechanical limitation of Ferritic Stainless Steels compared to Austenitic?:They exhibit a DBTT (Ductile-to-Brittle Transition Temperature), making them brittle at low temperatures.
+What does the acronym ELI stand for in Ferritic Stainless Steels (e.g., 18-2 ELI)?:Extra Low Interstitial (very low Carbon and Nitrogen).
+What is the benefit of ELI (Extra Low Interstitial) Ferritic steels?:Improved resistance to localized corrosion and lower DBTT compared to standard Ferritic grades.
+How is the microstructure of Martensitic Stainless Steels obtained?:By quenching from the austenite region.
+Why must Martensitic stainless steels have a Carbon content greater than ~0.1%?:To sufficiently expand the $\gamma$-loop (austenite region) at high temperatures so that quenching is possible.
+Which stainless steel family offers the highest mechanical strength and hardness?:Martensitic SS.
+What happens to the grain size in the Heat Affected Zone (HAZ) when welding Ferritic SS?:The grains tend to grow, leading to a drop in resilience/toughness.
+While Austenitic SS are generally weldable, what is the primary risk in the Heat Affected Zone (HAZ)?:Sensitization (precipitation of carbides), leading to intergranular corrosion.
+What is Pitting Corrosion?:A form of localized corrosion common in stainless steels exposed to chlorides.
+What is PREN and what does it measure?:Pitting Resistance Equivalent Number; it measures a steel's resistance to localized (pitting) corrosion.
+What is the formula for PREN?:$PREN = \%Cr + 3.3(\%Mo + 0.5\%W) + 16\%N$
+According to the PREN formula, which element is most potent for increasing pitting resistance?:Nitrogen (Multiplier of 16).
+What defines a Superduplex stainless steel?:A Duplex stainless steel with a $PREN > 40$.
+Which stainless steel grade is standard "18/8" (18% Cr, 8-10% Ni)?:AISI 304.
+What is the key difference in composition between AISI 304 and AISI 316?:AISI 316 contains Molybdenum ($2.5\%$) for better corrosion resistance.
+What does the "L" stand for in grades like AISI 304L or 316L?:Low Carbon ($C \le 0.03\%$).
+What is Sensitization in the context of stainless steels?:The precipitation of Chromium Carbides at grain boundaries when heated to $500-800^{\circ}C$.
+Why does the formation of Chromium Carbides at grain boundaries lead to corrosion?:It consumes Chromium from the surrounding area, creating a Cr-depleted zone (below 12% Cr) that cannot maintain the passive film.
+In which specific zone of a weld does sensitization typically occur in Austenitic SS?:In the Heat Affected Zone (HAZ).
+What are the two main ways to prevent sensitization in Austenitic Stainless Steels?:Use Low Carbon grades (L-grades) or Stabilized grades (with Ti, Nb, Ta).
+How do stabilizing elements like Ti or Nb prevent sensitization?:They are strong carbide formers that tie up Carbon so it cannot react with Chromium.
+Which stainless steel family typically exhibits the highest elongation (ductility)?:Austenitic SS (45-60%).
+Which stainless steel family generally has better resistance to Stress Corrosion Cracking (SCC) - Austenitic or Ferritic?:Ferritic SS has higher resistance to SCC.
+What is the primary composition of cast iron in terms of Carbon and Silicon content?:2-4.5% Carbon and 1-3% Silicon.
+What is the matrix structure of cast iron typically composed of?:Ferrite or pearlite.
+What is the second phase present in cast iron, besides the metal matrix?:Graphite particles (or Iron Carbide in white iron).
+What are the four main types of cast iron?:White cast iron, Gray cast iron, Malleable cast iron, and Ductile cast iron.
+What are the general processing advantages of cast iron compared to steel?:Low melting point, high fluidity (ease of casting), low shrinkage, and excellent machinability.
+What are the general mechanical limitations of cast iron compared to steel?:Lower impact resistance and ductility.
+What form does Carbon take in White Cast Iron?:Iron Carbide ($Fe_3C$) instead of graphite.
+Why is White Cast Iron called "White"?:Because the fractured surface appears white and crystalline.
+What are the key mechanical properties of White Cast Iron?:Excellent wear resistance, high hardness, but high brittleness.
+What is the typical Carbon and Silicon content for White Cast Iron?:Low C (2.5-3%) and low Si (0.5-1.5%).
+What form does Carbon take in Gray Cast Iron?:Graphite flakes.
+Why is Gray Cast Iron called "Gray"?:Because the fractured surface appears gray due to the presence of graphite flakes.
+What are the key properties of Gray Cast Iron?:Excellent machinability, high wear resistance, and high vibration damping capacity.
+What is the typical Carbon and Silicon content for Gray Cast Iron?:C = 2.5-4% and Si = 1-3% (Si acts as a graphite former).
+What form does Carbon take in Ductile Cast Iron?:Spherical nodules of graphite.
+What is another name for Ductile Cast Iron?:Nodular Cast Iron (implied by nodular structure).
+How is Ductile Cast Iron different from Gray Iron in terms of mechanical properties?:It has high strength, toughness, and ductility (similar to steel) due to the spherical shape of the graphite.
+What is the typical "Bull's eye" microstructure observed in Ductile Cast Iron?:Graphite nodules surrounded by a ring of ferrite in a pearlitic matrix.
+What is the typical Carbon and Silicon content for Ductile Cast Iron?:3-4% C and 1.8-2.8% Si.
+How is Malleable Cast Iron produced?:By heat-treating White Cast Iron in a malleablizing furnace to decompose iron carbide into graphite.
+What form does graphite take in Malleable Cast Iron?:Irregular nodules (clusters/rosettes) of graphite.
+What are the properties of Malleable Cast Iron?:Good castability, machinability, moderate strength, toughness, and uniformity.
+Unlike steel, whose properties depend mainly on chemistry, what four factors control cast iron properties?:Chemical composition, Inoculation, Solidification rate, and Cooling rate.
+What is the function of Silicon in cast iron?:It promotes graphitization (formation of graphite instead of iron carbide).
+What is the effect of a faster cooling rate on the matrix of cast iron?:It promotes the formation of Pearlite (harder/stronger) over Ferrite.
+What is the effect of a very fast cooling rate (or low Si) on graphite formation?:It suppresses graphite formation, leading to Iron Carbide (White Iron).
+What is Inoculation in the context of cast iron processing?:The addition of materials to the melt to force graphite to nucleate at a precise time and control its size/shape.
+Why is inoculation necessary for graphite formation?:Because factors affecting natural nucleation are hard to control, and without it, graphite size and distribution would be unpredictable.
+Which ASTM standard classifies Gray Cast Iron?:ASTM A48.
+In the ASTM A48 classification system (e.g., Class 40), what does the number represent?:The minimum tensile strength in ksi (e.g., Class 40 = 40,000 psi).
+Which ASTM standard classifies Ductile Cast Iron?:ASTM A536.
+In the Ductile Iron classification 80-55-06, what does the first number (80) represent?:Minimum Tensile Strength in ksi (80,000 psi).
+In the Ductile Iron classification 80-55-06, what does the second number (55) represent?:Minimum Yield Strength in ksi (55,000 psi).
+In the Ductile Iron classification 80-55-06, what does the third number (06) represent?:Minimum Elongation in percent (6%).
+Which graphite shape corresponds to Type I in ASTM classification?:Spheroidal (nodular) graphite found in ductile iron.
+Which graphite shape corresponds to Type VII in ASTM classification?:Flake graphite found in gray iron.
+What is Type A graphite distribution in Gray Iron?:Flakes arranged in a completely random pattern (generally preferred for strength).
+What is Type D graphite distribution in Gray Iron?:Flakes with a preferred orientation (interdendritic), often forming a distinct pattern.
+How does the length of graphite flakes affect the strength of Gray Iron?:Shorter/smaller flakes result in higher strength.
+Why does Gray Cast Iron have excellent vibration damping?:The graphite flakes absorb energy and damp vibrations.
+Why is Cast Iron generally easier to machine than steel?:Graphite particles act as a lubricant and chip breaker.
+Which type of Ductile Iron matrix offers the best machinability?:Ferritic matrix (e.g., 65-45-12).
+Which type of Ductile Iron matrix offers the highest wear resistance and strength?:Pearlitic matrix (e.g., 100-70-02).
+What is Continuous Casting of iron bars?:A process where molten iron is pulled through a water-cooled graphite die to form a solid bar with a consistent profile.
+What is a major quality advantage of continuous cast iron bars over sand castings?:They are free of shrinkage, porosity, sand inclusions, and hard spots.
+What happens to the "skin" or rim of a continuous cast bar as it exits the die?:It is reheated by the molten core, transforming the rim matrix to austenite which then cools to pearlite/ferrite.
+How does the density of Cast Iron compare to steel?:Cast Iron is about 10% lighter than steel.
+If a part needs high noise damping and moderate strength, which iron grade is best?:Gray Iron (e.g., Class 40).
+If a part needs high strength, ductility, and impact resistance (replacing carbon steel), which iron grade is best?:Ductile Iron (e.g., 80-55-06).
+Can Cast Iron be heat treated?:Yes, it responds well to quenching and tempering (to increase strength) or austempering.
+What is the crystal structure of Aluminum?:FCC (Face Centered Cubic).
+What is the melting point of pure Aluminum?:$660^{\circ}$C.
+What is the typical density of Aluminum?:$2.7$ g/cm$^3$ (approx. 1/3 of steel).
+What is the Young's Modulus ($E$) of Aluminum?:$70$ GPa (approx. 1/3 of steel).
+How does the cost of Aluminum sheet compare to mild steel?:It is approximately 4.5 times more expensive.
+Does Aluminum exhibit a Ductile-to-Brittle Transition Temperature (DBTT)?:No, because it has an FCC crystal structure.
+What is the primary mechanism of corrosion resistance in Aluminum?:A thin, strong, stable oxide coating forms on the surface.
+What is a common corrosion risk for precipitation-hardened aluminum alloys?:Stress-corrosion cracking (due to precipitate-free zones near grain boundaries).
+How are Aluminum alloys generally welded?:Using inert gas welding (TIG/MIG).
+In the 4-digit designation system for wrought aluminum (e.g., 1xxx), what does the first digit indicate?:The principal alloying element.
+Which alloying element defines the 1xxx series?:None, it is pure Aluminum (min 99.0%).
+Which alloying element defines the 2xxx series?:Copper (Cu).
+Which alloying element defines the 3xxx series?:Manganese (Mn).
+Which alloying element defines the 4xxx series?:Silicon (Si).
+Which alloying element defines the 5xxx series?:Magnesium (Mg).
+Which alloying element defines the 6xxx series?:Magnesium and Silicon (Mg + Si).
+Which alloying element defines the 7xxx series?:Zinc (Zn).
+Which three wrought aluminum series are Non-Heat Treatable?:1xxx, 3xxx, and 5xxx.
+Which three wrought aluminum series are Heat Treatable?:2xxx, 6xxx, and 7xxx.
+How are Non-Heat Treatable aluminum alloys strengthened?:By solid solution hardening and cold work (strain hardening).
+How are Heat Treatable aluminum alloys strengthened?:By age hardening (precipitation hardening).
+What does the temper designation H stand for?:Cold-worked (strain hardened).
+What does the temper designation O stand for?:Annealed (softest state).
+What does the temper designation T stand for?:Heat-treated.
+What does the temper designation T3 indicate?:Solution treated and cold-worked.
+What does the temper designation T4 indicate?:Solution treated and naturally aged.
+What does the temper designation T6 indicate?:Solution treated and artificially aged.
+What is the primary application of 1xxx series alloys?:Foil, decoration, and electrical conductors.
+What are the key properties of 2xxx (Al-Cu) alloys?:High strength (age-hardened), but poor corrosion resistance and not weldable.
+What is a common application for 2xxx alloys?:Aircraft structures (airframes).
+What is the primary application of 3xxx (Al-Mn) alloys?:Drink cans, food containers (ductile sheet).
+What is the primary alloying element in Casting Alloys designated 4xx.x?:Silicon (Si).
+What is the main application of 4xxx (Al-Si) wrought alloys?:Forged pistons and welding filler wire.
+What are the key properties of 5xxx (Al-Mg) alloys?:Excellent corrosion resistance (marine), good weldability, and moderate strength.
+What is a common application for 5xxx alloys?:Structural applications in marine environments (ship hulls).
+What is the strengthening precipitate in 6xxx (Al-Mg-Si) alloys?:$Mg_2Si$.
+What are the key properties of 6xxx alloys?:Extrudable, weldable, corrosion resistant, medium strength.
+What is a common application for 6xxx alloys?:Window frames and architectural extrusions.
+Which aluminum series offers the highest strength?:7xxx (Al-Zn).
+What is the main disadvantage of high-strength 7xxx alloys?:They are generally not weldable.
+What is Alclad?:A high-strength alloy core clad with a thin skin of high-purity Aluminum for corrosion resistance.
+In the Al-Si phase diagram, what is the approximate eutectic composition?:~12% Silicon.
+How does the microstructure of Al-Si alloys change as Si content increases up to 12%?:The fraction of eutectic (Si plates in Al matrix) increases.
+What is "Modification" in the context of Al-Si casting alloys?:The addition of trace elements (like Sodium, Na) to refine the eutectic microstructure.
+How does adding 0.01% Sodium (Na) affect the microstructure of Al-Si alloys?:It changes the Silicon phase from brittle plates to fine fibers/particles.
+What is the mechanical benefit of modifying the Al-Si eutectic?:It significantly increases toughness (toughening).
+What is the first stage of precipitation hardening in Al-Cu alloys?:Formation of Copper atom clusters called GP Zones.
+What creates the strengthening effect during the GP Zone stage?:Coherency stress fields surrounding the clusters.
+What is the hardening mechanism when precipitates are fine and coherent (shearable)?:Dislocations "cut" through the precipitates (bigger is harder).
+What is the hardening mechanism when precipitates become large and incoherent (overaged)?:Dislocations "bypass" the precipitates (Orowan bowing), leading to lower strength.
+What happens to the mechanical properties if an alloy is Overaged?:Strength decreases as precipitates grow too large and widely spaced.
+Which temper results in the highest strength for an age-hardenable alloy?:Peak Aged (often T6).
+Why are Cast aluminum alloys typically based on the Al-Si system?:Because the eutectic composition offers low melting point, high fluidity, and low shrinkage.
+What is the primary raw material charge for the Basic Oxygen steelmaking process?:Molten pig iron (from the blast furnace) and steel scrap.
+What is the primary raw material charge for the Electric Arc steelmaking process?:Cold steel scrap.
+Why is the Electric Arc process often preferred for making alloy steels?:It allows for better control of atmosphere and temperature, preventing the oxidation of expensive alloying elements like chromium and molybdenum.
+What is the crystal structure of Ferrite ($\alpha$-iron)?:Body Centered Cubic (BCC).
+Why is the solubility of Carbon much lower in Ferrite than in Austenite?:Ferrite's BCC structure has smaller interstitial spaces (holes) for Carbon atoms compared to Austenite's FCC structure.
+What is the maximum solubility of Carbon in Ferrite and at what temperature does it occur?:$0.035\%$ at $732^{\circ}C$.
+What is the Eutectoid composition of Carbon steel?:Approximately $0.76 - 0.80\%$ Carbon.
+What microstructure forms when Eutectoid steel is cooled slowly from the Austenite region?:Pearlite (alternating layers of Ferrite and Cementite).
+What microstructure forms when Austenite is cooled rapidly (quenched) to avoid the nose of the transformation curve?:Martensite (Body Centered Tetragonal structure).
+What is Bainite?:A microstructure formed at cooling rates faster than Pearlite but slower than Martensite, consisting of a fine dispersion of carbides in ferrite.
+What is the purpose of Tempering Martensite?:To restore toughness and ductility by heating the brittle martensite to $250-650^{\circ}C$, allowing carbides to precipitate.
+What is Spheroidite?:A microstructure with globular (spherical) carbides in a ferrite matrix, produced by holding steel just below the eutectoid temperature for long periods.
+Which microstructure of steel is the softest and most ductile?:Spheroidite.
+What is "Patenting" in the context of steel wire manufacturing?:An isothermal heat treatment used to produce a fine pearlitic microstructure, which provides excellent drawability for high-strength wire.
+What is Static Strain Aging?:The return of the yield point and increase in yield strength after cold working, caused by Carbon and Nitrogen atoms migrating to dislocation stress fields over time.
+What is Dynamic Strain Aging?:A phenomenon occurring during deformation at elevated temperatures ($200-650^{\circ}C$) where solute atoms move to dislocations during plastic flow, causing peaks in flow stress and reduced ductility.
+What is the SAE-AISI designation for plain carbon steel?:10XX (where XX is the carbon content).
+What does the designation 41XX indicate in low alloy steels?:Chromium-Molybdenum steel ("Chrome-Moly").
+What is the primary effect of adding Boron to low alloy steels?:It significantly increases hardenability, even in very small amounts ($0.0005-0.003\%$).
+In the Al-Si phase diagram (Lecture 14), what is the effect of adding trace amounts of Sodium (Na)?:It modifies the eutectic silicon from brittle plates to fine fibers, significantly improving toughness.
+What is the "anomalous strain rate effect" observed during Dynamic Strain Aging?:In a certain temperature range, increasing the strain rate leads to a decrease in strength (opposite of normal behavior) because dislocations move too fast for solute atmospheres to lock them.
+What is the difference between a "Process Anneal" and a "Full Anneal" in steels?:Process anneal is done below the eutectoid temperature to remove cold work; Full anneal involves heating into the austenite region and furnace cooling to form coarse pearlite.
+What is a possible microstructure for a 1080 (Eutectoid) steel at room temperature if cooled slowly?:Pearlite.
+What microstructure is produced if a 1080 steel is quenched to room temperature?:Martensite.
+What microstructure is possible if pearlite is rapidly cooled (quenched) from room temperature?:Pearlite (No phase change occurs because the steel was not austenitized first).
+Which of the following microstructures is the most brittle - Bainite, Martensite, or Pearlite?:Martensite.
+Which phase represents Carbon in solid solution with FCC Iron?:Austenite.
+In which process does Martensite form - Quench & Temper or Age Hardening?:Quench & Temper.
+In which process is a second phase precipitated during the reheat step - Quench & Temper or Age Hardening?:Age Hardening (Precipitation Hardening).
+In which process does the maximum strength peak sometime after the start of the final reheating?:Age Hardening (Peak Aging).
+True or False; In precipitation hardening, the coherent precipitate ($\theta''$) gives the best dislocation locking capability.:True.
+True or False; Welding of precipitation hardened Aluminum alloys should be done *before* aging to avoid overaging the HAZ.:False (Welding aged parts causes strength loss in the HAZ; welding is often best done in the solution-treated condition followed by aging, or requires accepting properties loss).
+Using the 4340 TTT diagram, what microstructure results from a rapid quench from Austenite to 100$^{\circ}$C?:Martensite.
+Using the 4340 TTT diagram, what microstructure results from a rapid quench to 300$^{\circ}$C, holding for $10^4$ seconds, then cooling?:Bainite.
+If a 100% Bainitic microstructure is desired in 4340 steel, what is the procedure?:Heat to Austenite (800$^{\circ}$C), quench to ~300-400$^{\circ}$C, hold for $10^4$ seconds, then cool.
+If Bainite is reheated to 600$^{\circ}$C (below the eutectoid temp) and held, what happens to the microstructure?:It becomes "Tempered Bainite" or Spheroidite (carbides coarsen/spheroidize).
+Predict the hardness profile of a 2.5-inch 8640 steel bar quenched in water (using Jominy data).:The surface will have high hardness due to rapid cooling (High % Martensite), while the center will have lower hardness due to slower cooling.
+What defines "Hardenability"?:The ability of a steel to form martensite at a given depth (or to resist the formation of pearlite/bainite upon cooling).
+Which steel typically has higher hardenability - 1040 or 4140?:4140 (Alloying elements like Cr and Mo push the TTT nose to the right).
+What is the primary strengthening mechanism for AA 2024-T4?:Precipitation Hardening (Age Hardening).
+What is the primary strengthening mechanism for AA 5052-O?:Solid Solution Strengthening (Mg in Al).
+What is the primary strengthening mechanism for 1045 Hot-Rolled steel?:Grain size control and Phase balance (Ferrite/Pearlite ratio).
+What is the primary strengthening mechanism for 17-4 PH Stainless Steel?:Precipitation Hardening.
+Which element is the primary solid solution strengthener in Brass (e.g., 70-30)?:Zinc.
+Which element is the primary solid solution strengthener in Bronze (Phosphor Bronze)?:Tin (Sn).
+What does the "T6" designation stand for in 6061-T6?:Solution heat treated and artificially aged.
+What does the "O" designation stand for in 5052-O?:Annealed (softest temper).
+Why is 1112 steel known as "Free Machining"?:It contains higher Sulfur (and Phosphorus), which forms MnS inclusions that break chips and lubricate the tool.
+Compare the strength of 1045 Hot-Rolled vs. 4135 Cold-Rolled.:4135 Cold-Rolled is significantly stronger (1100 MPa vs 965 MPa) due to strain hardening and alloying elements.
+Which phase exists at temperatures between $912^{\circ}\text{C}$ and $1394^{\circ}\text{C}$ in pure iron?: Austenite ($\gamma$)
+What are the characteristics of Cementite ($\text{Fe}_3\text{C}$)? : It is a hard and brittle intermetallic compound.
+What is the percentage of carbon at the eutectic point in the iron-carbon diagram?: $4.3\%$
+Which phase transformation occurs during the cooling of austenite with $0.8\%$ carbon at $723^{\circ}\text{C}$?: Austenite to Pearlite
+What type of reaction is the eutectoid reaction in the iron-carbon diagram?: Solid to Solid + Solid (Austenite $\rightarrow$ Ferrite + Cementite)
+Describe the structure of pearlite.: It consists of alternate layers (lamellae) of ferrite and cementite.
+When is hot forming preferred in the industrial shaping of metals and alloys?: Hot forming is preferred when - <br> 1. Large deformations are required (low yield strength). <br> 2. The material has low ductility at room temperature. <br> 3. Complex shapes need to be produced with lower force requirements. <br> 4. The microstructure needs to be homogenized or refined (e.g., breaking up cast structures).
+Which phenomena are exploited in hot forming and what are the relevant affecting factors?: The key phenomena are **Dynamic Recovery** and **Dynamic Recrystallization**. <br> Relevant factors include - <br> * Temperature ($T > 0.5 T_m$) <br> * Strain rate ($\dot{\epsilon}$) <br> * Total strain (deformation amount) <br> * Initial grain size
+What role is played by the strain rate sensitivity coefficient ($m$) in hot forming?: In hot forming, metals behave more viscously, meaning flow stress depends heavily on the speed of deformation. A higher strain rate sensitivity ($m$) helps resist necking and promotes uniform deformation, but also means that faster processing requires significantly higher forces.
+How does the microstructure and mechanical properties change during recrystallization of a TMCP (Thermo-Mechanical Controlled Processing)?: During recrystallization - <br> * **Microstructure** - Deformed, elongated grains with high dislocation density are replaced by new, stress-free, equiaxed grains. <br> * **Properties** - Strength and hardness decrease, while ductility and toughness increase significantly.
+Why is recrystallization convenient during hot rolling, especially if it is retarded towards low temperature?: Recrystallization reduces the force required for subsequent passes by softening the material. If retarded towards lower temperatures (controlled rolling), it prevents grain growth, resulting in a very fine ferrite grain size upon cooling, which improves both strength and toughness (Hall-Petch relation).
+Why does the final grain size after recrystallization decrease with increasing straining?: Increasing straining (higher deformation) increases the stored energy and the dislocation density within the material. This provides a higher number of nucleation sites for new grains. More nucleation sites lead to more grains competing for space, resulting in a finer final grain size.
+When is hot forging favored over hot rolling in terms of product and properties?: Hot forging is favored when - <br> 1. The component has a complex 3D geometry (e.g., crankshafts, connecting rods) that cannot be produced by constant cross-section rolling. <br> 2. Specific directional properties are needed; forging aligns the "grain flow" (fiber structure) with the directions of principal stress, enhancing fatigue resistance and toughness.
+Compare the residual stress consequences resulting from small vs. large rolls during hot rolling of plates.: **Large Rolls** - Create more uniform deformation through the thickness but can lead to compressive residual stresses at the center and tensile at the surface if friction is high. <br> **Small Rolls** - Tend to deform only the surface layers (inhomogeneous deformation), leading to compressive residual stresses on the surface and tensile stresses in the center (the "alligatoring" risk).
+Compare Hot vs. Cold rolling in terms of thickness reduction, surface finish, and mechanical properties.: **Hot Rolling** - <br> * **Reduction** - High thickness reduction possible. <br> * **Surface** - Poor (covered in oxide scale/rough). <br> * **Properties** - Isotropic, lower strength, high ductility. <br> **Cold Rolling** - <br> * **Reduction** - Low thickness reduction per pass. <br> * **Surface** - Excellent, smooth finish. <br> * **Properties** - Anisotropic, high strength (due to strain hardening), lower ductility.
+What factors/performances are controlled by normal and planar anisotropy in sheet forming?: **Normal Anisotropy ($R$-value)** - Controls resistance to thinning. High $R$-value is good for deep drawing (resists thickness reduction). <br> **Planar Anisotropy ($\Delta R$)** - Controls the variation of properties in the sheet plane. High $\Delta R$ leads to defects like "earing" (uneven rims) during deep drawing.
+What are the fundamental requirements for a passivating film to protect metals from corrosion?: To be protective, the film must be - <br> 1. **Adherent** to the substrate. <br> 2. **Continuous** and non-porous. <br> 3. **Insoluble** in the environment. <br> 4. **Self-repairing** (re-forms if scratched). <br> 5. Ideally, it should have a specific volume ratio (Pilling-Bedworth ratio) close to 1.
+Why does Hydrogen contribute to augment corrosion and when is it crucial?: Hydrogen ions ($\text{H}^+$) act as cathodic depolarizers in acidic environments ($2\text{H}^+ + 2e^- \rightarrow \text{H}_2$), accelerating the anodic dissolution of metal. <br> It is crucial in - <br> 1. **Acidic environments** (low pH). <br> 2. **Hydrogen Embrittlement** - Atomic H penetrates the metal lattice, causing brittle failure under stress (Stress Corrosion Cracking).
+What is the role of Al, Cu, Cr, and Ti as alloying elements in corrosion?: **Cr (Chromium)** - Forms stable passive oxide ($\text{Cr}_2\text{O}_3$), essential for stainless steels. <br> **Al (Aluminum)** - Forms protective alumina ($\text{Al}_2\text{O}_3$) layer; used in high-temp coatings. <br> **Ti (Titanium)** - Forms very stable $\text{TiO}_2$; excellent passivation. <br> **Cu (Copper)** - A noble element; improves resistance to atmospheric corrosion (e.g., weathering steels) but can cause galvanic corrosion if coupled with active metals.
+How does the "Area Factor" contrast corrosion and which mechanism does it affect?: The Area Factor is the ratio of Cathode Area to Anode Area ($A_c / A_a$). <br> * **Large Cathode / Small Anode** - Highly dangerous. The current density at the small anode becomes massive, leading to rapid penetration (e.g., **Galvanic Corrosion** or **Pitting**). <br> * **Small Cathode / Large Anode** - Spread out corrosion, generally safer.
+What is the significance of the electrode potential Table?: It ranks metals by their thermodynamic tendency to corrode (Standard EMF Series). <br> * **Significance** - Determines which metal will be the anode (corrodes) and which will be the cathode (protected) in a galvanic couple. <br> * **Limitation** - It predicts *tendency*, not corrosion *rate* (kinetics).
+What are the factors affecting Pitting Corrosion?: 1. **Environment** - Presence of aggressive anions (specifically Chlorides $\text{Cl}^-$) and stagnant solutions. <br> 2. **Material** - Breakdowns in the passive layer (inclusions, scratches). <br> 3. **Potential** - Must be above the critical pitting potential ($E_{pit}$).
+Explain how rust is formed in corrosion of steels and its composition.: **Mechanism** - <br> 1. Anode (Fe) - $\text{Fe} \rightarrow \text{Fe}^{2+} + 2e^-$ <br> 2. Cathode (surface) - $\text{O}_2 + 2\text{H}_2\text{O} + 4e^- \rightarrow 4\text{OH}^-$ <br> 3. Reaction - $\text{Fe}^{2+} + 2\text{OH}^- \rightarrow \text{Fe}(\text{OH})_2$, which further oxidizes. <br> **Composition** - Hydrated Iron Oxide ($\text{Fe}_2\text{O}_3 \cdot x\text{H}_2\text{O}$) or Iron Hydroxide ($\text{Fe}(\text{OH})_3$).
+Name three design/material-selection factors that may promote corrosion.: 1. **Crevices** - Designs with gaps (bolts, washers) allow stagnant fluid accumulation (Crevice Corrosion). <br> 2. **Galvanic Coupling** - Joining dissimilar metals without insulation. <br> 3. **Turbulence/Velocity** - Sharp bends causing high velocity flow (Erosion-Corrosion).
+What is the role of Cr, Ni, and Mo in stainless steels?: **Cr (Chromium)** - $>10.5\%$ required for "Stainless" status; forms passive film. <br> **Ni (Nickel)** - Stabilizes the Austenite (FCC) phase; improves ductility and general corrosion resistance. <br> **Mo (Molybdenum)** - Specifically added to improve resistance to **Pitting Corrosion** (chloride environments). <br> *All are important in Austenitic Stainless Steels (e.g., AISI 316).*
+Rank the corrosion resistance of Ferritic, Martensitic, and Precipitation Hardening steels.: Generally - <br> 1. **Ferritic** - Good resistance (high Cr), but lower than Austenitic. <br> 2. **Precipitation Hardening (PH)** - Moderate to Good (comparable to 304). <br> 3. **Martensitic** - Lowest corrosion resistance (due to lower Cr and higher C content required for hardening).
+Identify two common materials-based strategies to prevent corrosion.: 1. **Cathodic Protection** - Using a Sacrificial Anode (e.g., Zinc on steel) or Impressed Current. <br> 2. **Coatings** - Barrier coatings (paints, polymers) or Metallic coatings (Galvanization, plating).
+What is the role of Si and Al as alloying elements in the corrosion of alloys?: Both Si (Silicon) and Al (Aluminum) have high affinity for oxygen. They form very stable, continuous oxide layers ($\text{SiO}_2$, $\text{Al}_2\text{O}_3$) that provide excellent **High-Temperature Oxidation Resistance**.
+Enumerate three advantages and two disadvantages of Austenitic Stainless Steels.: **Advantages** - <br> 1. Excellent corrosion resistance. <br> 2. High ductility and formability. <br> 3. Good weldability. <br> **Disadvantages** - <br> 1. Higher cost (due to Nickel). <br> 2. Susceptible to Stress Corrosion Cracking (SCC) in chloride environments. <br> 3. Lower yield strength compared to Ferritic/Martensitic.
+Clarify the sensitization phenomena and which steels are susceptible.: **Phenomenon** - When heated between $400-850^{\circ}\text{C}$, Chromium reacts with Carbon to form Chromium Carbides ($\text{Cr}_{23}\text{C}_6$) at grain boundaries. This depletes the local area of Cr, making it susceptible to Intergranular Corrosion. <br> **Susceptible Steels** - Standard Austenitic Stainless Steels (e.g., AISI 304) during welding or improper heat treatment.
+Compare the rates of diffusion at surfaces, grain boundaries, and in the bulk as a function of temperature.: Diffusion rates follow the order - **Surface > Grain Boundary > Bulk**. <br> * **Activation Energy ($Q$)** - $Q_{\text{surface}} < Q_{\text{gb}} < Q_{\text{bulk}}$. <br> * Surfaces have the least atomic constraint (highest energy), making atom movement easiest. Bulk lattice has the highest constraint. <br> * At low temperatures, surface and grain boundary diffusion dominate. At very high temperatures, bulk diffusion becomes significant due to the large volume fraction of the bulk.
+Why is interstitial diffusion much faster than volume (substitutional) diffusion at the same temperature?: 1.  **Atom Size** - Interstitial atoms (C, N, H) are much smaller than the matrix atoms and fit into the spaces between them. <br> 2.  **Activation Energy** - No vacancy formation is required for interstitial movement, lowering the activation energy barrier. <br> 3.  **Site Availability** - There are many more empty interstitial sites available than there are vacancies for substitutional diffusion.
+Why is a diffusion mechanism denoted as a "thermally activated process"?: Because the rate of diffusion depends exponentially on temperature, following the Arrhenius equation - <br> $$D = D_0 \exp\left(-\frac{Q}{RT}\right)$$ <br> Atoms require a specific amount of thermal energy (activation energy $Q$) to overcome the energy barrier and jump to a neighboring site.
+State and explain the essence of Fick's First Law.: Fick's First Law states that the flux of diffusing atoms ($J$) is proportional to the concentration gradient ($\frac{dC}{dx}$) - <br> $$J = -D \frac{dC}{dx}$$ <br> **Essence** - Matter flows from regions of high concentration to regions of low concentration to eliminate the gradient. The negative sign indicates flow 'down' the gradient.
+Discuss the diffusion mechanisms operating during diffusion bonding of a Steel - Ti6Al4V couple.: 1.  **Interdiffusion** - Fe atoms diffuse into the Ti side and Ti atoms into the Fe side across the interface. <br> 2.  **Kirkendall Effect** - Unequal diffusion rates may create voids near the interface. <br> 3.  **Intermetallic Formation** - Brittle phases (e.g., $\text{FeTi}$, $\text{Fe}_2\text{Ti}$) often form at the interface due to chemical reaction, which can weaken the bond if not controlled.
+Elucidate the role of diffusion during recrystallization in the TMCP of HSLA steel plates.: Diffusion is essential for - <br> 1.  **Grain Boundary Migration** - Atoms must diffuse across boundaries to allow new, strain-free grains to grow at the expense of deformed ones. <br> 2.  **Dislocation Climbing** - A recovery mechanism relying on vacancy diffusion to annihilate dislocations. <br> 3.  **Precipitation** - In HSLA steels, micro-alloying elements (Nb, V) diffuse to form precipitates that pin grain boundaries (Zener pinning), retarding recrystallization.
+Compare the activation energy needed during the solidification process vs. that during solid-state transformation.: **Solidification ($Q_{\text{liquid}}$)** - Activation energy is very low because atoms in the liquid state have high mobility and loose bonding. <br> **Solid-State ($Q_{\text{solid}}$)** - Activation energy is much higher because atoms are locked in a rigid lattice and require significant energy to break bonds and squeeze past neighbors (or wait for vacancies). <br> Result - Diffusion in liquid is orders of magnitude faster ($10^{-9}\ \text{m}^2/\text{s}$ vs $10^{-13}\ \text{m}^2/\text{s}$).
+Detail the meaning of $D_0$ in the diffusion coefficient equation.: $D_0$ is the **pre-exponential factor** (frequency factor). <br> It accounts for - <br> 1.  **Jump Frequency** - How often atoms attempt to jump. <br> 2.  **Lattice Geometry** - The jump distance and coordination number. <br> 3.  **Entropy** - The change in vibrational entropy associated with the jump. <br> It represents the theoretical diffusion coefficient at infinite temperature ($1/T \rightarrow 0$).
+Why is the necking condition in sheet forming (2D) delayed as compared to uniaxial plastic deformation (1D)?: In biaxial stretching (2D), the geometric constraints prevent the material from thinning locally in just one direction. Both principal stresses are tensile, which supports the material and requires a higher critical strain to initiate localized instability (necking) compared to the unconstrained uniaxial tension.
+Why does lubrication affect only stretching but not drawing (in the context of punch friction)?: *Clarification - Lubrication affects both, but differently.* <br> * **Stretching** - Lubrication on the punch is **beneficial**. It allows the sheet to slide over the punch radius, distributing strain uniformly over the dome and preventing localized thinning (failure) at the pole. <br> * **Drawing** - High friction on the punch is often **beneficial/neutral**. It helps "grip" the bottom of the cup, transferring the drawing force from the punch to the flange without tearing the wall. Lubrication is primarily needed on the *flange/die* interface to allow material flow, not the punch.
+What is the strain condition ($\beta$) for which the sheet thickness remains constant? Give a motivation.: The condition is **Pure Shear** ($\beta = \epsilon_2 / \epsilon_1 = -1$). <br> * **Motivation** - Volume constancy requires $\epsilon_1 + \epsilon_2 + \epsilon_3 = 0$. <br> * If thickness strain $\epsilon_3 = 0$, then $\epsilon_1 + \epsilon_2 = 0$, implying $\epsilon_2 = -\epsilon_1$ (Pure Shear).
+Based on FLD, correlate the formability of Al-alloys vs. Low Carbon Steels.: **Low Carbon Steels** - Generally have a higher FLD curve (better formability) due to higher strain hardening ($n$) and strain rate sensitivity ($m$). <br> **Al-Alloys** - Have a lower FLD curve, meaning they neck and fail at lower strain levels compared to steel.
+Elucidate how FLD (Forming Limit Diagram) curves are built from experiments.: By performing "Nakazima" or "Marciniak" tests - <br> 1.  Rectangular sheet specimens of **varying widths** are used. <br> 2.  Narrow specimens undergo uniaxial tension (left side of FLD). <br> 3.  Wide/Square specimens undergo biaxial tension (right side of FLD). <br> 4.  A grid is etched on the surface to measure major ($\epsilon_1$) and minor ($\epsilon_2$) strains at the point of failure (necking) for each geometry.
+Clarify how sheet thickness affects stretching and drawing formability.: **Thicker sheets** generally have better formability (higher FLD). <br> * Thicker material resists localized instability (necking) better than thin foil. <br> * In deep drawing, thicker sheets are less prone to wrinkling, allowing for higher blank holding forces.
+Elucidate the factors affecting springback of metals and alloys.: Springback is the elastic recovery after unloading. <br> It is proportional to the ratio $\frac{Y}{E}$ (Yield Strength / Young's Modulus). <br> * **Higher Yield Strength ($Y$)** - More elastic strain stored $\rightarrow$ More springback (e.g., High Strength Steels). <br> * **Lower Modulus ($E$)** - More elastic strain for a given stress $\rightarrow$ More springback (e.g., Aluminum vs Steel).
+Illustrate which part of the FLD is affected by normal anisotropy ($R$-value).: The **Left Side (Drawing region, $\epsilon_2 < 0$)**. <br> * High $R$-value means the material resists thinning ($\epsilon_3$) and prefers to flow in the plane. This significantly improves deep drawing capability (LDR). <br> * It has little effect on the stretching side (Right side, $\epsilon_2 > 0$).
+Justify why the strain hardening coefficient ($n$) affects both drawing and stretching in the FLD.: A high strain hardening exponent ($n$) delays the onset of localized necking (Considère criterion - instability occurs when $\epsilon = n$). <br> * **Stretching** - Allows more uniform strain accumulation before failure. <br> * **Drawing** - Strengthens the wall transmitting the force, allowing the flange to be pulled in without the cup wall tearing.
+* *Result:* High $n$ raises the entire FLD curve.
+Identify the formability parameters determined by a sheet bending test.: 1.  **Minimum Bending Radius ($r_{min}$)** - The smallest radius before cracks appear on the outer surface. Usually expressed as multiples of thickness (e.g., $3t$). <br> 2.  **Springback amount** - The change in angle after unloading.
+Based on FLD, explain the most critical strain condition ($\beta$) for thickness uniformity.: The most critical point (lowest point on the FLD curve) is typically near **Plane Strain** ($\beta = \epsilon_2 / \epsilon_1 = 0$). <br> At this point, material cannot redistribute strain laterally ($\epsilon_2=0$), so all deformation results in thinning, leading to the earliest onset of necking.
+Rank Al, Ti, and Mg in terms of bendability (soft condition) and justify.: 1.  **Al (Best)** - FCC structure, many slip systems (12), high ductility. <br> 2.  **Ti (Intermediate)** - HCP structure, but has sufficient slip systems/twinning active at room temp to allow some forming. <br> 3.  **Mg (Worst)** - HCP structure with limited slip systems (mostly basal) at room temp; very brittle and difficult to bend without cracking unless heated.
+Specify the basic requirements for a given alloy to be formed superplastically.: 1.  **Ultra-fine grain size** - Typically $d < 10\ \mu\text{m}$ (allows grain boundary sliding). <br> 2.  **High Temperature** - $T > 0.5\ T_m$ (homologous temperature). <br> 3.  **Slow Strain Rate** - To allow diffusion-controlled mechanisms (GB sliding) to operate without cavitation. <br> 4.  **Stable microstructure** - Grains must not grow excessively during the process (often pinned by second phases).
+Classify steels based on production routes (Grade, Mass, Cost, Recycling).: 1.  **Integrated Route (Blast Furnace - BOF)** - <br> * High quality (virgin ore). <br> * Mass production (flat products, car bodies). <br> * High cost (energy/coke). <br> 2.  **Electric Arc Furnace (EAF)** - <br> * Variable quality (dependent on scrap purity). <br> * Uses 100% recycled scrap. <br> * Lower investment cost; used for long products (rebars) and specialty steels.
+Explain the main chemical reactions occurring in a blast furnace.: 1.  **Combustion** - $\text{C} + \text{O}_2 \rightarrow \text{CO}_2$ (Heat generation). <br> 2.  **Reduction agent formation** - $\text{CO}_2 + \text{C} \rightarrow 2\text{CO}$. <br> 3.  **Reduction of Iron Ore** - <br> * $3\text{Fe}_2\text{O}_3 + \text{CO} \rightarrow 2\text{Fe}_3\text{O}_4 + \text{CO}_2$ <br> * $\text{Fe}_3\text{O}_4 + \text{CO} \rightarrow 3\text{FeO} + \text{CO}_2$ <br> * $\text{FeO} + \text{CO} \rightarrow \text{Fe} + \text{CO}_2$ <br> 4.  **Slag Formation** - $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$; $\text{CaO} + \text{SiO}_2 \rightarrow \text{CaSiO}_3$.
+Why is the integral production of steels made by way of cast (pig) iron, rather than directly to steel?: Because the Blast Furnace process is the most efficient way to reduce large quantities of iron ore, but it inevitably results in high carbon uptake ($3-4.5\% \text{C}$) from the coke. This creates Pig Iron. The subsequent step (BOF) is then required to oxidize this excess carbon down to steel levels ($<2\%$). Direct reduction exists (DRI) but is less common for mass production.
+Justify the detrimental role of Sulfur (S) in steel and how it is reduced.: **Detrimental Role** - S forms Iron Sulfide ($\text{FeS}$) which wets grain boundaries and has a low melting point. This causes **Hot Shortness** (brittleness/cracking during hot rolling). <br> **Reduction** - <br> 1.  **Manganese (Mn)** - Added to form $\text{MnS}$ (globular, high melting point inclusions) instead of $\text{FeS}$. <br> 2.  **Desulfurization** - Using reagents like Calcium ($\text{Ca}$) or Magnesium ($\text{Mg}$) in the ladle to form stable sulfides that float to the slag.
+Compare the roles of VOD (Vacuum Oxygen Decarburization) and AOD (Argon Oxygen Decarburization).: Both are secondary metallurgy processes for Stainless Steel. <br> * **AOD** - Blows Argon + Oxygen. Argon lowers the partial pressure of CO, allowing Decarburization (removing C) without excessive oxidation of expensive Chromium. Standard for mass production of stainless. <br> * **VOD** - Uses Vacuum + Oxygen. Achieves very low levels of C and N. Used for high-purity, high-grade stainless steels.
+Explain why Hydrogen (H) is detrimental in steels and how it can be eliminated.: **Detrimental Role** - Atomic H is small, mobile, and accumulates at defects/crack tips, causing **Hydrogen Embrittlement** (delayed fracture) and "Flakes" (internal shatter cracks) in heavy forgings. <br> **Elimination** - **Vacuum Degassing**. Exposing the molten steel to a vacuum removes dissolved gases (Sievert's Law).
+Explain the role of Aluminum (Al) as a deoxidizing element and its consequence.: **Role** - Al has a very high affinity for Oxygen. It is added to the melt to remove dissolved Oxygen ($\text{Al} + \text{O} \rightarrow \text{Al}_2\text{O}_3$). <br> **Consequence** - <br> 1.  Produces **"Killed Steel"** (no porosity/gas evolution during solidification). <br> 2.  Forms hard $\text{Al}_2\text{O}_3$ inclusions (must be controlled/removed). <br> 3.  Residual Al pins grain boundaries (Grain refinement).
+Describe the main purpose of the TMCP (Thermo-Mechanical Controlled Processing) in HSLA steels.: The purpose is to achieve a superior combination of **high strength and high toughness** without expensive alloying. <br> It achieves this by - <br> 1.  **Controlled Rolling** - Rolling at low temperatures to pancake austenite grains and accumulate strain. <br> 2.  **Accelerated Cooling** - Freezing the fine structure to produce ultra-fine ferrite grains (Grain Boundary Strengthening - the only mechanism improving both strength and toughness).
+Explain the consequences of hard-brittle vs. soft-plastic inclusions in steels.: **Hard-Brittle (e.g., Alumina $\text{Al}_2\text{O}_3$)** - Act as stress concentrators. They do not deform during rolling; they crack or create voids, initiating fatigue cracks or brittle fracture. <br> **Soft-Plastic (e.g., MnS)** - Deform and elongate during rolling. They create "stringers" leading to **Anisotropy** (mechanical properties are worse in the transverse direction compared to the rolling direction).
+Specify the main concentration limits to discern Alloyed from Unalloyed steels.: According to EN standards - <br> * **Unalloyed** - Manganese (Mn) $< 1.65\%$, Silicon (Si) $< 0.60\%$, Copper (Cu) $< 0.40\%$, Chromium/Nickel $< 0.30\%$. <br> * **Alloyed** - Any element exceeds these limits.
+Provide the alphanumeric code for a structural steel of min yield strength 550 MPa, min impact energy of 40 J at -30$^{\circ}$C.: **S550Q** (or similar designation depending on exact impact class, e.g., S550QL). <br> * **S** - Structural Steel. <br> * **550** - Minimum Yield Strength ($550\ \text{MPa}$). <br> * **Q/QL** - Condition (Quenched and Tempered) with impact toughness specified at low temperatures.
+Specify the alphanumeric code for a tempering unalloyed steel (< 1% Mn) of average %C = 0.25.: **C25** (EN designation for unalloyed steel by composition). <br> * **C** - Carbon steel. <br> * **25** - Average carbon content $\times 100$ ($0.25\%$).
+Specify the alphanumeric code for a tempering unalloyed steel (< 5% alloying) of average C=0.42%, Cr=1%.: **41Cr4** <br> * **41** - Average %C $\times 100$ ($0.42\% \approx 41$). <br> * **Cr** - Main alloying element. <br> * **4** - Percentage of Cr multiplied by factor 4 ($1\% \times 4 = 4$).
+Specify the alphanumeric code for a tempering alloyed steel of average C=0.38%, Cr=5%, Mo=3%, V present.: **X38CrMoV5-3** <br> * **X** - High alloy steel (at least one alloy $> 5\%$). <br> * **38** - %C $\times 100$ ($0.38\%$). <br> * **CrMoV** - Alloying symbols. <br> * **5-3** - Actual percentages (No multiplier for High Alloy). Cr=5%, Mo=3%.
+Specify the alloying concentrations of AISI 4140.: * **C** - $\sim 0.40\%$ (Last two digits). <br> * **Cr** - $\sim 1.0\%$ <br> * **Mo** - $\sim 0.2\%$ <br> (Chromium-Molybdenum steel).
+Specify the alloying concentrations of AISI 4340.: * **C** - $\sim 0.40\%$ <br> * **Ni** - $\sim 1.8\%$ <br> * **Cr** - $\sim 0.8\%$ <br> * **Mo** - $\sim 0.25\%$ <br> (Nickel-Chromium-Molybdenum steel - high hardenability).
+Specify the alloying concentrations of AISI 1020.: * **C** - $\sim 0.20\%$ <br> * **Mn** - $0.3 - 0.6\%$ <br> * No other major alloys (Plain Carbon Steel).
+Specify the AISI designation of a Nickel steel.: **2xxx Series** (e.g., AISI 2515). <br> * **2xxx** - Steels with Nickel as the principal alloying element.
+What are the Cottrell atmospheres and their practical consequences?: They are clouds of interstitial impurity atoms (C, N) that segregate to the tensile strain field of edge dislocations in BCC iron. <br> Consequence - They pin dislocations, requiring a higher stress to break free (Upper Yield Point). Once freed, stress drops (Lower Yield Point). This causes stretcher strain marks (Lüders bands) on formed sheets.
+How does stacking fault energy affect twinning?: Low Stacking Fault Energy lowers the energy cost of forming a twin boundary (which is essentially a stacking fault). Therefore, low SFE materials twin much more easily than high SFE materials.
+Based on nucleation theory, which mechanism and cooling rate condition must be ensured to produce a single crystal?: Mechanism - Heterogeneous nucleation must be suppressed or restricted to a single seed point. <br> Condition - Slow cooling with a strict thermal gradient (Directional Solidification) so that the solid/liquid interface advances from the single nucleus without triggering new nuclei ahead of the front.
+To produce a pure metal (structure), what nucleation conditions are needed?: Rapid cooling (High undercooling) to promote a high nucleation rate throughout the volume, resulting in a fine-grained, homogeneous pure metal structure. *Note - If the question implies high purity chemical composition, zone refining is used.*
+Is surface free energy strong or negligible in nucleation on cooling?: Strong. The creation of a new solid-liquid interface costs energy ($\gamma_{SL}$). This surface energy barrier is the primary reason why undercooling is required to initiate nucleation (homogeneous nucleation).
+What is the origin of a coring structure?: Coring (micro-segregation) arises during non-equilibrium cooling of alloys. The first solid to form is rich in high-melting-point component. As solidification proceeds, subsequent layers become richer in the low-melting-point component. Because diffusion in the solid is slow, these concentration gradients persist within the grains.
+Which alloying elements in steels are more prone to segregation?: Elements with low partition coefficients ($k < 1$) and low diffusion rates, particularly Impurities like Sulfur (S), Phosphorus (P), and alloying elements like Carbon (C) and Manganese (Mn).
+Which factor promotes the columnar structure of casting during solidification in a metallic mold?: A steep temperature gradient directed from the mold wall towards the center of the melt. Grains grow preferentially opposite to the heat flow direction.
+How can regions with large amounts of impurities be separated from the ingot during solidification?: By "Cropping". Impurities and segregation tend to accumulate in the "hot top" or the feeder head (the last liquid to solidify). This top section is mechanically cut off and discarded.
+Which post-solidification process can eliminate large scale segregations in ingots?: Long-time high-temperature soaking (Homogenization annealing). However, for very large macro-segregations, mechanical working combined with diffusion is often required, or they may be permanent.
+Explain why a scanning electromagnetic inductor enables the purification of an ingot.: This describes "Zone Refining". The inductor creates a narrow molten zone that moves along the bar. Impurities which are more soluble in the liquid than the solid ($k < 1$) remain in the molten zone and are swept to the end of the ingot.
+Why does spraying liquid metal on a rotating metallic disk promote the formation of amorphous ribbons?: The process (Melt Spinning) achieves extremely high cooling rates ($10^5 - 10^6 \text{ K/s}$). This bypasses the "nose" of the crystallization curve (TTT diagram), freezing the disordered liquid atomic structure before crystals have time to nucleate and grow.
+Why are impurity segregations not observed during laser surface remelting?: The cooling rate in laser remelting is extremely fast (rapid solidification). This allows the solid to form with the same composition as the liquid (partition coefficient $k$ effectively approaches 1), or the scale of segregation is so fine (nanoscale) it is effectively negligible.
+Which are the two basic metallurgical phenomena intrinsic in the initial TTT curve?: Nucleation (incubation period) and Growth (transformation rate).
+What does the inflection point of a sigmoidal growth kinetics represent?: The point where the transformation rate is maximum. Before this, nucleation dominates; after this, growing grains impinge on each other, slowing down the transformation.
+What is the basic feature of the nose temperature of a TTT curve?: It is the temperature of the fastest transformation rate (shortest time). It represents the optimal balance between the thermodynamic driving force (undercooling) and the kinetic mobility (diffusion).
+How small (or large) shall nucleation and growth rates be to produce a fine microstructure after non-equilibrium isothermal treatment?: High Nucleation Rate and Low Growth Rate. This ensures many grains form ($N_{high}$) but don't grow large ($G_{low}$), resulting in a fine-grained structure.
+What are the main functions of austenitization prior to heat treatment?: 1. To transform the BCC/ferrite-pearlite structure into FCC Austenite. <br> 2. To dissolve carbides and alloying elements into the solid solution (homogenization) so they can be re-precipitated or trapped in martensite upon cooling.
+How do nucleation and growth phenomena change when passing from isothermal to continuous cooling?: In Continuous Cooling (CCT), the material spends less time at any specific temperature. The reaction curves shift to longer times and lower temperatures compared to TTT. Bainite formation is often suppressed in plain carbon steels during continuous cooling.
+What is the main external factor affecting the growth step of an isothermal phase transformation?: Temperature. Growth is diffusion-controlled, so it depends exponentially on temperature ($D = D_0 e^{-Q/RT}$).
+What is the most suitable surface hardening process to withstand point-load crushing?: Carburizing (Case Hardening). It produces a deep, high-carbon martensitic case supported by a tough core, capable of supporting high contact loads without the case collapsing (eggeshell effect).
+What is the most low-cost effective surface hardening process?: Induction Hardening or Flame Hardening (assuming the steel has sufficient carbon). It requires no chemical species addition, just localized heating and quenching. <br> The two alloying elements promoting the deepest penetration depth of martensite (Hardenability) - Manganese (Mn) and Molybdenum (Mo) (or Chromium Cr). These elements strongly delay the diffusional decomposition of austenite. <br> The most durable superficial case-hardened layer for gears - Carburizing (or Nitriding for high precision/low distortion). Carburizing provides the deep, hard case needed for high-load gear teeth.
+Is hardenability specifically requested for a large size rotating-bending shaft?: Yes. For a large shaft, the cooling rate at the center is slow. High hardenability is required to ensure the core transforms to martensite (or bainite) rather than soft ferrite/pearlite, ensuring uniform strength and resistance to fatigue throughout the cross-section. <br> Reasons for performing surface hardening of steels - 1. To improve wear resistance (hard surface). <br> 2. To improve fatigue resistance (compressive residual stresses). <br> 3. To maintain a tough, ductile core to absorb impact.
+In chemical surface treatment, how does penetration depth correlate with superficial residual stress?: Generally, deeper penetration allows for a more gradual transition of properties, but the magnitude of Compressive Residual Stress is highest when the volume expansion (martensite formation or nitride precipitation) is constrained by a strong core. Nitriding (shallow) often produces higher magnitude compressive stress than deep carburizing.
+What is the current technological process performed industrially to prevent Lüders' bands?: Skin Pass Rolling (or Temper Rolling). A light cold reduction ($0.5 - 2\%$) introduces mobile dislocations, eliminating the yield point phenomenon and preventing stretcher strains.
+Which microstructure features in Damascus steels maximize its cutting edge?: The presence of hard carbide particles (cementite or alloy carbides) embedded in a supporting matrix. These act like micro-saws at the edge.
+What are the main strengthening mechanisms exploited in the manufacturing of a Damascus sword?: 1. Composite lamination - Alternating layers of high carbon (hard) and low carbon (tough) steel. <br> 2. Strain Hardening - Repeated forging/folding. <br> 3. Grain Refinement - Thermal cycling during forging. <br> 4. Precipitation/Dispersion - Carbide particles.
+How a microstructure shall be to maximize its strength/toughness combination?: Fine-grained (Hall-Petch) with a uniform distribution of fine, coherent precipitates (if aged) or a dual-phase structure (like Martensite/Ferrite or Bainite/Austenite) where the hard phase provides strength and the soft phase blunts cracks.
+Does overaging lead to enhanced ductility, strength, or brittleness?: Overaging leads to **Decreased Strength** and **Increased Ductility**. The precipitates coarsen (grow larger and fewer), increasing the inter-particle spacing ($L$). Dislocations can bypass them easily (Orowan bowing), softening the material.
+In microplasticity, under an imposed stress over two grains, which grain locations are first involved by dislocation activity?: The Grain Boundaries. Dislocation sources often operate near boundaries, and pile-ups occur there, creating local stress concentrations that trigger slip in the neighbor.
+If an alloy attains maximum strengthening by plastic deformation, what kind of fracture behavior will it undergo?: Brittle (or low-ductility) fracture. As the material exhausts its work-hardening capacity (dislocation density saturates), it loses the ability to plastically deform further, leading to necking instability and failure.
+Compare the behavior of transversal and longitudinal steel texture samples under V-Charpy impact test.: **Longitudinal** - High impact energy (Tough). cracks propagate across the elongated grains/inclusions. <br> **Transversal** - Low impact energy (Brittle). Cracks propagate along the elongated inclusions (stringers), which act as easy paths for fracture.
+What is the simplest test to assess the detrimental presence of MnS inclusions?: Sulfur Print (Baumann print) or simply a Transverse Charpy Impact Test (comparing it to longitudinal results).
+Compare the consequences of strain aging and dynamic strain aging.: **Strain Aging** - Static aging after deformation. Increases yield strength, returns yield point, lowers ductility (embrittlement) over time at room temp (or faster with heat). <br> **Dynamic Strain Aging (Portevin-Le Chatelier effect)** - Occurs *during* deformation at specific temperatures. Solutes diffuse fast enough to catch moving dislocations. Causes serrated flow (jerky stress-strain curve), negative strain rate sensitivity, and reduced ductility.

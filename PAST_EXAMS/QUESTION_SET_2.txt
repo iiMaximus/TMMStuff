@@ -1,0 +1,264 @@
+I have extracted the questions and their corresponding options from the new images provided, skipping any that were identical to the ones in your previous request or duplicated within this new batch.
+
+**Total skipped questions: 123**
+*(This count includes entire duplicate pages such as the "FAIL" exam, the "Jan 31, 2022 FAC-SIMILE", multiple identical uploads of the same pages within this batch, and one specific duplicate question found in the partially cut-off sheet).*
+
+Here are the unique questions extracted from the remaining sheets in a readable format:
+
+## Session of July 1st, 2022
+1. What is a stacking fault lattice defect?
+   * (a) typical of BCC crystals
+   * (b) typical of FCC crystals
+   * (c) always present in metals
+   * (d) typical of HCP crystals
+2. Crystalline anisotropy affects mechanical properties in:
+   * (a) HCP crystal
+   * (b) FCC crystal
+   * (c) BCC crystal
+   * (d) all crystals
+3. Which corrosion mechanism is most serious in steels vs. chlorides
+   * (a) interstitial
+   * (b) pitting
+   * (c) sensitization
+   * (d) galvanic
+4. Which of the following slip systems belongs to BCC:
+   * (a) (111)[1-2 -1]
+   * (b) (1-10)[111]
+   * (c) [111](1-10)
+   * (d) (1-11)[11-1]
+5. Guess the A3 temperature of the alloy in the figure
+   * (a) 850 °C
+   * (b) 750 °C
+   * (c) 950 °C
+   * (d) 1050 °C
+6. Guess the excess in temperature above A3 for proper austenitization upon steel Normalizing
+   * (a) 180 °C
+   * (b) 30 °C
+   * (c) 50 °C
+   * (d) 80 °C
+7. Which is NOT a feature of "steel austenitizing" process
+   * (a) homogenization
+   * (b) melting
+   * (c) carbide dissolution
+   * (d) atomic diffusion
+8. For the alloy in the figure, estimate the approximate martensite fraction on quenching from B-temperature
+   * (a) N/A
+   * (b) ~0.1/0.5
+   * (c) ~0.4/0.5
+   * (d) ~100%
+9. Give the Q-temperature value for the steel in TTT diagram (figure)
+   * (a) A2
+   * (b) A3
+   * (c) A1
+   * (d) Acm
+10. Indicate the controlling mechanism of phase transformations in the R-field (figure)
+   * (a) diffusion
+   * (b) diffusionless
+   * (c) no growth
+   * (d) no transformation
+11. TTT curves of steels shift with Si alloying to:
+   * (a) right
+   * (b) left
+   * (c) right-down
+   * (d) left-down
+12. Which class of steels is strengthened by heat treatment
+   * (a) austenitic stainless steels
+   * (b) ferritic stainless
+   * (c) tempering steels
+   * (d) cold worked steels
+13. Estimate the microstructure composition at point 2 in the TTT diagram (see figure)
+   * (a) 50%M+45%TM-BU+5%AR
+   * (b) 50%M+ 50%AR
+   * (c) 50%TM-BL+50%AR
+   * (d) 45%TM-BL+55%AR
+14. What is NOT a feature of pearlite
+   * (a) it is phase
+   * (b) it is a soft phase
+   * (c) forms by diffusion on cooling
+   * (d) cannot be formed under CCT
+15. Which factor is not affected by hardenability in steels
+   * (a) toughness
+   * (b) hardness
+   * (c) martensite penetration
+   * (d) amount of residual austenite
+16. Guess the class of steel for X10CrNiTi1810
+   * (a) tempered steel
+   * (b) stainless steel
+   * (c) low-alloy steel
+   * (d) tool steel
+17. In which surface treatment the compression stress state is largest?
+   * (a) flame hardening
+   * (b) laser hardening
+   * (c) induction heat treatment
+   * (d) carburizing
+18. How ferritic stainless steels are strengthened to desired strength required for the application?
+   * (a) heat treatment
+   * (b) precipitation
+   * (c) grain refinement
+   * (d) cold work
+
+---
+
+## Written Exam of TMM (Starts with Damascus steels)
+1. In Damascus steels its hard/sharp cutting edge is produced by:
+   * (a) promoting carbide precipitates
+   * (b) coating carbon film under high pressure
+   * (c) hot-work hammering and quenching
+   * (d) flame carburizing and tempering
+2. Stacking fault energy in FCC metals controls
+   * (a) dislocation density
+   * (b) dislocation arrangement
+   * (c) dislocation motion
+   * (d) dislocation interactions
+3. Twinning in metals - Mark the UNTRUE clause: it is favored by
+   * (a) small SFE
+   * (b) cryogenic temp
+   * (c) high strain rate
+   * (d) small grain size
+4. The difference in Electronegativity controls bonding between
+   * (a) unlike elements
+   * (b) non-metals
+   * (c) like elements
+   * (d) metals
+5. Given the W-alloy (figure) what are the A/B/C phase names?
+   * (a) A/F/A
+   * (b) A/A/A
+   * (c) F/F/F
+   * (d) A/F/CEM
+6. Given the Z-alloy (figure) the microstructure composition in R is
+   * (a) F grains
+   * (b) CEM grains
+   * (c) P colenies
+   * (d) F+CEM grains
+7. Detect the %C in austenite of S2-alloy at T(S2) in figure
+   * (a) 0.2%C
+   * (b) 0.07%C
+   * (c) 0.4%
+   * (d) 0.76%C
+8. Estimate the %F in S2-alloy at T(S2) in figure
+   * (a) 0.3%C
+   * (b) 0.6%C
+   * (c) 0.5%
+   * (d) 0.2%C
+9. The symbol name of C/A-temperatures in TTT diagram (figure)
+   * (a) A3/A1
+   * (b) Acm/A1
+   * (c) A1/A3
+   * (d) A/A1
+10. The F-field in the TTT diagram (figure) is composed of
+   * (a) A+CEM
+   * (b) M+AR
+   * (c) B+F
+   * (d) BL+A
+11. At the bay's temperature of the TTT diagram (figure):
+   * (a) nucleation is slow and growth fast
+   * (b) nucleation is fast and growth slow
+   * (c) nucleation is fast and growth moderate
+   * (d) both nucleation and growth are fast
+12. It is UNTRUE that with increasing CR in steels upon quenching:
+   * (a) pearlite transformation is missed first
+   * (b) ferrite transformation is missed first
+   * (c) martensite forms first
+   * (d) Lower bainite forms first
+13. Estimate the weight fraction of cooling products after isothermal transformations along cooling curve 1 (figure)
+   * (a) 50% F +35%BL + 10% TM/BL +5%AR
+   * (b) 35%F + 45%BL + 10% TM/BL + 10%AR
+   * (c) 5%P + 70%BL +20% TM/BL + 5%AR
+   * (d) 5%F +60% BL + 25% TM/ BL + 10%AR
+14. The steel 20NiCrMo2-2 is suited for:
+   * (a) deep drawing
+   * (b) hardening gears
+   * (c) spring
+   * (d) corrosion resistance
+15. What is a detrimental factor of steels welding
+   * (a) large thickness
+   * (b) stress-relief treatment
+   * (c) initial coarse-grain structure
+   * (d) low %C
+16. The alloying element preventing tempering embrittlement (toughening)
+   * (a) Cu
+   * (b) Sr
+   * (c) Mn
+   * (d) Mo
+17. The skin-pass process (last step of cold rolling in thin sheets) does NOT affect:
+   * (a) surface cracking reduction
+   * (b) Luder's band suppression
+   * (c) formability
+   * (d) weldability
+18. What is the HCT950C steel
+   * (a) structural steel
+   * (b) high strength sheet steel
+   * (c) tempering sheet steel
+   * (d) stainless steel
+
+---
+
+## Session of Feb 21, 2022 (Annotated: Shahid Muhammad Hassan)
+*(Note: The left edge of this exam sheet is cut off in the photos. I have reconstructed the visible portions and inferred missing context where possible with brackets. One duplicate question regarding the C-temperature symbol was skipped from this sheet.)*
+
+1. [... ] brackets are used to define family planes with Miller indices?
+   * (a) [cut off]
+   * (b) ( )
+   * (c) { }
+   * (d) < >
+2. [... ] faults in BCC are formed because:
+   * (a) stresses
+   * (b) wrong packing of planes
+   * (c) presence of intertitials
+   * (d) impossible
+3. [... ] do NOT produce strengthening when interact with;
+   * (a) stresses
+   * (b) interstitials
+   * (c) ppt at GBs
+   * (d) always strengthen
+4. [... ] the microstructure features enhancing toughness?
+   * (a) [cut off]
+   * (b) intra-grain submicron ppt
+   * (c) internal tensile stresses
+   * (d) non metallic inclusions
+5. [... ] temperature lines (W,Y) in phase diagram (see figure)
+   * (a) [cut off]
+   * (b) Acm, Ac3
+   * (c) Acm, Ac1
+   * (d) Acm, A3
+6. [... ] alloy (figure), determine %C in pearlite at Tamb
+   * (a) 0.022%
+   * (b) [cut off]
+   * (c) 0.25%
+   * (d) 0.77%
+7. [... ] alloy in figure, to form the min proportion of austenite, the alloy must cool in equilibrium down to:
+   * (a) A3, then cool fast
+   * (b) [cut off]
+   * (c) Acm, then cool fast
+   * (d) A1, then cool fast
+8. [... ] figure is alloyed with 10% Ni, what is the A1
+   * (a) 100 %
+   * (b) [cut off]
+   * (c) ~negligible
+   * (d) ~0.15÷6.2 %
+9. *(Skipped duplicate)*
+10. [... hardenab]ility of steels we have to:
+   * (a) [cut off] Co
+   * (b) [cut off]
+   * (c) adding Mo
+   * (d) cool slowly
+11. [... ] carbon steels we have to:
+   * (a) [cut off]
+   * (b) [cut off]
+   * (c) alloying Mn
+   * (d) precipitation hardening
+12. [... ] among AISI 1010, 4140, 4340, 1045
+   * (a) 4140
+   * (b) [cut off]
+   * (c) AISI 4340
+   * (d) AISI 1045
+13. [... ] of the cooling products down to point 2
+   * (a) [cut off]
+   * (b) [cut off]
+   * (c) 5%F+95%TM-BL+~0 AR
+   * (d) 20%F+72%M+8%AR
+14. [... ] determine the NON embrittling element
+   * (a) [cut off]
+   * (b) [cut off]
+   * (c) C
+   * (d) S

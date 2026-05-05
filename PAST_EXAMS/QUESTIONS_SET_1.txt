@@ -1,0 +1,845 @@
+Here are the extracted questions and their corresponding options from the provided exam sheets. They have been organized by the session date or document identifier visible on each page.
+
+## TMM Written Test (Undated)
+1. Which of the following is NOT a Gunier-Preston zone feature:
+   * (a) are sheared by dislocations
+   * (b) has coherent interface
+   * (c) induces dislocation bowing
+   * (d) create distortion of the surrounding lattice
+2. Features of Recrystallization process, Mark the NOT TRUE clause
+   * (a) diffusion controlled
+   * (b) preceeds grain growth
+   * (c) takes place in the liquid phase
+   * (d) determines a soft metal
+3. Twinning can take place in metals - Mark the NOT TRUE clause
+   * (a) high temperature
+   * (b) cryogenic temp
+   * (c) FCC
+   * (d) small SFE
+4. Using the Humé-Rothery rules, which is the main factor responsible of the high melting point of metals such as W and Mo:
+   * (a) crystal lattice
+   * (b) atomic radius
+   * (c) valence
+   * (d) Electronegativity
+5. Mixture of phases in the R-region of Fe-C diagram (figure)
+   * (a) Liquid + α-ferrite
+   * (b) γ + δ-ferrite
+   * (c) α-ferrite + γ
+   * (d) Liq +δ-ferrite
+6. What does the J-point represent in the Fe-C diagram (figure)
+   * (a) eutectic point
+   * (b) Curie temperat
+   * (c) peritectic point
+   * (d) eutectoid point
+7. What is the crystal structure of H-region ( figure)
+   * (a) FCC solid solution
+   * (b) BCC solid solution
+   * (c) BCC of pure Fe
+   * (d) Liquid
+8. Approximate solubility of C in δ-ferrite (figure)
+   * (a) ~0.002%
+   * (b) ~0.09 %
+   * (c) ~0.5 %
+   * (d) ~0.16 %
+9. The symbol name of C-temperature in the TTT diagram (figure)
+   * (a) A2
+   * (b) A3
+   * (c) A1
+   * (d) Acm
+10. The R-field name in the TTT diagram (figure)
+   * (a) F+A
+   * (b) F+stable A
+   * (c) Cementite+A
+   * (d) P+A
+11. How do hardenability-promoter elements affect TTT curves (fig)
+   * (a) Shift M90 down
+   * (b) Shift M90 up
+   * (c) Shift left
+   * (d) Shift down-right
+12. Which process is more suitable for steels to resist specific loads
+   * (a) laser hardening
+   * (b) induction hardening
+   * (c) carburizing
+   * (d) nitriding
+13. Estimate the weight fraction of cooling products after transformation at point 2 as shown in the TTT diagram (see figure)
+   * (a) 50%P+45%BL+5%AR
+   * (b) 50%P+ 45%TM+BL+5%AR
+   * (c) 50%P+50%TM-BL
+   * (d) 50%P + 50%AR
+14. Mo role in tempering steels - mark the UNTRUE clause
+   * (a) prevents temper embrittlement
+   * (b) it is austenitizer
+   * (c) it is a carbide former
+   * (d) hardenability promoter
+15. What is the purpose of BOF-converter in the production of steels
+   * (a) reduce iron ore
+   * (b) eliminate Mn
+   * (c) deoxidize pig iron
+   * (d) decarburize pig iron
+16. Sensitization phenomenon in austenitic stainless steels is caused because GB corrosion due to:
+   * (a) Cr precipitation
+   * (b) Ni precipitation
+   * (c) Mo precipitation
+   * (d) none precipitation
+17. Duplex stainless steels are a mixture of:
+   * (a) A+F
+   * (b) F+M
+   * (c) A+M
+   * (d) F+P
+18. How does the environment affect the uniform corrosion of steels? It is:
+   * (a) humid
+   * (b) humid with oxygen
+   * (c) dry with oxygen
+   * (d) humid with hydrogen
+
+---
+
+## Session of February 26, 2024 (Version A)
+1. What is NOT a feature of metallic bonding ?
+   * (a) free move of valence electrons
+   * (b) small cohesive energy
+   * (c) non directional bonding
+   * (d) ionic interaction
+2. It is UNTRUE for the tCRSS of a single crystal that: it
+   * (a) is a material property
+   * (b) corresponds to the material Ys
+   * (c) activates the dislocation motion
+   * (d) the grains start to shear relatively
+3. What is the crystal structure of Mg at room temperature?
+   * (a) FCC
+   * (b) BCC
+   * (c) HCP
+   * (d) Simple cubic
+4. What is NOT an influencing factor of polymorphism in BCC Fe?
+   * (a) stacking faults
+   * (b) heating rate
+   * (c) dislocations
+   * (d) atomic diffusion
+5. The value of B point (figure)
+   * (a) 1394 °C
+   * (b) 1147°C
+   * (c) 727°C
+   * (d) 911°C
+6. The %C of austenite before transforming into pearlite
+   * (a) 0.025 %
+   * (b) 0.76 %
+   * (c) 4.3 %
+   * (d) 6.67 %
+7. Estimate the %M in 1%C steel after quenching from K point (figure)
+   * (a) ~30%
+   * (b) ~1%
+   * (c) ~99%
+   * (d) ~70%
+8. The two domain phases (format P/A figure) at K point in 1%C steel with A the dominant phase present
+   * (a) F/P
+   * (b) A/Cem
+   * (c) A/F
+   * (d) Cem/A
+9. The steel shown in the TTT diagram belongs to the class of (figure)?
+   * (a) carburizing steel
+   * (b) martensitic stainless steel
+   * (c) tempering steel
+   * (d) tool steel
+10. The heat treatment leading to softest material properties is:
+   * (a) annealing
+   * (b) normalizing
+   * (c) spheroidizing
+   * (d) skin-passing
+11. Why ferrite formation is incomplete in the TTT diagram? Because:
+   * (a) it is hindered by pearlite
+   * (b) diffusionless transformation
+   * (c) slow diffusion of carbon
+   * (d) difficulty in carbide dissolution
+12. What is %Ni in the steel shown in the TTT diagram (figure)?
+   * (a) 15%
+   * (b) 1.50%
+   * (c) 1.00%
+   * (d) 3.75%
+13. Estimate the weight fraction of cooling products during stepped isothermal transformations 1-2 (see TTT diagram in figure)
+   * (a) 100% AR
+   * (b) 90% TM+BL +10%AR
+   * (c) 100% TM+BL
+   * (d) 100% Stable A
+14. Small undercooling in aluminium alloys induces strengthening by:
+   * (a) Solid solution
+   * (b) phase transformation
+   * (c) through-grain precipitation
+   * (d) grain refinement
+15. The inner core of a thin casting solidifying into a metallic mould solidifies into?
+   * (a) large equiaxed grains
+   * (b) columnar grains
+   * (c) dendrite crystals
+   * (d) small equiaxed grains
+16. Which of the following eng.ng alloys is suitable for shaping thin automotive panels?
+   * (a) magnesium alloys
+   * (b) low alloy steels
+   * (c) stainless steel
+   * (d) aluminium alloys
+17. Which of the following situations is NOT critical for corrosion to stainless steels?
+   * (a) contact with a metal
+   * (b) near the sea
+   * (c) flowing water
+   * (d) inside soils
+18. The carburizing element(s) in the 28CrMo125 steel is/are?
+   * (a) Cr
+   * (b) Mo
+   * (c) both
+   * (d) neither
+
+---
+
+## Written Exam of TMM (Cut Header, starts with "1. In the F-r...")
+1. In the F-r Condon-Morse function the Young modulus is its:
+   * (a) slope
+   * (b) MIN
+   * (c) MAX
+   * (d) inflection point
+2. Which is the easy-to-slip crystal structure among the following?
+   * (a) BBC
+   * (b) FCC
+   * (c) BCT
+   * (d) HCP
+3. Fe atom diffuses faster in BCC than in FCC crystal because:
+   * (a) larger n. of interstitial sites
+   * (b) smaller size of interstitials sites
+   * (c) only at high temperature
+   * (d) less defects
+4. Select the reaction which DOES NOT occur in the blast furnace:
+   * (a) C+O2->CO2
+   * (b) CO2+C->2CO
+   * (c) CaCO3->CaO+CO2
+   * (d) none
+5. Which is the high temperature invariant reaction in C>2% steels
+   * (a) eutectic
+   * (b) eutectoid
+   * (c) peritectic
+   * (d) peritectoid
+6. In the C1-alloy (figure) 100%M can be formed after equilibrium cooling to:
+   * (a) A1 then quenching
+   * (b) A3 then quenching
+   * (c) Acm then quenching
+   * (d) none
+7. A1 point (see figure) decreases its value with the alloying of:
+   * (a) Si
+   * (b) Mo
+   * (c) Ni
+   * (d) Ti
+8. Estimate the cementite proportion in P at Co and To (see figure)
+   * (a) 0.4-6.6/7%
+   * (b) 0.4/7%
+   * (c) 0.5%
+   * (d) 0.5-6.6/7%
+9. Give the symbol name for C temperature and R region in figure
+   * (a) A1/ M+AR
+   * (b) A3/ M+AR
+   * (c) A3/ M
+   * (d) Acm/ M
+10. What is the %C in AISI 4140 steel
+   * (a) 4%
+   * (b) 0.4%
+   * (c) 0.41%
+   * (d) 40%
+11. How does growth rate change with increasing temperature in figure
+   * (a) decreases
+   * (b) increases
+   * (c) unchanged
+   * (d) uncertain
+12. What is the cause for the bainitic bay in the TTT diagram (figure)
+   * (a) presence of Ni
+   * (b) presence of large amount of C
+   * (c) presence of Ni, Cr, Mo
+   * (d) presence of Cr, Mo
+13. Given the TTT diagram (in figure), estimate the fraction of cooling products at point 2
+   * (a) 75%BU + 25% AR
+   * (b) 75% BU + 45% TM-BL + 5%AR
+   * (c) 75%BU + 12.5% M+12.5% AR
+   * (d) 75% BL +25% AR
+14. It is FALSE that TMCP structural steels exhibit:
+   * (a) high Ys
+   * (b) high UTS
+   * (c) high toughness
+   * (d) low resilience
+15. It is FALSE that Extensive solid solution can be achieved with:
+   * (a) very low activation energy
+   * (b) intersitials
+   * (c) FCC structure
+   * (d) large difference in Electronegarivity
+16. Corrosion occurs preferentially at the cathode because
+   * (a) e- accumulate here
+   * (b) e- depart from here
+   * (c) none
+   * (d) H gas develops
+17. An AISI 1010 contains considerable amount of
+   * (a) C
+   * (b) Ni
+   * (c) Cr
+   * (d) none
+18. PREN number for SS must be
+   * (a) >15 for Austenitic
+   * (b) the lower the better
+   * (c) not applied to Austenitic
+   * (d) <15 for Austenitic
+
+---
+
+## Session of February 26, 2024 (Version B)
+1. In the periodic table, electropositivity of elements decreases:
+   * (a) towards left/top
+   * (b) towards left/bottom
+   * (c) towards right/bottom
+   * (d) towards right/top
+2. What is UNTRUE on thermal expansion coefficient?
+   * (a) it is a microstructure insensitive property
+   * (b) it is always isotropic
+   * (c) it can be derived from the Condon-Morse curve
+   * (d) it measures the softness of crystals
+3. The ductility of metals is explained by the
+   * (a) spring-like nature of bonds
+   * (b) permanent breaking of bonds
+   * (c) absence of covalent bonds
+   * (d) very large separation of atoms
+4. What is UNTRUE on stacking faults? They are
+   * (a) atomic plane packing faults of BCC crystals
+   * (b) atomic plane packing faults of FCC crystals
+   * (c) formed upon plastic deformation
+   * (d) formed upon solidification
+5. Estimate the %M in 1%C steel after quenching from K point (figure)
+   * (a) 30%
+   * (b) ~99%
+   * (c) ~1 %
+   * (d) ~70%
+6. What is the %C in austenite at K point (figure)
+   * (a) 6.67%
+   * (b) 0.09%
+   * (c) 0.9%
+   * (d) 1%
+7. The two low temperature domain phases (format P/M figure) in hypoeutectoid steels with M the dominant phase present
+   * (a) F/P
+   * (b) F/Cem
+   * (c) F/A
+   * (d) Cem/F
+8. What is the %C in cementite at K point(figure)
+   * (a) 6.67%
+   * (b) 0.09%
+   * (c) 0.9%
+   * (d) 1%
+9. The T1 temperature of the steel shown in TTT (figure)
+   * (a) A2
+   * (b) A3
+   * (c) A1
+   * (d) Acm
+10. If the Vickers hardness (HV) of a steel 420, its UTS is estimated as:
+   * (a) 2000 MPa
+   * (b) 200 MPa A
+   * (c) 1400 MPa
+   * (d) 400 MPa
+11. What is UNTRUE on pearlite in carbon steels? It:
+   * (a) can be hardened by work hardening
+   * (b) exhibits a lamellar structure
+   * (c) hardens by spheroidization
+   * (d) is ductile microconstituent
+12. With increasing undercooling in TTT diagram, the rate of diffusion:
+   * (a) increases
+   * (b) is moderate
+   * (c) decreases
+   * (d) is independent
+13. Estimate the weight fraction of cooling products in the stepped isothermal transformations 1-3 (see TTT diagram in figure)
+   * (a) 30% BL+TM + 70%AR
+   * (b) 30%M+ 20% BL+TM + 50%AR
+   * (c) 30%M+ 60% BL+TM + 10%AR
+   * (d) 30%M+ 70%AR
+14. Upon ultrafast solidification, the initial crystal critical nuclei will:
+   * (a) aggregate into large clusters
+   * (b) aggregate into small cluster
+   * (c) disgregate into separate elements
+   * (d) N/A
+15. The inner core of a large casting solidifying into a ceramic mould solidifies by?
+   * (a) large equiaxed grains
+   * (b) full columnar grains
+   * (c) N/A
+   * (d) small equiaxed grains
+16. Which of the following eng.ng alloys suffer a strain hardening ability?
+   * (a) Magnesium alloys
+   * (b) low alloy steels
+   * (c) copper alloys
+   * (d) aluminium alloys
+17. Which alloy does NOT undergo brittle fracture under regular cold working?
+   * (a) copper alloy
+   * (b) magnesium alloy
+   * (c) mild steel
+   * (d) aluminium alloy
+18. What is the Cr content in the 14CrMo910 steel?
+   * (a) 10%
+   * (b) 14%
+   * (c) 2.25%
+   * (d) 9%
+
+---
+
+## Session of Feb 21, 2022
+1. It is FALSE on the advantages of pure metals vs. alloys that are:
+   * (a) > ductile
+   * (b) >corrosion resistant
+   * (c) tougher
+   * (d) stiffer
+2. It is FALSE in Humé-Rothery rules that all provide indications for compound formation depending on
+   * (a) Electronegativity difference
+   * (b) atom radii difference=25%
+   * (c) valence
+   * (d) crystal structure
+3. What is formed when electronegativities of atoms differ?
+   * (a) intermetallic compound
+   * (b) liquid solution
+   * (c) solid solution
+   * (d) alloy steels
+4. Precipitation hardening does NOT involve the following step:
+   * (a) solutionizing
+   * (b) quenching
+   * (c) aging
+   * (d) phase change
+5. Determine %C in Y and the symbol of T-line in W (see figure)
+   * (a) 0.022%/Acm
+   * (b) 0.0025%/Acm
+   * (c) 0.0025%/A3
+   * (d) 0.022%/A3
+6. How does A1 change after alloying 5% Mn to initial Co-alloy
+   * (a) decreased
+   * (b) increased
+   * (c) unchanged
+   * (d) disappear
+7. For C1-alloy in figure, which temperature must be reached under equilibrium before final quenching to form 5% cementite and 95% M
+   * (a) down to Tamb
+   * (b) down to Acm
+   * (c) down to A1
+   * (d) down to A3
+8. Estimate the proportion of pearlite of Co-alloy at To
+   * (a) ~10 %
+   * (b) ~40 %
+   * (c) ~ 0.2+7 %
+   * (d) 50 %
+9. Indicate the R-field name in the TTT diagram (figure)
+   * (a) F+P
+   * (b) F+cementite
+   * (c) stable A
+   * (d) BU
+10. Indicate the T-line in C-field name in the TTT diagram (figure)
+   * (a) A3
+   * (b) A1
+   * (c) Acm
+   * (d) A1
+11. How is microstructure toughness affected in the AISI 4140 steel with decreasing temperature in the TTT diagram (see figure)
+   * (a) increased
+   * (b) decreased
+   * (c) unaffected
+   * (d) undefined
+12. Which of the following alloys may contain some pro-eutectoid cementite upon slow cooling
+   * (a) AISI 1020
+   * (b) AISI 4340
+   * (c) AISI 1095
+   * (d) AISI 304
+13. Estimate the proportion of cooling products on cooling down to point 2 (see figure)
+   * (a) 50% M + 50% TM-BL
+   * (b) 50% M +45% TM-BL + 5%AR
+   * (c) 50% TM-BL + 50% AR
+   * (d) 90%TM-BL 10%AR
+14. What is the more suited class of steels for induction hardening?
+   * (a) austenitic SS
+   * (b) tempering steel
+   * (c) low carbon steel
+   * (d) None
+15. In which alloy strain hardening is most effective for highest strength?
+   * (a) Aluminum alloys
+   * (b) Co-alloy
+   * (c) Carbon steels
+   * (d) Mg alloys
+16. How is the eutectic composed in the Al-Si alloy system?
+   * (a) Al + Si
+   * (b) α (solid solution) + β (solid solution)
+   * (c) Si+liquid
+   * (d) α (solid solution) + Si
+17. Which are the precipitates formed since early aging in A2XXX alloys?
+   * (a) Al2Cu GP zones
+   * (b) Al2Mn GP zones
+   * (c) Al2Mn3 GP zones
+   * (d) Al2Mg GP zones
+18. In which metal the rate of corrosion is highest?
+   * (a) Cu
+   * (b) Fe
+   * (c) Zn
+   * (d) Ti
+
+---
+
+## Session of Jan 28, 2025
+1. The Hall-Petch law governs the relation between dislocation and:
+   * (a) other dislocations
+   * (b) interstitials
+   * (c) ppt
+   * (d) GB
+2. The alloys possessing the strain hardening coefficient n<<0.45
+   * (a) PH-steels
+   * (b) austenitic stainless steels
+   * (c) Co-alloy
+   * (d) Cu-alloy
+3. In the artificial aging curve of Al-Cu alloy the Ys decreases because
+   * (a) dislocation dis-anchor
+   * (b) ppt dissolve
+   * (c) RS relax
+   * (d) diffusion point
+4. Why does the Sr promote finer eutectic in Al-Si castings:
+   * (a) it bonds with Si
+   * (b) it bonds with Al
+   * (c) it introduces artificial undercooling
+   * (d) Al, Si diffusion reduces growth
+5. Which is the alloying element affecting CE to a lesser extent
+   * (a) Ni
+   * (b) Si
+   * (c) Mn
+   * (d) Cr
+6. What is the rightmost invariant point present in the Fe-C diagram
+   * (a) eutectic point
+   * (b) peritectic point
+   * (c) N/A
+   * (d) eutectoid point
+7. What is the N domain? (figure)
+   * (a) A+F
+   * (b) F+CEM
+   * (c) F
+   * (d) Fe
+8. Estimate the %CEM into pearlite (see figure)
+   * (a) 30 %
+   * (b) ~60 %
+   * (c) 90 %
+   * (d) 10 %
+9. The symbol name of A-temperature in the TTT diagram (figure)
+   * (a) A2
+   * (b) A1
+   * (c) Acm
+   * (d) A3
+10. The C-field name in the TTT diagram (figure)
+   * (a) CEM+F
+   * (b) CEM+AR
+   * (c) CEM+P
+   * (d) CEM+B
+11. How do hardenability-promoter elements affect TTT curves (fig)
+   * (a) Shift M90 down
+   * (b) Shift M90 up
+   * (c) Shift left
+   * (d) Shift down-right
+12. Which surface hardening process does minimize RS?
+   * (a) laser hardening
+   * (b) induction hardening
+   * (c) carburizing
+   * (d) nitriding
+13. Estimate the weight fraction of cooling products along the transformation n.2 (see figure)
+   * (a) 50%M+ 40%BL +10%AR
+   * (b) 25%F +60% BL +15%AR
+   * (c) 25%F + 60% BL +5% MT-BL+10%AR
+   * (d) 25%F +60% BL +15% MT-BL
+14. What is NOT a role of Mn in tempering steels
+   * (a) carbide former
+   * (b) de-sulfurizing
+   * (c) de-oxidizing
+   * (d) hardenability promoter
+15. A NON-influencing factor for weldability of low carbon steels is:
+   * (a) %Ni
+   * (b) %C
+   * (c) grain size
+   * (d) hardenability of elements
+16. The main and most effective strengthening method of 7xxx Al-alloys is:
+   * (a) grain size refinement
+   * (b) aging
+   * (c) cold-working
+   * (d) solid solution
+17. The main factor controlling interstitial corrosion is:
+   * (a) pH water =6-10
+   * (b) surface area ratio
+   * (c) dry environment
+   * (d) flowing water
+18. A NON-influencing factor for passivated protective films for corrosion resistance:
+   * (a) high reactivity vs. oxygen
+   * (b) porosity free
+   * (c) high adhesion
+   * (d) very high thickness
+
+---
+
+## Written Exam of TMM (Header Cut - Starts "1. Which system below...")
+1. Which system below is a slip system for FCC crystals
+   * (a) (111)[110]
+   * (b) (111)[1-10]
+   * (c) (1-10)[111]
+   * (d) (231)[1-11]
+2. Which among the factors below DOES NOT affect toughness
+   * (a) heat into grains
+   * (b) ductility
+   * (c) crystal structure
+   * (d) grain size
+3. Atom diffuses faster in BCC than in FCC because:
+   * (a) larger n. of interstitial sites
+   * (b) smaller size of interstitials sites
+   * (c) only at high temperature
+   * (d) unaffected
+4. Which material property is NOT microstructure sensitive
+   * (a) Young modulus
+   * (b) Yield stress
+   * (c) thermal expans.coef.
+   * (d) density
+5. Give the symbol name of the Q-temperature in the figure
+   * (a) A1
+   * (b) A3
+   * (c) Acm
+   * (d) A4
+6. Give the domain name of the R-region in the figure
+   * (a) F+A
+   * (b) A+P
+   * (c) Cementite+A
+   * (d) Cementite+F
+7. A1 point (see figure) decreases its value with the alloying of:
+   * (a) Si
+   * (b) Mo
+   * (c) Ni
+   * (d) Ti
+8. Apply the lever rule for the austenite fraction to the alloy in figure
+   * (a) ~5.8/7 %
+   * (b) ~(6.1)/(6.2) %
+   * (c) ~0.1/7 %
+   * (d) ~0.1/7 %
+9. Give the symbol name for C-temperature in TTT diagram (figure)
+   * (a) A2
+   * (b) A3
+   * (c) A1
+   * (d) Acm
+10. Give the R-field name in the TTT diagram (figure)
+   * (a) F+A
+   * (b) P+A
+   * (c) Cemtite+A
+   * (d) BL-TM+AR
+11. Give a symbol name for D-temperature in TTT diagram (figure)
+   * (a) Ms
+   * (b) A3
+   * (c) A1
+   * (d) Acm
+12. For which class of steels heat treatment strengthening is dominant
+   * (a) austenitic steels
+   * (b) nitriding steels
+   * (c) tempered steels
+   * (d) wrought steels
+13. Given the TTT diagram (in figure), estimate the fraction of cooling products at point 2
+   * (a) 10%cementite+ 90%M-BU
+   * (b) 10%cementite+90%TM-BL
+   * (c) ~10% cem d) + 90%BL
+   * (d) ~100%AR
+14. What is NOT a feature of austenite
+   * (a) FCC
+   * (b) NOT a close packed crystal
+   * (c) softest phase
+   * (d) can be stabilized at room temperature
+15. For which applications below hardenability does not play a convenient role
+   * (a) large shaft
+   * (b) increase wear resistance
+   * (c) harden complex parts
+   * (d) avoid quenching crack
+16. Indicate the class of steel for 35NiCrMo15
+   * (a) tool steel
+   * (b) low-alloy steel
+   * (c) stainless steel
+   * (d) tool steel
+17. Which surface treatment process is more suitable to increase fatigue resistance of gear teeth
+   * (a) surface hardening
+   * (b) carburizing
+   * (c) induction heat treatment
+   * (d) laser
+18. In the Fe-Zn alloy which element does undergo anodic reaction
+   * (a) Fe
+   * (b) Zn
+   * (c) both
+   * (d) none
+
+---
+
+## Written Exam of TMM (Marked "FAIL")
+1. Which is the fastest diffusion process at low temperature
+   * (a) bulk diffusion
+   * (b) surface diffusion
+   * (c) Grain boundary diffusion
+   * (d) interstitial diffusion
+2. Which is the final function of VOD in the post treatment of steels
+   * (a) decarburize
+   * (b) deoxidize
+   * (c) carburizing
+   * (d) degassing
+3. By which factor is grain boundary energy influenced?
+   * (a) polymorphism
+   * (b) crystal anisotropy
+   * (c) misorientation angle
+   * (d) crystal structure
+4. What does Electronegativity determine in metals
+   * (a) ionic bondic
+   * (b) nature of atomic bonds
+   * (c) electron motion
+   * (d) lattice defects interaction
+5. How much do you expect in the proportion of austenite at Tamb when 5%Ti is alloved to Co-alloy (see figure)
+   * (a) nearly 100%
+   * (b) very small
+   * (c) unrelated
+   * (d) a new phase grows up
+6. Indicate the phase composition (Q/W, R) of microstructure (figur)
+   * (a) pearlite/α, γ
+   * (b) α/cem, γ
+   * (c) γ/cem, α
+   * (d) α/γ, cem
+7. Detect the %C in austenite in the Co-alloy at To (see figure)
+   * (a) <0.022%C
+   * (b) 0.77%
+   * (c) 0.2%
+   * (d) 0.53%
+8. Estimate the pearlite proportion of the Co-alloy at To (see figure)
+   * (a) 0.2/0.77 %
+   * (b) ~0.2 /0.5%
+   * (c) ~0.3 /0.5%
+   * (d) 0.3/0.77 %
+9. How can temper embrittlement be prevented in steel processing
+   * (a) adding Mo
+   * (b) adding Cr
+   * (c) Adding Mn
+   * (d) Adding Si
+10. Indicate the R-field name and the C temperature in Figure
+   * (a) metastable A/Acm
+   * (b) metastable A/A3
+   * (c) stable A/A3
+   * (d) stable A/A1
+11. How does nucleation rate below B nose change with decreasing temperature in the TTT diagram (see figure)
+   * (a) increases
+   * (b) decreases
+   * (c) unaffected
+   * (d) undefined
+12. For which steel, among AISI 1020, 4140, 4340, weldability is largest
+   * (a) AISI 1020
+   * (b) AISI 4140
+   * (c) AISI 4340
+   * (d) none
+13. Estimate the fraction of cooling products down to point 2
+   * (a) 50% BU +50% AR
+   * (b) 50% M +50% TM-BL
+   * (c) 50%M +50%AR
+   * (d) 50%TM-BL +50 AR
+14. Which is the most suitable application for AISI 1095 steel?
+   * (a) ignition valve
+   * (b) crankshaft
+   * (c) punching tool
+   * (d) stamping panel
+15. How does cold rolling enhance fatigue resistance of long rolled products
+   * (a) severe strain hardening
+   * (b) using small rolls
+   * (c) controlled rolling
+   * (d) on-line cooling
+16. Which of the following factors DOES NOT influence galvanic corrosion
+   * (a) like metals in contact
+   * (b) surface area ratio of electrodes
+   * (c) pH
+   * (d) humidity
+17. Determine the %C and %Cr in the X40Cr14 steel
+   * (a) 4%C / 14%Cr
+   * (b) 0.4%C / 14%Cr
+   * (c) 40%C / 3.5%C
+   * (d) 0.4%C / 1.4%Cr
+18. Which of the following metals IS NOT corrosion protective of metals and alloys
+   * (a) Ti
+   * (b) Zn
+   * (c) Mg
+   * (d) W
+
+---
+
+## Session of January 31, 2022 (FAC-SIMILE)
+1. Which of the following clauses is NOT a stacking fault feature:
+   * (a) typical of FCC crystal
+   * (b) coherent interface
+   * (c) its a defective stacking of planes
+   * (d) can be remove by annealing
+2. Grain refinement can be achieved using different methods, mark the clause which is NOT TRUE
+   * (a) both heat/cool rapidly
+   * (b) GB pinning by precipitates
+   * (c) heat slow and cool rapidly t
+   * (d) recrystallize and cool fast
+3. Factors affecting formability- mark the clause which is NOT TRUE
+   * (a) high temperature
+   * (b) strain rate
+   * (c) small grain
+   * (d) large grain
+4. What is the common factor to all strengthening methods in metals
+   * (a) presence of edge dislocations
+   * (b) defects concentration
+   * (c) dislocation density
+   * (d) stress conditions
+5. The symbol name of Q-temperature in the figure
+   * (a) A1
+   * (b) A3
+   * (c) Acm
+   * (d) A4 °C
+6. The domain name of R-region in the figure
+   * (a) F+A
+   * (b) A+P
+   * (c) Cementite+A
+   * (d) Cementite+F
+7. A1 point decreases with increasing of: (mark the UNTRUE clause)
+   * (a) undercooling
+   * (b) alloying
+   * (c) cooling rate
+   * (d) dislocation density
+8. Apply the lever rule for the austenite fraction to Co alloy (figure)
+   * (a) ~5.8/7 %
+   * (b) 5.8/6.2 %
+   * (c) ~0.4/6.2 %
+   * (d) ~0.4/7 %
+9. The symbol name of C-temperature in the TTT diagram (figure)
+   * (a) A2
+   * (b) A3
+   * (c) A1
+   * (d) Acm
+10. The R-domain name in the TTT diagram (figure)
+   * (a) BL-TM+AR
+   * (b) BL-TM
+   * (c) Cementite+AR
+   * (d) BL+AR
+11. How does Co alloying affect the TTT curves (figure)
+   * (a) Shift M90 down
+   * (b) Shift M90 up
+   * (c) Shift left
+   * (d) Shift right
+12. To enhance wear resistance of a tempered AISI 1038 steel it must follow a process of:
+   * (a) flame hardening
+   * (b) nitriding
+   * (c) carburizing
+   * (d) spheroidization
+13. Estimate the weight fraction of cooling products after transformation at point 2 as shown in the TTT diagram (see figure)
+   * (a) 30%F+35%TM-BL+35%AR
+   * (b) ~50%F+ 40% TM + 10%AR
+   * (c) 50%F+50 %TM-BL
+   * (d) 50%F + 50%AR
+14. Which process does result in a tensile residual stress state
+   * (a) quenching in cold bath
+   * (b) cold rolling with small rolls
+   * (c) welding
+   * (d) induction surface hardening
+15. Which is the effective reducing agent of Iron ores in blast furnace for pig iron refinement
+   * (a) Carbon coke
+   * (b) Limestones
+   * (c) CO
+   * (d) CO2
+16. Which precipitation process is more effective for strengthening Aluminum alloys
+   * (a) natural aging
+   * (b) artifical aging
+   * (c) overaging
+   * (d) precipitation at GB
+17. Which of the following element in steels is not a deoxidizer element:
+   * (a) Si
+   * (b) Ni
+   * (c) Mn
+   * (d) Al
+18. Sensitization in austenitic stainless steels is caused by:
+   * (a) Impurities
+   * (b) GB precipitation of N
+   * (c) GB precipitation of Cr
+   * (d) Interstitial corrosion

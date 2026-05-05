@@ -1,0 +1,162 @@
+Based on the new set of 5 images, I have skipped the questions that were identical to those extracted in your previous requests, as well as the entirely duplicate pages uploaded within this batch.
+
+**Total skipped questions: 60**
+*(This count includes three entire sheets that were exact copies of earlier ones: the F-r Condon-Morse exam, the FAIL exam, and the "Which is a fast diffusion path" exam. It also includes 6 duplicate questions from the new Jan 28, 2025 variant that overlapped with a different version of the same exam date from your first batch).*
+
+Here are the unique questions extracted from the remaining pages:
+
+## Session of Jan 28, 2025 (Variant A)
+1. Which of the following is NOT a feature of Gunier-Preston zones:
+   * (a) form at early stage of aging
+   * (b) have semi-coherent interface
+   * (c) are sheared by dislocations
+   * (d) can be sheared
+2. Features of Recovery process, mark the UNTRUE clause:
+   * (a) marked decrease in RS
+   * (b) marked increase in ductility
+   * (c) it starts at T < Trecrystal
+   * (d) dislocations annihilation
+3. What is UNTRUE requirement for twinning activation in metals:
+   * (a) impact loading
+   * (b) FCC
+   * (c) high temperature
+   * (d) small SFE
+4. Which among the listed stainless steels exhibit the highest corrosion resistance to pitting:
+   * (a) austenitic
+   * (b) N/A
+   * (c) martensitic
+   * (d) ferritic
+7. What is the small phase region left-adjacent to P (figure):
+   * (a) austenite
+   * (b) ferrite
+   * (c) A+F
+   * (d) pearlite
+8. Estimate the %ferrite into pearlite (see figure)
+   * (a) 30 %
+   * (b) ~60 %
+   * (c) 90 %
+   * (d) 10 %
+10. The G-field name in the TTT diagram (figure)
+   * (a) MT+BL
+   * (b) MT+BL+AR
+   * (c) M+A
+   * (d) M
+13. Estimate the weight fraction of cooling products along the transformation n.3 (see figure)
+   * (a) 30%M+ 60%MT-BL+10%AR
+   * (b) 10%F +30%M+ 30%MT-BL+ 30%AR
+   * (c) 50%F + 20% M +30%AR
+   * (d) 10%F +30% M + 60%MT-BL
+15. In the production of steels, the electric arc furnace is used to:
+   * (a) melt iron ores
+   * (b) decarburize
+   * (c) de-oxides the iron ores
+   * (d) remelt alloy steel scraps
+16. The strengthening method of stainless steels is:
+   * (a) Tempering
+   * (b) aging
+   * (c) cold-working
+   * (d) texture-fiber strengthening
+17. Pitting corrosion in stainless steels (SS) is harmful because:
+   * (a) >>% O in water
+   * (b) unfavorable area ratio factor
+   * (c) high humidity in air
+   * (d) not austenitic SS
+18. What is a NON-influencing environmental factor in corrosion of stainless steels:
+   * (a) pH
+   * (b) water flow rate
+   * (c) dry air
+   * (d) absence of oxygen
+
+---
+
+## Session of Jan 28, 2025 (Variant B)
+1. What is NOT a feature if a TWINs:
+   * (a) may form after impact deformation
+   * (b) are energy-conservative
+   * (c) form by crystal rotation
+   * (d) may form in BCC crystals
+2. It is NOT a step of an aging (strengthening) process
+   * (a) solutionizing
+   * (b) quenching
+   * (c) recovery
+   * (d) grain growth
+3. An uncommon feature of martensitic and bainitic formation is:
+   * (a) nucleation
+   * (b) growth
+   * (c) shear
+   * (d) parent phase is austenite
+4. Which element is difficult to oxidize?
+   * (a) Zn
+   * (b) Cu
+   * (c) Si
+   * (d) Sn
+5. With the addition of Ti in a Fe-C alloy, it is unlike that phase transformation on cooling is accompanied by:
+   * (a) coarser P structure
+   * (b) finer P structure
+   * (c) %F increased
+   * (d) %P decreased
+6. What is the phase indicated in the figure as H:
+   * (a) ferrite
+   * (b) austenite
+   * (c) pearlite
+   * (d) cementite
+7. For 0.8%C steel at 760 °C (figure) estimate the %C of the T-phase
+   * (a) 0.76%
+   * (b) 0.022%
+   * (c) 6.7%
+   * (d) 0.0025%
+8. For a 1.8%C alloy at 760 °C (fig), estimate the % pro-eutct CEM
+   * (a) ~1.8/6.7%
+   * (b) ~0.8/6.7%
+   * (c) ~1/6%
+   * (d) ~5/6%
+9. Indicate the G-field name in the TTT diagram (figure)
+   * (a) M
+   * (b) F+CEM
+   * (c) AR+TM-BL
+   * (d) M+A
+10. We know that Mn influences the %C of the eutectoid point (CE), then with increasing Mn, the %pearlite:
+   * (a) increases
+   * (b) decreases
+   * (c) drops to zero
+   * (d) increases to 100%
+11. In TTT diagram (figure), with the decreasing of the transformation temperature, the nucleation rate:
+   * (a) decreases
+   * (b) increases
+   * (c) does not change
+   * (d) N/A-
+12. Bainite is composed of:
+   * (a) P-M
+   * (b) F-CEM
+   * (c) M-F
+   * (d) F-P
+13. In TTT diagram (figure) estimate the microstructure composition at the end of transformation curve n.1
+   * (a) 20% P + 65%BL+ 15% TM-BL
+   * (b) 60% F + 30% BL+ 5% TM-BL + 5%AR
+   * (c) 40% F + 50%BL+5% TM-BL + 5%AR
+   * (d) 10% F + 70%BL+ 5% TM-BL + 15%AR
+14. What is NOT a distinct feature of bainite?
+   * (a) as strong and tough as TM
+   * (b) high-resolved microstructure
+   * (c) 100% attained upon CCT
+   * (d) grow under diffusion control
+15. Which is NOT an effect of recovery
+   * (a) grain growth
+   * (b) lower residual stress
+   * (c) reduction in dislocation density
+   * (d) no change in microstructure
+16. The steel 20NiCrMo2-2 belong to the class of:
+   * (a) nitriding steel
+   * (b) tempered steel
+   * (c) tool steel
+   * (d) carburizing steel
+17. Which is the minor strengthening mechanism of Al-alloys:
+   * (a) solid solution
+   * (b) cold work
+   * (c) aging
+   * (d) fiber texture
+18. It is an unlike property of austenitic stainless steels AISI 304?
+   * (a) paramagnetic
+   * (b) absence of DBTT
+   * (c) excellent corrosion R.
+   * (d) excellent weldability

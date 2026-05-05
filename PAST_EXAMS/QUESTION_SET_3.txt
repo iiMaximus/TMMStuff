@@ -1,0 +1,283 @@
+Based on the new batch of images provided, I have skipped any questions that were identical to the ones extracted from your previous request, as well as any duplicate sheets uploaded within this current batch. 
+
+**Total skipped questions: 123**
+*(This count includes several sheets that were exact copies of earlier ones, such as the "Feb 21, 2022" test, the "Jan 31, 2022" test, the unannotated "TMM Written Test" regarding the Gunier-Preston zone, and duplicate uploads within this very batch like the "Feb 20, 2023" sheet being a duplicate of the "July 3rd, 2023" sheet).*
+
+Here are the completely new, unique questions extracted from the remaining sheets:
+
+## Session of July 3rd, 2023 (and Feb 20, 2023)
+*(Note: Question 9 from this sheet was skipped as it is an exact duplicate of a question from the undated TMM test in your first batch).*
+
+1. Which of the following clauses is NOT a Twin feature:
+   * (a) typical of FCC crystal
+   * (b) lattice rotation about a twin plane
+   * (c) High energy grain boundary
+   * (d) High angle grain boundary
+2. Which of the following features do NOT affect toughness
+   * (a) pores
+   * (b) solid inclusion
+   * (c) dislocations
+   * (d) grains
+3. The strengthening method which induces a grain refinement is:
+   * (a) aging
+   * (b) precipitation at GB
+   * (c) cold work
+   * (d) solid solution
+4. The element exhibiting the largest melting point
+   * (a) Fe
+   * (b) Co
+   * (c) W
+   * (d) Pb
+5. Give the symbol name for the Q-temperature line in the figure
+   * (a) A1
+   * (b) A3
+   * (c) Acm
+   * (d) A4 °C
+6. The phase mixture name of the R-region in the figure
+   * (a) Ferrite+Austenite
+   * (b) A+P
+   * (c) Cementite+A
+   * (d) Cementite+Ferrite
+7. In figure, A1 point does NOT increase with the addition of:
+   * (a) Si
+   * (b) Mo
+   * (c) Ti
+   * (d) Ni
+8. In figure, detect the approx. %C in austenite of the given alloy
+   * (a) ~0.83 %
+   * (b) ~0.8 %
+   * (c) 0.77 %
+   * (d) ~6.7 %
+10. Give the name of R-domain name in the TTT diagram (figure)
+   * (a) Cementite+A
+   * (b) P+A
+   * (c) A+B
+   * (d) F+A
+11. How does Ni alloying shift Ms in TTT curves (figure)
+   * (a) Shift left
+   * (b) Shift right
+   * (c) Decrease
+   * (d) Increase
+12. A quenched AISI 1095 steel is brittle because:
+   * (a) excessive carbon in solution
+   * (b) coarse-grain ferrite
+   * (c) carbide films at GB
+   * (d) carbide particles into grains
+13. In TTT diagram in figure, estimate microstructure composition at point 2 (neglect cooling products contributing with %phases < 5%)
+   * (a) 50%F+50 %TM-BL
+   * (b) 10%C+50%P+40%TM-BL
+   * (c) 50%P +25% %TM-BL +25%AR
+   * (d) ~50%P+ 50%BL
+14. Which is NOT a typical strengthening factor of HSLA steels:
+   * (a) solid solution
+   * (b) aging
+   * (c) grain refinement
+   * (d) GB precipitation
+15. In the production of pig iron in a blast furnace which, of the following clauses, is NOT a function of limestones
+   * (a) trap impurities
+   * (b) prevent oxidation of pig iron
+   * (c) steel alloying
+   * (d) decrease melting point of iron ores
+16. Estimate the %Cr in the 35NiCrMo15 steel
+   * (a) 0.1%
+   * (b) 0.15%
+   * (c) 0.5%
+   * (d) N/A
+17. State the UNTRUE clause on the role of Ni added in tempering low alloy steels:
+   * (a) increase toughness
+   * (b) promote precipitation
+   * (c) decrease DBTT
+   * (d) promote austenite
+18. What is the role of Ni in stainless steels
+   * (a) passivation
+   * (b) bond with oxigen
+   * (c) increase solubility of Cr
+   * (d) promote austenite phase
+
+---
+
+## Written Exam of TMM (Starts with "Which is a fast diffusion path?")
+1. Which is a fast diffusion path?
+   * (a) substitutional diffusion
+   * (b) interstitial diffusion
+   * (c) GB diffusion
+   * (d) N/A
+2. What is the maximum Schmid factor in tensile test ?
+   * (a) 0.25
+   * (b) 0.75
+   * (c) 1
+   * (d) 0.5
+3. A direct consequence of Cottrell atmospheres in mild steels:
+   * (a) brittle fracture
+   * (b) Luders' bands
+   * (c) exceptional sample elongation
+   * (d) carbide precipitations
+4. Indicate which grain features enhance the strain hardening of metallic alloys:
+   * (a) fine grains
+   * (b) coarse grains
+   * (c) grains with LAGB
+   * (d) grains with HAGB
+5. Apply the lever rule to pearlite fraction in 0.2%C steel (figure)
+   * (a) ~0.2 %
+   * (b) ~0.5 %
+   * (c) ~0.35 %
+   * (d) ~0.65 %
+6. The excessive addition of Mn in steels tends at Tamb to stabilize:
+   * (a) F
+   * (b) P
+   * (c) A
+   * (d) Cem
+7. What are the domain phases in D and F (figure) in the format D/F?
+   * (a) F+A/Cem+A
+   * (b) F/Cem+A
+   * (c) F/Cem+F
+   * (d) A/F
+8. What are the critical points in S and G (figure)? In the format S/G
+   * (a) A4/A3
+   * (b) A3/A1
+   * (c) A1/A3
+   * (d) A3/A4
+9. What is %C in AISI 1060 steel given in the TTT diagram (figure)?
+   * (a) 0.10
+   * (b) 6
+   * (c) ~ 0.6
+   * (d) 0.06
+10. What are two temperatures noted with A and B (top figure) - A/B?
+   * (a) A4/A3
+   * (b) A1/A3
+   * (c) A3/A1
+   * (d) A3/A4
+11. Estimate the lowest nucleation time for the AISI 1060 steel (figure):
+   * (a) 0.5
+   * (b) none
+   * (c) 2 s
+   * (d) 10 s
+12. What is an UNTRUE property or role played by Ni in steels
+   * (a) solid solution strengthener
+   * (b) hardenability promoter
+   * (c) ferritizing element
+   * (d) toughness promoter
+13. Estimate the weight fraction of cooling products during stepped isothermal transformations 1-4 (see TTT diagram in figure)
+   * (a) 50%M +40% TM+BL+ 10%AR
+   * (b) 10% P + 10%BU+ 70%BL+TM+ 10%AR
+   * (c) 90% M +10%TM+BL
+   * (d) 50%M + 50%TM + BL
+14. In the continuous production of steels, what is the initial steel microstructure entering the rough mills:
+   * (a) liquid metal
+   * (b) austenite
+   * (c) mixed liquid and austenite
+   * (d) ferrite-cementite
+15. Al is more abundant than iron but it is produced in smaller amounts, why? It is because it is:
+   * (a) difficult to separate from oxide
+   * (b) difficult mining
+   * (c) polluted by impurities
+   * (d) high melting point
+16. A favorable condition for ductile-to-brittle transition temperature in metals and alloys
+   * (a) impact loading
+   * (b) HCP crystal structure
+   * (c) triaxial stress state
+   * (d) high temperature
+17. Which metallurgical process may lead to the production of metallic single grains:
+   * (a) cold rolling
+   * (b) recrystallization
+   * (c) grain growth after recrystallization
+   * (d) hot extrusion
+18. What is UNTRUE with the 14CrMo3 steel? It is:
+   * (a) tempering steel
+   * (b) low alloy steel
+   * (c) stainless steel
+   * (d) carburizing steel
+
+---
+
+## Session of July 8, 2024
+1. The more likely slip plane in BCC crystals is
+   * (a) (110)
+   * (b) (111)
+   * (c) (100)
+   * (d) <111>
+2. The critical resolved shear stress is stress at which dislocations:
+   * (a) start moving
+   * (b) start pile up at GB
+   * (c) density attains its max-value
+   * (d) start nucleation
+3. The strength in pure metals is maximized when?
+   * (a) GBs have large angle
+   * (b) atoms bond via metallic and covalent bonds
+   * (c) Dislocation density is maximum
+   * (d) the radius of atoms is maximum
+4. MnS inclusions in hot rolled steels cause an increase in:
+   * (a) property anisotropy
+   * (b) strengthening
+   * (c) ductile fracture
+   * (d) raise in residual stresses
+5. Estimate %fine-pearlite upon non-equilib. cooling from K point (figure)
+   * (a) ~30 %
+   * (b) ~99 %
+   * (c) ~1 %
+   * (d) ~70 %
+6. The 1%C steel after slow-cooling from K point is brittle because:
+   * (a) coarse P segregates at GBs
+   * (b) Ferrite is coarse
+   * (c) Coarse cem segregates at GBs
+   * (d) Carbon atoms segregates at GBs
+7. What are the domain phases in D?
+   * (a) A/F
+   * (b) F/Cem
+   * (c) L/Cem
+   * (d) A/Cem
+8. Specify the symbolic critical point denoted with E in figure
+   * (a) A4
+   * (b) A3
+   * (c) Acm
+   * (d) A1
+9. What is %C in the steel given in the TTT diagram (figure)?
+   * (a) 38%
+   * (b) 0.38%
+   * (c) 3.8%
+   * (d) 3%
+10. What is the domain name of E in the TTT diagram in figure?
+   * (a) A
+   * (b) Cem+A
+   * (c) F+A
+   * (d) P+A
+11. What is the temperature T2 in the TTT diagram (figure)?
+   * (a) A3
+   * (b) A1
+   * (c) Acm
+   * (d) A2
+12. What is the cause for the observed bainitic bay in the TTT diagram?
+   * (a) large undercooling
+   * (b) Ni addition
+   * (c) excessive %C
+   * (d) too low %C
+13. Estimate the weight fraction of cooling products during stepped isothermal transformations 1-3 (see TTT diagram in figure)
+   * (a) 50%BL + 10% TM+BL+ 40%AR
+   * (b) 50%BU + 10% TM+BL+ 40%AR
+   * (c) 50%BL +40% TM+BL+ 10%AR
+   * (d) 50%BL + 50%TM + BL
+14. What is UNTRUE on bainite in steels? it has:
+   * (a) low resilience
+   * (b) BCC matrix
+   * (c) hardness similar to martensite
+   * (d) needle like cementite dispersed in ferrite matrix
+15. Denting resistance of steel panels is enhanced by imparting a final superficial:
+   * (a) recrystallization
+   * (b) carburizing treatment
+   * (c) large-roll cold work
+   * (d) small-roll cold work
+16. An embrittling element in carbon steels is
+   * (a) Si
+   * (b) P
+   * (c) Ni
+   * (d) Mo
+17. The lowest strain hardening coefficient is exhibited by:
+   * (a) Mg alloys
+   * (b) low alloy steels
+   * (c) austenitic stainless steels
+   * (d) Al-alloys
+18. What is the X8CrNi1812 alloy:
+   * (a) tempering steel
+   * (b) tool steel
+   * (c) carburizing steel
+   * (d) stainless steel
