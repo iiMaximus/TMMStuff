@@ -1842,7 +1842,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["metallic bonding", "ductility", "NOT TRUE"],
+    "trapTags": [
+      "metallic bonding",
+      "ductility",
+      "NOT TRUE"
+    ],
     "diagramRequired": false,
     "question": "What is NOT a feature of metallic bonding explaining ductility of metals?",
     "options": {
@@ -1864,7 +1868,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "definition",
-    "trapTags": ["Condon-Morse", "Young modulus", "bond energy"],
+    "trapTags": [
+      "Condon-Morse",
+      "Young modulus",
+      "bond energy"
+    ],
     "diagramRequired": false,
     "question": "In the Condon-Morse model, the Young modulus of a metal is mainly related to:",
     "options": {
@@ -1886,7 +1894,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["microstructure sensitivity", "properties", "Young modulus"],
+    "trapTags": [
+      "microstructure sensitivity",
+      "properties",
+      "Young modulus"
+    ],
     "diagramRequired": false,
     "question": "Which property is NOT mainly microstructure sensitive in the Lecture 1 sense?",
     "options": {
@@ -1908,7 +1920,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "easy",
     "cardType": "definition",
-    "trapTags": ["properties", "performance", "component design"],
+    "trapTags": [
+      "properties",
+      "performance",
+      "component design"
+    ],
     "diagramRequired": false,
     "question": "In Lecture 1, the difference between a material property and a component performance is that:",
     "options": {
@@ -1930,7 +1946,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["processing", "microstructure", "rolling texture"],
+    "trapTags": [
+      "processing",
+      "microstructure",
+      "rolling texture"
+    ],
     "diagramRequired": false,
     "question": "A rolled metallic sheet shows elongated grains and properties different along and across the rolling direction. The most correct Lecture 1 explanation is:",
     "options": {
@@ -1952,7 +1972,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["anisotropy", "polycrystals", "texture"],
+    "trapTags": [
+      "anisotropy",
+      "polycrystals",
+      "texture"
+    ],
     "diagramRequired": false,
     "question": "Crystalline anisotropy and microstructure anisotropy: mark the NOT TRUE clause.",
     "options": {
@@ -1974,7 +1998,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["interstitial sites", "FCC", "BCC"],
+    "trapTags": [
+      "interstitial sites",
+      "FCC",
+      "BCC"
+    ],
     "diagramRequired": false,
     "question": "For interstitial sites in metallic crystals, which statement is the most correct?",
     "options": {
@@ -1996,7 +2024,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "easy",
     "cardType": "definition",
-    "trapTags": ["crystal packing", "FCC", "HCP"],
+    "trapTags": [
+      "crystal packing",
+      "FCC",
+      "HCP"
+    ],
     "diagramRequired": false,
     "question": "Which statement best matches the Lecture 1 idea of crystal packing in metals?",
     "options": {
@@ -2018,7 +2050,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "process-chain",
-    "trapTags": ["structure-processing-property-performance", "microstructure", "design"],
+    "trapTags": [
+      "structure-processing-property-performance",
+      "microstructure",
+      "design"
+    ],
     "diagramRequired": false,
     "question": "Which chain is the best expression of the Lecture 1 structure-processing-property-performance logic?",
     "options": {
@@ -2040,7 +2076,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["Damascus steels", "quenching", "carbides"],
+    "trapTags": [
+      "Damascus steels",
+      "quenching",
+      "carbides"
+    ],
     "diagramRequired": false,
     "question": "In the Lecture 1 story on Damascus swords, the superior hard and sharp edge is most reasonably connected to:",
     "options": {
@@ -2062,7 +2102,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["sustainability", "LCA", "recycling"],
+    "trapTags": [
+      "sustainability",
+      "LCA",
+      "recycling"
+    ],
     "diagramRequired": false,
     "question": "According to Lecture 1, what is the most meaningful indicator for sustainability comparison of materials and processes?",
     "options": {
@@ -2084,7 +2128,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "application",
-    "trapTags": ["recycled alloys", "aluminium", "primary-secondary route"],
+    "trapTags": [
+      "recycled alloys",
+      "aluminium",
+      "primary-secondary route"
+    ],
     "diagramRequired": false,
     "question": "Which statement best matches the Lecture 1 slide on recycled alloys?",
     "options": {
@@ -2106,7 +2154,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "easy",
     "cardType": "definition",
-    "trapTags": ["microstructure observation", "OM", "TEM"],
+    "trapTags": [
+      "microstructure observation",
+      "OM",
+      "TEM"
+    ],
     "diagramRequired": false,
     "question": "Why does Lecture 1 show optical microscopy and transmission electron microscopy images?",
     "options": {
@@ -2128,7 +2180,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "definition",
-    "trapTags": ["six big metals", "assignment 1", "engineering alloys"],
+    "trapTags": [
+      "six big metals",
+      "assignment 1",
+      "engineering alloys"
+    ],
     "diagramRequired": false,
     "question": "In Assignment n.1 of Lecture 1, the 'big 3' metals and the 'other 3' metals are used mainly to make the student compare:",
     "options": {
@@ -2150,7 +2206,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["future trends", "materials selection", "multimaterials"],
+    "trapTags": [
+      "future trends",
+      "materials selection",
+      "multimaterials"
+    ],
     "diagramRequired": false,
     "question": "Which design target best reflects the Lecture 1 engineering and technology trends for future materials?",
     "options": {
@@ -2172,7 +2232,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["metallic materials", "engineering properties", "NOT TRUE wording"],
+    "trapTags": [
+      "metallic materials",
+      "engineering properties",
+      "NOT TRUE wording"
+    ],
     "diagramRequired": false,
     "question": "Which of the following is NOT an outstanding feature of metals and alloys for engineering applications?",
     "options": {
@@ -2194,7 +2258,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "easy",
     "cardType": "definition",
-    "trapTags": ["electronegativity", "electropositive metals", "reactivity"],
+    "trapTags": [
+      "electronegativity",
+      "electropositive metals",
+      "reactivity"
+    ],
     "diagramRequired": false,
     "question": "Electropositive metallic elements are particularly reactive mainly because they:",
     "options": {
@@ -2216,7 +2284,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "process-chain",
-    "trapTags": ["Fe polymorphism", "allotropy", "BCC FCC BCC"],
+    "trapTags": [
+      "Fe polymorphism",
+      "allotropy",
+      "BCC FCC BCC"
+    ],
     "diagramRequired": false,
     "question": "The correct sequence of crystal structures for pure Fe on heating from room temperature to melting is:",
     "options": {
@@ -2238,7 +2310,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["polymorphism", "heat treatment", "microstructure control"],
+    "trapTags": [
+      "polymorphism",
+      "heat treatment",
+      "microstructure control"
+    ],
     "diagramRequired": false,
     "question": "Why is the polymorphism of Fe technologically important in metallic materials?",
     "options": {
@@ -2260,7 +2336,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["crystalline anisotropy", "microstructure anisotropy", "polycrystals"],
+    "trapTags": [
+      "crystalline anisotropy",
+      "microstructure anisotropy",
+      "polycrystals"
+    ],
     "diagramRequired": false,
     "question": "Which statement best distinguishes crystalline anisotropy from microstructural anisotropy?",
     "options": {
@@ -2282,7 +2362,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["casting microstructure", "columnar grains", "equiaxed grains"],
+    "trapTags": [
+      "casting microstructure",
+      "columnar grains",
+      "equiaxed grains"
+    ],
     "diagramRequired": false,
     "question": "In a cast metallic part, a columnar grain zone is more likely to cause:",
     "options": {
@@ -2304,7 +2388,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "easy",
     "cardType": "definition",
-    "trapTags": ["casting", "powder metallurgy", "machining waste"],
+    "trapTags": [
+      "casting",
+      "powder metallurgy",
+      "machining waste"
+    ],
     "diagramRequired": false,
     "question": "From the sustainability point of view in Lecture 2, which shaping route is described as most wasteful?",
     "options": {
@@ -2326,7 +2414,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["near-net shape", "manufacturing selection", "sustainability"],
+    "trapTags": [
+      "near-net shape",
+      "manufacturing selection",
+      "sustainability"
+    ],
     "diagramRequired": false,
     "question": "A manufacturer wants a metallic component with complex final geometry and minimum material removal after forming. Which lecture concept best fits this objective?",
     "options": {
@@ -2348,7 +2440,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["surface defects", "corrosion", "free energy"],
+    "trapTags": [
+      "surface defects",
+      "corrosion",
+      "free energy"
+    ],
     "diagramRequired": false,
     "question": "A metal surface is especially important for electrochemical degradation because it is:",
     "options": {
@@ -2370,7 +2466,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["stacking faults", "FCC", "lattice defects"],
+    "trapTags": [
+      "stacking faults",
+      "FCC",
+      "lattice defects"
+    ],
     "diagramRequired": false,
     "question": "What is NOT a correct statement about stacking faults in the Lecture 2 context?",
     "options": {
@@ -2392,7 +2492,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "easy",
     "cardType": "definition",
-    "trapTags": ["slip", "shear stress", "single crystal"],
+    "trapTags": [
+      "slip",
+      "shear stress",
+      "single crystal"
+    ],
     "diagramRequired": false,
     "question": "In plastic deformation of a single crystal, slip is only possible when the stress state provides:",
     "options": {
@@ -2414,7 +2518,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["dislocations", "edge dislocation", "strain field"],
+    "trapTags": [
+      "dislocations",
+      "edge dislocation",
+      "strain field"
+    ],
     "diagramRequired": false,
     "question": "Which statement about the strain field around an edge dislocation is TRUE?",
     "options": {
@@ -2436,7 +2544,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "definition",
-    "trapTags": ["slip systems", "dense planes", "dense directions"],
+    "trapTags": [
+      "slip systems",
+      "dense planes",
+      "dense directions"
+    ],
     "diagramRequired": false,
     "question": "A slip system in a metal crystal is identified by:",
     "options": {
@@ -2458,7 +2570,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["FCC BCC HCP", "ductility", "slip systems"],
+    "trapTags": [
+      "FCC BCC HCP",
+      "ductility",
+      "slip systems"
+    ],
     "diagramRequired": false,
     "question": "Which clause is NOT TRUE about the relation between crystal structure and ductility?",
     "options": {
@@ -2480,7 +2596,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["manufacturing defects", "microstructure control", "mechanical properties"],
+    "trapTags": [
+      "manufacturing defects",
+      "microstructure control",
+      "mechanical properties"
+    ],
     "diagramRequired": false,
     "question": "The lecture statement 'manufacturing introduces different types and concentrations of defects' is important because:",
     "options": {
@@ -2502,7 +2622,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "easy",
     "cardType": "definition",
-    "trapTags": ["properties", "classification", "environment response"],
+    "trapTags": [
+      "properties",
+      "classification",
+      "environment response"
+    ],
     "diagramRequired": false,
     "question": "In Lecture 1, material properties are best defined as:",
     "options": {
@@ -2524,7 +2648,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["properties", "mechanical", "thermal"],
+    "trapTags": [
+      "properties",
+      "mechanical",
+      "thermal"
+    ],
     "diagramRequired": false,
     "question": "Which pairing between property class and example is NOT correct?",
     "options": {
@@ -2546,7 +2674,12 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["stiffness", "strength", "toughness", "density"],
+    "trapTags": [
+      "stiffness",
+      "strength",
+      "toughness",
+      "density"
+    ],
     "diagramRequired": false,
     "question": "For improving a component performance, which property link is the most correct?",
     "options": {
@@ -2568,7 +2701,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["stiffness", "strength", "common confusion"],
+    "trapTags": [
+      "stiffness",
+      "strength",
+      "common confusion"
+    ],
     "diagramRequired": false,
     "question": "Mark the UNTRUE clause about stiffness and strength.",
     "options": {
@@ -2590,7 +2727,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "easy",
     "cardType": "definition",
-    "trapTags": ["homogeneity", "heterogeneity", "phases"],
+    "trapTags": [
+      "homogeneity",
+      "heterogeneity",
+      "phases"
+    ],
     "diagramRequired": false,
     "question": "A homogeneous metallic material, in the Lecture 1 microstructure terminology, is one that:",
     "options": {
@@ -2612,7 +2753,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "definition",
-    "trapTags": ["microstructure", "second phases", "matrix"],
+    "trapTags": [
+      "microstructure",
+      "second phases",
+      "matrix"
+    ],
     "diagramRequired": false,
     "question": "The microstructure of metals is mainly described by:",
     "options": {
@@ -2634,7 +2779,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["cast iron", "graphite", "natural composite"],
+    "trapTags": [
+      "cast iron",
+      "graphite",
+      "natural composite"
+    ],
     "diagramRequired": false,
     "question": "Why is cast iron used in Lecture 1 as a microstructure example?",
     "options": {
@@ -2656,7 +2805,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "process-chain",
-    "trapTags": ["cold working", "recrystallization", "grain refinement"],
+    "trapTags": [
+      "cold working",
+      "recrystallization",
+      "grain refinement"
+    ],
     "diagramRequired": false,
     "question": "A steel sheet is cold rolled, then heated near its recrystallization range. Which process-property sequence is most correct?",
     "options": {
@@ -2678,7 +2831,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "definition",
-    "trapTags": ["multiscale microstructure", "SEM", "TEM"],
+    "trapTags": [
+      "multiscale microstructure",
+      "SEM",
+      "TEM"
+    ],
     "diagramRequired": false,
     "question": "The phrase 'microstructure multiscale' means that:",
     "options": {
@@ -2700,7 +2857,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["engine block", "damping", "cast iron"],
+    "trapTags": [
+      "engine block",
+      "damping",
+      "cast iron"
+    ],
     "diagramRequired": false,
     "question": "For an engine block subjected to periodic piston vibrations, which microstructure-related property is emphasized in the Lecture 1 notes?",
     "options": {
@@ -2722,7 +2883,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["Damascus steels", "myths", "processing"],
+    "trapTags": [
+      "Damascus steels",
+      "myths",
+      "processing"
+    ],
     "diagramRequired": false,
     "question": "In the Damascus swords introduction, what is the main teaching point behind the historical recipes and legends?",
     "options": {
@@ -2744,7 +2909,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "definition",
-    "trapTags": ["valence electrons", "metallic behavior", "reactivity"],
+    "trapTags": [
+      "valence electrons",
+      "metallic behavior",
+      "reactivity"
+    ],
     "diagramRequired": false,
     "question": "According to the Lecture 1/STM reminder notes, the lower the number of valence electrons in an element:",
     "options": {
@@ -2766,7 +2935,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "easy",
     "cardType": "definition",
-    "trapTags": ["metal properties", "conductivity", "opacity"],
+    "trapTags": [
+      "metal properties",
+      "conductivity",
+      "opacity"
+    ],
     "diagramRequired": false,
     "question": "Which group of features best describes metals in the Lecture 1 reminder notes?",
     "options": {
@@ -2788,7 +2961,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["periodic table", "valence", "inert gases"],
+    "trapTags": [
+      "periodic table",
+      "valence",
+      "inert gases"
+    ],
     "diagramRequired": false,
     "question": "Mark the NOT TRUE statement about the periodic-table reminder used before metallic bonding.",
     "options": {
@@ -2810,7 +2987,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "definition",
-    "trapTags": ["electronegativity", "electropositivity", "bonding"],
+    "trapTags": [
+      "electronegativity",
+      "electropositivity",
+      "bonding"
+    ],
     "diagramRequired": false,
     "question": "Electronegativity is best described as the tendency of atoms to:",
     "options": {
@@ -2832,7 +3013,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["Condon-Morse", "equilibrium distance", "forces"],
+    "trapTags": [
+      "Condon-Morse",
+      "equilibrium distance",
+      "forces"
+    ],
     "diagramRequired": false,
     "question": "In the Condon-Morse interatomic force model, which statement is correct?",
     "options": {
@@ -2854,7 +3039,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["thermal expansion", "bond energy", "melting point"],
+    "trapTags": [
+      "thermal expansion",
+      "bond energy",
+      "melting point"
+    ],
     "diagramRequired": false,
     "question": "What is UNTRUE on thermal expansion coefficient in the Lecture 1 Condon-Morse explanation?",
     "options": {
@@ -2876,7 +3065,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "application",
-    "trapTags": ["bond energy", "melting point", "elastic modulus"],
+    "trapTags": [
+      "bond energy",
+      "melting point",
+      "elastic modulus"
+    ],
     "diagramRequired": false,
     "question": "Two metals have similar equilibrium atomic spacing, but metal X has a deeper and narrower potential-energy well. Compared with metal Y, X is expected to have:",
     "options": {
@@ -2898,7 +3091,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["FCC", "BCC", "packing factor"],
+    "trapTags": [
+      "FCC",
+      "BCC",
+      "packing factor"
+    ],
     "diagramRequired": false,
     "question": "Which statement about BCC and FCC packing in the Lecture 1 notes is correct?",
     "options": {
@@ -2920,7 +3117,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "application",
-    "trapTags": ["interstitial carbon", "ferrite", "austenite"],
+    "trapTags": [
+      "interstitial carbon",
+      "ferrite",
+      "austenite"
+    ],
     "diagramRequired": false,
     "question": "Why does carbon have much higher solubility in FCC austenite than in BCC ferrite in the Lecture 1 reminder?",
     "options": {
@@ -2942,7 +3143,12 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["diffusion", "BCC", "FCC", "interstitial sites"],
+    "trapTags": [
+      "diffusion",
+      "BCC",
+      "FCC",
+      "interstitial sites"
+    ],
     "diagramRequired": false,
     "question": "Atom diffusion is faster in BCC than in FCC in the Lecture 1 reminder mainly because:",
     "options": {
@@ -2964,7 +3170,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["intrinsic properties", "extrinsic properties", "impurities"],
+    "trapTags": [
+      "intrinsic properties",
+      "extrinsic properties",
+      "impurities"
+    ],
     "diagramRequired": false,
     "question": "Which property is listed as very sensitive to impurities or nanoscopic defects in the Lecture 1 notes?",
     "options": {
@@ -2986,7 +3196,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["LCA", "recycling", "manufacturing chain"],
+    "trapTags": [
+      "LCA",
+      "recycling",
+      "manufacturing chain"
+    ],
     "diagramRequired": false,
     "question": "In a Life Cycle Assessment view of a metallic component, which sequence is most complete?",
     "options": {
@@ -3008,7 +3222,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["design for disassembly", "sustainability", "multimaterials"],
+    "trapTags": [
+      "design for disassembly",
+      "sustainability",
+      "multimaterials"
+    ],
     "diagramRequired": false,
     "question": "What is NOT part of the Lecture 1 future trend for engineering materials?",
     "options": {
@@ -3030,7 +3248,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "process-chain",
-    "trapTags": ["alloy selection", "assignment 1", "strengthening"],
+    "trapTags": [
+      "alloy selection",
+      "assignment 1",
+      "strengthening"
+    ],
     "diagramRequired": false,
     "question": "When comparing two of the six major metals in Assignment n.1, which answer best follows the professor's requested reasoning?",
     "options": {
@@ -3043,6 +3265,3259 @@ window.TMM_QUESTIONS = [
     "explanation": "A is correct because the assignment asks for primary-element properties, role of the alloying element in strength and toughness, strengthening methods, engineering applications and sustainability factors. B is wrong because it is not an engineering criterion. C is wrong because strengthening methods are explicitly requested. D is wrong because sustainability is only one part of the requested comparison.",
     "relevantTheory": "Alloy selection requires connecting composition to processing, strengthening mechanisms, properties, application demands and sustainability. The assignment is meant to force this complete reasoning rather than memorizing isolated facts about Fe, Al, Cu, Ni, Ti or Mg.",
     "source": "slides&docs/Lecture 1 Intro (1).pdf, slides/pages 13-15"
+  },
+  {
+    "id": 126,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "Hume-Rothery",
+      "solid solution",
+      "alloy formation"
+    ],
+    "diagramRequired": false,
+    "question": "Which set correctly lists the four Hume-Rothery rules for substitutional solid solution formation?",
+    "options": {
+      "A": "atomic size within about 15%, identical crystal structure, comparable electronegativity, and suitable valence factor",
+      "B": "same colour, same density, same melting temperature, and same grain size",
+      "C": "large atomic radius mismatch, opposite crystal structures, very different electronegativity, and no valence condition",
+      "D": "only high temperature and fast cooling"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 opens with the four Hume-Rothery rules: dimensional factor, identical crystal structure, comparable electronegativity, and valence factor. B is wrong because colour, density and grain size are not the rules. C is wrong because it states the opposite of the conditions for extensive solid solution. D is wrong because processing temperature alone does not replace atomic compatibility.",
+    "relevantTheory": "Hume-Rothery rules estimate whether solute atoms can substitute into a solvent lattice. Good solid solution formation requires affinity and resemblance: similar atomic size, same crystal structure, not-too-different electronegativity, and a favourable valence relation.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 20"
+  },
+  {
+    "id": 127,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Hume-Rothery",
+      "atomic size factor",
+      "15 percent"
+    ],
+    "diagramRequired": false,
+    "question": "Using the Hume-Rothery dimensional factor, mark the NOT TRUE clause.",
+    "options": {
+      "A": "solute and solvent atomic radii should stay within about 15%",
+      "B": "large size mismatch creates lattice distortion and reduces substitutional solubility",
+      "C": "atoms tend to pack, so size resemblance helps alloy formation",
+      "D": "any atomic radius mismatch is irrelevant if the alloy is melted first"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the false clause because melting does not remove the need for atomic compatibility in the final solid solution. A is true because the slide gives the 15% rule. B is true because size mismatch strains the lattice. C is true because the dimensional factor comes from packing compatibility.",
+    "relevantTheory": "A substitutional solute must fit into the solvent lattice without excessive elastic distortion. The professor's trap is to remember that casting from liquid does not guarantee complete solid solubility after solidification.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 20"
+  },
+  {
+    "id": 128,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Hume-Rothery",
+      "electronegativity",
+      "intermetallic"
+    ],
+    "diagramRequired": false,
+    "question": "In Hume-Rothery reasoning, a large difference in electronegativity between solute and solvent tends to promote:",
+    "options": {
+      "A": "formation of an intermetallic phase rather than a simple solid solution",
+      "B": "automatic complete mutual solubility",
+      "C": "disappearance of all bonding forces",
+      "D": "only grain boundary etching"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 states that comparable electronegativity is needed; otherwise an intermetallic phase may form. B is wrong because complete mutual solubility requires compatibility, not strong electronegativity contrast. C is wrong because bonding does not disappear; it changes character. D is wrong because grain boundary etching is a metallography topic, not the electronegativity rule.",
+    "relevantTheory": "Electronegativity controls chemical affinity between unlike atoms. If the difference is too large, bonding becomes less metallic and more compound-like, making ordered or intermetallic phases more likely than a random substitutional solid solution.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 20; PAST_EXAMS/QUESTION_SET_2.txt, style sample only"
+  },
+  {
+    "id": 129,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Hume-Rothery",
+      "Ni-Cu",
+      "mutual dissolution"
+    ],
+    "diagramRequired": false,
+    "question": "Why is Ni-Cu cited in the notes as a favourable alloy combination?",
+    "options": {
+      "A": "because Ni can dissolve in Cu and Cu can dissolve in Ni, showing mutual dissolution",
+      "B": "because Ni and Cu cannot form any metallic bond",
+      "C": "because mutual dissolution requires opposite crystal structures",
+      "D": "because the valence factor is the only rule that ever matters"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes identify Ni-Cu as a good example of mutual dissolution. B is wrong because mutual solubility is a metallic-alloy behaviour. C is wrong because identical or compatible crystal structure helps solid solution formation. D is wrong because the notes also warn that the valence factor can fail for some systems, so all rules must be considered as guidance rather than as a single absolute law.",
+    "relevantTheory": "Hume-Rothery rules are practical criteria, not magic guarantees. Ni-Cu is a classic style example in the notes because the atoms have enough affinity and resemblance to dissolve mutually.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 1"
+  },
+  {
+    "id": 130,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Condon-Morse",
+      "force",
+      "equilibrium"
+    ],
+    "diagramRequired": false,
+    "question": "In the Condon-Morse force-distance curve, which statement is correct?",
+    "options": {
+      "A": "at x0 attraction and repulsion balance, so the resultant force is zero",
+      "B": "if x < x0, attraction force is always dominant",
+      "C": "if x > x0, repulsion due to electrons is dominant",
+      "D": "there is no relation between force balance and equilibrium"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because x0 is defined as the distance where attraction and repulsion balance. B is wrong because at distances below x0 electron repulsion prevails. C is wrong because at distances above x0 attraction is dominant until the atoms are too far apart. D is wrong because mechanical equilibrium is exactly the force-balance condition.",
+    "relevantTheory": "The Condon-Morse model separates attractive and repulsive interactions. Compression below equilibrium activates strong repulsion; tension above equilibrium activates attraction. The resultant force crosses zero at the stable interatomic spacing.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 7"
+  },
+  {
+    "id": 131,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Condon-Morse",
+      "energy",
+      "Young modulus"
+    ],
+    "diagramRequired": false,
+    "question": "In the potential-energy form of the Condon-Morse model, what is UNTRUE?",
+    "options": {
+      "A": "equilibrium occurs at the minimum of potential energy",
+      "B": "the first derivative of U with respect to distance is zero at r0",
+      "C": "Young modulus is related to the second derivative/curvature of U near equilibrium",
+      "D": "Young modulus is the maximum value of the potential energy curve"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the untrue statement because Young modulus is not the maximum of U. A is true because stable equilibrium is at minimum energy. B is true because the slope of U is zero at the minimum. C is true because the slide states that (d2U/dr2) at r0 is related to E.",
+    "relevantTheory": "Force is related to the derivative of potential energy. At the energy minimum, force is zero; the curvature of the energy well gives elastic stiffness. A deep, narrow well means high bond stiffness and high modulus.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slides/pages 2-4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 7-8; PAST_EXAMS/QUESTIONS_SET_1.txt, style sample only"
+  },
+  {
+    "id": 132,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "bonding energy",
+      "melting point",
+      "elastic modulus"
+    ],
+    "diagramRequired": false,
+    "question": "If two materials have the same equilibrium distance but one has a deeper bonding-energy well, it will generally have:",
+    "options": {
+      "A": "higher melting temperature and higher elastic modulus",
+      "B": "lower melting temperature and lower elastic modulus",
+      "C": "no elastic response",
+      "D": "identical properties because r0 is the same"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because deeper bonding energy means more energy is required to separate atoms and the force-distance slope near equilibrium is steeper. B is the opposite trend. C is wrong because bonded materials have elastic response. D is wrong because the shape/depth of the well matters, not only the equilibrium distance.",
+    "relevantTheory": "Bonding energy corresponds to the energy needed to separate atoms. Higher bonding energy is associated with higher melting point, higher elastic modulus, and usually lower thermal expansion.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 8"
+  },
+  {
+    "id": 133,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "elastic modulus",
+      "temperature",
+      "thermal expansion"
+    ],
+    "diagramRequired": false,
+    "question": "What happens to elastic modulus E when temperature increases, according to the Lecture 3 Condon-Morse explanation?",
+    "options": {
+      "A": "average atomic separation increases and the potential well has lower concavity, so E tends to decrease",
+      "B": "average atomic separation decreases and E must increase for every metal",
+      "C": "temperature cannot affect interatomic spacing",
+      "D": "E becomes controlled only by grain colour"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because rm increases with temperature, reducing the effective concavity of the potential-energy curve. B is wrong because the slide gives the opposite direction for rm. C is wrong because thermal vibration changes average separation. D is wrong because grain colour is irrelevant to elastic modulus.",
+    "relevantTheory": "As temperature rises, atoms vibrate with larger average separation. The bond still exists, but the effective stiffness decreases because the energy curve is sampled in a region of lower curvature.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 8"
+  },
+  {
+    "id": 134,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "thermal expansion",
+      "isotropic",
+      "anisotropic"
+    ],
+    "diagramRequired": false,
+    "question": "For thermal expansion in Lecture 3, which formula is correct?",
+    "options": {
+      "A": "for isotropic materials, alphaV = 3 alphaL; for anisotropic materials, alphaV = alphax + alphay + alphaz",
+      "B": "for all materials, alphaV = alphaL/3",
+      "C": "for anisotropic materials, alphaV must be zero",
+      "D": "thermal expansion has no relation to length or volume change"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide gives alphaV = 3 alphaL for isotropic materials and alphaV = alphax + alphay + alphaz for anisotropic materials. B is wrong because it inverts the isotropic relation. C is wrong because anisotropy changes directional contributions, not necessarily total expansion to zero. D is wrong because thermal expansion coefficients are defined from length or volume change with temperature.",
+    "relevantTheory": "Linear expansion is alphaL = (1/L)(dL/dT). Volumetric expansion is alphaV = (1/V)(dV/dT). Isotropic materials expand equally in all directions; anisotropic materials may expand differently along x, y and z.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 8"
+  },
+  {
+    "id": 135,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "atoms",
+      "lattice sites",
+      "crystal lattice"
+    ],
+    "diagramRequired": false,
+    "question": "Lecture 3 says 'Do not confuse atoms with lattice sites'. Which statement is correct?",
+    "options": {
+      "A": "lattice sites are infinitesimal points in 3D space, while atoms are physical entities",
+      "B": "lattice sites and atoms are always exactly the same object",
+      "C": "lattice sites must always coincide with atom centers in every real structure",
+      "D": "atoms are infinitesimal mathematical points without volume"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide explicitly distinguishes lattice sites as points in space and atoms as physical entities. B is wrong because that is the confusion the professor warns against. C is wrong because the slide says lattice sites may not necessarily coincide with atom centers. D is wrong because atoms are physical entities, not just points.",
+    "relevantTheory": "A crystal lattice is a geometrical framework used to describe periodicity. Atoms occupy positions associated with that framework, but the lattice is not the same thing as the atoms themselves.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 5"
+  },
+  {
+    "id": 136,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "interstitial sites",
+      "octahedral",
+      "tetrahedral"
+    ],
+    "diagramRequired": false,
+    "question": "For a compact structure unit cell containing n atoms, Lecture 3 gives the number of tetrahedral and octahedral interstitial sites as:",
+    "options": {
+      "A": "tetrahedral = 2n and octahedral = n",
+      "B": "tetrahedral = n and octahedral = 2n",
+      "C": "tetrahedral = 6n and octahedral = 4n",
+      "D": "both are always zero"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states N. of tetrahedral sites = 2n and N. of octahedral sites = n. B reverses them. C confuses site number with coordination number. D is wrong because compact crystal structures contain interstitial sites.",
+    "relevantTheory": "Tetrahedral and octahedral sites are void positions in a crystal lattice. Their coordination numbers are 4 and 6 respectively, but the number of such sites per unit cell follows the n and 2n relation given in the lecture.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 6"
+  },
+  {
+    "id": 137,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "interstitial coordination",
+      "octahedral",
+      "tetrahedral"
+    ],
+    "diagramRequired": false,
+    "question": "Octahedral and tetrahedral interstitial sites differ because:",
+    "options": {
+      "A": "octahedral sites have coordination number 6, while tetrahedral sites have coordination number 4",
+      "B": "octahedral sites are atoms and tetrahedral sites are grain boundaries",
+      "C": "tetrahedral sites exist only in liquids",
+      "D": "octahedral sites have coordination number 4 and tetrahedral sites have coordination number 6"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 defines octahedral sites as coordination number 6 and tetrahedral sites as coordination number 4. B is wrong because both are interstitial lattice sites. C is wrong because they are crystal-lattice sites. D reverses the definitions.",
+    "relevantTheory": "Coordination number means the number of nearby host atoms surrounding the interstitial position. It does not count how many such sites exist in the unit cell; it describes local geometry.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 9"
+  },
+  {
+    "id": 138,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "Fe lattice",
+      "carbon solubility",
+      "BCC FCC"
+    ],
+    "diagramRequired": false,
+    "question": "For carbon in iron, why does FCC austenite dissolve more carbon than BCC ferrite?",
+    "options": {
+      "A": "FCC has larger interstitial volume, so carbon can fit more easily",
+      "B": "BCC has a higher packing factor than FCC",
+      "C": "carbon atoms are substitutional in austenite but not in ferrite",
+      "D": "ferrite is a liquid at room temperature"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 states Vinterst(FCC) > Vinterst(BCC), which favours carbon solubility in FCC austenite. B is wrong because the slide gives BCC packing factor 0.68 and FCC 0.74. C is wrong because carbon is treated here as an interstitial atom. D is wrong because ferrite is a solid BCC phase.",
+    "relevantTheory": "Carbon solubility in iron is controlled by interstitial space. Ferrite is BCC and has small interstitial cavities; austenite is FCC and has larger interstitial cavities, so it can dissolve much more carbon.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 9"
+  },
+  {
+    "id": 139,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "diffusion",
+      "BCC",
+      "interstitial sites"
+    ],
+    "diagramRequired": false,
+    "question": "Why is diffusion of small atoms faster in BCC than in FCC in the Lecture 3 Fe-lattice discussion?",
+    "options": {
+      "A": "BCC has more interstitial sites, even though the interstitial volume is smaller",
+      "B": "FCC has no interstitial sites",
+      "C": "BCC has no lattice and therefore no barriers",
+      "D": "diffusion is faster in the structure with fewer available jump sites"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide distinguishes Vinterst and Ninterst: FCC has larger interstitial volume, but BCC has more interstitial sites. B is wrong because FCC has interstitial sites. C is wrong because BCC is a crystal lattice. D is wrong because more available sites support more possible jumps.",
+    "relevantTheory": "The exam trap is solubility versus diffusivity. Larger interstitial cavities help solubility; more interstitial sites help diffusion pathways. Thus FCC better dissolves carbon, while BCC can allow faster diffusion.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 9; PAST_EXAMS/QUESTIONS_SET_1.txt, style sample only"
+  },
+  {
+    "id": 140,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "grain boundaries",
+      "polycrystals",
+      "2D defects"
+    ],
+    "diagramRequired": false,
+    "question": "What are grain boundaries in polycrystalline materials?",
+    "options": {
+      "A": "regions where different grain orientations meet and atoms are not at perfect equilibrium spacing",
+      "B": "perfect crystal interiors with the lowest possible disorder",
+      "C": "only interstitial atoms between FCC planes",
+      "D": "liquid regions that remain after solidification"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide and notes describe grain boundaries as regions accommodating different orientations, with atoms near boundaries not having equilibrium spacing or arrangement. B is wrong because boundaries are more disordered and higher energy than grain interiors. C is wrong because interstitial atoms are a different defect type. D is wrong because grain boundaries are solid-state interfaces.",
+    "relevantTheory": "Polycrystalline metals are aggregates of grains. Grain boundaries are 2D defects with higher energy and disorder; they influence diffusion, impurity segregation, corrosion response, strengthening and grain growth.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 3"
+  },
+  {
+    "id": 141,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "metallography",
+      "etching",
+      "grain boundaries"
+    ],
+    "diagramRequired": false,
+    "question": "Why can etching reveal grain boundaries during metallography?",
+    "options": {
+      "A": "grain boundaries are higher-energy, more reactive regions and can be preferentially attacked",
+      "B": "grain interiors are always liquid during etching",
+      "C": "etching removes only atoms from perfect crystal centers",
+      "D": "grain boundaries have no chemical reactivity"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes explain that corrosive acid makes grain boundaries black due to their high energy and reactivity. B is wrong because the sample is solid. C is wrong because boundaries are preferentially revealed, not perfect centers only. D is wrong because their reactivity is the reason etching works.",
+    "relevantTheory": "Metallography uses differences in chemical or optical response to reveal microstructure. Grain boundaries, phases and orientations can be made visible because they react or reflect differently.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 3"
+  },
+  {
+    "id": 142,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "gray cast iron",
+      "graphite morphology",
+      "second phase"
+    ],
+    "diagramRequired": false,
+    "question": "In gray cast iron, why is graphite morphology important?",
+    "options": {
+      "A": "graphite shape can be controlled from flakes/lamellae to nodules and strongly changes properties",
+      "B": "graphite is always absent from cast irons",
+      "C": "graphite is the same as a grain boundary and has no phase role",
+      "D": "graphite morphology changes only the colour, never mechanical performance"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 states that graphite in cast irons can be controlled into different shapes, and the Lecture 1 notes explain that these shapes change strength, toughness, damping and heat dispersion. B is wrong because graphite is explicitly present in gray cast iron. C is wrong because graphite is a carbon phase/second phase, not merely a boundary. D is wrong because morphology affects performance.",
+    "relevantTheory": "Second-phase morphology matters. In cast irons, carbon can appear as graphite with different shapes; those shapes control local stress concentration and functional properties, showing the structure-property link.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 2-4"
+  },
+  {
+    "id": 143,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "anisotropy",
+      "single crystal",
+      "texture"
+    ],
+    "diagramRequired": false,
+    "question": "Crystal and microstructure anisotropy: mark the NOT TRUE clause.",
+    "options": {
+      "A": "different directions in a single crystal may have different packing and different strain response",
+      "B": "random grain orientations in a polycrystal tend to average properties toward isotropy",
+      "C": "texture or banding can make a polycrystal direction-dependent",
+      "D": "all polycrystalline metals are perfectly isotropic after rolling"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the false clause because rolling can create texture or banding, making a polycrystal anisotropic. A is true because the slide explicitly links crystal direction to packing. B is true because random orientation averages properties. C is true because oriented grains along working directions affect mechanical properties.",
+    "relevantTheory": "Anisotropy means property depends on direction. It can come from crystal structure in a single crystal or from processing-induced texture, banding and oriented features in a polycrystal.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 10"
+  },
+  {
+    "id": 144,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "intrinsic properties",
+      "extrinsic properties",
+      "microstructure"
+    ],
+    "diagramRequired": false,
+    "question": "Which list contains only intrinsic, non-microstructure-sensitive properties as classified in Lecture 3?",
+    "options": {
+      "A": "density, thermal conductivity, elastic modulus, thermal expansion coefficient",
+      "B": "yielding strength, hardness, elongation, toughness",
+      "C": "fatigue resistance, creep resistance, corrosion resistance, hardness",
+      "D": "impact energy, fracture toughness, elongation, yield stress"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because density, thermal conductivity, elastic modulus and thermal expansion coefficient are listed under non-sensitive/intrinsic properties, meaning they are mainly controlled by atomic bonding nature. B is wrong because yielding strength, hardness, elongation and toughness are sensitive to fabrication history and microstructure. C is wrong because fatigue, creep, corrosion and hardness depend on defects, phases, surfaces and environment. D is wrong because impact energy, fracture toughness, elongation and yield stress are all strongly affected by microstructure.",
+    "relevantTheory": "Intrinsic properties are related mainly to atomic bonding nature. Extrinsic properties are affected by intentional alloying, impurities, defects and the microstructure produced by processing.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 10"
+  },
+  {
+    "id": 145,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "electrical resistivity",
+      "nanoscopic defects",
+      "impurities"
+    ],
+    "diagramRequired": false,
+    "question": "Which property is classified in Lecture 3 as very sensitive to impurities and nanoscopic defects?",
+    "options": {
+      "A": "electrical resistivity",
+      "B": "density",
+      "C": "elastic modulus",
+      "D": "thermal expansion coefficient"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 lists electrical resistivity separately as very sensitive to impurities and nanoscopic defects. B, C and D are wrong because they are listed as intrinsic/non-sensitive to microstructure in this course classification.",
+    "relevantTheory": "Electrical resistivity is strongly affected by scattering from impurity atoms and nanoscale defects. This is why it is separated from standard intrinsic properties even though it is not a mechanical property.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 10"
+  },
+  {
+    "id": 146,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Hume-Rothery",
+      "crystal structure",
+      "solid solution"
+    ],
+    "diagramRequired": false,
+    "question": "For substitutional solid solution according to Hume-Rothery, why is identical crystal structure important?",
+    "options": {
+      "A": "because solute atoms substitute more easily when solute and solvent lattices are compatible",
+      "B": "because identical crystal structure guarantees identical density and colour",
+      "C": "because different crystal structures always prevent any alloy from existing",
+      "D": "because crystal structure matters only in liquids"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Hume-Rothery includes identical crystal structure as a condition for substitutional solubility: a solute atom must fit into the solvent lattice. B is wrong because density and colour are not the point of the rule. C is too absolute because alloys may still form other phases or limited solubility. D is wrong because the rule concerns the solid lattice after solidification.",
+    "relevantTheory": "Substitutional solid solution requires atomic resemblance and lattice compatibility. If solute and solvent have different structures, random replacement of solvent atoms is more difficult and second phases may form.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 20"
+  },
+  {
+    "id": 147,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Hume-Rothery",
+      "valence factor",
+      "exceptions"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best reflects the Hume-Rothery valence factor as taught with the notes?",
+    "options": {
+      "A": "a solute enters solution more favourably if its valence is greater than that of the solvent, but the rule is not absolute for every system",
+      "B": "valence is the only factor needed to predict every alloy",
+      "C": "a solute can enter solution only if its valence is smaller than the solvent's",
+      "D": "valence factor refers to the number of grains in a polycrystal"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide gives the valence factor and the notes warn that it may fail for some systems. B is wrong because Hume-Rothery has four rules and real alloy formation may be more complex. C reverses the rule stated in the slide. D is wrong because valence concerns available bonding electrons, not grain count.",
+    "relevantTheory": "Hume-Rothery rules are practical guides. The valence factor is useful, but dimensional factor, crystal structure and electronegativity must also be checked, and exceptions exist.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 20; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 1"
+  },
+  {
+    "id": 148,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "intermetallic",
+      "solid solution",
+      "electronegativity"
+    ],
+    "diagramRequired": false,
+    "question": "An alloy couple has similar atomic radii and crystal structure, but very different electronegativities. What is the best Hume-Rothery prediction?",
+    "options": {
+      "A": "simple solid solution is less favoured and an intermetallic phase may form",
+      "B": "complete solid solution is guaranteed because size and structure are enough",
+      "C": "no bonding can occur between the atoms",
+      "D": "the alloy must become amorphous"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because all Hume-Rothery conditions matter; too large an electronegativity difference promotes compound/intermetallic character. B is wrong because satisfying two rules does not erase the electronegativity rule. C is wrong because different bonding may still occur. D is wrong because amorphization is not the conclusion of this rule.",
+    "relevantTheory": "Comparable electronegativity favours random metallic solid solution. Large electronegativity difference increases chemical ordering or intermetallic tendency, even if size and structure are otherwise favourable.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 20"
+  },
+  {
+    "id": 149,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "alloy formation",
+      "affinity",
+      "resemblance"
+    ],
+    "diagramRequired": false,
+    "question": "The notes summarize alloy formation by saying that atoms need 'affinity and resemblance'. In Hume-Rothery terms, this mainly means:",
+    "options": {
+      "A": "chemical compatibility plus size/structure similarity",
+      "B": "same commercial price and same colour",
+      "C": "only the same melting point",
+      "D": "complete absence of bonding forces"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because affinity refers to chemical compatibility, while resemblance refers to atomic size and crystal-structure compatibility. B is wrong because price and colour are not atomistic rules. C is incomplete because melting point alone is not a Hume-Rothery rule. D is wrong because alloying depends on bonding, not on absence of bonding.",
+    "relevantTheory": "The Hume-Rothery rules are a practical breakdown of affinity and resemblance: size factor, same crystal structure, comparable electronegativity and favourable valence.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 20"
+  },
+  {
+    "id": 150,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Condon-Morse",
+      "force-energy relation",
+      "derivatives"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement correctly links force, potential energy and elastic modulus in the Condon-Morse model?",
+    "options": {
+      "A": "force is related to the slope of U, while elastic modulus is related to the curvature of U near equilibrium",
+      "B": "elastic modulus is unrelated to U and depends only on sample length",
+      "C": "force is the second derivative of grain size",
+      "D": "at equilibrium, U has maximum slope and force is maximum"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture states that energy and force are related and that (dU/dr) at r0 is zero while (d2U/dr2) is related to E. B is wrong because E is tied to bonding stiffness, not only specimen geometry. C is meaningless in this context. D is wrong because at the energy minimum the slope is zero and the resultant force is zero.",
+    "relevantTheory": "At equilibrium, the potential-energy curve has a minimum. The first derivative gives the force condition; the second derivative gives the local stiffness of the bond and therefore elastic modulus.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slides/pages 2-4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 7-8"
+  },
+  {
+    "id": 151,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "temperature",
+      "melting point",
+      "elastic modulus"
+    ],
+    "diagramRequired": false,
+    "question": "Why does a high-melting-point metal usually show a smaller drop of elastic modulus with temperature?",
+    "options": {
+      "A": "its bonding-energy well is deeper and narrower, so temperature changes reduce concavity less dramatically",
+      "B": "its atoms stop vibrating at high temperature",
+      "C": "its elastic modulus is controlled only by etching",
+      "D": "high melting point means no thermal expansion exists"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes state that high-melting-point metals have deep/narrow bonding curves and are less dramatically affected by temperature. B is wrong because atoms vibrate more with temperature. C is wrong because etching reveals microstructure, not bond stiffness. D is wrong because high melting point reduces but does not eliminate expansion.",
+    "relevantTheory": "The temperature dependence of E is explained by the Condon-Morse curve: increasing average atomic separation samples a lower-curvature region. Strongly bonded metals resist this change more.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slides/pages 3-5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 8"
+  },
+  {
+    "id": 152,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "thermal expansion",
+      "isotropy",
+      "anisotropy"
+    ],
+    "diagramRequired": false,
+    "question": "What is UNTRUE on thermal expansion in Lecture 3?",
+    "options": {
+      "A": "alphaL measures relative length change per temperature change",
+      "B": "for isotropic materials, alphaV is three times alphaL",
+      "C": "for anisotropic materials, expansion may differ along x, y and z",
+      "D": "thermal expansion is always identical in all directions for every crystal"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the false clause because anisotropic crystals can expand differently along different directions. A is true because linear expansion is defined from length change. B is true for isotropic materials. C is true because the slide gives alphaV as the sum of directional coefficients for anisotropic materials.",
+    "relevantTheory": "Isotropy means the same response in all directions; anisotropy means direction-dependent response. Thermal expansion can therefore be scalar-like in isotropic materials or direction-dependent in anisotropic crystals.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 8; PAST_EXAMS/QUESTIONS_SET_1.txt, style sample only"
+  },
+  {
+    "id": 153,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "interstitial sites",
+      "site counting",
+      "unit cell"
+    ],
+    "diagramRequired": false,
+    "question": "A compact unit cell contains 4 atoms. According to the Lecture 3 relation, how many tetrahedral and octahedral interstitial sites does it contain?",
+    "options": {
+      "A": "8 tetrahedral and 4 octahedral",
+      "B": "4 tetrahedral and 8 octahedral",
+      "C": "6 tetrahedral and 4 octahedral",
+      "D": "0 tetrahedral and 0 octahedral"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 gives tetrahedral sites = 2n and octahedral sites = n. With n = 4 atoms, tetrahedral sites are 8 and octahedral sites are 4. B reverses the relation. C confuses coordination number with site count. D is wrong because compact structures contain interstitial sites.",
+    "relevantTheory": "Site count and coordination number are different. Coordination number describes surrounding atoms; site count describes how many interstitial positions exist for a unit cell with n atoms.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 6"
+  },
+  {
+    "id": 154,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "coordination number",
+      "site counting",
+      "interstitials"
+    ],
+    "diagramRequired": false,
+    "question": "Which error is most dangerous when answering questions on tetrahedral and octahedral interstitial sites?",
+    "options": {
+      "A": "confusing coordination number with number of sites per unit cell",
+      "B": "remembering that octahedral sites have coordination number 6",
+      "C": "remembering that tetrahedral sites have coordination number 4",
+      "D": "using n as the number of atoms in the unit cell"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the professor can trap students by mixing local geometry with site counting. B and C are correct definitions, not errors. D is also correct because the slide defines n as the number of atoms in the unit cell.",
+    "relevantTheory": "Octahedral/tetrahedral coordination numbers are 6 and 4. The number of sites is different: octahedral = n and tetrahedral = 2n for the compact structure relation used in the lecture.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 6"
+  },
+  {
+    "id": 155,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Fe-C",
+      "ferrite",
+      "austenite",
+      "carbon"
+    ],
+    "diagramRequired": false,
+    "question": "Lecture 3 compares carbon in ferrite and austenite. Which statement is correct?",
+    "options": {
+      "A": "alpha-Fe ferrite is BCC with very low carbon solubility, while gamma-Fe austenite is FCC with much higher carbon solubility",
+      "B": "ferrite is FCC and dissolves about 2%C at room temperature",
+      "C": "austenite is BCC and dissolves less carbon than ferrite",
+      "D": "carbon solubility is independent of Fe crystal structure"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes associate room-temperature alpha-Fe ferrite with BCC and very low carbon solubility, while elevated-temperature gamma-Fe austenite is FCC and can dissolve much more carbon. B and C reverse the structures/solubilities. D is wrong because the whole slide point is that interstitial volume depends on structure.",
+    "relevantTheory": "Ferrite and austenite are different crystal structures of iron. Carbon is interstitial, so its solubility depends strongly on the size and geometry of the available interstitial spaces.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 9"
+  },
+  {
+    "id": 156,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "solubility",
+      "diffusion",
+      "interstitial volume"
+    ],
+    "diagramRequired": false,
+    "question": "A student says: 'Carbon dissolves more in FCC, therefore it must diffuse faster in FCC.' What is wrong?",
+    "options": {
+      "A": "they confused interstitial volume controlling solubility with number of interstitial sites controlling diffusion pathways",
+      "B": "they forgot that FCC has no interstitial sites",
+      "C": "they assumed carbon is substitutional in iron",
+      "D": "nothing is wrong; Lecture 3 says solubility and diffusion are always the same"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 separates the two concepts: FCC has larger interstitial volume and higher carbon solubility, while BCC has more interstitial sites and faster diffusion. B is wrong because FCC has sites. C is wrong as a statement about the lecture mechanism, but the student's specific error is solubility versus diffusion. D is wrong because the lecture explicitly distinguishes them.",
+    "relevantTheory": "Solubility asks how much solute can be accommodated; diffusion asks how easily atoms jump through available positions. They are related to different lattice features.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 9"
+  },
+  {
+    "id": 157,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "grain boundary energy",
+      "polycrystals",
+      "disorder"
+    ],
+    "diagramRequired": false,
+    "question": "Why are grain boundaries described as high-energy regions?",
+    "options": {
+      "A": "atoms at the boundary are disordered and do not have the perfect equilibrium arrangement of the grain interior",
+      "B": "grain boundaries are always empty holes",
+      "C": "grain boundaries are regions of perfect single-crystal order",
+      "D": "grain boundaries are high-energy only when the metal is liquid"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because adjacent grains have different orientations and the boundary must accommodate misfit, producing disorder and non-equilibrium spacing. B is wrong because boundaries are not empty holes. C is wrong because boundaries interrupt perfect order. D is wrong because grain boundaries are solid-state defects in polycrystals.",
+    "relevantTheory": "Grain boundaries are 2D defects. Their higher energy makes them more reactive, faster diffusion paths and preferred sites for segregation or microstructural change.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 3"
+  },
+  {
+    "id": 158,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "grain boundaries",
+      "grain growth",
+      "temperature"
+    ],
+    "diagramRequired": false,
+    "question": "What is NOT TRUE about grain boundaries and surfaces in the notes supporting Lecture 3?",
+    "options": {
+      "A": "they can react strongly with impurities and capture them by segregation",
+      "B": "grain growth can reduce interfacial energy and is diffusion controlled",
+      "C": "higher temperature can accelerate diffusion-related boundary processes",
+      "D": "grain boundaries have lower energy than perfect grain interiors because they are more ordered"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the false clause because grain boundaries are more disordered and higher energy than grain interiors. A is true because interfaces can capture impurities. B is true because grains may grow to reduce interfacial energy. C is true because diffusion is accelerated at higher temperature.",
+    "relevantTheory": "Interfaces and grain boundaries are high-energy regions. Systems tend to reduce interfacial energy, and high temperature accelerates diffusion processes such as grain growth and segregation.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slides/pages 7-8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 3"
+  },
+  {
+    "id": 159,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "polarized light",
+      "thermal etching",
+      "microstructure observation"
+    ],
+    "diagramRequired": false,
+    "question": "The Cd-20%Bi cast alloy example observed with polarized light and sensitive dye mainly teaches that:",
+    "options": {
+      "A": "microstructure can be revealed by optical contrast between orientations and phases, even when fine constituents are not fully resolved",
+      "B": "metallography is impossible unless every atom is individually visible",
+      "C": "dendrites are always absent from cast alloys",
+      "D": "polarized light changes the alloy composition"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide says polarized light plus sensitive dye reveals Cd dendrites in different orientations, while the interdendritic Cd-Bi constituent is too fine to resolve at that magnification. B is wrong because useful microstructural information can be obtained without atomic resolution. C is wrong because dendrites are explicitly mentioned. D is wrong because observation does not change composition.",
+    "relevantTheory": "Metallography uses contrast methods to reveal microstructure. Different phases, orientations and surface responses can be made visible even when some features are below the resolution of the technique.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 8"
+  },
+  {
+    "id": 160,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "gray cast iron",
+      "graphite",
+      "silicon"
+    ],
+    "diagramRequired": false,
+    "question": "In the gray cast iron slide, graphite is present mainly because:",
+    "options": {
+      "A": "in high-C and high-Si cast irons, carbon can appear as stable graphite with controllable morphology",
+      "B": "all steels with less than 2%C always contain graphite flakes",
+      "C": "graphite forms only when carbon is absent",
+      "D": "graphite has no relation to carbon in ferrous alloys"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states graphite is the most stable form of carbon in ferrous alloys but is present in cast irons with high C and Si content. B is wrong because steels generally do not contain graphite flakes as a normal phase. C is wrong because graphite is carbon. D is wrong because graphite is a carbon phase.",
+    "relevantTheory": "Ferrous alloys can contain carbon as cementite or graphite depending on composition and processing. In gray cast iron, high carbon and silicon promote graphite, whose shape affects properties.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 161,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "second phase morphology",
+      "matrix",
+      "gray cast iron"
+    ],
+    "diagramRequired": false,
+    "question": "What is NOT TRUE about second phase morphology in gray cast iron?",
+    "options": {
+      "A": "graphite can be controlled into flakes, lamellae or nodules",
+      "B": "graphite morphology affects properties of the cast iron",
+      "C": "the matrix and graphite together define the microstructure",
+      "D": "graphite shape is irrelevant because only total carbon percentage matters"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the false clause because the lecture emphasizes morphology, not only chemistry. A is true because the slide lists graphite shape control. B is true because morphology controls properties. C is true because cast iron behaviour depends on matrix plus graphite second phase.",
+    "relevantTheory": "Microstructure is not just composition. Phase shape, distribution and matrix type determine whether a given carbon content produces brittle, damping, tough or wear-resistant behaviour.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 2-4"
+  },
+  {
+    "id": 162,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "crystal anisotropy",
+      "FCC packing",
+      "strain direction"
+    ],
+    "diagramRequired": false,
+    "question": "In Lecture 3, why can a single FCC crystal show anisotropic strain response?",
+    "options": {
+      "A": "different crystallographic directions have different packing, such as cube diagonal versus face diagonal directions",
+      "B": "a single crystal contains random grains that average all directions",
+      "C": "FCC crystals contain no close-packed directions",
+      "D": "anisotropy requires the material to be liquid"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide says different directions in a crystal promote different packing modes and gives FCC directional packing as the example. B is wrong because a single crystal is not a random polycrystal. C is wrong because FCC has close-packed directions/planes. D is wrong because anisotropy is a solid crystal property.",
+    "relevantTheory": "Crystal anisotropy comes from the geometry of the lattice. Elastic and plastic responses can depend on loading direction because atom spacing and packing are not identical in all crystallographic directions.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 10"
+  },
+  {
+    "id": 163,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "texture",
+      "banding",
+      "working direction"
+    ],
+    "diagramRequired": false,
+    "question": "Texture or banding in a polycrystalline metal is most likely produced by:",
+    "options": {
+      "A": "processing along working directions, which orients grains or microstructural features",
+      "B": "perfectly random solidification with no later deformation",
+      "C": "removing all grain boundaries",
+      "D": "making the material amorphous"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 says some polycrystalline materials show oriented grains along working directions, producing texture or banding. B is wrong because random orientation tends toward isotropy. C is wrong because texture can exist in a polycrystal with grain boundaries. D is wrong because amorphous materials do not have crystallographic texture.",
+    "relevantTheory": "Processing can convert an approximately isotropic random polycrystal into an anisotropic material by aligning grains, phases or inclusions. This is why properties can differ longitudinally and transversely after rolling or working.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 10"
+  },
+  {
+    "id": 164,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "intrinsic",
+      "extrinsic",
+      "processing"
+    ],
+    "diagramRequired": false,
+    "question": "Two specimens of the same alloy have the same density and elastic modulus but different hardness and fatigue resistance. The best Lecture 3 explanation is:",
+    "options": {
+      "A": "intrinsic bond-controlled properties stayed similar, while extrinsic microstructure-sensitive properties changed with processing",
+      "B": "the chemical element symbols must be different",
+      "C": "density is an extrinsic property controlled mainly by dislocations",
+      "D": "hardness is intrinsic and cannot change after processing"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 separates intrinsic properties such as density and E from extrinsic properties such as hardness and fatigue resistance. B is wrong because the same alloy can have different microstructures. C is wrong because density is listed as intrinsic/non-sensitive. D is wrong because hardness is explicitly microstructure-sensitive.",
+    "relevantTheory": "Processing changes grain size, defects, phases and texture, so it strongly affects extrinsic properties. Intrinsic properties mainly follow atomic bonding and are less sensitive to microstructural history.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 10"
+  },
+  {
+    "id": 165,
+    "deck": "slides",
+    "moduleId": "lecture-3-condon-morse",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "lecture synthesis",
+      "alloy formation",
+      "microstructure",
+      "properties"
+    ],
+    "diagramRequired": false,
+    "question": "Which chain best summarizes the whole logic of Lecture 3?",
+    "options": {
+      "A": "atomic compatibility controls alloy formation; bonding controls intrinsic properties; lattice and microstructure control interstitial behaviour, anisotropy and extrinsic properties",
+      "B": "alloy formation is independent of atomic size, bonding and microstructure",
+      "C": "only the final component colour determines properties",
+      "D": "once a metal is polycrystalline, processing cannot affect its properties"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 3 moves from Hume-Rothery alloy formation to Condon-Morse bonding, then to interstitial sites, Fe lattice behaviour, grain boundaries, microstructure morphology, anisotropy and property classification. B is wrong because atomic compatibility is the start of the lecture. C is wrong because colour is not the property mechanism. D is wrong because processing can create texture, banding and microstructure-sensitive property changes.",
+    "relevantTheory": "Lecture 3 is a bridge lecture: it connects atomic-scale compatibility and bonding to crystal-scale packing, interstitials, microstructure and engineering properties. Understanding these links prepares later topics on diffusion, plasticity, strengthening and phase transformations.",
+    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slides/pages 1-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 7-10 and 20"
+  },
+  {
+    "id": 166,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "metals vs material families",
+      "ductility",
+      "structural materials"
+    ],
+    "diagramRequired": false,
+    "question": "Compared with polymers, ceramics and composites, metals and alloys are especially useful as structural materials because they:",
+    "options": {
+      "A": "combine load-bearing capability, plastic deformation and many shaping and strengthening routes.",
+      "B": "are always immune to environmental degradation and embrittlement.",
+      "C": "cannot be plastically deformed after solidification.",
+      "D": "have only one possible manufacturing route."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 2 presents metals and alloys as structural materials used for functional and load-bearing components, with many shaping methods, strengthening methods and significant plastic deformation. B is wrong because the lecture lists environmental degradation, on-service degradation and embrittlement as inconveniences. C is wrong because plastic deformation is a key advantage of metals. D is wrong because wrought processing, casting, PM, joining and other routes are explicitly mentioned.",
+    "relevantTheory": "The course compares metals with other engineering material families by focusing on what metals do well in components: carry load, deform plastically before fracture, be shaped by many technologies and be strengthened by microstructure control.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 2"
+  },
+  {
+    "id": 167,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "metal inconveniences",
+      "strain rate",
+      "transition temperature"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the UNTRUE clause about inconveniences of metals and alloys.",
+    "options": {
+      "A": "They can be affected by environmental degradation.",
+      "B": "They can suffer on-service degradation and embrittlement.",
+      "C": "They may be sensitive to strain rate and transition temperature.",
+      "D": "They are never affected by the service environment once shaped."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because it is the untrue clause: the slide explicitly says metals are affected by environmental degradation and on-service degradation. A is wrong because it is one of the listed inconveniences. B is wrong because embrittlement is also listed. C is wrong because sensitivity to strain rate and transition temperature is part of the Lecture 2 warning.",
+    "relevantTheory": "Metals are not automatically safe just because they are strong. Service environment, strain rate, temperature and embrittlement phenomena can reduce performance relative to a simple room-temperature material-property table.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 2"
+  },
+  {
+    "id": 168,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "strengthening methods",
+      "mechanical properties",
+      "microstructure"
+    ],
+    "diagramRequired": false,
+    "question": "Why can metals exhibit a large variety of mechanical properties within the same base family?",
+    "options": {
+      "A": "Because many strengthening methods can be applied through alloying, deformation and microstructure control.",
+      "B": "Because metallic properties are fixed and cannot be changed after extraction.",
+      "C": "Because metals have no defects and therefore no strengthening mechanisms.",
+      "D": "Because only density controls strength and toughness."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 2 lists many methods of strengthening as an outstanding feature of metals and alloys. B is wrong because processing and heat/cooling history are central to metallic materials. C is wrong because defects such as dislocations, grain boundaries and precipitates are often used or controlled to strengthen metals. D is wrong because density is not the controlling property for strength and toughness.",
+    "relevantTheory": "Mechanical properties in metals are strongly microstructure-sensitive. Processing can change grain size, dislocation density, phase distribution, precipitates, texture and defect populations, producing different strengths and ductilities from related compositions.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, pp. 1-2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 8-10"
+  },
+  {
+    "id": 169,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "classification of metals",
+      "soft metals",
+      "special metals"
+    ],
+    "diagramRequired": false,
+    "question": "In the Lecture 2 classification slide, metals are not treated as one single undifferentiated group because:",
+    "options": {
+      "A": "families such as soft metals, special metals and interstitial non-metals have very different engineering roles.",
+      "B": "all metallic elements have identical melting point, strength and reactivity.",
+      "C": "classification is based only on alphabetic order.",
+      "D": "the course ignores alloying elements after the first lecture."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture begins classifying metals and points to soft metals, special metals and non-metals/interstitials as distinct categories. B is wrong because metals differ strongly in melting point, reactivity, conductivity and mechanical behavior. C is wrong because engineering classification is property- and application-based. D is wrong because alloying and interstitial elements remain central throughout the course.",
+    "relevantTheory": "Classification helps connect element type to engineering behavior. The professor's emphasis is not memorizing a periodic table list, but understanding which families and alloying/interstitial elements control structure, processing and properties.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, p. 5"
+  },
+  {
+    "id": 170,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "interstitials",
+      "non-metals",
+      "carbon in metals"
+    ],
+    "diagramRequired": false,
+    "question": "In the classification context, why are small non-metal atoms such as C, N, O or H important in metallic materials?",
+    "options": {
+      "A": "They can occupy interstitial positions and strongly affect the metal lattice and properties.",
+      "B": "They are irrelevant because only metallic atoms can affect a metallic alloy.",
+      "C": "They always replace the base metal atoms substitutionally with no lattice distortion.",
+      "D": "They remove all crystalline order and always produce amorphous metals."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 2 classifies non-metals as interstitials, and the notes clarify that small atoms such as carbon can fit into interstitial cavities and distort the Fe lattice. B is wrong because interstitial elements are among the most powerful property modifiers in metals. C is wrong because small atoms usually occupy interstitial sites rather than simple substitutional positions. D is wrong because interstitial solid solutions remain crystalline unless a separate amorphization process occurs.",
+    "relevantTheory": "Interstitial atoms are small enough to sit between host metal atoms. Even in small amounts they can distort the lattice, change diffusion and solubility behavior, and strongly influence strength, phase transformations and embrittlement.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, p. 1"
+  },
+  {
+    "id": 171,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "functional performance",
+      "structural performance",
+      "material selection"
+    ],
+    "diagramRequired": false,
+    "question": "A metallic component is selected because it must carry load and also conduct heat or electricity. Which Lecture 2 attribute is being used?",
+    "options": {
+      "A": "Metals can combine functional and structural performance.",
+      "B": "Metals can never be used for functional performance.",
+      "C": "Only polymers can combine two performance requirements.",
+      "D": "Mechanical properties are unrelated to material selection."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide explicitly says metals can combine functional and structural performance. B is wrong because conductivity and other functional responses are classic metallic advantages. C is wrong because the lecture is making this point specifically for metals and alloys. D is wrong because material selection connects required performance to mechanical and functional properties.",
+    "relevantTheory": "Engineering components often need more than strength. Metals are attractive when the same material can provide load-bearing capacity plus functions such as thermal/electrical conduction, magnetic response or surface performance.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 2"
+  },
+  {
+    "id": 172,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "performance vs properties",
+      "tensile sample",
+      "structural part"
+    ],
+    "diagramRequired": false,
+    "question": "A tensile specimen cut from a metal gives a high strength, but a large cast structural part fails earlier in service. Which explanation best follows Lecture 2?",
+    "options": {
+      "A": "A true part includes geometry, size, processing defects and microstructure gradients that a small specimen may not represent.",
+      "B": "The tensile test must always exactly predict every structural part, regardless of defects.",
+      "C": "Mechanical response is independent of manufacturing history.",
+      "D": "Large parts cannot contain microstructural defects."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the self-assessment asks the student to compare material-sample properties with true structural-part performance and to account for manufacturing factors, geometry and size. B is wrong because a tensile test is a simplified property measurement. C is wrong because Lecture 2 repeatedly links manufacturing to microstructure and defects. D is wrong because larger cast parts can include porosity, segregation, columnar grains or other defects.",
+    "relevantTheory": "Properties measured on standardized samples are not identical to component performance. Real parts include scale effects, stress concentrators, surface state, internal soundness, anisotropy and local microstructure variations introduced by manufacturing.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, pp. 1, 6, 13"
+  },
+  {
+    "id": 173,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "complex geometry",
+      "large size",
+      "performance vs properties"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NOT TRUE clause for a complex and large metallic structural part.",
+    "options": {
+      "A": "Local cooling rate can vary from one zone to another.",
+      "B": "Microstructure and defect population can vary inside the same part.",
+      "C": "Stress distribution can be more complex than in a tensile coupon.",
+      "D": "Its performance is completely independent of geometry and size."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because it is the false clause: Lecture 2 self-assessment explicitly asks students to rethink performance for complex geometry and large size. A is wrong because variable cooling rate is a normal cause of microstructure gradients. B is wrong because manufacturing introduces defects and different microstructures. C is wrong because a real component has geometry-dependent stresses, unlike a simple tensile sample.",
+    "relevantTheory": "A structural part is a product of material plus process plus geometry. Larger and more complex parts have stronger scale effects, non-uniform cooling, different local strains, possible casting defects and non-uniform service stresses.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, pp. 2, 13"
+  },
+  {
+    "id": 174,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "microstructure scale",
+      "nano micro macro defects",
+      "properties"
+    ],
+    "diagramRequired": false,
+    "question": "Why does the dimensional scale of microstructure affect material properties?",
+    "options": {
+      "A": "Because features at nano-, micro- and macro-scale control different obstacles, paths and weak points for deformation or failure.",
+      "B": "Because only macroscopic shape exists in metals.",
+      "C": "Because nanoscopic defects are too small to affect any property.",
+      "D": "Because microstructure scale changes only the colour of the metal."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture links manufacturing to nano/micro/macro defects and asks why microstructure scale affects properties. B is wrong because metals have lattice defects, grains, phases and larger manufacturing defects. C is wrong because nanoscale defects such as dislocations, precipitates and stacking faults can dominate strength and plasticity. D is wrong because the point is mechanical and functional performance, not colour.",
+    "relevantTheory": "Microstructure is multiscale. Atomic defects influence diffusion and slip, nanoscale defects influence dislocation motion, grains and phases influence strength and toughness, and macroscopic defects such as pores can control fracture.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, pp. 1, 13, 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pp. 3-4"
+  },
+  {
+    "id": 175,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "microstructure detection",
+      "TEM SEM OM XRD",
+      "scale"
+    ],
+    "diagramRequired": false,
+    "question": "Which instrument choice best matches the Lecture 2 microstructure-detection slide?",
+    "options": {
+      "A": "TEM for very high magnification nanoscale features, SEM for finer surface/microstructure detail, OM for micrometre-scale structures, and XRD for crystal/lattice information.",
+      "B": "Only optical microscopy is needed for every microstructural scale down to atomic spacing.",
+      "C": "XRD is used only to measure macroscopic component length.",
+      "D": "SEM and TEM are manufacturing processes rather than observation instruments."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture lists TEM, SEM, OM and X-ray diffractometer with different resolution scales. B is wrong because optical microscopy is not sufficient for nanoscale defects. C is wrong because XRD diagnoses crystallographic/lattice-scale information. D is wrong because SEM and TEM are microscopes, not shaping routes.",
+    "relevantTheory": "Different microstructural scales require different instruments. OM observes micrometre-scale grains and phases; SEM gives higher-resolution surface and microstructural images; TEM can see nanoscale defects; XRD detects crystal structure and lattice-scale information.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 16"
+  },
+  {
+    "id": 176,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Fundamentals",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "polycrystals",
+      "isotropy",
+      "grain orientation"
+    ],
+    "diagramRequired": false,
+    "question": "Why may a polycrystalline metal behave approximately isotropically even though each individual crystal grain is anisotropic?",
+    "options": {
+      "A": "Random orientation of many grains averages out the directional response.",
+      "B": "Every grain has exactly the same orientation after solidification.",
+      "C": "Anisotropy disappears because metallic bonds stop existing at grain boundaries.",
+      "D": "Only single crystals can carry mechanical load."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the Lecture 2 self-assessment asks this exact conceptual point: many randomly oriented grains can average the anisotropic behavior of individual crystals. B is wrong because identical orientation would create texture or single-crystal-like behavior, not random averaging. C is wrong because grain boundaries do not eliminate bonding. D is wrong because most engineering metals are load-bearing polycrystals.",
+    "relevantTheory": "Crystalline anisotropy is direction dependence inside a grain. In a random polycrystal, grains have many orientations, so the macroscopic property can average toward isotropy; processing texture or columnar grains can break that averaging.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, pp. 4, 13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 12"
+  },
+  {
+    "id": 177,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "cold rolling",
+      "anisotropy",
+      "elongated grains"
+    ],
+    "diagramRequired": false,
+    "question": "Cold rolling a polycrystalline metal is expected to affect isotropy mainly because it:",
+    "options": {
+      "A": "elongates grains and introduces a rolling direction, producing directional properties.",
+      "B": "turns all grains into a liquid.",
+      "C": "removes every dislocation and grain boundary instantly.",
+      "D": "makes the metal independent of microstructure."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 2 shows cold work in polycrystalline metals elongating grains along the applied stress direction, and the self-assessment asks whether cold rolling affects isotropy. B is wrong because cold rolling is solid-state deformation. C is wrong because cold work increases defect density rather than instantly removing it. D is wrong because rolling is a direct microstructure-control process.",
+    "relevantTheory": "Rolling introduces texture, elongated grains and possibly inclusion stringers. These features create microstructural anisotropy, so properties along the rolling, transverse and thickness directions can differ.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, pp. 13, 17; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pp. 5-7"
+  },
+  {
+    "id": 178,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "annealing",
+      "cold rolling",
+      "isotropy"
+    ],
+    "diagramRequired": false,
+    "question": "After annealing a cold rolled alloy, which statement is most correct?",
+    "options": {
+      "A": "Annealing can reduce cold-work effects by recovery/recrystallization and may restore more equiaxed grains, but the final isotropy depends on the resulting texture and microstructure.",
+      "B": "Annealing always preserves the maximum cold-work anisotropy unchanged.",
+      "C": "Annealing always melts the alloy to remove rolling direction.",
+      "D": "Annealing makes properties independent of grain structure."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the self-assessment asks whether properties become isotropic after annealing a cold rolled alloy; the careful answer is that annealing can remove much of the deformation structure, but the final result depends on recrystallized grain orientation and remaining texture. B is wrong because annealing is used to reduce cold-work effects. C is wrong because annealing is a solid-state heat treatment, not melting. D is wrong because grain structure still matters.",
+    "relevantTheory": "Cold rolling creates elongated grains, high dislocation density and texture. Annealing can cause recovery and recrystallization, lowering stored energy and forming new grains, but texture and anisotropy are process-dependent.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, pp. 13, 17; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, p. 3"
+  },
+  {
+    "id": 179,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "fabrication chain",
+      "solidification",
+      "microstructure control"
+    ],
+    "diagramRequired": false,
+    "question": "Which process chain best represents the Lecture 2 slide on fabrication of metals and alloys by microstructure control?",
+    "options": {
+      "A": "liquid metal -> solidification -> unit-cell crystal/grains -> polycrystal or single crystal -> final engineering product",
+      "B": "polymerization -> glass transition -> ceramic sintering -> metallic bonding",
+      "C": "final product -> liquid metal -> no solidification -> no grains",
+      "D": "machining chips -> periodic table -> disappearance of microstructure"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide shows liquid metal becoming crystal structures, polycrystals or single crystals and then engineering products through solidification and microstructure control. B is wrong because it mixes unrelated non-metal processes. C is wrong because a metal product must solidify and develop structure. D is wrong because machining chips are not the conceptual fabrication chain shown.",
+    "relevantTheory": "Manufacturing creates the hierarchy of metallic structure. Solidification establishes crystal lattice, grains, dendrites and defects; subsequent processing can transform this into polycrystalline products or special single-crystal components.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 4"
+  },
+  {
+    "id": 180,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "single crystal",
+      "turbine blade",
+      "grain boundaries"
+    ],
+    "diagramRequired": false,
+    "question": "Why does Lecture 2 use a turbine blade as an example of a final single-crystal part?",
+    "options": {
+      "A": "It shows that manufacturing can deliberately control crystallography, even producing a component without ordinary polycrystalline grain boundaries.",
+      "B": "It proves that all cast products must be single crystals.",
+      "C": "It means single crystals have random grain orientations.",
+      "D": "It shows that microstructure control is irrelevant for high-performance parts."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide connects fabrication, single crystals and final turbine blades as an example of extreme microstructure control. B is wrong because most cast products are polycrystalline, not single crystals. C is wrong because a single crystal does not have many random grains. D is wrong because the whole point is that microstructure control can be decisive.",
+    "relevantTheory": "A single-crystal component is manufactured so that the whole part behaves as one crystal orientation rather than as a random aggregate of grains. This is a special case of designing the microstructure for service performance.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 4"
+  },
+  {
+    "id": 181,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "solidification",
+      "dendritism",
+      "microdefects"
+    ],
+    "diagramRequired": false,
+    "question": "During fabrication from the liquid state, why is dendritism important in Lecture 2?",
+    "options": {
+      "A": "It is a solidification microstructure feature that can introduce non-uniform structure and microdefects.",
+      "B": "It is a polymer-only phenomenon unrelated to metals.",
+      "C": "It means the metal has no crystal lattice.",
+      "D": "It prevents the formation of grains in every casting."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the fabrication slide lists dendritism, microdefects and lattice defects as part of the path from liquid metal to engineering product. B is wrong because dendritic solidification is a metallic casting concept here. C is wrong because dendrites are crystalline solidification structures. D is wrong because dendritic growth is part of grain and microstructure formation, not a prevention of it.",
+    "relevantTheory": "Solidification is not just a liquid-to-solid state change. It builds dendrites, grains, segregation patterns and defects, which can affect soundness, strength and toughness of cast products.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 4"
+  },
+  {
+    "id": 182,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "sand casting",
+      "casting process",
+      "complex parts"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best describes sand casting in the Lecture 2 manufacturing context?",
+    "options": {
+      "A": "It is a casting route suited to shaped parts where molten metal solidifies inside a mould.",
+      "B": "It is a cold rolling process performed below room temperature.",
+      "C": "It is a joining process that never involves liquid metal.",
+      "D": "It is a microscopy technique for observing nanocrystalline copper."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 2 introduces sand casting as part of general casting and metallic fabrication. B is wrong because rolling is a deformation process, not sand casting. C is wrong because casting involves molten metal and solidification. D is wrong because microscopy and electrodeposition are separate topics.",
+    "relevantTheory": "Casting processes shape metals by pouring or forcing molten metal into a mould and allowing it to solidify. The process is attractive for complex shapes but requires attention to solidification structure and casting soundness.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 9"
+  },
+  {
+    "id": 183,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "casting soundness",
+      "X-ray inspection",
+      "porosity"
+    ],
+    "diagramRequired": false,
+    "question": "The purpose of checking the soundness of castings by X-ray is mainly to:",
+    "options": {
+      "A": "detect internal defects such as porosity or shrinkage that may reduce part reliability.",
+      "B": "change the alloy composition by adding X-ray atoms.",
+      "C": "increase ductility by cold working the casting.",
+      "D": "measure only the external colour of the casting."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 2 shows soundness of castings by X-ray for real parts such as wheels, crankshafts and piping. The point is detecting internal casting defects that are not necessarily visible from the surface. B is wrong because X-ray inspection does not alloy the material. C is wrong because inspection is not cold work. D is wrong because X-ray is used for internal soundness, not colour.",
+    "relevantTheory": "Casting integrity matters because internal defects act as weak points and stress concentrators. Non-destructive inspection such as X-ray helps verify whether a casting is sound enough for service.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 6"
+  },
+  {
+    "id": 184,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "shaping methods",
+      "casting forging extrusion",
+      "PM machining"
+    ],
+    "diagramRequired": false,
+    "question": "Which list contains only relevant shaping or manufacturing methods of metals and alloys shown in Lecture 2?",
+    "options": {
+      "A": "casting, forging, extrusion, powder metallurgy, machining, surface heat treatment, joining and welding",
+      "B": "photosynthesis, polymer vulcanization, glass blowing only, and composting",
+      "C": "only machining, because all other routes are excluded for metals",
+      "D": "only casting, because wrought processing is impossible in metals"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because these are the manufacturing/shaping methods listed or shown in the lecture. B is wrong because those are not the metallic shaping methods being taught. C is wrong because machining is only one route and is even described as wasteful. D is wrong because metals can be forged, extruded, rolled and otherwise wrought.",
+    "relevantTheory": "Metals are unusually versatile in manufacturing. They can be shaped from liquid, powder or solid state, machined to tolerance, surface treated and joined, which is one reason they dominate structural engineering applications.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, pp. 2, 6"
+  },
+  {
+    "id": 185,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "surface heat treatment",
+      "surface properties",
+      "manufacturing route"
+    ],
+    "diagramRequired": false,
+    "question": "Why is surface heat treatment listed among relevant metallic manufacturing methods?",
+    "options": {
+      "A": "Because the surface can be processed to change local properties while the component remains a metallic part.",
+      "B": "Because it is the same operation as sand casting.",
+      "C": "Because it removes the need to consider surface degradation.",
+      "D": "Because it always melts the entire component."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because surface heat treatment is shown as a relevant method for metals and alloys, and Lecture 2 separately emphasizes that surfaces are important regions. B is wrong because casting and surface heat treatment are different manufacturing routes. C is wrong because surfaces remain important for degradation and corrosion. D is wrong because heat treatment is generally a controlled thermal process, not necessarily whole-part melting.",
+    "relevantTheory": "Surface processing is useful because many failures start at or near the surface. Metallic materials can be locally heat treated or modified to adjust hardness, residual stress, wear or fatigue behavior while retaining a different core microstructure.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, pp. 6, 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 2-4"
+  },
+  {
+    "id": 186,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "severe plastic deformation",
+      "ultrafine alloys",
+      "hot rolling forging"
+    ],
+    "diagramRequired": false,
+    "question": "The simulator slide on 25t hot rolling and forging is mainly used to show that severe multidirectional plastic deformation can:",
+    "options": {
+      "A": "control microstructure and produce ultrafine alloys.",
+      "B": "make the metal amorphous in every industrial operation.",
+      "C": "remove all dislocations before deformation starts.",
+      "D": "prevent any change in grain shape or defect density."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide labels microstructure control by severe multidirectional plastic deformation and ultrafine alloys. B is wrong because amorphization is not the stated outcome. C is wrong because plastic deformation depends on dislocation activity and changes defect density. D is wrong because deformation changes microstructure, which is why it is useful.",
+    "relevantTheory": "Large plastic deformation can refine grains, alter texture and introduce or rearrange defects. Severe deformation routes are therefore manufacturing tools for controlling strength and toughness through ultrafine microstructures.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 8"
+  },
+  {
+    "id": 187,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "nanocrystalline metals",
+      "electrodeposition",
+      "microstructure control"
+    ],
+    "diagramRequired": false,
+    "question": "In Lecture 2, electrodeposition is presented as a route for producing:",
+    "options": {
+      "A": "nanocrystalline metals with controlled very fine microstructure.",
+      "B": "large sand moulds for casting only.",
+      "C": "polymer composites without metallic bonding.",
+      "D": "X-ray images of casting defects."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide explicitly says microstructure control: nanocrystalline metals by electrodeposition. B is wrong because sand moulds belong to casting, not electrodeposition. C is wrong because the lecture example is metallic nanocrystalline copper. D is wrong because X-ray inspection is a different slide on casting soundness.",
+    "relevantTheory": "Nanocrystalline metals contain grains at the nanoscale. Producing such structures requires manufacturing routes that control nucleation and growth at very fine scale; electrodeposition is one route shown in the lecture.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 8"
+  },
+  {
+    "id": 188,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "nanocrystalline copper",
+      "superplasticity",
+      "strain rate"
+    ],
+    "diagramRequired": false,
+    "question": "The nanocrystalline Cu example before and after tensile testing at room temperature and very low deformation rates is mainly linked to:",
+    "options": {
+      "A": "unusual plastic response enabled by a very fine microstructure and low strain rate.",
+      "B": "the impossibility of testing metals in tension.",
+      "C": "the fact that copper has no crystal grains.",
+      "D": "casting soundness by X-ray."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide labels nanocrystalline Cu, tensile testing at room temperature and very low rates of deformation, and refers to superplastic Cu. B is wrong because tensile testing is the example itself. C is wrong because nanocrystalline copper has grains, but they are extremely fine. D is wrong because X-ray soundness is a casting-integrity topic, not this tensile example.",
+    "relevantTheory": "Very fine microstructures can change plastic deformation mechanisms and apparent ductility. Low strain rate gives time for deformation accommodation, which is why the lecture connects nanocrystalline copper with superplastic behavior.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pp. 19-20"
+  },
+  {
+    "id": 189,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "slip lines",
+      "slip bands",
+      "single crystal"
+    ],
+    "diagramRequired": false,
+    "question": "In a deformed single crystal, visible slip bands on the polished surface are best interpreted as:",
+    "options": {
+      "A": "surface steps produced by many dislocations gliding on related slip planes.",
+      "B": "corrosion pits unrelated to plastic deformation.",
+      "C": "proof that no shear stress was present.",
+      "D": "liquid dendrites frozen on the surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes explain that slip bands are composed of many slip planes and appear as surface steps or thick lines after polishing. B is wrong because the feature is mechanical slip, not corrosion. C is wrong because slip requires resolved shear. D is wrong because dendrites are solidification structures, not slip bands from tensile deformation.",
+    "relevantTheory": "Slip in single crystals is the collective motion of dislocations on crystallographic planes. When many dislocations glide on nearby planes, their offsets can produce visible slip lines or slip bands on the specimen surface.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, pp. 10-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 9, 11"
+  },
+  {
+    "id": 190,
+    "deck": "slides",
+    "moduleId": "lecture-2-metals",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "slip system geometry",
+      "slip direction",
+      "slip plane"
+    ],
+    "diagramRequired": false,
+    "question": "Which clause is NOT TRUE for a crystallographic slip system?",
+    "options": {
+      "A": "The slip direction must lie in the slip plane.",
+      "B": "The plane and direction are usually dense atomic families.",
+      "C": "The active system depends on crystal structure and stress orientation.",
+      "D": "The slip direction may be completely unrelated to the slip plane."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because it is the false clause: the slip direction must lie in the slip plane for the combination to be a slip system. A is wrong because it states the correct geometric requirement. B is wrong because dense planes and dense directions are exactly the lecture definition. C is wrong because the crystal structure and resolved shear orientation control which systems can operate.",
+    "relevantTheory": "A slip system is not any arbitrary plane-direction pair. It is a crystallographic plane of easy glide plus a direction contained in that plane, usually both densely packed, on which resolved shear stress can move dislocations.",
+    "source": "slides&docs/Lecture 2 Metals.pdf, p. 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 13"
+  },
+  {
+    "id": 191,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "Schmid law",
+      "resolved shear stress",
+      "CRSS"
+    ],
+    "diagramRequired": false,
+    "question": "Schmid's law is mainly used to determine:",
+    "options": {
+      "A": "the resolved shear stress acting on a slip system under an applied tensile stress.",
+      "B": "the melting temperature of a metallic alloy.",
+      "C": "the carbon content of pearlite from a phase diagram.",
+      "D": "the corrosion potential of a stainless steel surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 defines Schmid's law as the relation between imposed tensile stress and the resolved shear stress acting over the slip plane and along the slip direction. B is wrong because melting temperature belongs to bonding/phase topics, not Schmid law. C is wrong because carbon content from a phase diagram is Fe-C/lever-rule material. D is wrong because corrosion potential is unrelated to slip activation.",
+    "relevantTheory": "Slip starts when the shear component of the applied stress on a crystallographic slip system exceeds the critical resolved shear stress. Schmid's law expresses this projection as tau_RSS = sigma cos(theta) cos(phi).",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 3-5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 13-14"
+  },
+  {
+    "id": 192,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "Schmid factor",
+      "maximum resolved shear stress",
+      "calculation"
+    ],
+    "diagramRequired": false,
+    "question": "A single crystal is loaded in tension with theta = 45 deg and phi = 45 deg. What is the Schmid factor?",
+    "options": {
+      "A": "0.5",
+      "B": "1.0",
+      "C": "0",
+      "D": "0.25"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because m = cos(theta)cos(phi) = cos45 deg x cos45 deg = 0.707 x 0.707 = 0.5. B is wrong because no tensile orientation gives m = 1 for a valid slip system. C is wrong because both cosines are non-zero. D is wrong because it would result from incorrectly multiplying 0.5 x 0.5 instead of the cosines.",
+    "relevantTheory": "The Schmid factor m measures how efficiently tensile stress is converted into shear on the slip system. The maximum tensile Schmid factor is 0.5, typically at theta = phi = 45 deg.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 5-6; PAST_EXAMS/QUESTION_SET_3.txt, style sample only"
+  },
+  {
+    "id": 193,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Schmid law",
+      "extreme orientation",
+      "zero RSS"
+    ],
+    "diagramRequired": false,
+    "question": "If the slip plane is perpendicular to the tensile stress, with theta = 90 deg and phi = 0 deg, what happens to the resolved shear stress?",
+    "options": {
+      "A": "It is zero, so slip cannot occur on that system by this stress orientation.",
+      "B": "It is maximum because the tensile stress is very large.",
+      "C": "It equals the full tensile stress.",
+      "D": "It becomes independent of crystal orientation."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because cos(theta) = cos90 deg = 0, so tau_RSS = sigma cos(theta)cos(phi) = 0 even if sigma is large. B is wrong because magnitude of applied stress cannot overcome a zero projection for that orientation. C is wrong because only the resolved component acts for slip. D is wrong because the whole example proves orientation matters.",
+    "relevantTheory": "A tensile stress must be resolved onto both the slip plane and slip direction. Unfavourable orientations can give zero resolved shear stress, so a crystal may fracture rather than plastically slip on that system.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 5-6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 14"
+  },
+  {
+    "id": 194,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "CRSS",
+      "yielding stress",
+      "material property"
+    ],
+    "diagramRequired": false,
+    "question": "Which clause is NOT TRUE for the critical resolved shear stress tau_CRSS of a single crystal?",
+    "options": {
+      "A": "It is the critical shear stress for dislocation motion on a slip system.",
+      "B": "It is a material property closely related to yielding stress.",
+      "C": "It is exceeded when slip starts on the active system.",
+      "D": "It is identical to the externally applied tensile stress for every crystal orientation."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because tau_CRSS is not automatically equal to the applied tensile stress; the tensile stress must be projected by the Schmid factor. A is wrong because that is the definition. B is wrong because the slide states tau_CRSS is a material property closely related to sigma_y. C is wrong because tau_RSS > tau_CRSS is the condition for slip activation.",
+    "relevantTheory": "CRSS is the shear threshold for slip. In a tensile test, the applied tensile stress required to yield depends on crystal orientation through tau_RSS = sigma m; therefore sigma_y and tau_CRSS are related but not identical for every orientation.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 4-6; PAST_EXAMS/QUESTIONS_SET_1.txt, style sample only"
+  },
+  {
+    "id": 195,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "primary slip system",
+      "slip bands",
+      "single crystal"
+    ],
+    "diagramRequired": false,
+    "question": "In a tensile test of a single crystal, the primary slip system is the one that:",
+    "options": {
+      "A": "first reaches the critical resolved shear stress for the imposed loading orientation.",
+      "B": "has the lowest melting point.",
+      "C": "is chosen by the macroscopic sample colour.",
+      "D": "contains no dislocations and therefore cannot slip."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 says slip starts in the primary slip system, the system first to slip with respect to the imposed resolved shear stress. B is wrong because melting point is irrelevant. C is wrong because slip depends on crystallographic orientation and stress resolution. D is wrong because slip is dislocation motion; dislocations are needed for plastic slip.",
+    "relevantTheory": "A single crystal may contain several possible slip systems. Under a given loading direction, the system with the most favourable Schmid factor reaches CRSS first and produces slip lines or slip bands on the specimen surface.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 4"
+  },
+  {
+    "id": 196,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "slip lines",
+      "slip bands",
+      "dislocation aggregates"
+    ],
+    "diagramRequired": false,
+    "question": "In Lecture 4 terminology, slip bands differ from slip lines because slip bands are:",
+    "options": {
+      "A": "large-number aggregates of dislocations, while slip lines are smaller-number aggregates visible as surface markings.",
+      "B": "chemical corrosion products on grain boundaries.",
+      "C": "liquid solidification dendrites.",
+      "D": "phase-diagram transformation lines."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that slip bands are large-number aggregates of dislocations and slip lines are small-number aggregates appearing as markings over the surface. B is wrong because corrosion products are not slip features. C is wrong because dendrites form during solidification. D is wrong because phase-diagram lines are not dislocation aggregates.",
+    "relevantTheory": "Plastic deformation by slip leaves surface evidence when many dislocations move on crystallographic planes. Slip lines are smaller visible markings; slip bands are stronger localized groups of slip activity.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 11"
+  },
+  {
+    "id": 197,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "CRSS",
+      "Schmid factor",
+      "yield stress calculation"
+    ],
+    "diagramRequired": false,
+    "question": "A single crystal has tau_CRSS = 50 MPa and is oriented with Schmid factor m = 0.5. What tensile stress is needed to start slip?",
+    "options": {
+      "A": "100 MPa",
+      "B": "50 MPa",
+      "C": "25 MPa",
+      "D": "0.5 MPa"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because tau_RSS = sigma m, so sigma = tau_CRSS / m = 50 / 0.5 = 100 MPa. B is wrong because it ignores the projection factor. C is wrong because it multiplies instead of dividing. D is wrong because it confuses the Schmid factor with a stress unit.",
+    "relevantTheory": "The external tensile stress required for single-crystal yielding depends on orientation. A lower Schmid factor requires a larger applied tensile stress to reach the same CRSS.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 5-6"
+  },
+  {
+    "id": 198,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "single crystal vs polycrystal",
+      "Taylor factor",
+      "larger load"
+    ],
+    "diagramRequired": false,
+    "question": "Which generally requires a larger external load to start macroscopic slip, a single crystal or a random polycrystal of the same metal?",
+    "options": {
+      "A": "The polycrystal, because grain orientations differ and grain boundaries hinder dislocation crossing.",
+      "B": "The single crystal, because it has more grain boundaries.",
+      "C": "They always require exactly the same load for every orientation.",
+      "D": "Neither can deform plastically by slip."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 asks this comparison and explains that in polycrystals the slip angles differ from grain to grain, high-angle grain boundaries hinder dislocation crossing, and the Taylor factor raises the macroscopic stress. B is wrong because a single crystal has no grain boundaries inside the crystal. C is wrong because orientation and grain constraints matter. D is wrong because both can deform plastically when suitable slip conditions are met.",
+    "relevantTheory": "A single crystal can slip easily when favourably oriented. A polycrystal must maintain compatibility between differently oriented grains, so more systems and higher macroscopic stress are usually needed.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 6, 10-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 15-16"
+  },
+  {
+    "id": 199,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "Taylor factor",
+      "polycrystals",
+      "average Schmid factor"
+    ],
+    "diagramRequired": false,
+    "question": "For a randomly oriented polycrystal in tensile/compression, Lecture 4 gives the Taylor factor M as approximately:",
+    "options": {
+      "A": "3.1",
+      "B": "0.5",
+      "C": "1.0",
+      "D": "90"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states M = Taylor factor = 3.1 for tensile/compression. B is wrong because 0.5 is the maximum single-crystal Schmid factor in tension, not M. C is wrong because M is not unity for random polycrystals. D is wrong because 90 degrees is an angle used in an extreme Schmid-law orientation, not the Taylor factor.",
+    "relevantTheory": "Taylor factor converts single-crystal slip resistance to a polycrystal-scale stress requirement. For random polycrystals, the average Schmid factor is about 1/3.06, so M is about 3.06 or 3.1.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 16"
+  },
+  {
+    "id": 200,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "grain boundaries",
+      "small-angle GB",
+      "large-angle GB"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NOT TRUE clause about grain boundaries in Lecture 4.",
+    "options": {
+      "A": "They are 2D defects typical of polycrystalline materials.",
+      "B": "Small-angle GBs occur for misorientation angle theta <= 15 deg.",
+      "C": "Large-angle GBs can be described only as a simple sequential array of edge dislocations.",
+      "D": "They are produced by relative rotation of adjacent grains."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because it is the false clause: the slide says small-angle GBs can be viewed as arrays of edge dislocations, but large-angle GBs may contain other defects and cannot be described only by edge dislocations. A is true because GBs are 2D defects in polycrystals. B is true according to the lecture threshold. D is true because GBs accommodate relative rotation of adjacent grains.",
+    "relevantTheory": "Grain boundaries separate crystals with different orientations. Low-angle boundaries can be modeled as organized dislocation arrays; high-angle boundaries are more disordered and higher-energy interfaces.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 7-8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pp. 3, 7"
+  },
+  {
+    "id": 201,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "GB energy",
+      "misorientation",
+      "Cu case"
+    ],
+    "diagramRequired": false,
+    "question": "In the Lecture 4 Cu example, grain-boundary energy generally increases when:",
+    "options": {
+      "A": "the misorientation angle between adjacent grains increases.",
+      "B": "the crystal becomes a perfect single crystal with no boundary.",
+      "C": "the applied tensile stress is zero in every direction.",
+      "D": "the material becomes liquid before grains form."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide plots surface/GB energy as a function of misorientation angle and the notes describe increasing energy with increasing misalignment angle, at least before special low-energy cases. B is wrong because removing the boundary removes GB energy. C is wrong because GB energy is structural, not simply the applied stress. D is wrong because the lecture concerns solid grain boundaries.",
+    "relevantTheory": "GB energy reflects atomic disorder at the boundary. Larger misorientation generally creates a more disordered, higher-energy boundary, although special coincidence-site boundaries can have unusually low energy.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pp. 5-7"
+  },
+  {
+    "id": 202,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "grain-boundary consequences",
+      "impurity sinks",
+      "second phases"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement is NOT one of the consequences of grain boundaries emphasized in Lecture 4?",
+    "options": {
+      "A": "They are sources and sinks for dislocations.",
+      "B": "They act as sinks for impurities dissolved in the alloy.",
+      "C": "They can be primary nucleation sites for second phases.",
+      "D": "They are perfectly crystalline portions with no effect on sliding systems."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because it is the NOT consequence: the slide says GBs are material portions with no crystallinity and that they change the sliding system. A, B and C are all explicitly listed as consequences of grain boundaries.",
+    "relevantTheory": "Grain boundaries are high-energy interfaces. They interact with dislocations, impurities and precipitates; this makes them important for strengthening, segregation, precipitation, diffusion, corrosion and fracture.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, p. 8"
+  },
+  {
+    "id": 203,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "polycrystal yielding",
+      "five independent slip systems",
+      "ductility"
+    ],
+    "diagramRequired": false,
+    "question": "For ductile slip in a polycrystalline material, Lecture 4 states that at least how many independent slip systems must be active?",
+    "options": {
+      "A": "5",
+      "B": "1",
+      "C": "2",
+      "D": "12 in every crystal structure"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture states that at least 5 independent slip systems must be active for slip in polycrystalline materials. B is wrong because one slip system cannot maintain arbitrary compatible shape change in a polycrystal. C is wrong because two is not enough for 3D polycrystalline ductility. D is wrong because FCC has 12 systems, but the requirement stated is at least 5 active independent systems, not always 12 for every structure.",
+    "relevantTheory": "Polycrystalline deformation must preserve compatibility between grains: voids and overlaps are not allowed. Multiple independent slip systems are needed so grains can change shape coherently with neighbours.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 12, 16"
+  },
+  {
+    "id": 204,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "temperature",
+      "ductility",
+      "HCP brittleness"
+    ],
+    "diagramRequired": false,
+    "question": "Why can some polycrystalline materials that are brittle at low temperature become ductile at high temperature?",
+    "options": {
+      "A": "More slip systems may become active at higher temperature.",
+      "B": "Grain boundaries disappear completely at high temperature.",
+      "C": "The Schmid factor becomes exactly 1 in every grain.",
+      "D": "Dislocations stop moving at high temperature."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 states that at higher temperatures more slip systems may become active, making some low-temperature brittle polycrystals ductile. B is wrong because grain boundaries do not simply disappear. C is wrong because grain orientations still vary. D is wrong because dislocation motion is generally easier, not stopped, at higher temperature.",
+    "relevantTheory": "Temperature can activate additional deformation modes or slip systems. This is especially important for crystal structures with limited room-temperature slip, where polycrystalline compatibility is otherwise difficult.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, p. 4"
+  },
+  {
+    "id": 205,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "micro-yielding",
+      "polycrystal",
+      "grain sequence"
+    ],
+    "diagramRequired": false,
+    "question": "Which sequence best describes yielding in a random polycrystal?",
+    "options": {
+      "A": "favourably oriented grains yield first, then slip spreads to less favourable grains while compatibility is maintained.",
+      "B": "all grains yield at exactly the same instant with the same resolved shear stress.",
+      "C": "only the least favourably oriented grain yields, and then deformation stops forever.",
+      "D": "yielding starts only after all grain boundaries melt."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 states that the resolved shear stress varies from grain to grain; the grain with the largest resolved shear stress yields first, then slip spreads to less favourably oriented grains while the assembly remains cohesive. B is wrong because the slide explicitly says yielding does not take place all at once. C is wrong because deformation spreads after initial grains saturate. D is wrong because yielding is solid-state plastic deformation.",
+    "relevantTheory": "Polycrystal yielding is inhomogeneous. Micro-yielding can start locally, often near grain boundaries or favourable grains, before the macroscopic stress-strain curve shows full plastic flow.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 10-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 15"
+  },
+  {
+    "id": 206,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "polycrystal compatibility",
+      "voids",
+      "overlap"
+    ],
+    "diagramRequired": false,
+    "question": "During plastic deformation of a polycrystal, voids and overlaps between grains are:",
+    "options": {
+      "A": "not allowed; neighbouring grains must deform compatibly.",
+      "B": "required for normal ductile slip.",
+      "C": "the definition of Schmid factor.",
+      "D": "only caused by X-ray diffraction."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the Lecture 4 slide explicitly says voids and overlap during plastic deformation are NOT allowed. B is wrong because voids and overlaps would mean incompatible deformation or damage. C is wrong because Schmid factor is the stress projection factor. D is wrong because XRD is an observation technique, not the cause of deformation compatibility.",
+    "relevantTheory": "Polycrystals must remain cohesive while grains deform. This compatibility requirement is why several independent slip systems and grain-to-grain transmission of shear are necessary.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 10"
+  },
+  {
+    "id": 207,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "GB strengthening",
+      "dislocation pile-up",
+      "polycrystal strength"
+    ],
+    "diagramRequired": false,
+    "question": "Why are polycrystalline metals commonly stronger than comparable single crystals?",
+    "options": {
+      "A": "Grain boundaries hinder dislocation motion and crossing, causing pile-ups and additional strengthening.",
+      "B": "Polycrystals contain no defects.",
+      "C": "Every grain is oriented at theta = phi = 45 deg.",
+      "D": "Single crystals always contain more grain boundaries."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 states that high-angle grain boundaries hinder dislocation crossing and that polycrystals are much stronger than single crystals. B is wrong because polycrystals contain grain boundaries and other defects. C is wrong because grains are randomly oriented. D is wrong because a single crystal has no internal grain boundaries.",
+    "relevantTheory": "Grain boundaries are obstacles to dislocation motion. When dislocations pile up at boundaries, the stress needed for further plastic flow increases, producing grain-boundary strengthening.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 9-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, p. 20"
+  },
+  {
+    "id": 208,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "ideal microstructure",
+      "strength-toughness",
+      "bimodal"
+    ],
+    "diagramRequired": false,
+    "question": "Which microstructure design best matches Lecture 4's ideal strength-toughness combination?",
+    "options": {
+      "A": "a controlled bimodal grain/precipitate microstructure produced by plastic deformation, recrystallization and controlled precipitation.",
+      "B": "one huge grain with no precipitates and no defects.",
+      "C": "only coarse brittle particles at grain boundaries.",
+      "D": "a completely uncontrolled casting with maximum porosity."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 shows the ideal bimodal grain/precipitate microstructure and gives the fabrication route as plastic deformation, recrystallization and controlled precipitation. B is wrong because one huge grain would not give the desired obstacle/toughness balance. C is wrong because coarse brittle GB particles can reduce toughness. D is wrong because porosity destroys soundness and reliability.",
+    "relevantTheory": "Strength and toughness are optimized by combining obstacles to dislocation motion with microstructural features that avoid brittle fracture. Fine grains, controlled precipitates/dispersoids and engineered deformation substructures can work together.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 10"
+  },
+  {
+    "id": 209,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "stacking fault energy",
+      "dislocation arrangement",
+      "strain hardening"
+    ],
+    "diagramRequired": false,
+    "question": "Stacking fault energy affects strain hardening mainly because it changes:",
+    "options": {
+      "A": "the arrangement and mobility of dislocations during plastic deformation.",
+      "B": "the atomic weight of the base element.",
+      "C": "the number of protons in the alloying elements.",
+      "D": "the melting point of water in the environment."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 flags stacking fault energy and the notes explain that lower SFE changes how dislocations arrange, promoting different substructures such as bands instead of cells. B and C are wrong because SFE does not change atomic identity. D is unrelated to metallic plasticity.",
+    "relevantTheory": "SFE controls the ease of partial dislocation separation, cross-slip and dislocation arrangement. This affects work hardening, twinning tendency and the deformation substructure formed under severe plastic deformation.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, p. 10"
+  },
+  {
+    "id": 210,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Cottrell atmospheres",
+      "Luders bands",
+      "upper lower yield"
+    ],
+    "diagramRequired": false,
+    "question": "A mild steel shows an upper yield point, then a lower yield point and Luders' bands during tensile testing. The best microplasticity explanation is:",
+    "options": {
+      "A": "C and N atoms pin dislocations in Cottrell atmospheres; extra stress is needed to unpin them, then deformation localizes as Luders bands.",
+      "B": "All dislocations disappear before yielding.",
+      "C": "The steel melts locally at the yield point.",
+      "D": "The effect is caused only by corrosion products on the surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes explain Cottrell atmospheres: C and N atoms segregate near dislocations, requiring a higher stress to unlock them; after disanchoring, deformation proceeds at lower stress and Luders bands appear. B is wrong because dislocations are pinned, not absent. C is wrong because yielding is solid-state plasticity. D is wrong because the mechanism is solute-dislocation interaction, not corrosion.",
+    "relevantTheory": "Cottrell atmospheres cause strain aging/yield-point phenomena in mild steels. Interstitial atoms lock dislocations; once released, plastic strain can propagate in localized Luders bands, producing upper and lower yield stresses.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 1, 15-16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 19; PAST_EXAMS/QUESTION_SET_3.txt, style sample only"
+  },
+  {
+    "id": 211,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "strengthening mechanisms",
+      "dislocations",
+      "microstructure"
+    ],
+    "diagramRequired": false,
+    "question": "What is the common principle behind most strengthening mechanisms in metals?",
+    "options": {
+      "A": "they hinder dislocation motion by adding obstacles or lattice distortions",
+      "B": "they remove all defects so dislocations move freely",
+      "C": "they make metallic bonding directional and brittle like ceramics",
+      "D": "they increase optical transparency"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because solid solution, work hardening, grain refinement, precipitation and hard phases all strengthen mainly by making dislocation motion more difficult. B is wrong because many strengthening mechanisms deliberately increase defects or obstacles. C is wrong because metallic bonding remains metallic; strengthening acts through microstructure and defects. D is unrelated to mechanical strengthening.",
+    "relevantTheory": "Plastic deformation in metals is controlled by dislocation motion. Strengthening increases the stress needed for dislocations to move by introducing solute strain fields, dislocation forests, grain boundaries, precipitates, hard phases or aligned features.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slides/pages 1-2 and 21; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 15; PAST_EXAMS/QUESTIONS_SET_1.txt, style sample only"
+  },
+  {
+    "id": 212,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "solid solution strengthening",
+      "lattice distortion",
+      "solute size"
+    ],
+    "diagramRequired": false,
+    "question": "Strengthening by solid solution occurs because:",
+    "options": {
+      "A": "solute atoms smaller or larger than lattice atoms create distortion fields that interfere with dislocations",
+      "B": "solute atoms eliminate every lattice distortion",
+      "C": "only atoms with exactly the same diameter as the solvent strengthen the alloy",
+      "D": "dislocations disappear as soon as solute is added"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 states that smaller or larger atoms distort the lattice and hinder dislocation motion during deformation. B is wrong because the distortion is the strengthening cause. C is wrong because size mismatch, not equality, creates strengthening. D is wrong because dislocations remain but move with more difficulty.",
+    "relevantTheory": "Substitutional and interstitial solutes generate compressive and tensile strain fields. These interact with the strain field of dislocations, slowing their movement and increasing yield strength.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pages 15-16"
+  },
+  {
+    "id": 213,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "interstitial solid solution",
+      "Cottrell atmosphere",
+      "dislocation pinning"
+    ],
+    "diagramRequired": false,
+    "question": "Small interstitial atoms such as C and N in mild steels are especially important because they:",
+    "options": {
+      "A": "segregate at dislocation cores and pin dislocations, creating Cottrell atmospheres",
+      "B": "remove dislocation cores from the crystal",
+      "C": "make dislocations move without any applied stress",
+      "D": "only change the colour of the polished sample"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because small atoms tend to segregate at dislocation cores, lowering energy but anchoring dislocations. B is wrong because dislocations are not removed. C is wrong because pinning increases the stress needed to start motion. D is wrong because the effect is mechanical, not only optical.",
+    "relevantTheory": "A Cottrell atmosphere is a cloud of interstitial solutes around dislocations. It causes dislocation pinning, upper/lower yield point behaviour and non-uniform early plastic deformation in mild steels.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slides/pages 2 and 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pages 17-19"
+  },
+  {
+    "id": 214,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Cottrell atmosphere",
+      "Luders bands",
+      "yield point"
+    ],
+    "diagramRequired": false,
+    "question": "A direct consequence of Cottrell atmospheres in thin mild steel sheets is:",
+    "options": {
+      "A": "upper/lower yield stress and Luders' bands during early plastic deformation",
+      "B": "complete absence of yielding",
+      "C": "instantaneous melting at room temperature",
+      "D": "formation of graphite nodules"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 explicitly connects Cottrell atmospheres with upper and lower yield stress and Luders' bands. B is wrong because yielding still occurs, but starts non-uniformly. C is unrelated. D belongs to cast iron microstructure, not mild-steel strain aging.",
+    "relevantTheory": "When pinned dislocations break free, stress drops from upper to lower yield point and localized plastic bands propagate. Luders' bands are undesirable in sheet forming because they create visible, non-uniform strain.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 19; PAST_EXAMS/QUESTION_SET_3.txt, style sample only"
+  },
+  {
+    "id": 215,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "work hardening",
+      "cold work",
+      "dislocation density"
+    ],
+    "diagramRequired": false,
+    "question": "Cold work strengthens a metal mainly because:",
+    "options": {
+      "A": "plastic deformation increases dislocation density and decreases average dislocation spacing",
+      "B": "plastic deformation removes all dislocations",
+      "C": "cold work increases ductility without changing yield stress",
+      "D": "cold work makes grains disappear completely"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 defines cold work/work hardening as a significant increase of dislocation density during straining; dislocations then hinder each other. B is the opposite. C is wrong because yield strength increases while ductility decreases. D is wrong because grains may elongate but do not disappear.",
+    "relevantTheory": "Work hardening or strain hardening occurs at temperatures below melting temperature during plastic deformation. The dislocation forest becomes denser, making further dislocation motion harder and increasing strength.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slides/pages 5-7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pages 17-21"
+  },
+  {
+    "id": 216,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "calculation",
+    "trapTags": [
+      "cold work",
+      "area reduction",
+      "formula"
+    ],
+    "diagramRequired": false,
+    "question": "The degree of cold work based on cross-section area is:",
+    "options": {
+      "A": "%CW = ((Ao - Ad) / Ao) x 100",
+      "B": "%CW = ((Ad - Ao) / Ad) x 100",
+      "C": "%CW = (Ao + Ad) x 100",
+      "D": "%CW = Ao / temperature"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 defines cold work using the reduction of original cross-section area: original area minus deformed area divided by original area. B reverses the reference and sign. C is dimensionally meaningless. D is unrelated to the cold-work index.",
+    "relevantTheory": "Cold work is often quantified by percent reduction in area or diameter. More cold work generally means more plastic deformation, higher dislocation density, higher strength and lower ductility.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 20"
+  },
+  {
+    "id": 217,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "cold work",
+      "ductility",
+      "toughness"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NOT TRUE clause about increasing cold work.",
+    "options": {
+      "A": "yield stress increases",
+      "B": "dislocation density increases",
+      "C": "ductility generally decreases",
+      "D": "toughness and resilience always increase with cold work"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the false clause because Lecture 5 states that loss in ductility corresponds to a drop in toughness and resilience with increasing cold work. A is true because cold work creates a new larger yield stress. B is true because strain hardening increases dislocation density. C is true because strength increases at the expense of ductility.",
+    "relevantTheory": "Cold work trades ductility for strength. It can be useful for strengthening, but excessive cold work reduces uniform deformation capacity and may make parts less tough.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slides/pages 5-6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pages 20-21"
+  },
+  {
+    "id": 218,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "Hall-Petch",
+      "grain refinement",
+      "yield stress"
+    ],
+    "diagramRequired": false,
+    "question": "The Hall-Petch law for grain refinement strengthening is:",
+    "options": {
+      "A": "sigma_yield = sigma0 + ky d^(-1/2)",
+      "B": "sigma_yield = sigma0 - ky d^(1/2)",
+      "C": "sigma_yield = density x temperature",
+      "D": "sigma_yield is independent of grain size"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 gives the Hall-Petch law as sigma_yield = sigma0 + ky d^-1/2. B has the wrong sign and exponent trend. C is unrelated. D is wrong because grain size is the central variable.",
+    "relevantTheory": "Grain boundaries hinder dislocation motion. Smaller grains reduce the distance over which dislocations pile up, increasing the stress needed for plastic flow.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 23"
+  },
+  {
+    "id": 219,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "grain refinement",
+      "strength",
+      "toughness"
+    ],
+    "diagramRequired": false,
+    "question": "Which strengthening method is emphasized as increasing both strength and toughness?",
+    "options": {
+      "A": "grain refinement",
+      "B": "cold work only",
+      "C": "coarse grain growth",
+      "D": "large brittle inclusions"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 states that grain refinement is the only strengthening method that increases both strength and toughness. B is wrong because cold work increases strength but reduces ductility/toughness. C is wrong because coarse grains reduce strength. D is wrong because brittle inclusions act as crack initiators.",
+    "relevantTheory": "Fine grains block dislocation motion and also make crack propagation more difficult. This gives the special strength-toughness benefit of grain refinement compared with many other strengthening methods.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 23; PAST_EXAMS/QUESTIONS_SET_1.txt, style sample only"
+  },
+  {
+    "id": 220,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "slip",
+      "twinning",
+      "plastic deformation"
+    ],
+    "diagramRequired": false,
+    "question": "Slip versus twinning: mark the correct statement.",
+    "options": {
+      "A": "slip translates atoms by equal distances, while twinning changes lattice orientation by mirror-like shear",
+      "B": "slip always changes the lattice direction and twinning never does",
+      "C": "twinning involves the whole crystal volume and slip only a tiny twin",
+      "D": "slip and twinning are identical names for the same mechanism"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 contrasts slip, where atoms on one side of the slip plane move equal distances, with twinning, where lattice direction changes and atoms move proportional to distance from the twin plane. B reverses the distinction. C reverses the volume descriptions from the slide. D ignores the different mechanisms.",
+    "relevantTheory": "Slip and twinning are plastic deformation mechanisms. Slip is dislocation-mediated shear on slip systems; twinning is coordinated mirror-like reorientation that can enable further slip by changing crystal orientation.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slides/pages 9-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 11"
+  },
+  {
+    "id": 221,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "twinning",
+      "BCC",
+      "shape memory",
+      "coherent interface"
+    ],
+    "diagramRequired": false,
+    "question": "What is NOT TRUE about twinning in Lecture 5?",
+    "options": {
+      "A": "it is caused by imposed shear stress",
+      "B": "it occurs on well defined planes and directions",
+      "C": "twin boundaries have coherent, low-energy interfaces",
+      "D": "it is random melting of the lattice without orientation relation"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the false clause because twinning is an ordered shear/reorientation mechanism, not melting. A is true because the slide says imposed shear stress causes mirror-like rotation. B is true because twinning depends on crystal structure. C is true because twins are low-energy defects and their boundaries are coherent.",
+    "relevantTheory": "Twinning creates a mirror-related part of the crystal across a twin plane. In BCC, the lecture cites the (112)[111] twinning system; twins also matter in shape-memory alloys such as NiTi.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slides/pages 10-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pages 11-12"
+  },
+  {
+    "id": 222,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "SFE",
+      "dislocation arrangement",
+      "impurities"
+    ],
+    "diagramRequired": false,
+    "question": "Stacking fault energy, SFE, mainly controls:",
+    "options": {
+      "A": "dislocation arrangement after plastic deformation",
+      "B": "the chemical symbol of the base metal",
+      "C": "the number of protons in solute atoms",
+      "D": "only the specimen colour after etching"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 explicitly shows the influence of SFE on dislocation arrangement after plastic deformation. B and C are atomic identity facts, not SFE effects. D is unrelated to the mechanical role of stacking faults.",
+    "relevantTheory": "Low SFE makes dislocations split and arrange differently, promoting planar slip and sometimes twinning. SFE in alloys changes strongly with impurity content and nature.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 10"
+  },
+  {
+    "id": 223,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "2D defects",
+      "grain boundary energy",
+      "dislocation retention"
+    ],
+    "diagramRequired": false,
+    "question": "Why are grain boundaries effective at retaining dislocations compared with twin boundaries or stacking faults?",
+    "options": {
+      "A": "grain boundary energies are much larger than those of the other 2D defects",
+      "B": "grain boundaries have zero energy",
+      "C": "grain boundaries are not defects",
+      "D": "stacking fault energy is always larger than grain boundary energy"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 states that grain boundary energies are far larger than those of stacking faults and twin boundaries, making them effective dislocation retainers. B is wrong because boundaries have high energy. C is wrong because grain boundaries are 2D defects. D is opposite to the table/statement.",
+    "relevantTheory": "2D defects have different energies. High-energy grain boundaries are strong obstacles and sinks for dislocations, contributing to work hardening and grain refinement strengthening.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pages 10 and 23"
+  },
+  {
+    "id": 224,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "precipitation strengthening",
+      "aging",
+      "particles"
+    ],
+    "diagramRequired": false,
+    "question": "Precipitation strengthening works because:",
+    "options": {
+      "A": "fine precipitated particles interact with and hinder dislocation motion",
+      "B": "precipitates remove the matrix phase completely",
+      "C": "aging always makes particles disappear",
+      "D": "precipitation has no relation to diffusion"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 introduces strengthening by precipitation and the notes explain that fine particles inside grains obstruct dislocations. B is wrong because precipitates are dispersed in a matrix. C is wrong because aging forms and coarsens precipitates. D is wrong because precipitation and aging require diffusion.",
+    "relevantTheory": "Precipitation hardening uses solution treatment, quenching and aging to create a fine dispersion of second-phase particles. These particles resist dislocation motion and increase strength.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slides/pages 14-17; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 1-4"
+  },
+  {
+    "id": 225,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "coherent precipitates",
+      "incoherent precipitates",
+      "Orowan"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about precipitate coherency and dislocations is most correct?",
+    "options": {
+      "A": "small coherent particles are often sheared, while large incoherent particles force dislocations to bow/bypass",
+      "B": "large incoherent particles are always easier to shear than coherent particles",
+      "C": "coherency means the precipitate is not inside the matrix",
+      "D": "precipitate size has no effect on strengthening"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes explain that small coherent particles can be cut by dislocations, whereas large incoherent particles stop the dislocation and cause bowing/Orowan bypass. B reverses the mechanism. C is wrong because coherency describes lattice continuity at the interface. D is wrong because size and spacing are primary strengthening factors.",
+    "relevantTheory": "Precipitation strengthening changes with aging. Peak strength occurs with a fine dispersion of particles that strongly obstruct dislocations; overgrown incoherent particles may reduce strength by increasing spacing and reducing coherency strain.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slides/pages 15-17; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 25; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 3"
+  },
+  {
+    "id": 226,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "overaging",
+      "precipitate growth",
+      "strength loss"
+    ],
+    "diagramRequired": false,
+    "question": "Why does overaging or 'superaging' reduce precipitation strength?",
+    "options": {
+      "A": "particles coarsen, spacing increases and the precipitate/matrix interaction becomes less effective",
+      "B": "all precipitates become smaller forever",
+      "C": "diffusion stops completely at aging temperature",
+      "D": "the matrix becomes a liquid"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because aging grows precipitates; after peak strength, coarsening increases particle spacing and reduces the effective obstacle density for dislocations. The interface may also lose coherency strain, so the particle/matrix interaction becomes weaker. B is wrong because overaging means growth/coarsening, not indefinite refinement. C is wrong because diffusion drives aging and coarsening. D is wrong because precipitation aging is a solid-state heat treatment, not matrix melting.",
+    "relevantTheory": "Aging first forms clusters/precipitates that strengthen. With too much time or temperature, precipitates become too large and widely spaced, coherency strain decreases, and strength drops.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 10"
+  },
+  {
+    "id": 227,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "phase transformation",
+      "hard phase",
+      "martensite"
+    ],
+    "diagramRequired": false,
+    "question": "Strengthening by hard phase from phase transformation is best represented by:",
+    "options": {
+      "A": "forming a hard phase such as martensite inside a more ductile metallic microstructure",
+      "B": "removing all phase transformations from the alloy",
+      "C": "making the alloy single-crystal and defect-free only",
+      "D": "etching the sample until grains become visible"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 lists strengthening by hard phase from phase transformation, and the notes use martensite as a hard microconstituent example. B is wrong because the strengthening comes from exploiting transformation. C may be useful for special properties but is not this mechanism. D is metallography, not strengthening.",
+    "relevantTheory": "Polymorphic alloys such as steels and titanium alloys can use heat treatment to transform phases. A hard transformed phase, dispersed in a matrix, raises strength but must be balanced against toughness and formability.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 18; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 6-8"
+  },
+  {
+    "id": 228,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "texture strengthening",
+      "fibres",
+      "rolling direction"
+    ],
+    "diagramRequired": false,
+    "question": "Strengthening by texture means that:",
+    "options": {
+      "A": "aligned grains, inclusions or fibre-like features increase strength mainly along their direction",
+      "B": "all directions of the sheet become identical after rolling",
+      "C": "texture removes anisotropy",
+      "D": "fibres never interact with cracks or dislocations"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 states that strength increases along the fibre direction and gives rolling/forging texture examples. B is wrong because texture creates direction dependence. C is wrong because texture is a cause of anisotropy. D is wrong because fibres and aligned features can obstruct cracks and dislocations.",
+    "relevantTheory": "Texture is a microstructural orientation effect. It can improve strength/toughness along a preferred direction but penalize transverse properties, which matters in rolled sheets and forged parts.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 18; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 6-7"
+  },
+  {
+    "id": 229,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "MnS inclusions",
+      "anisotropic sheets",
+      "bending cracks"
+    ],
+    "diagramRequired": false,
+    "question": "Why must the cutting/bending direction of rolled steel sheets containing MnS stringers be chosen carefully?",
+    "options": {
+      "A": "MnS elongates along rolling direction, making the sheet stronger longitudinally but weaker and more crack-prone transversely",
+      "B": "MnS makes all directions equally strong after rolling",
+      "C": "MnS disappears during bending",
+      "D": "MnS prevents any texture from forming"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 5 states that MnS inclusions elongate as stringers along the rolling direction; the steel is stronger along rolling direction and weaker/brittle transversely. B is wrong because anisotropy is the point. C is wrong because inclusions remain. D is wrong because the inclusions contribute to directional behaviour.",
+    "relevantTheory": "Elongated inclusions act like fibres/stringers. They improve or preserve properties along one direction but become crack paths or weak interfaces in the transverse direction, especially in bending.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 20-21"
+  },
+  {
+    "id": 230,
+    "deck": "slides",
+    "moduleId": "lecture-5-strengthening",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "ideal microstructure",
+      "strength-toughness",
+      "bimodal"
+    ],
+    "diagramRequired": false,
+    "question": "Which route best matches the Lecture 5 ideal strength-toughness microstructure?",
+    "options": {
+      "A": "plastic deformation, recrystallization, then controlled precipitation to obtain fine grains plus fine precipitates",
+      "B": "coarse grain growth followed by overaging only",
+      "C": "large brittle particles at grain boundaries only",
+      "D": "cold work until all ductility is exhausted"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture's ideal bimodal microstructure is linked to plastic deformation, recrystallization and controlled precipitation. B is wrong because coarse grains and overaging reduce strength/toughness balance. C is wrong because large brittle grain-boundary particles promote cracking. D is wrong because excessive cold work destroys ductility and toughness.",
+    "relevantTheory": "The best strength-toughness combination needs multiple scales: fine grains for toughness and strength, controlled precipitates for dislocation blocking, and avoidance of coarse brittle defects. A single strengthening mechanism pushed too far often damages ductility or toughness.",
+    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 24; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 8-10"
+  },
+  {
+    "id": 231,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "normal stress",
+      "resolved shear stress",
+      "Schmid law"
+    ],
+    "diagramRequired": false,
+    "question": "In Schmid's law, why can a normal tensile force cause slip even though slip is a shear process?",
+    "options": {
+      "A": "Because the tensile force has a resolved shear component on suitably oriented slip planes and directions.",
+      "B": "Because tensile stress changes into melting heat before yielding.",
+      "C": "Because dislocations move only under hydrostatic pressure.",
+      "D": "Because the slip plane orientation is irrelevant."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 explains that a normal force can be resolved into a normal stress and a shear stress over a slip plane; the resolved shear stress drives dislocation motion. B is wrong because no melting is involved. C is wrong because hydrostatic pressure does not provide the needed shear component. D is wrong because the angles theta and phi control the Schmid factor.",
+    "relevantTheory": "Plastic slip is caused by shear on a crystallographic slip system. In tensile testing, the applied tensile stress is projected onto the slip plane and slip direction: tau_RSS = sigma cos(theta)cos(phi).",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 3-5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 13-14"
+  },
+  {
+    "id": 232,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "CRSS",
+      "shear modulus",
+      "dislocation motion"
+    ],
+    "diagramRequired": false,
+    "question": "Lecture 4 indicates that the critical resolved shear stress is typically of the order of:",
+    "options": {
+      "A": "10^-4G to 10^-2G",
+      "B": "10G to 100G",
+      "C": "exactly equal to G for all metals",
+      "D": "zero for all ductile crystals"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide gives tau_CRSS as typically 10^-4G to 10^-2G. B is wrong because it is far above the stated range. C is wrong because CRSS is much smaller than the shear modulus and differs between materials. D is wrong because a finite stress is required to move dislocations.",
+    "relevantTheory": "The low value of CRSS relative to G reflects why real crystals plastically deform by dislocation motion rather than by shearing entire atomic planes at once.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 14"
+  },
+  {
+    "id": 233,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "slip geometry",
+      "sample elongation",
+      "Schmid law"
+    ],
+    "diagramRequired": false,
+    "question": "During slip in the single-crystal geometry discussed in Lecture 4, which statement is TRUE?",
+    "options": {
+      "A": "The interplanar distance and the number of planes in the sample stay constant during the slip geometry change.",
+      "B": "The slip plane spacing must collapse to zero.",
+      "C": "The number of atomic planes continuously disappears during elastic loading.",
+      "D": "The slip direction no longer belongs to the slip system."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that during slip the interplanar distance and the number of planes stay constant. B is wrong because collapse of plane spacing is not the slip mechanism. C is wrong because planes are not consumed by elastic loading. D is wrong because the slip direction remains part of the slip system.",
+    "relevantTheory": "Plastic slip changes the external shape by relative displacement along slip planes. The crystal is sheared by dislocation motion rather than by destroying the plane spacing or removing crystallographic planes.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 7"
+  },
+  {
+    "id": 234,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "grain boundaries",
+      "small-angle GB",
+      "edge dislocations"
+    ],
+    "diagramRequired": false,
+    "question": "A grain boundary made mainly by a sequential array of edge dislocations is most consistent with:",
+    "options": {
+      "A": "a small-angle grain boundary.",
+      "B": "a liquid-solid interface.",
+      "C": "a large-angle grain boundary described only by edge dislocations.",
+      "D": "a perfect single crystal with no boundary."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 states that when the misorientation angle is small, the GB can be viewed as a sequential array of edge dislocations. B is wrong because this is a solid grain-boundary model. C is wrong because the lecture explicitly warns that large-angle GBs cannot be described only by edge dislocations. D is wrong because a perfect single crystal has no internal grain boundary.",
+    "relevantTheory": "Small-angle GBs accommodate slight misorientation through organized dislocation arrays, so their structure is relatively ordered and can be described geometrically. Large-angle GBs have larger misorientation, more disorder and additional boundary defects, which is why they are stronger obstacles to dislocation transfer.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 7-8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, p. 7"
+  },
+  {
+    "id": 235,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "grain boundaries",
+      "etching",
+      "high energy"
+    ],
+    "diagramRequired": false,
+    "question": "Why can grain boundaries appear dark after metallographic etching?",
+    "options": {
+      "A": "They are higher-energy, more reactive regions that are preferentially attacked by the etchant.",
+      "B": "They are empty holes through the entire sample.",
+      "C": "They are the only regions with perfect crystallinity.",
+      "D": "They are created by the optical microscope lens."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes explain that grain boundaries become dark after acid etching due to their higher energy and reactivity. B is wrong because a GB is an interface, not necessarily a through-hole. C is wrong because Lecture 4 calls GBs portions with no crystallinity. D is wrong because the microscope observes the etched surface; it does not create grain boundaries.",
+    "relevantTheory": "Grain boundaries have disordered atomic arrangements and higher energy than grain interiors. This makes them more reactive, better impurity sinks, fast diffusion paths, and preferred etching locations.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 8-9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, p. 3"
+  },
+  {
+    "id": 236,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "CSL boundaries",
+      "GB energy",
+      "special boundaries"
+    ],
+    "diagramRequired": false,
+    "question": "Which clause best captures the trap in grain-boundary energy versus misorientation?",
+    "options": {
+      "A": "GB energy generally increases with misorientation, but special coincidence-site boundaries can have unusually low energy.",
+      "B": "All large-angle GBs must have exactly the same maximum energy.",
+      "C": "GB energy is always zero because boundaries are not defects.",
+      "D": "Small-angle GBs always contain no dislocations."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture shows energy increasing with misorientation and the notes add the important exception of special CSL boundaries with lower energy. B is wrong because special boundaries break the simple all-large-angle-equal idea. C is wrong because GBs are high-energy 2D defects. D is wrong because small-angle GBs are commonly modeled as dislocation arrays.",
+    "relevantTheory": "The simple trend is that more misorientation usually means more boundary disorder and energy. However, crystallographic coincidence between the two grains can make some high-angle boundaries relatively ordered and low-energy.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pp. 5-7"
+  },
+  {
+    "id": 237,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "GB angle",
+      "strain hardening",
+      "dislocation crossing"
+    ],
+    "diagramRequired": false,
+    "question": "For grain-boundary strengthening and strain hardening, which boundary angle is generally more effective at stopping dislocations?",
+    "options": {
+      "A": "Large-angle grain boundaries, above about 15 deg.",
+      "B": "Only perfectly zero-angle boundaries.",
+      "C": "No grain boundary can ever affect dislocation motion.",
+      "D": "Only liquid boundaries during casting."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 distinguishes large-angle GBs above about 15 deg and explains that high-angle GBs hinder dislocation crossing. B is wrong because zero-angle means no meaningful misorientation barrier. C is wrong because GBs are central strengthening obstacles. D is wrong because this is solid-state plasticity.",
+    "relevantTheory": "The larger the misorientation, the harder it is for a dislocation to pass smoothly into the neighbouring grain. This creates pile-ups and raises the stress required for continued deformation.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 7, 10-11, 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, p. 20"
+  },
+  {
+    "id": 238,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "edge dislocation",
+      "screw dislocation",
+      "Burgers vector"
+    ],
+    "diagramRequired": false,
+    "question": "How is the dislocation line related to the Burgers vector in ideal edge and screw dislocations?",
+    "options": {
+      "A": "In an edge dislocation the line is perpendicular to b; in a screw dislocation the line is parallel to b.",
+      "B": "In both edge and screw dislocations the line is always perpendicular to b.",
+      "C": "In both edge and screw dislocations the line is always parallel to b.",
+      "D": "The Burgers vector exists only for grain boundaries, not dislocations."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct for the basic ideal definitions the self-assessment asks students to recall. B and C are wrong because they erase the key distinction between edge and screw dislocations. D is wrong because the Burgers vector is the defining vector of a dislocation.",
+    "relevantTheory": "Edge and screw dislocations are ideal limiting cases. In edge dislocations, the extra half-plane creates a line perpendicular to the Burgers vector; in screw dislocations, the shear displacement makes the line parallel to the Burgers vector.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 14; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pp. 1-2"
+  },
+  {
+    "id": 239,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "edge dislocation",
+      "screw dislocation",
+      "stress field"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about dislocation stress fields is TRUE?",
+    "options": {
+      "A": "An edge dislocation creates tensile, compressive and shear components; a screw dislocation mainly creates shear deformation.",
+      "B": "Dislocations create no stress field because they are not lattice defects.",
+      "C": "Only screw dislocations create compression and tension above and below an extra half-plane.",
+      "D": "Dislocation stress fields are unrelated to plastic deformation."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes state that edge dislocations create compressive, tensile and shear stress fields, while screw dislocations produce shear deformation. B is wrong because dislocations are line defects with distorted bonds around the core. C is wrong because the extra half-plane description belongs to edge dislocations. D is wrong because dislocation motion is the central mechanism of slip.",
+    "relevantTheory": "A dislocation distorts the surrounding lattice. These stress fields let dislocations interact with other dislocations, solute atoms, precipitates and grain boundaries, which is the basis of many strengthening mechanisms.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 14; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pp. 1-2"
+  },
+  {
+    "id": 240,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "dislocation motion",
+      "discrete slip",
+      "crystal shear"
+    ],
+    "diagramRequired": false,
+    "question": "After a dislocation crosses a crystal, what is the correct consequence?",
+    "options": {
+      "A": "A permanent shear displacement of one part of the crystal relative to the other remains.",
+      "B": "The crystal returns with no trace of plastic deformation.",
+      "C": "All atoms in the crystal melt at once.",
+      "D": "Only the chemical composition changes."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because dislocation glide produces plastic slip: after the dislocation passes, the crystal has sheared by a Burgers-vector step. B is wrong because plastic deformation is permanent, unlike purely elastic strain. C is wrong because slip is solid-state. D is wrong because dislocation motion changes shape, not chemical composition.",
+    "relevantTheory": "Dislocation motion is discrete at the atomic scale but accumulates into macroscopic plastic strain when many dislocations move. This is why metals can plastically deform without breaking all bonds simultaneously.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 14; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 11, 18"
+  },
+  {
+    "id": 241,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "dislocation density",
+      "tensile test",
+      "necking"
+    ],
+    "diagramRequired": false,
+    "question": "In a tensile-tested metallic sample, where would a very large dislocation density most likely be observed?",
+    "options": {
+      "A": "In the plastically deformed gauge/necked region where strain was concentrated.",
+      "B": "Only in the unloaded grip far from deformation.",
+      "C": "Only in the air outside the sample.",
+      "D": "Only before any load is applied."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide asks where large dislocation density is found after tensile testing, and plastic strain accumulates dislocations most strongly in the deformed region, especially near necking/fracture. B is wrong because the grips are not the main plastically strained region. C is irrelevant. D is wrong because dislocation density increases during plastic deformation.",
+    "relevantTheory": "Work hardening comes from increasing dislocation density and dislocation interactions during plastic strain. Regions that experienced the largest plastic deformation contain the most accumulated dislocations.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 14; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 20-22"
+  },
+  {
+    "id": 242,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "Orowan equation",
+      "strain rate",
+      "dislocation density"
+    ],
+    "diagramRequired": false,
+    "question": "According to Orowan's equation, the plastic shear strain rate is proportional to:",
+    "options": {
+      "A": "mobile dislocation density, Burgers vector and dislocation velocity.",
+      "B": "only the density of the alloy.",
+      "C": "only the melting point.",
+      "D": "only the grain colour after etching."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes give dgamma/dt = rho b v: plastic shear strain rate rises with the number of mobile dislocations, the Burgers-vector displacement carried by each one, and their average velocity. B is wrong because alloy density alone does not describe dislocation glide. C is wrong because melting point is not the strain-rate law. D is wrong because etched colour is only an observation effect, not the mechanism of plastic flow.",
+    "relevantTheory": "Orowan's equation connects microscopic dislocation motion to macroscopic plastic deformation. Increasing mobile dislocation density or velocity increases the plastic strain rate.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 1, 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 18"
+  },
+  {
+    "id": 243,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "definition",
+    "trapTags": [
+      "Frank-Read source",
+      "dislocation source",
+      "strain hardening"
+    ],
+    "diagramRequired": false,
+    "question": "Why are Frank-Read sources important for strain hardening?",
+    "options": {
+      "A": "They multiply dislocations, increasing dislocation density and therefore resistance to further plastic flow.",
+      "B": "They remove all dislocations from a crystal.",
+      "C": "They convert ferrite into liquid metal.",
+      "D": "They are only corrosion pits on the surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 lists sources of dislocations, including Frank-Read sources, and the notes connect dislocation generation to work hardening. B is wrong because a source creates dislocations. C and D are unrelated to dislocation multiplication.",
+    "relevantTheory": "Strain hardening requires both plastic strain and increasing resistance to dislocation motion. Frank-Read sources generate new dislocation loops, increasing dislocation density and interactions.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 1, 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 18"
+  },
+  {
+    "id": 244,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "work hardening coefficient",
+      "Ludwik-Hollomon",
+      "uniform strain"
+    ],
+    "diagramRequired": false,
+    "question": "In the Ludwik-Hollomon plastic law context, a larger work-hardening coefficient n generally means:",
+    "options": {
+      "A": "larger uniform plastic strain and better resistance to necking during tensile deformation.",
+      "B": "zero plastic deformation.",
+      "C": "lower formability in every sheet-forming case.",
+      "D": "the elastic modulus changes during unloading and reloading."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 4 links uniform tensile deformation to the strain-hardening coefficient, and the notes state that larger n means larger work hardening and improved formability. B is wrong because n describes plastic hardening. C is the opposite trend. D is wrong because the notes emphasize that unloading/reloading lines are parallel: E does not change, yield stress changes.",
+    "relevantTheory": "The work-hardening coefficient n measures how strongly flow stress rises with plastic strain. Higher n delays localization, increases uniform elongation and improves forming tolerance.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 1, 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 21-22; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, p. 13"
+  },
+  {
+    "id": 245,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "cold work",
+      "%CW",
+      "area reduction"
+    ],
+    "diagramRequired": false,
+    "question": "A wire has initial cross-section area A0 = 100 mm2 and final area Af = 70 mm2 after drawing. What is the percent cold work?",
+    "options": {
+      "A": "30%",
+      "B": "70%",
+      "C": "170%",
+      "D": "0.70%"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because %CW = (A0 - Af)/A0 x 100 = (100 - 70)/100 x 100 = 30%. B is wrong because it reports the remaining area fraction, not reduction. C is impossible here. D incorrectly converts the fraction.",
+    "relevantTheory": "Cold work is often quantified by area or diameter reduction. Increasing %CW generally increases strength by raising dislocation density, while reducing ductility.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 1, 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 20"
+  },
+  {
+    "id": 246,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "strain aging",
+      "dynamic strain aging",
+      "Portevin-Le Chatelier"
+    ],
+    "diagramRequired": false,
+    "question": "What is the key difference between strain aging and dynamic strain aging in the Lecture 4 notes?",
+    "options": {
+      "A": "Strain aging appears after deformation and aging interruption; dynamic strain aging occurs during deformation as solutes interact with moving dislocations.",
+      "B": "They are both names for melting during tensile testing.",
+      "C": "Dynamic strain aging requires no dislocations.",
+      "D": "Strain aging can occur only in ceramics without solute atoms."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes describe reappearance of the yield phenomenon after aging interruption, and dynamic strain aging/Portevin-Le Chatelier as solute-dislocation interaction during deformation. B is wrong because both are solid-state plasticity phenomena. C is wrong because moving dislocations are central. D is wrong because the course example is mild steel with interstitial solutes.",
+    "relevantTheory": "Aging phenomena arise because solute atoms diffuse to dislocations and pin them. If pinning happens after deformation and holding, it is strain aging; if it occurs during deformation, serrated flow/dynamic strain aging can result.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 15-16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 19, 22"
+  },
+  {
+    "id": 247,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "twinning vs slip",
+      "low temperature",
+      "strain rate"
+    ],
+    "diagramRequired": false,
+    "question": "Which condition favours plastic deformation by twinning rather than ordinary slip?",
+    "options": {
+      "A": "Low temperature, high strain rate or triaxial constraint.",
+      "B": "Very low strain rate at high temperature with easy dislocation glide.",
+      "C": "Absence of any shear stress.",
+      "D": "Complete absence of crystal structure."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes list low temperature, high strain rate and triaxial stress as conditions promoting twinning. B is more favourable to slip or other high-temperature accommodation mechanisms. C is wrong because twinning also needs shear. D is wrong because twinning is crystallographic.",
+    "relevantTheory": "Slip and twinning are both crystallographic plastic-deformation mechanisms. Twinning becomes important when slip is difficult, especially at low temperature, high strain rate, constrained stress states, and in structures with limited easy slip.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, p. 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pp. 10-11"
+  },
+  {
+    "id": 248,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "SFE",
+      "twinning",
+      "planar slip"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NOT TRUE clause about low stacking fault energy in FCC alloys.",
+    "options": {
+      "A": "It tends to make cross-slip more difficult and promotes planar dislocation arrangements.",
+      "B": "It can favour twinning and high strain-hardening capability.",
+      "C": "It affects the deformation substructure formed during plastic strain.",
+      "D": "It has no effect on dislocation arrangement or strain hardening."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because Lecture 4 and the notes explicitly connect SFE to dislocation arrangement and strain hardening. A is true for low SFE behaviour. B is true in the exam/course trap context: small SFE favours twinning and strain hardening. C is true because the notes compare different substructures depending on SFE.",
+    "relevantTheory": "Stacking fault energy controls partial-dislocation separation and cross-slip. Low SFE often produces planar slip, deformation bands or twinning, which can increase strain hardening.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 13, 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, p. 10; PAST_EXAMS/QUESTION_SET_4.txt, style sample only"
+  },
+  {
+    "id": 249,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "3D defects",
+      "toughness",
+      "microvoids"
+    ],
+    "diagramRequired": false,
+    "question": "Which defect family is most directly dangerous for toughness because it can act as an embryo for cracks?",
+    "options": {
+      "A": "3D defects such as pores, microvoids and microcracks.",
+      "B": "Only ideal elastic strain with no defect.",
+      "C": "Only the chemical symbol of the base metal.",
+      "D": "Only a perfectly coherent twin boundary with no stress concentration."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes list microvoids and microcracks as 3D lattice defects and explain that a pore can become a crack. B is wrong because no defect is not a crack embryo. C is not a defect family. D is wrong because coherent twin boundaries are not the main crack-embryo example here.",
+    "relevantTheory": "Toughness is sensitive to defects that concentrate stress. Pores, inclusions, microvoids and microcracks can initiate fracture, especially when they grow or link under tensile loading.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 13-14; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, p. 13; PAST_EXAMS/QUESTION_SET_3.txt, style sample only"
+  },
+  {
+    "id": 250,
+    "deck": "slides",
+    "moduleId": "lecture-4-microplasticity",
+    "section": "Plasticity",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "grain refinement",
+      "strength",
+      "fatigue resistance"
+    ],
+    "diagramRequired": false,
+    "question": "Why does grain refinement improve both strength and fatigue resistance?",
+    "options": {
+      "A": "Finer grains increase grain-boundary obstacles to dislocation motion and shorten the distance available for slip and crack propagation.",
+      "B": "Finer grains remove all grain boundaries.",
+      "C": "Finer grains always make diffusion impossible at every temperature.",
+      "D": "Finer grains eliminate the need for microstructure control."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because more grain boundaries impede dislocations and can interrupt crack/slip propagation, increasing strength and helping fatigue resistance. B is wrong because refinement increases the number/area of grain boundaries. C is wrong because GBs can be fast diffusion paths, especially at high temperature. D is wrong because refinement is itself a microstructure-control strategy.",
+    "relevantTheory": "Grain refinement strengthens metals through grain-boundary strengthening and improves damage tolerance by making slip and crack propagation more difficult over long distances. It is a central route for balancing strength and toughness/fatigue performance.",
+    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 12, 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pp. 13, 20"
   }
 ]
 ;
