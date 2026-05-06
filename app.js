@@ -224,8 +224,11 @@ function renderLectures() {
   const lectures = state.contentMap.modules.filter((module) => module.deck === "slides");
   lectures.forEach((lecture) => {
     const questions = moduleQuestions(lecture.id);
-    const card = choiceCard(lecture.title, `${questions.length} cards`, questions.length
-      ? "Study this lecture."
+    const mastered = masteredIn(questions);
+    const card = choiceCard(lecture.title, questions.length
+      ? `${mastered}/${questions.length} locked in`
+      : "0 cards", questions.length
+      ? `${questions.length} cards total`
       : "Waiting for cards."
     );
     if (!questions.length) card.classList.add("empty");
