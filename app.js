@@ -14,6 +14,7 @@ const SECTION_RULES = [
 ];
 
 const XP_PER_LEVEL = 120;
+const RECENT_CARD_GAP = 3;
 
 const state = {
   allQuestions: [],
@@ -27,6 +28,7 @@ const state = {
   wrong: 0,
   answered: false,
   seenIds: new Set(),
+  recentIds: [],
   reviewIds: new Set(),
   progress: {
     xp: 0,
@@ -50,6 +52,8 @@ const els = {
   selfCardCount: document.querySelector("#selfCardCount"),
   topicGrid: document.querySelector("#topicGrid"),
   lectureGrid: document.querySelector("#lectureGrid"),
+  lectureFocusButton: document.querySelector("#lectureFocusButton"),
+  lecturePicker: document.querySelector("#lecturePicker"),
   backHomeButton: document.querySelector("#backHomeButton"),
   activePath: document.querySelector("#activePath"),
   quizTitle: document.querySelector("#quizTitle"),
@@ -162,6 +166,17 @@ function deckQuestions(deck) {
   return state.allQuestions.filter((question) => question.deck === deck);
 }
 
+function formatSource(source) {
+  return String(source || "")
+    .split(";")
+    .map((part) => {
+      const trimmed = part.trim();
+      const slash = trimmed.lastIndexOf("/");
+      return slash >= 0 ? trimmed.slice(slash + 1) : trimmed;
+    })
+    .join("; ");
+}
+
 function topicQuestions(topic) {
   return state.allQuestions.filter((question) => question.section === topic);
 }
@@ -194,7 +209,7 @@ function renderTopics() {
   els.topicGrid.replaceChildren();
   sections().forEach((section) => {
     const questions = topicQuestions(section);
-    const card = choiceCard(section, `${masteredIn(questions)}/${questions.length} mastered`, "Practice only this topic.");
+    const card = choiceCard(section, `${masteredIn(questions)}/${questions.length} locked in`, "Target this area.");
     card.addEventListener("click", () => startSession({
       title: section,
       subtitle: "Topic practice",
@@ -210,8 +225,8 @@ function renderLectures() {
   lectures.forEach((lecture) => {
     const questions = moduleQuestions(lecture.id);
     const card = choiceCard(lecture.title, `${questions.length} cards`, questions.length
-      ? "Professor-style questions generated from this lecture."
-      : "Ready for generated cards from slides plus notes."
+      ? "Study this lecture."
+      : "Waiting for cards."
     );
     if (!questions.length) card.classList.add("empty");
     card.addEventListener("click", () => startSession({
@@ -246,6 +261,7 @@ function startSession({ title, subtitle, questions, emptyDeck = null }) {
   state.correct = 0;
   state.wrong = 0;
   state.seenIds.clear();
+  state.recentIds = [];
   state.current = null;
   els.homeScreen.hidden = true;
   els.quizScreen.hidden = false;
@@ -263,17 +279,18 @@ function startSession({ title, subtitle, questions, emptyDeck = null }) {
 function scoreCandidate(question) {
   const progress = cardProgress(question.id);
   let score = Math.random();
-  if (state.reviewIds.has(question.id)) score += 100;
-  if (!progress.attempts) score += 30;
-  if (progress.wrong > progress.correct) score += 20;
+  if (state.reviewIds.has(question.id)) score += 35;
+  if (!progress.attempts) score += 26;
+  if (progress.wrong > progress.correct) score += 18;
   if (!progress.mastered) score += 10;
-  score -= progress.streak * 4;
+  score -= progress.streak * 8;
   return score;
 }
 
 function chooseNextQuestion() {
-  const due = state.activeQuestions.filter((question) => state.reviewIds.has(question.id));
-  const poolBase = due.length ? due : state.activeQuestions;
+  const recent = new Set(state.recentIds.slice(-RECENT_CARD_GAP));
+  const spaced = state.activeQuestions.filter((question) => !recent.has(question.id));
+  const poolBase = spaced.length ? spaced : state.activeQuestions;
   const unseen = poolBase.filter((question) => !state.seenIds.has(question.id));
   const pool = unseen.length ? unseen : poolBase;
   return [...pool].sort((a, b) => scoreCandidate(b) - scoreCandidate(a))[0] || null;
@@ -286,11 +303,11 @@ function courseMastery() {
 
 function masteryLabel(question) {
   const progress = cardProgress(question.id);
-  if (progress.mastered) return "Mastered";
-  if (state.reviewIds.has(question.id)) return "Review";
+  if (progress.mastered) return "Locked in";
+  if (state.reviewIds.has(question.id)) return "Coming back";
   if (!progress.attempts) return "New";
-  if (progress.streak === 1) return "Learning";
-  return "Practice";
+  if (progress.streak === 1) return "Almost";
+  return "Learning";
 }
 
 function updateStats() {
@@ -300,7 +317,7 @@ function updateStats() {
   els.questionProgress.textContent = `${answered}/${total}`;
   els.correctCount.textContent = state.correct;
   els.wrongCount.textContent = state.wrong;
-  els.reviewCount.textContent = state.reviewIds.size;
+  els.reviewCount.textContent = state.activeQuestions.filter((question) => state.reviewIds.has(question.id)).length;
 
   const level = Math.floor(state.progress.xp / XP_PER_LEVEL) + 1;
   const levelXp = state.progress.xp % XP_PER_LEVEL;
@@ -309,20 +326,20 @@ function updateStats() {
   els.xpMeter.style.width = `${Math.round((levelXp / XP_PER_LEVEL) * 100)}%`;
 
   const roundProgress = total ? Math.min(100, Math.round((answered / total) * 100)) : 0;
-  els.sectionTitle.textContent = "This round";
+  els.sectionTitle.textContent = "Round progress";
   els.sectionGoal.textContent = `${roundProgress}% done`;
   els.sectionMeter.style.width = `${roundProgress}%`;
   const mastered = masteredIn(state.activeQuestions);
-  els.masteryText.textContent = `${mastered}/${total} mastered overall. Accuracy this round: ${accuracy}%`;
+  els.masteryText.textContent = `This set: ${mastered}/${total} locked in. Accuracy: ${accuracy}%`;
   els.coachTip.textContent = coachTip();
 }
 
 function coachTip() {
   const answered = state.correct + state.wrong;
-  if (state.wrong > 0) return "Missed cards are saved for review until you answer them correctly twice in a row.";
-  if (!answered) return "Pick the best answer, then read the explanation like it is the mini-lecture.";
+  if (state.wrong > 0) return "Missed cards will return soon, after a few other cards give your memory room to work.";
+  if (!answered) return "Choose an answer first. The explanation is the mini-lecture.";
   if (state.progress.streak >= 5) return `Streak ${state.progress.streak}. Keep it rolling for bonus XP.`;
-  return "Nice. Mastery means two correct answers in a row on the same card.";
+  return "Nice. A card locks in after two correct answers on separate appearances.";
 }
 
 function renderQuestion() {
@@ -336,7 +353,7 @@ function renderQuestion() {
 
   updateStats();
   const question = state.current;
-  els.questionSource.textContent = question.source;
+  els.questionSource.textContent = formatSource(question.source);
   els.questionSection.textContent = question.section;
   els.questionMastery.textContent = masteryLabel(question);
   els.questionText.textContent = question.question;
@@ -370,6 +387,8 @@ function answerQuestion(selected) {
   const isCorrect = selected === question.correctAnswer;
   state.answered = true;
   state.seenIds.add(question.id);
+  state.recentIds.push(question.id);
+  if (state.recentIds.length > RECENT_CARD_GAP * 2) state.recentIds.shift();
   progress.attempts += 1;
   progress.lastSeen = Date.now();
 
@@ -423,7 +442,7 @@ function showFeedback(question, isCorrect) {
 function renderEmptyDeck(emptyDeck) {
   state.answered = true;
   updateStats();
-  els.questionSource.textContent = emptyDeck?.source || "Content architecture ready";
+  els.questionSource.textContent = emptyDeck?.source ? formatSource(emptyDeck.source) : "Content architecture ready";
   els.questionSection.textContent = state.currentSubtitle || "Study set";
   els.questionMastery.textContent = "No cards yet";
   const isDueReview = state.currentTitle === "Due review";
@@ -476,9 +495,11 @@ document.querySelectorAll("[data-study]").forEach((button) => {
         questions: state.allQuestions.filter((question) => state.reviewIds.has(question.id))
       });
     } else {
+      const isPastExam = study === "question-bank";
+      const isSelfAssessment = study === "self-assessment";
       startSession({
         title: button.querySelector("strong").textContent,
-        subtitle: "Study set",
+        subtitle: isPastExam ? "Past exam bank" : isSelfAssessment ? "Self-test bank" : "Study set",
         questions: deckQuestions(study),
         emptyDeck: { deck: study, moduleId: null }
       });
@@ -493,6 +514,10 @@ els.restartButton.addEventListener("click", () => startSession({
   questions: state.activeQuestions
 }));
 els.backHomeButton.addEventListener("click", goHome);
+els.lectureFocusButton.addEventListener("click", () => {
+  els.lecturePicker.open = true;
+  els.lecturePicker.scrollIntoView({ behavior: "smooth", block: "start" });
+});
 
 init().catch((error) => {
   els.questionText.textContent = error.message;

@@ -27,53 +27,79 @@
       <section id="homeScreen">
         <section class="home-hero">
           <div>
-            <h2>What are we training?</h2>
-            <p>Pick a path. Missed cards come back automatically, and every answer unlocks the explanation.</p>
-          </div>
-          <div class="home-xp">
-            <strong id="homeLevelText">Level 1</strong>
-            <span id="homeXpText">0 XP</span>
+            <h2>Choose the study path</h2>
+            <p>Most days should be either lecture-by-lecture learning or past-exam practice.</p>
           </div>
         </section>
 
-        <section class="home-grid" aria-label="Main study choices">
-          <button class="home-card" type="button" data-study="all">
-            <strong>All topics</strong>
-            <span id="allCardCount">0 cards</span>
-            <small>Best default. Mixes everything that is ready.</small>
+        <section class="study-dashboard" aria-label="Recommended study actions">
+          <button class="start-card lecture-start" id="lectureFocusButton" type="button">
+            <span class="kicker">Course path</span>
+            <strong>Study by lecture</strong>
+            <span>Slides + notes</span>
+            <small>Work through the course in order, with cards generated from each lecture.</small>
           </button>
-          <button class="home-card" type="button" data-study="question-bank">
+
+          <button class="start-card exam-start" type="button" data-study="question-bank">
+            <span class="kicker">Exam path</span>
             <strong>Past exams</strong>
             <span id="bankCardCount">0 cards</span>
-            <small>Professor-style MCQs with full explanations.</small>
+            <small>Professor-style MCQs with full explanations and traps.</small>
           </button>
-          <button class="home-card" type="button" data-study="due">
-            <strong>Review mistakes</strong>
-            <span id="dueCardCount">0 cards</span>
-            <small>Only cards you missed and still need to lock in.</small>
-          </button>
-          <button class="home-card" type="button" data-study="self-assessment">
-            <strong>Self-tests</strong>
-            <span id="selfCardCount">0 cards</span>
-            <small>Professor prompts once they are converted.</small>
-          </button>
+
+          <aside class="today-panel" aria-label="Today overview">
+            <div class="home-xp">
+              <strong id="homeLevelText">Level 1</strong>
+              <span id="homeXpText">0 XP</span>
+            </div>
+            <button class="mini-card" type="button" data-study="all">
+              <strong>Mixed practice</strong>
+              <span id="allCardCount">0 cards</span>
+              <small>Everything ready, blended.</small>
+            </button>
+            <button class="mini-card review-card" type="button" data-study="due">
+              <strong>Review mistakes</strong>
+              <span id="dueCardCount">0 cards</span>
+              <small>Only the cards still waiting to lock in.</small>
+            </button>
+          </aside>
         </section>
 
-        <section class="home-section">
-          <div class="section-heading">
-            <h2>Work by topic</h2>
-            <p>Good for targeted repair.</p>
-          </div>
-          <div class="choice-grid" id="topicGrid"></div>
-        </section>
-
-        <section class="home-section">
-          <div class="section-heading">
-            <h2>Work lecture by lecture</h2>
-            <p>Generated from slides, with notes used to fill gaps.</p>
-          </div>
+        <details class="home-section picker-section" id="lecturePicker" open>
+          <summary>
+            <span>
+              <strong>Lecture library</strong>
+              <small>Follow the course order when you want structure.</small>
+            </span>
+          </summary>
           <div class="choice-grid lecture-grid" id="lectureGrid"></div>
-        </section>
+        </details>
+
+        <details class="home-section picker-section">
+          <summary>
+            <span>
+              <strong>Focus by topic</strong>
+              <small>Use this when one area feels shaky.</small>
+            </span>
+          </summary>
+          <div class="choice-grid" id="topicGrid"></div>
+        </details>
+
+        <details class="home-section picker-section">
+          <summary>
+            <span>
+              <strong>More practice sources</strong>
+              <small>Useful once more material is converted.</small>
+            </span>
+          </summary>
+          <div class="source-grid">
+            <button class="home-card" type="button" data-study="self-assessment">
+              <strong>Self-tests</strong>
+              <span id="selfCardCount">0 cards</span>
+              <small>Professor prompts once they are converted.</small>
+            </button>
+          </div>
+        </details>
       </section>
 
       <section id="quizScreen" hidden>
@@ -100,7 +126,7 @@
           </div>
           <div>
             <span id="reviewCount">0</span>
-            <small>review</small>
+            <small>to revisit</small>
           </div>
         </section>
 
