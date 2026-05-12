@@ -58,6 +58,8 @@ Required optional metadata for new work:
 
 Existing older cards may omit this metadata, but all new large-batch work should include it so the website does not depend on brittle topic guessing.
 
+Correct-answer letters should be balanced across a generated batch. Do not make every correct answer `A`; aim for a natural spread across `A`, `B`, `C`, and `D`, while keeping the explanation letters aligned with the options. The app randomizes the visual option order before answering and reveals the original letters during feedback, but balanced source data is still preferred.
+
 ## Deck Ownership
 
 Suggested parallel assignments:
@@ -69,7 +71,7 @@ Suggested parallel assignments:
 
 ## Card Quality Standard
 
-Each card must be exam-style but also teach enough theory that the website can replace passive rereading.
+Each card must be exam-style but also teach enough theory that the website can replace passive rereading. The cards are the main study material: a student should be able to understand the contents of the lecture by working through these cards, even if they did not attend the lecture.
 
 Good cards:
 
@@ -77,6 +79,7 @@ Good cards:
 - Include four plausible options.
 - Explain why the correct answer is right and why every distractor is wrong.
 - Include all relevant theory needed to solve similar questions later.
+- Teach the lecture content directly, not merely test recognition of a slide bullet.
 - Cite the exact source document and page/slide when available.
 - Avoid requiring missing figures unless the card includes enough text to stand alone.
 
@@ -109,7 +112,7 @@ For example, if a slide only says "Hume-Rothery rules," the generated cards must
 2. Identify your assigned source/module.
 3. Read only your assigned files plus the notes needed to clarify them.
 4. Read a representative sample from `PAST_EXAMS/` to calibrate professor style, wording, difficulty, and traps. Use past exams for style only unless your assigned deck is the past exam bank.
-5. Append cards to `data/questions.json` using unique incremental ids.
+5. If you are the only active content agent, append cards to `data/questions.json` using unique incremental ids. If multiple agents are working in parallel, write your assigned batch to a separate file under `generated/` and let the master agent integrate it.
 6. Run:
 
 ```bash

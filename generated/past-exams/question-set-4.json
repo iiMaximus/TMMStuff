@@ -1,0 +1,178 @@
+[
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["recovery", "recrystallization", "residual stress", "ductility"],
+    "diagramRequired": false,
+    "question": "Features of the recovery process: mark the UNTRUE clause.",
+    "options": {
+      "A": "marked decrease in residual stresses",
+      "B": "marked increase in ductility",
+      "C": "it starts below the recrystallization temperature",
+      "D": "dislocation annihilation and rearrangement"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is the UNTRUE clause because recovery gives only partial restoration after cold work; the marked softening and large ductility recovery belong mainly to recrystallization, when new strain-free grains form. A is true because recovery relieves stored/residual stresses. C is true because recovery begins before recrystallization. D is true because recovery involves rearrangement and partial annihilation of dislocations, lowering stored energy without replacing the deformed grain structure.",
+    "relevantTheory": "After cold work, heating can produce recovery, recrystallization and then grain growth. Recovery is the lower-temperature stage: dislocations rearrange into lower-energy configurations, some annihilate, and residual stresses are reduced. The grain shape is still largely the cold-worked one, so mechanical-property changes are moderate. Recrystallization occurs at higher temperature and forms new strain-free grains, causing the major drop in strength/hardness and the major increase in ductility. Grain growth is a later coarsening stage if time or temperature is excessive.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant A), Q2; Self-assesment questions/Test 2024.12.10.pdf, page 1; Self-assesment questions/Self-test questions - miscellanea.pdf, page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 22"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["stainless steels", "pitting corrosion", "austenitic", "martensitic"],
+    "diagramRequired": false,
+    "question": "Which among the listed stainless steels exhibits the highest corrosion resistance to pitting?",
+    "options": {
+      "A": "martensitic stainless steel",
+      "B": "ferritic stainless steel",
+      "C": "austenitic stainless steel",
+      "D": "N/A"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because, among the families listed in the exam options, the lecture ranks austenitic stainless steels high in corrosion resistance and discusses pitting resistance mainly through austenitic/localized corrosion indexes. A is wrong because martensitic stainless steels are explicitly limited by lower corrosion resistance, especially in chlorides, with possible pitting. B is wrong because common ferritic stainless steels sit below austenitic grades in the lecture's chemical-property ranking, even though ELI ferritic grades improve localized corrosion compared with common ferritic stainless steels. D is wrong because one of the listed families is the intended choice.",
+    "relevantTheory": "Stainless behavior comes from at least about 11.5% Cr forming a passivating chromium oxide film, but stainless families are not equivalent. Austenitic Cr-Ni steels are generally the high corrosion-resistance family in the lecture comparison. Ferritic grades can be useful and cheaper, and ELI ferritic grades improve pitting/localized resistance, but the ordinary family ranking still places austenitic grades above common ferritic and martensitic steels. Martensitic stainless steels trade corrosion resistance for high strength and hardness after quenching and are especially vulnerable to chloride pitting and stress corrosion cracking.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant A), Q4; slides&docs/Lecture 12.pdf, pages/slides 1, 3, 5, 6 and 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 19-22"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": ["electric arc furnace", "steel production", "scrap", "alloy steels"],
+    "diagramRequired": false,
+    "question": "In the production of steels, the electric arc furnace is used to:",
+    "options": {
+      "A": "melt iron ores",
+      "B": "decarburize pig iron in the BOF route",
+      "C": "de-oxidize iron ores",
+      "D": "remelt alloy steel scraps"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because Lecture 8 presents the electric furnace/direct production route as using scraps to produce alloy or special steels. A is wrong because iron ores belong to the blast-furnace/integral production route. B is wrong because decarburizing pig iron is the role of the BOF converter in primary or secondary steelmaking. C is wrong because deoxidation is a melt-purification step after decarburization and is not the same as electric-furnace remelting of scrap.",
+    "relevantTheory": "The course separates steelmaking routes by starting material. Integral production starts from minerals in the blast furnace to make pig iron, then BOF conversion removes carbon to make steel. Secondary production can use scrap plus pig iron with BOF. Direct production by electric furnace is tied to scrap remelting and is especially associated in the lecture with alloy/special steels. Do not confuse ore reduction, BOF decarburization, melt deoxidation and scrap remelting.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant A), Q15; slides&docs/Lecture 8 Modern Production of Steels.pdf, page/slide 1"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["oxidation", "electrode potential", "nobility", "galvanic series"],
+    "diagramRequired": false,
+    "question": "Which element is the most difficult to oxidize among the listed choices?",
+    "options": {
+      "A": "Zn",
+      "B": "Cu",
+      "C": "Si",
+      "D": "Sn"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because copper is the most noble of the listed metallic elements in the lecture electrode-potential table; it has the most positive potential among Zn, Sn and Cu, so it is least ready to oxidize. A is wrong because Zn has a strongly negative electrode potential and is readily anodic. C is wrong because Si is treated in steelmaking as a strong deoxidizing element with high oxygen affinity, not as difficult to oxidize. D is wrong because Sn is less noble than Cu in the lecture table.",
+    "relevantTheory": "Oxidation of a metal corresponds to losing electrons and becoming ionic. In galvanic or corrosion ranking, less noble elements are more easily anodic and oxidize more readily, while more noble elements resist oxidation relative to them. The lecture's standard electrode-potential table places Cu at a positive potential, while Zn and Sn are negative; the steel-production lecture also uses Si, Mn and Al as oxygen-affinity/deoxidizing elements. Therefore Cu is the safest exam answer for difficult-to-oxidize among Zn, Cu, Si and Sn.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant B), Q4; slides&docs/Lecture 11 Corrosion.pdf, pages/slides 5-6; slides&docs/Lecture 8 Modern Production of Steels.pdf, page/slide 4"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": ["Mn", "eutectoid carbon", "pearlite fraction", "Fe-C alloying"],
+    "diagramRequired": false,
+    "question": "Mn influences the carbon content of the eutectoid point, CE. For the same hypoeutectoid steel composition, with increasing Mn the percentage of pearlite:",
+    "options": {
+      "A": "increases",
+      "B": "decreases",
+      "C": "drops to zero",
+      "D": "increases directly to 100% for any carbon content"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture chart shows Mn lowering the eutectoid carbon content CE; for a fixed hypoeutectoid carbon level, lowering CE moves the alloy closer to the eutectoid composition and increases the pearlite fraction. B is wrong because it reverses the lever-rule effect of a lower CE. C is wrong because pearlite does not disappear simply because Mn is added. D is too absolute: pearlite can increase strongly and may approach 100% only when the fixed carbon content reaches the shifted eutectoid composition; it is not automatically 100% for every steel.",
+    "relevantTheory": "In a plain hypoeutectoid steel, final slow-cooled microstructure is pro-eutectoid ferrite plus pearlite, and pearlite fraction grows as the carbon content approaches the eutectoid composition. Alloying elements shift both A1 and CE. Mn is a strong austenitizing element and the Lecture 6 A1-CE chart shows CE decreasing with Mn. If the steel's original carbon content is held constant while CE decreases, the ratio used for the ferrite/pearlite lever-rule calculation gives a larger pearlite fraction and a smaller pro-eutectoid ferrite fraction.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant B), Q10; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pages/slides 4-5 and 9-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 20"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["TTT", "nucleation rate", "undercooling", "diffusion"],
+    "diagramRequired": false,
+    "question": "In a TTT transformation range, when the transformation temperature is decreased from just below A1, the nucleation rate generally:",
+    "options": {
+      "A": "increases",
+      "B": "decreases",
+      "C": "does not change",
+      "D": "is N/A"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct in the professor's TTT wording because decreasing the transformation temperature increases undercooling and the driving force for nucleation, so more nuclei form and the microstructure tends to become finer. B is wrong for the usual exam contrast between nucleation and diffusion-controlled growth; growth/diffusion becomes harder at lower temperature, but nucleation tendency is promoted by undercooling. C is wrong because transformation kinetics depend strongly on temperature. D is wrong because nucleation rate is one of the basic phenomena behind TTT curves.",
+    "relevantTheory": "TTT curves reflect nucleation plus growth. Lower temperature below the eutectoid temperature gives larger undercooling, increasing the thermodynamic driving force and therefore the tendency to form many nuclei. At the same time, atomic diffusion becomes slower, which limits growth. The overall transformation rate therefore has a maximum at an intermediate temperature, but the basic exam trap is that nucleation tendency increases with undercooling while diffusion-controlled growth becomes slower.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant B), Q11; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 17-19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 1-3"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": ["bainite", "CCT", "austempering", "tempered martensite"],
+    "diagramRequired": false,
+    "question": "What is NOT a distinct feature of bainite?",
+    "options": {
+      "A": "it can give a strength-toughness compromise comparable with tempered martensite",
+      "B": "it has a fine, highly resolved microstructure",
+      "C": "100% bainite is normally attained upon ordinary continuous cooling",
+      "D": "it forms by a transformation involving ferrite and carbides rather than a fully diffusionless martensitic reaction"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the NOT feature because the notes stress that bainite is difficult to obtain completely by continuous cooling; ordinary CCT paths often give mixed products depending on the time spent in each region. A is true because the lecture calls bainite an excellent alternative to tempered martensite for hardness and an optimum strength-toughness tradeoff. B is true because the notes describe bainite as a smaller, more detailed or highly resolved microstructure. D is true because bainite is ferrite plus carbide/acicular products and is not the same as diffusionless martensite.",
+    "relevantTheory": "Bainite forms between pearlite and martensite ranges. Upper bainite is coarser and forms at higher temperature; lower bainite is finer and stronger at lower temperature. It is made of ferrite plus carbides, often acicular or rod-like, and it can provide high hardness with better toughness than untempered martensite. To obtain mostly bainite, austempering or a suitable isothermal hold is often used; continuous cooling can pass through several transformation regions and produce ferrite, pearlite, bainite, martensite and retained austenite mixtures depending on the path.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant B), Q14; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 5, 7 and 19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 4-5, 10-11 and 16"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": ["recovery", "grain growth", "recrystallization", "dislocation density"],
+    "diagramRequired": false,
+    "question": "Which is NOT an effect of recovery?",
+    "options": {
+      "A": "lower residual stress",
+      "B": "reduction in dislocation density",
+      "C": "little or no replacement of the deformed grain structure",
+      "D": "grain growth"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT effect because grain growth is a later stage after recrystallization, not recovery. A is a recovery effect because stored and residual stresses are relieved. B is a recovery effect because some dislocations annihilate or rearrange into lower-energy structures. C is also characteristic of recovery: the deformed microstructure is not replaced by new strain-free grains, which is why recovery is less dramatic than recrystallization.",
+    "relevantTheory": "Recovery, recrystallization and grain growth should be kept separate. Recovery reduces stored energy mainly by dislocation rearrangement and stress relief, while preserving much of the cold-worked grain morphology. Recrystallization nucleates new strain-free grains, giving major softening and ductility restoration. Grain growth comes after recrystallization if heating continues, reducing grain-boundary area and often lowering strength by coarsening the microstructure.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant B), Q15; Self-assesment questions/Test 2024.12.10.pdf, page 1; Self-assesment questions/Self-test questions - miscellanea.pdf, page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 22"
+  }
+]

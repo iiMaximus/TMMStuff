@@ -1,0 +1,222 @@
+[
+  {
+    "id": 513,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["Ni", "austenitizing", "passivation", "toughness"],
+    "diagramRequired": false,
+    "question": "What is the role of Ni in stainless steels, according to Lecture 12?",
+    "options": {
+      "A": "It widens the gamma field, stabilizes austenite, increases corrosion resistance, and improves toughness and cold plastic deformation.",
+      "B": "It is the main element forming the chromium oxide passivating film over the surface.",
+      "C": "It has ferritizing action like Cr, Mo, Si, Nb, Ta and Al.",
+      "D": "It is added mainly to oxidize chromium during melting so that the alloy becomes stainless."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture says Ni widens the gamma field, stabilizes austenite, increases Rcorr, and enhances toughness and cold plastic deformation. B is wrong because passivation is attributed to chromium oxide, not nickel oxide. C is wrong because Ni is listed with austenitizing elements, while Cr, Mo, Si, Nb, Ta and Al are ferritizing. D reverses the manufacturing warning: oxidation of Cr during melting is harmful because it wastes the element needed for stainless behavior.",
+    "relevantTheory": "In stainless steels, Cr and Ni are both central, but they do different jobs. Cr is the minimum requirement for stainless behavior because it forms the passive chromium oxide film. Ni is mainly an austenite stabilizer: it expands the gamma range, supports the 3XX austenitic family, and improves toughness and cold formability. The exam trap is to call every useful alloying element a passivating element. In this lecture, stainlessness starts with Cr; Ni tunes structure and properties.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 2 and slide/page 4; PAST_EXAMS/QUESTION_SET_3.txt, Ni role question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 19-21"
+  },
+  {
+    "id": 514,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": ["pitting corrosion", "chlorides", "area ratio", "localized corrosion"],
+    "diagramRequired": false,
+    "question": "Pitting corrosion in stainless steels is especially harmful because:",
+    "options": {
+      "A": "the attack is highly localized, so a small anodic pit is coupled to a large passive cathodic surface and the area ratio makes penetration fast.",
+      "B": "it removes material uniformly from the whole surface, making thickness loss easy to measure before failure.",
+      "C": "it occurs only when stainless steel is fully dry and no electrolyte is present.",
+      "D": "it proves that the alloy was martensitic; austenitic stainless steels cannot suffer pitting."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes describe pitting as extremely dangerous because the overall metal loss can be negligible while local penetration becomes severe; the corrosion lecture also emphasizes the unfavorable small-anode/large-cathode area ratio. B describes uniform corrosion, which is easier to monitor and is not the main hidden failure mode. C is wrong because pitting is linked with aqueous/local electrolyte conditions, especially chlorides. D is wrong because Lecture 12 explicitly states that most austenitic stainless steels are susceptible to localized corrosion such as pitting and crevice corrosion.",
+    "relevantTheory": "Stainless steels are passive alloys, so most of the surface may remain protected by an oxide film. If the film locally breaks down, especially in chloride-containing environments, a pit can become an intense local anode while the surrounding passive surface acts as a large cathode. This unfavorable area ratio accelerates local dissolution. That is why pitting can be more dangerous than uniform corrosion: the component may look almost intact while a deep pit acts as a crack-like defect.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 7; PAST_EXAMS/QUESTION_SET_4.txt, pitting harm question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 16-17 and 22"
+  },
+  {
+    "id": 515,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["environment", "pH", "flow rate", "oxygen", "dry air"],
+    "diagramRequired": false,
+    "question": "Mark the NON-influencing environmental factor for corrosion of stainless steels in the professor's exam style.",
+    "options": {
+      "A": "Dry air",
+      "B": "pH of the environment",
+      "C": "Water flow rate",
+      "D": "Oxygen availability in a wet crevice or pit"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct as the NON-influencing factor in this wording: dry air lacks the wet electrolyte condition emphasized for corrosion cells and is much less critical than aqueous chloride/pH/flow/oxygen effects. B is wrong because pH is listed among factors controlling corrosion rate. C is wrong because flow effects can modify corrosion and the notes explicitly list erosion corrosion and water-flow-related effects. D is wrong because oxygen availability matters strongly in crevice and pitting situations: oxygen depletion inside a crevice changes local anodic/cathodic reactions and can drive localized attack.",
+    "relevantTheory": "For wet corrosion, the important system is anode, cathode and electrolyte. Environmental factors matter when they change the electrochemical reactions or transport: pH, conductivity, oxygen concentration, chlorides, flow rate, temperature and crevice geometry can all influence corrosion. Dry air is not the same corrosion environment because there is no effective electrolyte film sustaining the corrosion cell. The exam often asks this as a NOT or NON-influencing clause, so do not confuse oxygen in dry air with oxygen dissolved or depleted in a wet corrosion cell.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 7; PAST_EXAMS/QUESTION_SET_4.txt, environmental-factor question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 14-18 and 22"
+  },
+  {
+    "id": 516,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["strengthening", "cold work", "stainless steel", "heat treatment"],
+    "diagramRequired": false,
+    "question": "The general strengthening method of non-martensitic stainless steels tested in the exam bank is:",
+    "options": {
+      "A": "cold-working, often assisted by grain refinement depending on the family.",
+      "B": "tempering after full martensitic quenching for every stainless family.",
+      "C": "aging by Guinier-Preston zones as in Al-Cu alloys.",
+      "D": "forming a thicker chromium oxide film, because passivation directly raises yield strength."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes state that austenitic stainless steels cannot normally be strengthened by heat treatment without changing the alloy concept, and their strength increase is achieved by cold working and grain refinement; the exam also asks stainless strengthening with cold-working as the intended answer. B is wrong because martensitic stainless steels are heat treatable, but ferritic and austenitic stainless steels are not generally treated as quench-and-temper steels. C is an aluminium alloy aging mechanism, not the normal stainless-steel strengthening answer in this lecture. D is wrong because passivation improves corrosion resistance, not mechanical strength by itself.",
+    "relevantTheory": "Stainless steel families should not be collapsed into one heat-treatment route. Martensitic stainless steels gain high strength and hardness by quenching from austenite, but austenitic stainless steels keep the austenitic phase and are commonly strengthened by cold deformation and grain refinement. Ferritic stainless steels also do not rely on martensitic transformation as their normal route. The course trap is to import carbon-steel tempering logic into all stainless steels; only the martensitic family fits that logic well.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 3, slide/page 4 and slide/page 6; PAST_EXAMS/QUESTION_SET_4.txt, stainless strengthening question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 21-23"
+  },
+  {
+    "id": 517,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": ["sigma phase", "toughness", "corrosion resistance", "ferritizing elements"],
+    "diagramRequired": false,
+    "question": "Which statement about sigma phase in stainless steels matches Lecture 12?",
+    "options": {
+      "A": "Sigma phase reduces both toughness and corrosion resistance.",
+      "B": "Sigma phase is the desired passivating oxide film formed by chromium on the surface.",
+      "C": "Sigma phase is the name of the austenitic gamma field widened by Ni.",
+      "D": "Sigma phase is harmless because it only increases ductility after welding."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the Fe-Cr/Fe-Ni slide states that sigma phase reduces toughness and corrosion resistance, and the weldability slide lists possible sigma phase formation as a ferritic stainless welding risk. B is wrong because the passivating film is chromium oxide, not sigma phase. C confuses sigma with gamma/austenite; Ni widens the gamma field, while sigma is a harmful intermetallic-type phase in this lecture context. D is the opposite of the lecture statement because sigma reduces, not improves, toughness.",
+    "relevantTheory": "Sigma phase is an exam trap because students may remember it as just another phase on a diagram and forget the property consequence. In stainless steels, harmful precipitation can lower toughness and corrosion resistance even though the alloy still contains enough nominal chromium. This is important during welding or high-temperature exposure of ferritic and duplex-type compositions: phase balance and precipitation control matter, not only the bulk Cr percentage.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 2 and slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 20 and 22"
+  },
+  {
+    "id": 518,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["ferritic stainless steel", "cost", "applications", "low temperature"],
+    "diagramRequired": false,
+    "question": "A plant component needs good corrosion resistance at lower cost than austenitic stainless steel, and the application is a heat exchanger, vessel, condenser, pump, or food/chemical-industry part. Which family is the natural Lecture 12 choice?",
+    "options": {
+      "A": "Ferritic stainless steel",
+      "B": "Martensitic stainless steel",
+      "C": "Plain low-carbon steel without chromium",
+      "D": "Al-Cu precipitation-hardened aluminium alloy"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 12 lists ferritic stainless steels, 12-30% Cr with mainly BCC alpha structure, for heat exchangers, vessels, condensers, pumps, and food and chemical industry applications; the notes add that ferritic stainless is chosen when good corrosion resistance and lower cost are desired. B is wrong because martensitic stainless is selected mainly for high strength and hardness, with lower corrosion resistance than other stainless families. C lacks the chromium passivation basis. D is outside the stainless steel lecture and uses a different strengthening/corrosion logic.",
+    "relevantTheory": "Ferritic stainless steels are Cr-rich, mainly BCC alpha alloys. They exploit chromium passivation while avoiding the high nickel content of austenitic grades, so they can be a cost-effective corrosion-resistant choice. Their limitations are also part of the selection: they are less ductile/formable than austenitic stainless steels and may be more sensitive to low-temperature brittleness unless improved as ELI grades. Use ferritic stainless when the question emphasizes corrosion resistance plus cost, not maximum hardness.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 20-21"
+  },
+  {
+    "id": 519,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": ["carbon", "martensitic stainless steel", "austenitizing", "carbides"],
+    "diagramRequired": false,
+    "question": "Concerning carbon in stainless steels, mark the TRUE clause.",
+    "options": {
+      "A": "Carbon is an austenitizing element and supports martensitic hardening, but free carbon is dangerous in welded austenitic stainless steels because it can form chromium carbides.",
+      "B": "Carbon is always beneficial because all carbides improve both corrosion resistance and weldability.",
+      "C": "Carbon is the element that directly forms the passive surface film in stainless steels.",
+      "D": "Carbon is ferritizing like Cr and therefore prevents martensite formation in every stainless steel."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture lists C among austenitizing elements, notes the importance of carbon for martensitic stainless behavior, and later shows that carbon can cause sensitization by forming chromium carbides at grain boundaries. B is wrong because chromium carbides at grain boundaries reduce local chromium in solid solution and promote intergranular corrosion. C is wrong because the passive film is chromium oxide. D is wrong because carbon is not grouped with ferritizing elements in the lecture and does not prevent martensite; martensitic stainless steels depend on quenching from austenite and carbon contributes to hardness.",
+    "relevantTheory": "Carbon has a double role, which makes it a good exam trap. In martensitic stainless steels, carbon helps form hard martensite after quenching and contributes to high strength and hardness. In welded austenitic stainless steels, however, carbon can combine with chromium during sensitizing thermal exposure, producing chromium carbide precipitates and chromium-depleted zones at grain boundaries. This is why low-carbon L grades and Ti/Ta/Nb stabilization are useful even though carbon can be mechanically useful in other stainless families.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 2, slide/page 6 and slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 20, 22 and 24-25"
+  },
+  {
+    "id": 520,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": ["precipitation hardening", "stainless steel", "strength", "grain size"],
+    "diagramRequired": false,
+    "question": "What distinguishes precipitation-hardening stainless steels in the Lecture 12 notes?",
+    "options": {
+      "A": "Their strengthening is controlled by precipitates and grain size, allowing very high mechanical properties that may even exceed 2 GPa.",
+      "B": "They are strengthened only by forming a chromium oxide passivating film, with no microstructural strengthening.",
+      "C": "They are ordinary ferritic stainless steels made softer by raising C+N interstitial content.",
+      "D": "They are aluminium alloys aged by GP zones and therefore are not stainless steels."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes under typical stainless compositions state that precipitation hardening differs because the strengthening mechanism is by precipitation, and that controlled grain size and amount of precipitates can allow very high mechanical properties, even above 2 GPa. B confuses corrosion resistance with mechanical strengthening. C reverses the ELI ferritic idea: raising interstitials is not the route to improved ferritic stainless behavior. D confuses a general strengthening mechanism with a different material family; aluminium alloys also use precipitation hardening, but the notes explicitly discuss precipitation-hardening stainless steels.",
+    "relevantTheory": "Stainless steels are not only ferritic, austenitic, duplex and martensitic in a simple property ranking; some grades use precipitation hardening to combine stainless corrosion behavior with high strength. The key idea is controlled precipitation: fine particles obstruct dislocation motion, while grain size also affects strength. This differs from martensitic quench hardening and from cold-working of austenitic grades. It also differs from passivation, which is a corrosion-resistance mechanism rather than a direct strengthening mechanism.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 8 and slide/page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 23"
+  },
+  {
+    "id": 521,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["Mo", "N", "pitting resistance", "PREN"],
+    "diagramRequired": false,
+    "question": "A stainless grade is being modified mainly to improve resistance to pitting corrosion. Which alloying logic best follows Lecture 12?",
+    "options": {
+      "A": "Use elements such as Mo and N that increase localized corrosion resistance and raise the PREN/LCRI comparison index.",
+      "B": "Remove chromium below the stainless threshold and rely on carbon-rich carbides.",
+      "C": "Increase free carbon so that chromium carbides form continuously at grain boundaries.",
+      "D": "Choose high hardness alone, because martensite automatically prevents chloride pitting."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 12 introduces PREN/LCRI as a composition-based localized corrosion resistance index using Cr, Mo, N and Ni terms, and the notes specifically say nitrogen can be introduced to increase pitting resistance. B is wrong because Cr is required for the passivating film. C is wrong because free carbon promotes chromium carbide precipitation and sensitization, not pitting resistance. D is wrong because martensitic stainless steels have lower corrosion resistance than other stainless families, especially in chlorides, and may suffer pitting and stress corrosion cracking.",
+    "relevantTheory": "Pitting resistance in stainless steels is a localized corrosion problem, not a hardness problem. The course uses PREN/LCRI to compare how composition affects resistance to pitting and crevice corrosion. Chromium is the base passivating element, while molybdenum and nitrogen are especially associated with improved localized corrosion resistance in many stainless grades; the lecture formula also includes a nickel term in the Nadzhin-Wensley form. A high PREN means better resistance, with superduplex grades highlighted above 40.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 7 and slide/page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 22-23"
+  },
+  {
+    "id": 522,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": ["AISI 304", "austenitic stainless steel", "magnetism", "DBTT"],
+    "diagramRequired": false,
+    "question": "For austenitic stainless steel AISI 304, mark the unlike property in the professor's exam style.",
+    "options": {
+      "A": "Ferromagnetic behavior like martensitic stainless steels",
+      "B": "Absence of a ductile-to-brittle transition temperature problem typical of BCC ferritic behavior",
+      "C": "Excellent corrosion resistance for many service environments",
+      "D": "Excellent weldability compared with other stainless steel families, provided sensitization is controlled"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct as the unlike property: Lecture 12 associates ferromagnetic properties with martensitic stainless steels, not with austenitic AISI 304. B is a typical austenitic advantage because FCC austenite is tough and does not show the same DBTT issue emphasized for ferritic grades. C matches the austenitic stainless role in corrosion-resistant equipment. D is also typical, with the important qualification that welding can still cause carbide precipitation and sensitization if carbon and heat input are not controlled.",
+    "relevantTheory": "AISI 304 belongs to the Cr-Ni austenitic 3XX family. Austenite is FCC, tough, ductile and highly weldable; its strength is normally increased by cold work rather than by quench hardening. Ferritic and martensitic stainless steels are associated with BCC/BCT ferromagnetic behavior and different toughness limitations. The exam trap is to transfer martensitic stainless properties, such as ferromagnetism and heat-treatment hardness, onto AISI 304 just because both are stainless steels.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 4, slide/page 6 and slide/page 10; PAST_EXAMS/QUESTION_SET_4.txt, AISI 304 property question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 21-25"
+  }
+]

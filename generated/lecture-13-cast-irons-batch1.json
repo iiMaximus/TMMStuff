@@ -1,0 +1,395 @@
+[
+  {
+    "id": 463,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "cast iron composition",
+      "carbon range",
+      "silicon"
+    ],
+    "diagramRequired": false,
+    "question": "Which composition and general description best identifies cast irons in Lecture 13?",
+    "options": {
+      "A": "Fe-C-Si alloys with about 2-4.5% C and 1-3% Si, usually having a ferrite or pearlite matrix plus graphite after slow cooling",
+      "B": "Low-carbon steels with less than 0.8% C and no graphite second phase",
+      "C": "Pure Fe alloys where all carbon must remain dissolved in ferrite at room temperature",
+      "D": "Stainless steels whose main identifying element is Cr above the passivation threshold"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 defines cast irons by high carbon, significant silicon, and a matrix of ferrite or pearlite together with graphite as a second phase when cooling is slow enough. B describes steels, not cast irons; the notes explicitly separate steels below the high-carbon cast iron range. C is wrong because ferrite has very low carbon solubility and cast irons contain excess carbon as graphite or carbide. D confuses cast irons with stainless steels, whose lecture logic is based on Cr and corrosion passivation.",
+    "relevantTheory": "Cast irons are Fe-C alloys with carbon above the steel range and with silicon as an important graphitizing element. Their useful engineering behavior is not controlled only by the average carbon percentage; it depends on whether the excess carbon appears as graphite, as iron carbide, and on whether the metallic matrix is ferritic or pearlitic. This is why cast iron is treated as a microstructure family rather than as one single material.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 9"
+  },
+  {
+    "id": 464,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "graphite",
+      "cementite",
+      "cooling rate",
+      "Si"
+    ],
+    "diagramRequired": false,
+    "question": "Which clause is NOT TRUE for graphite formation in cast irons?",
+    "options": {
+      "A": "Graphite is promoted by slow cooling, high carbon content and about 1-3% Si",
+      "B": "Graphite is a non-metallic phase and its shape strongly affects cast iron properties",
+      "C": "Graphite forms because all carbon remains dissolved in ferrite down to room temperature",
+      "D": "Graphite in cast irons can improve machinability because it has a lubricating effect during cutting"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the NOT TRUE clause. Cast irons contain more carbon than ferrite or austenite can keep in solution during cooling, so excess carbon must appear as a second phase such as graphite or iron carbide. A is true: the notes list extremely slow cooling, carbon above 2%, and Si 1-3% as graphite promoters. B is true because Lecture 13 distinguishes gray, ductile and malleable irons mainly by graphite form. D is true: the notes describe graphite as having a low friction coefficient, which helps machining.",
+    "relevantTheory": "The key cast-iron trap is dissolved carbon versus separated carbon. In steels much of the discussion concerns carbon in solid solution or in cementite/pearlite. In cast irons the carbon content is so high that the excess carbon normally separates. Silicon and slow cooling favor the stable graphite form; low Si or rapid/chilled solidification favors iron carbide and therefore white iron.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, pages/slides 1-2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 465,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "white cast iron",
+      "iron carbide",
+      "brittleness"
+    ],
+    "diagramRequired": false,
+    "question": "What is the defining microstructural reason for the properties of white cast iron?",
+    "options": {
+      "A": "Carbon is present mainly as iron carbide instead of graphite, giving high hardness and wear resistance but high brittleness",
+      "B": "Carbon precipitates as spherical graphite nodules, giving the highest ductility among cast irons",
+      "C": "Carbon precipitates as graphite flakes, giving the gray fracture surface and best vibration damping",
+      "D": "All carbon is removed by decarburization, so the alloy behaves as very low-carbon ferrite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 states that white cast iron contains carbon in the form of iron carbide instead of graphite upon solidification, and therefore has excellent wear resistance, high hardness and high brittleness. B describes ductile cast iron. C describes gray cast iron. D is wrong because white cast iron still contains high carbon; the issue is the form of carbon, not removal of carbon.",
+    "relevantTheory": "White cast iron is the carbide-rich member of the family. Cementite/iron carbide is hard and wear resistant, but it is brittle. Therefore a white fracture surface and a crystalline appearance are not cosmetic labels; they signal that the alloy solidified without graphite as the dominant carbon form. Low C and low Si relative to gray iron favor this route.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 466,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "gray cast iron",
+      "graphite flakes",
+      "damping"
+    ],
+    "diagramRequired": false,
+    "question": "A cast component needs easy casting, machinability and high vibration damping more than high impact toughness. Which cast iron logic is most suitable?",
+    "options": {
+      "A": "Gray cast iron, because graphite flakes in a ferrite/pearlite matrix give good damping and machinability",
+      "B": "White cast iron, because iron carbide always gives the best damping and ductility",
+      "C": "Malleable cast iron, because it is obtained directly by fast solidification of high-Si liquid as flakes",
+      "D": "Austenitic stainless steel, because passivation is the main requirement for damping"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 assigns gray cast iron excellent machinability, hardness/wear resistance and vibration damping capacity, and identifies graphite flakes as its microstructural feature. B is wrong because white iron is hard and wear resistant but brittle, and carbide does not give the same graphite damping. C confuses malleable iron with gray iron; malleable iron comes from heat treating white iron. D may help corrosion in other contexts but does not answer the lecture's cast-iron damping mechanism.",
+    "relevantTheory": "Graphite flakes interrupt the metallic matrix and dissipate vibrational energy, which is why gray iron is classic for machine bases and engine-like components. The same flake morphology also lowers ductility because flakes behave as internal stress raisers. Thus gray iron is selected when damping, casting and machining dominate, not when maximum toughness is needed.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 467,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "gray cast iron",
+      "flake graphite",
+      "ductility trap"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the UNTRUE clause for gray cast iron.",
+    "options": {
+      "A": "It commonly contains about 2.5-4% C and 1-3% Si",
+      "B": "Its excess carbon precipitates as graphite flakes",
+      "C": "Its fractured surface appears gray",
+      "D": "Its graphite flakes remove stress concentration effects and therefore make it highly ductile"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the UNTRUE clause. Graphite flakes help damping and machinability, but their flake shape is not a ductility enhancer; it creates local stress concentration and contributes to low impact resistance. A is true and matches the Lecture 13 composition range for gray cast iron. B is true because the slide explicitly says carbon exceeds austenite solubility and precipitates as graphite flakes. C is true and is the reason for the name gray cast iron.",
+    "relevantTheory": "Graphite morphology is the main cast-iron property lever. Flakes are beneficial for damping and machining, but harmful for tensile ductility and impact behavior. Spherical or more rounded graphite reduces the stress-raiser effect and is why ductile and malleable irons can be tougher than ordinary gray iron.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 468,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "ductile cast iron",
+      "spherical nodules",
+      "bull's eye"
+    ],
+    "diagramRequired": false,
+    "question": "Why does ductile cast iron combine processing advantages of cast iron with engineering advantages closer to steel?",
+    "options": {
+      "A": "Because graphite is present as spherical nodules, reducing the flake stress-raiser effect and allowing higher strength, toughness and ductility",
+      "B": "Because it contains no graphite and all carbon is dissolved in ferrite",
+      "C": "Because it is simply gray cast iron with larger and sharper flakes",
+      "D": "Because it is produced by sensitization of stainless steel grain boundaries"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 attributes ductile cast iron's high strength, toughness, ductility and hardenability to spherical graphite nodules and notes its bull's eye microstructure. B is wrong because ductile iron is still a graphite-containing cast iron. C reverses the mechanism: sharper flakes reduce ductility. D is from stainless steel corrosion and has nothing to do with ductile cast iron.",
+    "relevantTheory": "Ductile cast iron is also called nodular or spheroidal graphite iron in many materials contexts. The matrix still supplies much of the strength, but graphite shape controls how severely the second phase concentrates stress. Spherical nodules are less damaging than flakes, so the material keeps castability and machinability while gaining useful toughness and ductility.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26"
+  },
+  {
+    "id": 469,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "malleable cast iron",
+      "malleablizing",
+      "white iron"
+    ],
+    "diagramRequired": false,
+    "question": "Which process chain correctly describes malleable cast iron in Lecture 13?",
+    "options": {
+      "A": "Start from white cast iron and heat it in a malleablizing furnace so carbide decomposes into irregular graphite nodules",
+      "B": "Start from gray cast iron and quench it to convert graphite flakes into martensite",
+      "C": "Start from stainless steel and precipitate chromium carbides at grain boundaries",
+      "D": "Start from pure ferrite and add enough oxygen to form graphite flakes"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that white cast iron is heated in a malleablizing furnace to transform carbide into graphite, forming irregular nodules. B is wrong because quenching gray iron does not convert graphite flakes into martensite; graphite is carbon already separated as a phase. C describes sensitization in stainless steels, not malleable iron. D is chemically and metallurgically wrong: oxygen is not the route to graphite nodules in this lecture.",
+    "relevantTheory": "Malleable cast iron is a heat-treatment solution to the brittleness of white iron. White iron first contains carbon as carbide. Long annealing/malleablizing lets the carbide break down and carbon precipitate as rounded irregular graphite aggregates, improving toughness and machinability while keeping the cast-shape advantage.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26"
+  },
+  {
+    "id": 470,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "composition ranges",
+      "white gray ductile malleable",
+      "Si"
+    ],
+    "diagramRequired": false,
+    "question": "Which composition-to-cast-iron pairing best follows the Lecture 13 ranges?",
+    "options": {
+      "A": "White iron: about 2.5-3% C and 0.5-1.5% Si; ductile iron: about 3-4% C and 1.8-2.8% Si with low impurities",
+      "B": "Gray iron: less than 0.8% C and no Si; white iron: 18% Cr and 10% Ni",
+      "C": "Malleable iron: exactly 6.67% C because it is pure cementite; ductile iron: 0.02% C because it is ferrite",
+      "D": "All cast irons have identical composition, so only cooling rate and never chemistry can change the type"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and matches the lecture values: white iron has lower C and Si than gray iron and contains carbide; ductile iron has roughly 3-4% C, 1.8-2.8% Si and low impurities. B confuses gray iron with steels and stainless steel designation logic. C confuses cementite stoichiometry and ferrite solubility with actual cast iron compositions. D is wrong because chemistry, especially C, Si and impurities, works together with cooling/processing to determine the cast iron type.",
+    "relevantTheory": "The professor often tests approximate ranges rather than exact metallurgy tables. Remember the pattern: cast irons are above the steel carbon range; silicon promotes graphite; white iron has lower Si so carbide is favored; ductile iron needs controlled chemistry and low impurities so graphite can form as nodules rather than harmful shapes.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, pages/slides 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 25-26"
+  },
+  {
+    "id": 471,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "matrix",
+      "ferrite",
+      "pearlite",
+      "properties"
+    ],
+    "diagramRequired": false,
+    "question": "In cast irons, what is the effect of changing the metallic matrix from mostly ferrite to more pearlite, with graphite morphology otherwise comparable?",
+    "options": {
+      "A": "Strength, hardness and wear resistance tend to increase, while elongation and machinability tend to decrease",
+      "B": "The alloy becomes pure graphite and loses all metallic strength",
+      "C": "The alloy necessarily becomes stainless because pearlite contains chromium",
+      "D": "Impact ductility always increases because pearlite is softer than ferrite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 13 states that cast irons have a ferrite or pearlite matrix with graphite as second phase; from the steel microstructure logic already used in the course, pearlite is the harder ferrite-plus-carbide product while ferrite is softer and more ductile. B is wrong because the matrix remains metallic. C is unrelated; pearlite is ferrite plus iron carbide, not a Cr passivation structure. D reverses the usual ferrite/pearlite property trend: ferrite is softer and more ductile than pearlite.",
+    "relevantTheory": "Cast iron properties are controlled by two levels at once: graphite shape and matrix structure. Graphite morphology controls stress concentration, damping and machinability; the ferrite/pearlite matrix controls the baseline strength-hardness versus ductility balance. A pearlitic gray or ductile iron is stronger and more wear resistant than a ferritic one, but less forgiving in elongation and machining.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 25-26"
+  },
+  {
+    "id": 472,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "white vs gray iron",
+      "graphitization",
+      "fracture surface"
+    ],
+    "diagramRequired": false,
+    "question": "A cast iron fracture surface is white and crystalline instead of gray. Which interpretation is most consistent with Lecture 13?",
+    "options": {
+      "A": "The carbon solidified mainly as iron carbide rather than graphite, so the iron is hard and brittle",
+      "B": "The iron must contain graphite flakes, because flakes always produce a white fracture",
+      "C": "The alloy must be ductile iron, because spherical graphite always gives a white crystalline fracture",
+      "D": "The surface color proves the alloy has no carbon"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because white cast iron is named for its white crystalline fracture surface and contains carbon as iron carbide instead of graphite. B is wrong because graphite flakes are the gray cast iron case and give a gray fracture surface. C confuses ductile cast iron's spherical nodules with the white iron fracture description. D is wrong because white iron is still high-carbon cast iron; the color indicates carbon form, not absence of carbon.",
+    "relevantTheory": "The lecture names are microstructure clues. White means carbide-dominated fracture; gray means graphite-flake fracture. This is not merely visual classification: carbide gives hardness, wear resistance and brittleness, whereas graphite flakes give damping and machinability with poor impact ductility.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 473,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "material selection",
+      "ductile iron",
+      "steel replacement"
+    ],
+    "diagramRequired": false,
+    "question": "A designer wants the castability and machinability of cast iron, but the component also needs higher strength, toughness and ductility than ordinary gray iron. Which choice best matches Lecture 13?",
+    "options": {
+      "A": "Ductile cast iron with spherical graphite nodules and low impurities",
+      "B": "White cast iron, because maximum carbide always maximizes toughness",
+      "C": "Gray cast iron with coarse graphite flakes, because coarse flakes remove crack initiation",
+      "D": "Pure ferrite, because eliminating carbon gives the same fluidity as cast iron"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 explicitly says ductile cast iron has the processing advantages of cast iron and engineering advantages of steel, including high strength, toughness and ductility due to spherical nodules. B is wrong because white iron is brittle. C is wrong because flake graphite is associated with damping and machinability, not high ductility. D is wrong because cast iron's fluidity and low melting point come from its high-carbon composition near the eutectic region, not from pure ferrite.",
+    "relevantTheory": "Ductile cast iron is the answer when the exam wording combines cast iron processing advantages with steel-like mechanical performance. Its nodular graphite avoids the most severe flake stress concentration, and its matrix can be adjusted toward ferritic or pearlitic behavior depending on the needed ductility-strength balance.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 9"
+  },
+  {
+    "id": 474,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "general properties",
+      "castability",
+      "ductility"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about general cast iron properties is NOT TRUE?",
+    "options": {
+      "A": "Cast irons have low melting point, ease of casting and high fluidity compared with many steels",
+      "B": "Cast irons usually have low shrinkage and are easily machinable",
+      "C": "Cast irons generally have low impact resistance and low ductility",
+      "D": "Cast irons are selected primarily because they always have higher impact toughness than steels"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause. Lecture 13 says cast irons have low impact resistance and ductility as general properties, even though ductile and malleable irons improve this compared with gray or white iron. A, B and C are direct lecture points: low melting point, ease of casting, high fluidity, low shrinkage, machinability and low impact ductility are the basic cast iron profile.",
+    "relevantTheory": "Cast irons are attractive because they are easy and economical to shape by casting: the high-carbon composition gives low melting point and good fluidity. Their weakness is toughness/ductility, controlled especially by graphite shape or carbide formation. A good exam answer must not treat all cast irons as steel-like just because ductile iron improves toughness.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 475,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "cooling rate",
+      "sand mould",
+      "graphite",
+      "castings"
+    ],
+    "diagramRequired": false,
+    "question": "Why is slow solidification in a sand mould compatible with producing graphite-containing cast iron castings?",
+    "options": {
+      "A": "Sand has low thermal conductivity, so cooling is slow and carbon has time to precipitate as graphite in the ferrite/pearlite matrix",
+      "B": "Sand cooling is so fast that all carbon is trapped as martensite without diffusion",
+      "C": "Sand removes silicon from the liquid, which always prevents graphite formation",
+      "D": "Sand converts graphite flakes into chromium carbides by passivation"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 13 links graphite in cast irons with slow cooling, and the notes on cast iron casting state that sand has very low thermal conductivity and is used to make solidification very slow. B describes a quenching logic, not ordinary cast iron graphitization. C is wrong because Si promotes graphite rather than preventing it. D mixes unrelated stainless-steel corrosion terminology with cast iron solidification.",
+    "relevantTheory": "Processing controls cast iron microstructure. Slow cooling lets carbon partition and form graphite, especially when Si is present. Faster chilling and lower Si favor carbide/white structures. This is why the same Fe-C family can produce very different fracture appearance and properties depending on mould, section thickness and chemistry.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26"
+  },
+  {
+    "id": 476,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "malleable cast iron",
+      "properties",
+      "irregular nodules"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best describes malleable cast iron after malleablizing?",
+    "options": {
+      "A": "It contains irregular graphite nodules and has good castability, machinability, moderate strength, toughness and uniformity",
+      "B": "It contains only sharp graphite flakes and therefore has the highest vibration damping but no toughness improvement",
+      "C": "It contains only iron carbide and remains identical to untreated white cast iron",
+      "D": "It contains no carbon because malleablizing is a complete decarburization treatment"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 lists irregular nodules of graphite and the property set of good castability, machinability, moderate strength, toughness and uniformity. B describes gray iron flake logic rather than malleable iron. C ignores the purpose of malleablizing, which is to transform carbide into graphite. D is wrong because the treatment changes carbon form; it does not remove all carbon from the casting.",
+    "relevantTheory": "Malleable cast iron sits between brittle white iron and the more intentionally nodular ductile iron. Its rounded irregular graphite aggregates are less harmful than flakes or continuous carbide networks. The improvement comes from heat treatment of white iron, so both processing route and final morphology matter.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26"
+  },
+  {
+    "id": 477,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "cast iron classification",
+      "microstructure-property",
+      "exam synthesis"
+    ],
+    "diagramRequired": false,
+    "question": "A cast iron contains graphite as rounded nodules in a ferrite/pearlite matrix. Which classification-property link is the most defensible?",
+    "options": {
+      "A": "It is ductile or malleable-type behavior rather than ordinary gray-flake behavior, so toughness and ductility are improved compared with flake graphite irons",
+      "B": "It must be white cast iron, because all nodules are iron carbide crystals",
+      "C": "It must have the poorest machinability and damping because graphite never helps cutting or vibration absorption",
+      "D": "It must be a stainless steel because nodules are the same as chromium carbide sensitization"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because rounded graphite morphology is the key common idea behind ductile cast iron's spherical nodules and malleable cast iron's irregular nodules; both reduce the severe flake stress concentration and improve toughness/ductility relative to ordinary gray iron. B is wrong because white iron is carbide, not graphite nodules. C is wrong because graphite is one reason cast irons can be machinable and damping-capable. D confuses cast iron graphite morphology with stainless steel chromium carbide precipitation.",
+    "relevantTheory": "For exam synthesis, first identify the carbon form: carbide means white iron; graphite flakes mean gray iron; spherical or irregular nodules mean ductile or malleable behavior. Then combine that with the matrix: ferrite favors ductility/machinability, pearlite favors strength/hardness/wear resistance. Most cast-iron questions are solved by this two-step microstructure-property map.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, pages/slides 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 25-26; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26"
+  }
+]

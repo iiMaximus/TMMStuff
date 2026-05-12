@@ -1,0 +1,273 @@
+[
+  {
+    "id": 493,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "surface heat treatment",
+      "chemical surface treatment",
+      "flame hardening",
+      "induction hardening"
+    ],
+    "diagramRequired": false,
+    "question": "Heat vs. chemical surface treatments - mark the correct distinction.",
+    "options": {
+      "A": "Induction, flame and laser treatments mainly harden by local heating and quenching of steel already containing enough carbon, whereas carburizing, nitriding, nitro-carburizing and boriding change the surface chemistry.",
+      "B": "Induction hardening is a chemical nitriding process because the coil supplies atomic nitrogen to ferrite.",
+      "C": "Carburizing is only a thermal treatment because it never changes carbon concentration along the thickness.",
+      "D": "All surface treatments are identical if the final surface hardness is high, so the diffusing element and thermal cycle are irrelevant."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 10 separates surface heat treatments from chemical surface treatments. Induction, flame and laser hardening raise the surface temperature locally and then rely on transformation hardening on cooling; they do not intentionally add C, N or B. B is wrong because induction uses induced currents and Joule heating, not ammonia or nitrogen diffusion. C is wrong because carburizing is defined by carbon absorption and a carbon concentration profile. D is wrong because the process route controls case depth, distortion, residual stress, steel choice and whether a final quench or post-treatment is required.",
+    "relevantTheory": "The first exam trap in this lecture is to separate mechanism from result. Many treatments give a hard surface and a tough core, but not by the same route. Thermal surface hardening heats only a surface layer above the austenitizing range and quenches it to martensite; therefore the steel must already contain enough carbon to harden. Chemical surface treatment changes composition by diffusion or compound formation: C for carburizing, N for nitriding, C plus N for nitro-carburizing, and B for boriding. This distinction explains why process temperature, time, distortion and usable steels differ.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 5-8, 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 1-4, 6"
+  },
+  {
+    "id": 494,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "laser hardening",
+      "compressive stress",
+      "fatigue",
+      "penetration depth"
+    ],
+    "diagramRequired": false,
+    "question": "Which surface treatment would the lecture most naturally associate with the largest surface compressive stress state when compared with flame hardening, induction heat treatment and carburizing?",
+    "options": {
+      "A": "Laser hardening, because its very shallow penetration can create a high compressive state near the surface with compensating tensile stress deeper inside.",
+      "B": "Carburizing, because the deepest carbon case always gives the largest compressive stress independently of quenching.",
+      "C": "Flame hardening, because an open flame chemically adds the most carbon to the surface.",
+      "D": "Annealing, because softening treatments maximize residual compression at the surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The notes supporting the Lecture 10 surface-treatment comparison state that laser hardening has penetration distance below about 1 mm and that smaller penetration distance gives a larger stress state; the past-exam style also tests laser against flame, induction and carburizing for the largest compression stress state. B is wrong because carburizing can give a deeper case, but depth is not the same as largest near-surface compressive peak. C is wrong because flame hardening is treated in this comparison as a surface heat treatment, not the controlled carbon-enrichment route of carburizing. D is wrong because annealing relieves and softens; it is not the surface-hardening treatment discussed here.",
+    "relevantTheory": "Surface hardening improves fatigue not only by hardness but by residual stress. A thin transformed or treated surface layer tends to be in compression, while the interior balances it with tensile stress. A crack at the surface must open against that compression, so fatigue-crack initiation and propagation are delayed. Laser hardening is extremely localized and shallow, so it can generate a strong near-surface stress gradient. This is why the professor can ask for a ranking trap: deepest case and largest surface compressive stress are not automatically the same criterion.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 7-8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 3-4; PAST_EXAMS/QUESTION_SET_2.txt, July 1st 2022 sample"
+  },
+  {
+    "id": 495,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "nitro-carburizing",
+      "Fe-(C,N)",
+      "distortion",
+      "compound layer"
+    ],
+    "diagramRequired": false,
+    "question": "A part needs a thin Fe-(C,N) compound layer with minimum distortion and a short treatment time compared with classical nitriding. Which process from the Lecture 10 summary fits best?",
+    "options": {
+      "A": "Nitro-carburizing at about 550-650 deg C for roughly 1-6 h.",
+      "B": "Carburizing at about 700-1050 deg C for up to 46 h followed by needed post-treatment.",
+      "C": "Boriding at about 600-1000 deg C to form Fe-B with high distortion.",
+      "D": "Thermal CVD at about 800-1100 deg C to deposit TiC/TiCN/TiN."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the chemical surface-treatment summary lists nitro-carburizing with superficial compound Fe-(C,N), surface/core temperature about 550-650 deg C, process time about 1-6 h, thickness about 50-200 um, hardness around 700-1000 HV and minimum distortion. B is carburizing: it gives Fe-C, much larger possible thickness, higher temperature and needed post-treatment. C is boriding: it gives Fe-B, very high hardness but high distortion. D belongs to ceramic coatings, not the chemical surface-treatment group in the first table.",
+    "relevantTheory": "Nitro-carburizing is the mixed carbon-nitrogen version in the lecture table. It sits close to nitriding in temperature and distortion behavior but forms a carbonitride-type surface compound rather than only Fe-N. The practical selection logic is: use it when a thin wear-resistant layer and dimensional stability are more important than millimeter-scale case depth. Do not confuse it with carburizing just because the name contains carbon; the table values and superficial compound are different.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11"
+  },
+  {
+    "id": 496,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "chemical surface treatment",
+      "case depth",
+      "carburizing",
+      "post-treatment"
+    ],
+    "diagramRequired": false,
+    "question": "According to the Lecture 10 chemical surface-treatment summary, which statement is TRUE for carburizing compared with nitriding, nitro-carburizing and boriding?",
+    "options": {
+      "A": "It can give by far the largest listed layer thickness, about 100-7000 um, but it is associated with high distortion and needed post-treatment.",
+      "B": "It gives the highest listed hardness, 1200-2500 HV, while keeping distortion minimum.",
+      "C": "It forms Fe-B and is therefore identical to boriding except for name.",
+      "D": "It is the only treatment in the table with no superficial compound or composition change."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the table gives carburizing a thickness range of about 100-7000 um, much deeper than nitriding, nitro-carburizing or boriding, while also listing high distortion and post-treatment as needed. B describes the QUAD coating/treatment hardness range, not carburizing. C confuses carburizing with boriding: carburizing is Fe-C, boriding is Fe-B. D is wrong because carburizing is explicitly a chemical surface treatment with an Fe-C surface/case.",
+    "relevantTheory": "Carburizing is chosen when load support requires a relatively deep case. That deeper case comes from high-temperature carbon diffusion and usually austenitizing plus quenching, so distortion and post-treatment become important. Nitriding and nitro-carburizing are lower-distortion but thinner; boriding is very hard but still much thinner and more severe. Selection is therefore not 'highest hardness wins'. It is a compromise among thickness, hardness, temperature, distortion, steel condition and finishing sequence.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11"
+  },
+  {
+    "id": 497,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "QUAD",
+      "CrCN",
+      "VCN",
+      "TiCN",
+      "hardness"
+    ],
+    "diagramRequired": false,
+    "question": "A very thin layer, only about 5-20 um, is acceptable, but the target hardness is the highest in the chemical surface-treatment summary, about 1200-2500 HV, with minimum distortion. Which entry matches this description?",
+    "options": {
+      "A": "QUAD, producing CrCN, VCN and TiCN type surface compounds at about 400-700 deg C.",
+      "B": "Nitriding, producing Fe-N only, with the same 5-20 um thickness and 1200-2500 HV range.",
+      "C": "Carburizing, producing Fe-C, with minimum distortion and no post-treatment.",
+      "D": "Flame hardening, producing a deposited ceramic coating by electrolysis."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the table lists QUAD with superficial compounds CrCN, VCN and TiCN, surface/core temperature about 400-700 deg C, time about 1-8 h, thickness about 5-20 um, hardness about 1200-2500 HV and minimum distortion. B is wrong because nitriding is Fe-N, 50-100 um and 700-1000 HV in the table. C is wrong because carburizing is much thicker but has high distortion and needed post-treatment. D mixes a thermal surface-hardening method with a coating method and does not match the table.",
+    "relevantTheory": "The QUAD entry is easy to miss because it is beside the more familiar carburizing and nitriding treatments. Its lecture-table identity is not deep case depth; it is a very hard, very thin compound layer involving carbonitrides of strong nitride/carbide-forming elements such as Cr, V and Ti. For exam selection, remember the signature combination: CrCN/VCN/TiCN, 5-20 um, 1200-2500 HV, low distortion and usually only seldom post-treatment.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11"
+  },
+  {
+    "id": 498,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "wear resistant ceramic coatings",
+      "PVD",
+      "CVD",
+      "distortion"
+    ],
+    "diagramRequired": false,
+    "question": "Wear resistant ceramic coatings - mark the correct comparison between thermal CVD and PVD in the Lecture 10 table.",
+    "options": {
+      "A": "Thermal CVD uses higher temperatures, about 800-1100 deg C, and is listed with high distortion; PVD works around 300-600 deg C, gives very thin TiN/CrN layers and low distortion.",
+      "B": "PVD is the high-temperature gas process at 800-1100 deg C and always gives the thickest 2-5 mm coating.",
+      "C": "Thermal CVD and PVD are both electrolysis processes used only for chromium hard coating.",
+      "D": "Both processes are chemical carburizing treatments because their main layer is Fe-C."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the ceramic coating table gives thermal CVD a surface/core temperature of about 800-1100 deg C, TiC/TiCN/TiN layers and high distortion, whereas PVD is listed around 300-600 deg C with TiN or CrN, 1-6 um thickness, very high hardness and low distortion. B reverses the temperature logic and invents a thick PVD layer. C confuses CVD/PVD with Cr hard electrolysis. D is wrong because these are deposited ceramic coatings, not Fe-C carburized cases.",
+    "relevantTheory": "Coatings in the second Lecture 10 table protect or improve wear by depositing a surface layer, not by making a diffusion case throughout the steel surface. Thermal CVD gives good uniformity but uses high temperature, so distortion can be high and the substrate heat-treatment sequence matters. PVD is lower temperature and low distortion, but the layer is very thin and table uniformity is poor. The professor's trap is to mix coating terminology with carburizing/nitriding terminology; TiN, CrN, TiC and TiCN are coating-layer clues.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 6"
+  },
+  {
+    "id": 499,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "flame coating",
+      "Stellite",
+      "coating thickness",
+      "uniformity"
+    ],
+    "diagramRequired": false,
+    "question": "A component needs a very thick wear-resistant deposited layer, not a diffusion case, and the designer accepts poor uniformity and high distortion. Which coating family from the Lecture 10 table is most consistent?",
+    "options": {
+      "A": "Flame coating or Stellite, with Ni-Cr-B-Si type layers and thickness in the hundreds to thousands of micrometers.",
+      "B": "PVD TiN/CrN, because PVD normally produces the thickest millimeter-scale layers with very poor dimensional control.",
+      "C": "Nitriding, because Fe-N always deposits an external ceramic coating several millimeters thick.",
+      "D": "Cr hard electrolysis, because it works by melting the whole substrate at fusion temperature."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the wear-resistant ceramic/coating summary lists flame coating and Stellite with Ni, Cr, B, Si layers, thickness about 500-2000 um for flame coating and 2000-5000 um for Stellite, high distortion and very poor uniformity. B is wrong because PVD layers are very thin, about 1-6 um. C is wrong because nitriding is a chemical surface treatment forming Fe-N nitrides in the steel surface, not a thick deposited coating. D is wrong because chromium hard coating is by electrolysis at low surface temperature, not wholesale melting.",
+    "relevantTheory": "The second table separates coating processes from diffusion surface treatments. Flame coating and Stellite are thick build-up routes: useful when a substantial wear-resistant surface layer is needed, but not when precise uniform thickness and minimum distortion are the priority. PVD and CVD are thin ceramic coating routes; nitriding, carburizing and boriding are chemical surface treatments. When reading an exam option, thickness is often the fastest clue: 1-6 um suggests PVD/plasma CVD, 20-50 um suggests hard Cr, and thousands of micrometers suggests flame coating or Stellite.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 6"
+  },
+  {
+    "id": 500,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "weldability",
+      "HAZ",
+      "melt zone",
+      "recrystallized zone"
+    ],
+    "diagramRequired": false,
+    "question": "In Lecture 10 welding terminology, what is the heat-affected zone (HAZ)?",
+    "options": {
+      "A": "The solid region next to the melt zone whose microstructure and properties are changed by the welding thermal cycle without necessarily melting.",
+      "B": "Only the liquid weld pool, where columnar dendrites solidify from the melt.",
+      "C": "The completely unaffected base material far from the weld, where no temperature rise occurs.",
+      "D": "A chemically carburized surface layer produced by ammonia dissociation."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide separates the melt zone from zones such as thermally activated/recrystallized/grain-growth regions, and the notes explain that base material near the melting region undergoes heat-treatment-like microstructural changes. B is only the fusion or melt zone, not the whole HAZ. C is the unaffected base material outside the relevant thermal cycle. D confuses welding with chemical surface treatments and even uses the wrong gas chemistry.",
+    "relevantTheory": "Welding creates a temperature gradient away from the joint. At the center, material melts and solidifies, often with columnar dendritic structure. Beside it, the HAZ stays solid but can austenitize, recrystallize, grow grains, temper, or transform during cooling depending on peak temperature and steel composition. This region is critical because it can lose toughness or form brittle structures even though it was not molten. In weldability questions, never analyze only the weld pool; the HAZ often controls failure.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 9-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 4-5"
+  },
+  {
+    "id": 501,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "welding",
+      "HAZ cracking",
+      "grain growth",
+      "rapid cooling"
+    ],
+    "diagramRequired": false,
+    "question": "During welding of a hypoeutectoid steel, why can cracking occur near the transition/HAZ region rather than only inside the visible weld bead?",
+    "options": {
+      "A": "Because the HAZ experiences high peak temperatures and rapid cooling that can change grain size and transformation products, producing hard or brittle regions under the bead.",
+      "B": "Because the HAZ is always colder than room temperature, so it contracts before the rest of the part is heated.",
+      "C": "Because the HAZ is chemically nitrided by atmospheric nitrogen to a uniform depth of several millimeters.",
+      "D": "Because the base material far from the weld always melts first and solidifies as dendrites before the weld pool."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 10 shows the weld thermal zones and the crack underneath the welding bead, and the notes emphasize that cracks can occur in the transition area where the thermal cycle has changed the microstructure. B is physically wrong; the HAZ is heated, not cooled below room temperature during welding. C is wrong because welding atmosphere exposure is not the controlled nitriding process of Lecture 10. D reverses the geometry: the melt zone is at the weld, while material far away remains unaffected.",
+    "relevantTheory": "The HAZ is dangerous because it receives enough heat to alter microstructure but not enough to simply be treated as new weld metal. Near the fusion line, grains may grow; in other subregions, recrystallization, austenitization, tempering or transformation can occur. On cooling, a high-hardenability steel may form hard martensitic or bainitic products, while thermal stresses are also present. This combination explains under-bead cracking and why weldability is tied to hardenability, carbon content, alloy content, thickness and cooling conditions.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 9-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 5-6"
+  },
+  {
+    "id": 502,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "weldability",
+      "lightweight construction",
+      "dissimilar welding",
+      "thermal cycle"
+    ],
+    "diagramRequired": false,
+    "question": "Weldability problems in Lecture 10 - mark the most accurate clause.",
+    "options": {
+      "A": "Thin lightweight parts and dissimilar material welding make welding more difficult because melting, thermal cycles and different melting points must be controlled more carefully.",
+      "B": "Lightweight construction always improves weldability because thin sheets cannot melt during welding.",
+      "C": "Dissimilar material welding is simpler than welding identical steels because different melting points automatically synchronize the weld pool.",
+      "D": "Weldability depends only on final surface hardness, so the HAZ and melting behavior are irrelevant."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes list lightweight construction and dissimilar material welding as welding problems: thin material can melt too easily, and different materials bring different melting points and thermal responses. B is the opposite of the lecture warning. C is wrong because dissimilar melting points and properties complicate joining. D is wrong because Lecture 10 introduces weldability through melting, solidification and HAZ microstructural change, not only surface hardness.",
+    "relevantTheory": "Weldability means the ability of a material or material combination to be welded without unacceptable defects or property loss. For steels, the metallurgical issues include melt-zone solidification, HAZ transformations, grain growth, residual stresses and cracking susceptibility. Thin sections reduce heat tolerance and can be easier to overheat or melt through. Dissimilar joints add differences in melting temperature, expansion, thermal conductivity and transformation behavior. These practical constraints explain why weldability is a manufacturing property, not just a composition label.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 9-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 4"
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": 418,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "carburizing",
+      "case hardening",
+      "tough core"
+    ],
+    "diagramRequired": false,
+    "question": "Which clause best explains why carburizing is used for gears, shafts and bearings?",
+    "options": {
+      "A": "It enriches only the surface in carbon, then quenching transforms that high-C austenite into hard martensite while the low-C core remains tough.",
+      "B": "It removes carbon from the whole section so that ferrite becomes harder and the core becomes brittle.",
+      "C": "It forms nitrides at 500-600 deg C without any austenite formation or quenching.",
+      "D": "It hardens the part only by induced currents, with no chemical change at the surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 10 gives carburizing the purpose of a high hard surface and tough core: carbon is absorbed into the austenitic surface and, after quenching, that carbon-rich surface can form high-hardness martensite. B is wrong because carburizing adds carbon at the surface; it does not decarburize the whole section. C describes nitriding, not carburizing: nitriding uses nitrogen and nitride formation at lower temperature. D describes induction hardening, which is a thermal surface hardening process rather than a chemical enrichment process.",
+    "relevantTheory": "Carburizing is a case-hardening treatment for low-carbon steels. The key process-property chain is: heat into the austenite field, maintain a carbon-rich surface atmosphere, let carbon diffuse inward from the surface, then quench. Carbon has much higher solubility in austenite than in ferrite, so the process is performed at high temperature where austenite exists and diffusion is fast enough. The surface becomes high-carbon martensite and gives wear/contact hardness; the center remains lower carbon and therefore tougher. This is why carburized components are common for gears, shafts, bearings and similar parts that need a hard skin but must not be brittle through the whole section.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pp. 16-17"
+  },
+  {
+    "id": 419,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "carburizing steels",
+      "process temperature",
+      "austenite"
+    ],
+    "diagramRequired": false,
+    "question": "Carburizing of steels - mark the UNTRUE clause.",
+    "options": {
+      "A": "It is applicable to plain carbon steels below about 0.2%C and low-carbon low-alloy steels.",
+      "B": "Typical carburizing conditions in the lecture are about 870-950 deg C for 10-20 h.",
+      "C": "It exploits high carbon solubility in austenite and increasing absorption/diffusion rate with temperature.",
+      "D": "It is normally selected for medium-carbon nitriding steels in already tempered/semi-finished condition."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the untrue clause because the slide assigns medium-carbon steels in tempered or semi-finished condition to nitriding, not carburizing. A is true: carburizing is for carburizing steels, especially low-carbon plain or low-carbon low-alloy steels. B is true according to the lecture process window, which gives Tc = 870-950 deg C and time = 10-20 h. C is true because the treatment relies on carbon dissolving in austenite and on diffusion becoming faster at high temperature.",
+    "relevantTheory": "The initial carbon content matters. If the whole steel already has high carbon, quenching may make the entire section very hard and brittle. Carburizing starts with a low-carbon steel so only the surface is enriched while the core keeps low-carbon toughness. The treatment temperature is above the austenitizing range because carbon solubility in gamma iron is high and diffusion is thermally activated. Holding time controls case depth; temperature accelerates absorption and diffusion but also increases distortion risk.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, p. 4"
+  },
+  {
+    "id": 420,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "carbon profile",
+      "oil quench",
+      "martensite"
+    ],
+    "diagramRequired": false,
+    "question": "After carburizing and oil quenching, where should the maximum hardness be expected?",
+    "options": {
+      "A": "At the surface, because the carbon concentration profile is highest there and the surface austenite transforms to carbon-rich martensite.",
+      "B": "At the center, because carbon diffuses from the surface and accumulates only in the core.",
+      "C": "Uniformly through the whole section, because carburizing eliminates the concentration gradient.",
+      "D": "Only at grain boundaries, because carburizing is a grain-boundary precipitation treatment."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slide explicitly lists the process outcome as a carbon concentration profile along the thickness, with maximum HV on the surface, followed by transformation of austenite into martensite by oil quenching. B is wrong because the carbon source is external and the highest concentration is at the surface, decreasing with depth. C is wrong because a gradient is the desired result, not a defect to be eliminated. D is wrong because the main hardening mechanism is carbon enrichment plus martensitic transformation, not only grain-boundary precipitation.",
+    "relevantTheory": "Carburizing is governed by non-steady diffusion. Surface carbon concentration is imposed by the atmosphere, while the initial steel has lower carbon. Carbon flux goes inward down the concentration gradient, so the case has a graded composition. On quenching, regions with enough carbon and prior austenite transform to high-hardness martensite. The core, with less carbon, remains tougher and less hard. This graded hardness profile is the reason carburizing is useful for rolling-contact, sliding and tooth-root service.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pp. 15-17"
+  },
+  {
+    "id": 421,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "nitriding",
+      "nitrides",
+      "ferrite"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement gives the correct hardening principle of nitriding?",
+    "options": {
+      "A": "Nitrogen reacts with iron and alloying elements to form very hard nitrides at the surface, while the core remains tough.",
+      "B": "Carbon dissolves in austenite at 870-950 deg C and then forms high-carbon martensite by oil quenching.",
+      "C": "A coil induces eddy currents and heats the surface without changing chemical composition.",
+      "D": "The surface is melted and resolidified into columnar dendrites to increase hardness."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 10 says nitriding exploits the formation of very hard compounds, nitrides, by nitrogen with iron; the outcome is a very high hardness superficial nitride layer. B is carburizing, not nitriding. C is induction hardening, a thermal process without chemical addition. D is not the nitriding mechanism and would belong more to welding or surface melting processes, not the controlled low-temperature nitride case described in the lecture.",
+    "relevantTheory": "Nitriding is a chemical surface treatment in which atomic nitrogen enters the steel and forms nitrides. Unlike carburizing, it is performed in the ferritic temperature range, typically 500-600 deg C in the lecture, so the steel does not need to be austenitized and quenched to create the hard layer. The hardened layer is thin but can reach very high hardness because Fe nitrides and alloy nitrides are extremely hard. Nitriding is therefore chosen for wear resistance, localized contact loading and dimensional control.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 2"
+  },
+  {
+    "id": 422,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "ammonia",
+      "atomic nitrogen",
+      "nitriding atmosphere"
+    ],
+    "diagramRequired": false,
+    "question": "In gas nitriding, why is partially dissociated NH3 used instead of relying on inert N2?",
+    "options": {
+      "A": "Because atomic nitrogen from NH3 can diffuse into iron at atmospheric pressure, while inert N2 would not supply active nitrogen effectively.",
+      "B": "Because NH3 removes all nitrogen from the surface and prevents any compound layer from forming.",
+      "C": "Because NH3 raises the steel above the austenite field so carbon can dissolve before quenching.",
+      "D": "Because NH3 is only a cooling medium used after induction hardening."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slide states that the gas is partially dissociated ammonia to prevent inert N2 formation and excessive surface enrichment, and that nitrogen can diffuse in iron at atmospheric pressure. B is wrong because the purpose is to introduce nitrogen, not remove it. C is wrong because nitriding is not the high-temperature carburizing/austenitizing route. D is wrong because ammonia is the reactive nitriding atmosphere, not a quench medium.",
+    "relevantTheory": "The nitriding reaction must supply active nitrogen to the steel surface. The lecture writes the reaction using NH3 and Fe to form Fe4N plus hydrogen; the important point for the exam is not gas chemistry detail but the role of active N. Too little active nitrogen gives no case; excessive surface enrichment can push the surface toward unwanted nitride phases such as epsilon/zeta. Controlled partial dissociation lets nitrogen dissolve and diffuse while limiting an overly brittle compound layer.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 2"
+  },
+  {
+    "id": 423,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "nitriding steels",
+      "penetration depth",
+      "tempered condition"
+    ],
+    "diagramRequired": false,
+    "question": "Which set of conditions is most consistent with the nitriding treatment described in Lecture 10?",
+    "options": {
+      "A": "Medium-carbon plain or low-alloy steels, often tempered/semi-finished, treated at about 500-600 deg C for long times, with about 0.1-0.6 mm penetration.",
+      "B": "Low-carbon carburizing steels, treated at about 870-950 deg C for 10-20 h, then oil quenched to form martensite.",
+      "C": "Any annealed ferrite-pearlite gear, heated by a high-frequency coil and immediately water quenched.",
+      "D": "A fully molten weld pool, slowly cooled to produce a columnar dendritic hard surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the nitriding slide lists medium-carbon steels, including medium-carbon low-alloy steels, in tempered/semi-finished condition, with TN = 500-600 deg C, time around 70 h and penetration depth 0.1-0.6 mm. B is the carburizing route. C describes induction hardening and also includes the trap that annealed ferrite-pearlite parts can give non-uniform hardening. D is welding solidification, not nitriding.",
+    "relevantTheory": "Nitriding is usually applied after prior heat treatment because it does not rely on a final quench to build the case. The core properties must already be obtained by the steel grade and previous tempering condition, while the nitriding step adds the hard surface compound/diffusion layer. The low treatment temperature reduces distortion compared with carburizing, but diffusion is slower, so long times are needed and the case is relatively shallow.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 1-2"
+  },
+  {
+    "id": 424,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Fe-N diagram",
+      "gamma prime",
+      "epsilon nitride"
+    ],
+    "diagramRequired": false,
+    "question": "Fe-N metastable phase diagram - mark the correct association.",
+    "options": {
+      "A": "alpha azotoferrite is a solid solution of N in alpha iron, with very low N solubility.",
+      "B": "gamma prime is ordinary carbon martensite with no nitrogen.",
+      "C": "epsilon is an FCC austenite field with exactly 0.1%N maximum.",
+      "D": "zeta is the same as alpha ferrite except that carbon is 11-11.3%."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide defines alpha as azotoferrite, a solid solution of nitrogen in alpha iron, with about 0.1%N maximum near 590 deg C. B is wrong because gamma prime is Fe4N, a hard interstitial compound, not carbon martensite. C is wrong because epsilon is listed as a solid solution in an HCP structure with variable nitrogen up to about 11%, not FCC austenite with 0.1%N. D is wrong because zeta is described as similar to epsilon but with nitrogen around 11-11.3%, not carbon in alpha ferrite.",
+    "relevantTheory": "The Fe-N diagram matters because nitriding hardness is not just nitrogen in solid solution. Ferrite has very low nitrogen solubility, so nitrogen enrichment rapidly promotes nitride/compound formation. The lecture terms are: alpha azotoferrite for N in alpha iron, gamma azotoaustenite for N in austenite, gamma prime as Fe4N, epsilon as an HCP Fe-N solid solution/compound range up to high nitrogen, and zeta at still higher nitrogen. In exam traps, do not confuse these nitrogen phases with Fe-C martensite, pearlite or cementite.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 3"
+  },
+  {
+    "id": 425,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "carburizing vs nitriding",
+      "distortion",
+      "hardness"
+    ],
+    "diagramRequired": false,
+    "question": "Carburizing vs nitriding - which comparison is the most accurate?",
+    "options": {
+      "A": "Nitriding gives a very hard but thinner case at lower temperature and usually lower distortion; carburizing gives a deeper carbon case but needs high-temperature austenitizing and quenching.",
+      "B": "Carburizing is always lower temperature than nitriding because carbon diffuses only in ferrite.",
+      "C": "Nitriding must always be followed by oil quenching from 870-950 deg C to form high-carbon martensite.",
+      "D": "Both treatments are identical because both form the same Fe-C surface compound and the same case depth."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture contrasts carburizing as high-temperature carbon enrichment with quenching, while nitriding is a lower-temperature nitride-forming process with a shallow but very hard layer and lower distortion. B is wrong because carburizing is performed at high temperature in austenite, where carbon solubility is high. C is wrong because the carburizing route uses quenching; nitriding commonly does not require that final austenitize-quench step. D is wrong because the diffusing element, phase products, temperatures, case depths and distortion risks differ.",
+    "relevantTheory": "Choose carburizing when a relatively deep case and high load-bearing carbon-martensite surface are needed and distortion can be managed by later finishing. Choose nitriding when dimensional stability, very high surface hardness, wear resistance and compressive residual stress are important, and when a thinner case is acceptable. The process selection is a balance among surface hardness, case depth, steel grade, previous heat treatment, allowable distortion, and final finishing.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 1-5, 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 1-3"
+  },
+  {
+    "id": 426,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "post-carburized parts",
+      "post-nitrided parts",
+      "finishing sequence"
+    ],
+    "diagramRequired": false,
+    "question": "Which process chain matches the lecture table for a post-carburized steel part?",
+    "options": {
+      "A": "Normalizing, work-hardening annealing, rough machining, carburizing, quenching plus tempering at about 150 deg C, then finish by grinding.",
+      "B": "Normalizing, work-hardening annealing, rough machining, tempering, finish, nitriding, then finish by grinding.",
+      "C": "Only nitriding at 500-600 deg C, with no previous or final operation.",
+      "D": "Melting, columnar dendrite solidification, recrystallized HAZ formation, then no finishing."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide table lists the carburized route as normalizing plus work-hardening annealing, rough machining, carburizing, quenching plus tempering at 150 deg C, and final grinding. B is the nitrided route in the same table, not the carburized route. C is too simplified and misses the lecture emphasis on prior condition, machining and finishing. D is a welding sequence, not a surface hardening route.",
+    "relevantTheory": "Surface treatments are not isolated single words; they sit in a manufacturing sequence. Rough machining is done before the hard case because the final surface becomes difficult to machine. Carburizing requires a quench, so low-temperature tempering is used afterward to reduce brittleness while keeping surface hardness. Nitriding is typically placed after tempering and finishing to limit distortion, with final grinding when needed. Exam questions often test the order because reversing treatment and machining can destroy the case or waste the treatment.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 5"
+  },
+  {
+    "id": 427,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "induction hardening",
+      "skin depth",
+      "frequency"
+    ],
+    "diagramRequired": false,
+    "question": "In induction hardening, the lecture gives the current penetration depth as delta = sqrt(rho/(pi mu f)). What happens if frequency f is increased, all else being equal?",
+    "options": {
+      "A": "The penetration depth decreases, so heating becomes more superficial.",
+      "B": "The penetration depth increases, so the whole section is heated uniformly.",
+      "C": "The penetration depth is unchanged because frequency affects only the coil shape.",
+      "D": "The chemical carbon content of the surface increases automatically."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because f is in the denominator inside the square root; increasing f reduces delta and makes the induced-current heating shallower. B is the opposite of the formula. C is wrong because frequency directly appears in the penetration-depth expression, while coil shape controls where heating is applied. D is wrong because induction hardening is a thermal process and does not add carbon or nitrogen.",
+    "relevantTheory": "Induction hardening uses alternating current in a coil to create a magnetic field, induced currents in the steel, and Joule heating near the surface. The heated surface is then quenched to form martensite where the steel was austenitized. Penetration depth depends on electrical resistivity, magnetic permeability and frequency. Higher frequency gives a thinner heated layer; lower frequency gives deeper heating. This is why induction can be tuned for teeth, shafts and selected surfaces rather than treating the whole part.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 5-7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 1"
+  },
+  {
+    "id": 428,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "induction hardening",
+      "normalized steel",
+      "leopardizing"
+    ],
+    "diagramRequired": false,
+    "question": "Induction hardening of a gear - mark the NOT TRUE clause.",
+    "options": {
+      "A": "It hardens by local surface heating followed by quenching, without chemical addition.",
+      "B": "Changing the inductor shape allows selected regions of the part to be heated.",
+      "C": "An annealed ferrite-pearlite starting structure is always preferred because it guarantees perfectly uniform hardening.",
+      "D": "Different penetration depths can be reached by controlling induction conditions."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct as the not true clause. The notes warn that annealed materials with ferrite and pearlite colonies are not suitable because they may give a non-uniform 'leopardizing' effect; normalized material is preferred for more uniform response. A is true because induction hardening is thermal, not chemical. B is true because different coil/inductor geometries heat different regions. D is true because the slide and notes emphasize penetration depth control.",
+    "relevantTheory": "Induction hardening works only where the surface reaches the austenitizing range before quenching. If the starting microstructure is strongly heterogeneous, local transformation and hardness can be patchy. A normalized structure gives a more uniform response. This is different from carburizing and nitriding, where chemistry is deliberately changed at the surface. In induction, the alloy must already contain enough carbon to harden by martensitic transformation in the heated zone.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 6-7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 1-2"
+  },
+  {
+    "id": 429,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "fatigue resistance",
+      "compressive residual stress",
+      "surface treatments"
+    ],
+    "diagramRequired": false,
+    "question": "Why do many surface heat treatments improve fatigue resistance besides increasing surface hardness?",
+    "options": {
+      "A": "They confer a compressive stress state at the surface, opposing crack opening and delaying fatigue-crack propagation.",
+      "B": "They always put the surface into tensile residual stress, which helps cracks open slowly.",
+      "C": "They remove all residual stresses from the whole component, so fatigue becomes independent of surface condition.",
+      "D": "They improve fatigue only because the core becomes fully brittle martensite."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture states that surface heat treatments increase fatigue resistance since they confer a compressive stress state on the surface. B is wrong because tensile residual stresses promote crack opening and are dangerous for fatigue. C is wrong because the improvement is specifically linked to the surface state, not total removal of stress. D is wrong because a brittle martensitic core would be harmful; the desired design is hard/compressive surface with a tougher core.",
+    "relevantTheory": "Fatigue cracks usually initiate at or near the surface where cyclic tensile stresses are highest and defects are exposed. A compressive residual stress at the surface subtracts from the applied tensile stress during part of the cycle, making crack opening and propagation more difficult. This is why surface hardening treatments can improve fatigue even when the case depth is limited. Poorly controlled treatments can instead leave tensile stresses or cracks, so the residual-stress sign matters.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 3"
+  },
+  {
+    "id": 430,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "chemical surface treatment",
+      "boriding",
+      "case depth"
+    ],
+    "diagramRequired": false,
+    "question": "A designer asks for the chemical treatment from the lecture summary that gives an Fe-B superficial compound and the highest listed hardness range among nitriding, nitro-carburizing, boriding and carburizing. Which treatment is it?",
+    "options": {
+      "A": "Boriding",
+      "B": "Carburizing",
+      "C": "Nitriding",
+      "D": "Nitro-carburizing"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the summary table lists boriding as producing Fe-B and about 1000-1800 HV, higher than the listed ranges for nitriding and nitro-carburizing (700-1000 HV) and carburizing (750-950 HV). B is wrong because carburizing produces an Fe-C surface/case and has the deepest possible case in the table but not the highest listed hardness among these four. C is wrong because nitriding gives Fe-N and a hard but generally thinner layer. D is wrong because nitro-carburizing gives Fe-(C,N), not Fe-B.",
+    "relevantTheory": "The summary table is useful for process selection. Nitriding and nitro-carburizing operate at relatively low temperatures and low distortion with thin compound/diffusion layers. Boriding produces very hard Fe-B layers but can have higher distortion and process severity. Carburizing can produce much deeper cases, up to millimeter scale in the table, but with higher treatment temperature and post-treatment needs. The best answer depends on whether hardness, depth, distortion or dimensional precision is dominant.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11"
+  },
+  {
+    "id": 431,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "weldability",
+      "hardenability",
+      "carbon content"
+    ],
+    "diagramRequired": false,
+    "question": "Weldability of steels - mark the TRUE clause.",
+    "options": {
+      "A": "A weldable steel should have low hardenability; steels up to about 0.4%C can be weldable, but caution is needed as carbon and alloying increase.",
+      "B": "High hardenability is always required because martensite in the HAZ prevents cracking under the bead.",
+      "C": "Weldability is independent of alloying elements because only the molten zone matters.",
+      "D": "Only hypereutectoid steels are weldable because they contain enough cementite to soften the HAZ."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that, for a steel to be weldable, it must be low hardenable and contain low alloying content; up to about 0.4%C can be weldable although caution is needed at higher carbon content. B is wrong because high hardenability promotes hard/brittle HAZ microstructures and cracking risk. C is wrong because the heat-affected zone outside the melt zone is central to weldability. D is wrong because high carbon and cementite do not soften the HAZ; they generally increase hardening/cracking concerns.",
+    "relevantTheory": "During welding the metal experiences a severe thermal cycle: melting and solidification in the fusion zone, and a range of peak temperatures in the HAZ. The HAZ can austenitize and then cool rapidly. If the steel has high hardenability, that cooling can form martensite or other brittle structures near the bead, creating crack susceptibility. Low carbon and low alloy content shift the response toward softer, tougher transformation products and improve weldability.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 9-10"
+  },
+  {
+    "id": 432,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "HAZ",
+      "cooling rate",
+      "under-bead cracking"
+    ],
+    "diagramRequired": false,
+    "question": "In the heat-affected zone of a weld, why is a high-hardenable steel more dangerous than a low-hardenable steel after rapid cooling?",
+    "options": {
+      "A": "The high-hardenable steel can transform in the HAZ into hard brittle microstructures, increasing crack risk underneath the welding bead.",
+      "B": "The high-hardenable steel cannot transform at all, so it remains liquid under the bead.",
+      "C": "The low-hardenable steel always forms more martensite because alloying elements shift TTT curves to the left.",
+      "D": "The HAZ is outside the thermal cycle, so hardenability has no effect there."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture contrasts high- and low-hardenable steels in the welding zone and shows the danger of cracking underneath the welding bead in the HAZ. Rapid cooling of a high-hardenability HAZ can produce hard, brittle transformation products. B is wrong because the HAZ is solid-state heated, not a region that remains liquid. C is wrong because alloying/hardenability generally delays diffusional transformations and promotes martensitic/bainitic products at practical cooling rates. D is wrong because the HAZ is defined by the welding thermal cycle and its microstructure depends strongly on hardenability.",
+    "relevantTheory": "The HAZ is not melted but is heated to different maximum temperatures depending on distance from the weld. Close to the fusion line, grains can grow and austenite can form; during cooling, the transformation path depends on composition, hardenability and cooling rate. High-hardenable steels resist ferrite/pearlite formation and can form martensite even with less severe cooling, producing high hardness, low toughness and under-bead cracking risk. Low-hardenable steels transform more readily to softer products and are therefore easier to weld.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 9-10"
+  }
+]

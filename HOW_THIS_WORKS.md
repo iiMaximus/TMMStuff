@@ -58,7 +58,7 @@ XP:
 
 ## Content Philosophy
 
-This website should be enough to learn the course, not just memorize answers.
+This website should be enough to learn the course, not just memorize answers. The cards are the main study material: a student should understand the contents of the lecture by working through the cards, even if they did not attend the lecture.
 
 Every card should therefore contain:
 
@@ -66,7 +66,7 @@ Every card should therefore contain:
 2. Four options with realistic traps.
 3. The correct answer.
 4. A full explanation of why each option is right/wrong.
-5. The relevant theory in plain language.
+5. The relevant theory in plain language, with enough context to teach the lecture concept.
 6. Exact source reference.
 
 The `explanation` should focus on the current question. The `relevantTheory` should generalize the idea so the student can answer related exam variants.
@@ -103,7 +103,9 @@ Recommended work order:
 4. Convert student notes into reinforcement cards for weak topics.
 5. Optionally create diagram-specific decks with embedded images/screenshots later. Until then, mark diagram-dependent cards as `diagramRequired: true` so they stay out of normal practice.
 
-Large content batches should stay small enough to review. A good target is 25-40 cards per lecture or self-assessment file, then validate and skim before adding more.
+Large content batches should stay small enough to review. A good target is 10-20 cards per agent pass, then validate and skim before adding more. A whole lecture may end up with about 25-40 cards, or more for longer lectures, but agents should build that in batches so quality does not drift.
+
+When multiple agents work at once, they should write separate batch files under `generated/`. The master agent then reviews and merges those cards into `data/questions.json`, regenerates `data/questions.js`, and validates the bank.
 
 ## Regenerating Browser Data
 

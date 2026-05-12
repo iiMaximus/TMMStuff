@@ -15,6 +15,7 @@ const SECTION_RULES = [
 
 const XP_PER_LEVEL = 120;
 const RECENT_CARD_GAP = 3;
+const OPTION_MARKERS = ["1", "2", "3", "4"];
 
 const state = {
   allQuestions: [],
@@ -52,6 +53,7 @@ const els = {
   selfCardCount: document.querySelector("#selfCardCount"),
   topicGrid: document.querySelector("#topicGrid"),
   lectureGrid: document.querySelector("#lectureGrid"),
+  selfGrid: document.querySelector("#selfGrid"),
   lectureFocusButton: document.querySelector("#lectureFocusButton"),
   lecturePicker: document.querySelector("#lecturePicker"),
   backHomeButton: document.querySelector("#backHomeButton"),
@@ -177,6 +179,15 @@ function formatSource(source) {
     .join("; ");
 }
 
+function shuffledOptionEntries(options) {
+  const entries = Object.entries(options);
+  for (let index = entries.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [entries[index], entries[swapIndex]] = [entries[swapIndex], entries[index]];
+  }
+  return entries;
+}
+
 function topicQuestions(topic) {
   return state.allQuestions.filter((question) => question.section === topic);
 }
@@ -199,6 +210,7 @@ function updateHome() {
   els.selfCardCount.textContent = `${deckQuestions("self-assessment").length} cards`;
   renderTopics();
   renderLectures();
+  renderSelfAssessments();
 }
 
 function sections() {
@@ -243,6 +255,33 @@ function renderLectures() {
       }
     }));
     els.lectureGrid.append(card);
+  });
+}
+
+function renderSelfAssessments() {
+  els.selfGrid.replaceChildren();
+  const modules = state.contentMap.modules.filter((module) => module.deck === "self-assessment");
+  modules.forEach((module) => {
+    const questions = moduleQuestions(module.id);
+    const mastered = masteredIn(questions);
+    const card = choiceCard(module.title, questions.length
+      ? `${mastered}/${questions.length} locked in`
+      : "0 cards", questions.length
+      ? `${questions.length} cards total`
+      : "Waiting for cards."
+    );
+    if (!questions.length) card.classList.add("empty");
+    card.addEventListener("click", () => startSession({
+      title: module.title,
+      subtitle: "Self-assessment",
+      questions,
+      emptyDeck: {
+        deck: "self-assessment",
+        moduleId: module.id,
+        source: module.source
+      }
+    }));
+    els.selfGrid.append(card);
   });
 }
 
@@ -367,13 +406,13 @@ function renderQuestion() {
   els.nextButton.disabled = true;
   els.options.replaceChildren();
 
-  Object.entries(question.options).forEach(([letter, text]) => {
+  shuffledOptionEntries(question.options).forEach(([letter, text], index) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "option-button";
     button.dataset.option = letter;
     button.innerHTML = `
-      <span class="option-letter">${letter}</span>
+      <span class="option-letter">${OPTION_MARKERS[index]}</span>
       <span class="option-text"></span>
     `;
     button.querySelector(".option-text").textContent = text;
@@ -426,6 +465,7 @@ function paintAnsweredOptions(selected, correct, isCorrect) {
   document.querySelectorAll(".option-button").forEach((button) => {
     const option = button.dataset.option;
     button.disabled = true;
+    button.querySelector(".option-letter").textContent = option;
     if (option === correct) button.classList.add("correct");
     if (option === selected && !isCorrect) button.classList.add("wrong");
   });

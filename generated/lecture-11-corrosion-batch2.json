@@ -1,0 +1,222 @@
+[
+  {
+    "id": 503,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["cathodic reaction", "reduction", "local condition", "metal deposition"],
+    "diagramRequired": false,
+    "question": "Cathodic reaction in wet corrosion: which statement is correct in the Lecture 11 terminology?",
+    "options": {
+      "A": "The cathode receives electrons and supports a reduction reaction whose exact type depends on the local cathode condition.",
+      "B": "The cathode is the electrode where metal atoms are ionized and lost into the electrolyte.",
+      "C": "The cathode must always lose thickness faster than the anode because electrons accumulate there.",
+      "D": "The cathodic reaction is independent of the electrolyte and can occur without electrical connection to the anode."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide says the type of cathodic reaction depends on the local condition at the cathode, and the notes describe the cathode as receiving electrons by a chemical or cathodic reduction reaction. B describes the anodic reaction, not the cathodic one: ionization of Fe into the electrolyte is corrosion at the anode. C is the classic exam trap; electron arrival does not mean preferential metal loss at the cathode. D is wrong because the lecture explicitly requires anode, cathode, conductor and electrolyte to be electrically connected.",
+    "relevantTheory": "Wet corrosion is an oxidation-reduction circuit. Oxidation occurs at the anode, where the metal dissolves as ions and electrons are released. Reduction occurs at the cathode, where incoming electrons are consumed by local reactions; if reducible metal ions are present they may even deposit, giving a plating or thickening effect. The exact cathodic reaction depends on environment, oxygen, ions and pH. Corrosion rate must balance anodic and cathodic processes to maintain electroneutrality, so a slow cathodic reaction can limit the whole cell.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 2-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 12-13"
+  },
+  {
+    "id": 504,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["anode", "cathode", "preferential corrosion", "NOT TRUE"],
+    "diagramRequired": false,
+    "question": "Corrosion occurs preferentially at the cathode because electrons accumulate there. Mark the correct evaluation.",
+    "options": {
+      "A": "FALSE: preferential metal loss is anodic; the cathode receives electrons and is where reduction occurs.",
+      "B": "TRUE: electrons are negative, so the cathode must dissolve into positive metal ions.",
+      "C": "TRUE only in dry corrosion, because oxide scale always forms at the cathode.",
+      "D": "FALSE only for stainless steels; in carbon steels the cathode is always the thinning region."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The proposition is false because it reverses the two electrodes. In wet corrosion the anode gives up electrons and corrodes by ionizing into the electrolyte; the cathode receives electrons and supports reduction. B turns electron accumulation into the wrong dissolution mechanism. C mixes dry oxidation with the wet corrosion cell and still gives the wrong electrode. D invents a family-dependent exception: for iron, steels and stainless steels, anodic dissolution is still the metal-loss step.",
+    "relevantTheory": "A frequent professor-style trap is the phrase 'corrosion occurs at the cathode because electrons accumulate here.' The cathode is important because it consumes electrons and allows the corrosion current to continue, but the section loss occurs where metal atoms are oxidized: at the anode. The cathode can be protected, thickened by deposition, or support oxygen/hydrogen reduction depending on the environment. This distinction is also the basis of sacrificial protection: make the cheap coating the anode so the structural steel remains cathodic.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 12-13; PAST_EXAMS/QUESTIONS_SET_1.txt, Session of February 26, 2024 Version A, question 16"
+  },
+  {
+    "id": 505,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": ["selective leaching", "synergistic corrosion", "alloy element removal"],
+    "diagramRequired": false,
+    "question": "Which option best defines selective leaching among the synergistic corrosion phenomena?",
+    "options": {
+      "A": "One element of an alloy is removed preferentially by corrosion, leaving the remaining material chemically and mechanically degraded.",
+      "B": "All alloying elements dissolve at exactly the same rate, producing only uniform thickness loss.",
+      "C": "A passive oxide film thickens uniformly until metal-ion transport becomes impossible.",
+      "D": "Low-frequency sliding removes oxide mechanically while no electrochemical corrosion is involved."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 11 lists selective leaching as the phenomenon in which one element of the alloy is removed by corrosion. B is uniform corrosion and misses the selective alloy chemistry. C describes passivity, not selective removal of an alloying element. D describes the mechanical part of fretting corrosion but wrongly removes the corrosion contribution.",
+    "relevantTheory": "Selective leaching is dangerous because the component may keep an external shape while its useful alloy chemistry is locally destroyed. The anodic process does not simply remove all constituents equally; one element is preferentially dissolved, so the surface or near-surface material left behind can become porous, weak or compositionally unfit for service. It belongs with the lecture's synergistic or special corrosion phenomena because the damage is not just simple, predictable uniform thinning.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 14"
+  },
+  {
+    "id": 506,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": ["fretting corrosion", "erosion corrosion", "corrosion fatigue", "synergistic phenomena"],
+    "diagramRequired": false,
+    "question": "Match the synergistic corrosion phenomenon with the extra damaging factor. Which match is correct?",
+    "options": {
+      "A": "Fretting corrosion: low-frequency sliding plus corrosion.",
+      "B": "Erosion corrosion: external tensile load causing crack-tip dissolution in a passive metal.",
+      "C": "Corrosion fatigue: removal of one alloying element by corrosion.",
+      "D": "Stress corrosion cracking: attack modified mainly by flow effects."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and follows the slide wording exactly: fretting corrosion is low frequency sliding plus corrosion. B describes stress corrosion cracking more than erosion corrosion; erosion corrosion is attack modified by flow effects. C describes selective leaching, not corrosion fatigue. D again swaps definitions: SCC is enhanced by external loads, while flow-modified attack is erosion corrosion.",
+    "relevantTheory": "The lecture groups several mechanisms as synergistic because corrosion is coupled with a second effect. SCC combines corrosion with stress or load. Hydrogen embrittlement combines hydrogen entry with low ductility fracture. Corrosion fatigue combines corrosion with cyclic/mechanical fatigue. Selective leaching removes one alloy element. Fretting corrosion needs small sliding motion plus corrosion, often at contacts. Erosion corrosion is accelerated or modified by moving fluid or particle flow. In exam questions, these mechanisms are often tested by swapping the second factor.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 14"
+  },
+  {
+    "id": 507,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["microbiological corrosion", "biomedical prosthesis", "water pipes"],
+    "diagramRequired": false,
+    "question": "A metallic water pipe or biomedical prosthesis is damaged by corrosion promoted by biological activity in the local environment. Which Lecture 11 label fits best?",
+    "options": {
+      "A": "Microbiological corrosion.",
+      "B": "Dry corrosion by high-temperature vapor.",
+      "C": "Pearlitic lamellar corrosion only.",
+      "D": "Austenitizing corrosion."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture explicitly names microbiological corrosion and gives biomedical prostheses and water pipes as examples. B is wrong because the situation is not high-temperature gas or vapor oxidation. C uses a real micro-galvanic idea from notes on lamellar structures, but it does not match biological activity and the given examples. D is not a corrosion phenomenon; austenitizing belongs to heat treatment.",
+    "relevantTheory": "Microbiological corrosion is corrosion influenced by microorganisms or biological local chemistry. The lecture does not develop a long mechanism, but it places it among other corrosion phenomena because the environment around the metal is altered by biological activity. In pipes, implants or stagnant aqueous systems, local chemistry, deposits and oxygen availability can be changed in ways that produce anodic and cathodic regions. The exam-level recognition is the example pair: biomedical prosthesis and water pipes.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 14"
+  },
+  {
+    "id": 508,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": ["standard electrode potentials", "seawater ranking", "galvanic series", "rate"],
+    "diagramRequired": false,
+    "question": "Why is a practical ranking of metals in seawater not the same thing as the standard electrode potential table?",
+    "options": {
+      "A": "The seawater ranking reflects practical anodic/cathodic tendency in a real electrolyte, while the standard table is for defined conditions and still does not give corrosion rate directly.",
+      "B": "The seawater ranking is useless because only pure 300 K molar-solution potentials can ever predict galvanic behavior.",
+      "C": "The standard table already includes every effect of passivity, chloride, flow, pH and surface-area ratio.",
+      "D": "Both rankings prove that noble metals corrode fastest because they have the highest potentials."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 11 presents standard electrode potentials under defined conditions and separately the notes describe seawater ranks as more realistic and practical, with top alloys more cathodic/unreactive and bottom alloys more anodic. B is too absolute: practical galvanic series are useful precisely because environment matters. C is false because the lecture warns that the standard table does not account for passivity or corrosion rate. D reverses the meaning of noble/cathodic behavior.",
+    "relevantTheory": "Electrode-potential tables are ranking tools, not corrosion-rate calculators. They help identify which member of a galvanic couple tends to be anodic or cathodic under standard assumptions. Real service environments add electrolyte conductivity, chloride content, oxygen, pH, temperature, distance, surface area ratio, flow and passivation. A seawater galvanic series is therefore often more practical for marine exposure, but even it is a ranking of tendency rather than a complete rate prediction.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 5-6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 15 and 18"
+  },
+  {
+    "id": 509,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["environment separation effect", "resistivity", "galvanic corrosion", "poorly conducting solution"],
+    "diagramRequired": false,
+    "question": "Two dissimilar metals are coupled, but the electrolyte is poorly conducting and the anodic region is far from the cathodic region. What does Lecture 11 predict?",
+    "options": {
+      "A": "The galvanic effect and anodic attack are reduced because distance and electrolyte resistivity raise the resistance of the corrosion cell.",
+      "B": "The attack becomes extremely high only because the metals are dissimilar; distance and resistivity do not matter.",
+      "C": "The cathode must dissolve first because poor conductivity blocks reduction reactions only at the anode.",
+      "D": "The system becomes dry corrosion automatically, even if liquid electrolyte is still present."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide says galvanic effects are reduced in proportion to distance from the cathodic region and to the resistivity of the environment; poorly conducting solutions reduce the attack at anodic regions because cell resistance controls corrosion current. B ignores the environment/separation effect. C reverses electrode roles and invents an asymmetric blocking mechanism. D is wrong because the presence of liquid electrolyte still makes this a wet electrochemical situation, even if the electrolyte conducts poorly.",
+    "relevantTheory": "Galvanic corrosion needs not only a potential difference and electrical contact, but also ionic current through the environment. If the solution has high resistivity, less current flows, and because corrosion rate is proportional to current, anodic dissolution is reduced. Distance matters for the same reason: the longer ionic path increases resistance and weakens the galvanic coupling. This is separate from the surface-area effect, where a small anode next to a large cathode can be very dangerous in a conductive solution.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 15-16"
+  },
+  {
+    "id": 510,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["passivity", "Al", "Cr", "reactivity", "protective film"],
+    "diagramRequired": false,
+    "question": "Al and Cr may look highly reactive in an electrochemical ranking, yet Al alloys and stainless steels can show good corrosion resistance. Which explanation is correct?",
+    "options": {
+      "A": "They can form uniform, dense and cohesive oxide films that passivate the surface and slow ion transport.",
+      "B": "They are corrosion resistant because they never react with oxygen.",
+      "C": "They resist corrosion only when the oxide film is porous and detached, so water cannot wet the surface.",
+      "D": "They are protected because the standard electrode potential table includes all passivation effects."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The notes stress that Al appears reactive from an electronic/table viewpoint but protects itself by forming a uniform, dense, cohesive oxide coating; Cr similarly gives self-protection and is the basis of stainless behavior. B is wrong because oxygen reaction is exactly how the protective oxide is formed. C reverses the film requirements: porosity and poor adhesion destroy protection. D contradicts the lecture warning that standard potential tables do not take surface passivity into account.",
+    "relevantTheory": "Passivity separates thermodynamic tendency from practical corrosion rate. A metal can have strong affinity for oxygen and still be corrosion resistant if the reaction produces a thin, adherent, continuous oxide that blocks further metal-ion movement. Aluminum forms alumina-based protection; chromium forms chromium oxide and is essential for stainless steels. The protective film must be dense, cohesive and bonded to the substrate. The professor's trap is to rank Al or Cr as simply 'worst' from a potential table without considering passivation.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 5 and 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 15 and 17-18"
+  },
+  {
+    "id": 511,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["dry corrosion", "scale formation", "adhesion", "porosity", "protective oxide"],
+    "diagramRequired": false,
+    "question": "For dry corrosion or oxidation scale formation, which scale property combination is most protective?",
+    "options": {
+      "A": "Good adhesion, good cohesiveness and low porosity, so the scale remains continuous and limits transport.",
+      "B": "Poor adhesion and high porosity, so fresh gas can repeatedly reach the metal.",
+      "C": "Very loose oxide that spalls easily, because exposing fresh metal stops further oxidation.",
+      "D": "A scale that forms only at the cathode of a wet cell and therefore cannot exist in dry corrosion."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the first slide links dry corrosion scale behavior to adhesion and porosity, and the passivity slide explains why cohesive, adherent, low-conductivity corrosion-product films reduce dissolution or attack. B gives the properties of a non-protective scale. C is wrong because spalling exposes fresh metal and allows repeated oxidation. D confuses dry high-temperature oxidation with wet electrochemical cathode/anode terminology.",
+    "relevantTheory": "Dry corrosion is mainly oxidation in vapors or gases, often at high temperature. The oxide scale can either protect or fail depending on its physical quality. A compact, adherent and cohesive scale blocks transport of oxygen or metal ions and slows further reaction. A porous, cracked or poorly adhered scale lets gas reach the metal or breaks away, exposing fresh surface. This same film-quality logic connects dry oxidation scales with passivating oxide films in wet corrosion: protection depends on continuity, adhesion and limited transport.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 1 and 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 12 and 17-18; PAST_EXAMS/QUESTIONS_SET_1.txt, Session of Jan 28, 2025, question 18"
+  },
+  {
+    "id": 512,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": ["corrosion prevention", "similar potentials", "electrical isolation", "cell interruption"],
+    "diagramRequired": false,
+    "question": "A designer must join two metals in a humid oxygen-containing environment. Which choice best follows the Lecture 11 prevention logic?",
+    "options": {
+      "A": "Avoid electrical contact or select metals with similar electric potentials, and design the joint so water is not trapped.",
+      "B": "Use the most different potentials possible, rivet the joint tightly with a crevice, and keep it wet to stabilize the cell.",
+      "C": "Make the structural metal a small anode next to a huge cathode because this spreads the corrosion current safely.",
+      "D": "Ignore electrolyte drainage because galvanic corrosion depends only on the metal names, not on water or oxygen."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture prevention list says to avoid electrical contact between dissimilar materials, avoid crevices and heterogeneity, design containers for easy draining, and the notes add that using metals with similar electric potential reduces the driving force. B deliberately combines several bad choices: dissimilar potentials, rivets/crevices and trapped electrolyte. C states the most dangerous area-ratio case, small anode with large cathode. D ignores the requirement for electrolyte and the role of humidity plus oxygen in wet corrosion.",
+    "relevantTheory": "Corrosion prevention is cell prevention. In wet corrosion the conductor is often the metal itself, so the designer tries to remove or weaken the anode-cathode couple, the electrolyte, or the electrical connection. Practical measures include welding rather than riveting, insulating dissimilar metals, selecting metals close in potential, avoiding small anodic areas attached to large cathodic areas, draining water, avoiding deposits and crevices, and reducing stress or heat heterogeneity. Good corrosion design is therefore electrochemical design, not just material naming.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 6 and 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 16 and 18"
+  }
+]

@@ -123,6 +123,12 @@ window.TMM_CONTENT_MAP = {
       "source": "Self-assesment questions/self-assessment questions on steels.pdf"
     },
     {
+      "id": "self-plastic-deformation",
+      "deck": "self-assessment",
+      "title": "Self-assessment: Plastic deformation",
+      "source": "Self-assesment questions/self-assessment questions on shaping by plastic deformation.pdf"
+    },
+    {
       "id": "self-corrosion",
       "deck": "self-assessment",
       "title": "Self-assessment: Corrosion",
@@ -133,7 +139,24 @@ window.TMM_CONTENT_MAP = {
       "deck": "self-assessment",
       "title": "Self-assessment: Diffusion",
       "source": "Self-assesment questions/self-assessment questions on Diffusion.pdf"
+    },
+    {
+      "id": "self-shaping-melting",
+      "deck": "self-assessment",
+      "title": "Self-assessment: Shaping by melting",
+      "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf"
+    },
+    {
+      "id": "self-miscellanea",
+      "deck": "self-assessment",
+      "title": "Self-assessment: Miscellanea",
+      "source": "Self-assesment questions/Self-test questions - miscellanea.pdf"
+    },
+    {
+      "id": "self-practice-tests",
+      "deck": "self-assessment",
+      "title": "Self-assessment: Practice tests",
+      "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf"
     }
   ]
-}
-;
+};

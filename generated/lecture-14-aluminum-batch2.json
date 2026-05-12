@@ -1,0 +1,222 @@
+[
+  {
+    "id": 533,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["Al production", "electrolysis", "recycling"],
+    "diagramRequired": false,
+    "question": "Al is very abundant in nature, but it is produced in smaller amounts than iron. Which explanation best matches the Lecture 14 logic?",
+    "options": {
+      "A": "Metallic Al is obtained through alumina in molten cryolite and electrolysis, so production is energy-intensive and recycling is important",
+      "B": "Al is rare in ores, while Fe is normally found as pure metal ready to cast",
+      "C": "Al cannot be recycled because its oxide film makes remelting impossible",
+      "D": "Al production is smaller because Al alloys cannot be cast, only cold rolled"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes describe the production route from aluminium hydroxide to Al2O3, dissolution in cryolite, and electrolysis; this explains why abundant Al is not automatically cheap primary metal and why recycling matters. B is wrong because Al is abundant but chemically tied up in stable compounds, while Fe also comes from ores rather than pure metal. C is wrong because recycling is specifically mentioned as making Al more affordable. D is wrong because Lecture 14 emphasizes Al castings as a major industrial use.",
+    "relevantTheory": "Aluminium is thermodynamically reactive and is not reduced by the simple blast-furnace route used for iron ores. The industrial route first prepares alumina, dissolves it in cryolite, and electrolyzes it to metallic Al. Primary Al is therefore energy-costly, while secondary Al from recycling is important. This production background helps explain why alloy cleanliness, especially Fe control in recycled casting alloys, matters in practice.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 7; PAST_EXAMS/QUESTION_SET_3.txt, Al production wording"
+  },
+  {
+    "id": 534,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["secondary Al", "Fe impurity", "casting brittleness"],
+    "diagramRequired": false,
+    "question": "A recycled aluminium charge is intended for casting. Which impurity issue is most consistent with the Lecture 14 notes?",
+    "options": {
+      "A": "High Fe content in secondary Al is dangerous because it can make castings brittle",
+      "B": "High Fe content is always beneficial because it converts Al into stainless steel",
+      "C": "Fe is harmless in all Al castings because it evaporates during solidification",
+      "D": "The only impurity problem in recycled Al is carbon causing martensite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes explicitly warn that secondary Al should not contain high Fe because it causes casting problems such as brittleness. B is wrong because adding Fe to Al does not make stainless steel; stainless steel is Fe-based with enough Cr. C is wrong because Fe is not removed simply by solidification and can form harmful phases. D is a steel trap: Al alloys do not form martensite by carbon quenching in this lecture.",
+    "relevantTheory": "Recycling is valuable for aluminium because primary production is energy-intensive, but recycled metal must still meet chemistry limits. In cast Al alloys, small amounts of unwanted elements can strongly affect intermetallic phases, feeding, ductility and toughness. The lecture notes emphasize Fe as a harmful contaminant in secondary Al castings, connecting production route directly to final casting quality.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 3 and 10-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 7"
+  },
+  {
+    "id": 535,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": ["wrought Al", "direct chill", "scalping", "homogenization"],
+    "diagramRequired": false,
+    "question": "Which process chain best describes wrought aluminium primary fabrication before sheet or extrusion production?",
+    "options": {
+      "A": "Direct chill ingot production, scalping of the surface, homogenization, then rolling or plastic deformation",
+      "B": "Sand casting directly to final shape, no deformation, then leaving the rough casting surface untouched",
+      "C": "Carburizing, oil quenching to martensite, then tempering at 650 C",
+      "D": "Electroplating Si needles on the surface to create wrought sheet"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes list direct chill primary fabrication, scalping to remove surface metal for good finishing, homogenization, and rolling for wrought Al. B describes casting, not wrought processing; castings obtain shape by solidification in a mould. C is the steel heat-treatment route and is not applicable to Al strengthening in Lecture 14. D invents a surface process and confuses Al-Si casting microstructure with wrought fabrication.",
+    "relevantTheory": "Lecture 14 separates casting alloys from wrought alloys. Wrought means the alloy is shaped by plastic deformation such as rolling, forging or extrusion after ingot production. Homogenization reduces chemical segregation from solidification, scalping removes poor surface material, and deformation gives useful product forms. This is different from casting, where the final geometry is obtained mainly by melting and solidification in a mould.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 5-6 and 14-15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 7"
+  },
+  {
+    "id": 536,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": ["sand casting", "permanent mould", "die casting"],
+    "diagramRequired": false,
+    "question": "Aluminium casting methods: mark the NOT TRUE clause.",
+    "options": {
+      "A": "Sand casting is simple and suitable for small quantities or complex jobs, but solidifies slowly",
+      "B": "Permanent mould casting uses a metal mould and gives finer grains and higher strength because of faster cooling",
+      "C": "Die casting forces molten metal into a metal mould at high pressure and is important for automotive near-finished parts",
+      "D": "Die casting is defined by the slowest cooling rate and the coarsest grain structure among the three methods"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT true clause: die casting uses a metal die and pressure, giving good tolerance, surface finish and low shrinkage/porosity; it is not defined by the slowest cooling and coarsest grains. A is true for sand casting. B is true because a metal mould extracts heat faster than sand, refining grains. C is true and matches the notes' automotive emphasis.",
+    "relevantTheory": "Casting route controls solidification rate, grain size, porosity, surface quality and economical batch size. Sand casting is flexible but slow and rougher. Permanent mould casting cools faster and can improve grain structure and strength, although shape complexity is more limited. Die casting injects molten Al alloy under pressure into a reusable metal die, giving high productivity and accurate automotive parts.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 10-11 and 14-15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 9"
+  },
+  {
+    "id": 537,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["casting designation", "wrought designation", "decimal point"],
+    "diagramRequired": false,
+    "question": "Which statement correctly distinguishes cast aluminium alloy designation from wrought aluminium designation?",
+    "options": {
+      "A": "Casting alloys use four digits with a period before the last digit, and casting plus mechanical properties are primary concerns",
+      "B": "Casting alloys never use the principal element in the designation; only the mould material is coded",
+      "C": "Wrought and casting designations are identical, so 6xxx and 6xx.x always mean Mg plus Si",
+      "D": "The decimal point proves that the alloy is pure Al and cannot contain Si, Cu, Mg or Zn"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 14 lists casting designations such as 1xx.x, 2xx.x, 3xx.x and 4xx.x, with the period distinguishing them from wrought 1xxx, 2xxx, 3xxx and 4xxx. B is wrong because casting series still correspond to principal elements, for example 2xx.x for Cu and 3xx.x for Si plus Cu and/or Mg. C is wrong because 6xxx wrought means Mg and Si, but 6xx.x casting is listed as unused. D is wrong because many decimal-point casting series contain alloying elements.",
+    "relevantTheory": "The designation trap in Lecture 14 is transferring wrought meanings blindly to casting alloys. Wrought alloys are classified by first digit without a decimal point, while casting alloys use a decimal point and a different family table. The code gives composition family, but final selection must also consider castability, shrinkage, porosity, eutectic morphology and mechanical properties.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 7 and 9"
+  },
+  {
+    "id": 538,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "definition",
+    "trapTags": ["temper designation", "T4", "T5", "T8", "H"],
+    "diagramRequired": false,
+    "question": "Which temper-designation association is correct for aluminium alloys?",
+    "options": {
+      "A": "T4 means solution heat treated and naturally aged; T8 means solution heat treated, cold worked and artificially aged",
+      "B": "H means solution heat treated and aged, while T means only strain hardened",
+      "C": "O means as fabricated with no control, and F means fully annealed",
+      "D": "T5 means quenching to martensite followed by tempering of Al martensite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes list T4 as solution heat treated, T5 as artificially aged only, T6 as solution heat treated and artificially aged, and T8 as solution heat treated, cold worked and artificially aged. B reverses H and T: H is strain-hardened/cold-worked condition, while T is thermally treated. C swaps O and F: O is annealed and F is as produced/as fabricated. D is wrong because martensite tempering is a steel concept, not an aluminium temper designation.",
+    "relevantTheory": "An aluminium alloy number is incomplete without temper when mechanical properties matter. O is soft annealed condition; F is as fabricated; H describes strain hardening used mainly for non-heat-treatable alloys; T describes thermal treatment sequences used for age-hardening alloys. T4, T5, T6 and T8 differ in whether solution treatment, natural ageing, artificial ageing and cold work are included.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 8 and 11"
+  },
+  {
+    "id": 539,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["Al-Si eutectic", "casting microstructure", "composition"],
+    "diagramRequired": false,
+    "question": "A cast Al-Si alloy solidifies close to the eutectic composition. Which description of the final eutectic constituent is the most correct?",
+    "options": {
+      "A": "A mixture of Al-rich solid solution and Si phase, whose morphology strongly controls toughness",
+      "B": "A single liquid phase retained to room temperature between Al grains",
+      "C": "Only pure Si, because all aluminium is consumed at the eutectic point",
+      "D": "Austenite plus cementite, exactly like pearlite in Fe-C steels"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 14 shows Al-Si casting microstructures with solid-solution Al and Si plates, and the notes identify Si as the hard phase in the Al matrix. B is wrong because the eutectic reaction produces solid phases, not retained room-temperature liquid. C is wrong because eutectic is a mixture, not complete conversion of Al into Si. D is a steel trap: austenite and cementite belong to Fe-C terminology, not Al-Si.",
+    "relevantTheory": "The Al-Si eutectic is central for cast aluminium alloys because it improves castability but introduces a hard brittle Si phase. The important exam point is not just the phase names, but the morphology: coarse plate or needle-like Si creates sharp interphase discontinuities and lowers toughness, while refined or modified eutectic improves the casting property compromise.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 10-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 24; PAST_EXAMS/QUESTIONS_SET_1.txt, Al-Si eutectic wording"
+  },
+  {
+    "id": 540,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": ["eutectic refinement", "Sr", "Ti", "undercooling"],
+    "diagramRequired": false,
+    "question": "For Al-Si castings, which pairing of microstructure-control additions is most consistent with Lecture 14 and the notes?",
+    "options": {
+      "A": "Sr or Na modifies/refines the eutectic Si; Ti is used for grain refinement of the casting",
+      "B": "Sr produces martensite, while Ti removes all silicon from the alloy",
+      "C": "Na and Sr are added in kilogram amounts to convert the alloy into pure Mg",
+      "D": "Ti is added only to make Si plates longer and sharper, increasing brittleness"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 14 explicitly shows eutectic modification with a tiny Na addition, and the notes add that Sr refines the eutectic while Ti refines casting grains. B is wrong because martensite is not the Al-Si casting mechanism and Si is not removed. C is wrong because these are small modifier/refiner additions, not bulk alloy conversion. D is opposite to the purpose of Ti grain refinement.",
+    "relevantTheory": "Al-Si casting toughness is improved by controlling both eutectic morphology and grain size. Sr or Na changes eutectic Si growth, producing a finer less needle-like eutectic, often described in exam wording as artificial undercooling or reduced diffusion/growth of Si. Ti additions promote grain refinement. Finer grains and less harmful Si morphology improve strength and toughness together, unlike merely increasing brittle hard phase size.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 24; PAST_EXAMS/QUESTIONS_SET_1.txt, Sr eutectic wording"
+  },
+  {
+    "id": 541,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": ["2xxx", "Al-Cu", "early ageing", "GP zones"],
+    "diagramRequired": false,
+    "question": "For A2xxx Al-Cu alloys, which statement about the first ageing products is the best lecture-style answer?",
+    "options": {
+      "A": "Cu-rich GP zones and Al-Cu precipitate sequence develop from the supersaturated solid solution",
+      "B": "Al2Mn GP zones are the characteristic first ageing product of 2xxx alloys",
+      "C": "Al2Mg GP zones are the characteristic first ageing product of 2xxx alloys",
+      "D": "No precipitates form during early ageing because Cu must remain randomly dissolved forever"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: 2xxx alloys are Al-Cu based, and the Lecture 14 age-hardening slide and notes use Al-4%Cu to show GP zones, GP2 zones, theta prime and equilibrium theta/CuAl2. B and C use the wrong alloying element for the 2xxx family. D is wrong because ageing is precisely the controlled decomposition of a supersaturated solid solution into clusters and precipitates.",
+    "relevantTheory": "After solution treatment and quenching, an Al-Cu alloy contains a supersaturated metastable solid solution. During ageing, Cu atoms cluster into GP zones, then more developed transition precipitates form before the equilibrium theta phase CuAl2. The fine coherent or semi-coherent early products are strong obstacles to dislocations; coarse equilibrium particles after excessive ageing are less effective.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 9 and 12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 10; PAST_EXAMS/QUESTIONS_SET_1.txt, A2xxx precipitates wording"
+  },
+  {
+    "id": 542,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["7xxx", "ageing", "aircraft structures", "highest strength"],
+    "diagramRequired": false,
+    "question": "Which statement is the best answer for strengthening and use of 7xxx aluminium alloys?",
+    "options": {
+      "A": "7xxx Al-Zn-Mg-Cu alloys obtain their highest useful strength mainly by ageing and are used for aircraft structures",
+      "B": "7xxx alloys are pure aluminium foils selected mainly for electrical conductivity",
+      "C": "7xxx alloys are non-heat-treatable Mn alloys strengthened only by annealing",
+      "D": "7xxx alloys are chosen because they are the most weldable Al family and never suffer corrosion problems"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes list 7xxx as Al plus Zn, Mg and Cu, with high strength and aircraft-structure use, and the exam style asks ageing as the main and most effective strengthening method. B describes 1xxx pure Al uses. C describes the wrong family; Mn-rich 3xxx is non-heat-treatable and annealing softens rather than strengthens. D is wrong because high-strength precipitated Al alloys can have weldability and stress-corrosion limitations.",
+    "relevantTheory": "The 7xxx series is the high-strength end of wrought aluminium alloys. Zn with Mg and often Cu enables precipitation hardening during ageing, giving very high yield strength for aerospace components. This strength comes with trade-offs: weldability is not the same as for 5xxx or 6xxx, and precipitation microstructures can be sensitive to stress-corrosion cracking, especially near grain-boundary precipitate-free zones.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 7 and 15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 8; PAST_EXAMS/QUESTIONS_SET_1.txt, 7xxx strengthening wording"
+  }
+]

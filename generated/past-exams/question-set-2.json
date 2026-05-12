@@ -1,0 +1,210 @@
+[
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "BCC slip",
+      "Miller indices",
+      "plane-direction notation"
+    ],
+    "diagramRequired": false,
+    "question": "Which of the following slip systems belongs to BCC?",
+    "options": {
+      "A": "(111)[1 -2 -1]",
+      "B": "(1 -1 0)[111]",
+      "C": "[111](1 -1 0)",
+      "D": "(1 -1 1)[11 -1]"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because BCC slip commonly uses dense directions of the <111> family on planes such as {110}; the direction [111] also lies in the plane (1 -1 0), since 1*1 + (-1)*1 + 0*1 = 0. A is wrong because [1 -2 -1] does not lie in the (111) plane, so it is not a valid plane-direction pair. C reverses the notation: the plane should be in parentheses and the direction in square brackets, even though the same indices appear. D is wrong because [11 -1] does not lie in (1 -1 1), and the plane/direction pair is not the standard BCC slip-system answer.",
+    "relevantTheory": "A slip system is defined by one slip plane and one slip direction. The course rule is that dislocations move most easily on high-density planes and along high-density directions, and the slip direction must lie inside the slip plane. In Miller notation, planes use parentheses, such as (hkl), and directions use square brackets, such as [uvw]. A quick geometric check is hu + kv + lw = 0; if this dot product is zero, the direction lies in the plane. For cubic BCC metals, exam traps often use {110}<111> type systems and incorrect reversed notation.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q4; slides&docs/Lecture 4 Microplasticity (1).pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 13"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "process-chain",
+    "trapTags": [
+      "normalizing",
+      "austenitization",
+      "A3 temperature"
+    ],
+    "diagramRequired": false,
+    "question": "Guess the excess in temperature above A3 for proper austenitization upon steel normalizing.",
+    "options": {
+      "A": "180 deg C",
+      "B": "30 deg C",
+      "C": "50 deg C",
+      "D": "80 deg C"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture states austenitization as holding in the austenitic range at A3 + 50 deg C, and normalizing is built on austenitization followed by air cooling. A and D are too high for the professor's stated rule and would increase the risk of unnecessary grain growth. B is the value associated on the slide with annealing above A3, not with the austenitization rule asked here.",
+    "relevantTheory": "Normalizing is not melting and not quenching directly from any arbitrary temperature. The steel is first heated into the austenitic field so that the previous ferrite-pearlite or carbide-containing microstructure can transform to austenite and become chemically more homogeneous. The lecture's practical rule is A3 + 50 deg C for austenitization: high enough to form austenite and improve solubility/homogeneity, but not so high that grain growth becomes excessive. After this, air cooling gives a moderately refined, slightly non-equilibrium ferrite-pearlite structure with good mechanical properties at low cost.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q6; slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 1"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "austenitizing",
+      "solid-state heat treatment",
+      "carbide dissolution"
+    ],
+    "diagramRequired": false,
+    "question": "Which is NOT a feature of the steel austenitizing process?",
+    "options": {
+      "A": "homogenization",
+      "B": "carbide dissolution",
+      "C": "atomic diffusion",
+      "D": "melting"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the NOT feature because austenitizing is a solid-state heat-treatment step in the austenitic range, not fusion of the steel. A is wrong because homogenization is one of the aims of holding in the austenitic range. B is wrong because carbide dissolution is part of making carbon and alloying elements available in austenite before cooling. C is wrong because the homogenization and dissolution steps depend on thermally activated atomic diffusion.",
+    "relevantTheory": "Austenitizing prepares steel for later cooling transformations. Heating above the appropriate critical temperature produces austenite, increases carbon solubility compared with ferrite, dissolves some carbides, and allows chemical homogenization. The time and temperature must be sufficient for diffusion but controlled to avoid excessive austenite grain growth. Melting belongs to welding, casting or steelmaking; it is not part of ordinary austenitization for normalizing, annealing, quenching or tempering routes.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q7; slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 1; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, page/slide 1"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "TTT curve",
+      "Si alloying",
+      "hardenability"
+    ],
+    "diagramRequired": false,
+    "question": "TTT curves of steels shift with Si alloying to:",
+    "options": {
+      "A": "right",
+      "B": "left",
+      "C": "right-down",
+      "D": "left-down"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct in the heat-treatment/hardenability sense tested here: alloying elements that delay diffusion-controlled transformations shift the transformation nose to longer times, i.e. to the right, so martensite is easier to obtain at lower cooling rates. B and D are wrong because a left shift would make pearlite or bainite start earlier and reduce hardenability. C mixes in the separate CCT-vs-TTT comparison, where continuous-cooling curves are shifted bottom-right relative to TTT curves; the question asks the alloying shift of TTT curves.",
+    "relevantTheory": "Hardenability is read from transformation diagrams as the ease of avoiding diffusional products before reaching martensite start. Elements used in hardenable steels can retard ferrite, pearlite and bainite transformations by slowing nucleation or growth, so the curve nose moves to longer time. Silicon is listed in the lecture among alloying elements in tempered steels and carbide-forming/grain-refining elements; the exam trap is to confuse an alloying shift to the right with the separate fact that CCT diagrams sit lower and to the right of TTT diagrams.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q11; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 11-12"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "tempering steels",
+      "heat treatment",
+      "stainless trap"
+    ],
+    "diagramRequired": false,
+    "question": "Which class of steels is strengthened by heat treatment?",
+    "options": {
+      "A": "austenitic stainless steels",
+      "B": "ferritic stainless steels",
+      "C": "tempering steels",
+      "D": "cold worked steels"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because Lecture 9 explicitly frames tempered steels as steels strengthened by heat treatment: austenitization, quenching and tempering produce tempered martensite with a strength-toughness balance. A is wrong because austenitic stainless steels are generally not strengthened by ordinary quench-and-temper heat treatment; they are commonly strengthened by cold work. B is wrong because ferritic stainless steels do not rely on martensitic heat treatment as their normal strengthening route. D is wrong because cold worked steels are strengthened by plastic deformation, not by the heat-treatment route named in the question.",
+    "relevantTheory": "The professor's classification trap is that not every steel family is heat treatable in the same way. Tempering steels are designed for quenching to martensite and then tempering to reduce brittleness while keeping high strength. Martensitic stainless steels can also be heat treated, but among the given classes the course answer is tempering steels. Austenitic and ferritic stainless steels keep their phase fields differently and are normally strengthened by cold deformation, grain refinement or special precipitation-hardening routes rather than the plain quench-and-temper route.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q12; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 1 and 10; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 7; slides&docs/Lecture 12.pdf, pages/slides 5-6"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "hardenability",
+      "residual austenite",
+      "martensite penetration"
+    ],
+    "diagramRequired": false,
+    "question": "Which factor is not affected by hardenability in steels?",
+    "options": {
+      "A": "toughness",
+      "B": "hardness",
+      "C": "martensite penetration",
+      "D": "amount of residual austenite"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct in the lecture distinction because hardenability is defined as martensite penetration, or the ability to form martensite in depth; residual austenite is treated separately and depends mainly on incomplete martensite transformation, Mf, dissolved carbon/alloying elements, quench temperature and stepped quenching. A is wrong because the microstructure obtained through the section affects toughness: a fully martensitic or tempered-martensitic section is not equivalent to a ferrite-pearlite core. B is wrong because hardenability affects the hardness profile through the depth, even if maximum martensite hardness depends strongly on carbon. C is wrong because martensite penetration is essentially the definition of hardenability.",
+    "relevantTheory": "Do not confuse hardness, hardenability and retained austenite. Hardness is a local measured resistance and, in quenched martensite, is strongly tied to carbon content. Hardenability is a material property measured by the Jominy test and describes how far from the quenched surface the steel can still form martensite; alloying shifts TTT/CCT curves to the right and helps large parts harden in depth. Residual austenite is the austenite left because the martensitic transformation did not finish before the quench ended; it is controlled by Ms/Mf, carbon and austenite-stabilizing solutes, not by the word hardenability itself.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q15; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 12 and 14"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "steel designation",
+      "X-grade",
+      "stainless steel"
+    ],
+    "diagramRequired": false,
+    "question": "Guess the class of steel for X10CrNiTi18-10.",
+    "options": {
+      "A": "tempered steel",
+      "B": "stainless steel",
+      "C": "low-alloy steel",
+      "D": "tool steel"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the X designation is used for high-alloy steels, and X10CrNiTi18-10 contains about 18% Cr and 10% Ni; the chromium level is far above the stainless threshold. A is wrong because a tempered steel grade such as C45E or 42CrMo4 is a different family in the lecture examples. C is wrong because X grades are not low-alloy grades with every element below 5%. D is wrong because tool steels may also be high alloy, but the Cr-Ni-Ti 18-10 chemistry points to a stainless steel, with Ti used as a stabilizing carbide-former in austenitic stainless grades.",
+    "relevantTheory": "In EN chemical designations, the first number after X gives carbon times 100, and the following alloy symbols and numbers identify high alloy content directly rather than by the low-alloy scaling factors. Stainless steels require high chromium, listed in the course as above about 10.5-11.5% Cr with limited carbon, because chromium forms the passivating oxide film. A Cr-Ni 18-10 type grade belongs to the stainless family; Ni stabilizes austenite, and Ti can tie up carbon to reduce chromium-carbide sensitization in welded or heated austenitic stainless steels.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q16; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 2 and 6; slides&docs/Lecture 12.pdf, pages/slides 1 and 10"
+  },
+  {
+    "id": 0,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "skin-pass",
+      "Luders bands",
+      "sheet forming"
+    ],
+    "diagramRequired": false,
+    "question": "The skin-pass process, as the last step of cold rolling in thin sheets, does NOT affect:",
+    "options": {
+      "A": "weldability",
+      "B": "Luders band suppression",
+      "C": "formability",
+      "D": "surface cracking reduction"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because skin-pass or temper rolling is a light mechanical pass used to control yielding and surface/forming behavior; it is not primarily a welding-metallurgy treatment. B is wrong because suppressing Luders bands/yield-point phenomena is the classic purpose of skin passing. C is wrong because preventing stretcher strains and yield-point elongation directly improves sheet forming behavior for deep drawing. D is wrong because the notes connect small-roll/skin-pass compression at the surface with keeping surface cracks closed and reducing their tendency to open.",
+    "relevantTheory": "Skin-pass rolling is a small cold reduction applied after annealing or cold rolling of sheet. It introduces mobile dislocations and removes the sharp yield-point phenomenon caused by Cottrell atmospheres, so visible Luders lines or stretcher strains are avoided during later forming. It can also improve flatness and surface condition and may impose a useful compressive surface state. Weldability, instead, is governed mainly by composition, hardenability, thermal cycle, HAZ transformations, residual stresses and joint design, so it is the odd option in this exam wording.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Written Exam of TMM (Starts with Damascus steels), Q17; slides&docs/Wire Technology Process Engineering 2010.pdf, page 22; slides&docs/Lecture 5 Strengthening of Metals.pdf, page/slide 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 23"
+  }
+]

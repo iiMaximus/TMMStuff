@@ -424,7 +424,7 @@ window.TMM_QUESTIONS = [
     "id": 17,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Plasticity",
+    "section": "Fundamentals",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "trap",
@@ -477,7 +477,7 @@ window.TMM_QUESTIONS = [
     "id": 19,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Plasticity",
+    "section": "Fundamentals",
     "sourceType": "past-exam",
     "difficulty": "easy",
     "cardType": "definition",
@@ -502,7 +502,7 @@ window.TMM_QUESTIONS = [
     "id": 20,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Plasticity",
+    "section": "Fe-C & Steels",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "trap",
@@ -528,7 +528,7 @@ window.TMM_QUESTIONS = [
     "id": 21,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Al & Casting",
+    "section": "Fe-C & Steels",
     "sourceType": "past-exam",
     "difficulty": "medium",
     "cardType": "calculation",
@@ -555,7 +555,7 @@ window.TMM_QUESTIONS = [
     "id": 22,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Plasticity",
+    "section": "Heat Treatment",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "application",
@@ -587,14 +587,12 @@ window.TMM_QUESTIONS = [
     "difficulty": "hard",
     "cardType": "application",
     "trapTags": [
-      "Fe-C diagram",
-      "TTT diagram",
-      "precipitation hardening",
-      "casting",
-      "heat treatment"
+      "undercooling",
+      "solidification",
+      "grain refinement"
     ],
     "diagramRequired": false,
-    "question": "Small undercooling in aluminium alloys induces strengthening by:",
+    "question": "Increased undercooling during aluminium-alloy solidification most directly strengthens by:",
     "options": {
       "A": "Solid solution",
       "B": "phase transformation",
@@ -686,7 +684,7 @@ window.TMM_QUESTIONS = [
     "id": 27,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Heat Treatment",
+    "section": "Fe-C & Steels",
     "sourceType": "past-exam",
     "difficulty": "medium",
     "cardType": "application",
@@ -814,7 +812,7 @@ window.TMM_QUESTIONS = [
     "id": 32,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Al & Casting",
+    "section": "Fe-C & Steels",
     "sourceType": "past-exam",
     "difficulty": "medium",
     "cardType": "calculation",
@@ -866,7 +864,7 @@ window.TMM_QUESTIONS = [
     "id": 34,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Plasticity",
+    "section": "Production",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "trap",
@@ -945,7 +943,7 @@ window.TMM_QUESTIONS = [
     "id": 37,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Corrosion & SS",
+    "section": "Fe-C & Steels",
     "sourceType": "past-exam",
     "difficulty": "medium",
     "cardType": "application",
@@ -1048,7 +1046,7 @@ window.TMM_QUESTIONS = [
     "id": 41,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Plasticity",
+    "section": "Fundamentals",
     "sourceType": "past-exam",
     "difficulty": "easy",
     "cardType": "application",
@@ -1075,7 +1073,7 @@ window.TMM_QUESTIONS = [
     "id": 42,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Al & Casting",
+    "section": "Plasticity",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "trap",
@@ -1102,7 +1100,7 @@ window.TMM_QUESTIONS = [
     "id": 43,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Fe-C & Steels",
+    "section": "Heat Treatment",
     "sourceType": "past-exam",
     "difficulty": "medium",
     "cardType": "calculation",
@@ -1126,7 +1124,7 @@ window.TMM_QUESTIONS = [
     "id": 44,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Plasticity",
+    "section": "Fe-C & Steels",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "trap",
@@ -1185,9 +1183,9 @@ window.TMM_QUESTIONS = [
     "difficulty": "medium",
     "cardType": "application",
     "trapTags": [
-      "TTT diagram",
-      "casting",
-      "application"
+      "ultrafast solidification",
+      "undercooling",
+      "grain refinement"
     ],
     "diagramRequired": false,
     "question": "Upon ultrafast solidification, the initial crystal critical nuclei will:",
@@ -1232,7 +1230,7 @@ window.TMM_QUESTIONS = [
     "id": 48,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Al & Casting",
+    "section": "Plasticity",
     "sourceType": "past-exam",
     "difficulty": "easy",
     "cardType": "application",
@@ -1257,7 +1255,7 @@ window.TMM_QUESTIONS = [
     "id": 49,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Al & Casting",
+    "section": "Plasticity",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "trap",
@@ -1309,7 +1307,7 @@ window.TMM_QUESTIONS = [
     "id": 51,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Corrosion & SS",
+    "section": "Fundamentals",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "trap",
@@ -1363,7 +1361,7 @@ window.TMM_QUESTIONS = [
     "id": 53,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Fe-C & Steels",
+    "section": "Fundamentals",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "definition",
@@ -1442,7 +1440,7 @@ window.TMM_QUESTIONS = [
     "id": 56,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Corrosion & SS",
+    "section": "Fe-C & Steels",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "application",
@@ -1470,7 +1468,7 @@ window.TMM_QUESTIONS = [
     "id": 57,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Corrosion & SS",
+    "section": "Heat Treatment",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "application",
@@ -1497,14 +1495,14 @@ window.TMM_QUESTIONS = [
     "id": 58,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Al & Casting",
+    "section": "Plasticity",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "application",
     "trapTags": [
-      "precipitation hardening",
-      "plastic deformation",
-      "application"
+      "strain hardening",
+      "low SFE",
+      "work hardening"
     ],
     "diagramRequired": false,
     "question": "In which alloy strain hardening is most effective for highest strength?",
@@ -1625,15 +1623,14 @@ window.TMM_QUESTIONS = [
     "id": 63,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Corrosion & SS",
+    "section": "Plasticity",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "application",
     "trapTags": [
-      "precipitation hardening",
-      "plastic deformation",
-      "corrosion",
-      "application"
+      "strain hardening coefficient",
+      "precipitation hardened steels",
+      "work hardening"
     ],
     "diagramRequired": false,
     "question": "The alloys possessing the strain hardening coefficient n << 0.45 are:",
@@ -6527,7 +6524,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "definition",
-    "trapTags": ["Frank-Read source", "dislocation multiplication", "strain hardening"],
+    "trapTags": [
+      "Frank-Read source",
+      "dislocation multiplication",
+      "strain hardening"
+    ],
     "diagramRequired": false,
     "question": "What is the main role of a Frank-Read source in strengthening and plastic deformation?",
     "options": {
@@ -6549,7 +6550,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "calculation",
-    "trapTags": ["Orowan equation", "dislocation density", "strain rate"],
+    "trapTags": [
+      "Orowan equation",
+      "dislocation density",
+      "strain rate"
+    ],
     "diagramRequired": false,
     "question": "In the Orowan relation for plastic strain rate, dgamma/dt = rho b v, what does increasing rho do?",
     "options": {
@@ -6571,7 +6576,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["Ludwik-Hollomon", "work hardening coefficient", "uniform strain"],
+    "trapTags": [
+      "Ludwik-Hollomon",
+      "work hardening coefficient",
+      "uniform strain"
+    ],
     "diagramRequired": false,
     "question": "The work hardening coefficient n in the Ludwik-Hollomon description is important because:",
     "options": {
@@ -6593,7 +6602,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["unloading reloading", "work hardening", "elastic modulus"],
+    "trapTags": [
+      "unloading reloading",
+      "work hardening",
+      "elastic modulus"
+    ],
     "diagramRequired": false,
     "question": "After a metal is plastically strained, unloaded and reloaded, what changes most directly due to work hardening?",
     "options": {
@@ -6615,7 +6628,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["strain aging", "dynamic strain aging", "Portevin-Le Chatelier"],
+    "trapTags": [
+      "strain aging",
+      "dynamic strain aging",
+      "Portevin-Le Chatelier"
+    ],
     "diagramRequired": false,
     "question": "Dynamic strain aging, or the Portevin-Le Chatelier effect, is associated with:",
     "options": {
@@ -6637,7 +6654,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["grain refinement methods", "recrystallization", "GB pinning"],
+    "trapTags": [
+      "grain refinement methods",
+      "recrystallization",
+      "GB pinning"
+    ],
     "diagramRequired": false,
     "question": "Grain refinement can be achieved by different methods. Mark the NOT TRUE clause.",
     "options": {
@@ -6659,7 +6680,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["HSLA", "precipitation hardening", "fine grains"],
+    "trapTags": [
+      "HSLA",
+      "precipitation hardening",
+      "fine grains"
+    ],
     "diagramRequired": false,
     "question": "HSLA steels in Lecture 5 are strengthened mainly by:",
     "options": {
@@ -6681,7 +6706,12 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "process-chain",
-    "trapTags": ["precipitation hardening", "solutionizing", "quenching", "aging"],
+    "trapTags": [
+      "precipitation hardening",
+      "solutionizing",
+      "quenching",
+      "aging"
+    ],
     "diagramRequired": false,
     "question": "Which process chain best describes precipitation hardening?",
     "options": {
@@ -6703,7 +6733,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["precipitation", "grain boundaries", "intragranular precipitates"],
+    "trapTags": [
+      "precipitation",
+      "grain boundaries",
+      "intragranular precipitates"
+    ],
     "diagramRequired": false,
     "question": "In precipitation strengthening, precipitates should mainly form:",
     "options": {
@@ -6725,7 +6759,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["GP zones", "coherency", "peak strengthening"],
+    "trapTags": [
+      "GP zones",
+      "coherency",
+      "peak strengthening"
+    ],
     "diagramRequired": false,
     "question": "Why are GP zones or very fine coherent precipitates powerful strengthening features?",
     "options": {
@@ -6747,7 +6785,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["dispersion hardening", "precipitation hardening", "hard particles"],
+    "trapTags": [
+      "dispersion hardening",
+      "precipitation hardening",
+      "hard particles"
+    ],
     "diagramRequired": false,
     "question": "What is the best distinction between precipitation hardening and dispersion hardening in the notes?",
     "options": {
@@ -6769,7 +6811,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["hard second phase", "brittleness", "particle size"],
+    "trapTags": [
+      "hard second phase",
+      "brittleness",
+      "particle size"
+    ],
     "diagramRequired": false,
     "question": "When strengthening by hard dispersed second phases, why are very large particles dangerous?",
     "options": {
@@ -6791,7 +6837,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["fibre strengthening", "crack propagation", "dislocation motion"],
+    "trapTags": [
+      "fibre strengthening",
+      "crack propagation",
+      "dislocation motion"
+    ],
     "diagramRequired": false,
     "question": "Fibres strengthen a metallic matrix mainly because they act as obstacles to:",
     "options": {
@@ -6813,7 +6863,12 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "application",
-    "trapTags": ["AHSS", "DP steel", "martensite", "dislocations"],
+    "trapTags": [
+      "AHSS",
+      "DP steel",
+      "martensite",
+      "dislocations"
+    ],
     "diagramRequired": false,
     "question": "In advanced high strength steels such as DP/TRIP-style microstructures, why does martensite help strengthening?",
     "options": {
@@ -6835,7 +6890,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["TRIP", "metastable austenite", "plastic deformation"],
+    "trapTags": [
+      "TRIP",
+      "metastable austenite",
+      "plastic deformation"
+    ],
     "diagramRequired": false,
     "question": "The TRIP effect uses metastable austenite because it can:",
     "options": {
@@ -6857,7 +6916,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["strengthening methods", "formability", "n coefficient"],
+    "trapTags": [
+      "strengthening methods",
+      "formability",
+      "n coefficient"
+    ],
     "diagramRequired": false,
     "question": "For preserving formability while strengthening, which mechanism is described in the notes as most favourable for high work-hardening coefficient n?",
     "options": {
@@ -6879,7 +6942,12 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["high temperature", "fine grains", "creep", "grain growth"],
+    "trapTags": [
+      "high temperature",
+      "fine grains",
+      "creep",
+      "grain growth"
+    ],
     "diagramRequired": false,
     "question": "Why can very fine grain size become undesirable for high-temperature service?",
     "options": {
@@ -6901,7 +6969,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["maraging steel", "microstructure features", "combined strengthening"],
+    "trapTags": [
+      "maraging steel",
+      "microstructure features",
+      "combined strengthening"
+    ],
     "diagramRequired": false,
     "question": "The maraging steel microstructure example after thermomechanical treatment shows why high strength often requires:",
     "options": {
@@ -6923,7 +6995,12 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["ideal microstructure", "precipitation", "solution strengthening", "fine grains"],
+    "trapTags": [
+      "ideal microstructure",
+      "precipitation",
+      "solution strengthening",
+      "fine grains"
+    ],
     "diagramRequired": false,
     "question": "For an ideal strength-toughness microstructure, which statement is NOT TRUE?",
     "options": {
@@ -6945,7 +7022,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "process-chain",
-    "trapTags": ["lecture synthesis", "strengthening methods", "dislocation obstacles"],
+    "trapTags": [
+      "lecture synthesis",
+      "strengthening methods",
+      "dislocation obstacles"
+    ],
     "diagramRequired": false,
     "question": "Which chain best summarizes Lecture 5 strengthening of metals?",
     "options": {
@@ -6967,7 +7048,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "calculation",
-    "trapTags": ["Frank-Read source", "critical stress", "particle spacing"],
+    "trapTags": [
+      "Frank-Read source",
+      "critical stress",
+      "particle spacing"
+    ],
     "diagramRequired": false,
     "question": "For a Frank-Read/Orowan-type bowing event between two strong obstacles separated by L, the critical shear stress varies approximately as:",
     "options": {
@@ -6989,7 +7074,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["Taylor factor", "polycrystals", "resolved shear stress"],
+    "trapTags": [
+      "Taylor factor",
+      "polycrystals",
+      "resolved shear stress"
+    ],
     "diagramRequired": false,
     "question": "Why do polycrystalline metals generally need higher applied stress for plastic deformation than a favourably oriented single crystal?",
     "options": {
@@ -7011,7 +7100,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["strain aging", "yield point return", "Cottrell atmosphere"],
+    "trapTags": [
+      "strain aging",
+      "yield point return",
+      "Cottrell atmosphere"
+    ],
     "diagramRequired": false,
     "question": "A prestrained mild steel is unloaded, aged for several hours, then reloaded and shows a yield point again. The best explanation is:",
     "options": {
@@ -7033,7 +7126,12 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["precipitate interface", "coherent", "semicoherent", "incoherent"],
+    "trapTags": [
+      "precipitate interface",
+      "coherent",
+      "semicoherent",
+      "incoherent"
+    ],
     "diagramRequired": false,
     "question": "Which precipitate interface description is correct?",
     "options": {
@@ -7055,7 +7153,12 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "process-chain",
-    "trapTags": ["aging curve", "natural aging", "artificial aging", "overaging"],
+    "trapTags": [
+      "aging curve",
+      "natural aging",
+      "artificial aging",
+      "overaging"
+    ],
     "diagramRequired": false,
     "question": "Which sequence best describes the aging-strength curve in a precipitation-hardened alloy?",
     "options": {
@@ -7077,7 +7180,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["strengthening ranking", "formability", "cold work"],
+    "trapTags": [
+      "strengthening ranking",
+      "formability",
+      "cold work"
+    ],
     "diagramRequired": false,
     "question": "Considering strength plus formability, which strengthening method is the worst in the notes' ranking?",
     "options": {
@@ -7099,7 +7206,12 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "trap",
-    "trapTags": ["SFE", "twinning", "strain hardening", "Cu alloys"],
+    "trapTags": [
+      "SFE",
+      "twinning",
+      "strain hardening",
+      "Cu alloys"
+    ],
     "diagramRequired": false,
     "question": "Why can Cu and Cu-alloys show high strain-hardening ability in the notes' logic?",
     "options": {
@@ -7121,7 +7233,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "application",
-    "trapTags": ["safe design", "manufacturing defects", "fracture toughness"],
+    "trapTags": [
+      "safe design",
+      "manufacturing defects",
+      "fracture toughness"
+    ],
     "diagramRequired": false,
     "question": "If industrial parts contain manufacturing defects, which mechanical performance should be prioritized for safe design?",
     "options": {
@@ -7143,7 +7259,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "medium",
     "cardType": "trap",
-    "trapTags": ["Cottrell atmosphere", "strain rate", "solute diffusion"],
+    "trapTags": [
+      "Cottrell atmosphere",
+      "strain rate",
+      "solute diffusion"
+    ],
     "diagramRequired": false,
     "question": "Why are low strain rates important for Cottrell-type solute-dislocation interactions?",
     "options": {
@@ -7165,7 +7285,11 @@ window.TMM_QUESTIONS = [
     "sourceType": "slides",
     "difficulty": "hard",
     "cardType": "process-chain",
-    "trapTags": ["optimal microstructure", "high temperature", "precipitate stability"],
+    "trapTags": [
+      "optimal microstructure",
+      "high temperature",
+      "precipitate stability"
+    ],
     "diagramRequired": false,
     "question": "For high-temperature strengthening, what extra microstructure requirement becomes especially important?",
     "options": {
@@ -7178,6 +7302,10284 @@ window.TMM_QUESTIONS = [
     "explanation": "A is correct because the notes warn that high-temperature use requires stable precipitates and attention to grain growth, coarsening and diffusion. B is wrong because coarsening reduces obstacle density. C is wrong because fine grains can be poor for creep since grain boundaries are fast diffusion paths. D is wrong because high-temperature base materials need a high melting point.",
     "relevantTheory": "Room-temperature strengthening logic is not enough for hot service. High-temperature alloys need slow diffusion, stable precipitates, controlled grain size and high melting point to resist creep and microstructure degradation.",
     "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, slides/pages 24 and 28; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 9-10"
+  },
+  {
+    "id": 281,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "allotropy of Fe",
+      "BCC",
+      "FCC"
+    ],
+    "diagramRequired": false,
+    "question": "What is the correct sequence of crystal structures of pure Fe on heating from room temperature to melting?",
+    "options": {
+      "A": "BCC ferrite, then FCC austenite, then BCC delta ferrite, then liquid",
+      "B": "FCC ferrite, then BCC austenite, then HCP delta ferrite, then liquid",
+      "C": "BCC ferrite directly to liquid, with no allotropic transformation",
+      "D": "orthorhombic cementite, then graphite, then liquid"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Fe is BCC at room temperature as alpha ferrite, changes to FCC austenite at about 912 C, changes again to BCC delta ferrite at about 1394 C, and melts at about 1538 C. B reverses ferrite and austenite and introduces HCP, which is not the Fe sequence taught here. C ignores allotropy. D confuses pure Fe with carbon-containing phases.",
+    "relevantTheory": "Allotropy means the same element can change crystal structure with temperature. In steels this matters because FCC austenite dissolves much more interstitial carbon than BCC ferrite, so heat treatment starts by controlling the ferrite/austenite transformation.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26"
+  },
+  {
+    "id": 282,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "steel classification",
+      "hypo-eutectoid",
+      "hyper-eutectoid"
+    ],
+    "diagramRequired": false,
+    "question": "In the Fe-Fe3C lecture classification, which statement is NOT TRUE?",
+    "options": {
+      "A": "hypo-eutectoid steels have C below about 0.76 wt%",
+      "B": "eutectoid steel transforms to pearlite at about the eutectoid composition",
+      "C": "hyper-eutectoid steels contain more than about 0.76 wt% C and may form pro-eutectoid cementite",
+      "D": "all steels with less than 0.76 wt% C are hyper-eutectoid"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause because C below 0.76 wt% defines hypo-eutectoid steel, not hyper-eutectoid steel. A is true. B is true because eutectoid steel is essentially the pearlite steel in this lecture logic. C is true because above the eutectoid composition, cementite can form before the eutectoid reaction.",
+    "relevantTheory": "The lecture classifies plain carbon steels by carbon content around the eutectoid composition: hypo-eutectoid below about 0.76 wt% C, eutectoid near 0.76 wt% C, and hyper-eutectoid above 0.76 wt% C up to the steel/cast-iron boundary.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 2 and 9-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 23 and 30"
+  },
+  {
+    "id": 283,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "invariant reaction",
+      "eutectoid",
+      "eutectic",
+      "peritectic"
+    ],
+    "diagramRequired": false,
+    "question": "Which invariant reaction is the eutectoid reaction in the metastable Fe-Fe3C diagram?",
+    "options": {
+      "A": "gamma austenite transforms into alpha ferrite plus Fe3C at about 727 C and 0.76 wt% C",
+      "B": "liquid transforms into gamma plus Fe3C at about 1147-1148 C and 4.3 wt% C",
+      "C": "liquid plus delta ferrite transforms into gamma near 1493 C and about 0.16 wt% C",
+      "D": "ferrite transforms directly into graphite at room temperature"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the eutectoid reaction is solid gamma going to two solid products, alpha plus cementite, at A1. B is the eutectic reaction. C is the peritectic reaction. D is not the Fe-Fe3C eutectoid reaction and confuses graphite with the metastable cementite diagram.",
+    "relevantTheory": "Invariant reactions occur at fixed temperature and composition in an equilibrium diagram. In Lecture 6 the key Fe-C reactions are eutectoid, eutectic and peritectic; the eutectoid is the central steel reaction because it produces pearlite from austenite.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 2-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 24"
+  },
+  {
+    "id": 284,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "A1",
+      "A3",
+      "Acm",
+      "critical points"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the UNTRUE clause about the equilibrium critical transformation points in steels.",
+    "options": {
+      "A": "A1 is the pearlite/austenite transformation at the eutectoid temperature",
+      "B": "A3 is the austenite/ferrite transformation curve for hypo-eutectoid steels",
+      "C": "Acm is the austenite/cementite line and C solubility limit for hyper-eutectoid steels",
+      "D": "Acm is the ferrite solubility limit line for tertiary carbide in hypo-eutectoid steels"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is untrue because Acm is the austenite/cementite transformation or carbon solubility limit line for C precipitating as secondary carbide in C > 0.76 wt% steels. A, B and C match the lecture definitions. The ferrite solubility limit line is separate and concerns carbon precipitating from ferrite as tertiary carbide.",
+    "relevantTheory": "A1, A3 and Acm are not interchangeable labels. A1 is the eutectoid temperature, A3 bounds austenite plus ferrite on the hypo-eutectoid side, and Acm bounds austenite plus cementite on the hyper-eutectoid side.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 24"
+  },
+  {
+    "id": 285,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Ac",
+      "Ar",
+      "non-equilibrium",
+      "heating cooling"
+    ],
+    "diagramRequired": false,
+    "question": "At high heating and cooling rates, which statement about critical temperatures is correct?",
+    "options": {
+      "A": "Ac temperatures during heating are shifted above equilibrium A temperatures, while Ar temperatures during cooling are shifted below them",
+      "B": "Ac and Ar are exactly equal to A1, A3 and Acm at every heating or cooling rate",
+      "C": "Ar denotes heating and Ac denotes cooling",
+      "D": "Ms and Mf are equilibrium ferrite formation temperatures"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because non-equilibrium heating and cooling produce a delay: on heating, austenite formation needs overheating, so Ac is higher; on cooling, transformation needs undercooling, so Ar is lower. B ignores rate effects. C reverses the lecture notation: c is chauffage and r is refroidissment. D is wrong because Ms and Mf refer to martensite start and finish during very fast cooling.",
+    "relevantTheory": "The equilibrium Fe-Fe3C diagram assumes enough time for diffusion. With fast thermal cycles, transformation temperatures shift and are written Ac on heating, Ar on cooling, Bs/Bf for bainite and Ms/Mf for martensite.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 24"
+  },
+  {
+    "id": 286,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "alloying elements",
+      "austenitizing",
+      "ferritizing"
+    ],
+    "diagramRequired": false,
+    "question": "Which set contains strong austenitizing elements according to the Lecture 6 classification?",
+    "options": {
+      "A": "Ni, Mn and Co",
+      "B": "Cr, Si, Al, Mo, Ti and V",
+      "C": "B, S, Zr, Nb, Ce and Ta",
+      "D": "only graphite and cementite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slides list Ni, Mn and Co as strong austenitizing elements, especially at room temperature. B lists strong ferritizing elements. C lists weak ferritizing elements. D is wrong because graphite and cementite are not alloying-element groups that expand the austenite field.",
+    "relevantTheory": "Alloying elements shift transformation points and expand either the austenite or ferrite field. C, N and Cu are weak austenitizers; Ni, Mn and Co are strong austenitizers; Cr, Si, Al, Mo, Ti and V are strong ferritizers.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 24-25"
+  },
+  {
+    "id": 287,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "cementite",
+      "Fe3C",
+      "hard brittle"
+    ],
+    "diagramRequired": false,
+    "question": "What is NOT a feature of cementite Fe3C as presented in Lecture 6?",
+    "options": {
+      "A": "it contains about 6.67 wt% C",
+      "B": "it is very hard and brittle, with essentially zero plastic elongation",
+      "C": "it has orthorhombic structure",
+      "D": "it is the most ductile room-temperature phase in steels"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the false statement because cementite is hard and brittle, not the ductile phase. A is true because Fe3C corresponds to about 6.67 wt% C. B is true from the slide values: very high hardness and zero elongation. C is true because the lecture identifies cementite as orthorhombic.",
+    "relevantTheory": "Cementite is the hard carbide phase in the metastable Fe-Fe3C diagram. It appears as pearlite/bainite lamellae, martensite needles, spheroids after heat treatment, or films in hyper-eutectoid steels, and it strongly affects steel strength and brittleness.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 25"
+  },
+  {
+    "id": 288,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "graphite",
+      "cementite",
+      "cast iron",
+      "Si"
+    ],
+    "diagramRequired": false,
+    "question": "Which condition promotes graphite instead of cementite in the lecture notes on Fe-C alloys?",
+    "options": {
+      "A": "extremely slow cooling, high C content above about 2%, and Si addition around 1-3%",
+      "B": "very fast quenching of low-carbon ferrite",
+      "C": "removing all Si and carbon from cast iron",
+      "D": "heating pure Fe just below 912 C"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because graphite is promoted by very slow cooling, high carbon and silicon, as in cast irons. B would suppress diffusion-controlled graphite formation. C removes the chemical conditions for graphite. D concerns the ferrite/austenite transformation of Fe, not graphite formation.",
+    "relevantTheory": "The Fe-Fe3C diagram is metastable because graphite is the more stable carbon form under suitable conditions. In cast irons, silicon and slow cooling promote graphite, which gives machinability, damping and heat dissipation effects.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26"
+  },
+  {
+    "id": 289,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "ferrite",
+      "carbon solubility",
+      "BCC"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement correctly describes ferrite in plain carbon steels?",
+    "options": {
+      "A": "ferrite is a BCC Fe phase, stable at room temperature, with very low carbon solubility",
+      "B": "ferrite is FCC and has the highest carbon solubility of the Fe phases",
+      "C": "ferrite is Fe3C and contains 6.67 wt% C",
+      "D": "ferrite is a lamellar mixture of alpha and Fe3C"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because ferrite is the BCC Fe phase stable at room temperature and it dissolves only very little carbon, down to about 0.0025 wt% at room temperature. B describes austenite more than ferrite. C describes cementite. D describes pearlite.",
+    "relevantTheory": "Ferrite is soft, ductile and carbon-poor. Its low interstitial solubility is why carbon rejected from ferrite must enrich austenite or form carbides during transformations.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26"
+  },
+  {
+    "id": 290,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "austenite",
+      "FCC",
+      "interstitial solubility"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main reason austenite is central before many steel transformations?",
+    "options": {
+      "A": "it is FCC and dissolves much more interstitial carbon than ferrite",
+      "B": "it is graphite and therefore not metallic",
+      "C": "it is orthorhombic Fe3C with zero elongation",
+      "D": "it is the BCC room-temperature phase with the lowest carbon solubility"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because heating changes BCC ferrite to FCC austenite, and the FCC phase has much higher solubility for interstitials such as carbon. B describes graphite. C describes cementite. D describes ferrite, not austenite.",
+    "relevantTheory": "Austenitization uses the high-temperature FCC phase to put carbon into solid solution. On cooling, this austenite can transform into pearlite under equilibrium conditions or other products under non-equilibrium cooling.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 27"
+  },
+  {
+    "id": 291,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "pearlite",
+      "microconstituent",
+      "lamellae"
+    ],
+    "diagramRequired": false,
+    "question": "What is UNTRUE on pearlite in carbon steels?",
+    "options": {
+      "A": "it is a mechanical mixture of alpha ferrite and Fe3C",
+      "B": "it forms by eutectoid transformation of austenite at A1 during slow/equilibrium cooling",
+      "C": "it consists of alternate lamellae, and smaller interlamellar distance means finer and harder pearlite",
+      "D": "it is a single crystal phase with one chemical composition like ferrite or cementite"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is untrue because pearlite is not a single phase; it is a microconstituent made of ferrite and cementite lamellae. A, B and C are true statements from the lecture and notes. The professor often traps this distinction between phase and microconstituent.",
+    "relevantTheory": "Pearlite forms when eutectoid austenite decomposes into ferrite plus cementite. It is described by colonies and lamellae, not single-phase grains. The lamellar spacing controls fineness and therefore strength/hardness.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 2 and 7-9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 23 and 27-28"
+  },
+  {
+    "id": 292,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "hypo-eutectoid",
+      "pro-eutectoid ferrite",
+      "cooling"
+    ],
+    "diagramRequired": false,
+    "question": "A 0.38 wt% C steel is cooled slowly from the austenite field to room temperature. Which product sequence is expected?",
+    "options": {
+      "A": "pro-eutectoid ferrite forms first, then the remaining austenite transforms to pearlite at A1",
+      "B": "pro-eutectoid cementite forms first, then all remaining liquid becomes graphite",
+      "C": "100% cementite forms before A1 because C is below 0.76 wt%",
+      "D": "no transformation occurs because austenite is always stable at room temperature in plain carbon steel"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because 0.38 wt% C is hypo-eutectoid. During slow cooling from austenite, ferrite precipitates before A1, enriching the remaining austenite until it reaches eutectoid composition; then that remaining austenite becomes pearlite. B is the hyper-eutectoid/cast-iron trap. C is impossible for low carbon steel. D is wrong for plain carbon steel; austenite needs strong austenitizers to be stable at room temperature.",
+    "relevantTheory": "In hypo-eutectoid steels the final equilibrium microstructure is pro-eutectoid ferrite plus pearlite. Increasing carbon below the eutectoid composition increases the pearlite fraction and decreases the pro-eutectoid ferrite fraction.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 9-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 28-29"
+  },
+  {
+    "id": 293,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "hyper-eutectoid",
+      "pro-eutectoid cementite",
+      "brittleness"
+    ],
+    "diagramRequired": false,
+    "question": "A 1.3 wt% C plain carbon steel is cooled slowly from austenite. Which statement is correct?",
+    "options": {
+      "A": "pro-eutectoid cementite forms before A1 and can envelope pearlite colonies after the eutectoid reaction",
+      "B": "pro-eutectoid ferrite is the first phase because 1.3 wt% C is hypo-eutectoid",
+      "C": "only ferrite forms because carbon content is high",
+      "D": "the final structure is always 100% graphite in the metastable Fe-Fe3C diagram"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because 1.3 wt% C is hyper-eutectoid, so cementite precipitates from austenite before A1 and the remaining austenite transforms to pearlite. B misclassifies the steel. C ignores carbon-rich carbide formation. D confuses the metastable Fe-Fe3C diagram with graphite-promoted cast-iron conditions.",
+    "relevantTheory": "Hyper-eutectoid steels contain pearlite plus pro-eutectoid cementite. Cementite films around pearlite colonies are hard and brittle; spheroidizing improves the microstructure by distributing carbides more favorably in ferrite.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 11-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 23 and 30"
+  },
+  {
+    "id": 294,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "lever rule",
+      "cementite fraction",
+      "wt percent"
+    ],
+    "diagramRequired": false,
+    "question": "Given 99.6 wt% Fe - 0.40 wt% C just below A1, estimate the weight fraction of cementite using C_alpha = 0.022 wt% C and C_Fe3C = 6.70 wt% C.",
+    "options": {
+      "A": "about 0.057, therefore about 5.7 g cementite per 100 g alloy",
+      "B": "about 0.40, therefore about 40 g cementite per 100 g alloy",
+      "C": "about 0.943, therefore almost all cementite",
+      "D": "zero, because cementite cannot exist below A1"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lever rule gives W_Fe3C = (C0 - C_alpha)/(C_Fe3C - C_alpha) = (0.40 - 0.022)/(6.70 - 0.022) = 0.057. In 100 g of alloy that is 5.7 g cementite. B treats carbon wt% as a phase fraction. C is the complementary ferrite-rich fraction, not cementite. D is wrong because below A1 the equilibrium products include ferrite and cementite.",
+    "relevantTheory": "In the Fe-C diagram, if carbon composition is expressed in wt%, lever-rule phase fractions are weight fractions. Always use the tie-line compositions of the phases, not only the nominal alloy carbon content.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 13 and 18; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 1"
+  },
+  {
+    "id": 295,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "pearlite",
+      "lever rule",
+      "ferrite cementite ratio"
+    ],
+    "diagramRequired": false,
+    "question": "At the eutectoid composition, estimate the ferrite and cementite weight fractions inside pearlite using C_gamma = 0.77 wt% C, C_alpha = 0.02 wt% C and C_Fe3C = 6.69 wt% C.",
+    "options": {
+      "A": "about 88.8 wt% ferrite and 11.2 wt% cementite",
+      "B": "about 50 wt% ferrite and 50 wt% cementite",
+      "C": "about 11.2 wt% ferrite and 88.8 wt% cementite",
+      "D": "100 wt% cementite because pearlite is dark in micrographs"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The ferrite fraction in pearlite is (C_Fe3C - C_gamma)/(C_Fe3C - C_alpha) = (6.69 - 0.77)/(6.69 - 0.02), about 0.888; cementite is the remainder, about 0.112. B ignores the very different carbon contents of ferrite and cementite. C reverses the lever rule result. D mistakes image contrast for phase fraction.",
+    "relevantTheory": "Pearlite is mostly ferrite by weight, with a smaller cementite fraction. The ferrite/cementite ratio inside pearlite is fixed by the eutectoid tie-line and stays the same for pearlite in different plain carbon steels.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 23 and 27"
+  },
+  {
+    "id": 296,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "peritectic",
+      "invariant reaction",
+      "delta ferrite"
+    ],
+    "diagramRequired": false,
+    "question": "Which invariant reaction describes the peritectic point in the Fe-C system?",
+    "options": {
+      "A": "liquid plus delta ferrite transform into austenite near 1493 C and about 0.16 wt% C",
+      "B": "austenite transforms into ferrite plus Fe3C at 727 C and 0.76 wt% C",
+      "C": "liquid transforms into austenite plus Fe3C near 1147 C and 4.3 wt% C",
+      "D": "ferrite transforms into graphite at room temperature"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the peritectic reaction in the lecture is liquid plus one solid phase, delta ferrite, producing a second solid phase, gamma austenite. B is the eutectoid reaction. C is the eutectic reaction. D is not one of the Fe-Fe3C invariant reactions.",
+    "relevantTheory": "The high-temperature peritectic region matters for solidification and welding because low-carbon structural steels can pass through liquid plus delta ferrite before becoming austenite. It is not the pearlite-forming reaction.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 1"
+  },
+  {
+    "id": 297,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "eutectic",
+      "cast iron",
+      "liquid reaction"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement identifies the eutectic reaction in the metastable Fe-Fe3C diagram?",
+    "options": {
+      "A": "liquid transforms into gamma austenite plus Fe3C at about 4.3 wt% C and 1147-1148 C",
+      "B": "austenite transforms into ferrite plus Fe3C at 0.76 wt% C and 727 C",
+      "C": "liquid plus delta ferrite transforms into gamma at about 0.16 wt% C",
+      "D": "cementite transforms into pure ferrite and pure carbon gas"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the eutectic is the liquid reaction at high carbon content: L gives gamma plus cementite. B is the eutectoid reaction in steels. C is the peritectic reaction. D is not a lecture reaction and invents a product not shown in the Fe-Fe3C diagram.",
+    "relevantTheory": "Do not confuse eutectic and eutectoid. Eutectic starts from liquid; eutectoid starts from a solid phase, austenite. In the Fe-Fe3C diagram the eutectic is associated with higher-carbon cast-iron compositions, while the eutectoid is central to steels.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 2-3"
+  },
+  {
+    "id": 298,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "eutectic",
+      "eutectoid",
+      "peritectic",
+      "reaction products"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NOT TRUE clause about invariant reactions in the Fe-C system.",
+    "options": {
+      "A": "the eutectoid reaction is gamma to alpha plus Fe3C",
+      "B": "the eutectic reaction starts from liquid",
+      "C": "the peritectic reaction involves liquid plus delta ferrite",
+      "D": "the eutectoid reaction starts from liquid"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause because the eutectoid reaction starts from solid austenite, not liquid. A, B and C are true definitions from the lecture. This is a common exam trap because the words eutectic and eutectoid look similar but refer to different parent phases.",
+    "relevantTheory": "Invariant reaction names encode the parent state: eutectic is liquid to two solids; eutectoid is one solid to two solids; peritectic is liquid plus solid to a new solid.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 2-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 24"
+  },
+  {
+    "id": 299,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "lever rule",
+      "hypo-eutectoid",
+      "pro-eutectoid ferrite"
+    ],
+    "diagramRequired": false,
+    "question": "For a 0.60 wt% C hypo-eutectoid steel just above A1, estimate the pro-eutectoid ferrite fraction using C_alpha = 0.02 wt% C and C_gamma = 0.77 wt% C.",
+    "options": {
+      "A": "about 23 wt% pro-eutectoid ferrite and 77 wt% austenite that later becomes pearlite",
+      "B": "about 77 wt% pro-eutectoid ferrite and 23 wt% pearlite",
+      "C": "about 8.7 wt% cementite and no pearlite",
+      "D": "100 wt% austenite at room temperature"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because W_alpha = (C_gamma - C0)/(C_gamma - C_alpha) = (0.77 - 0.60)/(0.77 - 0.02), about 0.23. The remaining austenite transforms to pearlite at A1. B reverses the lever-rule arms. C is the total cementite-type calculation below A1, not pro-eutectoid ferrite just above A1. D ignores the eutectoid transformation.",
+    "relevantTheory": "For hypo-eutectoid steels, just above A1 the two phases are pro-eutectoid ferrite plus austenite. The austenite fraction at that moment becomes pearlite just below A1, so pro-eutectoid ferrite plus pearlite is the room-temperature equilibrium microstructure.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 17 and 21; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 29"
+  },
+  {
+    "id": 300,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "lever rule",
+      "hyper-eutectoid",
+      "pro-eutectoid cementite"
+    ],
+    "diagramRequired": false,
+    "question": "For a 1.30 wt% C hyper-eutectoid steel just above A1, estimate the pearlite fraction after slow cooling using C_gamma = 0.76 wt% C and C_Fe3C = 6.67 wt% C.",
+    "options": {
+      "A": "about 91 wt% pearlite and 9 wt% pro-eutectoid cementite",
+      "B": "about 9 wt% pearlite and 91 wt% pro-eutectoid ferrite",
+      "C": "about 50 wt% pearlite and 50 wt% graphite",
+      "D": "100 wt% ferrite because 1.30 wt% C is below 2.1 wt%"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the austenite fraction just above A1 is (6.67 - 1.30)/(6.67 - 0.76), about 0.91, and that austenite becomes pearlite below A1. The remainder is pro-eutectoid cementite. B misidentifies both the amount and the pro-eutectoid phase. C invents graphite for the metastable diagram. D ignores the carbon-rich side of the eutectoid.",
+    "relevantTheory": "For hyper-eutectoid steels, the room-temperature equilibrium microstructure is pearlite plus pro-eutectoid cementite. The amount of pearlite equals the austenite fraction present just before the eutectoid reaction.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 12 and 19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 30"
+  },
+  {
+    "id": 301,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "lever rule",
+      "low carbon steel",
+      "pearlite fraction"
+    ],
+    "diagramRequired": false,
+    "question": "For a 0.16 wt% C hypo-eutectoid steel, estimate the pearlite fraction after equilibrium cooling using C_alpha = 0.022 wt% C and C_eutectoid = 0.76 wt% C.",
+    "options": {
+      "A": "about 19 wt% pearlite and 81 wt% pro-eutectoid ferrite",
+      "B": "about 81 wt% pearlite and 19 wt% cementite",
+      "C": "about 100 wt% pearlite because every steel becomes eutectoid",
+      "D": "zero ferrite because ferrite cannot exist below A1"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the pearlite fraction equals the austenite fraction just above A1: (C0 - C_alpha)/(C_eutectoid - C_alpha) = (0.16 - 0.022)/(0.76 - 0.022), about 0.19. B reverses the result and wrongly calls the remainder cementite. C ignores the nominal carbon content. D is false because ferrite is a stable room-temperature phase.",
+    "relevantTheory": "In hypo-eutectoid steels, low carbon means much pro-eutectoid ferrite and little pearlite. As carbon content increases toward the eutectoid composition, the pearlite fraction increases.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 9, 11 and 19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 28-29"
+  },
+  {
+    "id": 302,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "phase fraction",
+      "weight percent",
+      "volume percent"
+    ],
+    "diagramRequired": false,
+    "question": "When the Fe-C diagram composition axis is expressed in wt% C, what do lever-rule phase fractions represent?",
+    "options": {
+      "A": "weight fractions, unless the problem specifically converts to volume fractions using densities",
+      "B": "always volume fractions, regardless of the axis units",
+      "C": "atomic fractions of Fe only",
+      "D": "hardness values in HB"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture note explicitly warns that if the phase diagram uses wt% C, the calculated phase fractions are wt fractions. Volume fractions require density conversion, for example if lamellar thickness is requested. B ignores that warning. C and D are unrelated to the lever rule.",
+    "relevantTheory": "Lever-rule fractions inherit the composition basis of the phase diagram. Use wt% compositions for weight fractions; convert with phase densities only when the question asks for geometric or volume quantities.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 16"
+  },
+  {
+    "id": 303,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "carbon content",
+      "pearlite fraction",
+      "plain carbon steels"
+    ],
+    "diagramRequired": false,
+    "question": "In plain carbon steels below the eutectoid composition, what happens to the amount of pearlite as carbon content increases from 0.16 wt% C toward 0.76 wt% C?",
+    "options": {
+      "A": "the pearlite fraction increases because more austenite remains to transform at A1",
+      "B": "the pearlite fraction decreases because carbon destroys cementite",
+      "C": "the microstructure becomes 100% graphite before reaching 0.76 wt% C",
+      "D": "the amount of pearlite is independent of carbon content"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture micrographs show increasing pearlite colonies with increasing C in hypo-eutectoid steels. B is wrong because cementite is part of pearlite. C confuses low-carbon steel with graphite-promoted cast iron. D contradicts the Fe-C diagram and the micrographs.",
+    "relevantTheory": "For hypo-eutectoid steels, final microstructure is ferrite plus pearlite. Carbon content controls the balance: low-carbon steel is ferrite-rich, while near-eutectoid steel is mostly pearlite.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 28"
+  },
+  {
+    "id": 304,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "phase properties",
+      "ferrite",
+      "cementite",
+      "pearlite"
+    ],
+    "diagramRequired": false,
+    "question": "Which ranking best matches the Lecture 6 property summary for steel constituents?",
+    "options": {
+      "A": "ferrite is ductile and soft; cementite is very hard and brittle; pearlite has intermediate-high strength as a mechanical mixture",
+      "B": "cementite is the most ductile phase and ferrite has zero elongation",
+      "C": "graphite has high metallic tensile strength and is the main strengthening phase in steels",
+      "D": "pearlite is pure liquid and has no mechanical relevance"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the summary table describes ferrite as BCC, soft and highly elongating; cementite as orthorhombic, hard and zero-elongation; and pearlite as a mechanical mixture with higher strength than ferrite. B reverses ferrite and cementite. C ignores that graphite is not a metallic phase and has very low phase strength. D is wrong because pearlite is a solid microconstituent central to steel properties.",
+    "relevantTheory": "Steel properties come from combining phases and microconstituents. Ferrite gives ductility, cementite gives hardness/strength but brittleness, and pearlite combines ferrite and cementite lamellae into a stronger microconstituent.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 5-8 and 18"
+  },
+  {
+    "id": 305,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "phase",
+      "microconstituent",
+      "pearlite",
+      "eutectic"
+    ],
+    "diagramRequired": false,
+    "question": "Which item in the Lecture 6 summary is a microconstituent rather than a single phase?",
+    "options": {
+      "A": "pearlite",
+      "B": "ferrite",
+      "C": "austenite",
+      "D": "cementite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because pearlite is a mechanical mixture of ferrite and cementite. Ferrite, austenite and cementite are individual phases with their own crystal structures. This distinction matters because exam questions often ask whether pearlite is a phase; it is not.",
+    "relevantTheory": "A phase has one structure and composition range; a microconstituent is a recognizable microstructural aggregate. Pearlite and eutectic mixtures are microconstituents, while ferrite, austenite and cementite are phases.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 2, 7-8 and 18; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 23 and 27"
+  },
+  {
+    "id": 306,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "cementite morphology",
+      "hyper-eutectoid",
+      "heat treatment"
+    ],
+    "diagramRequired": false,
+    "question": "Which cementite morphology is associated with hyper-eutectoid steels and poor toughness before spheroidizing?",
+    "options": {
+      "A": "a film around prior austenite grain boundaries or around pearlite colonies",
+      "B": "only dissolved carbon atoms randomly spread in ferrite with no carbide",
+      "C": "liquid droplets inside austenite at room temperature",
+      "D": "graphite flakes caused only by very fast quenching"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slides and notes describe cementite film in hyper-eutectoid steels; this hard phase surrounding softer pearlite gives poor toughness. B ignores carbide formation. C is impossible at room temperature. D reverses graphite conditions, which need slow cooling, high carbon and silicon.",
+    "relevantTheory": "Cementite morphology matters as much as its amount. Lamellae, needles, spheroids and boundary films produce different mechanical behavior; spheroidizing changes sharp or continuous carbide networks into more favorable rounded carbides in ferrite.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 5 and 12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 23 and 25"
+  },
+  {
+    "id": 307,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "spheroidizing",
+      "hyper-eutectoid",
+      "toughness"
+    ],
+    "diagramRequired": false,
+    "question": "Why is spheroidizing useful for hyper-eutectoid steels in the Lecture 6 logic?",
+    "options": {
+      "A": "it changes unfavorable cementite networks/lamellae into fine spheroidal carbides in a ferritic matrix, improving the strength-toughness compromise",
+      "B": "it converts every carbide into liquid graphite at room temperature",
+      "C": "it removes ferrite and produces 100% brittle cementite",
+      "D": "it prevents any carbon-containing phase from existing"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because hyper-eutectoid steels can have brittle cementite films; spheroidizing gives rounded carbide particles in ferrite, which is more favorable for toughness and elongation. B, C and D are not the heat-treatment effect described in the lecture.",
+    "relevantTheory": "The same phases can give different properties depending on morphology. Continuous or sharp cementite is dangerous for toughness; rounded spheroidal carbides reduce stress concentration and improve usability.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 5 and 12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 23 and 25"
+  },
+  {
+    "id": 308,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Ac1 equation",
+      "alloying",
+      "A1 shift"
+    ],
+    "diagramRequired": false,
+    "question": "Using the Lecture 6 Ac1 expression, which alloying element listed with a negative coefficient tends to decrease Ac1/A1?",
+    "options": {
+      "A": "Mn",
+      "B": "Si",
+      "C": "Cr",
+      "D": "W"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Mn appears with a negative sign in the Ac1 expression, so increasing Mn tends to lower the critical temperature. Si, Cr and W appear with positive contributions in the displayed expression, so they tend to raise Ac1 in that simplified relation.",
+    "relevantTheory": "Alloying elements shift transformation points. The lecture uses Ac1 and Ac3 empirical expressions to show that austenitizers and ferritizers modify the Fe-C diagram rather than leaving A1, A3 and Acm fixed.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 4-5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 25"
+  },
+  {
+    "id": 309,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "austenitizing elements",
+      "A1",
+      "room temperature austenite"
+    ],
+    "diagramRequired": false,
+    "question": "What is the practical meaning of adding strong austenitizing elements such as Ni or Mn?",
+    "options": {
+      "A": "they expand/stabilize the austenite field and can help austenite remain stable to lower temperature",
+      "B": "they always force all steel to become graphite",
+      "C": "they eliminate the FCC structure of austenite",
+      "D": "they make cementite the only possible room-temperature constituent"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes say austenitizing elements promote the austenite field and may help austenite stabilize at room temperature when cooling is not severe. B, C and D are not effects of Ni or Mn in this lecture. Austenite remains FCC, and carbides are not the only possible product.",
+    "relevantTheory": "Austenitizers and ferritizers are used to understand how alloying changes transformation fields. Ni and Mn fit well into the Fe lattice and favor austenite; Cr, Si, Al, Mo, Ti and V favor ferrite.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 24-25"
+  },
+  {
+    "id": 310,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "metastable diagram",
+      "graphite",
+      "cementite"
+    ],
+    "diagramRequired": false,
+    "question": "Why is the Fe-Fe3C diagram called metastable in this lecture?",
+    "options": {
+      "A": "because it uses cementite Fe3C as the carbon-rich phase even though graphite can be promoted under very slow cooling, high C and Si",
+      "B": "because no phase transformation can happen in steels",
+      "C": "because ferrite is liquid at room temperature",
+      "D": "because austenite is always stable at room temperature in plain carbon steels"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the diagram treated in Lecture 6 is the Fe-Fe3C metastable equilibrium diagram: carbon is represented as cementite, while graphite can form under graphitizing conditions. B, C and D are false statements about the phase diagram and steel transformations.",
+    "relevantTheory": "Metastable does not mean useless. The Fe-Fe3C diagram is the standard working diagram for steels because cementite controls most plain-carbon steel microstructures under ordinary processing conditions.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 2 and 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26"
+  },
+  {
+    "id": 311,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "steel cast iron boundary",
+      "carbon content",
+      "eutectic"
+    ],
+    "diagramRequired": false,
+    "question": "Which carbon range belongs to hyper-eutectoid steels in the Lecture 6 cooling discussion?",
+    "options": {
+      "A": "about 0.76 wt% C to about 2.1 wt% C",
+      "B": "0 to 0.025 wt% C only",
+      "C": "above 4.3 wt% C only",
+      "D": "exactly 6.67 wt% C only"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide labels hyper-eutectoid steels as 0.76 wt% < C < 2.1 wt%. B is essentially very low-carbon ferrite-side composition. C moves into cast-iron/eutectic-region thinking, not steel classification. D is cementite composition, not a steel range.",
+    "relevantTheory": "The lecture separates steels by carbon content relative to the eutectoid point and the approximate steel/cast-iron boundary. Hypo-eutectoid is below 0.76 wt% C; hyper-eutectoid is above 0.76 wt% C but still in the steel range.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 2 and 11-12"
+  },
+  {
+    "id": 312,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "peritectic",
+      "welding",
+      "solidification"
+    ],
+    "diagramRequired": false,
+    "question": "Why does the peritectic transformation deserve attention in fusion welding of structural steels?",
+    "options": {
+      "A": "the weld region melts and then solidifies through the high-temperature liquid/delta/gamma part of the Fe-C diagram",
+      "B": "welding only occurs below A1, so no high-temperature phase transformation is involved",
+      "C": "the peritectic reaction is the same as pearlite formation at room temperature",
+      "D": "structural steels transform directly from liquid into graphite flakes because they are low carbon"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because fusion welding locally melts the steel; during solidification, low-carbon steels can pass through the peritectic region where liquid and delta ferrite react to form austenite. B ignores melting. C confuses peritectic with eutectoid. D confuses graphitizing cast iron with structural steels.",
+    "relevantTheory": "The upper part of the Fe-C diagram is not just academic: it controls solidification paths in processes such as welding. The lower eutectoid region controls pearlite/ferrite/cementite products after solid-state cooling.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 1"
+  },
+  {
+    "id": 313,
+    "deck": "slides",
+    "moduleId": "lecture-6-fe-c",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "equilibrium diagram",
+      "cooling rate",
+      "limitations"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement is the best limitation of using the Fe-Fe3C equilibrium diagram alone?",
+    "options": {
+      "A": "it predicts equilibrium phase fields and fractions, but fast cooling can shift transformation temperatures and produce non-equilibrium products such as bainite or martensite",
+      "B": "it can predict only optical color and never phase fractions",
+      "C": "it is valid only for pure aluminium alloys",
+      "D": "it proves that cooling rate has no influence on steel microstructure"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture immediately distinguishes equilibrium critical points from non-equilibrium Ac, Ar, Bs, Bf, Ms and Mf temperatures. B is false because the diagram and lever rule do predict phase fields and fractions. C is irrelevant. D is the opposite of heat-treatment logic.",
+    "relevantTheory": "The Fe-Fe3C diagram is the baseline for slow/equilibrium transformations. Real heat treatment needs kinetic diagrams and non-equilibrium critical points because diffusion and cooling rate control whether austenite becomes ferrite/pearlite, bainite or martensite.",
+    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slides/pages 3-4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 24"
+  },
+  {
+    "id": 314,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "steel classification",
+      "standards",
+      "designation criteria"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best describes how standards classify steels in Lecture 7?",
+    "options": {
+      "A": "standards may mix alloy content, heat treatment, application and workability criteria",
+      "B": "standards classify steels only by carbon percentage",
+      "C": "standards classify steels only by final hardness after quenching",
+      "D": "standards avoid application names such as structural or deep drawing"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture says steels can be classified by alloying element content, heat treatment, application and workability, and that standards typically do not follow only one criterion. B is wrong because carbon percentage is only one possible chemical criterion. C is wrong because heat treatment is only one family of criteria. D is wrong because S, D, H, P and similar designations are application/property groups.",
+    "relevantTheory": "Steel designation is not a single universal naming rule. EN systems can name steels by use and mechanical properties or by chemical composition, so the first exam step is to recognize which designation family is being used.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 4"
+  },
+  {
+    "id": 315,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "UNI EN 10020",
+      "alloyed steel",
+      "composition limits"
+    ],
+    "diagramRequired": false,
+    "question": "According to UNI EN 10020 in the lecture, when is a steel named alloyed rather than unalloyed?",
+    "options": {
+      "A": "when at least one element content is above its specified mass-percent limit",
+      "B": "only when carbon is higher than 2 wt.%C",
+      "C": "only when chromium is higher than 10.5% and carbon is lower than 1.2%",
+      "D": "whenever the steel is heat treated after rolling"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slide states that if at least one element content exceeds the listed limit, the steel is named alloyed; otherwise it is unalloyed. B is wrong because this is not the EN 10020 alloyed/unalloyed criterion. C defines stainless steels, not all alloyed steels. D is wrong because heat treatment class and chemical class are different criteria.",
+    "relevantTheory": "Lecture 7 lists mass-percent limits such as Mn 1.65, Cr 0.3, Ni 0.3, Mo 0.06, W 0.3 and V 0.1. Exceeding one of these makes the steel alloyed in the EN classification logic.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 4"
+  },
+  {
+    "id": 316,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "stainless steel",
+      "Cr",
+      "C limit"
+    ],
+    "diagramRequired": false,
+    "question": "In the Lecture 7 classification, which composition condition identifies stainless steels?",
+    "options": {
+      "A": "Cr > 10.5% and C < 1.2%",
+      "B": "Cr > 0.3% and C > 2%",
+      "C": "Ni > 10.5% and C < 0.12%",
+      "D": "Mo > 10.5% and Mn < 1%"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide gives stainless steels as Cr greater than 10.5% and C lower than 1.2%. B confuses the low Cr threshold used in the alloyed/unalloyed table with stainless classification and gives too much carbon. C wrongly substitutes Ni for Cr. D wrongly makes Mo the stainless-forming element.",
+    "relevantTheory": "Stainless classification in this lecture is chemical: enough chromium is needed for stainless behavior, while carbon must remain below the stated limit. This is separate from AISI family names discussed later.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 4"
+  },
+  {
+    "id": 317,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "S235JR",
+      "structural steel",
+      "impact energy"
+    ],
+    "diagramRequired": false,
+    "question": "What is the correct reading of S235JR in the EN alphanumeric system?",
+    "options": {
+      "A": "structural steel, Rp0.2 about 235 MPa, impact energy at least 27 J at room temperature",
+      "B": "stainless steel, 2.35%C, resilience at -20 °C",
+      "C": "spring steel, Rm exactly 235 MPa, impact energy 40 J",
+      "D": "steel with 235% carbon and chromium specified by the letters JR"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: S is the structural group, 235 is the prescribed yield property value Rp0.2 in MPa, J means at least 27 J resilience and R means room temperature, +20 °C. B is wrong because S is not stainless and 235 is not carbon. C is wrong because the number refers to yield stress, not exact ultimate stress, and J is 27 J rather than 40 J. D is chemically impossible.",
+    "relevantTheory": "For property/use designations, read the group letter first, then the property value, then additional impact symbols. In S235XY, X gives the energy class (J, K, L) and Y gives the testing temperature (R, 0, 2, 3, etc.).",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 3-4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 4-5"
+  },
+  {
+    "id": 318,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "S235J2",
+      "resilience temperature",
+      "additional symbols"
+    ],
+    "diagramRequired": false,
+    "question": "For the structural steel symbol S235J2, what does the final symbol 2 indicate?",
+    "options": {
+      "A": "the impact-energy requirement is checked at -20 °C",
+      "B": "the nominal carbon content is 0.02%",
+      "C": "the ultimate tensile strength is 2 MPa",
+      "D": "the steel contains 2% chromium"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture lists R as +20 °C, 0 as 0 °C, 2 as -20 °C and 3 as -30 °C for the temperature part of S235XY. B is wrong because this is not a chemical composition code. C is wrong because the strength value is 235. D is wrong because no Cr content is encoded by the number 2 here.",
+    "relevantTheory": "In S-group structural steels, the last symbols are toughness/resilience requirements. J, K and L indicate minimum impact energy classes, while R, 0, 2, 3 indicate the test temperature.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 5"
+  },
+  {
+    "id": 319,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "structural steels",
+      "weldability",
+      "composition limits"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NOT TRUE clause for EN structural steels such as S235 and S355 in Lecture 7.",
+    "options": {
+      "A": "their required strength can be obtained by different compositions and thermomechanical treatments",
+      "B": "maximum C and Mn limits are prescribed for welding purposes",
+      "C": "the present designation uses yield stress rather than the old Fe 360 or Fe 510 fracture-stress style",
+      "D": "the grade number directly gives the exact carbon content in wt.%"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause because 235 or 355 in S235/S355 is a yield-property value, not wt.% carbon. A is true because the producer may meet prescribed properties using different composition/process combinations. B is true because the slide emphasizes maximum C and Mn for weldability. C is true because the notes explain that the old designation considered fracture stress, while the present one considers yield stress.",
+    "relevantTheory": "Structural steel designations are property/use designations. They prescribe mechanical performance and weldability limits, not a complete composition recipe. This is a common exam trap because chemical designations also use numbers.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 5"
+  },
+  {
+    "id": 320,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "D steels",
+      "deep drawing",
+      "subgroups"
+    ],
+    "diagramRequired": false,
+    "question": "In the EN use-group designations for deep drawing sheets, what do DC and DD mean?",
+    "options": {
+      "A": "DC is cold rolled and DD is hot rolled",
+      "B": "DC is chromium steel and DD is duplex stainless steel",
+      "C": "DC is carburized and DD is diffusionless hardened",
+      "D": "DC is cast iron and DD is drawing dies"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the Lecture 7 slide lists DX as not specified, DC as cold rolled and DD as hot rolled for drawing sheets. B is wrong because the letters here are rolling/forming subgroups, not alloy chemistry or stainless classes. C is wrong because carburizing and diffusionless transformation are heat-treatment concepts. D is unrelated to the EN sheet-steel subgroup notation.",
+    "relevantTheory": "D-group steels are deep drawing sheets. In this property/use family, the subgroup letter helps identify product route or specification style, while conventional numbers such as 11 or 13 do not directly encode carbon like C45 does.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 5-6"
+  },
+  {
+    "id": 321,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "HCT600X",
+      "AHSS",
+      "microstructure symbol"
+    ],
+    "diagramRequired": false,
+    "question": "What is the best interpretation of HCT600X in the Lecture 7 notation?",
+    "options": {
+      "A": "high strength deep drawing sheet, cold rolled, tensile strength class above 600 MPa, dual phase microstructure",
+      "B": "high pressure steel, carbon content 0.600%, tempered martensite microstructure",
+      "C": "high speed steel with 600% tungsten and chromium",
+      "D": "hot rolled deep drawing sheet with exactly 600 MPa yield stress and ferritic-bainitic microstructure"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: H is high strength deep drawing sheet, C in the subgroup is cold rolling type, T(n)nnn refers to the Rm property class, and X is dual phase. B is wrong because H is not high pressure here and 600 is not carbon. C confuses H with HS rapid steels. D is wrong because hot rolled would use D, 600 is the tensile strength class, and ferritic-bainitic would be F.",
+    "relevantTheory": "For H steels in EN 10346, read group, rolling type, tensile-strength property and microstructure symbol together. X means dual phase, F ferritic-bainitic, T TRIP, C complex phase and M martensitic.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 5"
+  },
+  {
+    "id": 322,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "calculation",
+    "trapTags": [
+      "C45",
+      "carbon content",
+      "unalloyed steel"
+    ],
+    "diagramRequired": false,
+    "question": "What nominal carbon content is indicated by the unalloyed steel designation C45?",
+    "options": {
+      "A": "about 0.45 wt.% C",
+      "B": "about 4.5 wt.% C",
+      "C": "about 45 wt.% C",
+      "D": "about 0.045 wt.% C"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because for unalloyed steels with Mn below 1%, the format CNN uses NN = nominal %C x 100. Thus 45 means 0.45%C. B and C are far too high for steel designation logic. D would correspond to a number near C4 or C05, not C45.",
+    "relevantTheory": "Chemical EN designations must be decoded by their own multiplier. In plain carbon designations such as C10 or C45, the number after C is carbon percentage multiplied by 100.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 7"
+  },
+  {
+    "id": 323,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "28Mn6",
+      "factor 4",
+      "low alloy steel"
+    ],
+    "diagramRequired": false,
+    "question": "Using the Lecture 7 EN composition rule, what does 28Mn6 approximately mean?",
+    "options": {
+      "A": "0.28%C and about 1.5% Mn",
+      "B": "2.8%C and about 6% Mn",
+      "C": "0.28%C and about 0.06% Mn",
+      "D": "28%C and about 1.5% Mo"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the first number gives carbon x100, so 28 means 0.28%C. For Mn the factor is 4, so Mn6 means about 6/4 = 1.5% Mn. B misreads both multipliers. C uses a factor of 100 instead of 4 for Mn. D is chemically impossible and changes Mn to Mo.",
+    "relevantTheory": "For unalloyed steels with Mn > 1% or low alloy steels where each alloy element is below 5%, the format is NN elements n-values. The n-values are not direct percentages; they must be divided by the element factor.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 7"
+  },
+  {
+    "id": 324,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "42CrMo4",
+      "alloy factors",
+      "Cr",
+      "Mo"
+    ],
+    "diagramRequired": false,
+    "question": "Estimate the nominal C, Cr and Mo contents encoded in 42CrMo4.",
+    "options": {
+      "A": "about 0.42%C, 1%Cr and Mo present but not directly given by a separate number",
+      "B": "about 4.2%C, 4%Cr and 4%Mo",
+      "C": "about 0.42%C, 0.4%Cr and no Mo",
+      "D": "about 0.04%C, 2%Cr and 4%Mn"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct for the notation shown in the lecture: 42 gives 0.42%C; Cr uses factor 4 so the final 4 gives about 1%Cr; Mo is named as an alloying element but not all elements necessarily appear with their own number in the grade notation. The composition table confirms Mo is present around 0.15-0.3%. B treats all digits as direct percentages. C divides Cr by 10 and ignores Mo. D misreads the carbon number and invents Mn.",
+    "relevantTheory": "Low-alloy EN names list alloying symbols and scaled numbers, but the lecture warns that not all elements appear with a separate numeric value. Do not decode 42CrMo4 as 4% Mo; use the element factors and the examples.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 6-7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 7"
+  },
+  {
+    "id": 325,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Mn omission",
+      "grade notation",
+      "low alloy"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement is a correct trap warning for EN low-alloy chemical designations?",
+    "options": {
+      "A": "not all elements appear in the grade notation, and Mn is usually not prescribed when it is below 1%",
+      "B": "every alloying element must always have an explicit number after it",
+      "C": "Mn is always written even when it is only a residual impurity below 1%",
+      "D": "the order of letters never has any connection with the alloying elements"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that not all elements appear in the grade notation and gives Mn below 1% as the usual example. B and C contradict this warning. D is wrong because the letters are the chemical symbols of alloying elements, even if the numerical values are incomplete or scaled.",
+    "relevantTheory": "EN chemical names are compact identifiers, not full certificates of analysis. The professor's trap is to treat them as if every composition detail were written literally in the symbol.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 7"
+  },
+  {
+    "id": 326,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "X100CrMoV5",
+      "high alloy",
+      "direct percentages"
+    ],
+    "diagramRequired": false,
+    "question": "What is the correct way to read X100CrMoV5 in the Lecture 7 chemical-designation logic?",
+    "options": {
+      "A": "a high-alloy steel with about 1.00%C and about 5% Cr, with Mo and V also present",
+      "B": "a plain carbon steel with 0.100%C and no alloy elements",
+      "C": "a low-alloy steel where Cr5 must be divided by 4 to give 1.25% Cr",
+      "D": "a rapid steel where the sequence must be W-Mo-V-Co"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because X means alloyed with at least one element above 5% in this lecture system; 100 gives carbon x100, about 1.00%C, and the alloy numbers are nominal contents directly, so Cr is about 5%. B ignores the X and alloy letters. C incorrectly applies the low-alloy factor rule to an X-grade. D confuses X tool-steel notation with HS rapid steel notation.",
+    "relevantTheory": "For X grades, after XNN the element percentages are nominal alloy contents, not factor-multiplied values. This differs from low-alloy names such as 28Mn6 or 42CrMo4.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 6 and 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 7-8"
+  },
+  {
+    "id": 327,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "HS steel",
+      "rapid steel",
+      "W Mo V Co"
+    ],
+    "diagramRequired": false,
+    "question": "In Lecture 7, how are rapid steels or high speed steels designated?",
+    "options": {
+      "A": "HS followed by nominal percentages in the order W-Mo-V-Co",
+      "B": "X followed by yield stress and impact energy",
+      "C": "S followed by carbon percentage multiplied by 100",
+      "D": "D followed by the J, K or L resilience class"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide gives rapid steels as HS [%W]-[%Mo]-[%V]-[%Co], for example HS 6-5-3-8. B confuses high-alloy composition grades with property/use notation. C confuses structural S grades and plain carbon CNN grades. D confuses deep drawing group D with structural toughness symbols.",
+    "relevantTheory": "High speed steels are a special exception in the chemical designation section. Their HS code directly lists nominal W, Mo, V and Co contents in a fixed order.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 7"
+  },
+  {
+    "id": 328,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "C10",
+      "20NiCrMo2-2",
+      "carburizing steels"
+    ],
+    "diagramRequired": false,
+    "question": "Which designation from Lecture 7 belongs to the carburizing steel examples rather than the tempering steel examples?",
+    "options": {
+      "A": "20NiCrMo2-2",
+      "B": "42CrMo4",
+      "C": "C45E",
+      "D": "X38CrMoV5-3"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the carburizing-steel slide lists C10E/C10R and 20NiCrMo2-2 or 20NiCrMoS2-2. B and C are listed under tempering steels in UNI EN 10083. D is listed under tool steels, UNI EN ISO 4957.",
+    "relevantTheory": "Lecture 7 uses examples to connect designations with steel families: C45E and 42CrMo4 are tempering steels, 20NiCrMo2-2 is a carburizing steel, and X100CrMoV5 or X38CrMoV5-3 are tool steels.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 7-8"
+  },
+  {
+    "id": 329,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "20NiCrMo2-2",
+      "S addition",
+      "automatic steels",
+      "machinability"
+    ],
+    "diagramRequired": false,
+    "question": "In the lecture examples, what is the most reasonable meaning of the S added in 20NiCrMoS2-2 compared with 20NiCrMo2-2?",
+    "options": {
+      "A": "sulfur is intentionally present in the specified range, improving machinability/free machining behavior",
+      "B": "the steel becomes stainless because S means stainless",
+      "C": "the steel becomes structural because S always means structural",
+      "D": "the carbon content becomes zero because S removes carbon from the code"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the example table shows an S range for the S variant, and the notes connect automatic/free-machining behavior with added sulfur producing easier chip breakage. B is wrong because stainless is defined chemically by Cr > 10.5% and C < 1.2%, not by an S letter here. C is a trap: S can mean structural only in property/use designations like S235, not inside this chemical grade. D is chemically meaningless.",
+    "relevantTheory": "The same letter can have different meaning depending on the designation family. In chemical examples such as 42CrMoS4 or 20NiCrMoS2-2, S indicates sulfur-controlled variants; in S235 it is the structural group letter.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 1 and 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 4"
+  },
+  {
+    "id": 330,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "AISI 1040",
+      "plain carbon",
+      "carbon class"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI/SAE designation AISI 1040, what does the 40 mainly indicate?",
+    "options": {
+      "A": "about 0.40 wt.% C in a 10XX plain carbon steel",
+      "B": "about 40 wt.% C in a stainless steel",
+      "C": "about 4.0 wt.% Mo in a 40XX molybdenum steel",
+      "D": "yield stress of 40 MPa"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because AISI/SAE uses [group][%C x 100], and 10XX is plain carbon steel. B is impossible and confuses AISI 1040 with stainless steels. C misreads the group: 40XX, not 1040, is the Mo family. D confuses AISI chemical numbering with EN mechanical-property designations.",
+    "relevantTheory": "In AISI/SAE steels, the first digits identify the alloy family and the last two digits give approximate carbon percentage multiplied by 100. Thus 1040 is a medium-carbon plain carbon steel.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 8-9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 8"
+  },
+  {
+    "id": 331,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "AISI 4340",
+      "Ni-Cr-Mo",
+      "carbon content"
+    ],
+    "diagramRequired": false,
+    "question": "What is the best classification of AISI 4340 from the Lecture 7 AISI/SAE table?",
+    "options": {
+      "A": "Ni-Cr-Mo low alloy steel with about 0.40%C",
+      "B": "plain carbon steel with about 4.340%C",
+      "C": "Cr stainless steel with more than 10.5%Cr",
+      "D": "high speed steel with W-Mo-V-Co contents 4-3-4-0"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the table lists 43XX as Ni-Cr-Mo steels and the final 40 gives about 0.40%C. B ignores the family digits and misreads the carbon. C wrongly treats any chromium-containing alloy as stainless. D confuses AISI numbering with HS rapid steel notation.",
+    "relevantTheory": "AISI/SAE family numbers are essential: 10XX plain carbon, 40XX Mo, 41XX Cr-Mo, 43XX Ni-Cr-Mo and 51XX Cr are examples from the lecture. The last two digits still indicate carbon x100.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 8-9"
+  },
+  {
+    "id": 332,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Mo",
+      "temper embrittlement",
+      "alloying effects"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the UNTRUE clause about Mo in steels according to the Lecture 7 alloying-effects table.",
+    "options": {
+      "A": "Mo is a strong carbide former",
+      "B": "Mo helps prevent temper embrittlement in medium-low alloy steels",
+      "C": "Mo can increase hardness or hot hardness and UTS in low-carbon steels",
+      "D": "Mo is mainly added to make steels plain carbon 10XX grades"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the UNTRUE clause because plain carbon 10XX steels are defined by the absence of intentional alloy-family additions such as Mo. A is true because the slide calls Mo a strong carbide former. B is true and is a recurring professor exam trap: Mo prevents temper embrittlement. C is true because the slide links Mo with hardness, high-temperature hardness and UTS effects.",
+    "relevantTheory": "The AISI/SAE part of Lecture 7 does more than decode numbers; it also attaches effects to alloying elements. Mo is especially important for carbides, hardenability/hot hardness and resistance to temper embrittlement.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 20 and 24"
+  },
+  {
+    "id": 333,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "numeric designation",
+      "exam exclusion",
+      "UNI EN 10027"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about the numeric UNI EN 10027 designation 1.XXYY matches the lecture emphasis?",
+    "options": {
+      "A": "1 means steel, XX is a group, YY is a progressive number, but this numeric designation was marked not to be asked at the exam",
+      "B": "1 means aluminium alloy and XXYY gives the exact carbon content",
+      "C": "the numeric code replaces all alphanumeric rules and is the main exam focus",
+      "D": "the first two digits after the point always give chromium percent"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide defines 1.XXYY as 1 = steel, XX = group, YY = progressive number, and explicitly notes NOT TO BE ASKED AT THE EXAM. B is wrong because 1 denotes steel here, not aluminium. C contradicts the lecture note about exam relevance. D is wrong because XX is a group code, not a universal chromium percentage.",
+    "relevantTheory": "Numeric EN designations exist and can map examples such as S355JR, C45E or 42CrMo4 to 1.xxxx codes. For this course, the professor emphasized awareness but marked the numeric table as not exam material.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 8"
+  },
+  {
+    "id": 334,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "quality steels",
+      "special steels",
+      "CVN"
+    ],
+    "diagramRequired": false,
+    "question": "In UNI EN 10020 terminology from Lecture 7, what makes an unalloyed steel “special” rather than just “quality”?",
+    "options": {
+      "A": "it has extra specifications such as CVN/resilience, hardenability or purity with bounded inclusion content",
+      "B": "it must contain more than 10.5% Cr",
+      "C": "it must be named only by AISI/SAE numbers",
+      "D": "it is special only because it has no mechanical requirements"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide lists special unalloyed steels as having specifications such as CVN, hardenability and purity or bounded inclusion content. B is the stainless-steel chemical criterion, not the quality/special distinction. C is wrong because UNI EN 10020 is an EN classification context. D is the opposite: special means more specified, not less specified.",
+    "relevantTheory": "Lecture 7 separates unalloyed steels into quality and special classes. “Special” does not mean exotic alloyed composition; it means stricter or more targeted requirements, especially toughness, hardenability or cleanliness.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 4"
+  },
+  {
+    "id": 335,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "alloyed quality steels",
+      "alloyed special steels",
+      "applications"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NOT TRUE clause about alloyed quality and alloyed special steels in Lecture 7.",
+    "options": {
+      "A": "alloyed quality steels may include weldable small-grain, railway, cold-forming sheet or magnetic-use steels",
+      "B": "alloyed special steels include examples such as tempering, carburizing, tool and rapid steels",
+      "C": "all alloyed steels are automatically stainless steels",
+      "D": "the quality/special distinction is not the same as simply reading one alloy percentage"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the NOT TRUE clause. Stainless steels are only the subgroup satisfying Cr > 10.5% and C < 1.2%; many alloyed steels are not stainless. A and B reproduce the lecture examples. D is true because standards combine composition, use and processing requirements.",
+    "relevantTheory": "Alloyed steel is a broad classification. EN quality alloyed steels often emphasize controlled service/product requirements, while special alloyed steels include heat-treatment and tool families; stainless is only one chemical family.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 4"
+  },
+  {
+    "id": 336,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "use groups",
+      "S P R D H M",
+      "property designation"
+    ],
+    "diagramRequired": false,
+    "question": "Which list correctly matches the use-group letters shown in Lecture 7?",
+    "options": {
+      "A": "S structural, P high pressure, R railway, D deep drawing sheets, H high strength deep drawing sheets, M magnetic properties",
+      "B": "S stainless, P pearlite, R recrystallized, D diffusion, H hardenability, M martensite",
+      "C": "S sulfur, P phosphorus, R rolling, D density, H heat, M molybdenum",
+      "D": "S structural, P plasticity, R rapid steel, D duplex, H high speed, M manganese"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because it follows the use-group examples on the slide. B, C and D mix real metallurgy words with wrong meanings for this designation family. The trap is that the same letter may mean something else in another context, but in the property/use designation it is the group symbol.",
+    "relevantTheory": "For EN property/use designations, the first letter identifies the steel use group. Do not decode S, D, H or M chemically unless the whole grade format is a chemical-composition designation.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 3"
+  },
+  {
+    "id": 337,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "S235",
+      "product size",
+      "Rm range"
+    ],
+    "diagramRequired": false,
+    "question": "For S235 in the Lecture 7 table, why is it wrong to treat the designation as a fixed exact Rm value for every product diameter?",
+    "options": {
+      "A": "the table gives Rm ranges, and the allowed Rm range changes with product diameter",
+      "B": "S235 contains exactly 235 MPa ultimate tensile strength by definition",
+      "C": "S235 is a chemical code where 235 means 2.35%C",
+      "D": "diameter is irrelevant because standards never consider product form"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide gives S235 Rm ranges for diameter classes, with Rm decreasing slightly for larger diameters. B confuses the 235 yield-property value with exact ultimate strength. C confuses property/use designation with chemical composition. D contradicts the table.",
+    "relevantTheory": "Structural grades prescribe property windows, not one universal single value. Product dimensions can affect guaranteed strength ranges, while the grade name still communicates the main yield class.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 5"
+  },
+  {
+    "id": 338,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "DD11",
+      "DD13",
+      "conventional numbers"
+    ],
+    "diagramRequired": false,
+    "question": "What is the correct interpretation of the numbers in DD11 and DD13?",
+    "options": {
+      "A": "11 and 13 are conventional grade numbers in the deep-drawing sheet system",
+      "B": "DD11 contains exactly 0.11%C and DD13 exactly 0.13%C",
+      "C": "11 and 13 are the impact-test temperatures in degrees Celsius",
+      "D": "DD11 and DD13 are AISI low alloy steels with 1.1% and 1.3% Mn"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide explicitly states that 11 and 13 are conventional numbers. B is a trap from chemical grades such as C45, but the DD table actually shows maximum C values below 0.12 and 0.08. C confuses structural impact symbols. D confuses EN deep drawing sheets with AISI notation.",
+    "relevantTheory": "Deep drawing sheet designations belong to the property/use family. Their trailing numbers identify conventional grades, while carbon and manganese limits are given separately for weldability/formability.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 5-6"
+  },
+  {
+    "id": 339,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "HDT950C",
+      "complex phase",
+      "hot rolled"
+    ],
+    "diagramRequired": false,
+    "question": "What is the best reading of HDT950C in the high-strength deep drawing sheet notation?",
+    "options": {
+      "A": "H group, hot rolled D, Rm class above 950 MPa, complex phase microstructure C",
+      "B": "H group, cold rolled C, Rm above 950 MPa, dual phase X",
+      "C": "high speed steel with 950%C and cobalt",
+      "D": "plain carbon steel with 0.950%C and no microstructure symbol"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: H is high strength deep drawing sheet, D is the hot-rolled subgroup, T950 is the tensile-strength property class, and final C is complex phase. B describes HCT600X, not HDT950C. C confuses H with HS rapid steel notation. D treats a property/use sheet designation as a plain carbon chemical code.",
+    "relevantTheory": "In H sheet grades, letters must be read by position. C after H can mean cold rolling in HCT, while final C can mean complex phase microstructure; position is part of the code.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 5"
+  },
+  {
+    "id": 340,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "20NiCrMo2-2",
+      "factor 4",
+      "factor 10"
+    ],
+    "diagramRequired": false,
+    "question": "In the low-alloy EN designation 20NiCrMo2-2, what is the best approximate decoding from the lecture rules?",
+    "options": {
+      "A": "about 0.20%C, about 0.5% Ni/Cr-scale alloying numbers, and Mo present in a small specified range",
+      "B": "about 20%C, 2% Ni and 2% Mo",
+      "C": "about 0.20%C and exactly 2% Ni, 2% Cr and 2% Mo",
+      "D": "a high-alloy X-grade with more than 5% of each named element"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct in the lecture logic: 20 means 0.20%C; Ni and Cr use the factor 4 so a value 2 corresponds to about 0.5%; the table gives Mo around 0.15-0.25. B and C read the scaled numbers as direct percentages. D is wrong because this is a low-alloy designation, not an X-grade.",
+    "relevantTheory": "For low-alloy EN grades, alloy numbers are scaled by element factors. Cr, Ni, Mn, Co, Si and W use factor 4; Mo uses factor 10; not every named element necessarily has a separate obvious number in the compact grade.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 6-7"
+  },
+  {
+    "id": 341,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "S factor",
+      "B factor",
+      "element factors"
+    ],
+    "diagramRequired": false,
+    "question": "Which pair of factor rules from Lecture 7 is correct for low-alloy chemical designations?",
+    "options": {
+      "A": "S uses factor 100 and B uses factor 1000",
+      "B": "S uses factor 4 and B uses factor 10",
+      "C": "S and B are always direct percentages in low-alloy names",
+      "D": "S and B are never allowed in steel designations"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the factor table lists S with factor 100 and B with factor 1000. B gives factors belonging to other elements. C is wrong because low-alloy n-values are scaled. D is wrong because S is shown in example grades such as 42CrMoS4 and 20NiCrMoS2-2, and B appears in the factor table.",
+    "relevantTheory": "The element factor table prevents decoding errors. Large factors are used for elements present in small amounts, so a small number in the name can correspond to a very small mass percentage.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 6"
+  },
+  {
+    "id": 342,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "X38CrMoV5-3",
+      "tool steel",
+      "high alloy"
+    ],
+    "diagramRequired": false,
+    "question": "How should X38CrMoV5-3 be decoded at the level expected from Lecture 7?",
+    "options": {
+      "A": "a high-alloy/tool steel with about 0.38%C, about 5% Cr and about 3% Mo, with V also present",
+      "B": "a low-alloy steel with 0.38%C, 1.25% Cr and 0.3% Mo after applying factors",
+      "C": "a plain carbon steel with 38%C",
+      "D": "an AISI 38XX steel with 5.3%C"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because X grades use direct nominal alloy percentages after the element symbols; the tool-steel table shows X38CrMoV5-3 with about 0.35-0.40%C, about 2.7-3.2% Cr and Mo in the same range, and V present. The designation shorthand emphasizes the X-grade direct-percent rule rather than low-alloy factors. B wrongly applies low-alloy factors. C and D use the wrong designation family.",
+    "relevantTheory": "X grades are used when at least one alloy element is above the high-alloy threshold, except rapid steels. The carbon number is still %C x100, but the alloy numbers are nominal percentages, not factor-scaled values.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 6 and 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 7-8"
+  },
+  {
+    "id": 343,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "HS 6-5-3-8",
+      "high speed steel",
+      "W Mo V Co"
+    ],
+    "diagramRequired": false,
+    "question": "What does HS 6-5-3-8 mean in the rapid-steel notation?",
+    "options": {
+      "A": "nominally about 6% W, 5% Mo, 3% V and 8% Co",
+      "B": "0.06%C, 0.05%W, 0.03%Mo and 0.08%V",
+      "C": "6% Cr, 5% Ni, 3% Mn and 8% C",
+      "D": "yield stress 6538 MPa for a structural steel"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture defines HS grades as HS [%W]-[%Mo]-[%V]-[%Co], so HS 6-5-3-8 means nominally 6% W, 5% Mo, 3% V and 8% Co in that fixed sequence. B is wrong because it invents carbon-style scaling and shifts the elements. C is wrong because it changes the element order to Cr, Ni, Mn and C, which is not the HS convention. D is wrong because HS is a chemical rapid-steel designation, not a structural yield-stress code.",
+    "relevantTheory": "Rapid steels are the exception to the X high-alloy format. Once HS is present, the four following values are direct nominal contents in the fixed order W, Mo, V and Co.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 7"
+  },
+  {
+    "id": 344,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "AISI carbon classes",
+      "low medium high carbon",
+      "10XX"
+    ],
+    "diagramRequired": false,
+    "question": "According to the AISI/SAE table in Lecture 7, which carbon class is AISI 1060?",
+    "options": {
+      "A": "high carbon plain carbon steel",
+      "B": "low carbon plain carbon steel",
+      "C": "medium carbon plain carbon steel",
+      "D": "Ni-Cr-Mo low alloy steel"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because 10XX is plain carbon and the final 60 means about 0.60%C; the lecture classifies high carbon steels as above 0.55 wt.%C. B is below 0.25%C. C is 0.25-0.55%C, so 0.60%C is just above it. D would require a different family such as 43XX.",
+    "relevantTheory": "The AISI/SAE last two digits give carbon x100. Lecture 7 divides plain carbon steels into low carbon 0-0.25 wt.%C, medium carbon 0.25-0.55 wt.%C and high carbon above 0.55 wt.%C.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 9"
+  },
+  {
+    "id": 345,
+    "deck": "slides",
+    "moduleId": "lecture-7-steel-designation",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "AISI alloy families",
+      "Ni",
+      "Cr"
+    ],
+    "diagramRequired": false,
+    "question": "Which AISI/SAE alloy-family statement from Lecture 7 is correct?",
+    "options": {
+      "A": "11XX and 12XX are free-machining families, while 51XX is a Cr alloy steel family",
+      "B": "10XX is Ni-Cr-Mo and 43XX is plain carbon",
+      "C": "2XXX is Cr-Mo and 41XX is nickel alloy steel",
+      "D": "13XX means stainless steel with Cr > 10.5%"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide lists 11XX as free machining with S, 12XX as free machining with S and P, and 51XX as chromium alloy steel. B reverses 10XX and 43XX. C assigns the wrong alloy families. D is wrong because 13XX is the Mn family, not stainless steel.",
+    "relevantTheory": "AISI/SAE first digits identify alloy family: 10XX plain carbon, 11XX/12XX free machining, 13XX Mn, 2XXX Ni, 3XXX Ni-Cr, 40XX Mo, 41XX Cr-Mo, 43XX Ni-Cr-Mo and 51XX Cr.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 9"
+  },
+  {
+    "id": 346,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "integral production",
+      "BOF",
+      "pig iron"
+    ],
+    "diagramRequired": false,
+    "question": "Which route best describes integral production of steels in Lecture 8?",
+    "options": {
+      "A": "minerals are reduced in a blast furnace to pig iron, then BOF conversion produces steel",
+      "B": "scraps are melted only in an electric furnace and directly become special alloy steels",
+      "C": "hot rolling of finished sheets converts ferrite into pig iron",
+      "D": "stainless steel is produced only by cold drawing without melting"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because integral production starts from minerals: blast furnace production gives pig iron, and BOF conversion turns pig iron into steel. B describes the direct/electric furnace route from scraps, not integral production. C confuses shaping with steelmaking. D ignores melting, refining and stainless-steel secondary metallurgy.",
+    "relevantTheory": "Lecture 8 separates steel production into integral production from minerals, secondary production from scraps plus pig iron, and direct production by electric furnace from scraps for alloy/special steels.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 10"
+  },
+  {
+    "id": 347,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "production routes",
+      "EAF",
+      "scraps"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NOT TRUE clause about the three steel production routes in Lecture 8.",
+    "options": {
+      "A": "integral production uses minerals and blast furnace pig iron before BOF steelmaking",
+      "B": "secondary production may use scraps plus pig iron and BOF processing",
+      "C": "direct production uses electric furnace processing of scraps for alloy or special steels",
+      "D": "direct production starts from iron ore in the blast furnace and never uses scraps"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause because the direct route is electric furnace processing of scraps, not blast furnace production from ore. A, B and C match the lecture classification. The trap is mixing up the raw material: minerals belong to integral production; scraps belong to secondary/direct production.",
+    "relevantTheory": "Steelmaking routes are classified by feedstock and furnace. Blast furnace plus BOF belongs to mineral-based integral production, while electric arc furnace production is fast and flexible because the scrap composition can be selected.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 10"
+  },
+  {
+    "id": 348,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "blast furnace",
+      "reduction",
+      "CO"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main reduction reaction in the blast furnace that converts iron ore to metallic iron?",
+    "options": {
+      "A": "3CO + Fe2O3 -> 2Fe + 3CO2",
+      "B": "CaO + SiO2 + Al2O3 -> liquid austenite",
+      "C": "Fe + O2 -> Fe2O3 as final steel",
+      "D": "MnS -> Mn + S as the main heat source"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because carbon monoxide reduces iron oxide to iron while forming carbon dioxide. B describes slag-forming oxides, not ore reduction to Fe. C is oxidation of iron, the opposite of reduction. D is unrelated to the blast-furnace reduction reaction.",
+    "relevantTheory": "In the blast furnace, coke generates heat and CO. CO is the reducing gas that removes oxygen from iron ore; limestone/fluxes help form slag that carries away oxide impurities.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 3"
+  },
+  {
+    "id": 349,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "blast furnace",
+      "coke",
+      "limestone",
+      "slag"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about blast-furnace raw materials is correct?",
+    "options": {
+      "A": "coke supplies heat and reducing gas, while limestone/fluxes help form slag for purification",
+      "B": "limestone is the main source of metallic Fe and coke only cools the furnace",
+      "C": "slag is the final steel product collected as bars",
+      "D": "oxygen injection in the blast furnace is used mainly to cold-roll the slab"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because coke burns to generate heat and CO/CO2 chemistry, while CaCO3 decomposes to CaO and participates in slag formation with SiO2 and Al2O3. B misidentifies the Fe source and the role of coke. C is wrong because slag is a waste/purification product, not steel. D mixes steelmaking with shaping.",
+    "relevantTheory": "The blast furnace uses alternate layers of coke, iron ore and limestone. Slag has lower density and floats, helping remove oxide impurities while pig iron collects below.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 10 and 13"
+  },
+  {
+    "id": 350,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "BOF",
+      "decarburization",
+      "oxygen injection"
+    ],
+    "diagramRequired": false,
+    "question": "What is the purpose of the BOF converter in the production of steels?",
+    "options": {
+      "A": "decarburize pig iron by high-pressure oxygen injection so cast iron/pig iron becomes steel",
+      "B": "reduce iron ore directly to pure Fe without coke",
+      "C": "elongate MnS inclusions during hot rolling",
+      "D": "spheroidize graphite in ductile cast iron only"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and matches the past-exam style trap: BOF oxygen injection removes excess carbon from pig iron, mainly as CO or CO2. B describes ore reduction, which belongs to the blast furnace. C is a rolling phenomenon. D belongs to cast iron microstructure control, not BOF steel decarburization.",
+    "relevantTheory": "Pig iron/cast iron contains too much carbon for steel. BOF refining injects high-purity oxygen at high pressure, causing oxidation reactions that reduce carbon content and help purify the melt.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 1 and 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 13-14"
+  },
+  {
+    "id": 351,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "impurities",
+      "phosphorus",
+      "sulfur",
+      "embrittlement"
+    ],
+    "diagramRequired": false,
+    "question": "Which pairing of harmful impurity and damage mechanism is correct?",
+    "options": {
+      "A": "P causes embrittlement by Fe3P segregation; S causes hot embrittlement by FeS segregation at grain boundaries",
+      "B": "P improves toughness by forming ductile graphite; S removes all grain boundaries",
+      "C": "S and P are always intentionally maximized in every high-quality steel",
+      "D": "Cu and Sn are the only harmful impurities; S and P are harmless"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide explicitly links P with Fe3P segregation and embrittlement, and S with FeS segregation at grain boundaries causing hot embrittlement. B invents beneficial effects. C is false except for special rephosphorized/resulfurized grades where deliberate additions are used for machinability. D contradicts the lecture warning.",
+    "relevantTheory": "High-quality steels require low impurity contents. Lecture 8 gives tolerable limits such as S about 0.03% and P about 0.02%, with S and P detrimental to most steel grades.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 14"
+  },
+  {
+    "id": 352,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "resulfurized steels",
+      "machinability",
+      "brittle chips"
+    ],
+    "diagramRequired": false,
+    "question": "Why can sulfur be deliberately added in resulfurized steels for automatic machining?",
+    "options": {
+      "A": "it promotes brittle chips, making chip removal easier during machining",
+      "B": "it transforms the steel into stainless steel by forming chromium oxide",
+      "C": "it eliminates the need for any deoxidation because sulfur binds all oxygen",
+      "D": "it makes the steel more ductile in every direction"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture says S promotes brittle chips for easier removal from the work in resulfurized steels. B confuses sulfur with chromium in stainless steels. C is wrong because deoxidation is a separate oxygen-control step. D is generally false: sulfur decreases ductility and impact toughness, especially transversely.",
+    "relevantTheory": "S and P are normally harmful, but special free-machining grades intentionally use sulfur or phosphorus. The gain is machinability; the cost is reduced ductility/toughness and often reduced weldability.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 14"
+  },
+  {
+    "id": 353,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "deoxidation",
+      "degassing",
+      "Al Si Mn"
+    ],
+    "diagramRequired": false,
+    "question": "After decarburizing molten steel, why is deoxidation/degassing still needed?",
+    "options": {
+      "A": "entrapped O and N can embrittle steel even at very low levels, so residual gases must be minimized",
+      "B": "decarburization always removes every atom of O and N automatically",
+      "C": "oxygen is added only to increase hot ductility and should remain trapped",
+      "D": "degassing is used only to make slag heavier than steel"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that even about 100 ppm of O or N is enough to induce embrittlement, so degassing and deoxidation are needed after decarburization. B is false because residual oxygen remains. C reverses the problem. D is unrelated to the purpose of degassing.",
+    "relevantTheory": "Steel purification is not finished by removing carbon. Dissolved or entrapped gases and oxides must be controlled using Ar degassing, vacuum technologies and deoxidizing elements.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 16"
+  },
+  {
+    "id": 354,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "deoxidizers",
+      "Al",
+      "Si",
+      "Mn",
+      "inclusions"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about deoxidizing elements is correct according to Lecture 8?",
+    "options": {
+      "A": "Al, Si and Mn have high affinity for O; Al can form hard AlN and Al2O3, while Mn can block O and S as inclusions",
+      "B": "Al, Si and Mn are added because they have no chemical affinity for oxygen",
+      "C": "deoxidation with Al can never produce oxide or nitride inclusions",
+      "D": "Mn is forbidden in steel because it cannot interact with sulfur"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide lists Al, Si and Mn as deoxidizers and notes AlN/Al2O3 formation and Mn blocking O and S in inclusions. B is the opposite of the lecture. C is false because killing/deoxidation can create oxide or nitride inclusions. D is wrong because MnS formation is an important way to avoid FeS damage.",
+    "relevantTheory": "Deoxidation improves melt chemistry but can create non-metallic inclusions. Good steelmaking balances removal of harmful dissolved gases with control of inclusion amount, chemistry and morphology.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 18 and 23-24"
+  },
+  {
+    "id": 355,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "AOD",
+      "VOD",
+      "stainless steels"
+    ],
+    "diagramRequired": false,
+    "question": "What do AOD and VOD mainly provide in stainless-steel production?",
+    "options": {
+      "A": "advanced decarburization/degassing routes for high-quality stainless steels",
+      "B": "cold rolling passes used only to flatten MnS inclusions",
+      "C": "blast-furnace ore reduction without oxygen or vacuum",
+      "D": "a method to add graphite flakes for gray cast iron"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because AOD is argon oxygen decarburization and VOD is vacuum oxygen decarburization, both used as high-quality stainless-steel routes. B is rolling, not secondary metallurgy. C is blast furnace thinking. D belongs to cast iron, not stainless steel production.",
+    "relevantTheory": "Stainless steels need careful liquid refining because oxygen can oxidize chromium and reduce corrosion-resistance potential. AOD and VOD control carbon and gases while protecting alloy chemistry.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 16 and 21; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 19"
+  },
+  {
+    "id": 356,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "AOD",
+      "argon",
+      "CO partial pressure",
+      "decarburization"
+    ],
+    "diagramRequired": false,
+    "question": "Why is Ar or another inert gas added during AOD stainless-steel refining?",
+    "options": {
+      "A": "to dilute CO, control CO partial pressure and promote decarburization of the melt pool",
+      "B": "to oxidize chromium faster than oxygen does",
+      "C": "to intentionally increase nitrogen and oxygen embrittlement",
+      "D": "to turn slag into the final steel product"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that inert gas dilutes CO produced by the C-O reaction, and changing the Ar/O ratio controls CO partial pressure and decarburization. B is opposite to the goal of protecting stainless alloy chemistry. C is a defect, not a goal. D confuses refining with product formation.",
+    "relevantTheory": "AOD uses thermodynamics through gas dilution: lowering CO partial pressure helps carbon leave the melt without excessive oxidation of valuable alloying elements such as chromium.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 16"
+  },
+  {
+    "id": 357,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "VOD",
+      "mixed shops",
+      "vacuum degassing"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about VOD is correct?",
+    "options": {
+      "A": "VOD is suitable for mixed steelmaking shops with lower stainless-steel production rate and can also act as a degassing system for conventional steels",
+      "B": "VOD is only a hot-rolling roll shape and has no role in liquid metallurgy",
+      "C": "VOD means vacuum ore digestion and replaces the blast furnace in integral production",
+      "D": "VOD is cheaper only because it never uses vacuum"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide explicitly says VOD is more suitable for mixed shops where stainless output is lower, and it can be used as a degassing system for conventional steels. B and C misdefine the process. D contradicts the name and slide: VOD uses vacuum and is costly.",
+    "relevantTheory": "AOD and VOD are alternative secondary refining choices. The selection depends on product mix, production rate, cost and degassing/decarburization needs.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 21"
+  },
+  {
+    "id": 358,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "continuous casting",
+      "ladle",
+      "tundish",
+      "hot rolling"
+    ],
+    "diagramRequired": false,
+    "question": "Which sequence best describes the continuous casting and hot rolling line shown in Lecture 8?",
+    "options": {
+      "A": "ladle, tundish, water-cooled mold/continuous casting, straightening, reheating furnace, hot rolling",
+      "B": "hot rolling, blast furnace, tundish, cold graphite spheroidizing, ladle",
+      "C": "BOF, tensile test, Charpy test, then ore reduction",
+      "D": "reheating furnace, room-temperature casting, vacuum corrosion, then pig iron"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide and notes list ladle, tundish, continuous casting, straightening, reheating and hot rolling. B scrambles shaping and melting steps. C lists tests rather than production flow. D is not a steel production route.",
+    "relevantTheory": "Continuous casting turns liquid steel into semi-finished slabs/blooms/billets in a continuous process. These intermediates are reheated as needed and hot rolled into finished or semi-finished products.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 21"
+  },
+  {
+    "id": 359,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "continuous casting",
+      "tundish",
+      "ferrostatic level"
+    ],
+    "diagramRequired": false,
+    "question": "What is the role of the tundish in continuous casting?",
+    "options": {
+      "A": "it is an intermediate ladle that helps maintain a constant ferrostatic level before the mold",
+      "B": "it is the rolling stand that imposes final sheet thickness",
+      "C": "it is the oxygen lance used to decarburize pig iron in BOF",
+      "D": "it is the Charpy hammer used to measure impact energy"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes define the tundish as an intermediate ladle used to ensure a constant ferrostatic level. B is a rolling mill component. C is BOF equipment. D is mechanical testing, not casting.",
+    "relevantTheory": "Continuous casting quality depends on controlled liquid flow, protection from oxidation, mold cooling, water sprays and controlled straightening. The tundish stabilizes flow between ladle and mold.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 21"
+  },
+  {
+    "id": 360,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "continuous casting",
+      "ingots",
+      "inclusions",
+      "cooling rate"
+    ],
+    "diagramRequired": false,
+    "question": "Why can continuous casting give fairer steel quality than very slow ingot solidification regarding slag/inclusion separation?",
+    "options": {
+      "A": "continuous casting has a much higher cooling rate, reducing some slow segregation problems of large ingots",
+      "B": "continuous casting eliminates every non-metallic inclusion by definition",
+      "C": "continuous casting is performed only in the solid state, so no slag can exist",
+      "D": "slow ingot solidification is always defect-free because density differences never matter"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes contrast slow steel ingot solidification with faster continuous casting; slow ingots allow slag and segregation problems to develop more strongly. B is too absolute: inclusions still must be controlled. C is wrong because casting is liquid-to-solid processing. D ignores slag and density-driven separation.",
+    "relevantTheory": "Steel cleanliness is affected by melting, slag, inclusions and solidification rate. Continuous casting improves productivity and can reduce some ingot defects, but it does not remove the need for melt protection and inclusion control.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 5-6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 21-22"
+  },
+  {
+    "id": 361,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "hot rolling",
+      "recrystallization",
+      "ductility"
+    ],
+    "diagramRequired": false,
+    "question": "What is a key metallurgical reason for hot rolling large steel sections?",
+    "options": {
+      "A": "rolling near recrystallization temperature gives high ductility and allows large thickness reduction with lower force",
+      "B": "hot rolling is done below recrystallization temperature to maximize work hardening only",
+      "C": "hot rolling converts all inclusions into liquid slag after the product is solid",
+      "D": "hot rolling is used only because steel cannot be plastically deformed at high temperature"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because hot rolling is performed at high temperature, near recrystallization conditions, so the material is softer and ductile enough for large reductions. B describes cold rolling logic. C is false because inclusions deform or remain; they do not become slag. D is the opposite of high-temperature shaping.",
+    "relevantTheory": "During hot rolling, recrystallization can form new grains and reduce stored deformation energy. This enables large deformation while controlling microstructure and mechanical properties.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 6-9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 18-22"
+  },
+  {
+    "id": 362,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "hot rolling",
+      "recrystallization",
+      "grain growth"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the UNTRUE clause about recrystallization during hot rolling.",
+    "options": {
+      "A": "new grains can form because deformation stores energy and temperature activates recrystallization",
+      "B": "higher temperature and longer time can lead to grain growth after recrystallization",
+      "C": "recrystallization can reduce residual stress and increase ductility",
+      "D": "recrystallization takes place only in the liquid phase of steel"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is untrue because recrystallization is a solid-state process during hot working or subsequent heating, not a liquid-phase process. A, B and C are true: stored energy and temperature drive new grain formation, excessive time/temperature causes grain growth, and recrystallization relieves deformation effects.",
+    "relevantTheory": "Hot rolling property changes depend on time-temperature history: stress relaxation, recrystallization and grain growth compete. Good processing seeks fine recrystallized grains without excessive coarsening.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 8-9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 21-22"
+  },
+  {
+    "id": 363,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "TMCP",
+      "HSLA",
+      "Nb(CN)",
+      "grain refinement"
+    ],
+    "diagramRequired": false,
+    "question": "In TMCP of HSLA steels with Nb(CN), what is the main process-property logic?",
+    "options": {
+      "A": "controlled rolling/cooling and Nb precipitation/refinement are used to increase strength while refining grains and improving toughness",
+      "B": "Nb is added only to make graphite flakes larger for machining",
+      "C": "the best result is always obtained by dissolving all Nb precipitates and allowing maximum austenite grain growth",
+      "D": "TMCP means avoiding all rolling after continuous casting"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide links TMCP, HSLA and Nb(CN) with precipitation strengthening and grain refinement. B confuses steel TMCP with cast iron graphite. C is wrong because large grains reduce toughness and dissolved/coarsened precipitates do not give the desired strengthening. D contradicts the thermomechanical controlled processing route.",
+    "relevantTheory": "TMCP uses deformation schedule, finishing rolling temperature, cooling and coiling temperature to control precipitation, austenite/ferrite grain size and final strength-toughness balance.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 10"
+  },
+  {
+    "id": 364,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "inclusions",
+      "MnS",
+      "anisotropy",
+      "rolling direction"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about MnS inclusions after rolling is correct?",
+    "options": {
+      "A": "MnS inclusions can elongate along the rolling direction, producing anisotropic properties",
+      "B": "MnS inclusions always disappear during hot rolling",
+      "C": "MnS inclusions are liquid oxygen bubbles that improve transverse toughness",
+      "D": "MnS forms because sulfur is highly soluble in iron and never needs manganese"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slides and notes show crushed/elongated MnS inclusions in rolled steels, affecting longitudinal versus transverse behavior. B is false because inclusions remain and deform. C is wrong: MnS is a sulfide inclusion, not a gas bubble. D is wrong because sulfur has low solubility and MnS formation is used to avoid more damaging FeS.",
+    "relevantTheory": "Non-metallic inclusions are not just chemistry; their shape and orientation matter. Elongated inclusions behave like stringers and reduce ductility and toughness especially in directions transverse to rolling.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 11-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 20-21"
+  },
+  {
+    "id": 365,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "rare earth elements",
+      "Cerium",
+      "inclusion shape control",
+      "CVN"
+    ],
+    "diagramRequired": false,
+    "question": "Why can rare earth additions such as Cerium improve transverse impact properties in steels with inclusions?",
+    "options": {
+      "A": "they modify elongated inclusions toward more globular shapes, reducing anisotropy and improving transverse toughness",
+      "B": "they increase the length of MnS stringers so cracks propagate faster",
+      "C": "they remove the need for any control of sulfur, oxygen or nitrogen",
+      "D": "they transform ferrite and pearlite into liquid slag during Charpy testing"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide and notes link Cerium/rare earth elements with globular inclusions and improved transverse impact-test behavior. B is the opposite of shape control. C is too absolute; inclusion control is still needed. D is physically unrelated to the impact test.",
+    "relevantTheory": "Inclusion shape control improves ductility and upper-shelf impact energy by reducing stress concentration and directional weakness. Globular inclusions are less harmful than elongated stringers in rolled sheet or plate.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 11-13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 18"
+  },
+  {
+    "id": 366,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "austenitization",
+      "A3 + 50 C",
+      "grain growth"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main purpose of austenitization before steel heat treatment?",
+    "options": {
+      "A": "hold in the austenitic range to maximize carbon solubility and chemical homogeneity while avoiding excessive grain growth",
+      "B": "hold below A1 to spheroidize cementite without any phase transformation",
+      "C": "cool in air to form a moderately refined ferritic-pearlitic structure",
+      "D": "temper martensite between 250 and 650 °C to precipitate Fe3C"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 defines austenitization as holding in the austenitic range, around A3 + 50 °C for hypo-eutectoid steels, to obtain maximum solubility and chemical homogeneity while preventing grain growth. B describes spheroidizing. C describes normalizing after austenitization. D describes tempering after quenching.",
+    "relevantTheory": "Austenitization is the preparation step for many heat treatments: ferrite/pearlite or cementite-containing structures are converted to austenite so carbon and alloying elements can be dissolved more uniformly before cooling controls the final microstructure.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 26-27"
+  },
+  {
+    "id": 367,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "annealing",
+      "normalizing",
+      "softening"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best distinguishes annealing from normalizing in Lecture 9?",
+    "options": {
+      "A": "annealing uses slow furnace-type cooling for maximum softening/equilibrium microstructure, while normalizing uses air cooling for moderate refinement and good properties at low cost",
+      "B": "annealing always produces martensite, while normalizing always produces residual austenite",
+      "C": "annealing is performed below room temperature, while normalizing is performed only after quenching",
+      "D": "normalizing is the softest condition ever for hyper-eutectoid steels"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture links annealing with high-temperature diffusion, homogenization and maximum softening, while normalizing is austenitization plus air cooling, giving moderate refinement and slightly non-equilibrium good properties at low cost. B is wrong because martensite requires rapid quenching. C is not a heat-treatment sequence from the lecture. D is wrong because spheroidizing is the softest condition emphasized for hyper-eutectoid steels.",
+    "relevantTheory": "Annealing and normalizing both start from heating into or near the austenitic range, but their cooling paths differ. Slow cooling allows coarse equilibrium products and softness; air cooling increases undercooling/cooling rate, refining pearlite and improving strength.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 1-2 and 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 26-28"
+  },
+  {
+    "id": 368,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "spheroidizing",
+      "hyper-eutectoid steel",
+      "softest condition"
+    ],
+    "diagramRequired": false,
+    "question": "The heat treatment leading to the softest material properties in hyper-eutectoid steels is:",
+    "options": {
+      "A": "spheroidizing",
+      "B": "water quenching",
+      "C": "normalizing",
+      "D": "low-temperature temper embrittlement"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 says spheroidizing around just below A1 produces spheroidal cementite in ferrite and gives the softest/toughest condition, especially useful for hyper-eutectoid steels and shaping operations. B produces martensite and high residual stresses. C refines the structure but is not the softest condition. D is not a useful softening treatment; it is a toughness-loss problem.",
+    "relevantTheory": "Spheroidizing reduces the interfacial area of lamellar pearlite/cementite by turning carbides into rounded particles in a ferritic matrix. This reduces hardness and improves ductility/workability, but it requires long time or cycling near A1.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 23; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 17"
+  },
+  {
+    "id": 369,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "AISI 1045",
+      "cooling rate",
+      "microstructure refinement"
+    ],
+    "diagramRequired": false,
+    "question": "For AISI 1045 in the Lecture 9 examples, which sequence correctly follows increasing cooling rate?",
+    "options": {
+      "A": "coarse ferritic-pearlitic after annealing, finer ferritic-pearlitic after normalizing, very fine martensitic after quenching",
+      "B": "martensite after annealing, spheroidite after water quenching, coarse pearlite after normalizing",
+      "C": "residual austenite only after furnace cooling, then graphite after air cooling",
+      "D": "cementite disappears completely as cooling rate increases"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide shows AISI 1045 as ferritic-pearlitic coarse after annealing, ferritic-pearlitic fine after normalizing and martensitic very fine after quenching. B reverses the heat-treatment products. C invents graphite and residual austenite as the only products. D is wrong because cementite/carbides can remain or precipitate in several microconstituents.",
+    "relevantTheory": "Cooling rate controls how far the steel moves away from equilibrium. Slow cooling gives coarse ferrite/pearlite; air cooling refines pearlite; rapid quenching suppresses diffusion and promotes martensite.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 28"
+  },
+  {
+    "id": 370,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "cooling rate",
+      "undercooling",
+      "CCT"
+    ],
+    "diagramRequired": false,
+    "question": "In continuous cooling of a 0.4%C steel, what is the controlling factor emphasized in Lecture 9?",
+    "options": {
+      "A": "cooling rate, because large CR acts like large undercooling and small CR acts like small undercooling",
+      "B": "only the original austenite grain color",
+      "C": "only the furnace brand used for heating",
+      "D": "the final room temperature only, independent of the cooling path"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that cooling rate rather than undercooling alone is the controlling factor for continuous-cooling phase transformation; large CR operates like large undercooling. B and C are irrelevant. D is wrong because the path through transformation regions controls whether ferrite, pearlite, bainite or martensite form.",
+    "relevantTheory": "CCT behavior is path-dependent. A steel cooled slowly has time for diffusion-controlled transformations; a steel cooled rapidly can avoid pearlite/ferrite formation and enter bainitic or martensitic transformation ranges.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 3 and 10-11"
+  },
+  {
+    "id": 371,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "CCT vs TTT",
+      "incubation time",
+      "bottom-right shift"
+    ],
+    "diagramRequired": false,
+    "question": "How do CCT curves compare with TTT curves according to Lecture 9?",
+    "options": {
+      "A": "CCT curves are shifted bottom-right; incubation times in CCT are longer than in TTT curves",
+      "B": "CCT curves are always shifted top-left; incubation times are shorter",
+      "C": "CCT and TTT curves are identical because cooling path does not matter",
+      "D": "TTT curves apply only to liquid solidification, never to steel austenite decomposition"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide explicitly says CCT curves are shifted bottom-right compared with TTT curves and incubation times in CCT are longer. B is the opposite. C is wrong because isothermal holding and continuous cooling give different kinetics. D is wrong because TTT diagrams are used for austenite transformation in steels.",
+    "relevantTheory": "TTT diagrams describe isothermal transformation after rapid cooling to a fixed temperature. CCT diagrams describe transformation during a continuously falling temperature, so the steel spends less time at any single temperature and transformation starts later/lower.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 4 and 12"
+  },
+  {
+    "id": 372,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "martensite",
+      "diffusionless transformation",
+      "temperature dependence"
+    ],
+    "diagramRequired": false,
+    "question": "What is NOT a feature of martensitic transformation in carbon steels?",
+    "options": {
+      "A": "it requires long-range carbon diffusion to form cementite during quenching",
+      "B": "it forms by rapid cooling of austenite",
+      "C": "it is essentially diffusionless and very fast",
+      "D": "the fraction transformed depends mainly on the temperature reached below Ms/Mf"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is the NOT feature. Martensite forms because carbon atoms do not have time to diffuse out and form equilibrium cementite during quenching. B is true. C is true because the transformation is diffusionless/shear-like. D is true because the notes emphasize martensitic transformation is not time dependent in the same way as pearlite; the fraction depends on the temperature reached.",
+    "relevantTheory": "Martensite is a metastable product of quenched austenite. Carbon trapped in interstitial positions distorts the lattice, producing a tetragonal structure and high hardness but also brittleness and residual stress.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 4-5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 4, 6 and 13-15"
+  },
+  {
+    "id": 373,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "martensite structure",
+      "BCT",
+      "carbon content"
+    ],
+    "diagramRequired": false,
+    "question": "Why does martensite become tetragonal rather than simply BCC ferrite after quenching?",
+    "options": {
+      "A": "carbon trapped in interstitial positions distorts the unit cell and increases the c lattice constant",
+      "B": "carbon fully diffuses out before the transformation finishes",
+      "C": "martensite is liquid ferrite frozen at room temperature",
+      "D": "all cementite dissolves permanently into graphite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 describes the interstitial position of C atoms and the consequent increase in the c lattice constant; BCC ferrite becomes a tetragonal martensite structure. B is the opposite of quenching. C is physically wrong. D confuses cementite/graphite and does not explain martensite.",
+    "relevantTheory": "The hardening effect of martensite comes from carbon supersaturation and lattice distortion. Increasing carbon increases tetragonality and hardness, but also delays transformation to lower temperatures and promotes retained austenite risk.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 13-15"
+  },
+  {
+    "id": 374,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "bainite",
+      "upper bainite",
+      "lower bainite"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best describes bainite in Lecture 9?",
+    "options": {
+      "A": "it is an acicular ferrite plus carbide microconstituent formed between pearlite and martensite ranges, with a good strength-toughness compromise",
+      "B": "it is pure retained austenite with no carbides",
+      "C": "it is always softer than coarse pearlite and never useful in tempered steels",
+      "D": "it forms only by melting and resolidification"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide describes upper and lower bainite between about 500 °C and Ms, with acicular/rod-like ferrite plus carbides, and calls it an excellent alternative to tempered martensite for hardness with an optimum strength-toughness tradeoff. B ignores ferrite and carbides. C is wrong because bainite can be strong and useful. D is not a solid-state heat-treatment mechanism.",
+    "relevantTheory": "Bainite is neither ordinary pearlite nor martensite. Upper bainite forms at higher temperatures and is coarser; lower bainite forms at lower temperatures with finer carbide/ferrite features and higher strength.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 5 and 19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 5 and 16"
+  },
+  {
+    "id": 375,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "quenching",
+      "tempering",
+      "tempered martensite"
+    ],
+    "diagramRequired": false,
+    "question": "Which process chain produces tempered martensite?",
+    "options": {
+      "A": "austenitize, quench to martensite, then reheat below A1 in the tempering range",
+      "B": "hold just below A1 for 18-24 h without first forming martensite",
+      "C": "slow furnace cool from austenite to coarse pearlite only",
+      "D": "melt the steel and rapidly cast it into pearlite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because tempered martensite requires martensite first, then tempering below A1, typically in the 250-650 °C range. B describes spheroidizing. C describes annealing/coarse pearlitic products. D is not the solid-state heat-treatment chain in this lecture.",
+    "relevantTheory": "Tempering is not a substitute for quenching; it is the corrective step after quenching. It reduces brittleness and residual stresses while allowing carbon to precipitate as fine carbides in ferrite.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 6 and 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 18-19"
+  },
+  {
+    "id": 376,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "tempering",
+      "Fe3C precipitation",
+      "toughness"
+    ],
+    "diagramRequired": false,
+    "question": "Why is martensite tempered after quenching?",
+    "options": {
+      "A": "to reduce brittleness and residual stress by precipitating fine Fe3C in ferrite, increasing toughness while reducing some hardness/strength",
+      "B": "to transform ferrite completely into liquid",
+      "C": "to increase tetragonality and make all carbon remain trapped forever",
+      "D": "to make the steel softer than spheroidite in every case"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 says martensite is extremely hard and brittle and tempering produces a fine ferrite plus Fe3C mixture with more spheroidal carbides, giving markedly improved toughness. B is impossible below A1. C is the opposite: tempering promotes diffusion and carbon precipitation. D overstates softening; spheroidite is the softest condition emphasized for shaping.",
+    "relevantTheory": "Tempering trades some as-quenched hardness for toughness and dimensional reliability. Higher tempering temperature or longer time coarsens carbides, reducing hardness/strength and improving ductility.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 18-20"
+  },
+  {
+    "id": 377,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "hardenability",
+      "hardness",
+      "Jominy"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement correctly distinguishes hardenability from hardness?",
+    "options": {
+      "A": "hardenability is the ability to form martensite in depth, while hardness is the local resistance measured after treatment",
+      "B": "hardenability and hardness are identical words for the same HRC value",
+      "C": "hardenability depends only on the quenching bath and not on steel composition",
+      "D": "hardness in quenched steels is independent of carbon content"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture defines hardenability as the ability of steel to form at least 50% martensite in depth and treats it as a material property measured by Jominy. B is a common trap. C is wrong because alloying elements strongly influence hardenability, although the quench medium affects actual cooling. D is wrong because as-quenched martensite hardness depends strongly on carbon content.",
+    "relevantTheory": "A high-carbon plain steel can be very hard at the surface but have poor hardenability in a large part. Alloy additions shift transformation curves right, allowing martensite to form deeper under slower cooling.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 11-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 21-23"
+  },
+  {
+    "id": 378,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "Jominy test",
+      "quenched end",
+      "martensite penetration"
+    ],
+    "diagramRequired": false,
+    "question": "What does the Jominy end-quench test measure?",
+    "options": {
+      "A": "hardenability, by measuring how far hardness remains high away from a water-quenched end",
+      "B": "melting point, by heating the steel until it becomes liquid",
+      "C": "corrosion resistance, by immersing steel in seawater",
+      "D": "Young modulus, by reading the slope of a tensile curve"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the Jominy test quenches one end of an austenitized standard bar, creating decreasing cooling rate with distance; hardness is measured along the bar. If hardness stays high farther from the quenched end, the steel has higher hardenability. B, C and D describe unrelated tests/properties.",
+    "relevantTheory": "Jominy converts a range of cooling rates into one specimen. The quenched end cools fastest and tends to form martensite; positions farther away represent slower cooling and reveal martensite penetration capability.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 21"
+  },
+  {
+    "id": 379,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "hardenability elements",
+      "CCT shift",
+      "large workpieces"
+    ],
+    "diagramRequired": false,
+    "question": "Why do hardenability-promoter elements help large or complex steel workpieces form martensite?",
+    "options": {
+      "A": "they shift TTT/CCT transformation curves to the right, so slower cooling in the core can still avoid pearlite and form martensite",
+      "B": "they shift curves to the left, forcing pearlite to form sooner",
+      "C": "they eliminate the need for austenitization",
+      "D": "they make the core cool faster than the surface in every geometry"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 states that hardenability shifts CCT curves to the right, facilitating martensite formation in large or complex workpieces with low cooling rate. B is the opposite and appears as a common exam trap. C is wrong because martensite still forms from austenite. D is wrong because the surface generally cools faster than the core.",
+    "relevantTheory": "Alloying elements such as Mo, Mn, Cr, Ni and B delay diffusion-controlled transformations. This increases the chance that the cooling path reaches Ms before pearlite/bainite consumes the austenite.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 11-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 22-23"
+  },
+  {
+    "id": 380,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "alloying effects",
+      "Mo",
+      "Mn",
+      "B"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the UNTRUE clause about alloying effects in tempered steels.",
+    "options": {
+      "A": "B has a very strong effect on hardenability",
+      "B": "Mn can strongly increase hardenability but may reduce ductility and weldability when increased",
+      "C": "Mo helps overcome temper-embrittlement problems and improves high-temperature behavior",
+      "D": "Al above 0.1% is always harmless and has no metallurgical effect"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the UNTRUE clause because the lecture calls Al a powerful deoxidizer and grain refiner but detrimental when above 0.1%. A is true because B is marked as strongly increasing hardenability. B is true. C is true because Mo improves creep/high-temperature behavior and helps solve temper embrittlement.",
+    "relevantTheory": "Lecture 9 treats alloying elements as property levers: C raises hardness but lowers toughness, Mn and B promote hardenability, Ni improves toughness, Mo helps hardenability and temper-embrittlement resistance, and carbide formers refine/strengthen without the same toughness penalty.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 20"
+  },
+  {
+    "id": 381,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "carbon content",
+      "martensite hardness",
+      "toughness"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main effect of increasing carbon in quenched and tempered steels?",
+    "options": {
+      "A": "it increases yield strength/hardness and hardenability, but decreases CVN toughness",
+      "B": "it decreases hardness and makes martensite fully ductile",
+      "C": "it removes residual stresses during quenching",
+      "D": "it prevents any carbide formation with Cr, Ti, W, V or Mo"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the alloying-effect slide states that C increases Ys and HRC, decreases CVN toughness, increases hardenability and combines with carbide-forming elements. B is the opposite. C is wrong because quenching creates residual stresses and tempering relieves them. D is wrong because carbon combines with strong carbide formers.",
+    "relevantTheory": "Carbon is the central hardening element in steels. It controls martensite hardness, pearlite hardness and carbide formation, but too much carbon increases brittleness and residual-austenite risk.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 11 and 15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 15 and 20"
+  },
+  {
+    "id": 382,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "temper embrittlement",
+      "Krupp illness",
+      "Mo remedy"
+    ],
+    "diagramRequired": false,
+    "question": "Temper embrittlement, or Krupp illness, is best described as:",
+    "options": {
+      "A": "a reversible intergranular toughness drop when susceptible low-alloy steels cross or hold in about the 400-550 °C critical range, mitigated by Mo or W additions",
+      "B": "the normal increase of toughness during all tempering temperatures",
+      "C": "a corrosion process that requires seawater and chlorides",
+      "D": "complete melting of cementite during quenching"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 describes a dramatic toughness drop when the intercritical temper-embrittlement range is crossed or held, with intergranular fracture, reversible condition, and remedies including about 0.2% Mo or 0.4% W or avoiding/rapidly crossing the critical range. B is wrong because embrittlement is a toughness loss. C is unrelated. D is not temper embrittlement.",
+    "relevantTheory": "Temper embrittlement is associated with impurity segregation/precipitation around grain boundaries, especially with Mn and Cr effects; Mo and W form more stable complex carbides and retard the harmful precipitation.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 13-14; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 24"
+  },
+  {
+    "id": 383,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "residual austenite",
+      "Mf",
+      "subzero treatment"
+    ],
+    "diagramRequired": false,
+    "question": "Why can residual austenite remain after quenching, and why is it a problem?",
+    "options": {
+      "A": "if quenching stops above Mf or alloy/C content stabilizes austenite, some gamma remains; later transformation can lower HRC, reduce fatigue resistance and cause dimensional instability",
+      "B": "residual austenite remains only when the steel is cooled very slowly in a furnace, and it always improves dimensional stability",
+      "C": "it remains because ferrite has no carbon solubility at any temperature",
+      "D": "it is impossible in alloyed steels because alloying elements always raise Mf to room temperature"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 states residual austenite can remain when Tquench is above Mf, with increasing carbon and austenitizing alloy elements, high cooling rate or stepped quenching. Its consequences include lower HRC, lower fatigue resistance, dimensional instability and internal stresses from later transformation. B, C and D contradict the lecture mechanism.",
+    "relevantTheory": "Residual austenite is not always to be eliminated completely because austenite can add resilience, but metastable austenite in the finished product is risky. Solutions include multiple tempering treatments and subzero quenching to pass Mf.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 14-15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 15"
+  },
+  {
+    "id": 384,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "quench severity",
+      "cooling media",
+      "component depth"
+    ],
+    "diagramRequired": false,
+    "question": "What does quench severity mainly control in a real steel component?",
+    "options": {
+      "A": "how much heat the quenchant extracts, and therefore the cooling rate that changes with penetration depth inside the component",
+      "B": "the exact chemical composition of the steel after austenitization",
+      "C": "only the color of the surface oxide, not microstructure",
+      "D": "whether austenite can exist at any temperature"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide defines heat extraction by the quenchant and notes that cooling rate changes with penetration depth inside the component. B is wrong because quenching does not rewrite nominal composition. C ignores the microstructure effect. D is not controlled by quench severity alone.",
+    "relevantTheory": "Surface regions cool faster than the core. Quench severity, component size and geometry decide whether different depths cross CCT regions into pearlite, bainite or martensite.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 13 and 22"
+  },
+  {
+    "id": 385,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "quenching cracks",
+      "volume change",
+      "martempering"
+    ],
+    "diagramRequired": false,
+    "question": "Why do quenching cracks tend to occur, and what is the logic of martempering/marquenching?",
+    "options": {
+      "A": "austenite-to-martensite transformation causes volume increase and residual stresses; martempering reduces thermal gradients so transformation occurs more uniformly",
+      "B": "quenching cracks occur because the core transforms first and pulls a liquid surface apart",
+      "C": "martempering means holding above the melting point to dissolve cracks",
+      "D": "cracks are prevented by maximizing thermal gradients between surface and core"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 links the austenite-martensite transformation on quenching to volume increase, residual stresses and cracks, especially in large or complex parts. The prevention slide shows the problem of surface/core transformation mismatch and gives martempering as the solution. B reverses the sequence: the surface generally cools and transforms earlier. C is not a solid-state heat treatment. D is the opposite of the prevention logic.",
+    "relevantTheory": "Quench cracking comes from thermal and transformation stresses. The surface can transform and become rigid while the core later expands during martensite formation; reducing gradients and equalizing temperature before transformation lowers stress.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 15-16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 26"
+  },
+  {
+    "id": 386,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "EAF",
+      "AOD",
+      "VOD",
+      "stainless steel"
+    ],
+    "diagramRequired": false,
+    "question": "In the advanced stainless-steel route described in the notes, what is the usual role of EAF before AOD or VOD?",
+    "options": {
+      "A": "melt compatible scraps and Fe-master-alloys, then pre-decarburize before transfer to AOD or VOD",
+      "B": "reduce iron ore with coke and limestone exactly like a blast furnace",
+      "C": "elongate MnS inclusions during final rolling",
+      "D": "measure Charpy energy in the transverse direction"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes describe EAF charge as stainless scraps, plain carbon scraps and Fe-master-alloys, with prior decarburization before AOD or VOD to reduce later ladle processing time. B is the blast furnace route. C is hot rolling. D is testing, not production.",
+    "relevantTheory": "EAF plus AOD or VOD is a flexible secondary/direct route for high-quality and stainless steels. The EAF melts and adjusts the charge; AOD/VOD then refine carbon and gases while protecting alloy chemistry.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 16"
+  },
+  {
+    "id": 387,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "synthetic slags",
+      "basic slag",
+      "acid slag",
+      "deoxidation"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about synthetic slags in secondary steelmaking is correct?",
+    "options": {
+      "A": "basic CaO/MgO slags strongly reduce S and P, while acid SiO-based slags are linked with severe deoxidation",
+      "B": "synthetic slags are added only after the steel is completely solid",
+      "C": "acid slags are used only to increase FeS hot embrittlement",
+      "D": "synthetic slags are the finished steel product"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes list basic CaO/MgO slags for strong S and P reduction and acid SiO-based slags for severe deoxidation/blocking FeS. B is wrong because slags protect and refine the liquid. C reverses the purpose. D confuses refining media with product.",
+    "relevantTheory": "Synthetic slags protect the liquid from the environment and help refine chemistry. Slag selection depends on whether sulfur/phosphorus removal, deoxidation, or both are required.",
+    "source": "notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 16; slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 4-6"
+  },
+  {
+    "id": 388,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "macrosegregation",
+      "large ingots",
+      "solidification"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main origin of macrosegregation in large steel ingots?",
+    "options": {
+      "A": "slow solidification rejects solute/impurities into the remaining liquid, so composition becomes non-uniform",
+      "B": "hot rolling instantly makes every atom perfectly homogeneous",
+      "C": "macrosegregation is caused only by Charpy impact testing",
+      "D": "large ingots cannot solidify from liquid steel"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because large ingots solidify slowly; Fe solidifies first and carbon/residual elements accumulate in the remaining liquid, especially toward the center or hot-top region. B ignores solidification chemistry. C is a test, not a cause. D is false.",
+    "relevantTheory": "Macrosegregation is a solidification defect. Because rejected solutes cannot fully redistribute in a large casting, local chemistry varies from region to region and can degrade mechanical behavior.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 16"
+  },
+  {
+    "id": 389,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "hot top",
+      "ingots",
+      "segregation"
+    ],
+    "diagramRequired": false,
+    "question": "Why is a hot top used in ingot production?",
+    "options": {
+      "A": "to keep the top region liquid longer so segregated impurities are trapped there and can be removed by cutting",
+      "B": "to cool the top faster than the bottom and maximize central segregation",
+      "C": "to replace the BOF converter during decarburization",
+      "D": "to elongate inclusions along the rolling direction before solidification"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes explain that an insulating hot top keeps impurities in the upper removable part of the ingot. B is the opposite of the goal. C confuses ingot casting with steel refining. D is a rolling effect after solidification.",
+    "relevantTheory": "Ingot solidification can concentrate carbon and residual elements in the last-liquid regions. A hot top acts as a sacrificial reservoir so the most segregated region can be cut away.",
+    "source": "notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 16; slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 5"
+  },
+  {
+    "id": 390,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "hot rolling intermediates",
+      "slab",
+      "billet",
+      "bloom"
+    ],
+    "diagramRequired": false,
+    "question": "Which matching of hot-rolling starting product and final product family is most consistent with the Lecture 8 notes?",
+    "options": {
+      "A": "slabs for sheets/plates, billets for bars/rods/wires/tubes, blooms for structural shapes and rails",
+      "B": "tundish for sheets, BOF lance for bars, Charpy hammer for rails",
+      "C": "slag for sheets, graphite for rails, oxygen bubbles for tubes",
+      "D": "slabs only for stainless degassing and never for rolling"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes describe slab, billet and bloom as starting shapes for different rolled product families. B lists equipment/testing items rather than intermediates. C is nonsensical production chemistry. D ignores the role of slabs in rolling.",
+    "relevantTheory": "Continuous casting or ingots provide semi-finished intermediates. Rolling converts slabs, billets and blooms into flat products, long products and structural sections.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 18"
+  },
+  {
+    "id": 391,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "hollow sections",
+      "hot rolled products",
+      "strength weight"
+    ],
+    "diagramRequired": false,
+    "question": "Why are hollow hot-rolled sections important in many structural applications?",
+    "options": {
+      "A": "they can provide high structural efficiency because the cavity reduces weight while retaining useful section strength",
+      "B": "they are used only because inclusions disappear inside cavities",
+      "C": "they are liquid products poured directly from slag",
+      "D": "they cannot be produced by rolling or forming routes"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes emphasize hollow sections as important because they can give higher strength with lower weight. B invents an inclusion-cleaning mechanism. C confuses product geometry with slag. D contradicts the rolling/product discussion.",
+    "relevantTheory": "Hot rolling and related forming routes create many product families. Geometry matters: sections are chosen not only by material strength but also by stiffness/strength-to-weight performance.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 20"
+  },
+  {
+    "id": 392,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "rolling defects",
+      "surface stresses",
+      "roll radius"
+    ],
+    "diagramRequired": false,
+    "question": "For flat rolling, why are small rolls and/or small reductions preferable when a potential surface crack is present?",
+    "options": {
+      "A": "they tend to impose surface compressive stress, which helps keep a surface crack closed",
+      "B": "they impose maximum surface tensile stress, which is always desired",
+      "C": "they melt the surface and remove all cracks",
+      "D": "roll radius has no influence on residual stress state"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes explain that compression on the surface keeps cracks closed, while tension opens them and helps propagation. B reverses the design logic. C is not rolling. D contradicts the rolling-defect slide.",
+    "relevantTheory": "Residual stress state after rolling affects defect tolerance. Surface compression is beneficial against crack opening; surface tension is dangerous for existing surface flaws.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 23"
+  },
+  {
+    "id": 393,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "rolling defects",
+      "alligatoring",
+      "edge cracks"
+    ],
+    "diagramRequired": false,
+    "question": "Which list contains rolling defects shown or named around the Lecture 8 rolling-defect discussion?",
+    "options": {
+      "A": "alligatoring, wave distortions, cracks along rolling direction and edge cracks",
+      "B": "sensitization, pitting, crevice corrosion and passivation",
+      "C": "eutectoid, eutectic, peritectic and graphite nodules",
+      "D": "martensite start, bainite finish, A1 and Acm"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because those are rolling defects listed in the notes around the rolling-defect slide. B belongs to corrosion. C belongs to Fe-C transformations/cast iron. D belongs to heat treatment and phase diagrams, not rolling defects.",
+    "relevantTheory": "Rolling defects can arise from deformation geometry, residual stresses, non-uniform flow and inclusions. The exam trap is to distinguish shaping defects from corrosion or phase-transformation terminology.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 23"
+  },
+  {
+    "id": 394,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "hot rolling",
+      "time temperature",
+      "grain growth"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the UNTRUE clause about time and temperature effects during hot rolling/recrystallization.",
+    "options": {
+      "A": "time and temperature can have similar effects on recrystallization progress",
+      "B": "too high temperature or too long time can cause excessive grain growth",
+      "C": "rapidly freezing a fine recrystallized state helps preserve fine grains",
+      "D": "grain growth always improves toughness by creating one very large grain"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is untrue because excessive grain growth is undesirable and reduces the benefit of fine recrystallized microstructure. A, B and C follow the notes: time and temperature both advance recrystallization/growth, and quenching/freezing can preserve fine microstructure.",
+    "relevantTheory": "Hot rolling must balance softening and microstructure control. Recrystallization removes stored deformation energy, but uncontrolled grain growth after recrystallization can damage strength-toughness balance.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 8-9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 22"
+  },
+  {
+    "id": 395,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "TMCP",
+      "coiling temperature",
+      "precipitation",
+      "Nb"
+    ],
+    "diagramRequired": false,
+    "question": "In the TMCP slide, why is coiling temperature not simply made as low or as high as possible?",
+    "options": {
+      "A": "too low gives insufficient precipitation in ferrite, while too high can coarsen precipitates and reduce strengthening",
+      "B": "any coiling temperature gives identical Nb(CN) precipitation",
+      "C": "high coiling temperature is chosen only to melt the strip again",
+      "D": "coiling temperature controls only surface color, never strength"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide notes an optimum coiling temperature: much lower temperature gives insufficient precipitation in ferrite, while higher temperature gives coarsened precipitates with reduced strengthening. B ignores the processing window. C is not coiling. D ignores precipitation strengthening.",
+    "relevantTheory": "TMCP is a window-control problem. Rolling temperature, cooling path and coiling temperature determine precipitation state, ferrite grain size and therefore the strength-toughness compromise.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 10"
+  },
+  {
+    "id": 396,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "DP steels",
+      "Nb",
+      "ferrite formation",
+      "martensite"
+    ],
+    "diagramRequired": false,
+    "question": "In hot strip processing of DP steels, why does Nb help continuous cooling after finish rolling?",
+    "options": {
+      "A": "Nb refines grains and promotes a processing path where ferrite formation enriches austenite in carbon, retarding pearlite/bainite and facilitating later martensite formation",
+      "B": "Nb makes all austenite transform into graphite before ferrite can form",
+      "C": "Nb removes carbon from steel so martensite cannot form",
+      "D": "Nb is used only as an inert casting gas like argon"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that Nb gives noticeable grain refinement and removes the need for an extra holding step; ferrite formation enriches remaining austenite in carbon, retarding pearlite and bainite and facilitating martensite formation later. B, C and D are unrelated or opposite.",
+    "relevantTheory": "Dual phase steels need ferrite plus martensite. Controlled hot strip processing manipulates ferrite formation and carbon enrichment of remaining austenite so that martensite can form on later cooling.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 10"
+  },
+  {
+    "id": 397,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "inclusions",
+      "sources",
+      "refractories",
+      "killing"
+    ],
+    "diagramRequired": false,
+    "question": "Which source of non-metallic inclusions is consistent with Lecture 8 notes?",
+    "options": {
+      "A": "refractory residues, deoxidizer products such as Al/Si/Ti oxides, and intentional MnS inclusions",
+      "B": "only pure ferrite grains, because inclusions are always metallic",
+      "C": "only Charpy test notches after the product is tested",
+      "D": "only chromium oxide passive films on stainless steel surfaces"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes list refractories, additions of reactive deoxidizers such as Al, Si and Ti, and intentional MnS as inclusion sources. B is false because inclusions are non-metallic phases. C is testing damage, not production inclusion formation. D is corrosion/passivation, not steelmaking inclusion origin.",
+    "relevantTheory": "Inclusions can originate during melting, ladle practice, deoxidation/killing and sulfur control. Their amount, chemistry and shape strongly affect toughness and ductility.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 11-13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 18 and 23-24"
+  },
+  {
+    "id": 398,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "killing",
+      "oxides",
+      "nitrides",
+      "Al"
+    ],
+    "diagramRequired": false,
+    "question": "What is NOT TRUE about killing/deoxidation inclusions in steels?",
+    "options": {
+      "A": "Al may combine with oxygen to form Al2O3 inclusions",
+      "B": "Al may block nitrogen by forming AlN",
+      "C": "deoxidation products can appear as oxides at grain boundaries",
+      "D": "killing guarantees that no oxide or nitride inclusion can ever form"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause because killing/deoxidation reduces dissolved oxygen but can create oxide and nitride inclusions. A, B and C match the slides/notes. This is an important trap: a purification step can still leave second-phase particles that must be controlled.",
+    "relevantTheory": "Killing/deoxidation improves steel cleanliness by tying up oxygen, but reaction products become inclusions unless they float out or are controlled. Inclusion engineering is therefore part of quality steelmaking.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 23-24"
+  },
+  {
+    "id": 399,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "sheet bending",
+      "elongated inclusions",
+      "anisotropy"
+    ],
+    "diagramRequired": false,
+    "question": "Why does bending direction matter in rolled sheets containing elongated inclusions?",
+    "options": {
+      "A": "elongated inclusion stringers make properties direction-dependent, so cracks are more likely for unfavorable bending relative to the rolling direction",
+      "B": "bending direction matters only for polymers and never for rolled steels",
+      "C": "elongated inclusions remove all anisotropy by making the sheet isotropic",
+      "D": "rolling direction is erased as soon as the sheet is bent"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slides show formability and bending affected by spheroidal versus elongated MnS inclusions; elongated stringers create anisotropic cracking behavior. B is false. C is the opposite: globular inclusions reduce anisotropy. D ignores rolling texture and inclusion alignment.",
+    "relevantTheory": "Rolled products can have both crystallographic texture and inclusion stringers. Elongated MnS or oxide inclusions act as aligned weak paths, so longitudinal and transverse specimens do not behave the same. Bending across an unfavorable inclusion orientation can open cracks earlier, while globular inclusion shape control reduces this directional sensitivity.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 5"
+  },
+  {
+    "id": 400,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "CVN",
+      "upper shelf energy",
+      "inclusions",
+      "ductility"
+    ],
+    "diagramRequired": false,
+    "question": "What is the effect of non-metallic inclusions on CVN upper-shelf energy and overall ductility?",
+    "options": {
+      "A": "they generally reduce absorbed energy and ductility because they act as weak/brittle sites",
+      "B": "they always increase upper-shelf energy by behaving like ductile ferrite grains",
+      "C": "they affect only electrical conductivity and never impact toughness",
+      "D": "they make transverse specimens stronger than longitudinal specimens in every case"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slides and notes state that inclusions decrease mechanical properties, including upper energy shelf in impact testing and total ductility. B is wrong because inclusions are non-metallic and often brittle. C ignores the CVN discussion. D is too absolute and contradicts the anisotropy problem.",
+    "relevantTheory": "Charpy V-notch energy measures impact toughness. Inclusions reduce the energy needed for fracture, especially when elongated or clustered in the direction unfavorable to loading.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 12-13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 18"
+  },
+  {
+    "id": 401,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "MnS",
+      "FeS",
+      "hot embrittlement",
+      "machinability"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best captures the Mn-S tradeoff in steel production?",
+    "options": {
+      "A": "Mn can tie sulfur as MnS, which is more tolerable than FeS, but MnS inclusions still harm anisotropic toughness/formability if elongated",
+      "B": "MnS is always worse than FeS for hot embrittlement and should never be allowed",
+      "C": "Mn prevents every kind of inclusion from forming",
+      "D": "sulfur is highly soluble in iron, so Mn has no useful interaction with it"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Mn is used to reduce harmful FeS effects by forming MnS, but MnS inclusions are still non-metallic particles that can elongate during rolling and reduce transverse properties. B ignores why Mn is added. C is too absolute. D contradicts the notes on low sulfur solubility and MnS formation.",
+    "relevantTheory": "Steelmaking often manages harm rather than eliminating it completely. MnS avoids severe FeS hot embrittlement and can improve machinability, but inclusion morphology must be controlled for toughness and formability.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 4 and 11-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 13-14 and 18"
+  },
+  {
+    "id": 402,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "stainless steel",
+      "chromium oxidation",
+      "degassing"
+    ],
+    "diagramRequired": false,
+    "question": "Why is careful degassing/deoxidation especially important in stainless-steel production?",
+    "options": {
+      "A": "oxygen can oxidize chromium, reducing the corrosion-resistance potential of the stainless steel",
+      "B": "chromium must be completely removed from stainless steel before casting",
+      "C": "oxygen is needed to form long MnS stringers for passivation",
+      "D": "stainless steel is made without any liquid-metal refining"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes emphasize that stainless manufacturing requires careful degassing since oxygen may oxidize chromium, whose surface oxide is needed for corrosion resistance. B is false: chromium is essential. C confuses sulfide inclusions with passivation. D ignores AOD/VOD and melt processing.",
+    "relevantTheory": "Stainless steels rely on chromium for passive corrosion resistance. Liquid refining must decarburize and degas without wasting chromium through excessive oxidation.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 19"
+  },
+  {
+    "id": 403,
+    "deck": "slides",
+    "moduleId": "lecture-8-steel-production",
+    "section": "Production",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "production chain",
+      "cleanliness",
+      "properties"
+    ],
+    "diagramRequired": false,
+    "question": "Which process-property chain best summarizes Lecture 8?",
+    "options": {
+      "A": "steelmaking route and purification set chemistry/cleanliness; casting controls segregation/inclusions; hot rolling/TMCP control shape, recrystallization, precipitation, grain size and anisotropy",
+      "B": "only the blast furnace matters; all later casting and rolling steps have no effect on properties",
+      "C": "only final Charpy testing creates toughness and ductility",
+      "D": "inclusions always improve transverse toughness, so inclusion shape control is unnecessary"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 8 connects the whole chain: production route, refining, casting, rolling, TMCP and inclusion control all affect final steel performance. B ignores most of the lecture. C confuses measurement with processing. D contradicts the inclusion slides.",
+    "relevantTheory": "Modern steel production is not just melting Fe. It is a process chain where chemistry, gas content, slag/inclusion control, solidification, deformation and thermomechanical processing together determine final microstructure and properties.",
+    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 1-13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 10, 13-18 and 21-24; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 18-23"
+  },
+  {
+    "id": 404,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "nucleation",
+      "growth",
+      "transformation kinetics"
+    ],
+    "diagramRequired": false,
+    "question": "In the phase-transformation kinetics part of Lecture 9, what controls the overall transformation rate?",
+    "options": {
+      "A": "the combined effects of nucleation rate and growth rate",
+      "B": "only the final room temperature, regardless of time",
+      "C": "only the carbon content of cementite, fixed at 6.67%C",
+      "D": "only the external shape of the specimen, never temperature"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture and notes state that reaction rate is the result of nucleation and growth. B is wrong because transformation takes time and depends on temperature. C is a true cementite composition fact, but it does not determine the whole transformation rate. D is wrong because geometry affects cooling, but nucleation and growth kinetics are temperature/time dependent.",
+    "relevantTheory": "Most solid-state transformations begin with nuclei of the new phase and continue by growth. Nucleation needs driving force; growth needs diffusion or interface motion. The product of these effects gives the characteristic C-shaped transformation behavior.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 17-18; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 29-30; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 1-2"
+  },
+  {
+    "id": 405,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "undercooling",
+      "nucleation rate",
+      "growth rate"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NOT TRUE clause about undercooling and transformation in Lecture 9.",
+    "options": {
+      "A": "small undercooling gives few nuclei and relatively coarse microstructure",
+      "B": "large undercooling increases driving force and tends to give many nuclei and finer microstructure",
+      "C": "diffusion becomes easier and faster without limit as temperature decreases",
+      "D": "the transformation rate has a maximum because nucleation driving force and diffusion/growth oppose each other with temperature"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the NOT TRUE clause. Lower temperature increases thermodynamic driving force, but diffusion becomes more difficult, so growth is not faster without limit. A is true. B is true. D is true because the notes explain the knee-shaped transformation behavior from the competition between driving force and diffusion-controlled growth.",
+    "relevantTheory": "Undercooling has two sides: it increases nucleation driving force but decreases atomic mobility. That is why pearlite and bainite transformation rates do not simply increase forever as temperature falls.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 17-19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 30; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 1-3"
+  },
+  {
+    "id": 406,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "coarse pearlite",
+      "fine pearlite",
+      "hardness"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement correctly compares coarse and fine pearlite?",
+    "options": {
+      "A": "coarse pearlite forms at higher transformation temperature and is relatively softer; fine pearlite forms at lower temperature and is harder",
+      "B": "coarse pearlite forms by quenching below Ms and is harder than martensite",
+      "C": "fine pearlite is pure ferrite with no cementite",
+      "D": "pearlite fineness is unrelated to cooling rate or undercooling"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 states coarse pearlite forms at higher temperatures and is relatively soft, while fine pearlite forms at lower temperatures and is relatively harder. B confuses pearlite with martensite. C is wrong because pearlite is ferrite plus cementite. D is wrong because undercooling/cooling rate controls the lamellar spacing and fineness.",
+    "relevantTheory": "Pearlite forms by diffusion of carbon during austenite decomposition. Lower transformation temperature gives more nucleation and closer lamellae, so strength and hardness rise compared with coarse pearlite.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 2-3 and 5"
+  },
+  {
+    "id": 407,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "CCT path",
+      "microconstituent amount",
+      "time in region"
+    ],
+    "diagramRequired": false,
+    "question": "When reading a CCT curve in the professor’s style, what does time spent inside a transformation region indicate?",
+    "options": {
+      "A": "the approximate amount of that microconstituent formed during the cooling path",
+      "B": "the chemical composition of the steel changes to match that region label",
+      "C": "the steel is melting inside that region",
+      "D": "nothing; only the final point matters"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 explicitly notes that time in a CCT region indicates the amount of microconstituent. B is wrong because the bulk composition does not become the region label. C is wrong because these are solid-state transformations. D is a common trap: the path and time through regions control the mixture of ferrite, pearlite, bainite, martensite and retained austenite.",
+    "relevantTheory": "CCT diagrams are used by following the cooling curve through start/finish regions. Longer residence in a region means more transformation there; rapid passage may leave remaining austenite to transform later into bainite or martensite.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 7-8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 10-11"
+  },
+  {
+    "id": 408,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "ferrite formation",
+      "CCT",
+      "incomplete transformation"
+    ],
+    "diagramRequired": false,
+    "question": "Why can ferrite formation be incomplete in non-equilibrium CCT/TTT-type cooling?",
+    "options": {
+      "A": "because carbon diffusion is slow and the cooling path may leave the ferrite region before equilibrium is reached",
+      "B": "because ferrite forms only by diffusionless shear",
+      "C": "because ferrite cannot nucleate at grain boundaries",
+      "D": "because pearlite is a liquid phase that consumes ferrite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes emphasize that in non-equilibrium diagrams, ferrite initial formation may occur but transformation is not necessarily completed because diffusion needs time. B is wrong because ferrite formation is diffusion-controlled in this context. C is wrong because ferrite often starts at grain boundaries. D is wrong because pearlite is a solid microconstituent, not a liquid.",
+    "relevantTheory": "Equilibrium phase diagrams assume enough time for diffusion. CCT/TTT paths often interrupt transformations, so partial ferrite formation may be followed by pearlite, bainite or martensite depending on the remaining austenite and cooling rate.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 7-8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 10; PAST_EXAMS/QUESTIONS_SET_1.txt, representative TTT wording"
+  },
+  {
+    "id": 409,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "austempering",
+      "bainite",
+      "isothermal treatment"
+    ],
+    "diagramRequired": false,
+    "question": "What is the goal of austempering in the Lecture 9 heat-treatment logic?",
+    "options": {
+      "A": "quench from austenite to a bainitic temperature range and hold isothermally to form bainite with good strength-toughness compromise",
+      "B": "quench directly to room temperature to maximize untempered martensite and cracks",
+      "C": "hold just below A1 for many hours to spheroidize pearlite",
+      "D": "heat above liquidus and cast the steel continuously"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes classify austempering as isothermal hardening to produce bainitic structures. B is ordinary severe quenching and risks brittle martensite/residual stress. C is spheroidizing. D is production/casting, not heat treatment of solid steel.",
+    "relevantTheory": "Austempering uses an isothermal hold between pearlitic and martensitic regimes so austenite transforms to bainite rather than passing all the way to untempered martensite. The benefit is strength with better toughness.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 3, 5 and 19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 26; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 4-5 and 16"
+  },
+  {
+    "id": 410,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "martempering",
+      "martensite",
+      "residual stress"
+    ],
+    "diagramRequired": false,
+    "question": "What is the best distinction between martempering and austempering?",
+    "options": {
+      "A": "martempering equalizes temperature before martensite formation to reduce stresses; austempering holds for bainite formation",
+      "B": "martempering produces only coarse pearlite, while austempering melts the surface",
+      "C": "martempering is the same as temper embrittlement",
+      "D": "austempering is performed only to create residual austenite instability"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Martempering or marquenching is used to reduce thermal gradients and residual stresses before martensitic transformation, while austempering holds in the bainite range to transform austenite into bainite. B, C and D mix unrelated concepts and contradict the lecture logic.",
+    "relevantTheory": "Both are special heat treatments, but their products and goals differ. Martempering manages stress during martensitic hardening; austempering changes the product to bainite for a strength-toughness compromise.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 15-16 and 19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 26; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 16"
+  },
+  {
+    "id": 411,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "quench medium",
+      "water quench",
+      "oil quench"
+    ],
+    "diagramRequired": false,
+    "question": "For the same eutectoid steel in the Lecture 9 quenching example, which cooling route gives the highest hardness?",
+    "options": {
+      "A": "water quenching to martensite",
+      "B": "furnace cooling to pearlite",
+      "C": "austempering to bainite",
+      "D": "oil quenching giving mixed pearlite-bainite-martensite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes give water quenching as martensite with about HRC 65 for the eutectoid example. Furnace cooling to pearlite is much softer, around HRC 15-20. Austempered bainite and mixed oil-quenched products are intermediate around HRC 40-45 in the notes, not the maximum.",
+    "relevantTheory": "Cooling medium controls severity. Faster cooling suppresses diffusion and favors martensite, raising hardness but increasing residual stress/crack risk. Slower cooling gives pearlite or bainite with lower hardness and better toughness.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 6 and 15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 15"
+  },
+  {
+    "id": 412,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "Jominy ranking",
+      "1040",
+      "4340"
+    ],
+    "diagramRequired": false,
+    "question": "Which hardenability ranking matches the Lecture 9 notes for steels with about the same carbon level?",
+    "options": {
+      "A": "1040 < 5140 < 8640 < 4140 < 4340",
+      "B": "4340 < 4140 < 8640 < 5140 < 1040",
+      "C": "1040 = 5140 = 8640 = 4140 = 4340 at every Jominy distance",
+      "D": "plain carbon 1040 has the deepest martensite penetration because it has no alloy elements"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes explicitly give hardenability increasing in the order 1040, 5140, 8640, 4140, 4340. B reverses it. C is wrong because they may have similar hardness at the quenched end but different hardness retention with distance. D is wrong because alloying elements shift curves right and increase martensite penetration.",
+    "relevantTheory": "For similar carbon content, as-quenched end hardness can be similar because martensite hardness depends mainly on carbon. Hardenability differs because alloying elements delay diffusional transformations and keep hardness high deeper into the part.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 11-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 22-23"
+  },
+  {
+    "id": 413,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "surface-to-volume ratio",
+      "core hardness",
+      "geometry"
+    ],
+    "diagramRequired": false,
+    "question": "How does component geometry affect quenching results?",
+    "options": {
+      "A": "higher surface-to-volume ratio increases cooling rate and tends to increase hardness; large cores cool more slowly and are harder to fully martensitize",
+      "B": "larger diameter always cools faster in the core than at the surface",
+      "C": "geometry has no effect because hardenability is measured only by chemistry",
+      "D": "irregular geometry prevents any residual stress from forming"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes state that when surface-to-volume ratio increases, cooling rate and hardness increase, while large diameters make it harder to obtain martensite in the core. B reverses surface/core cooling. C ignores the distinction between material hardenability and actual cooling in a part. D is wrong because irregular geometry often increases crack risk.",
+    "relevantTheory": "Actual heat treatment depends on both steel hardenability and cooling conditions. Even a hardenable steel can have gradients; surface, corners and thin sections cool faster than cores or thick sections.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 6, 11-12 and 15-16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 13 and 22"
+  },
+  {
+    "id": 414,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Ni",
+      "toughness",
+      "austenitizer"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the UNTRUE clause about Ni in tempered or hardenable steels.",
+    "options": {
+      "A": "Ni can increase UTS while maintaining high CVN toughness and elongation",
+      "B": "Ni is a strong austenitizer and preferentially remains in solid solution",
+      "C": "Ni is mainly a ferritizing carbide former that promotes precipitation as its key role",
+      "D": "increasing Ni can improve impact energy or decrease DBTT"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the UNTRUE clause. The notes describe Ni as a ferrite strengthener in solid solution, not a carbide former, and as a strong austenitizer. A is true because Ni raises UTS while keeping toughness/elongation. B is true. D is true because Ni increases impact energy and lowers DBTT in the notes.",
+    "relevantTheory": "Ni is valuable because it strengthens without the same toughness penalty as some other additions. It stabilizes austenite and improves low-temperature toughness, which is why exam questions often trap it against ferritizing or carbide-forming roles.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 20; PAST_EXAMS/QUESTION_SET_3.txt, representative alloying-element trap wording"
+  },
+  {
+    "id": 415,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "S",
+      "P",
+      "toughness",
+      "weldability"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about P and S in tempered steels matches Lecture 9?",
+    "options": {
+      "A": "P increases strength/hardness but decreases ductility and notch impact toughness; S in sulfides lowers toughness/elongation and weldability, especially transversely",
+      "B": "P and S are the main elements used to improve CVN toughness in quenched and tempered steels",
+      "C": "S eliminates anisotropy and always improves weldability",
+      "D": "P prevents all embrittlement by forming stable Mo carbides"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes list P as increasing strength and hardness while decreasing ductility and notch impact toughness, and S as sulfides that decrease toughness/elongation especially in the transverse direction and reduce weldability. B is the opposite. C is wrong because sulfides are harmful for transverse properties and weldability. D confuses P with the beneficial role of Mo/W against temper embrittlement.",
+    "relevantTheory": "Not every element that raises strength is beneficial. P and S are classic impurity-type traps: they can raise hardness or aid machining in other contexts, but they damage toughness, ductility and weldability in tempered steels.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 20; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 20 and 24"
+  },
+  {
+    "id": 416,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "tempering temperature",
+      "carbide coarsening",
+      "strength ductility tradeoff"
+    ],
+    "diagramRequired": false,
+    "question": "What happens as tempering temperature or tempering time is increased?",
+    "options": {
+      "A": "carbon diffusion and carbide coarsening increase, so hardness/strength decrease while ductility and toughness generally increase",
+      "B": "martensite becomes more tetragonal and more brittle without carbide precipitation",
+      "C": "the steel necessarily melts because tempering is performed above liquidus",
+      "D": "all residual stresses increase without any recovery"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes state that higher tempering temperature or longer time gives larger carbide particles, less boundary area, lower strength/hardness and more ductility; the slide also shows tempering improving toughness by precipitating Fe3C. B is the opposite of tempering. C is impossible because tempering is below A1. D is wrong because tempering reduces internal stresses from quenching.",
+    "relevantTheory": "Tempering is diffusion-controlled. Low tempering preserves more hardness; high tempering sacrifices hardness for toughness and ductility. The final property choice is a compromise, not simply maximum hardness.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 18-20"
+  },
+  {
+    "id": 417,
+    "deck": "slides",
+    "moduleId": "lecture-9-heat-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "lecture synthesis",
+      "heat treatment selection",
+      "strength toughness compromise"
+    ],
+    "diagramRequired": false,
+    "question": "A medium-carbon steel gear needs high strength but must not remain brittle after quenching. Which heat-treatment logic best follows Lecture 9?",
+    "options": {
+      "A": "austenitize, quench with suitable severity to form martensite through the required depth, then temper to obtain tempered martensite with improved toughness",
+      "B": "furnace cool only, because coarse pearlite always gives the highest gear hardness",
+      "C": "spheroidize only, because the softest condition is always the final service condition for gears",
+      "D": "hold in the temper-embrittlement range as long as possible to maximize intergranular toughness"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 9 frames tempered steels as strengthened by heat treatment: austenitize, quench to martensite, then temper for the strength-toughness compromise. B gives a soft coarse pearlitic structure. C is useful for shaping/workability, especially hyper-eutectoid steels, but not the final high-strength gear logic. D is dangerous because the temper-embrittlement range causes toughness loss.",
+    "relevantTheory": "The practical lecture synthesis is selection of process chain for property target. Quenching gives high hardness but brittleness/residual stress; tempering restores toughness; hardenability and quench severity decide whether the core also reaches the desired martensitic product.",
+    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 1, 6, 10-12 and 13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 26; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 18 and 21-23"
+  },
+  {
+    "id": 418,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "carburizing",
+      "case hardening",
+      "tough core"
+    ],
+    "diagramRequired": false,
+    "question": "Which clause best explains why carburizing is used for gears, shafts and bearings?",
+    "options": {
+      "A": "It enriches only the surface in carbon, then quenching transforms that high-C austenite into hard martensite while the low-C core remains tough.",
+      "B": "It removes carbon from the whole section so that ferrite becomes harder and the core becomes brittle.",
+      "C": "It forms nitrides at 500-600 deg C without any austenite formation or quenching.",
+      "D": "It hardens the part only by induced currents, with no chemical change at the surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 10 gives carburizing the purpose of a high hard surface and tough core: carbon is absorbed into the austenitic surface and, after quenching, that carbon-rich surface can form high-hardness martensite. B is wrong because carburizing adds carbon at the surface; it does not decarburize the whole section. C describes nitriding, not carburizing: nitriding uses nitrogen and nitride formation at lower temperature. D describes induction hardening, which is a thermal surface hardening process rather than a chemical enrichment process.",
+    "relevantTheory": "Carburizing is a case-hardening treatment for low-carbon steels. The key process-property chain is: heat into the austenite field, maintain a carbon-rich surface atmosphere, let carbon diffuse inward from the surface, then quench. Carbon has much higher solubility in austenite than in ferrite, so the process is performed at high temperature where austenite exists and diffusion is fast enough. The surface becomes high-carbon martensite and gives wear/contact hardness; the center remains lower carbon and therefore tougher. This is why carburized components are common for gears, shafts, bearings and similar parts that need a hard skin but must not be brittle through the whole section.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pp. 16-17"
+  },
+  {
+    "id": 419,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "carburizing steels",
+      "process temperature",
+      "austenite"
+    ],
+    "diagramRequired": false,
+    "question": "Carburizing of steels - mark the UNTRUE clause.",
+    "options": {
+      "A": "It is applicable to plain carbon steels below about 0.2%C and low-carbon low-alloy steels.",
+      "B": "Typical carburizing conditions in the lecture are about 870-950 deg C for 10-20 h.",
+      "C": "It exploits high carbon solubility in austenite and increasing absorption/diffusion rate with temperature.",
+      "D": "It is normally selected for medium-carbon nitriding steels in already tempered/semi-finished condition."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the untrue clause because the slide assigns medium-carbon steels in tempered or semi-finished condition to nitriding, not carburizing. A is true: carburizing is for carburizing steels, especially low-carbon plain or low-carbon low-alloy steels. B is true according to the lecture process window, which gives Tc = 870-950 deg C and time = 10-20 h. C is true because the treatment relies on carbon dissolving in austenite and on diffusion becoming faster at high temperature.",
+    "relevantTheory": "The initial carbon content matters. If the whole steel already has high carbon, quenching may make the entire section very hard and brittle. Carburizing starts with a low-carbon steel so only the surface is enriched while the core keeps low-carbon toughness. The treatment temperature is above the austenitizing range because carbon solubility in gamma iron is high and diffusion is thermally activated. Holding time controls case depth; temperature accelerates absorption and diffusion but also increases distortion risk.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, p. 4"
+  },
+  {
+    "id": 420,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "carbon profile",
+      "oil quench",
+      "martensite"
+    ],
+    "diagramRequired": false,
+    "question": "After carburizing and oil quenching, where should the maximum hardness be expected?",
+    "options": {
+      "A": "At the surface, because the carbon concentration profile is highest there and the surface austenite transforms to carbon-rich martensite.",
+      "B": "At the center, because carbon diffuses from the surface and accumulates only in the core.",
+      "C": "Uniformly through the whole section, because carburizing eliminates the concentration gradient.",
+      "D": "Only at grain boundaries, because carburizing is a grain-boundary precipitation treatment."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slide explicitly lists the process outcome as a carbon concentration profile along the thickness, with maximum HV on the surface, followed by transformation of austenite into martensite by oil quenching. B is wrong because the carbon source is external and the highest concentration is at the surface, decreasing with depth. C is wrong because a gradient is the desired result, not a defect to be eliminated. D is wrong because the main hardening mechanism is carbon enrichment plus martensitic transformation, not only grain-boundary precipitation.",
+    "relevantTheory": "Carburizing is governed by non-steady diffusion. Surface carbon concentration is imposed by the atmosphere, while the initial steel has lower carbon. Carbon flux goes inward down the concentration gradient, so the case has a graded composition. On quenching, regions with enough carbon and prior austenite transform to high-hardness martensite. The core, with less carbon, remains tougher and less hard. This graded hardness profile is the reason carburizing is useful for rolling-contact, sliding and tooth-root service.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pp. 15-17"
+  },
+  {
+    "id": 421,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "nitriding",
+      "nitrides",
+      "ferrite"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement gives the correct hardening principle of nitriding?",
+    "options": {
+      "A": "Nitrogen reacts with iron and alloying elements to form very hard nitrides at the surface, while the core remains tough.",
+      "B": "Carbon dissolves in austenite at 870-950 deg C and then forms high-carbon martensite by oil quenching.",
+      "C": "A coil induces eddy currents and heats the surface without changing chemical composition.",
+      "D": "The surface is melted and resolidified into columnar dendrites to increase hardness."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 10 says nitriding exploits the formation of very hard compounds, nitrides, by nitrogen with iron; the outcome is a very high hardness superficial nitride layer. B is carburizing, not nitriding. C is induction hardening, a thermal process without chemical addition. D is not the nitriding mechanism and would belong more to welding or surface melting processes, not the controlled low-temperature nitride case described in the lecture.",
+    "relevantTheory": "Nitriding is a chemical surface treatment in which atomic nitrogen enters the steel and forms nitrides. Unlike carburizing, it is performed in the ferritic temperature range, typically 500-600 deg C in the lecture, so the steel does not need to be austenitized and quenched to create the hard layer. The hardened layer is thin but can reach very high hardness because Fe nitrides and alloy nitrides are extremely hard. Nitriding is therefore chosen for wear resistance, localized contact loading and dimensional control.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 2"
+  },
+  {
+    "id": 422,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "ammonia",
+      "atomic nitrogen",
+      "nitriding atmosphere"
+    ],
+    "diagramRequired": false,
+    "question": "In gas nitriding, why is partially dissociated NH3 used instead of relying on inert N2?",
+    "options": {
+      "A": "Because atomic nitrogen from NH3 can diffuse into iron at atmospheric pressure, while inert N2 would not supply active nitrogen effectively.",
+      "B": "Because NH3 removes all nitrogen from the surface and prevents any compound layer from forming.",
+      "C": "Because NH3 raises the steel above the austenite field so carbon can dissolve before quenching.",
+      "D": "Because NH3 is only a cooling medium used after induction hardening."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slide states that the gas is partially dissociated ammonia to prevent inert N2 formation and excessive surface enrichment, and that nitrogen can diffuse in iron at atmospheric pressure. B is wrong because the purpose is to introduce nitrogen, not remove it. C is wrong because nitriding is not the high-temperature carburizing/austenitizing route. D is wrong because ammonia is the reactive nitriding atmosphere, not a quench medium.",
+    "relevantTheory": "The nitriding reaction must supply active nitrogen to the steel surface. The lecture writes the reaction using NH3 and Fe to form Fe4N plus hydrogen; the important point for the exam is not gas chemistry detail but the role of active N. Too little active nitrogen gives no case; excessive surface enrichment can push the surface toward unwanted nitride phases such as epsilon/zeta. Controlled partial dissociation lets nitrogen dissolve and diffuse while limiting an overly brittle compound layer.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 2"
+  },
+  {
+    "id": 423,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "nitriding steels",
+      "penetration depth",
+      "tempered condition"
+    ],
+    "diagramRequired": false,
+    "question": "Which set of conditions is most consistent with the nitriding treatment described in Lecture 10?",
+    "options": {
+      "A": "Medium-carbon plain or low-alloy steels, often tempered/semi-finished, treated at about 500-600 deg C for long times, with about 0.1-0.6 mm penetration.",
+      "B": "Low-carbon carburizing steels, treated at about 870-950 deg C for 10-20 h, then oil quenched to form martensite.",
+      "C": "Any annealed ferrite-pearlite gear, heated by a high-frequency coil and immediately water quenched.",
+      "D": "A fully molten weld pool, slowly cooled to produce a columnar dendritic hard surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the nitriding slide lists medium-carbon steels, including medium-carbon low-alloy steels, in tempered/semi-finished condition, with TN = 500-600 deg C, time around 70 h and penetration depth 0.1-0.6 mm. B is the carburizing route. C describes induction hardening and also includes the trap that annealed ferrite-pearlite parts can give non-uniform hardening. D is welding solidification, not nitriding.",
+    "relevantTheory": "Nitriding is usually applied after prior heat treatment because it does not rely on a final quench to build the case. The core properties must already be obtained by the steel grade and previous tempering condition, while the nitriding step adds the hard surface compound/diffusion layer. The low treatment temperature reduces distortion compared with carburizing, but diffusion is slower, so long times are needed and the case is relatively shallow.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 1-2"
+  },
+  {
+    "id": 424,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Fe-N diagram",
+      "gamma prime",
+      "epsilon nitride"
+    ],
+    "diagramRequired": false,
+    "question": "For Fe-N phases in nitriding, mark the correct association.",
+    "options": {
+      "A": "alpha azotoferrite is a solid solution of N in alpha iron, with very low N solubility.",
+      "B": "gamma prime is ordinary carbon martensite with no nitrogen.",
+      "C": "epsilon is an FCC austenite field with exactly 0.1%N maximum.",
+      "D": "zeta is the same as alpha ferrite except that carbon is 11-11.3%."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide defines alpha as azotoferrite, a solid solution of nitrogen in alpha iron, with about 0.1%N maximum near 590 deg C. B is wrong because gamma prime is Fe4N, a hard interstitial compound, not carbon martensite. C is wrong because epsilon is listed as a solid solution in an HCP structure with variable nitrogen up to about 11%, not FCC austenite with 0.1%N. D is wrong because zeta is described as similar to epsilon but with nitrogen around 11-11.3%, not carbon in alpha ferrite.",
+    "relevantTheory": "The Fe-N diagram matters because nitriding hardness is not just nitrogen in solid solution. Ferrite has very low nitrogen solubility, so nitrogen enrichment rapidly promotes nitride/compound formation. The lecture terms are: alpha azotoferrite for N in alpha iron, gamma azotoaustenite for N in austenite, gamma prime as Fe4N, epsilon as an HCP Fe-N solid solution/compound range up to high nitrogen, and zeta at still higher nitrogen. In exam traps, do not confuse these nitrogen phases with Fe-C martensite, pearlite or cementite.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 3"
+  },
+  {
+    "id": 425,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "carburizing vs nitriding",
+      "distortion",
+      "hardness"
+    ],
+    "diagramRequired": false,
+    "question": "Carburizing vs nitriding - which comparison is the most accurate?",
+    "options": {
+      "A": "Nitriding gives a very hard but thinner case at lower temperature and usually lower distortion; carburizing gives a deeper carbon case but needs high-temperature austenitizing and quenching.",
+      "B": "Carburizing is always lower temperature than nitriding because carbon diffuses only in ferrite.",
+      "C": "Nitriding must always be followed by oil quenching from 870-950 deg C to form high-carbon martensite.",
+      "D": "Both treatments are identical because both form the same Fe-C surface compound and the same case depth."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture contrasts carburizing as high-temperature carbon enrichment with quenching, while nitriding is a lower-temperature nitride-forming process with a shallow but very hard layer and lower distortion. B is wrong because carburizing is performed at high temperature in austenite, where carbon solubility is high. C is wrong because the carburizing route uses quenching; nitriding commonly does not require that final austenitize-quench step. D is wrong because the diffusing element, phase products, temperatures, case depths and distortion risks differ.",
+    "relevantTheory": "Choose carburizing when a relatively deep case and high load-bearing carbon-martensite surface are needed and distortion can be managed by later finishing. Choose nitriding when dimensional stability, very high surface hardness, wear resistance and compressive residual stress are important, and when a thinner case is acceptable. The process selection is a balance among surface hardness, case depth, steel grade, previous heat treatment, allowable distortion, and final finishing.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 1-5, 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 1-3"
+  },
+  {
+    "id": 426,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "post-carburized parts",
+      "post-nitrided parts",
+      "finishing sequence"
+    ],
+    "diagramRequired": false,
+    "question": "Which process chain matches the lecture table for a post-carburized steel part?",
+    "options": {
+      "A": "Normalizing, work-hardening annealing, rough machining, carburizing, quenching plus tempering at about 150 deg C, then finish by grinding.",
+      "B": "Normalizing, work-hardening annealing, rough machining, tempering, finish, nitriding, then finish by grinding.",
+      "C": "Only nitriding at 500-600 deg C, with no previous or final operation.",
+      "D": "Melting, columnar dendrite solidification, recrystallized HAZ formation, then no finishing."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide table lists the carburized route as normalizing plus work-hardening annealing, rough machining, carburizing, quenching plus tempering at 150 deg C, and final grinding. B is the nitrided route in the same table, not the carburized route. C is too simplified and misses the lecture emphasis on prior condition, machining and finishing. D is a welding sequence, not a surface hardening route.",
+    "relevantTheory": "Surface treatments are not isolated single words; they sit in a manufacturing sequence. Rough machining is done before the hard case because the final surface becomes difficult to machine. Carburizing requires a quench, so low-temperature tempering is used afterward to reduce brittleness while keeping surface hardness. Nitriding is typically placed after tempering and finishing to limit distortion, with final grinding when needed. Exam questions often test the order because reversing treatment and machining can destroy the case or waste the treatment.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 5"
+  },
+  {
+    "id": 427,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "induction hardening",
+      "skin depth",
+      "frequency"
+    ],
+    "diagramRequired": false,
+    "question": "In induction hardening, the lecture gives the current penetration depth as delta = sqrt(rho/(pi mu f)). What happens if frequency f is increased, all else being equal?",
+    "options": {
+      "A": "The penetration depth decreases, so heating becomes more superficial.",
+      "B": "The penetration depth increases, so the whole section is heated uniformly.",
+      "C": "The penetration depth is unchanged because frequency affects only the coil shape.",
+      "D": "The chemical carbon content of the surface increases automatically."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because f is in the denominator inside the square root; increasing f reduces delta and makes the induced-current heating shallower. B is the opposite of the formula. C is wrong because frequency directly appears in the penetration-depth expression, while coil shape controls where heating is applied. D is wrong because induction hardening is a thermal process and does not add carbon or nitrogen.",
+    "relevantTheory": "Induction hardening uses alternating current in a coil to create a magnetic field, induced currents in the steel, and Joule heating near the surface. The heated surface is then quenched to form martensite where the steel was austenitized. Penetration depth depends on electrical resistivity, magnetic permeability and frequency. Higher frequency gives a thinner heated layer; lower frequency gives deeper heating. This is why induction can be tuned for teeth, shafts and selected surfaces rather than treating the whole part.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 5-7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 1"
+  },
+  {
+    "id": 428,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "induction hardening",
+      "normalized steel",
+      "leopardizing"
+    ],
+    "diagramRequired": false,
+    "question": "Induction hardening of a gear - mark the NOT TRUE clause.",
+    "options": {
+      "A": "It hardens by local surface heating followed by quenching, without chemical addition.",
+      "B": "Changing the inductor shape allows selected regions of the part to be heated.",
+      "C": "An annealed ferrite-pearlite starting structure is always preferred because it guarantees perfectly uniform hardening.",
+      "D": "Different penetration depths can be reached by controlling induction conditions."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct as the not true clause. The notes warn that annealed materials with ferrite and pearlite colonies are not suitable because they may give a non-uniform 'leopardizing' effect; normalized material is preferred for more uniform response. A is true because induction hardening is thermal, not chemical. B is true because different coil/inductor geometries heat different regions. D is true because the slide and notes emphasize penetration depth control.",
+    "relevantTheory": "Induction hardening works only where the surface reaches the austenitizing range before quenching. If the starting microstructure is strongly heterogeneous, local transformation and hardness can be patchy. A normalized structure gives a more uniform response. This is different from carburizing and nitriding, where chemistry is deliberately changed at the surface. In induction, the alloy must already contain enough carbon to harden by martensitic transformation in the heated zone.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 6-7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 1-2"
+  },
+  {
+    "id": 429,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "fatigue resistance",
+      "compressive residual stress",
+      "surface treatments"
+    ],
+    "diagramRequired": false,
+    "question": "Why do many surface heat treatments improve fatigue resistance besides increasing surface hardness?",
+    "options": {
+      "A": "They confer a compressive stress state at the surface, opposing crack opening and delaying fatigue-crack propagation.",
+      "B": "They always put the surface into tensile residual stress, which helps cracks open slowly.",
+      "C": "They remove all residual stresses from the whole component, so fatigue becomes independent of surface condition.",
+      "D": "They improve fatigue only because the core becomes fully brittle martensite."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture states that surface heat treatments increase fatigue resistance since they confer a compressive stress state on the surface. B is wrong because tensile residual stresses promote crack opening and are dangerous for fatigue. C is wrong because the improvement is specifically linked to the surface state, not total removal of stress. D is wrong because a brittle martensitic core would be harmful; the desired design is hard/compressive surface with a tougher core.",
+    "relevantTheory": "Fatigue cracks usually initiate at or near the surface where cyclic tensile stresses are highest and defects are exposed. A compressive residual stress at the surface subtracts from the applied tensile stress during part of the cycle, making crack opening and propagation more difficult. This is why surface hardening treatments can improve fatigue even when the case depth is limited. Poorly controlled treatments can instead leave tensile stresses or cracks, so the residual-stress sign matters.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 3"
+  },
+  {
+    "id": 430,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "chemical surface treatment",
+      "boriding",
+      "case depth"
+    ],
+    "diagramRequired": false,
+    "question": "A designer asks for the chemical treatment from the lecture summary that gives an Fe-B superficial compound and the highest listed hardness range among nitriding, nitro-carburizing, boriding and carburizing. Which treatment is it?",
+    "options": {
+      "A": "Boriding",
+      "B": "Carburizing",
+      "C": "Nitriding",
+      "D": "Nitro-carburizing"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the summary table lists boriding as producing Fe-B and about 1000-1800 HV, higher than the listed ranges for nitriding and nitro-carburizing (700-1000 HV) and carburizing (750-950 HV). B is wrong because carburizing produces an Fe-C surface/case and has the deepest possible case in the table but not the highest listed hardness among these four. C is wrong because nitriding gives Fe-N and a hard but generally thinner layer. D is wrong because nitro-carburizing gives Fe-(C,N), not Fe-B.",
+    "relevantTheory": "The summary table is useful for process selection. Nitriding and nitro-carburizing operate at relatively low temperatures and low distortion with thin compound/diffusion layers. Boriding produces very hard Fe-B layers but can have higher distortion and process severity. Carburizing can produce much deeper cases, up to millimeter scale in the table, but with higher treatment temperature and post-treatment needs. The best answer depends on whether hardness, depth, distortion or dimensional precision is dominant.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11"
+  },
+  {
+    "id": 431,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "weldability",
+      "hardenability",
+      "carbon content"
+    ],
+    "diagramRequired": false,
+    "question": "Weldability of steels - mark the TRUE clause.",
+    "options": {
+      "A": "A weldable steel should have low hardenability; steels up to about 0.4%C can be weldable, but caution is needed as carbon and alloying increase.",
+      "B": "High hardenability is always required because martensite in the HAZ prevents cracking under the bead.",
+      "C": "Weldability is independent of alloying elements because only the molten zone matters.",
+      "D": "Only hypereutectoid steels are weldable because they contain enough cementite to soften the HAZ."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that, for a steel to be weldable, it must be low hardenable and contain low alloying content; up to about 0.4%C can be weldable although caution is needed at higher carbon content. B is wrong because high hardenability promotes hard/brittle HAZ microstructures and cracking risk. C is wrong because the heat-affected zone outside the melt zone is central to weldability. D is wrong because high carbon and cementite do not soften the HAZ; they generally increase hardening/cracking concerns.",
+    "relevantTheory": "During welding the metal experiences a severe thermal cycle: melting and solidification in the fusion zone, and a range of peak temperatures in the HAZ. The HAZ can austenitize and then cool rapidly. If the steel has high hardenability, that cooling can form martensite or other brittle structures near the bead, creating crack susceptibility. Low carbon and low alloy content shift the response toward softer, tougher transformation products and improve weldability.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 9-10"
+  },
+  {
+    "id": 432,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "HAZ",
+      "cooling rate",
+      "under-bead cracking"
+    ],
+    "diagramRequired": false,
+    "question": "In the heat-affected zone of a weld, why is a high-hardenable steel more dangerous than a low-hardenable steel after rapid cooling?",
+    "options": {
+      "A": "The high-hardenable steel can transform in the HAZ into hard brittle microstructures, increasing crack risk underneath the welding bead.",
+      "B": "The high-hardenable steel cannot transform at all, so it remains liquid under the bead.",
+      "C": "The low-hardenable steel always forms more martensite because alloying elements shift TTT curves to the left.",
+      "D": "The HAZ is outside the thermal cycle, so hardenability has no effect there."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture contrasts high- and low-hardenable steels in the welding zone and shows the danger of cracking underneath the welding bead in the HAZ. Rapid cooling of a high-hardenability HAZ can produce hard, brittle transformation products. B is wrong because the HAZ is solid-state heated, not a region that remains liquid. C is wrong because alloying/hardenability generally delays diffusional transformations and promotes martensitic/bainitic products at practical cooling rates. D is wrong because the HAZ is defined by the welding thermal cycle and its microstructure depends strongly on hardenability.",
+    "relevantTheory": "The HAZ is not melted but is heated to different maximum temperatures depending on distance from the weld. Close to the fusion line, grains can grow and austenite can form; during cooling, the transformation path depends on composition, hardenability and cooling rate. High-hardenable steels resist ferrite/pearlite formation and can form martensite even with less severe cooling, producing high hardness, low toughness and under-bead cracking risk. Low-hardenable steels transform more readily to softer products and are therefore easier to weld.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 9-10"
+  },
+  {
+    "id": 433,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "dry corrosion",
+      "wet corrosion",
+      "oxidation",
+      "electrolyte"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best distinguishes dry corrosion from wet corrosion in the terminology of Lecture 11?",
+    "options": {
+      "A": "Dry corrosion is mainly oxidation by vapors or gases at high temperature, whereas wet corrosion needs humidity or liquid water plus oxygen at room temperature.",
+      "B": "Dry corrosion is electrochemical corrosion in water, whereas wet corrosion is only scale formation in dry oxygen.",
+      "C": "Dry corrosion requires an electrolyte and cathodic reaction, whereas wet corrosion does not require electrical connection.",
+      "D": "Dry corrosion is the same as galvanic corrosion, whereas wet corrosion is only pitting corrosion."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture separates dry corrosion as oxidation in vapors or gases, especially at high temperature, with scale formation depending on adhesion and porosity; wet corrosion is associated with humidity or liquid water plus oxygen at room temperature and electrochemical metal loss. B reverses the categories: water/electrolyte belongs to wet corrosion, not dry corrosion. C is wrong because the electrolyte, cathode, anode and electrical connection are the basic circuit of wet corrosion. D is too narrow and mixes mechanisms: galvanic and pitting are classes of corrosion phenomena, not the dry/wet distinction.",
+    "relevantTheory": "Dry corrosion is chemical oxidation without the same aqueous electrochemical cell emphasized for wet corrosion. It often produces an oxide scale; whether that scale protects the metal depends on adhesion, cohesiveness and porosity. Wet corrosion is electrochemical: moisture acts as an electrolyte, oxygen usually supplies the cathodic reaction, metal atoms are ionized at anodic regions, and material loss can appear as thinning, craters or localized attack. The exam trap is to remember that water plus oxygen makes the corrosion cell possible, while high-temperature gas oxidation is the dry corrosion case.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 1-2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 12"
+  },
+  {
+    "id": 434,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "wet corrosion cell",
+      "anode",
+      "cathode",
+      "electrolyte",
+      "NOT TRUE"
+    ],
+    "diagramRequired": false,
+    "question": "Wet corrosion in iron and steels occurs only if the corrosion cell is closed. Mark the NOT TRUE clause.",
+    "options": {
+      "A": "The anodic and cathodic regions must be electrically connected through the metal conductor.",
+      "B": "The electrolyte is needed so ionic charge can be transported in the solution.",
+      "C": "Removing either the electrolyte, the anode-cathode couple, or the electrical connection can suppress the corrosion cell.",
+      "D": "The cathode corrodes by giving up metal ions into the electrolyte, while the anode is protected by receiving electrons."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause because it reverses the electrode roles. In wet corrosion the anode is the thinning region: metal atoms are oxidized into ions and electrons are released. The cathode receives electrons and supports a reduction reaction or plating/thickening effect. A is true because electron flow through the metallic conductor is required. B is true because water or another conducting solution closes the ionic part of the circuit. C is true and is the basis of design prevention: break one necessary element of the cell and corrosion is strongly reduced or stopped.",
+    "relevantTheory": "The basic wet corrosion cell has four linked elements: anode, cathode, metallic conductor and electrolyte. At the anode, metallic Fe loses electrons and enters the electrolyte as Fe ions, so that region thins. The electrons travel through the conductor toward the cathode, where a reduction reaction consumes them. Moisture containing dissolved ions behaves as the electrolyte. This is why corrosion is favored by humid oxygen-containing environments and why design, coating or insulation strategies try to interrupt the circuit.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 2-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 12-13"
+  },
+  {
+    "id": 435,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "anodic reaction",
+      "oxidation",
+      "electron flow"
+    ],
+    "diagramRequired": false,
+    "question": "In a wet corrosion cell on a steel component, what happens at an anodic region?",
+    "options": {
+      "A": "Metal atoms are oxidized into ions entering the electrolyte, while released electrons flow through the metal toward the cathode.",
+      "B": "Oxygen is reduced and the metal surface becomes the protected electrode receiving electrons.",
+      "C": "Metal ions from the electrolyte are always deposited, causing thickening of the anodic region.",
+      "D": "Only hydrogen diffusion occurs, with no electrochemical oxidation of the metal."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture defines the anodic reaction as metallic portions of the anode precipitating as ions into the electrolyte solution, while released electrons flow through the conductor to the cathode. B describes the cathodic side, where reduction reactions occur. C confuses corrosion with plating or cathodic deposition; the anode is the material-loss region. D is wrong because hydrogen may be involved in some corrosion damage, but the basic anodic reaction is metal oxidation.",
+    "relevantTheory": "Corrosion is an oxidation-reduction process. Oxidation occurs at the anode: Fe becomes Fe ions and electrons are liberated. Reduction occurs at the cathode and depends on local conditions, commonly involving oxygen or hydrogen reactions. Because material loss is tied to anodic dissolution, the anode is the dangerous thinning region. This is central to galvanic corrosion, crevice corrosion, pitting and sacrificial coatings: the part that becomes anodic is the part that is consumed.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 13"
+  },
+  {
+    "id": 436,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "uniform corrosion",
+      "rate control",
+      "electroneutrality",
+      "NOT TRUE"
+    ],
+    "diagramRequired": false,
+    "question": "Uniform corrosion of steels: mark the NOT TRUE clause.",
+    "options": {
+      "A": "It is responsible for great material destruction, but it is technically less alarming than hidden localized forms because it is more predictable.",
+      "B": "Its corrosion cells are small, numerous and randomly distributed over the surface, giving an almost uniform attack.",
+      "C": "Its rate is linked to electron current and is controlled by the balance between anodic and cathodic reactions required for electroneutrality.",
+      "D": "It is dangerous mainly because negligible overall mass loss hides a very deep local cavity."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause for uniform corrosion; negligible total metal loss with deep local penetration is the pitting-corrosion danger. A is true because the lecture says uniform corrosion causes the greatest destruction of structural materials but is not usually a major technical concern because it can be anticipated and allowed for. B is true: the small random cells average out into uniform surface attack. C is true because corrosion rate follows the current and whichever half-reaction proceeds least readily can control the rate.",
+    "relevantTheory": "Uniform corrosion spreads anodic and cathodic sites over the whole surface. Since local cells constantly change position and are distributed statistically, the metal thins relatively evenly. The rate must satisfy charge balance: anodic metal dissolution and cathodic reduction must proceed together, and the slower reaction limits the overall current. This makes uniform corrosion measurable by thickness loss or mass loss and therefore often manageable by design allowance, coatings or material selection. Do not confuse it with pitting, where the surface can look mostly intact while a pit penetrates deeply.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 14-15"
+  },
+  {
+    "id": 437,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "galvanic corrosion",
+      "less noble metal",
+      "electrode potential",
+      "passivity"
+    ],
+    "diagramRequired": false,
+    "question": "Two dissimilar metals are in electrical contact and immersed in a conducting solution. According to the lecture, which statement best describes the expected galvanic corrosion behavior?",
+    "options": {
+      "A": "The less noble metal tends to become anodic and corrode more rapidly, but the potential table alone does not give the corrosion rate.",
+      "B": "The more noble metal always corrodes faster because it has the larger standard electrode potential.",
+      "C": "No corrosion is possible if both metals are mechanically touching, because contact removes the potential difference.",
+      "D": "The standard electrode potential table already includes the protective effect of passivating oxide films."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: galvanic corrosion is driven by the potential difference between dissimilar metals, and the less noble member is usually anodic and consumed faster. B reverses the galvanic role; the cathodic, more noble material is usually protected. C is wrong because electrical contact is one of the conditions that allows galvanic current to flow. D is a lecture trap: standard electrode potential tables rank anodic/cathodic tendency but do not directly include rate or the strong rate-reducing effect of surface passivity.",
+    "relevantTheory": "Galvanic or bimetallic corrosion needs dissimilar corrosion potentials, electrical contact and a conducting environment. The galvanic series or standard electrode potential table helps predict which material tends to be anodic or cathodic. However, the actual damage rate also depends on electrolyte resistivity, separation, oxygen, pH, temperature, surface-area ratio and passivation. Aluminum and chromium-containing alloys may appear reactive in a table but resist attack if a dense adherent oxide film passivates the surface.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 5-6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 15"
+  },
+  {
+    "id": 438,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "galvanic corrosion",
+      "surface area ratio",
+      "small anode",
+      "large cathode"
+    ],
+    "diagramRequired": false,
+    "question": "Which design situation is the most critical for galvanic corrosion rate at the anodic material?",
+    "options": {
+      "A": "A small anodic area electrically coupled to a very large cathodic area in a conductive solution.",
+      "B": "A large anodic area coupled to a very small cathodic area in a poorly conducting solution.",
+      "C": "Two metals with similar corrosion potentials, separated electrically from one another.",
+      "D": "A sacrificial Zn coating on steel, where Zn is allowed to corrode preferentially."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture identifies surface-area ratio as the key design factor: if a large cathode is near a small anode, the current demand is concentrated onto a small anodic surface and the attack can become extremely high. B is less critical because a large anode feeding a small cathode spreads anodic dissolution and a poorly conducting solution reduces cell current. C removes the main galvanic driving force and electrical path. D is intentional cathodic protection of steel: the anodic sacrificial metal is consumed so the structural component is saved.",
+    "relevantTheory": "Galvanic current must be supplied by anodic dissolution. When the cathode is huge and the anode is tiny, a large reduction area is balanced by dissolution from a small area, so penetration can be rapid. Good design therefore avoids small anodic fasteners or inserts attached to large noble surfaces in seawater or other conductive environments. The lecture also stresses environment/separation: galvanic effects decrease with distance from the cathode and with increasing resistivity of the environment.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 16"
+  },
+  {
+    "id": 439,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "corrosion rate",
+      "environment",
+      "pH",
+      "oxygen",
+      "temperature"
+    ],
+    "diagramRequired": false,
+    "question": "Which set contains only factors named in Lecture 11 as controlling corrosion rate besides electrode potential?",
+    "options": {
+      "A": "Oxygen in solution, pH and temperature.",
+      "B": "Crystal lattice only, stacking fault energy and Schmid factor.",
+      "C": "Carbon equivalent, Ac1 temperature and pearlite lamellar spacing.",
+      "D": "Only the standard electrode potential, because environment does not affect the rate."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture explicitly lists percent oxygen in solution, pH and temperature as factors controlling corrosion rate other than electrode potential. B uses mechanical-plasticity terms from other lectures and does not describe the corrosion-cell environment. C uses steel heat-treatment concepts and is not the corrosion-rate list. D is wrong because the lecture repeatedly warns that electrode-potential tables do not provide corrosion rate and that environment, passivity, electrolyte resistance, area ratio, oxygen, pH and temperature matter.",
+    "relevantTheory": "A corrosion potential ranking says which material tends to be anodic or cathodic under defined standard conditions, but real corrosion rate is kinetic and environmental. Oxygen availability changes cathodic reaction rate; pH alters electrochemical stability and film behavior; temperature generally accelerates reactions and diffusion. In galvanic cells, electrolyte resistivity and separation also control current. Therefore the same metal pair can behave differently in dry air, pure water, seawater, soil or stagnant crevices.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 6-7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 15-16"
+  },
+  {
+    "id": 440,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "crevice corrosion",
+      "oxygen depletion",
+      "active/passive materials",
+      "design"
+    ],
+    "diagramRequired": false,
+    "question": "What is the correct mechanism chain for crevice corrosion in the lecture?",
+    "options": {
+      "A": "A narrow crevice or deposit blocks oxygen renewal; the crevice becomes mainly anodic; cathodic reaction occurs outside; the local environment changes irreversibly and attack accelerates.",
+      "B": "Fast flowing water mechanically removes all oxide film; the whole exposed surface then corrodes uniformly at the same rate.",
+      "C": "Two distant metals not electrically connected develop different potentials, so the more noble one corrodes inside the crevice.",
+      "D": "Hydrogen enters ferritic steel during welding, so no anodic or cathodic reaction is involved."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and follows the lecture wording: crevices may come from wrong design or deposits; oxygen cannot be replenished inside; after a short period the crevice supports mainly anodic reaction, balanced by cathodic action outside, and the confined chemistry can change significantly. B describes erosion-corrosion or uniform attack, not crevice corrosion. C describes an incomplete galvanic case and wrongly removes electrical contact. D describes hydrogen embrittlement, a synergistic phenomenon, not the crevice mechanism.",
+    "relevantTheory": "Crevice corrosion is localized corrosion caused by differential aeration. Initially the whole surface can support both anodic and cathodic reactions, but the shielded region consumes oxygen faster than it is replaced. The outside surface remains oxygenated and cathodic; the crevice becomes anodic and acid/ion concentration can change in a self-aggravating way. It is especially serious for active/passive metals because a passive film may break down locally while the visible outer surface remains protected. Design prevention includes avoiding stagnant gaps, rivets, deposits and hard-to-drain regions.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 16"
+  },
+  {
+    "id": 441,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "pitting corrosion",
+      "chlorides",
+      "localized corrosion",
+      "autocatalytic"
+    ],
+    "diagramRequired": false,
+    "question": "Which corrosion mechanism is most serious in steels or stainless steels exposed to chlorides?",
+    "options": {
+      "A": "Pitting corrosion.",
+      "B": "Interstitial corrosion.",
+      "C": "Pure dry oxidation scale growth.",
+      "D": "Uniform corrosion only."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and matches both the lecture and past exam style: pitting occurs predominantly due to chloride ions and is dangerous because the overall metal loss can be negligible while penetration is severe. B is a misleading non-standard option in this context; interstitials are alloy/defect concepts, not the chloride-localized corrosion mechanism named here. C is wrong because chloride attack in humid or aqueous environments is a wet localized corrosion problem, not mainly dry high-temperature oxidation. D is wrong because uniform corrosion is not the special chloride trap and is usually more predictable.",
+    "relevantTheory": "Pitting is localized corrosion in which small sites break down and develop into deep cavities. Chloride ions are the classic species promoting pit initiation in passive alloys; bromides, hypochlorites and some other species can also be responsible. Pits are insidious because the external surface may appear largely protected and mass loss is small, yet local stress concentration and penetration can cause sudden failure. Inside the pit, chemistry can shift so that dissolution accelerates autocatalytically.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 16-17; PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st 2022, question 3"
+  },
+  {
+    "id": 442,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "synergistic corrosion",
+      "SCC",
+      "hydrogen embrittlement",
+      "corrosion fatigue"
+    ],
+    "diagramRequired": false,
+    "question": "Which option correctly matches the synergistic corrosion phenomenon with its main additional factor?",
+    "options": {
+      "A": "Stress corrosion cracking: corrosion enhanced by tensile stress or external load.",
+      "B": "Hydrogen embrittlement: corrosion controlled only by pH, with no role of hydrogen entry.",
+      "C": "Corrosion fatigue: attack independent of cyclic or mechanical factors.",
+      "D": "Fretting corrosion: attack modified only by high-velocity fluid flow."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 11 lists stress corrosion cracking as enhanced by external loads. B is wrong because hydrogen embrittlement is specifically enhanced by hydrogen from external sources or formed in situ during corrosion, welding or similar processes. C is wrong because corrosion fatigue is corrosion affected by mechanical fatigue factors. D is wrong because fretting corrosion is low-frequency sliding plus corrosion; attack modified by flow effects is erosion corrosion.",
+    "relevantTheory": "Synergistic corrosion phenomena combine electrochemical attack with another damage mechanism. SCC combines corrosive environment with stress and crack-tip processes. Hydrogen embrittlement combines hydrogen production or entry with reduced ductility and cracking, especially in high-strength ferritic/martensitic steels and titanium alloys. Corrosion fatigue combines cyclic loading and corrosion. Selective leaching removes one alloy element. Fretting corrosion combines small sliding motion and corrosion, while erosion corrosion is modified by flowing media. These are often more dangerous than uniform corrosion because mechanical damage and corrosion accelerate each other.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 14"
+  },
+  {
+    "id": 443,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "hydrogen embrittlement",
+      "high strength steels",
+      "welding",
+      "electroplating",
+      "NOT TRUE"
+    ],
+    "diagramRequired": false,
+    "question": "Hydrogen embrittlement: mark the NOT TRUE clause.",
+    "options": {
+      "A": "It is a low-ductility fracture mode promoted by hydrogen introduction in susceptible high-strength ferritic and martensitic steels.",
+      "B": "Hydrogen may come from electroplating, welding or corrosion, and corrosion-generated hydrogen is critical because it can be continuously supplied.",
+      "C": "In practical failures of high-strength materials, hydrogen embrittlement and true stress corrosion mechanisms may be difficult to separate.",
+      "D": "It is mainly a uniform thinning phenomenon and therefore becomes less critical as steel strength increases."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause. Hydrogen embrittlement is not mainly uniform thinning; it is a fracture/low-ductility damage mode, and high-strength ferritic and martensitic steels are especially susceptible. A is true and follows the lecture wording. B is true because the lecture names electroplating, welding and corrosion as hydrogen sources and stresses the danger of continuous hydrogen generation during exposure. C is true because SCC reported in hydrogen sulphide or cyanide environments may actually be dominated by hydrogen effects rather than anodic processes.",
+    "relevantTheory": "Hydrogen is small and diffuses readily in metals. In susceptible alloys it reduces ductility and promotes cracking at stress levels that would otherwise be safe. The lecture highlights ferritic and martensitic high-strength steels and titanium alloys. Sources include external hydrogen, welding, electroplating and hydrogen formed in situ during corrosion. Because water alone may be enough to sustain hydrogen generation for susceptible alloys, environmental exposure can continuously feed the embrittlement process.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 17"
+  },
+  {
+    "id": 444,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "stress corrosion cracking",
+      "passive metal",
+      "crack tip slip",
+      "repassivation"
+    ],
+    "diagramRequired": false,
+    "question": "In the lecture scheme for stress corrosion cracking of a passive metal, what sequence best explains crack propagation?",
+    "options": {
+      "A": "Intermittent crack-tip slip activates plastic deformation; dissolution is enhanced at the crack tip; the crack walls repassivate after growth.",
+      "B": "The entire passive film dissolves uniformly, so the component only loses thickness without crack-tip localization.",
+      "C": "The cathode dissolves into solution while the crack walls remain permanently active and never repassivate.",
+      "D": "Only dry high-temperature oxide scale spalls off, with no role of stress or local plastic deformation."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture describes quasi-continuous, intermittent crack-tip slip activation followed by deformation-enhanced dissolution at the crack tip, with crack walls protected by repassivation after crack growth. B is uniform corrosion, not SCC. C reverses anodic dissolution and misunderstands repassivation; the protected crack walls are part of the localization mechanism. D is dry oxidation, not stress corrosion cracking.",
+    "relevantTheory": "Stress corrosion cracking requires a susceptible material, corrosive environment and tensile stress. In passive metals, the surface film normally protects the metal, but at a stressed crack tip local plastic deformation can rupture or activate the film. Fresh metal dissolves at the crack tip, extending the crack. Behind the tip, the walls repassivate, so dissolution remains concentrated at the active crack front. This explains why SCC can cause sudden failure in materials that might look corrosion-resistant in unstressed service.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 17"
+  },
+  {
+    "id": 445,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "passivity",
+      "oxide film",
+      "stainless steels",
+      "ion conductivity"
+    ],
+    "diagramRequired": false,
+    "question": "What makes a passivating oxide film protective according to Lecture 11?",
+    "options": {
+      "A": "Good cohesive strength, good adhesion to the metal and low ion conductivity, so metal-ion transport through the film is slow.",
+      "B": "High porosity and poor adhesion, so oxygen can freely reach the metal surface.",
+      "C": "A film that is electrically insulating but mechanically detached from the substrate.",
+      "D": "A thick rust layer that forms only after the metal has already lost most of its section."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture states that if the solid corrosion-product film has good cohesive strength, adhesion and low ion conductivity, metal dissolution is limited by ion passage through the film and can be reduced by factors of 10^3 to 10^6. B is wrong because porosity and poor adhesion make a scale non-protective. C is incomplete and unsafe: if the film is detached, it cannot protect the substrate well. D describes corrosion product after damage, not the dense adherent passive film responsible for corrosion resistance.",
+    "relevantTheory": "Passivity is the state where a metal that could actively corrode is protected by a stable, adherent surface film, often an oxide. Stainless steels, nickel alloys, titanium and similar engineering alloys owe much of their corrosion usefulness to passivity. The film must be continuous, cohesive and bonded to the substrate; it must also slow ion transport. The exam trap is that thermodynamic reactivity alone does not decide service behavior: a reactive metal such as Al or Cr can resist corrosion if it rapidly forms a dense self-protecting oxide.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 17-18"
+  },
+  {
+    "id": 446,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "prevention",
+      "design",
+      "heterogeneity",
+      "lamellar structures",
+      "NOT TRUE"
+    ],
+    "diagramRequired": false,
+    "question": "Corrosion prevention by design: mark the NOT TRUE clause.",
+    "options": {
+      "A": "Welding rather than riveting can reduce crevice and galvanic problems associated with joints.",
+      "B": "Containers should be designed for easy draining and expected failures should be easy to replace.",
+      "C": "Heterogeneity in metals, vapor spaces, heat or stress should be avoided in corrosion-exposed components.",
+      "D": "Multiphase lamellar structures are always the safest choice against corrosion because different phases eliminate potential differences."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause. The lecture says multiphase and especially lamellar structures are prone to corrosion because different phases or regions can have different potentials; duplex stainless steel is given as an exception, not the rule. A is true because rivets create crevices and possible dissimilar-contact effects, while welding can remove those gaps. B is true and reflects the design list. C is true because heterogeneity creates local electrochemical differences and stress/environment variations that promote corrosion.",
+    "relevantTheory": "Good corrosion design tries to remove one or more parts of the corrosion cell and reduce local differences. Avoid stagnant crevices, trapped water, riveted joints, dissimilar-metal contact, unnecessary stress, vapor-space gradients, thermal gradients and difficult-to-inspect regions. Provide drainage and replacement access. Microstructural heterogeneity matters too: lamellae such as pearlite can contain phases of different potential and create micro-galvanic cells. The lecture notes duplex stainless steel as an exception because its two-phase structure is engineered for corrosion resistance.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 15 and 18"
+  },
+  {
+    "id": 447,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "coatings",
+      "sacrificial anode",
+      "galvanized steel",
+      "Zn",
+      "Mg"
+    ],
+    "diagramRequired": false,
+    "question": "Why can Zn or Mg coatings protect steel components against corrosion?",
+    "options": {
+      "A": "Zn or Mg act as sacrificial anodic materials and corrode preferentially, saving the Fe-based component.",
+      "B": "Zn or Mg are more noble than steel in every environment, so they force iron to become the cathode by not corroding at all.",
+      "C": "The coating works only by increasing the steel carbon content and transforming ferrite into martensite.",
+      "D": "The coating prevents corrosion because it removes oxygen from the atmosphere permanently."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture states that coating the anode system with Zn or Mg saves the mechanical component; in galvanized sheet steels, Zn or Mg sacrifice themselves to save Fe. B is wrong because the sacrificial material protects by being more anodic and consumed preferentially, not by never corroding. C is unrelated heat-treatment metallurgy. D is wrong because coatings may limit access of electrolyte and oxygen, but sacrificial Zn/Mg protection does not permanently remove atmospheric oxygen.",
+    "relevantTheory": "Coatings protect by barrier action, sacrificial action, or both. Metallic coatings include cladding, flame spraying, vapor deposition, electro-deposition/electroplating and hot dipping such as Zn hot-dip galvanizing. For steel, a sacrificial coating is intentionally less noble than Fe, so it becomes the anode of the galvanic couple. The structural steel is kept cathodic and is protected even at small coating defects as long as sacrificial metal remains electrically connected in the electrolyte.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 18"
+  },
+  {
+    "id": 448,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "stainless steel",
+      "chromium",
+      "passivating film"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best explains why stainless steels are stainless?",
+    "options": {
+      "A": "They contain at least about 11.5% Cr, which forms a chromium oxide passivating film on the surface.",
+      "B": "They contain high Ni, which directly forms the protective oxide film on the surface.",
+      "C": "They contain high C, which forms carbides that seal the surface against corrosion.",
+      "D": "They resist corrosion because their matrix is always martensitic and therefore very hard."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 12 defines stainless steels by excellent corrosion resistance due to high chromium, at least 11.5%, forming chromium oxide over the surface. B is wrong because Ni is important for properties such as austenite stability, corrosion performance, toughness and cold plastic deformation, but the lecture attributes the basic passivating film to Cr oxide, not Ni oxide. C is wrong because carbon carbides are not protective in this context; chromium carbides can even cause sensitization by depleting Cr near grain boundaries. D is wrong because stainless steels include ferritic, austenitic, duplex and martensitic families, and martensitic stainless steels actually have lower corrosion resistance than the others, especially in chlorides.",
+    "relevantTheory": "The key idea is passivity. A sufficiently high chromium content allows a thin, adherent chromium oxide film to form on the surface. If this film is stable and continuous, the metal underneath is protected from active corrosion. Other elements then tune the stainless grade: Ni stabilizes austenite and improves toughness/plastic deformation, Mo and N help localized corrosion resistance, and C may help hardness but can be dangerous for sensitization. Do not confuse high hardness with stainless behavior: corrosion resistance comes first from Cr passivation.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 19"
+  },
+  {
+    "id": 449,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Fe-Cr",
+      "Fe-Ni",
+      "ferritizing",
+      "austenitizing"
+    ],
+    "diagramRequired": false,
+    "question": "Concerning the Fe-Cr and Fe-Ni diagrams for stainless steels, mark the NOT TRUE clause.",
+    "options": {
+      "A": "Cr limits the gamma field and acts as a ferritizing element.",
+      "B": "Ni widens the gamma field and stabilizes austenite.",
+      "C": "Mo, Si, Nb, Ta and Al are listed with ferritizing action.",
+      "D": "Cr widens the gamma field in the same way as Ni, so it is the main austenitizing element."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause: in the lecture Cr is a ferritizing element, not the main austenitizing element. A is true because Cr limits and can completely close the gamma field, favouring ferrite. B is true because Ni widens the gamma field and stabilizes austenite; the notes also stress that Cr and Ni are the most important elements for austenitic stainless steels. C is true because the slide groups Mo, Si, Nb, Ta and Al with ferritizing elements. The trap is to remember that both Cr and Ni are central in stainless steels, but they push phase stability in opposite directions.",
+    "relevantTheory": "Stainless steel families are designed by balancing ferrite stabilizers and austenite stabilizers. Ferritizing elements enlarge or stabilize the alpha/ferrite region: Cr is the central one, with Mo, Si, Nb, Ta and Al also contributing. Austenitizing elements widen or stabilize the gamma/austenite region: Ni is the central one, with C, N, Mn and Cu also helping. This balance explains why high-Cr low-Ni grades are ferritic, Cr-Ni 3XX grades are austenitic, and duplex grades intentionally contain both ferrite and austenite.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 19-20"
+  },
+  {
+    "id": 450,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "classification",
+      "duplex",
+      "microstructure"
+    ],
+    "diagramRequired": false,
+    "question": "Duplex stainless steels are a mixture of which microstructural families?",
+    "options": {
+      "A": "Austenitic plus ferritic",
+      "B": "Ferritic plus martensitic",
+      "C": "Austenitic plus martensitic",
+      "D": "Ferritic plus pearlitic"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture classification places duplex stainless steels between austenitic and ferritic stainless steels, and past exam style directly tests duplex as A+F. B is wrong because ferrite plus martensite describes a different hardenable combination, not duplex stainless steel in this course. C is wrong because austenite plus martensite is not the duplex class. D is wrong because pearlite is a ferrite-cementite aggregate from carbon steels and is not one of the stainless steel families listed in the lecture classification.",
+    "relevantTheory": "The stainless steel families in Lecture 12 are ferritic, austenitic, duplex and martensitic. Ferritic grades are mainly BCC alpha. Austenitic grades are gamma stabilized, typically Cr-Ni series 3XX. Duplex grades deliberately combine austenite and ferrite, so they are also called austeno-ferritic in the lecture. Martensitic grades are obtained by quenching from the austenite region and are selected when high strength and hardness are needed, with a corrosion resistance penalty.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 2 and slide/page 3; PAST_EXAMS/QUESTIONS_SET_1.txt, stainless question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 20"
+  },
+  {
+    "id": 451,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "manufacturing",
+      "degassing",
+      "chromium oxidation"
+    ],
+    "diagramRequired": false,
+    "question": "Why does manufacturing stainless steels require careful degassing of the liquid metal?",
+    "options": {
+      "A": "Because oxygen may oxidize chromium, reducing the corrosion-resistance potential of the alloy.",
+      "B": "Because oxygen must be retained in the melt to build a thick protective scale before casting.",
+      "C": "Because degassing removes Ni, which otherwise prevents martensite formation.",
+      "D": "Because degassing is mainly used to increase carbon content for carbide precipitation."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture says O may oxidize Cr, which has high chemical affinity to oxygen, thereby losing the alloy's corrosion resistance potential. The notes connect this to careful degassing and mention argon-based AOD/VOD practice. B reverses the logic: the desired passivating film forms on the finished surface, but oxygen in the liquid can waste Cr as oxides before it can provide stainless behavior. C is wrong because degassing is not described as a Ni-removal step. D is wrong because adding or retaining carbon is not the goal; excessive available carbon can create chromium carbides and sensitization.",
+    "relevantTheory": "The stainless property depends on chromium remaining available in the alloy to form a protective chromium oxide film at the surface. During melting, oxygen has a strong affinity for chromium. If Cr is consumed as oxide inclusions or slag-related losses, the nominal stainless composition may no longer deliver its intended corrosion resistance. Therefore liquid stainless steel processing must control oxygen and degas carefully, commonly with vacuum or argon-assisted routes in industrial practice as noted by the course notes.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 19"
+  },
+  {
+    "id": 452,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "Schaeffler diagram",
+      "ferritizing elements",
+      "austenitizing elements"
+    ],
+    "diagramRequired": false,
+    "question": "What is the correct use of the Schaeffler diagram concept in stainless steels?",
+    "options": {
+      "A": "It compares ferritizing and austenitizing effects of alloying elements to predict whether the stainless steel is ferritic, austenitic, martensitic or austeno-ferritic.",
+      "B": "It gives the exact pitting depth in chlorides from the welding current and plate thickness.",
+      "C": "It replaces the Fe-C diagram by calculating pearlite and cementite fractions in stainless steels.",
+      "D": "It is used only to determine the tensile strength of martensitic stainless steels after tempering."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the Lecture 12 Schaeffler slide places ferritizing elements against austenitizing elements and maps stainless steel domains such as ferritic, austenitic, martensitic and austeno-ferritic. B is wrong because pitting tendency is treated later by localized corrosion indexes such as LCRI/PREN, not by Schaeffler as a direct pit-depth calculator. C is wrong because pearlite/cementite fraction calculations belong to carbon steel phase diagrams, while stainless families are classified by ferrite/austenite/martensite balance. D is too narrow: martensitic grades appear on the diagram, but the diagram is about phase constitution from chemistry, not only tempered strength.",
+    "relevantTheory": "A useful way to read stainless steel composition is by grouping elements into Cr-equivalent ferrite stabilizers and Ni-equivalent austenite stabilizers. A Schaeffler-type diagram visualizes this balance. High ferritizing effect pushes toward ferritic structures; high austenitizing effect pushes toward austenitic structures; intermediate combinations can give duplex or martensitic regions. The lecture uses this idea to connect chemical composition to mechanical and corrosion behavior.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 20"
+  },
+  {
+    "id": 453,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "chemical properties",
+      "mechanical properties",
+      "stainless families"
+    ],
+    "diagramRequired": false,
+    "question": "A component needs the highest mechanical strength and hardness among common stainless families, while accepting lower corrosion resistance than austenitic grades. Which family is the most natural choice?",
+    "options": {
+      "A": "Martensitic stainless steel",
+      "B": "Austenitic stainless steel",
+      "C": "ELI ferritic stainless steel",
+      "D": "Fully ferritic stainless steel selected only for low cost corrosion resistance"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 12 lists martensitic stainless steels as having high mechanical strength and hardness, with tensile strength after heat treatment reaching a very wide range up to about 1966 MPa. B is wrong because austenitic stainless steels are highly corrosion resistant, tough and ductile, but they are not selected as the hardenable high-hardness family in this lecture. C is wrong because ELI ferritic stainless steels improve localized corrosion and DBTT compared with common ferritic grades, but their mechanical properties remain similar to conventional ferritic stainless steels. D is wrong because ferritic grades can be a cost-effective corrosion choice, but not the highest strength/hardness family.",
+    "relevantTheory": "Lecture 12 separates chemical and mechanical property priorities. Austenitic grades are strong in corrosion resistance, toughness, cold deformation and weldability. Ferritic grades are lower-cost Cr-rich corrosion-resistant BCC alloys and can be improved by extra low interstitials. Martensitic grades are produced by quenching from the austenite region and are chosen for hardness, strength and wear-related applications such as cutters, turbine blades, bolts, screws and bearings. The price is lower corrosion resistance, especially in chloride environments, plus possible pitting and stress corrosion cracking.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 3 and slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 20-22"
+  },
+  {
+    "id": 454,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "austenitic stainless steel",
+      "3XX",
+      "Ni",
+      "cold work"
+    ],
+    "diagramRequired": false,
+    "question": "Which clause is NOT TRUE for austenitic stainless steels, Series 3XX, as presented in Lecture 12?",
+    "options": {
+      "A": "The presence of Ni expands the austenitic range.",
+      "B": "They are used for chemical equipment and pressure vessels.",
+      "C": "Their strength is normally increased mainly by quench hardening into martensite.",
+      "D": "Nb can be used to prevent intergranular corrosion when the alloy is used for welding."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the NOT TRUE clause: the notes explicitly state that heat treatment is not the normal strengthening route for austenitic stainless steels because changing the phase would change the alloy concept; strength is increased by cold working and grain refinement. A is true because Ni expands the austenitic range. B is true because the slide lists chemical equipment and pressure vessels as applications. D is true because the slide states that Nb prevents intergranular corrosion if the alloy is to be used for welding, by tying up carbon as a strong carbide former rather than allowing chromium carbides.",
+    "relevantTheory": "Austenitic stainless steels are Cr-Ni stainless steels, commonly 3XX in the AISI system. Ni is the central austenite stabilizer, so these alloys keep an austenitic structure and show high toughness, ductility and weldability. They are not treated like plain carbon steels for martensitic hardening as their normal property route. Instead, deformation strengthening by cold work and grain refinement are the practical strengthening routes, while low carbon or stabilizing elements such as Nb help avoid weld-related intergranular corrosion.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 21 and 25"
+  },
+  {
+    "id": 455,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "ferritic stainless steel",
+      "ELI",
+      "BCC",
+      "DBTT"
+    ],
+    "diagramRequired": false,
+    "question": "What is the best description of ELI ferritic stainless steels in the lecture?",
+    "options": {
+      "A": "Extra Low Interstitial ferritic stainless steels with very low C+N, improved localized/pitting corrosion resistance, improved stress corrosion cracking resistance and lower DBTT than normal ferritic grades.",
+      "B": "High-carbon martensitic stainless steels designed to maximize chromium carbide precipitation at grain boundaries.",
+      "C": "Austenitic 3XX stainless steels in which Ni is removed to force martensite during welding.",
+      "D": "Duplex stainless steels whose main purpose is to form pearlite and cementite colonies."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slide defines ELI ferritic stainless steels with very low interstitial content, shown as very low C+N, higher localized and pitting corrosion resistance than common ferritic stainless steels, higher Rscc, similar mechanical properties and lower DBTT than normal ferritic grades. B is the opposite of the ELI concept: high carbon and chromium carbides would worsen sensitization-type problems. C confuses ferritic ELI grades with austenitic 3XX grades and with martensite formation. D is wrong because duplex means austenite plus ferrite, and pearlite/cementite colonies are not the aim of stainless steel classification here.",
+    "relevantTheory": "Ferritic stainless steels contain about 12-30% Cr and are mainly BCC alpha because Cr extends the alpha region and suppresses the gamma region. Interstitial atoms such as C and N can harm toughness and corrosion behavior. ELI means Extra Low Interstitials: reducing C+N improves ferritic stainless performance, especially localized/pitting corrosion resistance, stress corrosion cracking resistance and ductile-to-brittle transition behavior, while keeping mechanical properties broadly similar to conventional ferritic stainless steels.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 21"
+  },
+  {
+    "id": 456,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "martensitic stainless steel",
+      "quenching",
+      "chlorides"
+    ],
+    "diagramRequired": false,
+    "question": "Which process-property chain is correct for martensitic stainless steels?",
+    "options": {
+      "A": "Quench from the austenite region to form martensite; obtain high strength and hardness, but lower corrosion resistance than other stainless families, especially in chlorides.",
+      "B": "Stabilize ferrite with extra low interstitials; obtain the lowest DBTT and avoid any need for heat treatment.",
+      "C": "Add Ni to expand the austenitic range; obtain the most weldable stainless family with no carbide precipitation risk.",
+      "D": "Heat in the 500-800 C range to precipitate chromium carbides at grain boundaries; obtain better intergranular corrosion resistance."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture says martensite is formed by quenching from the austenite region, as in plain carbon steel, and lists high mechanical strength and hardness as advantages while warning of lower corrosion resistance, especially in chlorides, with possible pitting and stress corrosion cracking. B describes ELI ferritic logic, not martensitic stainless steel. C describes austenitic stainless steel and also overstates it: austenitic steels are weldable but can still suffer carbide precipitation in the melt pool or HAZ. D describes sensitization, which is harmful because chromium-depleted zones near grain boundaries become susceptible to intergranular attack.",
+    "relevantTheory": "Martensitic stainless steels need enough austenite at high temperature to transform on quenching. Carbon is important because it helps austenite stability and martensite hardness; the slide notes that when C is above 1%, the gamma loop is enlarged. After quenching, martensitic stainless steels can reach very high tensile strengths, but the martensitic structure and chemistry make them less corrosion resistant than austenitic, ferritic or duplex grades in aggressive chloride environments.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 22"
+  },
+  {
+    "id": 457,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "weldability",
+      "austenitic stainless steel",
+      "HAZ",
+      "carbides"
+    ],
+    "diagramRequired": false,
+    "question": "For welding of austenitic stainless steels, mark the NOT TRUE clause.",
+    "options": {
+      "A": "They are among the most weldable stainless steels because of high initial toughness and the austenitic phase.",
+      "B": "They may experience carbide precipitation in the melt pool or HAZ.",
+      "C": "They normally originate cracks after weld cooling in the same way as more hardenable carbon steels.",
+      "D": "The HAZ is critical because thermal exposure can keep material in a range where precipitation and sensitization become possible."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the NOT TRUE clause: Lecture 12 explicitly contrasts austenitic stainless steels with other carbon steels and says stainless steels of this type do not originate cracks after weld cooling. A is true because their austenitic phase gives high initial toughness and good weldability. B is true because the slide warns about precipitation of carbides in the melt pool or HAZ. D is true because sensitization is found in the heat-affected zone adjacent to welds if heat input holds the temperature in the sensitizing range long enough.",
+    "relevantTheory": "Weldability in stainless steels is not a single issue. Austenitic stainless steels are generally the best weldable family because austenite is tough and avoids the same hard martensitic cracking risk seen in hardenable carbon steels. However, welding still creates a thermal cycle. In the melt pool and especially in the HAZ, chromium carbides can precipitate if chemistry and time-temperature exposure are unfavorable. The result is not simply mechanical cracking; the major exam trap is intergranular corrosion by sensitization.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 6 and slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 22 and 24-25"
+  },
+  {
+    "id": 458,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "weldability",
+      "ferritic stainless steel",
+      "sigma phase",
+      "grain growth"
+    ],
+    "diagramRequired": false,
+    "question": "Which clause is NOT a welding risk for ferritic stainless steels according to Lecture 12?",
+    "options": {
+      "A": "Grain growth causing a drop of resilience.",
+      "B": "Carbide precipitation and possible sigma phase formation.",
+      "C": "Possible martensite formation in the melt pool and HAZ.",
+      "D": "Complete elimination of corrosion risk because ferrite cannot transform or precipitate harmful phases during welding."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT welding risk and is false as a statement: the lecture lists several ferritic stainless welding risks, so welding does not completely eliminate corrosion or microstructural problems. A is a real risk because grain growth reduces resilience. B is a real risk because carbides and sigma phase can form; the lecture also warns that sigma phase reduces toughness and corrosion resistance. C is also listed by the slide as possible martensite formation in the melt pool and HAZ. The trap is that ferritic stainless steels are not automatically weld-safe just because they are stainless.",
+    "relevantTheory": "Ferritic stainless steels are mainly BCC alpha due to chromium, but welding can still disturb their microstructure. High-temperature exposure can coarsen grains, reducing impact behavior. Precipitation reactions can form carbides and sigma phase; sigma is especially harmful because it reduces both toughness and corrosion resistance. Depending on composition and local thermal cycles, martensite may also form in weld regions. Weldability therefore depends on both phase stability and precipitation control, not only on the room-temperature family name.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 2 and slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 22"
+  },
+  {
+    "id": 459,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "PREN",
+      "LCRI",
+      "localized corrosion",
+      "pitting"
+    ],
+    "diagramRequired": false,
+    "question": "For the Localized Corrosion Resistance Index, also called PREN in Lecture 12, which statement is correct?",
+    "options": {
+      "A": "It is an empirical composition index using terms for Cr, Mo, N and Ni to compare resistance to localized corrosion such as pitting and crevice corrosion.",
+      "B": "It is a hardness number used only to rank martensitic stainless steels after quenching.",
+      "C": "It proves that pitting corrosion is irrelevant for stainless steels once the alloy contains more than 11.5% Cr.",
+      "D": "It is calculated from carbon and cementite fractions in the Fe-C diagram."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slide defines LCRI/PREN for localized corrosion resistance in stainless steels and writes it as a composition expression involving percentages of Cr, Mo, N and Ni with constants. B is wrong because PREN is not a hardness or heat-treatment number. C is wrong because the lecture explicitly says pitting corrosion is the mode of corrosion all stainless steels suffer; passivity does not make pitting impossible. D is wrong because carbon/cementite Fe-C calculations are not the basis of PREN. The professor-style trap is to confuse general passivation with immunity to localized chloride attack.",
+    "relevantTheory": "Localized corrosion is especially dangerous in passive alloys because most of the surface can look protected while small pits or crevices become intense local attack sites. Lecture 12 says most austenitic stainless steels are susceptible to localized corrosion, including crevice and pitting corrosion. LCRI/PREN is a practical index to compare compositions: Cr, Mo and N are especially important for localized corrosion resistance, while the lecture formula also includes a Ni term according to the Nadzhin-Wensley form shown. Superduplex grades are highlighted as having PREN above 40.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 22-23"
+  },
+  {
+    "id": 460,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "304L",
+      "316L",
+      "low carbon",
+      "nitrogen",
+      "pitting"
+    ],
+    "diagramRequired": false,
+    "question": "In the course notes, why were grades such as AISI 304L and AISI 316L introduced as modifications of older stainless steels?",
+    "options": {
+      "A": "To reduce intergranular corrosion during welding by lowering carbon; pitting resistance can also be improved by alloying additions such as N.",
+      "B": "To increase carbon above 1% so that chromium carbides deliberately form at grain boundaries.",
+      "C": "To remove Cr below the stainless threshold and rely on Ni alone for passivation.",
+      "D": "To convert austenitic stainless steels into pearlitic steels for better corrosion resistance."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes say the L in 304L and 316L indicates a modification to reduce intergranular corrosion during welding, and they also mention N as a way to increase resistance to pitting. B is wrong because higher carbon would increase the risk that carbon ties up chromium as chromium carbides at grain boundaries. C is wrong because Cr is the essential passivating element and cannot be removed below the stainless requirement. D is wrong because pearlite is not the desired stainless microstructure, and forming pearlite would not solve stainless corrosion behavior.",
+    "relevantTheory": "The letter L in stainless grades means low carbon in the context of this lecture. Low carbon reduces the amount of carbon available to form chromium carbides during welding thermal cycles. This preserves chromium in solid solution near grain boundaries and lowers sensitization risk. AISI 304L and 316L are therefore weldability/corrosion modifications of common austenitic stainless grades. Pitting resistance is a separate localized corrosion issue and can be improved with elements such as Mo and N, depending on the grade.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 8 and slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 23-25"
+  },
+  {
+    "id": 461,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "sensitization",
+      "chromium carbides",
+      "intergranular corrosion",
+      "HAZ"
+    ],
+    "diagramRequired": false,
+    "question": "What is the correct mechanism of sensitization in austenitic stainless steels such as AISI 304?",
+    "options": {
+      "A": "Heating in about the 500-800 C range precipitates chromium carbides at grain boundaries, depleting adjacent zones of Cr and making them susceptible to intergranular attack.",
+      "B": "Nickel precipitates at grain boundaries and removes carbon from solution, making the matrix too austenitic.",
+      "C": "Molybdenum precipitates at grain boundaries and directly creates pearlite colonies along the weld.",
+      "D": "Oxygen dissolves uniformly in the matrix and raises chromium content near grain boundaries, preventing corrosion."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 12 states that austenitic stainless steels may become sensitized to intergranular attack if heated in the range 500-800 C, where chromium carbide precipitates at grain boundaries and removes chromium from solid solution nearby. B is wrong because the precipitate named by the lecture is chromium carbide, not nickel precipitate. C is wrong because molybdenum and pearlite are not the sensitization mechanism. D is wrong because oxygen in processing can oxidize chromium, and sensitization specifically creates chromium-depleted zones near grain boundaries, not chromium enrichment.",
+    "relevantTheory": "Sensitization is a local chemistry problem caused by thermal exposure. During welding, cutting, hot plastic deformation or high-temperature relaxation treatment, carbon can combine with chromium and precipitate as chromium carbides, especially at grain boundaries or slip bands. The carbide itself is chromium-rich, so the nearby matrix becomes chromium-poor. Since stainless behavior requires enough Cr to maintain passivity, the chromium-depleted grain-boundary zone becomes the weak path for intergranular corrosion. This is why a very small amount of carbon can be dangerous in welded austenitic stainless steels.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 9 and slide/page 10; PAST_EXAMS/QUESTIONS_SET_1.txt, sensitization question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 24"
+  },
+  {
+    "id": 462,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "sensitization prevention",
+      "low carbon",
+      "Ti",
+      "Ta",
+      "Nb"
+    ],
+    "diagramRequired": false,
+    "question": "A welded austenitic stainless steel must avoid intergranular corrosion in the HAZ. Which solution follows the Lecture 12 prevention logic?",
+    "options": {
+      "A": "Use correct heat treatment or lower C below about 0.03%, or stabilize carbon with strong carbide-formers such as Ti, Ta or Nb.",
+      "B": "Increase heat input so the HAZ stays longer in the 500-800 C sensitizing range.",
+      "C": "Add more free carbon so chromium carbide precipitation at grain boundaries becomes continuous.",
+      "D": "Remove Nb and Ti because they prevent all carbide formation and therefore reduce weldability."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slide says the problem is avoided by correct heat treatment, more commonly by lowering C below 0.03%, or by stabilizing carbon with strong carbide-formers such as Ti, Ta or Nb so carbon is no longer available for chromium carbide precipitation. B is wrong because excessive heat input can hold the HAZ in the sensitizing range long enough to cause the problem. C is wrong because more carbon promotes chromium carbide precipitation and chromium depletion. D is wrong because Ti, Ta and Nb are useful stabilizers; they tie up carbon preferentially and protect chromium in solid solution.",
+    "relevantTheory": "Preventing sensitization means preventing chromium depletion next to grain boundaries. There are three course-approved routes: control the thermal cycle/heat treatment so harmful carbides are dissolved or not formed; lower carbon to very low levels, as in L grades such as 304L and 316L; or add strong carbide-forming stabilizers such as Ti, Ta or Nb. These stabilizers form their own carbides, so carbon is not available to form chromium carbides. The exam trap is that carbide formation is not always bad: chromium carbides at grain boundaries are bad, but stable Ti/Ta/Nb carbides can be protective against sensitization.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 24-25"
+  },
+  {
+    "id": 463,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "cast iron composition",
+      "carbon range",
+      "silicon"
+    ],
+    "diagramRequired": false,
+    "question": "Which composition and general description best identifies cast irons in Lecture 13?",
+    "options": {
+      "A": "Fe-C-Si alloys with about 2-4.5% C and 1-3% Si, usually having a ferrite or pearlite matrix plus graphite after slow cooling",
+      "B": "Low-carbon steels with less than 0.8% C and no graphite second phase",
+      "C": "Pure Fe alloys where all carbon must remain dissolved in ferrite at room temperature",
+      "D": "Stainless steels whose main identifying element is Cr above the passivation threshold"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 defines cast irons by high carbon, significant silicon, and a matrix of ferrite or pearlite together with graphite as a second phase when cooling is slow enough. B describes steels, not cast irons; the notes explicitly separate steels below the high-carbon cast iron range. C is wrong because ferrite has very low carbon solubility and cast irons contain excess carbon as graphite or carbide. D confuses cast irons with stainless steels, whose lecture logic is based on Cr and corrosion passivation.",
+    "relevantTheory": "Cast irons are Fe-C alloys with carbon above the steel range and with silicon as an important graphitizing element. Their useful engineering behavior is not controlled only by the average carbon percentage; it depends on whether the excess carbon appears as graphite, as iron carbide, and on whether the metallic matrix is ferritic or pearlitic. This is why cast iron is treated as a microstructure family rather than as one single material.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 9"
+  },
+  {
+    "id": 464,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "graphite",
+      "cementite",
+      "cooling rate",
+      "Si"
+    ],
+    "diagramRequired": false,
+    "question": "Which clause is NOT TRUE for graphite formation in cast irons?",
+    "options": {
+      "A": "Graphite is promoted by slow cooling, high carbon content and about 1-3% Si",
+      "B": "Graphite is a non-metallic phase and its shape strongly affects cast iron properties",
+      "C": "Graphite forms because all carbon remains dissolved in ferrite down to room temperature",
+      "D": "Graphite in cast irons can improve machinability because it has a lubricating effect during cutting"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the NOT TRUE clause. Cast irons contain more carbon than ferrite or austenite can keep in solution during cooling, so excess carbon must appear as a second phase such as graphite or iron carbide. A is true: the notes list extremely slow cooling, carbon above 2%, and Si 1-3% as graphite promoters. B is true because Lecture 13 distinguishes gray, ductile and malleable irons mainly by graphite form. D is true: the notes describe graphite as having a low friction coefficient, which helps machining.",
+    "relevantTheory": "The key cast-iron trap is dissolved carbon versus separated carbon. In steels much of the discussion concerns carbon in solid solution or in cementite/pearlite. In cast irons the carbon content is so high that the excess carbon normally separates. Silicon and slow cooling favor the stable graphite form; low Si or rapid/chilled solidification favors iron carbide and therefore white iron.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, pages/slides 1-2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 465,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "white cast iron",
+      "iron carbide",
+      "brittleness"
+    ],
+    "diagramRequired": false,
+    "question": "What is the defining microstructural reason for the properties of white cast iron?",
+    "options": {
+      "A": "Carbon is present mainly as iron carbide instead of graphite, giving high hardness and wear resistance but high brittleness",
+      "B": "Carbon precipitates as spherical graphite nodules, giving the highest ductility among cast irons",
+      "C": "Carbon precipitates as graphite flakes, giving the gray fracture surface and best vibration damping",
+      "D": "All carbon is removed by decarburization, so the alloy behaves as very low-carbon ferrite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 states that white cast iron contains carbon in the form of iron carbide instead of graphite upon solidification, and therefore has excellent wear resistance, high hardness and high brittleness. B describes ductile cast iron. C describes gray cast iron. D is wrong because white cast iron still contains high carbon; the issue is the form of carbon, not removal of carbon.",
+    "relevantTheory": "White cast iron is the carbide-rich member of the family. Cementite/iron carbide is hard and wear resistant, but it is brittle. Therefore a white fracture surface and a crystalline appearance are not cosmetic labels; they signal that the alloy solidified without graphite as the dominant carbon form. Low C and low Si relative to gray iron favor this route.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 466,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "gray cast iron",
+      "graphite flakes",
+      "damping"
+    ],
+    "diagramRequired": false,
+    "question": "A cast component needs easy casting, machinability and high vibration damping more than high impact toughness. Which cast iron logic is most suitable?",
+    "options": {
+      "A": "Gray cast iron, because graphite flakes in a ferrite/pearlite matrix give good damping and machinability",
+      "B": "White cast iron, because iron carbide always gives the best damping and ductility",
+      "C": "Malleable cast iron, because it is obtained directly by fast solidification of high-Si liquid as flakes",
+      "D": "Austenitic stainless steel, because passivation is the main requirement for damping"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 assigns gray cast iron excellent machinability, hardness/wear resistance and vibration damping capacity, and identifies graphite flakes as its microstructural feature. B is wrong because white iron is hard and wear resistant but brittle, and carbide does not give the same graphite damping. C confuses malleable iron with gray iron; malleable iron comes from heat treating white iron. D may help corrosion in other contexts but does not answer the lecture's cast-iron damping mechanism.",
+    "relevantTheory": "Graphite flakes interrupt the metallic matrix and dissipate vibrational energy, which is why gray iron is classic for machine bases and engine-like components. The same flake morphology also lowers ductility because flakes behave as internal stress raisers. Thus gray iron is selected when damping, casting and machining dominate, not when maximum toughness is needed.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 467,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "gray cast iron",
+      "flake graphite",
+      "ductility trap"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the UNTRUE clause for gray cast iron.",
+    "options": {
+      "A": "It commonly contains about 2.5-4% C and 1-3% Si",
+      "B": "Its excess carbon precipitates as graphite flakes",
+      "C": "Its fractured surface appears gray",
+      "D": "Its graphite flakes remove stress concentration effects and therefore make it highly ductile"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the UNTRUE clause. Graphite flakes help damping and machinability, but their flake shape is not a ductility enhancer; it creates local stress concentration and contributes to low impact resistance. A is true and matches the Lecture 13 composition range for gray cast iron. B is true because the slide explicitly says carbon exceeds austenite solubility and precipitates as graphite flakes. C is true and is the reason for the name gray cast iron.",
+    "relevantTheory": "Graphite morphology is the main cast-iron property lever. Flakes are beneficial for damping and machining, but harmful for tensile ductility and impact behavior. Spherical or more rounded graphite reduces the stress-raiser effect and is why ductile and malleable irons can be tougher than ordinary gray iron.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 468,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "ductile cast iron",
+      "spherical nodules",
+      "bull's eye"
+    ],
+    "diagramRequired": false,
+    "question": "Why does ductile cast iron combine processing advantages of cast iron with engineering advantages closer to steel?",
+    "options": {
+      "A": "Because graphite is present as spherical nodules, reducing the flake stress-raiser effect and allowing higher strength, toughness and ductility",
+      "B": "Because it contains no graphite and all carbon is dissolved in ferrite",
+      "C": "Because it is simply gray cast iron with larger and sharper flakes",
+      "D": "Because it is produced by sensitization of stainless steel grain boundaries"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 attributes ductile cast iron's high strength, toughness, ductility and hardenability to spherical graphite nodules and notes its bull's eye microstructure. B is wrong because ductile iron is still a graphite-containing cast iron. C reverses the mechanism: sharper flakes reduce ductility. D is from stainless steel corrosion and has nothing to do with ductile cast iron.",
+    "relevantTheory": "Ductile cast iron is also called nodular or spheroidal graphite iron in many materials contexts. The matrix still supplies much of the strength, but graphite shape controls how severely the second phase concentrates stress. Spherical nodules are less damaging than flakes, so the material keeps castability and machinability while gaining useful toughness and ductility.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26"
+  },
+  {
+    "id": 469,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "malleable cast iron",
+      "malleablizing",
+      "white iron"
+    ],
+    "diagramRequired": false,
+    "question": "Which process chain correctly describes malleable cast iron in Lecture 13?",
+    "options": {
+      "A": "Start from white cast iron and heat it in a malleablizing furnace so carbide decomposes into irregular graphite nodules",
+      "B": "Start from gray cast iron and quench it to convert graphite flakes into martensite",
+      "C": "Start from stainless steel and precipitate chromium carbides at grain boundaries",
+      "D": "Start from pure ferrite and add enough oxygen to form graphite flakes"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide states that white cast iron is heated in a malleablizing furnace to transform carbide into graphite, forming irregular nodules. B is wrong because quenching gray iron does not convert graphite flakes into martensite; graphite is carbon already separated as a phase. C describes sensitization in stainless steels, not malleable iron. D is chemically and metallurgically wrong: oxygen is not the route to graphite nodules in this lecture.",
+    "relevantTheory": "Malleable cast iron is a heat-treatment solution to the brittleness of white iron. White iron first contains carbon as carbide. Long annealing/malleablizing lets the carbide break down and carbon precipitate as rounded irregular graphite aggregates, improving toughness and machinability while keeping the cast-shape advantage.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26"
+  },
+  {
+    "id": 470,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "composition ranges",
+      "white gray ductile malleable",
+      "Si"
+    ],
+    "diagramRequired": false,
+    "question": "Which composition-to-cast-iron pairing best follows the Lecture 13 ranges?",
+    "options": {
+      "A": "White iron: about 2.5-3% C and 0.5-1.5% Si; ductile iron: about 3-4% C and 1.8-2.8% Si with low impurities",
+      "B": "Gray iron: less than 0.8% C and no Si; white iron: 18% Cr and 10% Ni",
+      "C": "Malleable iron: exactly 6.67% C because it is pure cementite; ductile iron: 0.02% C because it is ferrite",
+      "D": "All cast irons have identical composition, so only cooling rate and never chemistry can change the type"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and matches the lecture values: white iron has lower C and Si than gray iron and contains carbide; ductile iron has roughly 3-4% C, 1.8-2.8% Si and low impurities. B confuses gray iron with steels and stainless steel designation logic. C confuses cementite stoichiometry and ferrite solubility with actual cast iron compositions. D is wrong because chemistry, especially C, Si and impurities, works together with cooling/processing to determine the cast iron type.",
+    "relevantTheory": "The professor often tests approximate ranges rather than exact metallurgy tables. Remember the pattern: cast irons are above the steel carbon range; silicon promotes graphite; white iron has lower Si so carbide is favored; ductile iron needs controlled chemistry and low impurities so graphite can form as nodules rather than harmful shapes.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, pages/slides 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 25-26"
+  },
+  {
+    "id": 471,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "matrix",
+      "ferrite",
+      "pearlite",
+      "properties"
+    ],
+    "diagramRequired": false,
+    "question": "In cast irons, what is the effect of changing the metallic matrix from mostly ferrite to more pearlite, with graphite morphology otherwise comparable?",
+    "options": {
+      "A": "Strength, hardness and wear resistance tend to increase, while elongation and machinability tend to decrease",
+      "B": "The alloy becomes pure graphite and loses all metallic strength",
+      "C": "The alloy necessarily becomes stainless because pearlite contains chromium",
+      "D": "Impact ductility always increases because pearlite is softer than ferrite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 13 states that cast irons have a ferrite or pearlite matrix with graphite as second phase; from the steel microstructure logic already used in the course, pearlite is the harder ferrite-plus-carbide product while ferrite is softer and more ductile. B is wrong because the matrix remains metallic. C is unrelated; pearlite is ferrite plus iron carbide, not a Cr passivation structure. D reverses the usual ferrite/pearlite property trend: ferrite is softer and more ductile than pearlite.",
+    "relevantTheory": "Cast iron properties are controlled by two levels at once: graphite shape and matrix structure. Graphite morphology controls stress concentration, damping and machinability; the ferrite/pearlite matrix controls the baseline strength-hardness versus ductility balance. A pearlitic gray or ductile iron is stronger and more wear resistant than a ferritic one, but less forgiving in elongation and machining.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 25-26"
+  },
+  {
+    "id": 472,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "white vs gray iron",
+      "graphitization",
+      "fracture surface"
+    ],
+    "diagramRequired": false,
+    "question": "A cast iron fracture surface is white and crystalline instead of gray. Which interpretation is most consistent with Lecture 13?",
+    "options": {
+      "A": "The carbon solidified mainly as iron carbide rather than graphite, so the iron is hard and brittle",
+      "B": "The iron must contain graphite flakes, because flakes always produce a white fracture",
+      "C": "The alloy must be ductile iron, because spherical graphite always gives a white crystalline fracture",
+      "D": "The surface color proves the alloy has no carbon"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because white cast iron is named for its white crystalline fracture surface and contains carbon as iron carbide instead of graphite. B is wrong because graphite flakes are the gray cast iron case and give a gray fracture surface. C confuses ductile cast iron's spherical nodules with the white iron fracture description. D is wrong because white iron is still high-carbon cast iron; the color indicates carbon form, not absence of carbon.",
+    "relevantTheory": "The lecture names are microstructure clues. White means carbide-dominated fracture; gray means graphite-flake fracture. This is not merely visual classification: carbide gives hardness, wear resistance and brittleness, whereas graphite flakes give damping and machinability with poor impact ductility.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 473,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "material selection",
+      "ductile iron",
+      "steel replacement"
+    ],
+    "diagramRequired": false,
+    "question": "A designer wants the castability and machinability of cast iron, but the component also needs higher strength, toughness and ductility than ordinary gray iron. Which choice best matches Lecture 13?",
+    "options": {
+      "A": "Ductile cast iron with spherical graphite nodules and low impurities",
+      "B": "White cast iron, because maximum carbide always maximizes toughness",
+      "C": "Gray cast iron with coarse graphite flakes, because coarse flakes remove crack initiation",
+      "D": "Pure ferrite, because eliminating carbon gives the same fluidity as cast iron"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 explicitly says ductile cast iron has the processing advantages of cast iron and engineering advantages of steel, including high strength, toughness and ductility due to spherical nodules. B is wrong because white iron is brittle. C is wrong because flake graphite is associated with damping and machinability, not high ductility. D is wrong because cast iron's fluidity and low melting point come from its high-carbon composition near the eutectic region, not from pure ferrite.",
+    "relevantTheory": "Ductile cast iron is the answer when the exam wording combines cast iron processing advantages with steel-like mechanical performance. Its nodular graphite avoids the most severe flake stress concentration, and its matrix can be adjusted toward ferritic or pearlitic behavior depending on the needed ductility-strength balance.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 9"
+  },
+  {
+    "id": 474,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "general properties",
+      "castability",
+      "ductility"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about general cast iron properties is NOT TRUE?",
+    "options": {
+      "A": "Cast irons have low melting point, ease of casting and high fluidity compared with many steels",
+      "B": "Cast irons usually have low shrinkage and are easily machinable",
+      "C": "Cast irons generally have low impact resistance and low ductility",
+      "D": "Cast irons are selected primarily because they always have higher impact toughness than steels"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause. Lecture 13 says cast irons have low impact resistance and ductility as general properties, even though ductile and malleable irons improve this compared with gray or white iron. A, B and C are direct lecture points: low melting point, ease of casting, high fluidity, low shrinkage, machinability and low impact ductility are the basic cast iron profile.",
+    "relevantTheory": "Cast irons are attractive because they are easy and economical to shape by casting: the high-carbon composition gives low melting point and good fluidity. Their weakness is toughness/ductility, controlled especially by graphite shape or carbide formation. A good exam answer must not treat all cast irons as steel-like just because ductile iron improves toughness.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 475,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "cooling rate",
+      "sand mould",
+      "graphite",
+      "castings"
+    ],
+    "diagramRequired": false,
+    "question": "Why is slow solidification in a sand mould compatible with producing graphite-containing cast iron castings?",
+    "options": {
+      "A": "Sand has low thermal conductivity, so cooling is slow and carbon has time to precipitate as graphite in the ferrite/pearlite matrix",
+      "B": "Sand cooling is so fast that all carbon is trapped as martensite without diffusion",
+      "C": "Sand removes silicon from the liquid, which always prevents graphite formation",
+      "D": "Sand converts graphite flakes into chromium carbides by passivation"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 13 links graphite in cast irons with slow cooling, and the notes on cast iron casting state that sand has very low thermal conductivity and is used to make solidification very slow. B describes a quenching logic, not ordinary cast iron graphitization. C is wrong because Si promotes graphite rather than preventing it. D mixes unrelated stainless-steel corrosion terminology with cast iron solidification.",
+    "relevantTheory": "Processing controls cast iron microstructure. Slow cooling lets carbon partition and form graphite, especially when Si is present. Faster chilling and lower Si favor carbide/white structures. This is why the same Fe-C family can produce very different fracture appearance and properties depending on mould, section thickness and chemistry.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 16; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26"
+  },
+  {
+    "id": 476,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "malleable cast iron",
+      "properties",
+      "irregular nodules"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best describes malleable cast iron after malleablizing?",
+    "options": {
+      "A": "It contains irregular graphite nodules and has good castability, machinability, moderate strength, toughness and uniformity",
+      "B": "It contains only sharp graphite flakes and therefore has the highest vibration damping but no toughness improvement",
+      "C": "It contains only iron carbide and remains identical to untreated white cast iron",
+      "D": "It contains no carbon because malleablizing is a complete decarburization treatment"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 13 lists irregular nodules of graphite and the property set of good castability, machinability, moderate strength, toughness and uniformity. B describes gray iron flake logic rather than malleable iron. C ignores the purpose of malleablizing, which is to transform carbide into graphite. D is wrong because the treatment changes carbon form; it does not remove all carbon from the casting.",
+    "relevantTheory": "Malleable cast iron sits between brittle white iron and the more intentionally nodular ductile iron. Its rounded irregular graphite aggregates are less harmful than flakes or continuous carbide networks. The improvement comes from heat treatment of white iron, so both processing route and final morphology matter.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26"
+  },
+  {
+    "id": 477,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "cast iron classification",
+      "microstructure-property",
+      "exam synthesis"
+    ],
+    "diagramRequired": false,
+    "question": "A cast iron contains graphite as rounded nodules in a ferrite/pearlite matrix. Which classification-property link is the most defensible?",
+    "options": {
+      "A": "It is ductile or malleable-type behavior rather than ordinary gray-flake behavior, so toughness and ductility are improved compared with flake graphite irons",
+      "B": "It must be white cast iron, because all nodules are iron carbide crystals",
+      "C": "It must have the poorest machinability and damping because graphite never helps cutting or vibration absorption",
+      "D": "It must be a stainless steel because nodules are the same as chromium carbide sensitization"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because rounded graphite morphology is the key common idea behind ductile cast iron's spherical nodules and malleable cast iron's irregular nodules; both reduce the severe flake stress concentration and improve toughness/ductility relative to ordinary gray iron. B is wrong because white iron is carbide, not graphite nodules. C is wrong because graphite is one reason cast irons can be machinable and damping-capable. D confuses cast iron graphite morphology with stainless steel chromium carbide precipitation.",
+    "relevantTheory": "For exam synthesis, first identify the carbon form: carbide means white iron; graphite flakes mean gray iron; spherical or irregular nodules mean ductile or malleable behavior. Then combine that with the matrix: ferrite favors ductility/machinability, pearlite favors strength/hardness/wear resistance. Most cast-iron questions are solved by this two-step microstructure-property map.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, pages/slides 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 25-26; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26"
+  },
+  {
+    "id": 478,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "general Al properties",
+      "FCC",
+      "phase transformation"
+    ],
+    "diagramRequired": false,
+    "question": "Which is NOT a general feature of aluminium emphasized in Lecture 14?",
+    "options": {
+      "A": "FCC crystal structure and no ductile-to-brittle transition",
+      "B": "Low density, about 2.7 g/cm3, compared with about 7.7 g/cm3 for Fe",
+      "C": "Important solid-state phase transformation used like steel quenching to form martensite",
+      "D": "Thin strong oxide coating giving excellent corrosion resistance and possibility of anodising"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the NOT true clause: Lecture 14 explicitly states that Al has FCC crystal structure and no phase transformation, so it is not hardened by a steel-like martensitic transformation. A is true because FCC Al remains ductile and has no ductile-to-brittle transition. B is true and is one of the main reasons Al is used for light structures. D is true because Al is passivated by a thin oxide coating; anodising deliberately thickens this protective oxide.",
+    "relevantTheory": "Aluminium is selected mainly for low density, corrosion resistance from a passive oxide, good electrical and thermal conductivity, and easy forming due to FCC slip. Pure Al is soft, with yield strength around 35 MPa, while alloys can reach much higher strength. Unlike steels, Al does not rely on Fe-C phase transformations or martensite; strengthening comes from solid solution, cold work and precipitation/age hardening.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 3-4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Lecture 14 section"
+  },
+  {
+    "id": 479,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "specific stiffness",
+      "density",
+      "Young modulus"
+    ],
+    "diagramRequired": false,
+    "question": "Why can aluminium alloys be attractive for automotive or aircraft structures even though E is only about 70 GPa?",
+    "options": {
+      "A": "Because the low density can compensate the lower modulus when weight is the design constraint",
+      "B": "Because aluminium has the same Young modulus as steel after age hardening",
+      "C": "Because aluminium becomes BCC at service temperature and therefore stiffens",
+      "D": "Because pure aluminium has higher yield strength than alloyed steels"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 14 compares E = 70 GPa for Al with about 210 GPa for Fe, but also compares density 2.7 g/cm3 with 7.7 g/cm3 for Fe. For lightweight design, low density is the decisive advantage, especially when geometry can be adjusted. B is wrong because age hardening raises yield strength, not the elastic modulus to steel values. C is wrong because the lecture states FCC structure and no phase transformation. D is wrong because pure Al is very soft, with yield strength near 35 MPa.",
+    "relevantTheory": "Elastic modulus controls stiffness per unit strain, but structural selection often uses stiffness or strength relative to weight. Aluminium has roughly one third the Young modulus of steel but also roughly one third the density. Alloying and heat treatment raise yield strength substantially, so Al alloys are useful for thin panels, aircraft structures, window frames and other weight-sensitive components, even though pure Al is weak.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 3-4 and 15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Lecture 14 section"
+  },
+  {
+    "id": 480,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "corrosion resistance",
+      "anodising",
+      "stress-corrosion cracking"
+    ],
+    "diagramRequired": false,
+    "question": "Aluminium corrosion behaviour: mark the UNTRUE clause.",
+    "options": {
+      "A": "Al has excellent corrosion resistance because a thin strong oxide coating passivates the surface",
+      "B": "Anodising can be used to deliberately improve or thicken the protective oxide layer",
+      "C": "Precipitation-hardened Al alloys may suffer stress-corrosion cracking near precipitate-free zones at grain boundaries",
+      "D": "Age hardening always improves corrosion resistance because all precipitates are uniformly inside grains"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the UNTRUE clause. Lecture 14 warns that precipitation-hardened alloys can suffer stress-corrosion cracking, especially because precipitate-free zones near grain boundaries create local weak/corrosion-sensitive paths. A is true: passive oxide gives Al its excellent corrosion resistance. B is true: anodising is mentioned as a way to use the oxide layer. C is true and is the main trap: high strength from precipitation can come with corrosion and stress-corrosion penalties.",
+    "relevantTheory": "Aluminium is naturally passivated by a stable oxide film, so many Al alloys resist uniform corrosion well. However, microstructure matters. Precipitation hardening changes solute distribution and may create precipitates and precipitate-free zones at grain boundaries. These local electrochemical and mechanical differences can reduce resistance to stress-corrosion cracking even while increasing strength.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 3 and 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Lecture 14 section"
+  },
+  {
+    "id": 481,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "American designation",
+      "wrought series",
+      "major alloying element"
+    ],
+    "diagramRequired": false,
+    "question": "In the American designation of wrought aluminium alloys, what does the first digit mainly indicate?",
+    "options": {
+      "A": "The main alloying addition or alloy series",
+      "B": "The exact heat treatment applied after the hyphen",
+      "C": "The final two digits of purity in every series",
+      "D": "The casting mould used to solidify the alloy"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture table identifies 1xxx as 99+ Al, 2xxx as Cu, 3xxx as Mn, 4xxx as Si, 5xxx as Mg, 6xxx as Mg+Si, 7xxx as Zn and 8xxx as other elements such as Li. B is wrong because heat treatment is given by temper letters/numbers such as O, H, F or T after the alloy designation. C is only a special feature for the 1xxx purity series, not every series. D is wrong because casting alloys have a different four-digit system with a decimal point.",
+    "relevantTheory": "The wrought Al alloy designation uses four digits. The first digit gives the principal alloy family. The second digit can mark modifications or impurity limits, and the last digits identify the specific alloy; for 1xxx they indicate minimum purity. This coding is essential because the alloying family predicts strengthening route and applications.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Lecture 14 section"
+  },
+  {
+    "id": 482,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "wrought vs casting designation",
+      "decimal point",
+      "series"
+    ],
+    "diagramRequired": false,
+    "question": "Which association between aluminium designation and principal element is NOT correct according to Lecture 14?",
+    "options": {
+      "A": "2xxx wrought alloys: Cu as principal alloying element",
+      "B": "6xxx wrought alloys: Mg and Si as principal alloying elements",
+      "C": "7xxx wrought alloys: Zn as the principal alloying element",
+      "D": "6xx.x casting alloys: Mg and Si casting series used for age-hardened castings"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is NOT correct: the lecture table lists 6xx.x in the casting designation as an unused series. Mg+Si is the 6xxx wrought family, not the 6xx.x casting family. A is correct for wrought 2xxx Al-Cu alloys. B is correct for wrought 6xxx alloys. C is correct for wrought 7xxx alloys, which are high-strength Zn-containing alloys.",
+    "relevantTheory": "Lecture 14 separates wrought and casting designation systems. Wrought alloys use 1xxx to 8xxx without a decimal point. Casting alloys use a decimal point, such as 1xx.x for high-purity Al, 2xx.x for Cu, 3xx.x for Si plus Cu and/or Mg, 4xx.x for Si, 5xx.x for Mg, 7xx.x for Zn, 8xx.x for Sn and 9xx.x for other elements. Do not transfer a wrought-series meaning blindly to a casting-series code.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 5"
+  },
+  {
+    "id": 483,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "temper designation",
+      "O F H T",
+      "heat treatment"
+    ],
+    "diagramRequired": false,
+    "question": "Which temper designation means solution heat treated and artificially aged in the basic aluminium temper system?",
+    "options": {
+      "A": "O",
+      "B": "F",
+      "C": "H18",
+      "D": "T6"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: T6 is solution heat treatment followed by artificial ageing. A is wrong because O means annealed, i.e. a softened condition for wrought alloys. B is wrong because F means as fabricated/as produced. C is wrong because H designations describe strain hardening by cold work; H18 specifically belongs to cold-worked hard conditions, not solution treatment and ageing.",
+    "relevantTheory": "Temper designations are added after the alloy number, for example 2024-T6. O means annealed, F means as fabricated, H means cold-worked strain-hardened conditions for non-heat-treatable alloys, and T means thermally treated conditions. The basic T sequence includes T4 solution and natural ageing, T5 artificial ageing only, T6 solution plus artificial ageing, and T8 solution plus cold work plus artificial ageing.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Lecture 14 section"
+  },
+  {
+    "id": 484,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "heat treatable series",
+      "non-heat treatable series",
+      "Al alloy classes"
+    ],
+    "diagramRequired": false,
+    "question": "Which set contains mainly non-heat treatable wrought aluminium alloy series?",
+    "options": {
+      "A": "1xxx, 3xxx and 5xxx",
+      "B": "2xxx, 6xxx and 7xxx",
+      "C": "2xxx, 7xxx and 8xxx only",
+      "D": "4xx.x, 6xx.x and 8xx.x"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture classification places high-purity 1xxx, Mn-containing 3xxx and Mg-containing 5xxx on the non-heat-treatable side, strengthened mainly by solid solution and cold work. B is wrong because 2xxx, 6xxx and 7xxx are key heat-treatable wrought families. C is wrong because it omits 6xxx and treats 8xxx too broadly; the lecture notes specialist 8xxx/Li examples but not as the standard answer for this trap. D mixes casting designations with wrought heat-treatment classification.",
+    "relevantTheory": "Non-heat-treatable Al alloys do not obtain their main strength from precipitation ageing. They are strengthened by solid solution and strain hardening, with annealing used to restore ductility. Heat-treatable alloys need solute combinations that form strengthening precipitates during ageing, such as Al-Cu, Mg-Si and Zn-Mg based systems.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 6-8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Lecture 14 section"
+  },
+  {
+    "id": 485,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "alloying elements",
+      "weldability",
+      "corrosion resistance"
+    ],
+    "diagramRequired": false,
+    "question": "For a medium-strength aluminium alloy requiring good weldability and corrosion resistance, which family is the best lecture-style choice?",
+    "options": {
+      "A": "2xxx Al-Cu, because it gives high strength from age hardening and is not weldable",
+      "B": "6xxx Mg-Si, because it is moderately heat treatable with good corrosion resistance and weldability",
+      "C": "7xxx Zn-Mg, because it gives highest strength and is fully weldable",
+      "D": "1xxx pure Al, because it gives aircraft-level yield strength without alloying"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the lecture lists Mg+Si alloys as moderately heat treatable, with good corrosion resistance and weldability, a good medium alloy. A contains the trap: Al-Cu 2xxx gives high strength but is noted as not weldable. C is wrong because 7xxx Zn+Mg gives high strength but is also noted as not weldable. D is wrong because pure 1xxx Al has excellent conductivity/corrosion behaviour but very low strength.",
+    "relevantTheory": "Alloy family controls the property compromise. Cu-containing 2xxx and Zn-Mg 7xxx families are high-strength aircraft-type alloys but have weldability and corrosion/stress-corrosion concerns. Mg 5xxx alloys give good corrosion resistance and formability, especially marine uses. Mg-Si 6xxx alloys are useful general-purpose, extrudable, heat-treatable alloys where medium strength, corrosion resistance and weldability must be balanced.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 7 and 15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Lecture 14 section"
+  },
+  {
+    "id": 486,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "strengthening mechanisms",
+      "cold work",
+      "age hardening"
+    ],
+    "diagramRequired": false,
+    "question": "Which list gives the main aluminium strengthening mechanisms in Lecture 14?",
+    "options": {
+      "A": "Solid solution hardening, cold work, and age hardening",
+      "B": "Martensite formation, tempering of martensite, and carburizing",
+      "C": "Ductile-to-brittle transition control, pearlite refinement, and bainite formation",
+      "D": "Only grain growth after annealing"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and follows the slide directly. B and C are steel heat-treatment traps: martensite, pearlite, bainite and carburizing belong to steel lectures, not the Al lecture. D is wrong because grain growth after annealing would usually soften and coarsen the alloy, not represent the three main strengthening routes.",
+    "relevantTheory": "Al alloys are strengthened by making dislocation motion harder. Solid solution atoms distort the Al lattice, cold work increases dislocation density and strain hardening, and age hardening creates fine precipitates or zones that interact with dislocations. The lecture uses these mechanisms instead of steel phase transformation language because Al is FCC and has no martensitic transformation route.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, strengthening by solid solution and precipitation sections"
+  },
+  {
+    "id": 487,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "age hardening",
+      "solution treatment",
+      "quenching",
+      "ageing"
+    ],
+    "diagramRequired": false,
+    "question": "Correct process chain for precipitation/age hardening of an Al-Cu alloy is:",
+    "options": {
+      "A": "Solution heat treatment above solvus, rapid quench to a supersaturated solid solution, then ageing to form fine precipitates",
+      "B": "Slow furnace cooling from the liquid, grain growth, then annealing to dissolve all precipitates permanently",
+      "C": "Cold work only, then carburizing to introduce carbon into the Al matrix",
+      "D": "Quench directly from room temperature, then temper martensite at 250-650 C"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes and lecture describe solutionizing, quenching and ageing as the age-hardening route. B is wrong because slow cooling allows equilibrium coarse phases and does not create the supersaturated metastable condition needed for fine precipitation. C is wrong because carburizing is a steel surface treatment, not an Al-Cu precipitation route. D is wrong because Al does not form martensite in this lecture context.",
+    "relevantTheory": "Age hardening requires a phase diagram with solid solubility changing with temperature. At high temperature the solute, such as Cu in Al, is dissolved. Rapid quenching freezes a supersaturated solid solution, which is metastable. During ageing, solute atoms diffuse short distances and form clusters, GP zones and precipitates. A fine, dense dispersion gives high strength because dislocations must cut or bypass the obstacles.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 9 and 12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Lecture 14 ageing section"
+  },
+  {
+    "id": 488,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "GP zones",
+      "coherency stress",
+      "precipitate hardening"
+    ],
+    "diagramRequired": false,
+    "question": "Which of the following is NOT a feature of Guinier-Preston zones in age-hardened Al-Cu alloys?",
+    "options": {
+      "A": "They are Cu-rich clusters formed from a supersaturated Al solid solution",
+      "B": "They are coherent with the Al matrix and create strain/stress fields",
+      "C": "They strengthen partly because dislocations interact with their coherency stresses",
+      "D": "They are large incoherent equilibrium CuAl2 particles bypassed easily because they are widely spaced"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT feature: large incoherent equilibrium theta (CuAl2) particles belong to late ageing/overageing, not GP zones. A is true because GP zones are solute clusters forming from the quenched supersaturated solid solution. B is true because coherence with the Al lattice is why they distort the surrounding matrix. C is true because the strain field hinders dislocation motion and raises strength.",
+    "relevantTheory": "In the Al-Cu ageing sequence, early solute clustering creates GP zones. Their coherent interface means the matrix lattice is distorted, so dislocations must overcome coherency stresses. With further ageing, fine precipitates such as theta'' give strong precipitate hardening. If ageing continues too long, precipitates coarsen and become more widely spaced or less coherent, so strength decreases.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Al-4%Cu ageing section"
+  },
+  {
+    "id": 489,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "underaged",
+      "peak aged",
+      "overaged",
+      "precipitate spacing"
+    ],
+    "diagramRequired": false,
+    "question": "During artificial ageing of a 2xxx Al-Cu alloy, why does strength fall in the overaged condition?",
+    "options": {
+      "A": "Precipitates coarsen and become more widely spaced, so dislocations bypass them more easily",
+      "B": "All Cu instantly returns to perfect solid solution, eliminating diffusion",
+      "C": "The alloy changes from FCC to BCC and loses slip systems",
+      "D": "The oxide coating disappears and the alloy softens only by corrosion"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture ageing curve shows strength increasing to peak aged and then decreasing when further reaction forms larger theta' and theta precipitates that are more widely spaced and weaker obstacles. B is wrong because overageing is not full return to solid solution; it is precipitate coarsening/evolution toward equilibrium. C is wrong because Al remains FCC. D is wrong because corrosion is not the mechanism of the ageing curve.",
+    "relevantTheory": "Age hardening has an optimum time-temperature condition. Underaged material contains clusters and early precipitates but has not reached maximum obstacle density/strength. Peak-aged material has fine, closely spaced precipitates that strongly resist dislocation motion. Overaged material contains coarser precipitates with larger interparticle spacing, so dislocations can bow or bypass more easily and yield strength decreases.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, ageing curve section"
+  },
+  {
+    "id": 490,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Al-Si casting",
+      "eutectic",
+      "silicon plates"
+    ],
+    "diagramRequired": false,
+    "question": "In casting Al-Si alloys, why is the eutectic silicon morphology a toughness problem when it remains unmodified?",
+    "options": {
+      "A": "Plate or needle-like Si acts as a sharp brittle discontinuity in the softer Al matrix",
+      "B": "Silicon dissolves completely and makes the alloy identical to pure Al",
+      "C": "The Al matrix transforms to martensite around each Si particle",
+      "D": "Eutectic Si lowers all strength because it removes every obstacle to dislocations"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture shows unmodified Al-Si eutectic with plate-like Si and notes microstructure changes with increasing Si. The notes explain that needle/plate Si is a hard brittle phase and creates sharp discontinuities where cracks can start. B is wrong because eutectic Si is a distinct phase, not complete solid solution. C is wrong because martensite is not an Al-Si casting mechanism. D is wrong because hard Si can raise hardness/strength but damages ductility and toughness if the morphology is sharp.",
+    "relevantTheory": "Al-Si casting alloys exploit the Al-Si eutectic for castability and automotive casting applications. The useful property balance depends strongly on silicon morphology. Coarse plates or needles of Si concentrate stress and make cracking easier at the hard/soft phase interface. Refinement or modification aims to make the eutectic finer and less harmful, improving toughness.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 10-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, Al-Si eutectic refinement section"
+  },
+  {
+    "id": 491,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "eutectic modification",
+      "Na",
+      "Al-Si"
+    ],
+    "diagramRequired": false,
+    "question": "What is the purpose of adding about 0.01% Na to an Al-Si casting alloy in Lecture 14?",
+    "options": {
+      "A": "To modify the eutectic, changing coarse Si plates into a finer, tougher eutectic morphology",
+      "B": "To carburize the surface and produce a high-carbon case",
+      "C": "To convert all aluminium into pure silicon for higher melting point",
+      "D": "To make the casting alloy non-metallic and electrically insulating"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slide labels eutectic modification with 0.01% Na and contrasts modified and unmodified eutectic structures. B is a steel trap; carburizing is not the mechanism. C is chemically impossible in the lecture context and contradicts the Al-Si phase mixture. D is wrong because Al-Si alloys remain metallic conductors.",
+    "relevantTheory": "Eutectic modification is a casting microstructure control method. A very small modifier addition changes how eutectic Si grows during solidification, reducing the harmful plate/needle morphology and producing a finer eutectic. The aim is not simply to change composition by a large amount, but to alter solidification morphology and improve toughness of cast Al-Si parts.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, Al-Si refinement section"
+  },
+  {
+    "id": 492,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "commercial classes",
+      "applications",
+      "series selection"
+    ],
+    "diagramRequired": false,
+    "question": "Which selection best matches the Lecture 14 commercial aluminium alloy classes and applications?",
+    "options": {
+      "A": "1xxx for foil/electrical conductors, 5xxx for marine structural applications, 7xxx for highest-strength aircraft structures",
+      "B": "1xxx for highest-strength aircraft structures, 7xxx for food containers, 5xxx for electrical conductors only",
+      "C": "4xxx for pure Al electrical conductors, 3xxx for precipitation-hardened aircraft forgings, 2xxx for marine weldable sheet",
+      "D": "Cast near Al-13%Si eutectic only for soft electrical foil and never for automotive castings"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and follows the summary table: 1000 series pure Al is used for foil, decoration and electrical conductors; 5000 series Mg alloys have good formability, weldability and excellent corrosion resistance for structural and marine applications; 7000 series Zn-containing alloys are the highest-strength alloys used in aircraft structures. B reverses the classes. C mixes series meanings and ignores the table. D is wrong because near Al-13%Si eutectic cast alloys are listed for automotive castings and can age-harden if Cu and Mg are added.",
+    "relevantTheory": "Commercial Al selection is a property compromise. 1000 series is soft but conductive and corrosion resistant. 2000 series Al-Cu gives high strength for forgings/extrusions and airframes but has weldability/corrosion penalties. 3000 series is ductile sheet for containers. 4000 series Al-Si suits pistons and cast/forgeable applications. 5000 series Al-Mg is corrosion resistant and weldable. 6000 series Mg-Si is age-hardenable and extrudable. 7000 series gives the highest strengths for aircraft structures. Al-Si casting alloys serve automotive castings.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Lecture 14 alloy classes section"
+  },
+  {
+    "id": 493,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "surface heat treatment",
+      "chemical surface treatment",
+      "flame hardening",
+      "induction hardening"
+    ],
+    "diagramRequired": false,
+    "question": "Heat vs. chemical surface treatments - mark the correct distinction.",
+    "options": {
+      "A": "Induction, flame and laser treatments mainly harden by local heating and quenching of steel already containing enough carbon, whereas carburizing, nitriding, nitro-carburizing and boriding change the surface chemistry.",
+      "B": "Induction hardening is a chemical nitriding process because the coil supplies atomic nitrogen to ferrite.",
+      "C": "Carburizing is only a thermal treatment because it never changes carbon concentration along the thickness.",
+      "D": "All surface treatments are identical if the final surface hardness is high, so the diffusing element and thermal cycle are irrelevant."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 10 separates surface heat treatments from chemical surface treatments. Induction, flame and laser hardening raise the surface temperature locally and then rely on transformation hardening on cooling; they do not intentionally add C, N or B. B is wrong because induction uses induced currents and Joule heating, not ammonia or nitrogen diffusion. C is wrong because carburizing is defined by carbon absorption and a carbon concentration profile. D is wrong because the process route controls case depth, distortion, residual stress, steel choice and whether a final quench or post-treatment is required.",
+    "relevantTheory": "The first exam trap in this lecture is to separate mechanism from result. Many treatments give a hard surface and a tough core, but not by the same route. Thermal surface hardening heats only a surface layer above the austenitizing range and quenches it to martensite; therefore the steel must already contain enough carbon to harden. Chemical surface treatment changes composition by diffusion or compound formation: C for carburizing, N for nitriding, C plus N for nitro-carburizing, and B for boriding. This distinction explains why process temperature, time, distortion and usable steels differ.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 5-8, 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 1-4, 6"
+  },
+  {
+    "id": 494,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "laser hardening",
+      "compressive stress",
+      "fatigue",
+      "penetration depth"
+    ],
+    "diagramRequired": false,
+    "question": "Which surface treatment would the lecture most naturally associate with the largest surface compressive stress state when compared with flame hardening, induction heat treatment and carburizing?",
+    "options": {
+      "A": "Laser hardening, because its very shallow penetration can create a high compressive state near the surface with compensating tensile stress deeper inside.",
+      "B": "Carburizing, because the deepest carbon case always gives the largest compressive stress independently of quenching.",
+      "C": "Flame hardening, because an open flame chemically adds the most carbon to the surface.",
+      "D": "Annealing, because softening treatments maximize residual compression at the surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The notes supporting the Lecture 10 surface-treatment comparison state that laser hardening has penetration distance below about 1 mm and that smaller penetration distance gives a larger stress state; the past-exam style also tests laser against flame, induction and carburizing for the largest compression stress state. B is wrong because carburizing can give a deeper case, but depth is not the same as largest near-surface compressive peak. C is wrong because flame hardening is treated in this comparison as a surface heat treatment, not the controlled carbon-enrichment route of carburizing. D is wrong because annealing relieves and softens; it is not the surface-hardening treatment discussed here.",
+    "relevantTheory": "Surface hardening improves fatigue not only by hardness but by residual stress. A thin transformed or treated surface layer tends to be in compression, while the interior balances it with tensile stress. A crack at the surface must open against that compression, so fatigue-crack initiation and propagation are delayed. Laser hardening is extremely localized and shallow, so it can generate a strong near-surface stress gradient. This is why the professor can ask for a ranking trap: deepest case and largest surface compressive stress are not automatically the same criterion.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 7-8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 3-4; PAST_EXAMS/QUESTION_SET_2.txt, July 1st 2022 sample"
+  },
+  {
+    "id": 495,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "nitro-carburizing",
+      "Fe-(C,N)",
+      "distortion",
+      "compound layer"
+    ],
+    "diagramRequired": false,
+    "question": "A part needs a thin Fe-(C,N) compound layer with minimum distortion and a short treatment time compared with classical nitriding. Which process from the Lecture 10 summary fits best?",
+    "options": {
+      "A": "Nitro-carburizing at about 550-650 deg C for roughly 1-6 h.",
+      "B": "Carburizing at about 700-1050 deg C for up to 46 h followed by needed post-treatment.",
+      "C": "Boriding at about 600-1000 deg C to form Fe-B with high distortion.",
+      "D": "Thermal CVD at about 800-1100 deg C to deposit TiC/TiCN/TiN."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the chemical surface-treatment summary lists nitro-carburizing with superficial compound Fe-(C,N), surface/core temperature about 550-650 deg C, process time about 1-6 h, thickness about 50-200 um, hardness around 700-1000 HV and minimum distortion. B is carburizing: it gives Fe-C, much larger possible thickness, higher temperature and needed post-treatment. C is boriding: it gives Fe-B, very high hardness but high distortion. D belongs to ceramic coatings, not the chemical surface-treatment group in the first table.",
+    "relevantTheory": "Nitro-carburizing is the mixed carbon-nitrogen version in the lecture table. It sits close to nitriding in temperature and distortion behavior but forms a carbonitride-type surface compound rather than only Fe-N. The practical selection logic is: use it when a thin wear-resistant layer and dimensional stability are more important than millimeter-scale case depth. Do not confuse it with carburizing just because the name contains carbon; the table values and superficial compound are different.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11"
+  },
+  {
+    "id": 496,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "chemical surface treatment",
+      "case depth",
+      "carburizing",
+      "post-treatment"
+    ],
+    "diagramRequired": false,
+    "question": "According to the Lecture 10 chemical surface-treatment summary, which statement is TRUE for carburizing compared with nitriding, nitro-carburizing and boriding?",
+    "options": {
+      "A": "It can give by far the largest listed layer thickness, about 100-7000 um, but it is associated with high distortion and needed post-treatment.",
+      "B": "It gives the highest listed hardness, 1200-2500 HV, while keeping distortion minimum.",
+      "C": "It forms Fe-B and is therefore identical to boriding except for name.",
+      "D": "It is the only treatment in the table with no superficial compound or composition change."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the table gives carburizing a thickness range of about 100-7000 um, much deeper than nitriding, nitro-carburizing or boriding, while also listing high distortion and post-treatment as needed. B describes the QUAD coating/treatment hardness range, not carburizing. C confuses carburizing with boriding: carburizing is Fe-C, boriding is Fe-B. D is wrong because carburizing is explicitly a chemical surface treatment with an Fe-C surface/case.",
+    "relevantTheory": "Carburizing is chosen when load support requires a relatively deep case. That deeper case comes from high-temperature carbon diffusion and usually austenitizing plus quenching, so distortion and post-treatment become important. Nitriding and nitro-carburizing are lower-distortion but thinner; boriding is very hard but still much thinner and more severe. Selection is therefore not 'highest hardness wins'. It is a compromise among thickness, hardness, temperature, distortion, steel condition and finishing sequence.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11"
+  },
+  {
+    "id": 497,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "QUAD",
+      "CrCN",
+      "VCN",
+      "TiCN",
+      "hardness"
+    ],
+    "diagramRequired": false,
+    "question": "A very thin layer, only about 5-20 um, is acceptable, but the target hardness is the highest in the chemical surface-treatment summary, about 1200-2500 HV, with minimum distortion. Which entry matches this description?",
+    "options": {
+      "A": "QUAD, producing CrCN, VCN and TiCN type surface compounds at about 400-700 deg C.",
+      "B": "Nitriding, producing Fe-N only, with the same 5-20 um thickness and 1200-2500 HV range.",
+      "C": "Carburizing, producing Fe-C, with minimum distortion and no post-treatment.",
+      "D": "Flame hardening, producing a deposited ceramic coating by electrolysis."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the table lists QUAD with superficial compounds CrCN, VCN and TiCN, surface/core temperature about 400-700 deg C, time about 1-8 h, thickness about 5-20 um, hardness about 1200-2500 HV and minimum distortion. B is wrong because nitriding is Fe-N, 50-100 um and 700-1000 HV in the table. C is wrong because carburizing is much thicker but has high distortion and needed post-treatment. D mixes a thermal surface-hardening method with a coating method and does not match the table.",
+    "relevantTheory": "The QUAD entry is easy to miss because it is beside the more familiar carburizing and nitriding treatments. Its lecture-table identity is not deep case depth; it is a very hard, very thin compound layer involving carbonitrides of strong nitride/carbide-forming elements such as Cr, V and Ti. For exam selection, remember the signature combination: CrCN/VCN/TiCN, 5-20 um, 1200-2500 HV, low distortion and usually only seldom post-treatment.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11"
+  },
+  {
+    "id": 498,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "wear resistant ceramic coatings",
+      "PVD",
+      "CVD",
+      "distortion"
+    ],
+    "diagramRequired": false,
+    "question": "Wear resistant ceramic coatings - mark the correct comparison between thermal CVD and PVD in the Lecture 10 table.",
+    "options": {
+      "A": "Thermal CVD uses higher temperatures, about 800-1100 deg C, and is listed with high distortion; PVD works around 300-600 deg C, gives very thin TiN/CrN layers and low distortion.",
+      "B": "PVD is the high-temperature gas process at 800-1100 deg C and always gives the thickest 2-5 mm coating.",
+      "C": "Thermal CVD and PVD are both electrolysis processes used only for chromium hard coating.",
+      "D": "Both processes are chemical carburizing treatments because their main layer is Fe-C."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the ceramic coating table gives thermal CVD a surface/core temperature of about 800-1100 deg C, TiC/TiCN/TiN layers and high distortion, whereas PVD is listed around 300-600 deg C with TiN or CrN, 1-6 um thickness, very high hardness and low distortion. B reverses the temperature logic and invents a thick PVD layer. C confuses CVD/PVD with Cr hard electrolysis. D is wrong because these are deposited ceramic coatings, not Fe-C carburized cases.",
+    "relevantTheory": "Coatings in the second Lecture 10 table protect or improve wear by depositing a surface layer, not by making a diffusion case throughout the steel surface. Thermal CVD gives good uniformity but uses high temperature, so distortion can be high and the substrate heat-treatment sequence matters. PVD is lower temperature and low distortion, but the layer is very thin and table uniformity is poor. The professor's trap is to mix coating terminology with carburizing/nitriding terminology; TiN, CrN, TiC and TiCN are coating-layer clues.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 6"
+  },
+  {
+    "id": 499,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "flame coating",
+      "Stellite",
+      "coating thickness",
+      "uniformity"
+    ],
+    "diagramRequired": false,
+    "question": "A component needs a very thick wear-resistant deposited layer, not a diffusion case, and the designer accepts poor uniformity and high distortion. Which coating family from the Lecture 10 table is most consistent?",
+    "options": {
+      "A": "Flame coating or Stellite, with Ni-Cr-B-Si type layers and thickness in the hundreds to thousands of micrometers.",
+      "B": "PVD TiN/CrN, because PVD normally produces the thickest millimeter-scale layers with very poor dimensional control.",
+      "C": "Nitriding, because Fe-N always deposits an external ceramic coating several millimeters thick.",
+      "D": "Cr hard electrolysis, because it works by melting the whole substrate at fusion temperature."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the wear-resistant ceramic/coating summary lists flame coating and Stellite with Ni, Cr, B, Si layers, thickness about 500-2000 um for flame coating and 2000-5000 um for Stellite, high distortion and very poor uniformity. B is wrong because PVD layers are very thin, about 1-6 um. C is wrong because nitriding is a chemical surface treatment forming Fe-N nitrides in the steel surface, not a thick deposited coating. D is wrong because chromium hard coating is by electrolysis at low surface temperature, not wholesale melting.",
+    "relevantTheory": "The second table separates coating processes from diffusion surface treatments. Flame coating and Stellite are thick build-up routes: useful when a substantial wear-resistant surface layer is needed, but not when precise uniform thickness and minimum distortion are the priority. PVD and CVD are thin ceramic coating routes; nitriding, carburizing and boriding are chemical surface treatments. When reading an exam option, thickness is often the fastest clue: 1-6 um suggests PVD/plasma CVD, 20-50 um suggests hard Cr, and thousands of micrometers suggests flame coating or Stellite.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 6"
+  },
+  {
+    "id": 500,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "weldability",
+      "HAZ",
+      "melt zone",
+      "recrystallized zone"
+    ],
+    "diagramRequired": false,
+    "question": "In Lecture 10 welding terminology, what is the heat-affected zone (HAZ)?",
+    "options": {
+      "A": "The solid region next to the melt zone whose microstructure and properties are changed by the welding thermal cycle without necessarily melting.",
+      "B": "Only the liquid weld pool, where columnar dendrites solidify from the melt.",
+      "C": "The completely unaffected base material far from the weld, where no temperature rise occurs.",
+      "D": "A chemically carburized surface layer produced by ammonia dissociation."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide separates the melt zone from zones such as thermally activated/recrystallized/grain-growth regions, and the notes explain that base material near the melting region undergoes heat-treatment-like microstructural changes. B is only the fusion or melt zone, not the whole HAZ. C is the unaffected base material outside the relevant thermal cycle. D confuses welding with chemical surface treatments and even uses the wrong gas chemistry.",
+    "relevantTheory": "Welding creates a temperature gradient away from the joint. At the center, material melts and solidifies, often with columnar dendritic structure. Beside it, the HAZ stays solid but can austenitize, recrystallize, grow grains, temper, or transform during cooling depending on peak temperature and steel composition. This region is critical because it can lose toughness or form brittle structures even though it was not molten. In weldability questions, never analyze only the weld pool; the HAZ often controls failure.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 9-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 4-5"
+  },
+  {
+    "id": 501,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "welding",
+      "HAZ cracking",
+      "grain growth",
+      "rapid cooling"
+    ],
+    "diagramRequired": false,
+    "question": "During welding of a hypoeutectoid steel, why can cracking occur near the transition/HAZ region rather than only inside the visible weld bead?",
+    "options": {
+      "A": "Because the HAZ experiences high peak temperatures and rapid cooling that can change grain size and transformation products, producing hard or brittle regions under the bead.",
+      "B": "Because the HAZ is always colder than room temperature, so it contracts before the rest of the part is heated.",
+      "C": "Because the HAZ is chemically nitrided by atmospheric nitrogen to a uniform depth of several millimeters.",
+      "D": "Because the base material far from the weld always melts first and solidifies as dendrites before the weld pool."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 10 shows the weld thermal zones and the crack underneath the welding bead, and the notes emphasize that cracks can occur in the transition area where the thermal cycle has changed the microstructure. B is physically wrong; the HAZ is heated, not cooled below room temperature during welding. C is wrong because welding atmosphere exposure is not the controlled nitriding process of Lecture 10. D reverses the geometry: the melt zone is at the weld, while material far away remains unaffected.",
+    "relevantTheory": "The HAZ is dangerous because it receives enough heat to alter microstructure but not enough to simply be treated as new weld metal. Near the fusion line, grains may grow; in other subregions, recrystallization, austenitization, tempering or transformation can occur. On cooling, a high-hardenability steel may form hard martensitic or bainitic products, while thermal stresses are also present. This combination explains under-bead cracking and why weldability is tied to hardenability, carbon content, alloy content, thickness and cooling conditions.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 9-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pp. 5-6"
+  },
+  {
+    "id": 502,
+    "deck": "slides",
+    "moduleId": "lecture-10-surface-treatment",
+    "section": "Heat Treatment",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "weldability",
+      "lightweight construction",
+      "dissimilar welding",
+      "thermal cycle"
+    ],
+    "diagramRequired": false,
+    "question": "Weldability problems in Lecture 10 - mark the most accurate clause.",
+    "options": {
+      "A": "Thin lightweight parts and dissimilar material welding make welding more difficult because melting, thermal cycles and different melting points must be controlled more carefully.",
+      "B": "Lightweight construction always improves weldability because thin sheets cannot melt during welding.",
+      "C": "Dissimilar material welding is simpler than welding identical steels because different melting points automatically synchronize the weld pool.",
+      "D": "Weldability depends only on final surface hardness, so the HAZ and melting behavior are irrelevant."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the notes list lightweight construction and dissimilar material welding as welding problems: thin material can melt too easily, and different materials bring different melting points and thermal responses. B is the opposite of the lecture warning. C is wrong because dissimilar melting points and properties complicate joining. D is wrong because Lecture 10 introduces weldability through melting, solidification and HAZ microstructural change, not only surface hardness.",
+    "relevantTheory": "Weldability means the ability of a material or material combination to be welded without unacceptable defects or property loss. For steels, the metallurgical issues include melt-zone solidification, HAZ transformations, grain growth, residual stresses and cracking susceptibility. Thin sections reduce heat tolerance and can be easier to overheat or melt through. Dissimilar joints add differences in melting temperature, expansion, thermal conductivity and transformation behavior. These practical constraints explain why weldability is a manufacturing property, not just a composition label.",
+    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 9-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 4"
+  },
+  {
+    "id": 503,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "cathodic reaction",
+      "reduction",
+      "local condition",
+      "metal deposition"
+    ],
+    "diagramRequired": false,
+    "question": "Cathodic reaction in wet corrosion: which statement is correct in the Lecture 11 terminology?",
+    "options": {
+      "A": "The cathode receives electrons and supports a reduction reaction whose exact type depends on the local cathode condition.",
+      "B": "The cathode is the electrode where metal atoms are ionized and lost into the electrolyte.",
+      "C": "The cathode must always lose thickness faster than the anode because electrons accumulate there.",
+      "D": "The cathodic reaction is independent of the electrolyte and can occur without electrical connection to the anode."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide says the type of cathodic reaction depends on the local condition at the cathode, and the notes describe the cathode as receiving electrons by a chemical or cathodic reduction reaction. B describes the anodic reaction, not the cathodic one: ionization of Fe into the electrolyte is corrosion at the anode. C is the classic exam trap; electron arrival does not mean preferential metal loss at the cathode. D is wrong because the lecture explicitly requires anode, cathode, conductor and electrolyte to be electrically connected.",
+    "relevantTheory": "Wet corrosion is an oxidation-reduction circuit. Oxidation occurs at the anode, where the metal dissolves as ions and electrons are released. Reduction occurs at the cathode, where incoming electrons are consumed by local reactions; if reducible metal ions are present they may even deposit, giving a plating or thickening effect. The exact cathodic reaction depends on environment, oxygen, ions and pH. Corrosion rate must balance anodic and cathodic processes to maintain electroneutrality, so a slow cathodic reaction can limit the whole cell.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 2-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 12-13"
+  },
+  {
+    "id": 504,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "anode",
+      "cathode",
+      "preferential corrosion",
+      "NOT TRUE"
+    ],
+    "diagramRequired": false,
+    "question": "Corrosion occurs preferentially at the cathode because electrons accumulate there. Mark the correct evaluation.",
+    "options": {
+      "A": "FALSE: preferential metal loss is anodic; the cathode receives electrons and is where reduction occurs.",
+      "B": "TRUE: electrons are negative, so the cathode must dissolve into positive metal ions.",
+      "C": "TRUE only in dry corrosion, because oxide scale always forms at the cathode.",
+      "D": "FALSE only for stainless steels; in carbon steels the cathode is always the thinning region."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The proposition is false because it reverses the two electrodes. In wet corrosion the anode gives up electrons and corrodes by ionizing into the electrolyte; the cathode receives electrons and supports reduction. B turns electron accumulation into the wrong dissolution mechanism. C mixes dry oxidation with the wet corrosion cell and still gives the wrong electrode. D invents a family-dependent exception: for iron, steels and stainless steels, anodic dissolution is still the metal-loss step.",
+    "relevantTheory": "A frequent professor-style trap is the phrase 'corrosion occurs at the cathode because electrons accumulate here.' The cathode is important because it consumes electrons and allows the corrosion current to continue, but the section loss occurs where metal atoms are oxidized: at the anode. The cathode can be protected, thickened by deposition, or support oxygen/hydrogen reduction depending on the environment. This distinction is also the basis of sacrificial protection: make the cheap coating the anode so the structural steel remains cathodic.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 12-13; PAST_EXAMS/QUESTIONS_SET_1.txt, Session of February 26, 2024 Version A, question 16"
+  },
+  {
+    "id": 505,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "selective leaching",
+      "synergistic corrosion",
+      "alloy element removal"
+    ],
+    "diagramRequired": false,
+    "question": "Which option best defines selective leaching among the synergistic corrosion phenomena?",
+    "options": {
+      "A": "One element of an alloy is removed preferentially by corrosion, leaving the remaining material chemically and mechanically degraded.",
+      "B": "All alloying elements dissolve at exactly the same rate, producing only uniform thickness loss.",
+      "C": "A passive oxide film thickens uniformly until metal-ion transport becomes impossible.",
+      "D": "Low-frequency sliding removes oxide mechanically while no electrochemical corrosion is involved."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Lecture 11 lists selective leaching as the phenomenon in which one element of the alloy is removed by corrosion. B is uniform corrosion and misses the selective alloy chemistry. C describes passivity, not selective removal of an alloying element. D describes the mechanical part of fretting corrosion but wrongly removes the corrosion contribution.",
+    "relevantTheory": "Selective leaching is dangerous because the component may keep an external shape while its useful alloy chemistry is locally destroyed. The anodic process does not simply remove all constituents equally; one element is preferentially dissolved, so the surface or near-surface material left behind can become porous, weak or compositionally unfit for service. It belongs with the lecture's synergistic or special corrosion phenomena because the damage is not just simple, predictable uniform thinning.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 14"
+  },
+  {
+    "id": 506,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "fretting corrosion",
+      "erosion corrosion",
+      "corrosion fatigue",
+      "synergistic phenomena"
+    ],
+    "diagramRequired": false,
+    "question": "Match the synergistic corrosion phenomenon with the extra damaging factor. Which match is correct?",
+    "options": {
+      "A": "Fretting corrosion: low-frequency sliding plus corrosion.",
+      "B": "Erosion corrosion: external tensile load causing crack-tip dissolution in a passive metal.",
+      "C": "Corrosion fatigue: removal of one alloying element by corrosion.",
+      "D": "Stress corrosion cracking: attack modified mainly by flow effects."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and follows the slide wording exactly: fretting corrosion is low frequency sliding plus corrosion. B describes stress corrosion cracking more than erosion corrosion; erosion corrosion is attack modified by flow effects. C describes selective leaching, not corrosion fatigue. D again swaps definitions: SCC is enhanced by external loads, while flow-modified attack is erosion corrosion.",
+    "relevantTheory": "The lecture groups several mechanisms as synergistic because corrosion is coupled with a second effect. SCC combines corrosion with stress or load. Hydrogen embrittlement combines hydrogen entry with low ductility fracture. Corrosion fatigue combines corrosion with cyclic/mechanical fatigue. Selective leaching removes one alloy element. Fretting corrosion needs small sliding motion plus corrosion, often at contacts. Erosion corrosion is accelerated or modified by moving fluid or particle flow. In exam questions, these mechanisms are often tested by swapping the second factor.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 14"
+  },
+  {
+    "id": 507,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "microbiological corrosion",
+      "biomedical prosthesis",
+      "water pipes"
+    ],
+    "diagramRequired": false,
+    "question": "A metallic water pipe or biomedical prosthesis is damaged by corrosion promoted by biological activity in the local environment. Which Lecture 11 label fits best?",
+    "options": {
+      "A": "Microbiological corrosion.",
+      "B": "Dry corrosion by high-temperature vapor.",
+      "C": "Pearlitic lamellar corrosion only.",
+      "D": "Austenitizing corrosion."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture explicitly names microbiological corrosion and gives biomedical prostheses and water pipes as examples. B is wrong because the situation is not high-temperature gas or vapor oxidation. C uses a real micro-galvanic idea from notes on lamellar structures, but it does not match biological activity and the given examples. D is not a corrosion phenomenon; austenitizing belongs to heat treatment.",
+    "relevantTheory": "Microbiological corrosion is corrosion influenced by microorganisms or biological local chemistry. The lecture does not develop a long mechanism, but it places it among other corrosion phenomena because the environment around the metal is altered by biological activity. In pipes, implants or stagnant aqueous systems, local chemistry, deposits and oxygen availability can be changed in ways that produce anodic and cathodic regions. The exam-level recognition is the example pair: biomedical prosthesis and water pipes.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local page 14"
+  },
+  {
+    "id": 508,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "standard electrode potentials",
+      "seawater ranking",
+      "galvanic series",
+      "rate"
+    ],
+    "diagramRequired": false,
+    "question": "Why is a practical ranking of metals in seawater not the same thing as the standard electrode potential table?",
+    "options": {
+      "A": "The seawater ranking reflects practical anodic/cathodic tendency in a real electrolyte, while the standard table is for defined conditions and still does not give corrosion rate directly.",
+      "B": "The seawater ranking is useless because only pure 300 K molar-solution potentials can ever predict galvanic behavior.",
+      "C": "The standard table already includes every effect of passivity, chloride, flow, pH and surface-area ratio.",
+      "D": "Both rankings prove that noble metals corrode fastest because they have the highest potentials."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 11 presents standard electrode potentials under defined conditions and separately the notes describe seawater ranks as more realistic and practical, with top alloys more cathodic/unreactive and bottom alloys more anodic. B is too absolute: practical galvanic series are useful precisely because environment matters. C is false because the lecture warns that the standard table does not account for passivity or corrosion rate. D reverses the meaning of noble/cathodic behavior.",
+    "relevantTheory": "Electrode-potential tables are ranking tools, not corrosion-rate calculators. They help identify which member of a galvanic couple tends to be anodic or cathodic under standard assumptions. Real service environments add electrolyte conductivity, chloride content, oxygen, pH, temperature, distance, surface area ratio, flow and passivation. A seawater galvanic series is therefore often more practical for marine exposure, but even it is a ranking of tendency rather than a complete rate prediction.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 5-6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 15 and 18"
+  },
+  {
+    "id": 509,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "environment separation effect",
+      "resistivity",
+      "galvanic corrosion",
+      "poorly conducting solution"
+    ],
+    "diagramRequired": false,
+    "question": "Two dissimilar metals are coupled, but the electrolyte is poorly conducting and the anodic region is far from the cathodic region. What does Lecture 11 predict?",
+    "options": {
+      "A": "The galvanic effect and anodic attack are reduced because distance and electrolyte resistivity raise the resistance of the corrosion cell.",
+      "B": "The attack becomes extremely high only because the metals are dissimilar; distance and resistivity do not matter.",
+      "C": "The cathode must dissolve first because poor conductivity blocks reduction reactions only at the anode.",
+      "D": "The system becomes dry corrosion automatically, even if liquid electrolyte is still present."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the slide says galvanic effects are reduced in proportion to distance from the cathodic region and to the resistivity of the environment; poorly conducting solutions reduce the attack at anodic regions because cell resistance controls corrosion current. B ignores the environment/separation effect. C reverses electrode roles and invents an asymmetric blocking mechanism. D is wrong because the presence of liquid electrolyte still makes this a wet electrochemical situation, even if the electrolyte conducts poorly.",
+    "relevantTheory": "Galvanic corrosion needs not only a potential difference and electrical contact, but also ionic current through the environment. If the solution has high resistivity, less current flows, and because corrosion rate is proportional to current, anodic dissolution is reduced. Distance matters for the same reason: the longer ionic path increases resistance and weakens the galvanic coupling. This is separate from the surface-area effect, where a small anode next to a large cathode can be very dangerous in a conductive solution.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 15-16"
+  },
+  {
+    "id": 510,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "passivity",
+      "Al",
+      "Cr",
+      "reactivity",
+      "protective film"
+    ],
+    "diagramRequired": false,
+    "question": "Al and Cr may look highly reactive in an electrochemical ranking, yet Al alloys and stainless steels can show good corrosion resistance. Which explanation is correct?",
+    "options": {
+      "A": "They can form uniform, dense and cohesive oxide films that passivate the surface and slow ion transport.",
+      "B": "They are corrosion resistant because they never react with oxygen.",
+      "C": "They resist corrosion only when the oxide film is porous and detached, so water cannot wet the surface.",
+      "D": "They are protected because the standard electrode potential table includes all passivation effects."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The notes stress that Al appears reactive from an electronic/table viewpoint but protects itself by forming a uniform, dense, cohesive oxide coating; Cr similarly gives self-protection and is the basis of stainless behavior. B is wrong because oxygen reaction is exactly how the protective oxide is formed. C reverses the film requirements: porosity and poor adhesion destroy protection. D contradicts the lecture warning that standard potential tables do not take surface passivity into account.",
+    "relevantTheory": "Passivity separates thermodynamic tendency from practical corrosion rate. A metal can have strong affinity for oxygen and still be corrosion resistant if the reaction produces a thin, adherent, continuous oxide that blocks further metal-ion movement. Aluminum forms alumina-based protection; chromium forms chromium oxide and is essential for stainless steels. The protective film must be dense, cohesive and bonded to the substrate. The professor's trap is to rank Al or Cr as simply 'worst' from a potential table without considering passivation.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 5 and 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 15 and 17-18"
+  },
+  {
+    "id": 511,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "dry corrosion",
+      "scale formation",
+      "adhesion",
+      "porosity",
+      "protective oxide"
+    ],
+    "diagramRequired": false,
+    "question": "For dry corrosion or oxidation scale formation, which scale property combination is most protective?",
+    "options": {
+      "A": "Good adhesion, good cohesiveness and low porosity, so the scale remains continuous and limits transport.",
+      "B": "Poor adhesion and high porosity, so fresh gas can repeatedly reach the metal.",
+      "C": "Very loose oxide that spalls easily, because exposing fresh metal stops further oxidation.",
+      "D": "A scale that forms only at the cathode of a wet cell and therefore cannot exist in dry corrosion."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the first slide links dry corrosion scale behavior to adhesion and porosity, and the passivity slide explains why cohesive, adherent, low-conductivity corrosion-product films reduce dissolution or attack. B gives the properties of a non-protective scale. C is wrong because spalling exposes fresh metal and allows repeated oxidation. D confuses dry high-temperature oxidation with wet electrochemical cathode/anode terminology.",
+    "relevantTheory": "Dry corrosion is mainly oxidation in vapors or gases, often at high temperature. The oxide scale can either protect or fail depending on its physical quality. A compact, adherent and cohesive scale blocks transport of oxygen or metal ions and slows further reaction. A porous, cracked or poorly adhered scale lets gas reach the metal or breaks away, exposing fresh surface. This same film-quality logic connects dry oxidation scales with passivating oxide films in wet corrosion: protection depends on continuity, adhesion and limited transport.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 1 and 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 12 and 17-18; PAST_EXAMS/QUESTIONS_SET_1.txt, Session of Jan 28, 2025, question 18"
+  },
+  {
+    "id": 512,
+    "deck": "slides",
+    "moduleId": "lecture-11-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "corrosion prevention",
+      "similar potentials",
+      "electrical isolation",
+      "cell interruption"
+    ],
+    "diagramRequired": false,
+    "question": "A designer must join two metals in a humid oxygen-containing environment. Which choice best follows the Lecture 11 prevention logic?",
+    "options": {
+      "A": "Avoid electrical contact or select metals with similar electric potentials, and design the joint so water is not trapped.",
+      "B": "Use the most different potentials possible, rivet the joint tightly with a crevice, and keep it wet to stabilize the cell.",
+      "C": "Make the structural metal a small anode next to a huge cathode because this spreads the corrosion current safely.",
+      "D": "Ignore electrolyte drainage because galvanic corrosion depends only on the metal names, not on water or oxygen."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture prevention list says to avoid electrical contact between dissimilar materials, avoid crevices and heterogeneity, design containers for easy draining, and the notes add that using metals with similar electric potential reduces the driving force. B deliberately combines several bad choices: dissimilar potentials, rivets/crevices and trapped electrolyte. C states the most dangerous area-ratio case, small anode with large cathode. D ignores the requirement for electrolyte and the role of humidity plus oxygen in wet corrosion.",
+    "relevantTheory": "Corrosion prevention is cell prevention. In wet corrosion the conductor is often the metal itself, so the designer tries to remove or weaken the anode-cathode couple, the electrolyte, or the electrical connection. Practical measures include welding rather than riveting, insulating dissimilar metals, selecting metals close in potential, avoiding small anodic areas attached to large cathodic areas, draining water, avoiding deposits and crevices, and reducing stress or heat heterogeneity. Good corrosion design is therefore electrochemical design, not just material naming.",
+    "source": "slides&docs/Lecture 11 Corrosion.pdf, pages 6 and 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, local pages 16 and 18"
+  },
+  {
+    "id": 513,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Ni",
+      "austenitizing",
+      "passivation",
+      "toughness"
+    ],
+    "diagramRequired": false,
+    "question": "What is the role of Ni in stainless steels, according to Lecture 12?",
+    "options": {
+      "A": "It widens the gamma field, stabilizes austenite, increases corrosion resistance, and improves toughness and cold plastic deformation.",
+      "B": "It is the main element forming the chromium oxide passivating film over the surface.",
+      "C": "It has ferritizing action like Cr, Mo, Si, Nb, Ta and Al.",
+      "D": "It is added mainly to oxidize chromium during melting so that the alloy becomes stainless."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture says Ni widens the gamma field, stabilizes austenite, increases Rcorr, and enhances toughness and cold plastic deformation. B is wrong because passivation is attributed to chromium oxide, not nickel oxide. C is wrong because Ni is listed with austenitizing elements, while Cr, Mo, Si, Nb, Ta and Al are ferritizing. D reverses the manufacturing warning: oxidation of Cr during melting is harmful because it wastes the element needed for stainless behavior.",
+    "relevantTheory": "In stainless steels, Cr and Ni are both central, but they do different jobs. Cr is the minimum requirement for stainless behavior because it forms the passive chromium oxide film. Ni is mainly an austenite stabilizer: it expands the gamma range, supports the 3XX austenitic family, and improves toughness and cold formability. The exam trap is to call every useful alloying element a passivating element. In this lecture, stainlessness starts with Cr; Ni tunes structure and properties.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 2 and slide/page 4; PAST_EXAMS/QUESTION_SET_3.txt, Ni role question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 19-21"
+  },
+  {
+    "id": 514,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "pitting corrosion",
+      "chlorides",
+      "area ratio",
+      "localized corrosion"
+    ],
+    "diagramRequired": false,
+    "question": "Pitting corrosion in stainless steels is especially harmful because:",
+    "options": {
+      "A": "the attack is highly localized, so a small anodic pit is coupled to a large passive cathodic surface and the area ratio makes penetration fast.",
+      "B": "it removes material uniformly from the whole surface, making thickness loss easy to measure before failure.",
+      "C": "it occurs only when stainless steel is fully dry and no electrolyte is present.",
+      "D": "it proves that the alloy was martensitic; austenitic stainless steels cannot suffer pitting."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes describe pitting as extremely dangerous because the overall metal loss can be negligible while local penetration becomes severe; the corrosion lecture also emphasizes the unfavorable small-anode/large-cathode area ratio. B describes uniform corrosion, which is easier to monitor and is not the main hidden failure mode. C is wrong because pitting is linked with aqueous/local electrolyte conditions, especially chlorides. D is wrong because Lecture 12 explicitly states that most austenitic stainless steels are susceptible to localized corrosion such as pitting and crevice corrosion.",
+    "relevantTheory": "Stainless steels are passive alloys, so most of the surface may remain protected by an oxide film. If the film locally breaks down, especially in chloride-containing environments, a pit can become an intense local anode while the surrounding passive surface acts as a large cathode. This unfavorable area ratio accelerates local dissolution. That is why pitting can be more dangerous than uniform corrosion: the component may look almost intact while a deep pit acts as a crack-like defect.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 7; PAST_EXAMS/QUESTION_SET_4.txt, pitting harm question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 16-17 and 22"
+  },
+  {
+    "id": 515,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "environment",
+      "pH",
+      "flow rate",
+      "oxygen",
+      "dry air"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NON-influencing environmental factor for corrosion of stainless steels in the professor's exam style.",
+    "options": {
+      "A": "Dry air",
+      "B": "pH of the environment",
+      "C": "Water flow rate",
+      "D": "Oxygen availability in a wet crevice or pit"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct as the NON-influencing factor in this wording: dry air lacks the wet electrolyte condition emphasized for corrosion cells and is much less critical than aqueous chloride/pH/flow/oxygen effects. B is wrong because pH is listed among factors controlling corrosion rate. C is wrong because flow effects can modify corrosion and the notes explicitly list erosion corrosion and water-flow-related effects. D is wrong because oxygen availability matters strongly in crevice and pitting situations: oxygen depletion inside a crevice changes local anodic/cathodic reactions and can drive localized attack.",
+    "relevantTheory": "For wet corrosion, the important system is anode, cathode and electrolyte. Environmental factors matter when they change the electrochemical reactions or transport: pH, conductivity, oxygen concentration, chlorides, flow rate, temperature and crevice geometry can all influence corrosion. Dry air is not the same corrosion environment because there is no effective electrolyte film sustaining the corrosion cell. The exam often asks this as a NOT or NON-influencing clause, so do not confuse oxygen in dry air with oxygen dissolved or depleted in a wet corrosion cell.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 7; PAST_EXAMS/QUESTION_SET_4.txt, environmental-factor question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 14-18 and 22"
+  },
+  {
+    "id": 516,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "strengthening",
+      "cold work",
+      "stainless steel",
+      "heat treatment"
+    ],
+    "diagramRequired": false,
+    "question": "The general strengthening method of non-martensitic stainless steels tested in the exam bank is:",
+    "options": {
+      "A": "cold-working, often assisted by grain refinement depending on the family.",
+      "B": "tempering after full martensitic quenching for every stainless family.",
+      "C": "aging by Guinier-Preston zones as in Al-Cu alloys.",
+      "D": "forming a thicker chromium oxide film, because passivation directly raises yield strength."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes state that austenitic stainless steels cannot normally be strengthened by heat treatment without changing the alloy concept, and their strength increase is achieved by cold working and grain refinement; the exam also asks stainless strengthening with cold-working as the intended answer. B is wrong because martensitic stainless steels are heat treatable, but ferritic and austenitic stainless steels are not generally treated as quench-and-temper steels. C is an aluminium alloy aging mechanism, not the normal stainless-steel strengthening answer in this lecture. D is wrong because passivation improves corrosion resistance, not mechanical strength by itself.",
+    "relevantTheory": "Stainless steel families should not be collapsed into one heat-treatment route. Martensitic stainless steels gain high strength and hardness by quenching from austenite, but austenitic stainless steels keep the austenitic phase and are commonly strengthened by cold deformation and grain refinement. Ferritic stainless steels also do not rely on martensitic transformation as their normal route. The course trap is to import carbon-steel tempering logic into all stainless steels; only the martensitic family fits that logic well.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 3, slide/page 4 and slide/page 6; PAST_EXAMS/QUESTION_SET_4.txt, stainless strengthening question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 21-23"
+  },
+  {
+    "id": 517,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "sigma phase",
+      "toughness",
+      "corrosion resistance",
+      "ferritizing elements"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about sigma phase in stainless steels matches Lecture 12?",
+    "options": {
+      "A": "Sigma phase reduces both toughness and corrosion resistance.",
+      "B": "Sigma phase is the desired passivating oxide film formed by chromium on the surface.",
+      "C": "Sigma phase is the name of the austenitic gamma field widened by Ni.",
+      "D": "Sigma phase is harmless because it only increases ductility after welding."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the Fe-Cr/Fe-Ni slide states that sigma phase reduces toughness and corrosion resistance, and the weldability slide lists possible sigma phase formation as a ferritic stainless welding risk. B is wrong because the passivating film is chromium oxide, not sigma phase. C confuses sigma with gamma/austenite; Ni widens the gamma field, while sigma is a harmful intermetallic-type phase in this lecture context. D is the opposite of the lecture statement because sigma reduces, not improves, toughness.",
+    "relevantTheory": "Sigma phase is an exam trap because students may remember it as just another phase on a diagram and forget the property consequence. In stainless steels, harmful precipitation can lower toughness and corrosion resistance even though the alloy still contains enough nominal chromium. This is important during welding or high-temperature exposure of ferritic and duplex-type compositions: phase balance and precipitation control matter, not only the bulk Cr percentage.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 2 and slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 20 and 22"
+  },
+  {
+    "id": 518,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "ferritic stainless steel",
+      "cost",
+      "applications",
+      "low temperature"
+    ],
+    "diagramRequired": false,
+    "question": "A plant component needs good corrosion resistance at lower cost than austenitic stainless steel, and the application is a heat exchanger, vessel, condenser, pump, or food/chemical-industry part. Which family is the natural Lecture 12 choice?",
+    "options": {
+      "A": "Ferritic stainless steel",
+      "B": "Martensitic stainless steel",
+      "C": "Plain low-carbon steel without chromium",
+      "D": "Al-Cu precipitation-hardened aluminium alloy"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 12 lists ferritic stainless steels, 12-30% Cr with mainly BCC alpha structure, for heat exchangers, vessels, condensers, pumps, and food and chemical industry applications; the notes add that ferritic stainless is chosen when good corrosion resistance and lower cost are desired. B is wrong because martensitic stainless is selected mainly for high strength and hardness, with lower corrosion resistance than other stainless families. C lacks the chromium passivation basis. D is outside the stainless steel lecture and uses a different strengthening/corrosion logic.",
+    "relevantTheory": "Ferritic stainless steels are Cr-rich, mainly BCC alpha alloys. They exploit chromium passivation while avoiding the high nickel content of austenitic grades, so they can be a cost-effective corrosion-resistant choice. Their limitations are also part of the selection: they are less ductile/formable than austenitic stainless steels and may be more sensitive to low-temperature brittleness unless improved as ELI grades. Use ferritic stainless when the question emphasizes corrosion resistance plus cost, not maximum hardness.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 20-21"
+  },
+  {
+    "id": 519,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "carbon",
+      "martensitic stainless steel",
+      "austenitizing",
+      "carbides"
+    ],
+    "diagramRequired": false,
+    "question": "Concerning carbon in stainless steels, mark the TRUE clause.",
+    "options": {
+      "A": "Carbon is an austenitizing element and supports martensitic hardening, but free carbon is dangerous in welded austenitic stainless steels because it can form chromium carbides.",
+      "B": "Carbon is always beneficial because all carbides improve both corrosion resistance and weldability.",
+      "C": "Carbon is the element that directly forms the passive surface film in stainless steels.",
+      "D": "Carbon is ferritizing like Cr and therefore prevents martensite formation in every stainless steel."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture lists C among austenitizing elements, notes the importance of carbon for martensitic stainless behavior, and later shows that carbon can cause sensitization by forming chromium carbides at grain boundaries. B is wrong because chromium carbides at grain boundaries reduce local chromium in solid solution and promote intergranular corrosion. C is wrong because the passive film is chromium oxide. D is wrong because carbon is not grouped with ferritizing elements in the lecture and does not prevent martensite; martensitic stainless steels depend on quenching from austenite and carbon contributes to hardness.",
+    "relevantTheory": "Carbon has a double role, which makes it a good exam trap. In martensitic stainless steels, carbon helps form hard martensite after quenching and contributes to high strength and hardness. In welded austenitic stainless steels, however, carbon can combine with chromium during sensitizing thermal exposure, producing chromium carbide precipitates and chromium-depleted zones at grain boundaries. This is why low-carbon L grades and Ti/Ta/Nb stabilization are useful even though carbon can be mechanically useful in other stainless families.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 2, slide/page 6 and slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 20, 22 and 24-25"
+  },
+  {
+    "id": 520,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "precipitation hardening",
+      "stainless steel",
+      "strength",
+      "grain size"
+    ],
+    "diagramRequired": false,
+    "question": "What distinguishes precipitation-hardening stainless steels in the Lecture 12 notes?",
+    "options": {
+      "A": "Their strengthening is controlled by precipitates and grain size, allowing very high mechanical properties that may even exceed 2 GPa.",
+      "B": "They are strengthened only by forming a chromium oxide passivating film, with no microstructural strengthening.",
+      "C": "They are ordinary ferritic stainless steels made softer by raising C+N interstitial content.",
+      "D": "They are aluminium alloys aged by GP zones and therefore are not stainless steels."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes under typical stainless compositions state that precipitation hardening differs because the strengthening mechanism is by precipitation, and that controlled grain size and amount of precipitates can allow very high mechanical properties, even above 2 GPa. B confuses corrosion resistance with mechanical strengthening. C reverses the ELI ferritic idea: raising interstitials is not the route to improved ferritic stainless behavior. D confuses a general strengthening mechanism with a different material family; aluminium alloys also use precipitation hardening, but the notes explicitly discuss precipitation-hardening stainless steels.",
+    "relevantTheory": "Stainless steels are not only ferritic, austenitic, duplex and martensitic in a simple property ranking; some grades use precipitation hardening to combine stainless corrosion behavior with high strength. The key idea is controlled precipitation: fine particles obstruct dislocation motion, while grain size also affects strength. This differs from martensitic quench hardening and from cold-working of austenitic grades. It also differs from passivation, which is a corrosion-resistance mechanism rather than a direct strengthening mechanism.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 8 and slide/page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 23"
+  },
+  {
+    "id": 521,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Mo",
+      "N",
+      "pitting resistance",
+      "PREN"
+    ],
+    "diagramRequired": false,
+    "question": "A stainless grade is being modified mainly to improve resistance to pitting corrosion. Which alloying logic best follows Lecture 12?",
+    "options": {
+      "A": "Use elements such as Mo and N that increase localized corrosion resistance and raise the PREN/LCRI comparison index.",
+      "B": "Remove chromium below the stainless threshold and rely on carbon-rich carbides.",
+      "C": "Increase free carbon so that chromium carbides form continuously at grain boundaries.",
+      "D": "Choose high hardness alone, because martensite automatically prevents chloride pitting."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 12 introduces PREN/LCRI as a composition-based localized corrosion resistance index using Cr, Mo, N and Ni terms, and the notes specifically say nitrogen can be introduced to increase pitting resistance. B is wrong because Cr is required for the passivating film. C is wrong because free carbon promotes chromium carbide precipitation and sensitization, not pitting resistance. D is wrong because martensitic stainless steels have lower corrosion resistance than other stainless families, especially in chlorides, and may suffer pitting and stress corrosion cracking.",
+    "relevantTheory": "Pitting resistance in stainless steels is a localized corrosion problem, not a hardness problem. The course uses PREN/LCRI to compare how composition affects resistance to pitting and crevice corrosion. Chromium is the base passivating element, while molybdenum and nitrogen are especially associated with improved localized corrosion resistance in many stainless grades; the lecture formula also includes a nickel term in the Nadzhin-Wensley form. A high PREN means better resistance, with superduplex grades highlighted above 40.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 7 and slide/page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 22-23"
+  },
+  {
+    "id": 522,
+    "deck": "slides",
+    "moduleId": "lecture-12-stainless",
+    "section": "Corrosion & SS",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "AISI 304",
+      "austenitic stainless steel",
+      "magnetism",
+      "DBTT"
+    ],
+    "diagramRequired": false,
+    "question": "For austenitic stainless steel AISI 304, mark the unlike property in the professor's exam style.",
+    "options": {
+      "A": "Ferromagnetic behavior like martensitic stainless steels",
+      "B": "Absence of a ductile-to-brittle transition temperature problem typical of BCC ferritic behavior",
+      "C": "Excellent corrosion resistance for many service environments",
+      "D": "Excellent weldability compared with other stainless steel families, provided sensitization is controlled"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct as the unlike property: Lecture 12 associates ferromagnetic properties with martensitic stainless steels, not with austenitic AISI 304. B is a typical austenitic advantage because FCC austenite is tough and does not show the same DBTT issue emphasized for ferritic grades. C matches the austenitic stainless role in corrosion-resistant equipment. D is also typical, with the important qualification that welding can still cause carbide precipitation and sensitization if carbon and heat input are not controlled.",
+    "relevantTheory": "AISI 304 belongs to the Cr-Ni austenitic 3XX family. Austenite is FCC, tough, ductile and highly weldable; its strength is normally increased by cold work rather than by quench hardening. Ferritic and martensitic stainless steels are associated with BCC/BCT ferromagnetic behavior and different toughness limitations. The exam trap is to transfer martensitic stainless properties, such as ferromagnetism and heat-treatment hardness, onto AISI 304 just because both are stainless steels.",
+    "source": "slides&docs/Lecture 12.pdf, slide/page 4, slide/page 6 and slide/page 10; PAST_EXAMS/QUESTION_SET_4.txt, AISI 304 property question style; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 21-25"
+  },
+  {
+    "id": 523,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "cast iron composite",
+      "matrix",
+      "graphite morphology"
+    ],
+    "diagramRequired": false,
+    "question": "Which description best explains why cast iron should be treated as a microstructure family rather than as one single Fe-C alloy?",
+    "options": {
+      "A": "It is a natural composite: a ferrite or pearlite metallic matrix contains graphite or carbide, and graphite shape changes the properties strongly",
+      "B": "It is a single pure ferrite phase, so only grain size can change its properties",
+      "C": "It is classified only by chromium passivation, exactly like stainless steel",
+      "D": "It is always martensite after casting because all castings are quenched from austenite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 13 starts from the idea of a ferrite or pearlite matrix together with graphite as a second phase, and the notes describe cast iron as a natural composite where graphite can assume different shapes. B is wrong because cast irons are not pure ferrite and they contain excess carbon as graphite or carbide. C is a stainless-steel trap, not a cast-iron classification rule. D is wrong because ordinary cast iron properties are not defined by mandatory martensite formation; slow cooling and graphitization are central to the lecture.",
+    "relevantTheory": "In cast irons the metallic matrix and the carbon-rich second phase must both be read. Ferrite gives softer and more ductile behavior; pearlite raises hardness, strength and wear resistance. Graphite flakes, nodules or irregular nodules then change damping, machinability, toughness and ductility. This is why the exam often asks for a microstructure-property link rather than only a carbon percentage.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 3-4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 524,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "eutectic point",
+      "low melting point",
+      "castability"
+    ],
+    "diagramRequired": false,
+    "question": "Why does the high-carbon composition of most cast irons help their use in foundry casting?",
+    "options": {
+      "A": "Their compositions are close to the Fe-C eutectic region, giving a relatively low liquid/melting point and high fluidity for filling moulds",
+      "B": "Their compositions are below 0.02% C, so ferrite melts at the lowest temperature in the Fe-C diagram",
+      "C": "The high carbon content makes them stainless by forming a chromium oxide film",
+      "D": "The high carbon content prevents solidification, so the casting remains liquid until it is cold worked"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 13 lists low melting point, ease of casting and very high fluidity as general cast-iron properties, and the notes explain that most cast irons are around the eutectic point, the lowest liquid point. B is wrong because less than about 0.02% C is ferritic steel logic, not cast iron. C confuses cast irons with stainless steels; chromium passivation is not the reason for castability here. D is impossible: a casting must solidify, and carbon does not keep it permanently liquid.",
+    "relevantTheory": "Cast iron belongs to the high-carbon side of the Fe-C system, above the steel range. Near-eutectic compositions melt and flow more easily than many steels, so they can fill complex moulds with relatively low shrinkage. This processing advantage is one reason cast irons are used even though their impact ductility is often limited.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 9"
+  },
+  {
+    "id": 525,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "foundry",
+      "steelmaking",
+      "BOF",
+      "decarburization"
+    ],
+    "diagramRequired": false,
+    "question": "Mark the NOT TRUE clause about the production route vocabulary around cast irons and steels.",
+    "options": {
+      "A": "Foundry production is associated with making cast iron castings by pouring liquid metal into moulds",
+      "B": "Pig iron from the blast furnace is high in carbon and can be the starting liquid for cast iron production",
+      "C": "The BOF converter decarburizes pig iron when the aim is to convert cast iron/pig iron into steel",
+      "D": "The BOF converter is used primarily to add carbon until low-carbon steel becomes gray cast iron"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT TRUE clause. The notes state the opposite: decarburization in the BOF converter is done to convert cast iron or pig iron into steel. A is true because foundry production is the route for cast iron castings. B is true because blast-furnace pig iron is the high-carbon liquid before steelmaking or casting routes. C is true because oxygen injection burns carbon out as CO or CO2 during conversion to steel.",
+    "relevantTheory": "The course separates foundry and steelmaking language. Cast iron production keeps a high-carbon Fe-C-Si liquid and casts it into moulds. Steelmaking, especially BOF conversion, removes carbon from pig iron to enter the steel composition range. Exam traps often reverse this direction and say that BOF carburizes steel into cast iron.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 10 and 13"
+  },
+  {
+    "id": 526,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "silicon",
+      "graphite former",
+      "white iron"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement about silicon in Lecture 13 cast irons is most accurate?",
+    "options": {
+      "A": "Si in the approximate 1-3% range promotes graphite formation, so lower Si content helps explain why white iron is carbide-rich",
+      "B": "Si must be zero in all cast irons because it prevents carbon from leaving austenite",
+      "C": "Si is added mainly to create the stainless passive film, so cast irons are classified like X10CrNiTi1810",
+      "D": "Si converts graphite flakes directly into martensite during slow cooling"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 13 gives general cast irons as 1-3% Si, calls Si a graphite former in gray cast iron, and lists white iron with lower Si, about 0.5-1.5%, where carbon is present as iron carbide instead of graphite. B reverses the role of Si. C imports stainless-steel designation and passivation language from another lecture. D is wrong because martensite is a diffusionless steel transformation, not a slow-cooling graphite-shape conversion.",
+    "relevantTheory": "Silicon is a key chemistry knob in cast irons. Together with high carbon and slow cooling, it encourages carbon to separate as graphite rather than remaining as iron carbide. Therefore the same broad Fe-C family can move toward gray, ductile or malleable graphite-containing behavior, or toward white carbide-rich behavior, depending on Si, carbon, cooling and later heat treatment.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, pages/slides 1-2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 527,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "graphite precipitation",
+      "carbon solubility",
+      "solidification"
+    ],
+    "diagramRequired": false,
+    "question": "During slow cooling of a suitable cast iron, why does graphite appear instead of all carbon remaining dissolved in the metallic matrix?",
+    "options": {
+      "A": "As iron cools, carbon solubility falls; because the alloy contains more carbon than the matrix can hold, excess carbon is forced out as graphite when graphitizing conditions are present",
+      "B": "Ferrite can dissolve 4% carbon at room temperature, so graphite appears only after external carbon is added to the surface",
+      "C": "Graphite appears because chromium carbides dissolve at stainless-steel grain boundaries",
+      "D": "Graphite appears only after plastic deformation by rolling; it cannot form during solidification or cooling"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 13 says the carbon exceeds the amount that can be dissolved in austenite and precipitates as graphite flakes in gray iron; the supporting notes emphasize high carbon, slow cooling and Si as graphite promoters. B is wrong because ferrite has very low carbon solubility, not several percent. C confuses graphitization with stainless sensitization. D is wrong because graphite formation in cast iron is tied to solidification/cooling conditions, not only to rolling.",
+    "relevantTheory": "Cast irons contain carbon above the steel range, so the matrix cannot simply keep all carbon in solid solution. On cooling, carbon partitions out. If cooling is slow and Si is present, the stable graphite route is favored; if graphitization is suppressed, carbon remains tied up as iron carbide and the alloy behaves as white iron.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, pages/slides 1-2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26; slides&docs/Cast Irons Engineering Materials.pdf, pages 1-2"
+  },
+  {
+    "id": 528,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "machinability",
+      "graphite lubrication",
+      "friction"
+    ],
+    "diagramRequired": false,
+    "question": "A workshop chooses a graphite-containing cast iron because cutting operations must be easy and tool wear must be limited. Which explanation best fits the lecture notes?",
+    "options": {
+      "A": "Graphite is non-metallic and can act with a low friction coefficient as a lubricant during machining, helping machinability",
+      "B": "Graphite raises friction so much that the tool immediately work-hardens the surface into stainless martensite",
+      "C": "Machinability improves only because all graphite dissolves back into ferrite during cutting",
+      "D": "Graphite has no relation to machining; only chromium passivation controls tool wear in cast irons"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 13 lists cast irons as easily machinable and gray/ductile irons as machinable; the notes add the mechanism that graphite has a low friction coefficient and acts as a lubricant in machining operations. B reverses the friction effect and mixes in martensite/passivation language. C is wrong because graphite is a separate carbon phase; machining does not require it to dissolve into ferrite. D ignores the lecture's graphite-based property logic.",
+    "relevantTheory": "Machinability in cast iron is not only a hardness question. Graphite interrupts the matrix and reduces friction at the tool-work interface, while the ferrite/pearlite matrix sets the baseline hardness. This is why graphite-containing gray, ductile and malleable irons can be easier to machine than a simple hardness number would suggest.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, pages/slides 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, page 26"
+  },
+  {
+    "id": 529,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "white iron",
+      "corrosion resistance",
+      "production difficulty"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best captures the extra course-note nuance about white cast iron, beyond simply saying it is hard and brittle?",
+    "options": {
+      "A": "White iron is not very easy to produce and is noted as having high resistance to corrosion, while its main Lecture 13 feature remains carbon as iron carbide",
+      "B": "White iron is the easiest graphite-flake iron to produce because high Si always forces gray fracture",
+      "C": "White iron is corrosion resistant because it is an austenitic stainless steel with 18% Cr and 10% Ni",
+      "D": "White iron is soft and ductile because all carbide has already decomposed into irregular graphite nodules"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The Lecture 13 slide defines white iron by carbon in the form of iron carbide, a white crystalline fracture, excellent wear resistance, high hardness and high brittleness; the notes add that white iron is not very easy to produce and has high corrosion resistance. B is wrong because graphite flakes describe gray iron and higher Si promotes graphite rather than white carbide-rich iron. C borrows stainless composition logic. D describes the purpose of malleablizing white iron into malleable cast iron, not untreated white iron.",
+    "relevantTheory": "White cast iron is the carbide-rich branch of the cast-iron family. Its production requires conditions that avoid ordinary graphite formation, such as lower Si and suitable cooling. The exam-safe core remains: carbide gives hardness, wear resistance and brittleness; graphite-containing irons give different machining, damping and toughness behavior depending on graphite shape.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 25"
+  },
+  {
+    "id": 530,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "spheroidal cast iron",
+      "heat treatment",
+      "matrix control"
+    ],
+    "diagramRequired": false,
+    "question": "The notes say spheroidal cast iron can be subjected to high temperature like a medium steel following the same rules. What is the best interpretation?",
+    "options": {
+      "A": "Heat treatment can modify the metallic matrix and therefore strength/hardness, while the useful nodular graphite morphology is still the reason ductility and toughness are better than in flake graphite iron",
+      "B": "Heating spheroidal cast iron always removes all graphite, so it becomes pure low-carbon ferrite",
+      "C": "Spheroidal cast iron cannot be heat treated because the slide says it has no hardenability",
+      "D": "The same rules means it must be converted into austenitic stainless steel by sensitization"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Lecture 13 says ductile cast iron has high strength, toughness, ductility and hardenability due to spherical graphite nodules, and the notes connect spheroidal cast iron with heat-treatment behavior like medium steel. B is wrong because heat treatment does not erase all graphite and make pure ferrite. C contradicts the slide, which explicitly lists hardenability for ductile cast iron. D again confuses cast-iron heat treatment with stainless-steel corrosion terminology.",
+    "relevantTheory": "Ductile or spheroidal cast iron has two adjustable levels. The graphite nodules reduce stress concentration compared with flakes. The surrounding matrix can then be made more ferritic for ductility or more pearlitic/heat-treated for higher hardness and wear resistance. The steel-like part of the analogy concerns the matrix response, not the disappearance of graphite.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26"
+  },
+  {
+    "id": 531,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "bull's eye microstructure",
+      "ductile iron",
+      "nodular graphite"
+    ],
+    "diagramRequired": false,
+    "question": "In Lecture 13, the phrase \"bull's eye type microstructure\" is a clue for which cast iron and why?",
+    "options": {
+      "A": "Ductile cast iron, because the microstructure is organized around spherical graphite nodules rather than sharp flakes",
+      "B": "Gray cast iron, because bull's eye means long sharp graphite flakes arranged in lamellae",
+      "C": "White cast iron, because bull's eye means all carbon is iron carbide with no graphite at all",
+      "D": "Austenitic stainless steel, because bull's eye means chromium-depleted grain boundaries"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The ductile cast iron slide lists spherical nodules of graphite and then names a bull's eye type microstructure; the phrase is therefore a visual cue for nodular graphite ductile iron. B is wrong because long flakes point to gray iron, not bull's eye ductile iron. C is wrong because white iron is carbide-rich and graphite-free in the lecture definition. D is unrelated stainless sensitization language.",
+    "relevantTheory": "When the professor uses a microstructure nickname, translate it into the carbon form. Bull's eye belongs with ductile cast iron and spherical graphite nodules. The rounded graphite shape is less severe as a stress raiser than flake graphite, so ductile iron can combine castability and machinability with higher strength, toughness and ductility.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26"
+  },
+  {
+    "id": 532,
+    "deck": "slides",
+    "moduleId": "lecture-13-cast-irons",
+    "section": "Fe-C & Steels",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "malleablizing",
+      "carbide decomposition",
+      "composition range"
+    ],
+    "diagramRequired": false,
+    "question": "Which option best states the malleable cast iron route with the Lecture 13 composition range?",
+    "options": {
+      "A": "Use a white-iron starting structure around 2-2.6% C and 1.1-1.6% Si, then malleablize so carbide is converted into irregular graphite nodules",
+      "B": "Use gray iron with 4.5% Si and quench it so graphite flakes become austenite",
+      "C": "Use stainless steel with 18% Cr, heat in the sensitization range, and call the chromium carbide network malleable graphite",
+      "D": "Use pure ferrite below 0.002% C and add oxygen to create nodules during machining"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the Lecture 13 malleable cast iron slide gives about 2-2.6% C and 1.1-1.6% Si and says white cast iron is heated in a malleablizing furnace to transform carbide into graphite, forming irregular nodules. B is wrong because quenching does not convert graphite flakes into austenite and the route does not start from ordinary gray flake iron. C is a stainless-steel carbide precipitation trap, not malleable cast iron. D is chemically impossible in the lecture framework.",
+    "relevantTheory": "Malleable cast iron is defined by a process route, not only by final properties. First make a white cast iron so carbon is tied up as carbide; then anneal for a long enough time in a malleablizing furnace so carbide breaks down and graphite forms as rounded irregular nodules. The rounded graphite improves toughness and uniformity compared with brittle white iron or sharp-flake gray iron.",
+    "source": "slides&docs/Lecture 13 Cast Irons.pdf, page/slide 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 26"
+  },
+  {
+    "id": 533,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Al production",
+      "electrolysis",
+      "recycling"
+    ],
+    "diagramRequired": false,
+    "question": "Al is very abundant in nature, but it is produced in smaller amounts than iron. Which explanation best matches the Lecture 14 logic?",
+    "options": {
+      "A": "Metallic Al is obtained through alumina in molten cryolite and electrolysis, so production is energy-intensive and recycling is important",
+      "B": "Al is rare in ores, while Fe is normally found as pure metal ready to cast",
+      "C": "Al cannot be recycled because its oxide film makes remelting impossible",
+      "D": "Al production is smaller because Al alloys cannot be cast, only cold rolled"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes describe the production route from aluminium hydroxide to Al2O3, dissolution in cryolite, and electrolysis; this explains why abundant Al is not automatically cheap primary metal and why recycling matters. B is wrong because Al is abundant but chemically tied up in stable compounds, while Fe also comes from ores rather than pure metal. C is wrong because recycling is specifically mentioned as making Al more affordable. D is wrong because Lecture 14 emphasizes Al castings as a major industrial use.",
+    "relevantTheory": "Aluminium is thermodynamically reactive and is not reduced by the simple blast-furnace route used for iron ores. The industrial route first prepares alumina, dissolves it in cryolite, and electrolyzes it to metallic Al. Primary Al is therefore energy-costly, while secondary Al from recycling is important. This production background helps explain why alloy cleanliness, especially Fe control in recycled casting alloys, matters in practice.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 7; PAST_EXAMS/QUESTION_SET_3.txt, Al production wording"
+  },
+  {
+    "id": 534,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "secondary Al",
+      "Fe impurity",
+      "casting brittleness"
+    ],
+    "diagramRequired": false,
+    "question": "A recycled aluminium charge is intended for casting. Which impurity issue is most consistent with the Lecture 14 notes?",
+    "options": {
+      "A": "High Fe content in secondary Al is dangerous because it can make castings brittle",
+      "B": "High Fe content is always beneficial because it converts Al into stainless steel",
+      "C": "Fe is harmless in all Al castings because it evaporates during solidification",
+      "D": "The only impurity problem in recycled Al is carbon causing martensite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes explicitly warn that secondary Al should not contain high Fe because it causes casting problems such as brittleness. B is wrong because adding Fe to Al does not make stainless steel; stainless steel is Fe-based with enough Cr. C is wrong because Fe is not removed simply by solidification and can form harmful phases. D is a steel trap: Al alloys do not form martensite by carbon quenching in this lecture.",
+    "relevantTheory": "Recycling is valuable for aluminium because primary production is energy-intensive, but recycled metal must still meet chemistry limits. In cast Al alloys, small amounts of unwanted elements can strongly affect intermetallic phases, feeding, ductility and toughness. The lecture notes emphasize Fe as a harmful contaminant in secondary Al castings, connecting production route directly to final casting quality.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 3 and 10-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 7"
+  },
+  {
+    "id": 535,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "wrought Al",
+      "direct chill",
+      "scalping",
+      "homogenization"
+    ],
+    "diagramRequired": false,
+    "question": "Which process chain best describes wrought aluminium primary fabrication before sheet or extrusion production?",
+    "options": {
+      "A": "Direct chill ingot production, scalping of the surface, homogenization, then rolling or plastic deformation",
+      "B": "Sand casting directly to final shape, no deformation, then leaving the rough casting surface untouched",
+      "C": "Carburizing, oil quenching to martensite, then tempering at 650 C",
+      "D": "Electroplating Si needles on the surface to create wrought sheet"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes list direct chill primary fabrication, scalping to remove surface metal for good finishing, homogenization, and rolling for wrought Al. B describes casting, not wrought processing; castings obtain shape by solidification in a mould. C is the steel heat-treatment route and is not applicable to Al strengthening in Lecture 14. D invents a surface process and confuses Al-Si casting microstructure with wrought fabrication.",
+    "relevantTheory": "Lecture 14 separates casting alloys from wrought alloys. Wrought means the alloy is shaped by plastic deformation such as rolling, forging or extrusion after ingot production. Homogenization reduces chemical segregation from solidification, scalping removes poor surface material, and deformation gives useful product forms. This is different from casting, where the final geometry is obtained mainly by melting and solidification in a mould.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 5-6 and 14-15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 7"
+  },
+  {
+    "id": 536,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "sand casting",
+      "permanent mould",
+      "die casting"
+    ],
+    "diagramRequired": false,
+    "question": "Aluminium casting methods: mark the NOT TRUE clause.",
+    "options": {
+      "A": "Sand casting is simple and suitable for small quantities or complex jobs, but solidifies slowly",
+      "B": "Permanent mould casting uses a metal mould and gives finer grains and higher strength because of faster cooling",
+      "C": "Die casting forces molten metal into a metal mould at high pressure and is important for automotive near-finished parts",
+      "D": "Die casting is defined by the slowest cooling rate and the coarsest grain structure among the three methods"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT true clause: die casting uses a metal die and pressure, giving good tolerance, surface finish and low shrinkage/porosity; it is not defined by the slowest cooling and coarsest grains. A is true for sand casting. B is true because a metal mould extracts heat faster than sand, refining grains. C is true and matches the notes' automotive emphasis.",
+    "relevantTheory": "Casting route controls solidification rate, grain size, porosity, surface quality and economical batch size. Sand casting is flexible but slow and rougher. Permanent mould casting cools faster and can improve grain structure and strength, although shape complexity is more limited. Die casting injects molten Al alloy under pressure into a reusable metal die, giving high productivity and accurate automotive parts.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 10-11 and 14-15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 9"
+  },
+  {
+    "id": 537,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "casting designation",
+      "wrought designation",
+      "decimal point"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement correctly distinguishes cast aluminium alloy designation from wrought aluminium designation?",
+    "options": {
+      "A": "Casting alloys use four digits with a period before the last digit, and casting plus mechanical properties are primary concerns",
+      "B": "Casting alloys never use the principal element in the designation; only the mould material is coded",
+      "C": "Wrought and casting designations are identical, so 6xxx and 6xx.x always mean Mg plus Si",
+      "D": "The decimal point proves that the alloy is pure Al and cannot contain Si, Cu, Mg or Zn"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 14 lists casting designations such as 1xx.x, 2xx.x, 3xx.x and 4xx.x, with the period distinguishing them from wrought 1xxx, 2xxx, 3xxx and 4xxx. B is wrong because casting series still correspond to principal elements, for example 2xx.x for Cu and 3xx.x for Si plus Cu and/or Mg. C is wrong because 6xxx wrought means Mg and Si, but 6xx.x casting is listed as unused. D is wrong because many decimal-point casting series contain alloying elements.",
+    "relevantTheory": "The designation trap in Lecture 14 is transferring wrought meanings blindly to casting alloys. Wrought alloys are classified by first digit without a decimal point, while casting alloys use a decimal point and a different family table. The code gives composition family, but final selection must also consider castability, shrinkage, porosity, eutectic morphology and mechanical properties.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 7 and 9"
+  },
+  {
+    "id": 538,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "definition",
+    "trapTags": [
+      "temper designation",
+      "T4",
+      "T5",
+      "T8",
+      "H"
+    ],
+    "diagramRequired": false,
+    "question": "Which temper-designation association is correct for aluminium alloys?",
+    "options": {
+      "A": "T4 means solution heat treated and naturally aged; T8 means solution heat treated, cold worked and artificially aged",
+      "B": "H means solution heat treated and aged, while T means only strain hardened",
+      "C": "O means as fabricated with no control, and F means fully annealed",
+      "D": "T5 means quenching to martensite followed by tempering of Al martensite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes list T4 as solution heat treated, T5 as artificially aged only, T6 as solution heat treated and artificially aged, and T8 as solution heat treated, cold worked and artificially aged. B reverses H and T: H is strain-hardened/cold-worked condition, while T is thermally treated. C swaps O and F: O is annealed and F is as produced/as fabricated. D is wrong because martensite tempering is a steel concept, not an aluminium temper designation.",
+    "relevantTheory": "An aluminium alloy number is incomplete without temper when mechanical properties matter. O is soft annealed condition; F is as fabricated; H describes strain hardening used mainly for non-heat-treatable alloys; T describes thermal treatment sequences used for age-hardening alloys. T4, T5, T6 and T8 differ in whether solution treatment, natural ageing, artificial ageing and cold work are included.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 8 and 11"
+  },
+  {
+    "id": 539,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Al-Si eutectic",
+      "casting microstructure",
+      "composition"
+    ],
+    "diagramRequired": false,
+    "question": "A cast Al-Si alloy solidifies close to the eutectic composition. Which description of the final eutectic constituent is the most correct?",
+    "options": {
+      "A": "A mixture of Al-rich solid solution and Si phase, whose morphology strongly controls toughness",
+      "B": "A single liquid phase retained to room temperature between Al grains",
+      "C": "Only pure Si, because all aluminium is consumed at the eutectic point",
+      "D": "Austenite plus cementite, exactly like pearlite in Fe-C steels"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 14 shows Al-Si casting microstructures with solid-solution Al and Si plates, and the notes identify Si as the hard phase in the Al matrix. B is wrong because the eutectic reaction produces solid phases, not retained room-temperature liquid. C is wrong because eutectic is a mixture, not complete conversion of Al into Si. D is a steel trap: austenite and cementite belong to Fe-C terminology, not Al-Si.",
+    "relevantTheory": "The Al-Si eutectic is central for cast aluminium alloys because it improves castability but introduces a hard brittle Si phase. The important exam point is not just the phase names, but the morphology: coarse plate or needle-like Si creates sharp interphase discontinuities and lowers toughness, while refined or modified eutectic improves the casting property compromise.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 10-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 24; PAST_EXAMS/QUESTIONS_SET_1.txt, Al-Si eutectic wording"
+  },
+  {
+    "id": 540,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "eutectic refinement",
+      "Sr",
+      "Ti",
+      "undercooling"
+    ],
+    "diagramRequired": false,
+    "question": "For Al-Si castings, which pairing of microstructure-control additions is most consistent with Lecture 14 and the notes?",
+    "options": {
+      "A": "Sr or Na modifies/refines the eutectic Si; Ti is used for grain refinement of the casting",
+      "B": "Sr produces martensite, while Ti removes all silicon from the alloy",
+      "C": "Na and Sr are added in kilogram amounts to convert the alloy into pure Mg",
+      "D": "Ti is added only to make Si plates longer and sharper, increasing brittleness"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Lecture 14 explicitly shows eutectic modification with a tiny Na addition, and the notes add that Sr refines the eutectic while Ti refines casting grains. B is wrong because martensite is not the Al-Si casting mechanism and Si is not removed. C is wrong because these are small modifier/refiner additions, not bulk alloy conversion. D is opposite to the purpose of Ti grain refinement.",
+    "relevantTheory": "Al-Si casting toughness is improved by controlling both eutectic morphology and grain size. Sr or Na changes eutectic Si growth, producing a finer less needle-like eutectic, often described in exam wording as artificial undercooling or reduced diffusion/growth of Si. Ti additions promote grain refinement. Finer grains and less harmful Si morphology improve strength and toughness together, unlike merely increasing brittle hard phase size.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slide 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 24; PAST_EXAMS/QUESTIONS_SET_1.txt, Sr eutectic wording"
+  },
+  {
+    "id": 541,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "2xxx",
+      "Al-Cu",
+      "early ageing",
+      "GP zones"
+    ],
+    "diagramRequired": false,
+    "question": "For A2xxx Al-Cu alloys, which statement about the first ageing products is the best lecture-style answer?",
+    "options": {
+      "A": "Cu-rich GP zones and Al-Cu precipitate sequence develop from the supersaturated solid solution",
+      "B": "Al2Mn GP zones are the characteristic first ageing product of 2xxx alloys",
+      "C": "Al2Mg GP zones are the characteristic first ageing product of 2xxx alloys",
+      "D": "No precipitates form during early ageing because Cu must remain randomly dissolved forever"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: 2xxx alloys are Al-Cu based, and the Lecture 14 age-hardening slide and notes use Al-4%Cu to show GP zones, GP2 zones, theta prime and equilibrium theta/CuAl2. B and C use the wrong alloying element for the 2xxx family. D is wrong because ageing is precisely the controlled decomposition of a supersaturated solid solution into clusters and precipitates.",
+    "relevantTheory": "After solution treatment and quenching, an Al-Cu alloy contains a supersaturated metastable solid solution. During ageing, Cu atoms cluster into GP zones, then more developed transition precipitates form before the equilibrium theta phase CuAl2. The fine coherent or semi-coherent early products are strong obstacles to dislocations; coarse equilibrium particles after excessive ageing are less effective.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 9 and 12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 10; PAST_EXAMS/QUESTIONS_SET_1.txt, A2xxx precipitates wording"
+  },
+  {
+    "id": 542,
+    "deck": "slides",
+    "moduleId": "lecture-14-aluminum",
+    "section": "Al & Casting",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "7xxx",
+      "ageing",
+      "aircraft structures",
+      "highest strength"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement is the best answer for strengthening and use of 7xxx aluminium alloys?",
+    "options": {
+      "A": "7xxx Al-Zn-Mg-Cu alloys obtain their highest useful strength mainly by ageing and are used for aircraft structures",
+      "B": "7xxx alloys are pure aluminium foils selected mainly for electrical conductivity",
+      "C": "7xxx alloys are non-heat-treatable Mn alloys strengthened only by annealing",
+      "D": "7xxx alloys are chosen because they are the most weldable Al family and never suffer corrosion problems"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the notes list 7xxx as Al plus Zn, Mg and Cu, with high strength and aircraft-structure use, and the exam style asks ageing as the main and most effective strengthening method. B describes 1xxx pure Al uses. C describes the wrong family; Mn-rich 3xxx is non-heat-treatable and annealing softens rather than strengthens. D is wrong because high-strength precipitated Al alloys can have weldability and stress-corrosion limitations.",
+    "relevantTheory": "The 7xxx series is the high-strength end of wrought aluminium alloys. Zn with Mg and often Cu enables precipitation hardening during ageing, giving very high yield strength for aerospace components. This strength comes with trade-offs: weldability is not the same as for 5xxx or 6xxx, and precipitation microstructures can be sensitive to stress-corrosion cracking, especially near grain-boundary precipitate-free zones.",
+    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 7 and 15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 8; PAST_EXAMS/QUESTIONS_SET_1.txt, 7xxx strengthening wording"
+  },
+  {
+    "id": 543,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "crevice corrosion",
+      "surface area ratio",
+      "small anode"
+    ],
+    "diagramRequired": false,
+    "question": "The main factor controlling interstitial (crevice) corrosion is:",
+    "options": {
+      "A": "a dry environment",
+      "B": "flowing water only",
+      "C": "the surface area ratio between anodic and cathodic regions",
+      "D": "pH water = 6-10 only"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because localized crevice/interstitial corrosion becomes dangerous when the crevice behaves as a small anodic region balanced by a larger cathodic area outside. That surface area ratio can make the attack at the anode very fast. A is wrong because a dry environment does not sustain the wet electrochemical cell. B is wrong because flow can influence corrosion, but the crevice problem is not controlled by flowing water alone; stagnant oxygen-depleted regions are the issue. D is wrong because pH affects corrosion rate, but the professor's trap here is the anodic/cathodic area effect.",
+    "relevantTheory": "Crevice corrosion starts in shielded regions where oxygen cannot be replenished. Initially anodic and cathodic reactions may occur over the whole surface, but after oxygen depletion the crevice tends to remain anodic while cathodic reaction occurs outside. A small anode coupled to a large cathode is severe because the anodic dissolution current is concentrated into a small area.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Session of Jan 28, 2025, Q17; slides&docs/Lecture 11 Corrosion.pdf, pages 6-7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 16"
+  },
+  {
+    "id": 544,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "passivity",
+      "oxide film",
+      "film thickness"
+    ],
+    "diagramRequired": false,
+    "question": "A NON-influencing factor for passivated protective films for corrosion resistance is:",
+    "options": {
+      "A": "high adhesion to the metal",
+      "B": "absence of porosity",
+      "C": "good cohesive strength and low ion conductivity",
+      "D": "very high thickness by itself"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the NON-influencing or misleading clause: protection is not obtained simply by making the oxide very thick. A, B and C are wrong choices for a NOT question because they are real protective features: the film must adhere, remain compact/porosity-free, and slow ion transport. A thick but cracked, porous or poorly adhered scale can fail and expose fresh metal.",
+    "relevantTheory": "Passivity is the reduction of corrosion rate by a stable surface film, often an oxide. The course emphasizes film quality: cohesive strength, adhesion to the metal, low porosity and low ion conductivity. Compact films limit transport of metal ions and oxidizing species; loose or porous films do not. Thickness helps only if the film remains continuous and bonded.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Session of Jan 28, 2025, Q18; slides&docs/Lecture 11 Corrosion.pdf, pages 1 and 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 17-18"
+  },
+  {
+    "id": 545,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "FCC slip",
+      "Miller indices",
+      "slip direction in plane"
+    ],
+    "diagramRequired": false,
+    "question": "Which system below is a slip system for FCC crystals?",
+    "options": {
+      "A": "(231)[1-11]",
+      "B": "(111)[1-10]",
+      "C": "(1-10)[111]",
+      "D": "(111)[110]"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because FCC slip occurs on close-packed {111} planes along <110> directions, and [1-10] lies in the (111) plane since 1 - 1 + 0 = 0. A is wrong because (231) is not the close-packed FCC slip plane family. C is wrong because although [111] can be checked against the plane, the plane is not {111} and the direction is not an FCC <110> slip direction. D is a common geometric trap: [110] is a dense direction family, but it does not lie in (111) because 1 + 1 + 0 is not zero.",
+    "relevantTheory": "A slip system is a slip plane plus a slip direction contained in that plane. In FCC metals the usual easy systems are {111}<110>. To verify that a direction [uvw] lies in a plane (hkl), use hu + kv + lw = 0. Dense plane and dense direction are not enough if the direction is not actually in that plane.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Header Cut - Starts \"1. Which system below...\"), Q1; slides&docs/Lecture 2 Metals.pdf, pages 11-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 13"
+  },
+  {
+    "id": 546,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "toughness",
+      "grain size",
+      "microstructure"
+    ],
+    "diagramRequired": false,
+    "question": "Which among the factors below DOES NOT affect toughness?",
+    "options": {
+      "A": "heat into grains",
+      "B": "ductility",
+      "C": "crystal structure",
+      "D": "grain size"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because \"heat into grains\" is not a course factor normally used to explain toughness. B is wrong for a NOT question because ductility is directly connected to energy absorption before fracture. C is wrong because crystal structure affects available slip systems and ductile/brittle behavior. D is wrong because grain size is explicitly tied to the strength-toughness compromise; fine grains are presented as the strengthening route that can also improve toughness.",
+    "relevantTheory": "Toughness is the ability to absorb energy before fracture. It is strongly affected by microstructure and deformation mechanisms: grain size, precipitates, defects, phase morphology, crystal structure and ductility all matter. The professor often contrasts grain refinement with other strengthening mechanisms because refinement can increase both strength and toughness, while cold work may increase strength but reduce ductility and toughness.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Header Cut - Starts \"1. Which system below...\"), Q2; slides&docs/Lecture 5 Strengthening of Metals.pdf, pages 6 and 8; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, page 11"
+  },
+  {
+    "id": 547,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "tempered steels",
+      "heat treatment strengthening",
+      "steel classes"
+    ],
+    "diagramRequired": false,
+    "question": "For which class of steels is heat treatment strengthening dominant?",
+    "options": {
+      "A": "austenitic steels",
+      "B": "wrought steels",
+      "C": "tempered steels",
+      "D": "nitriding steels only"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because Lecture 9 frames tempered steels as steels strengthened by austenitizing, quenching and tempering to obtain a martensite/tempered-martensite strength-toughness compromise. A is wrong because austenitic stainless steels are normally not strengthened by the same quench-and-temper transformation route. B is too broad: wrought only describes shaping history. D is wrong because nitriding is a surface chemical treatment; it may harden the case, but it is not the general class in which heat treatment strengthening is dominant.",
+    "relevantTheory": "In tempered steels the main property control is heat treatment: austenitize to dissolve carbon and form austenite, quench to martensite, then temper to reduce brittleness and residual stress while retaining strength. This differs from stainless austenitic steels, which are often strengthened by cold work or grain refinement, and from surface-treatment classes where only the surface is modified.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Header Cut - Starts \"1. Which system below...\"), Q12; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages 1 and 10; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page 1"
+  },
+  {
+    "id": 548,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "hardenability",
+      "wear resistance",
+      "quenching cracks"
+    ],
+    "diagramRequired": false,
+    "question": "For which application below does hardenability NOT play a convenient role?",
+    "options": {
+      "A": "hardening complex parts",
+      "B": "large shafts",
+      "C": "avoiding quenching cracks",
+      "D": "increasing wear resistance only"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because wear resistance is primarily a surface hardness/case requirement; hardenability by itself is not the direct design objective. A is wrong because complex parts benefit from higher hardenability when slower or less severe cooling is needed to avoid uneven transformation. B is wrong because large shafts need hardness penetration toward the core. C is wrong because improved hardenability can allow less severe quenching, reducing cracking risk compared with forcing martensite by an aggressive quench.",
+    "relevantTheory": "Hardenability is the ability of a steel to form martensite in depth, not the same thing as maximum surface hardness. For similar carbon content, surface martensite hardness may be comparable, while alloying shifts TTT/CCT behavior so martensite can form at slower cooling rates and deeper sections. This is crucial for large or complex parts; wear resistance may require surface hardening, carburizing, nitriding or coatings depending on the case needed.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Header Cut - Starts \"1. Which system below...\"), Q15; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages 11-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 21-23"
+  },
+  {
+    "id": 549,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "steel designation",
+      "low alloy steel",
+      "EN nomenclature"
+    ],
+    "diagramRequired": false,
+    "question": "Indicate the class of steel for 35NiCrMo15.",
+    "options": {
+      "A": "low-alloy steel",
+      "B": "stainless steel",
+      "C": "high-speed steel",
+      "D": "plain carbon steel"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the EN chemical designation without an initial X and with alloying elements named in the grade corresponds to a low-alloy steel when each listed alloying element is below 5%. B is wrong because stainless steels require high chromium content and are designated differently in this system. C is wrong because high-speed steels use HS-type notation in the lecture. D is wrong because Ni, Cr and Mo are intentional alloying elements, so it is not plain carbon steel.",
+    "relevantTheory": "In the EN designation taught in Lecture 7, low-alloy steels are written as NN followed by alloy symbols and coded contents, with NN approximately equal to 100 times the carbon content. High-alloy steels with at least one element above 5% use the X prefix and nominal element percentages. Therefore 35NiCrMo15 is read as an alloyed steel, not as a 10XX plain carbon grade.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Header Cut - Starts \"1. Which system below...\"), Q16; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages 6 and 8"
+  },
+  {
+    "id": 550,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "carburizing",
+      "gear teeth",
+      "fatigue resistance"
+    ],
+    "diagramRequired": false,
+    "question": "Which surface treatment process is more suitable to increase fatigue resistance of gear teeth?",
+    "options": {
+      "A": "surface hardening",
+      "B": "carburizing",
+      "C": "induction heat treatment",
+      "D": "laser hardening"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because carburizing is explicitly associated with gears, shafts and bearings: it gives a hard carbon-rich martensitic case supported by a tougher core, improving contact/wear performance and fatigue resistance. A is too generic: \"surface hardening\" names a family rather than the more suitable gear-tooth process. C is wrong because induction heat treatment is useful for selected medium-carbon surfaces, but it does not create the deep carbon-rich case emphasized for gears. D is wrong because laser hardening is very localized and shallow compared with the carburized case normally selected for loaded gear teeth.",
+    "relevantTheory": "Gear teeth need a surface that resists contact stress, wear and fatigue while the core remains tough. Carburizing low-carbon or low-alloy carburizing steels adds carbon at the surface at high temperature, then quenching forms a hard martensitic case. Surface hardening treatments also help fatigue by placing the surface in compression; the correct choice depends on required case depth, distortion and steel grade.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Header Cut - Starts \"1. Which system below...\"), Q17; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pages 1 and 7"
+  },
+  {
+    "id": 551,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "application",
+    "trapTags": [
+      "galvanizing",
+      "sacrificial anode",
+      "Fe-Zn"
+    ],
+    "diagramRequired": false,
+    "question": "In the Fe-Zn alloy couple, which element undergoes the anodic reaction?",
+    "options": {
+      "A": "both Fe and Zn equally in every environment",
+      "B": "none, because galvanizing stops all electrochemical reactions",
+      "C": "Fe",
+      "D": "Zn"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because Zn is the sacrificial anodic material in galvanized steel; it corrodes preferentially and protects Fe. A is wrong because the design purpose is not equal consumption of both metals. B is wrong because galvanic protection works through a controlled anodic reaction in Zn, not by eliminating electrochemistry. C is wrong because Fe is the protected mechanical component and is kept more cathodic as long as sacrificial Zn remains connected in the electrolyte.",
+    "relevantTheory": "In a galvanic couple, the less noble material becomes anodic and dissolves, while the more noble member is protected. Zn and Mg coatings protect steels by sacrificial action: the coating is intentionally consumed so the Fe-based component is saved, even at small coating defects if electrical contact and electrolyte are present.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Header Cut - Starts \"1. Which system below...\"), Q18; slides&docs/Lecture 11 Corrosion.pdf, page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 18"
+  },
+  {
+    "id": 552,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fundamentals",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "diffusion paths",
+      "surface diffusion",
+      "low temperature"
+    ],
+    "diagramRequired": false,
+    "question": "Which is the fastest diffusion process at low temperature?",
+    "options": {
+      "A": "surface diffusion",
+      "B": "bulk diffusion",
+      "C": "grain boundary diffusion",
+      "D": "interstitial diffusion"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because surface atoms have fewer neighbours and a lower activation barrier, so surface diffusion is the fastest of the listed path-controlled diffusion processes at low temperature. B is wrong because bulk diffusion requires jumps through the crystal interior and is slower. C is wrong because grain-boundary diffusion is faster than bulk diffusion, but still not usually faster than surface diffusion. D is a real fast mechanism for small atoms such as C or N compared with volume diffusion, but the professor's surface/GB/bulk rate comparison makes the surface path the fastest low-temperature process here.",
+    "relevantTheory": "Diffusion is thermally activated atomic jumping. The rate depends on temperature, crystal structure, atom type and defects. Fast paths have lower activation energy because atoms are less constrained: surface diffusion is fastest, grain-boundary diffusion is intermediate, and lattice or bulk diffusion is slowest. Interstitial atoms such as C or N can diffuse faster than substitutional atoms because they use interstitial sites rather than vacancies.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Marked \"FAIL\"), Q1; Self-assesment questions/self-assessment questions on Diffusion.pdf, page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 12-14"
+  },
+  {
+    "id": 553,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "grain boundary energy",
+      "misorientation angle",
+      "GB defects"
+    ],
+    "diagramRequired": false,
+    "question": "By which factor is grain boundary energy influenced?",
+    "options": {
+      "A": "polymorphism",
+      "B": "crystal anisotropy",
+      "C": "the misorientation angle between adjacent grains",
+      "D": "crystal structure only"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture shows grain-boundary energy as a function of misorientation angle. A is wrong because polymorphism concerns phase/crystal-structure changes with temperature or composition, not the energy of a specific boundary. B is wrong because elastic/crystal anisotropy is not the direct variable in the grain-boundary energy plot. D is too generic: crystal structure matters to many properties, but the tested boundary-energy factor is the misorientation between the two neighbouring grains.",
+    "relevantTheory": "A grain boundary is a two-dimensional defect between crystals of different orientations. Small-angle boundaries can be described by dislocation arrays and generally have lower energy; energy tends to increase with misorientation, though special coincidence-site boundaries can be unusually low-energy. High GB energy also explains why boundaries are active sites for diffusion, precipitation and dislocation interactions.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Marked \"FAIL\"), Q3; slides&docs/Lecture 4 Microplasticity (1).pdf, page 9; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pages 5-7"
+  },
+  {
+    "id": 554,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fundamentals",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "electronegativity",
+      "bonding",
+      "Hume-Rothery"
+    ],
+    "diagramRequired": false,
+    "question": "What does electronegativity determine in metals?",
+    "options": {
+      "A": "ionic bonding only",
+      "B": "the nature of atomic bonds and the tendency to form compounds",
+      "C": "electron motion during rolling",
+      "D": "lattice defect interaction only"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because electronegativity difference affects bonding character and whether atoms prefer solid solution or compound/intermetallic formation. A is too narrow: ionic character can appear when electronegativity differs strongly, but the course use is broader than \"ionic bonding only.\" C is wrong because electron motion during processing is not the Hume-Rothery electronegativity rule. D is wrong because lattice-defect interaction is a strengthening/plasticity issue, not the main meaning of electronegativity.",
+    "relevantTheory": "In the Hume-Rothery rules, comparable electronegativity favours substitutional solid solution. A large electronegativity difference promotes stronger chemical affinity and formation of new compounds or intermetallic phases. This is why electronegativity is a bonding and phase-formation concept, not a direct mechanical processing variable.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Marked \"FAIL\"), Q4; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, page 1; slides&docs/Lecture 2 Metals.pdf, page 1"
+  },
+  {
+    "id": 555,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "application",
+    "trapTags": [
+      "weldability",
+      "carbon content",
+      "AISI grades"
+    ],
+    "diagramRequired": false,
+    "question": "For which steel, among AISI 1020, 4140 and 4340, is weldability largest?",
+    "options": {
+      "A": "AISI 1020",
+      "B": "AISI 4140",
+      "C": "AISI 4340",
+      "D": "none; alloying has no effect on weldability"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because AISI 1020 is a low-carbon plain carbon steel, so it has lower hardenability and a lower tendency to form hard brittle HAZ products. B is wrong because 4140 is a Cr-Mo hardenable steel with more alloying and carbon than 1020. C is wrong because 4340 is a Ni-Cr-Mo low-alloy steel with even higher hardenability. D is wrong because carbon content and alloying elements are central to steel weldability.",
+    "relevantTheory": "Weldability of steels is strongly linked to HAZ transformations. A steel with high carbon and alloy content has higher hardenability, so the heat-affected zone can form hard martensitic or bainitic microstructures during rapid cooling and crack more easily. Low-carbon, low-alloy steels are generally the safer weldability choice.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Marked \"FAIL\"), Q12; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, page 10; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page 9"
+  },
+  {
+    "id": 556,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "AISI 1095",
+      "high carbon steel",
+      "tool application"
+    ],
+    "diagramRequired": false,
+    "question": "Which is the most suitable application for AISI 1095 steel?",
+    "options": {
+      "A": "ignition valve",
+      "B": "stamping panel",
+      "C": "punching tool",
+      "D": "deep-drawing automotive outer panel"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because AISI 1095 is a plain high-carbon steel, about 0.95%C, suitable when high hardness and wear resistance are wanted, as in cutting or punching tools. A is wrong because valves require different high-temperature and corrosion/oxidation considerations. B and D are wrong because stamping/deep-drawing panels need formability and ductility, not a high-carbon hardenable tool steel.",
+    "relevantTheory": "In AISI/SAE plain carbon steels, the last two digits give carbon content in hundredths of a percent: 1095 is about 0.95%C. High-carbon steels can be hardened strongly but lose weldability and formability. They fit tool, cutting and wear applications better than deep-drawn sheet or large tough structural components.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Marked \"FAIL\"), Q14; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page 9"
+  },
+  {
+    "id": 557,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "cold rolling",
+      "small rolls",
+      "compressive residual stress"
+    ],
+    "diagramRequired": false,
+    "question": "How does cold rolling enhance fatigue resistance of long rolled products?",
+    "options": {
+      "A": "by on-line cooling only",
+      "B": "by controlled rolling in the austenite range only",
+      "C": "by severe strain hardening of the whole product only",
+      "D": "by using small rolls to introduce beneficial surface compressive stresses"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the notes connect small rolls with superficial compressive stress in rolled products, and surface compression is beneficial for fatigue because it delays crack opening. A is wrong because cooling control is a separate hot-strip/TMCP concept. B is wrong because controlled rolling is not the cold-rolling surface-residual-stress answer. C is incomplete and misleading: cold work can raise strength, but the fatigue-resistance trap in this question is the surface compressive stress state rather than only severe strain hardening.",
+    "relevantTheory": "Fatigue cracks often initiate at the surface. A compressive residual stress at the surface reduces the effective tensile stress during cyclic loading and makes crack initiation/propagation harder. Rolling geometry can affect the through-thickness strain and residual stress distribution; small rolls tend to concentrate deformation near the surface, giving the surface-compression mechanism emphasized in the notes.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Marked \"FAIL\"), Q15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 19"
+  },
+  {
+    "id": 558,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "galvanic corrosion",
+      "dissimilar metals",
+      "environment"
+    ],
+    "diagramRequired": false,
+    "question": "Which of the following factors DOES NOT influence galvanic corrosion?",
+    "options": {
+      "A": "like metals in contact",
+      "B": "surface area ratio of electrodes",
+      "C": "pH",
+      "D": "humidity"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because galvanic corrosion requires a potential difference, normally from dissimilar metals or phases coupled through an electrolyte. Like metals in contact do not create the same galvanic driving force. B is wrong for a NOT question because surface area ratio is a key design factor. C is wrong because pH affects corrosion reactions. D is wrong because humidity supplies the moisture/electrolyte film needed for wet corrosion.",
+    "relevantTheory": "A galvanic cell needs anodic and cathodic regions, an electrical path and an electrolyte. Dissimilar metals in a conducting solution develop different corrosion potentials; the less noble material corrodes faster. Rate and severity also depend on environment, separation/resistivity, pH, temperature and especially the ratio between anodic and cathodic surface areas.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Marked \"FAIL\"), Q16; slides&docs/Lecture 11 Corrosion.pdf, pages 5-6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 15-16"
+  },
+  {
+    "id": 559,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "X steel designation",
+      "stainless steel",
+      "carbon percent"
+    ],
+    "diagramRequired": false,
+    "question": "Determine the %C and %Cr in the X40Cr14 steel.",
+    "options": {
+      "A": "4%C / 14%Cr",
+      "B": "0.4%C / 14%Cr",
+      "C": "40%C / 3.5%Cr",
+      "D": "0.4%C / 1.4%Cr"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because in the high-alloy X designation, 40 means carbon content multiplied by 100, so C is about 0.40%, and Cr14 means about 14% chromium. A and C wrongly read 40 as direct carbon percent, which is impossible for steel. D wrongly divides the chromium value by the low-alloy factor rule; for X steels, the alloy element number is the nominal percent, not multiplied by the low-alloy factor.",
+    "relevantTheory": "Lecture 7 separates low-alloy and high-alloy EN designations. In X NN El % notation, X signals at least one alloy element above about 5%; NN is 100 times carbon content; the following alloy number gives nominal element percent. This is why X40Cr14 is a chromium-rich stainless-type composition with about 0.40%C and 14%Cr.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Marked \"FAIL\"), Q17; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page 6; slides&docs/Lecture 12.pdf, page 1"
+  },
+  {
+    "id": 560,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "corrosion protection",
+      "passivity",
+      "sacrificial coating"
+    ],
+    "diagramRequired": false,
+    "question": "Which of the following metals IS NOT corrosion protective of metals and alloys?",
+    "options": {
+      "A": "Ti",
+      "B": "Zn",
+      "C": "Mg",
+      "D": "W"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because W is not presented in the corrosion lecture as a usual passivating/sacrificial protective metal for engineering alloys. A is wrong for a NOT question because Ti is listed among passivating materials that can carry a protective oxide film. B and C are wrong because Zn and Mg are explicitly used as sacrificial protective coatings for steels.",
+    "relevantTheory": "There are two different protection ideas in this trap. Passive metals such as stainless steels, Ni alloys and Ti resist corrosion by forming stable, adherent, low-conductivity films. Sacrificial coatings such as Zn or Mg protect steel by corroding preferentially as the anode. A metal name alone is not enough; the protection mechanism must match the course examples.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Marked \"FAIL\"), Q18; slides&docs/Lecture 11 Corrosion.pdf, pages 9-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 17-18"
+  },
+  {
+    "id": 561,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "formability",
+      "grain size",
+      "sheet forming"
+    ],
+    "diagramRequired": false,
+    "question": "Factors affecting sheet formability: in the specific notes discussion of normal anisotropy R, mark the clause which is NOT TRUE.",
+    "options": {
+      "A": "high temperature can improve formability",
+      "B": "strain rate affects formability",
+      "C": "small grain size is always the favourable factor for high R in deep drawing",
+      "D": "larger grains can increase R, although excessively coarse grains may cause orange peel"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct as the NOT TRUE clause in the professor's normal-anisotropy framing: the notes state that larger grain size can increase R and improve deep-drawing resistance to thinning, so small grain size is not always the favourable condition for high R. A is wrong for a NOT question because high temperature can raise formability in many forming processes by lowering flow stress and enabling more deformation. B is wrong because strain-rate sensitivity is one of the formability parameters, especially for superplasticity. D is wrong because it captures the course nuance: larger grains may help R, but excessive coarse grains can still create orange peel and poor surface quality.",
+    "relevantTheory": "Formability is not just strength. In sheet forming it depends on strain-hardening exponent n, strain-rate sensitivity m, normal anisotropy R, thickness, temperature, grain structure and process path. In the notes, high R improves deep drawing by resisting thinning. Grain size is nuanced: larger grains can improve R in that discussion, while excessively coarse grains can cause orange-peel roughness and poor drawing surface quality.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Session of January 31, 2022 (FAC-SIMILE), Q3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-71-100.pdf, pages 8-9 and 13-14"
+  },
+  {
+    "id": 562,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "strengthening",
+      "defects",
+      "dislocation motion"
+    ],
+    "diagramRequired": false,
+    "question": "What is the common factor to all strengthening methods in metals?",
+    "options": {
+      "A": "presence of edge dislocations only",
+      "B": "defects concentration and obstacles to dislocation motion",
+      "C": "dislocation density only",
+      "D": "stress conditions only"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because strengthening methods increase the resistance to plastic flow by introducing or controlling defects and obstacles such as solutes, dislocations, grain boundaries, precipitates, dispersoids or hard phases. A is wrong because edge dislocations are not the only strengthening feature. C is wrong because dislocation density is the key variable for work hardening, but not the only common factor in grain refinement, solid solution or precipitation strengthening. D is wrong because external stress conditions describe loading, not the shared microstructural strengthening principle.",
+    "relevantTheory": "Plastic deformation of metals occurs by dislocation motion. Strengthening means making that motion harder. Work hardening raises dislocation density; grain refinement adds boundaries; solid solution creates lattice distortion; precipitation introduces particles; phase mixtures and dispersoids add barriers. The common thread is controlled defect structure, not one single defect type.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Session of January 31, 2022 (FAC-SIMILE), Q4; slides&docs/Lecture 5 Strengthening of Metals.pdf, pages 2, 8, 15-16 and 24; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 10"
+  },
+  {
+    "id": 563,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "AISI 1038",
+      "flame hardening",
+      "wear resistance"
+    ],
+    "diagramRequired": false,
+    "question": "To enhance wear resistance of a tempered AISI 1038 steel it must follow a process of:",
+    "options": {
+      "A": "flame hardening",
+      "B": "nitriding",
+      "C": "carburizing",
+      "D": "spheroidization"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because AISI 1038 is a medium-carbon steel with enough carbon for thermal surface hardening; flame hardening locally austenitizes and quenches the surface to increase hardness and wear resistance. B is wrong because nitriding is a chemical nitrogen treatment normally selected for suitable nitriding steels and pretreated conditions, not the direct answer for plain AISI 1038. C is wrong in this context because carburizing is mainly for low-carbon steels needing carbon added to the surface. D is wrong because spheroidization softens and improves workability, especially in high-carbon steels.",
+    "relevantTheory": "Thermal surface hardening processes such as flame and induction hardening require the steel to already contain enough carbon to form martensite after local heating and quenching. Chemical case treatments such as carburizing add carbon and are chosen for low-carbon carburizing steels; nitriding uses nitrogen and specific steel/pretreated conditions. Always match the process to the steel's starting carbon and the desired case.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Session of January 31, 2022 (FAC-SIMILE), Q12; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pages 7 and 11; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page 9"
+  },
+  {
+    "id": 564,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "residual stress",
+      "welding",
+      "surface compression"
+    ],
+    "diagramRequired": false,
+    "question": "Which process results in a tensile residual stress state?",
+    "options": {
+      "A": "induction surface hardening",
+      "B": "cold rolling with small rolls at the surface",
+      "C": "welding",
+      "D": "surface hardening designed to produce compression"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because welding creates strong thermal gradients and constrained contraction in and around the weld/HAZ, commonly leaving tensile residual stresses that help crack opening. A is wrong because induction surface hardening is taught as a surface treatment that can improve fatigue by surface compressive stress. B is wrong because small-roll cold rolling is associated with superficial compression. D is wrong by definition: a surface hardening treatment designed for fatigue benefit aims at compression, not tensile residual stress.",
+    "relevantTheory": "Residual stress sign matters. Surface compressive residual stress is beneficial for fatigue because cracks must open against compression. Tensile residual stress is dangerous because it assists crack opening and can combine with brittle HAZ microstructures after welding. Surface treatments, cold rolling and welding therefore cannot be grouped only by whether they heat or deform; the resulting stress state is the exam point.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Session of January 31, 2022 (FAC-SIMILE), Q14; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pages 7 and 9-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 19"
+  },
+  {
+    "id": 565,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "blast furnace",
+      "reducing agent",
+      "CO"
+    ],
+    "diagramRequired": false,
+    "question": "Which is the effective reducing agent of iron ores in the blast furnace for pig iron refinement?",
+    "options": {
+      "A": "carbon coke",
+      "B": "limestones",
+      "C": "CO2",
+      "D": "CO"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the blast-furnace reduction reaction shown in the lecture is 3CO + Fe2O3 -> 2Fe + 3CO2; CO is the effective reducing gas. A is misleading because coke is the solid fuel and source of CO, but the direct reducing agent in the ore-reduction reaction is CO. B is wrong because limestone is the flux for slag formation. C is wrong because CO2 is a product and also reacts with coke to generate more CO.",
+    "relevantTheory": "Blast-furnace ironmaking uses alternating layers of ore, coke and limestone. Coke burns to provide heat and helps generate CO through C + O2 -> CO2 and CO2 + C -> 2CO. The CO then reduces iron oxides to metallic iron, while limestone decomposes and helps form slag with impurities.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Session of January 31, 2022 (FAC-SIMILE), Q15; slides&docs/Lecture 8 Modern Production of Steels.pdf, page 3"
+  },
+  {
+    "id": 566,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Al & Casting",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "process-chain",
+    "trapTags": [
+      "Al aging",
+      "artificial aging",
+      "precipitation strengthening"
+    ],
+    "diagramRequired": false,
+    "question": "Which precipitation process is more effective for strengthening aluminium alloys?",
+    "options": {
+      "A": "natural aging",
+      "B": "artificial aging",
+      "C": "overaging",
+      "D": "precipitation at grain boundaries"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because artificial aging is the controlled heat treatment used to form a fine strengthening precipitate dispersion and reach high hardness/strength. A is wrong because natural aging can strengthen some alloys at room temperature, but it is less controlled and usually not the most effective route. C is wrong because overaging coarsens precipitates and decreases strength. D is wrong because coarse or continuous grain-boundary precipitation is not the desired strengthening distribution and may hurt ductility/toughness.",
+    "relevantTheory": "Age hardening requires solution treatment, quenching to a supersaturated solid solution, and aging. During aging, solute atoms cluster and form fine coherent or semi-coherent precipitates that hinder dislocations. The peak-aged condition is strongest; excessive time or temperature causes overaging, coarsening and lower strength.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Session of January 31, 2022 (FAC-SIMILE), Q16; slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, pages 4 and 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 10"
+  },
+  {
+    "id": 567,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "deoxidizers",
+      "steel purification",
+      "Ni trap"
+    ],
+    "diagramRequired": false,
+    "question": "Which of the following elements in steels is NOT a deoxidizer element?",
+    "options": {
+      "A": "Si",
+      "B": "Ni",
+      "C": "Mn",
+      "D": "Al"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because Ni is not listed as a steel deoxidizer in the lecture. A, C and D are wrong for a NOT question because Si, Mn and Al are all named as deoxidizing elements used in steel purification, with high affinity for oxygen. Mn can also bind sulfur, and Al can form Al2O3 and AlN precipitates.",
+    "relevantTheory": "After decarburization, steel still contains dissolved or entrapped oxygen and nitrogen that can embrittle the melt or create inclusions. Deoxidation uses elements with high affinity for oxygen, especially Si, Mn and Al in the course notes. Ni is valuable as an alloying element for toughness/austenite stabilization in other contexts, but it is not the deoxidizer in this exam trap.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Session of January 31, 2022 (FAC-SIMILE), Q17; slides&docs/Lecture 8 Modern Production of Steels.pdf, page 4"
+  },
+  {
+    "id": 568,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "BCC slip",
+      "Miller indices",
+      "plane-direction notation"
+    ],
+    "diagramRequired": false,
+    "question": "Which of the following slip systems belongs to BCC?",
+    "options": {
+      "A": "(111)[1 -2 -1]",
+      "B": "(1 -1 0)[111]",
+      "C": "[111](1 -1 0)",
+      "D": "(1 -1 1)[11 -1]"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because BCC slip commonly uses dense directions of the <111> family on planes such as {110}; the direction [111] also lies in the plane (1 -1 0), since 1*1 + (-1)*1 + 0*1 = 0. A is wrong because [1 -2 -1] does not lie in the (111) plane, so it is not a valid plane-direction pair. C reverses the notation: the plane should be in parentheses and the direction in square brackets, even though the same indices appear. D is wrong because [11 -1] does not lie in (1 -1 1), and the plane/direction pair is not the standard BCC slip-system answer.",
+    "relevantTheory": "A slip system is defined by one slip plane and one slip direction. The course rule is that dislocations move most easily on high-density planes and along high-density directions, and the slip direction must lie inside the slip plane. In Miller notation, planes use parentheses, such as (hkl), and directions use square brackets, such as [uvw]. A quick geometric check is hu + kv + lw = 0; if this dot product is zero, the direction lies in the plane. For cubic BCC metals, exam traps often use {110}<111> type systems and incorrect reversed notation.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q4; slides&docs/Lecture 4 Microplasticity (1).pdf, page/slide 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 13"
+  },
+  {
+    "id": 569,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "process-chain",
+    "trapTags": [
+      "normalizing",
+      "austenitization",
+      "A3 temperature"
+    ],
+    "diagramRequired": false,
+    "question": "Guess the excess in temperature above A3 for proper austenitization upon steel normalizing.",
+    "options": {
+      "A": "180 deg C",
+      "B": "30 deg C",
+      "C": "50 deg C",
+      "D": "80 deg C"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture states austenitization as holding in the austenitic range at A3 + 50 deg C, and normalizing is built on austenitization followed by air cooling. A and D are too high for the professor's stated rule and would increase the risk of unnecessary grain growth. B is the value associated on the slide with annealing above A3, not with the austenitization rule asked here.",
+    "relevantTheory": "Normalizing is not melting and not quenching directly from any arbitrary temperature. The steel is first heated into the austenitic field so that the previous ferrite-pearlite or carbide-containing microstructure can transform to austenite and become chemically more homogeneous. The lecture's practical rule is A3 + 50 deg C for austenitization: high enough to form austenite and improve solubility/homogeneity, but not so high that grain growth becomes excessive. After this, air cooling gives a moderately refined, slightly non-equilibrium ferrite-pearlite structure with good mechanical properties at low cost.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q6; slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 1"
+  },
+  {
+    "id": 570,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "austenitizing",
+      "solid-state heat treatment",
+      "carbide dissolution"
+    ],
+    "diagramRequired": false,
+    "question": "Which is NOT a feature of the steel austenitizing process?",
+    "options": {
+      "A": "homogenization",
+      "B": "carbide dissolution",
+      "C": "atomic diffusion",
+      "D": "melting"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the NOT feature because austenitizing is a solid-state heat-treatment step in the austenitic range, not fusion of the steel. A is wrong because homogenization is one of the aims of holding in the austenitic range. B is wrong because carbide dissolution is part of making carbon and alloying elements available in austenite before cooling. C is wrong because the homogenization and dissolution steps depend on thermally activated atomic diffusion.",
+    "relevantTheory": "Austenitizing prepares steel for later cooling transformations. Heating above the appropriate critical temperature produces austenite, increases carbon solubility compared with ferrite, dissolves some carbides, and allows chemical homogenization. The time and temperature must be sufficient for diffusion but controlled to avoid excessive austenite grain growth. Melting belongs to welding, casting or steelmaking; it is not part of ordinary austenitization for normalizing, annealing, quenching or tempering routes.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q7; slides&docs/Lecture 9 Steel Heat Treatment.pdf, page/slide 1; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, page/slide 1"
+  },
+  {
+    "id": 571,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "TTT curve",
+      "Si alloying",
+      "hardenability"
+    ],
+    "diagramRequired": false,
+    "question": "TTT curves of steels shift with Si alloying to:",
+    "options": {
+      "A": "right",
+      "B": "left",
+      "C": "right-down",
+      "D": "left-down"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct in the heat-treatment/hardenability sense tested here: alloying elements that delay diffusion-controlled transformations shift the transformation nose to longer times, i.e. to the right, so martensite is easier to obtain at lower cooling rates. B and D are wrong because a left shift would make pearlite or bainite start earlier and reduce hardenability. C mixes in the separate CCT-vs-TTT comparison, where continuous-cooling curves are shifted bottom-right relative to TTT curves; the question asks the alloying shift of TTT curves.",
+    "relevantTheory": "Hardenability is read from transformation diagrams as the ease of avoiding diffusional products before reaching martensite start. Elements used in hardenable steels can retard ferrite, pearlite and bainite transformations by slowing nucleation or growth, so the curve nose moves to longer time. Silicon is listed in the lecture among alloying elements in tempered steels and carbide-forming/grain-refining elements; the exam trap is to confuse an alloying shift to the right with the separate fact that CCT diagrams sit lower and to the right of TTT diagrams.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q11; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 11-12"
+  },
+  {
+    "id": 572,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "tempering steels",
+      "heat treatment",
+      "stainless trap"
+    ],
+    "diagramRequired": false,
+    "question": "Which class of steels is strengthened by heat treatment?",
+    "options": {
+      "A": "austenitic stainless steels",
+      "B": "ferritic stainless steels",
+      "C": "tempering steels",
+      "D": "cold worked steels"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because Lecture 9 explicitly frames tempered steels as steels strengthened by heat treatment: austenitization, quenching and tempering produce tempered martensite with a strength-toughness balance. A is wrong because austenitic stainless steels are generally not strengthened by ordinary quench-and-temper heat treatment; they are commonly strengthened by cold work. B is wrong because ferritic stainless steels do not rely on martensitic heat treatment as their normal strengthening route. D is wrong because cold worked steels are strengthened by plastic deformation, not by the heat-treatment route named in the question.",
+    "relevantTheory": "The professor's classification trap is that not every steel family is heat treatable in the same way. Tempering steels are designed for quenching to martensite and then tempering to reduce brittleness while keeping high strength. Martensitic stainless steels can also be heat treated, but among the given classes the course answer is tempering steels. Austenitic and ferritic stainless steels keep their phase fields differently and are normally strengthened by cold deformation, grain refinement or special precipitation-hardening routes rather than the plain quench-and-temper route.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q12; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 1 and 10; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 7; slides&docs/Lecture 12.pdf, pages/slides 5-6"
+  },
+  {
+    "id": 573,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "hardenability",
+      "residual austenite",
+      "martensite penetration"
+    ],
+    "diagramRequired": false,
+    "question": "Which factor is not affected by hardenability in steels?",
+    "options": {
+      "A": "toughness",
+      "B": "hardness",
+      "C": "martensite penetration",
+      "D": "amount of residual austenite"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct in the lecture distinction because hardenability is defined as martensite penetration, or the ability to form martensite in depth; residual austenite is treated separately and depends mainly on incomplete martensite transformation, Mf, dissolved carbon/alloying elements, quench temperature and stepped quenching. A is wrong because the microstructure obtained through the section affects toughness: a fully martensitic or tempered-martensitic section is not equivalent to a ferrite-pearlite core. B is wrong because hardenability affects the hardness profile through the depth, even if maximum martensite hardness depends strongly on carbon. C is wrong because martensite penetration is essentially the definition of hardenability.",
+    "relevantTheory": "Do not confuse hardness, hardenability and retained austenite. Hardness is a local measured resistance and, in quenched martensite, is strongly tied to carbon content. Hardenability is a material property measured by the Jominy test and describes how far from the quenched surface the steel can still form martensite; alloying shifts TTT/CCT curves to the right and helps large parts harden in depth. Residual austenite is the austenite left because the martensitic transformation did not finish before the quench ended; it is controlled by Ms/Mf, carbon and austenite-stabilizing solutes, not by the word hardenability itself.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q15; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 12 and 14"
+  },
+  {
+    "id": 574,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "steel designation",
+      "X-grade",
+      "stainless steel"
+    ],
+    "diagramRequired": false,
+    "question": "Guess the class of steel for X10CrNiTi18-10.",
+    "options": {
+      "A": "tempered steel",
+      "B": "stainless steel",
+      "C": "low-alloy steel",
+      "D": "tool steel"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the X designation is used for high-alloy steels, and X10CrNiTi18-10 contains about 18% Cr and 10% Ni; the chromium level is far above the stainless threshold. A is wrong because a tempered steel grade such as C45E or 42CrMo4 is a different family in the lecture examples. C is wrong because X grades are not low-alloy grades with every element below 5%. D is wrong because tool steels may also be high alloy, but the Cr-Ni-Ti 18-10 chemistry points to a stainless steel, with Ti used as a stabilizing carbide-former in austenitic stainless grades.",
+    "relevantTheory": "In EN chemical designations, the first number after X gives carbon times 100, and the following alloy symbols and numbers identify high alloy content directly rather than by the low-alloy scaling factors. Stainless steels require high chromium, listed in the course as above about 10.5-11.5% Cr with limited carbon, because chromium forms the passivating oxide film. A Cr-Ni 18-10 type grade belongs to the stainless family; Ni stabilizes austenite, and Ti can tie up carbon to reduce chromium-carbide sensitization in welded or heated austenitic stainless steels.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q16; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 2 and 6; slides&docs/Lecture 12.pdf, pages/slides 1 and 10"
+  },
+  {
+    "id": 575,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "skin-pass",
+      "Luders bands",
+      "sheet forming"
+    ],
+    "diagramRequired": false,
+    "question": "The skin-pass process, as the last step of cold rolling in thin sheets, does NOT affect:",
+    "options": {
+      "A": "weldability",
+      "B": "Luders band suppression",
+      "C": "formability",
+      "D": "surface cracking reduction"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because skin-pass or temper rolling is a light mechanical pass used to control yielding and surface/forming behavior; it is not primarily a welding-metallurgy treatment. B is wrong because suppressing Luders bands/yield-point phenomena is the classic purpose of skin passing. C is wrong because preventing stretcher strains and yield-point elongation directly improves sheet forming behavior for deep drawing. D is wrong because the notes connect small-roll/skin-pass compression at the surface with keeping surface cracks closed and reducing their tendency to open.",
+    "relevantTheory": "Skin-pass rolling is a small cold reduction applied after annealing or cold rolling of sheet. It introduces mobile dislocations and removes the sharp yield-point phenomenon caused by Cottrell atmospheres, so visible Luders lines or stretcher strains are avoided during later forming. It can also improve flatness and surface condition and may impose a useful compressive surface state. Weldability, instead, is governed mainly by composition, hardenability, thermal cycle, HAZ transformations, residual stresses and joint design, so it is the odd option in this exam wording.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, Written Exam of TMM (Starts with Damascus steels), Q17; slides&docs/Wire Technology Process Engineering 2010.pdf, page 22; slides&docs/Lecture 5 Strengthening of Metals.pdf, page/slide 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 23"
+  },
+  {
+    "id": 576,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "twinning",
+      "twin boundary",
+      "grain boundary energy"
+    ],
+    "diagramRequired": false,
+    "question": "Which of the following clauses is NOT a twin feature?",
+    "options": {
+      "A": "High energy grain boundary",
+      "B": "Lattice rotation about a twin plane",
+      "C": "Typical of FCC crystals, especially when stacking fault energy is low",
+      "D": "High-angle grain boundary character"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture treats twin boundaries as coherent, low-energy defects; it even presents a twin boundary as a special Sigma=3 boundary with minimum energy. B is wrong because twinning is described as mirror-like rotation/shear about the twin plane. C is wrong because FCC alloys can show twins, especially when stacking fault energy is low. D is wrong because a twin boundary can be interpreted as a special high-angle grain boundary, not an ordinary high-energy random boundary.",
+    "relevantTheory": "Twinning is an alternative plastic deformation or microstructural defect mechanism. It changes lattice orientation across a twin plane, usually over a small fraction of the crystal volume. The important trap is energy: ordinary grain boundaries are high-energy disordered regions, while coherent twin boundaries are special low-energy interfaces.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q1; slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 11-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 5"
+  },
+  {
+    "id": 577,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "toughness",
+      "defects",
+      "dislocations"
+    ],
+    "diagramRequired": false,
+    "question": "Which of the following features do NOT directly affect toughness in the usual fracture-safety sense?",
+    "options": {
+      "A": "Pores",
+      "B": "Dislocations",
+      "C": "Solid inclusions",
+      "D": "Grains"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct in the professor-style comparison because dislocations are primarily the carriers of plasticity and strain hardening; they are not the direct crack-like defects tested here. A is wrong because pores can become microcracks and reduce toughness. C is wrong because solid non-metallic inclusions can initiate premature fracture and reduce impact energy. D is wrong because grain size changes crack path and toughness; grain refinement is emphasized as improving both strength and toughness.",
+    "relevantTheory": "Toughness is strongly controlled by features that nucleate, sharpen, or deflect cracks. Pores, microvoids, microcracks, inclusions, and coarse grains are direct fracture-relevant features. Dislocations affect yielding and work hardening, and therefore can influence mechanical behavior indirectly, but they are not the same kind of crack embryo as pores or inclusions.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q2; slides&docs/Lecture 4 Microplasticity (1).pdf, slide/page 12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 13"
+  },
+  {
+    "id": 578,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "grain refinement",
+      "cold work",
+      "recrystallization"
+    ],
+    "diagramRequired": false,
+    "question": "The strengthening method which induces grain refinement is:",
+    "options": {
+      "A": "Aging",
+      "B": "Solid solution",
+      "C": "Cold work",
+      "D": "Precipitation at grain boundaries"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because plastic deformation supplies the stored energy and defect structure used in recrystallization or severe plastic deformation routes to produce fine grains. A is wrong because aging mainly forms precipitates after solution treatment and quenching. B is wrong because solid solution strengthens by lattice distortion, not by making new grains. D is wrong because grain-boundary precipitation may pin boundaries, but precipitation at grain boundaries is not the method that induces grain refinement and can even embrittle if excessive.",
+    "relevantTheory": "Grain refinement strengthening follows Hall-Petch behavior: smaller grains increase the number of grain boundaries and shorten dislocation pile-ups. The lecture connects grain refinement with heating/cooling control, severe plastic deformation, and special heat treatments. Cold work alone raises dislocation density, but in a process chain with recrystallization it is a route to new fine grains.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q3; slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pages 17 and 23"
+  },
+  {
+    "id": 579,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fundamentals",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "melting point",
+      "refractory metals",
+      "bonding"
+    ],
+    "diagramRequired": false,
+    "question": "Which element exhibits the largest melting point among the following?",
+    "options": {
+      "A": "Pb",
+      "B": "Fe",
+      "C": "Co",
+      "D": "W"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because tungsten is the refractory metal in this list and is the high-melting-point choice. A is wrong because lead is a soft, low-melting metal. B is wrong because iron melts at a much lower temperature than tungsten. C is wrong because cobalt is also below tungsten. The exam trap is to recognize the refractory transition-metal choice rather than pick the common steel element.",
+    "relevantTheory": "Melting temperature is tied to bonding strength and cohesive energy. In the course's Hume-Rothery and bonding language, electronic/valence effects help explain why refractory transition metals such as W and Mo have very high melting points compared with ordinary structural metals or soft metals.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q4; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 1-3"
+  },
+  {
+    "id": 580,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "A1",
+      "austenitizing elements",
+      "ferritizing elements"
+    ],
+    "diagramRequired": false,
+    "question": "The A1 point does NOT increase with the addition of:",
+    "options": {
+      "A": "Ni",
+      "B": "Si",
+      "C": "Mo",
+      "D": "Ti"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because nickel is a strong austenitizing element, so it stabilizes gamma-Fe and tends to lower critical transformation temperatures rather than increase A1. B is wrong because silicon is listed among strong ferritizing elements and appears with a positive contribution in the Ac1 relation. C is wrong because molybdenum is also listed as a strong ferritizing element. D is wrong because titanium is grouped with strong ferritizing elements and raises the ferrite-stabilizing tendency.",
+    "relevantTheory": "Alloying elements shift Fe-C transformation temperatures by stabilizing either ferrite or austenite. Austenitizers such as Ni and Mn expand/stabilize the gamma field and tend to lower critical temperatures. Ferritizers such as Cr, Si, Al, Mo, Ti, and V stabilize alpha-Fe and tend to raise the ferrite-side transformation behavior.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q7; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 4"
+  },
+  {
+    "id": 581,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Ni",
+      "Ms",
+      "austenite stabilization"
+    ],
+    "diagramRequired": false,
+    "question": "How does Ni alloying affect the martensite-start temperature Ms in TTT/CCT-type steel transformations?",
+    "options": {
+      "A": "Shift left",
+      "B": "Decrease",
+      "C": "Increase",
+      "D": "No effect"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because Ni is a strong austenitizer; stabilizing austenite means martensite starts only at a lower temperature. A is wrong because left/right movement describes the transformation nose more than the vertical Ms temperature. C is wrong because increasing Ms would make martensite start more easily at higher temperature, opposite to austenite stabilization. D is wrong because alloying elements in solution affect Ms and retained austenite.",
+    "relevantTheory": "Ms is the temperature at which austenite begins transforming to martensite during rapid cooling. Elements that stabilize austenite, especially C and Ni in this course context, lower transformation temperatures and can increase retained austenite if cooling does not go below Mf. Hardenability discussions often combine two effects: shifting diffusion-controlled noses to longer times and lowering martensitic transformation temperatures.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q11; slides&docs/Lecture 9 Steel Heat Treatment.pdf, slide/page 14; slides&docs/Wire Technology Process Engineering 2010.pdf, page 17"
+  },
+  {
+    "id": 582,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "AISI 1095",
+      "martensite",
+      "carbon"
+    ],
+    "diagramRequired": false,
+    "question": "A quenched AISI 1095 steel is brittle because of:",
+    "options": {
+      "A": "Coarse-grain ferrite",
+      "B": "Carbide films at grain boundaries",
+      "C": "Excessive carbon trapped in solid solution",
+      "D": "Coarse carbide particles inside ferrite grains after spheroidizing"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because AISI 1095 is a high-carbon steel; quenching traps carbon in martensite, producing a distorted BCT lattice with very high hardness and brittleness. A is wrong because quenching from austenite does not produce coarse-grain ferrite as the main brittle product. B is the slow-cooling hyper-eutectoid trap, where pro-eutectoid cementite films can embrittle grain boundaries. D is wrong because spheroidized carbides in ferrite are associated with a softer, more workable condition, not freshly quenched brittleness.",
+    "relevantTheory": "Martensite forms by a diffusionless transformation. Carbon cannot escape to form equilibrium cementite, so it remains trapped in interstitial positions and distorts the lattice. The higher the carbon content, the higher the martensite hardness and the greater the brittleness/residual-stress risk after quenching.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q12; slides&docs/Lecture 9 Steel Heat Treatment.pdf, slide/page 4 and slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 6 and 14"
+  },
+  {
+    "id": 583,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "HSLA",
+      "grain refinement",
+      "precipitation"
+    ],
+    "diagramRequired": false,
+    "question": "Which is NOT a typical strengthening factor of HSLA steels?",
+    "options": {
+      "A": "Solid solution",
+      "B": "Aging or precipitation hardening",
+      "C": "Grain refinement",
+      "D": "Grain-boundary precipitation as the main strengthening target"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because HSLA steels are not designed to strengthen mainly by coarse grain-boundary precipitation; that would be inefficient and can damage toughness. A is wrong because some solid solution contribution can be present. B is wrong because microalloy precipitation is one of the HSLA strengthening tools. C is wrong because very small grains are central to HSLA strength and toughness.",
+    "relevantTheory": "HSLA steels use low carbon plus microalloying and processing control to combine strength, toughness, weldability, and formability. The key strengthening/toughening package is fine ferrite grains plus fine precipitates such as carbonitrides, with controlled rolling/cooling. Precipitation is useful when fine and well distributed, not when it simply decorates grain boundaries.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q14; slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 14; slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 24"
+  },
+  {
+    "id": 584,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "blast furnace",
+      "limestone",
+      "slag"
+    ],
+    "diagramRequired": false,
+    "question": "In the production of pig iron in a blast furnace, which clause is NOT a function of limestone?",
+    "options": {
+      "A": "Steel alloying",
+      "B": "Trap impurities",
+      "C": "Decrease the melting point of iron ores",
+      "D": "Prevent oxidation of pig iron"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because limestone is a flux in the blast furnace, not an alloying addition used to set the final steel composition. B is wrong because limestone decomposes to CaO, which reacts with SiO2 and Al2O3 to form slag and purify the melt. C is wrong because the notes explicitly say limestone/fluxing facilitates melting of the high-melting iron-ore charge. D is the tricky wording: the main reducing chemistry comes from coke/CO, but the limestone-derived slag/flux environment helps separate and cover the liquid metal; the clearly non-limestone role is steel alloying.",
+    "relevantTheory": "The blast furnace charge alternates iron ore, coke, and limestone. Coke supplies heat and CO reducing gas. Limestone, mainly CaCO3, decomposes to CaO; CaO combines with gangue oxides to form slag. This flux/purification role is separate from alloy design, which is adjusted later in steelmaking or ladle operations.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q15; slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 10-13"
+  },
+  {
+    "id": 585,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "steel designation",
+      "35NiCrMo15",
+      "Cr content"
+    ],
+    "diagramRequired": false,
+    "question": "Estimate the %Cr in the 35NiCrMo15 steel.",
+    "options": {
+      "A": "0.15%",
+      "B": "N/A",
+      "C": "0.5%",
+      "D": "0.1%"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because, using the course designation rule, alloying-element numbers must be associated with the element sequence; with only one number shown here, the Cr content is not directly readable as one of the listed percentages. A is wrong because 0.15% would come from treating 15 as a Mo-type factor result, not Cr. C is wrong because 0.5% Cr would require a Cr number near 2 in the low-alloy notation. D is wrong because 0.1% is not obtained from the Cr factor used in the lecture.",
+    "relevantTheory": "For low-alloy EN-style steel names, the first number gives nominal carbon times 100. Alloy symbols follow, and alloying numbers are converted using factors, for example 4 for Cr, Ni, Mn, Co, Si, W and 10 for Mo. If a grade does not give a separate number for the element being asked, do not invent a content from an unrelated trailing number.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q16; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, slide/page 6-7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 7"
+  },
+  {
+    "id": 586,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fundamentals",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "diffusion",
+      "grain boundaries",
+      "fast diffusion paths"
+    ],
+    "diagramRequired": false,
+    "question": "Which is a fast diffusion path?",
+    "options": {
+      "A": "Substitutional diffusion",
+      "B": "N/A",
+      "C": "Grain-boundary diffusion",
+      "D": "Interstitial diffusion"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the notes state that the grain-boundary skeleton acts as a fast diffusion path due to its high-energy, disordered structure. A is wrong because substitutional diffusion is a mechanism requiring vacancy-type jumps, not a special fast path. B is wrong because a valid fast path is listed. D is wrong in this wording because interstitial diffusion can be a fast mechanism for small atoms, but the phrase 'diffusion path' in the course points to grain boundaries.",
+    "relevantTheory": "Diffusion speed depends on the mechanism, species, temperature, and path. Grain boundaries have imperfect atomic packing and higher energy than grain interiors, so atoms can move along them more easily. This is helpful for some transformations but harmful for creep resistance when grain size is very small at high temperature.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Written Exam of TMM (Starts with \"Which is a fast diffusion path?\"), Q1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 5; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7"
+  },
+  {
+    "id": 587,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "HAGB",
+      "strain hardening",
+      "dislocation pile-up"
+    ],
+    "diagramRequired": false,
+    "question": "Indicate which grain features enhance the strain hardening of metallic alloys.",
+    "options": {
+      "A": "Coarse grains",
+      "B": "Grains with LAGB",
+      "C": "Fine grains only, without regard to boundary angle",
+      "D": "Grains with HAGB"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because high-angle grain boundaries strongly hinder dislocation crossing and contain ledges/structural disorder that help retain and generate dislocation activity. A is wrong because coarse grains reduce boundary area and lower the barrier density. B is wrong because low-angle grain boundaries are more like arrays of dislocations and are easier for slip to accommodate than high-angle boundaries. C is incomplete because fine grains help strength, but the question asks the grain-boundary feature for strain hardening; high-angle boundaries are the key trap.",
+    "relevantTheory": "Strain hardening increases when moving dislocations are stored and obstructed. High-angle grain boundaries are strong obstacles, sources and sinks for dislocations. Low-angle boundaries have smaller misorientation and lower energy, so they are less severe barriers. Fine grains plus high-angle boundaries generally raise strength and can help toughness.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Written Exam of TMM (Starts with \"Which is a fast diffusion path?\"), Q4; slides&docs/Lecture 4 Microplasticity (1).pdf, slide/page 9-11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pages 7 and 20"
+  },
+  {
+    "id": 588,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "Mn",
+      "austenite",
+      "austenitizing elements"
+    ],
+    "diagramRequired": false,
+    "question": "The excessive addition of Mn in steels tends at room temperature to stabilize:",
+    "options": {
+      "A": "Austenite",
+      "B": "Ferrite",
+      "C": "Pearlite",
+      "D": "Cementite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Mn is listed as a strong austenitizer after Ni; high Mn content stabilizes gamma/austenite. B is wrong because ferrite is stabilized by elements such as Cr, Si, Al, Mo, Ti and V, not excessive Mn. C is wrong because pearlite is a ferrite-plus-cementite microconstituent, not the phase directly stabilized by Mn. D is wrong because cementite is not the room-temperature phase stabilized by excessive Mn in this exam logic.",
+    "relevantTheory": "Steel alloying elements are often classified by whether they stabilize austenite or ferrite. Austenite stabilizers expand the gamma field and lower transformation temperatures; ferrite stabilizers do the opposite. Mn is important because it increases hardenability and, at sufficiently high content, can stabilize austenite even at room temperature.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Written Exam of TMM (Starts with \"Which is a fast diffusion path?\"), Q6; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 4; slides&docs/Lecture 9 Steel Heat Treatment.pdf, slide/page 11"
+  },
+  {
+    "id": 589,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "calculation",
+    "trapTags": [
+      "AISI",
+      "1060",
+      "carbon content"
+    ],
+    "diagramRequired": false,
+    "question": "What is the approximate %C in AISI 1060 steel?",
+    "options": {
+      "A": "0.10%",
+      "B": "0.6%",
+      "C": "6%",
+      "D": "0.06%"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because in the SAE/AISI 10XX plain-carbon series, the last two digits give carbon in hundredths of a percent; 1060 is about 0.60 wt% C. A is wrong because 0.10% would correspond to 1010. C is wrong because 6% C is outside the steel range and close to cast-iron/cementite-side compositions. D is wrong because 0.06% would be a very-low-carbon steel, not 1060.",
+    "relevantTheory": "AISI/SAE plain carbon steels use 10XX, where '10' indicates plain carbon steel and XX is approximately 100 times the carbon wt%. Thus 1040 is about 0.40%C, 1060 about 0.60%C, and 1095 about 0.95%C. This code is independent of any TTT figure title that may accompany an exam question.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Written Exam of TMM (Starts with \"Which is a fast diffusion path?\"), Q9; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, slide/page 9"
+  },
+  {
+    "id": 590,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "continuous production",
+      "rough mills",
+      "austenite"
+    ],
+    "diagramRequired": false,
+    "question": "In the continuous production of steels, what is the initial steel microstructure entering the rough mills?",
+    "options": {
+      "A": "Liquid metal",
+      "B": "Ferrite-cementite",
+      "C": "Austenite",
+      "D": "Mixed liquid and austenite"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because rough rolling is hot rolling after the cast strand/slab has solidified and is reheated or kept at high plastic-deformation temperature; for ordinary steels this means an austenitic hot-working condition. A is wrong because the metal has already solidified before rolling. B is wrong because ferrite-cementite is a low-temperature product, not the initial hot-rolling microstructure. D is wrong because semi-solid metal is not what enters rough mills in continuous steel rolling.",
+    "relevantTheory": "Continuous casting produces a solid strand or slab, which is straightened, reheated as needed, and rolled hot. Hot rolling is carried out at temperatures where steel is deformable and recrystallization can occur. For carbon steels, that high-temperature processing state is treated as austenitic before transformation on later cooling.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Written Exam of TMM (Starts with \"Which is a fast diffusion path?\"), Q14; slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 6-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 21"
+  },
+  {
+    "id": 591,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "DBTT",
+      "temperature",
+      "impact toughness"
+    ],
+    "diagramRequired": false,
+    "question": "Which condition is favorable for remaining on the ductile side of the ductile-to-brittle transition in metals and alloys?",
+    "options": {
+      "A": "Impact loading",
+      "B": "HCP crystal structure",
+      "C": "Triaxial stress state",
+      "D": "High temperature"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture notes state that materials brittle at low temperature can become ductile at higher temperature as more slip systems or thermally activated plasticity become available. A is wrong because impact loading raises the severity of fracture and is exactly why Charpy toughness is specified. B is wrong because HCP metals have limited slip systems at room temperature and are not the favorable ductile case. C is wrong because triaxial stress suppresses plastic flow and promotes brittle fracture.",
+    "relevantTheory": "DBTT is about whether a material absorbs energy by plastic deformation or fails by brittle fracture at a given temperature and loading condition. Lower temperature, high strain rate/impact loading, notch or triaxial stress, and limited slip systems push behavior toward brittle fracture. Higher temperature generally helps ductile behavior.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Written Exam of TMM (Starts with \"Which is a fast diffusion path?\"), Q16; slides&docs/Lecture 4 Microplasticity (1).pdf, slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 5"
+  },
+  {
+    "id": 592,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fundamentals",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "single grains",
+      "recrystallization",
+      "grain growth"
+    ],
+    "diagramRequired": false,
+    "question": "Which metallurgical process may lead to the production of metallic single grains?",
+    "options": {
+      "A": "Grain growth after recrystallization",
+      "B": "Cold rolling",
+      "C": "Recrystallization stopped at fine equiaxed grains",
+      "D": "Hot extrusion"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because after recrystallization, continued high-temperature holding can let larger grains consume smaller ones; the notes describe the limiting idea that, if growth continues, only one very large grain may remain. B is wrong because cold rolling elongates and work-hardens grains. C is wrong because stopping recrystallization at fine equiaxed grains gives many refined grains, not a single grain. D is wrong because hot extrusion shapes material and may recrystallize it, but it is not the direct process named for producing single grains.",
+    "relevantTheory": "Recrystallization replaces heavily deformed grains with new strain-free grains. If thermal exposure continues, grain growth lowers total boundary energy by allowing some grains to grow at the expense of others. Grain growth is therefore the process that can move a material toward very large grains or, in limiting special cases, single-crystal-like regions.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Written Exam of TMM (Starts with \"Which is a fast diffusion path?\"), Q17; slides&docs/Lecture 2 Metals.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 17"
+  },
+  {
+    "id": 593,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "14CrMo3",
+      "stainless steel",
+      "steel designation"
+    ],
+    "diagramRequired": false,
+    "question": "What is UNTRUE with the 14CrMo3 steel? It is:",
+    "options": {
+      "A": "Tempering steel",
+      "B": "It is a stainless steel",
+      "C": "Low alloy steel",
+      "D": "Carburizing steel"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because stainless steels require more than about 10.5% Cr with C below 1.2%; 14CrMo3 is a low-alloy Cr-Mo steel name, not stainless. A is wrong as the intended false answer because Cr-Mo low-alloy steels are part of the heat-treatment steel families discussed in the designation lecture. C is wrong because the alloy contents are below the high-alloy/stainless range, so low alloy is true. D is not the intended false answer in this professor-style designation question because low-carbon low-alloy Cr-Mo steels can be associated with case-hardening/carburizing families; the decisive impossibility is calling it stainless.",
+    "relevantTheory": "In low-alloy steel designations, the first number is nominal wt%C multiplied by 100; alloy symbols follow, and numbers after alloy symbols are converted with element factors. Stainless steel is a separate class defined by sufficient chromium for passivation, not merely by the presence of 'Cr' in the name.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Written Exam of TMM (Starts with \"Which is a fast diffusion path?\"), Q18; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, slide/page 2 and slide/page 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 4 and page 7"
+  },
+  {
+    "id": 594,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "BCC",
+      "slip plane",
+      "slip system"
+    ],
+    "diagramRequired": false,
+    "question": "The more likely slip plane in BCC crystals is:",
+    "options": {
+      "A": "(111)",
+      "B": "(100)",
+      "C": "(110)",
+      "D": "<111>"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because BCC slip commonly occurs on densely packed {110}-type planes with <111> slip directions. A is wrong because (111) is the classic close-packed plane family for FCC, not the expected BCC plane here. B is wrong because (100) is not the most likely BCC slip plane in this exam comparison. D is wrong because <111> is a direction notation, not a plane.",
+    "relevantTheory": "A slip system combines a slip plane and a slip direction. Slip is easier on planes and directions with high atomic density. The notation matters: parentheses such as (110) denote a plane, while angle brackets such as <111> denote a family of directions.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 8, 2024, Q1; slides&docs/Lecture 2 Metals.pdf, slide/page 11; slides&docs/Lecture 4 Microplasticity (1).pdf, slide/page 2"
+  },
+  {
+    "id": 595,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "pure metals",
+      "work hardening",
+      "dislocation density"
+    ],
+    "diagramRequired": false,
+    "question": "The strength in pure metals is maximized when:",
+    "options": {
+      "A": "Grain boundaries have large angle only",
+      "B": "Atoms bond via metallic and covalent bonds",
+      "C": "The radius of atoms is maximum",
+      "D": "Dislocation density is maximum"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because pure metals cannot rely on precipitates or solute atoms, so cold work/work hardening by increasing dislocation density is the main strengthening route among these choices. A is wrong because high-angle grain boundaries help polycrystalline strengthening, but boundary angle alone does not maximize strength in a pure metal. B is wrong because metallic materials are not strengthened by adding covalent bonding in this course framing. C is wrong because atomic radius by itself is not a strengthening method.",
+    "relevantTheory": "Work hardening increases strength by increasing dislocation density. As dislocations multiply and interact, their average spacing decreases and their motion becomes harder. This raises yield stress and UTS, but it reduces ductility and toughness if taken too far.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 8, 2024, Q3; slides&docs/Lecture 5 Strengthening of Metals.pdf, slide/page 5-7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 20"
+  },
+  {
+    "id": 596,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "hyper-eutectoid steel",
+      "cementite films",
+      "slow cooling"
+    ],
+    "diagramRequired": false,
+    "question": "A 1%C steel after slow cooling is brittle because:",
+    "options": {
+      "A": "Coarse cementite segregates at grain boundaries",
+      "B": "Ferrite is coarse",
+      "C": "Carbon atoms remain as isolated atoms at grain boundaries only",
+      "D": "Fine ferrite grains remove all crack paths"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because 1%C is hyper-eutectoid; on slow cooling, pro-eutectoid cementite can form films around prior austenite grain boundaries and embrittle the microstructure. B is wrong because the key brittle constituent in a 1%C slow-cooled steel is cementite, not coarse ferrite. C is wrong because carbon forms cementite rather than remaining only as isolated atoms. D is wrong because fine ferrite would improve toughness, opposite to the described brittleness.",
+    "relevantTheory": "Hyper-eutectoid steels contain more carbon than the eutectoid composition. During slow/equilibrium cooling, cementite can precipitate before pearlite forms, often as grain-boundary films. Cementite is hard and brittle; a continuous or coarse boundary network gives easy crack paths and lowers toughness.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 8, 2024, Q6; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, slide/page 5 and slide/page 9-12"
+  },
+  {
+    "id": 597,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "denting resistance",
+      "skin pass",
+      "residual stress"
+    ],
+    "diagramRequired": false,
+    "question": "Denting resistance of steel panels is enhanced by imparting a final superficial:",
+    "options": {
+      "A": "Recrystallization",
+      "B": "Carburizing treatment",
+      "C": "Small-roll cold work",
+      "D": "Large-roll cold work"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because small rolls or small reductions can impose beneficial superficial compressive residual stress, the skin-pass idea used for sheet/strip surface behavior. A is wrong because recrystallization softens and removes much of the cold-worked state. B is wrong because carburizing is a chemical surface hardening treatment for parts such as gears, not the final light operation for thin panels. D is wrong because large rolls or large reductions tend to create a different residual-stress state and are not the small superficial pass tested here.",
+    "relevantTheory": "A shallow compressive surface stress helps resist crack opening and surface indentation/denting. In rolling, roll radius and reduction control whether the surface is left in a favorable compressive state. A light skin pass or small-roll cold work can improve panel surface performance without through-thickness heavy deformation.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 8, 2024, Q15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pages 19 and 23; slides&docs/Wire Technology Process Engineering 2010.pdf, page 22"
+  },
+  {
+    "id": 598,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "phosphorus",
+      "embrittlement",
+      "carbon steels"
+    ],
+    "diagramRequired": false,
+    "question": "An embrittling element in carbon steels is:",
+    "options": {
+      "A": "Si",
+      "B": "Ni",
+      "C": "Mo",
+      "D": "P"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because phosphorus is listed as harmful and embrittling, with segregation effects that reduce ductility and impact toughness. A is wrong because silicon is commonly present as a deoxidizer/solid-solution element and is not the embrittling choice here. B is wrong because nickel is taught as improving toughness and lowering DBTT. C is wrong because molybdenum is used to fight temper embrittlement and improve high-temperature/hardenability behavior.",
+    "relevantTheory": "Small impurity additions can dominate toughness. The course repeatedly treats S and P as dangerous impurities in steels, except in special free-machining grades where they are deliberately controlled for chip breaking. Phosphorus can segregate and reduce ductility/notch impact toughness.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 8, 2024, Q16; slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 24"
+  },
+  {
+    "id": 599,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "strain hardening coefficient",
+      "Mg",
+      "HCP"
+    ],
+    "diagramRequired": false,
+    "question": "The lowest strain hardening coefficient is exhibited by:",
+    "options": {
+      "A": "Mg alloys",
+      "B": "Austenitic stainless steels",
+      "C": "Low alloy steels",
+      "D": "Al alloys"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Mg alloys are HCP and have poor room-temperature plastic deformation, so they do not show the high work-hardening capacity associated with FCC/low-SFE alloys. B is wrong because austenitic stainless steels can work harden strongly. C is wrong because low-alloy steels are not the lowest among these choices in the course comparison. D is wrong because aluminium alloys can strain harden, even if generally less than Cu or austenitic stainless steels.",
+    "relevantTheory": "The strain hardening coefficient n measures how strongly flow stress rises with plastic strain and how well necking is delayed. FCC metals and low-stacking-fault-energy alloys can store many dislocations and show high n. HCP Mg has limited independent slip at room temperature, so formability and strain hardening are low unless temperature or other mechanisms help.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 8, 2024, Q17; slides&docs/Lecture 4 Microplasticity (1).pdf, slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 11; Self-assesment questions/Self-test questions - miscellanea.pdf, page 3"
+  },
+  {
+    "id": 600,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "X8CrNi1812",
+      "stainless steel",
+      "steel designation"
+    ],
+    "diagramRequired": false,
+    "question": "What is the X8CrNi1812 alloy?",
+    "options": {
+      "A": "Tool steel",
+      "B": "Stainless steel",
+      "C": "Carburizing steel",
+      "D": "Tempering steel"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the X prefix indicates a high-alloy steel, X8 gives about 0.08%C, and CrNi1812 gives about 18% Cr and 12% Ni; the chromium content is well above the stainless threshold. A is wrong because the name does not describe the tool-steel examples in the lecture. C is wrong because carburizing steels are low-carbon low-alloy steels intended for case hardening, not 18Cr-12Ni stainless. D is wrong because tempering steels are quench-and-temper carbon/low-alloy steels, not this high-Cr-Ni austenitic stainless composition.",
+    "relevantTheory": "For high-alloy steels with at least one element above 5%, the designation begins with X. The number after X is carbon times 100, and the following numbers give nominal alloy contents directly, not multiplied by low-alloy factors. Stainless steels require sufficient chromium for passivation; Ni stabilizes austenite in the common Cr-Ni stainless family.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 8, 2024, Q18; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, slide/page 2 and slide/page 6; slides&docs/Lecture 12.pdf, slide/page 2-4"
+  },
+  {
+    "id": 601,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "recovery",
+      "recrystallization",
+      "residual stress",
+      "ductility"
+    ],
+    "diagramRequired": false,
+    "question": "Features of the recovery process: mark the UNTRUE clause.",
+    "options": {
+      "A": "marked decrease in residual stresses",
+      "B": "marked increase in ductility",
+      "C": "it starts below the recrystallization temperature",
+      "D": "dislocation annihilation and rearrangement"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is the UNTRUE clause because recovery gives only partial restoration after cold work; the marked softening and large ductility recovery belong mainly to recrystallization, when new strain-free grains form. A is true because recovery relieves stored/residual stresses. C is true because recovery begins before recrystallization. D is true because recovery involves rearrangement and partial annihilation of dislocations, lowering stored energy without replacing the deformed grain structure.",
+    "relevantTheory": "After cold work, heating can produce recovery, recrystallization and then grain growth. Recovery is the lower-temperature stage: dislocations rearrange into lower-energy configurations, some annihilate, and residual stresses are reduced. The grain shape is still largely the cold-worked one, so mechanical-property changes are moderate. Recrystallization occurs at higher temperature and forms new strain-free grains, causing the major drop in strength/hardness and the major increase in ductility. Grain growth is a later coarsening stage if time or temperature is excessive.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant A), Q2; Self-assesment questions/Test 2024.12.10.pdf, page 1; Self-assesment questions/Self-test questions - miscellanea.pdf, page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 22"
+  },
+  {
+    "id": 602,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "stainless steels",
+      "pitting corrosion",
+      "austenitic",
+      "martensitic"
+    ],
+    "diagramRequired": false,
+    "question": "Which among the listed stainless steels exhibits the highest corrosion resistance to pitting?",
+    "options": {
+      "A": "martensitic stainless steel",
+      "B": "ferritic stainless steel",
+      "C": "austenitic stainless steel",
+      "D": "N/A"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because, among the families listed in the exam options, the lecture ranks austenitic stainless steels high in corrosion resistance and discusses pitting resistance mainly through austenitic/localized corrosion indexes. A is wrong because martensitic stainless steels are explicitly limited by lower corrosion resistance, especially in chlorides, with possible pitting. B is wrong because common ferritic stainless steels sit below austenitic grades in the lecture's chemical-property ranking, even though ELI ferritic grades improve localized corrosion compared with common ferritic stainless steels. D is wrong because one of the listed families is the intended choice.",
+    "relevantTheory": "Stainless behavior comes from at least about 11.5% Cr forming a passivating chromium oxide film, but stainless families are not equivalent. Austenitic Cr-Ni steels are generally the high corrosion-resistance family in the lecture comparison. Ferritic grades can be useful and cheaper, and ELI ferritic grades improve pitting/localized resistance, but the ordinary family ranking still places austenitic grades above common ferritic and martensitic steels. Martensitic stainless steels trade corrosion resistance for high strength and hardness after quenching and are especially vulnerable to chloride pitting and stress corrosion cracking.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant A), Q4; slides&docs/Lecture 12.pdf, pages/slides 1, 3, 5, 6 and 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 19-22"
+  },
+  {
+    "id": 603,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Production",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "electric arc furnace",
+      "steel production",
+      "scrap",
+      "alloy steels"
+    ],
+    "diagramRequired": false,
+    "question": "In the production of steels, the electric arc furnace is used to:",
+    "options": {
+      "A": "melt iron ores",
+      "B": "decarburize pig iron in the BOF route",
+      "C": "de-oxidize iron ores",
+      "D": "remelt alloy steel scraps"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because Lecture 8 presents the electric furnace/direct production route as using scraps to produce alloy or special steels. A is wrong because iron ores belong to the blast-furnace/integral production route. B is wrong because decarburizing pig iron is the role of the BOF converter in primary or secondary steelmaking. C is wrong because deoxidation is a melt-purification step after decarburization and is not the same as electric-furnace remelting of scrap.",
+    "relevantTheory": "The course separates steelmaking routes by starting material. Integral production starts from minerals in the blast furnace to make pig iron, then BOF conversion removes carbon to make steel. Secondary production can use scrap plus pig iron with BOF. Direct production by electric furnace is tied to scrap remelting and is especially associated in the lecture with alloy/special steels. Do not confuse ore reduction, BOF decarburization, melt deoxidation and scrap remelting.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant A), Q15; slides&docs/Lecture 8 Modern Production of Steels.pdf, page/slide 1"
+  },
+  {
+    "id": 604,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Corrosion & SS",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "oxidation",
+      "electrode potential",
+      "nobility",
+      "galvanic series"
+    ],
+    "diagramRequired": false,
+    "question": "Which element is the most difficult to oxidize among the listed choices?",
+    "options": {
+      "A": "Zn",
+      "B": "Cu",
+      "C": "Si",
+      "D": "Sn"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because copper is the most noble of the listed metallic elements in the lecture electrode-potential table; it has the most positive potential among Zn, Sn and Cu, so it is least ready to oxidize. A is wrong because Zn has a strongly negative electrode potential and is readily anodic. C is wrong because Si is treated in steelmaking as a strong deoxidizing element with high oxygen affinity, not as difficult to oxidize. D is wrong because Sn is less noble than Cu in the lecture table.",
+    "relevantTheory": "Oxidation of a metal corresponds to losing electrons and becoming ionic. In galvanic or corrosion ranking, less noble elements are more easily anodic and oxidize more readily, while more noble elements resist oxidation relative to them. The lecture's standard electrode-potential table places Cu at a positive potential, while Zn and Sn are negative; the steel-production lecture also uses Si, Mn and Al as oxygen-affinity/deoxidizing elements. Therefore Cu is the safest exam answer for difficult-to-oxidize among Zn, Cu, Si and Sn.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant B), Q4; slides&docs/Lecture 11 Corrosion.pdf, pages/slides 5-6; slides&docs/Lecture 8 Modern Production of Steels.pdf, page/slide 4"
+  },
+  {
+    "id": 605,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "Mn",
+      "eutectoid carbon",
+      "pearlite fraction",
+      "Fe-C alloying"
+    ],
+    "diagramRequired": false,
+    "question": "Mn influences the carbon content of the eutectoid point, CE. For the same hypoeutectoid steel composition, with increasing Mn the percentage of pearlite:",
+    "options": {
+      "A": "increases",
+      "B": "decreases",
+      "C": "drops to zero",
+      "D": "increases directly to 100% for any carbon content"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture chart shows Mn lowering the eutectoid carbon content CE; for a fixed hypoeutectoid carbon level, lowering CE moves the alloy closer to the eutectoid composition and increases the pearlite fraction. B is wrong because it reverses the lever-rule effect of a lower CE. C is wrong because pearlite does not disappear simply because Mn is added. D is too absolute: pearlite can increase strongly and may approach 100% only when the fixed carbon content reaches the shifted eutectoid composition; it is not automatically 100% for every steel.",
+    "relevantTheory": "In a plain hypoeutectoid steel, final slow-cooled microstructure is pro-eutectoid ferrite plus pearlite, and pearlite fraction grows as the carbon content approaches the eutectoid composition. Alloying elements shift both A1 and CE. Mn is a strong austenitizing element and the Lecture 6 A1-CE chart shows CE decreasing with Mn. If the steel's original carbon content is held constant while CE decreases, the ratio used for the ferrite/pearlite lever-rule calculation gives a larger pearlite fraction and a smaller pro-eutectoid ferrite fraction.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant B), Q10; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pages/slides 4-5 and 9-10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, page 20"
+  },
+  {
+    "id": 606,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "TTT",
+      "nucleation rate",
+      "undercooling",
+      "diffusion"
+    ],
+    "diagramRequired": false,
+    "question": "In a TTT transformation range, when the transformation temperature is decreased from just below A1, the nucleation rate generally:",
+    "options": {
+      "A": "increases",
+      "B": "decreases",
+      "C": "does not change",
+      "D": "is N/A"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct in the professor's TTT wording because decreasing the transformation temperature increases undercooling and the driving force for nucleation, so more nuclei form and the microstructure tends to become finer. B is wrong for the usual exam contrast between nucleation and diffusion-controlled growth; growth/diffusion becomes harder at lower temperature, but nucleation tendency is promoted by undercooling. C is wrong because transformation kinetics depend strongly on temperature. D is wrong because nucleation rate is one of the basic phenomena behind TTT curves.",
+    "relevantTheory": "TTT curves reflect nucleation plus growth. Lower temperature below the eutectoid temperature gives larger undercooling, increasing the thermodynamic driving force and therefore the tendency to form many nuclei. At the same time, atomic diffusion becomes slower, which limits growth. The overall transformation rate therefore has a maximum at an intermediate temperature, but the basic exam trap is that nucleation tendency increases with undercooling while diffusion-controlled growth becomes slower.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant B), Q11; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 17-19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 1-3"
+  },
+  {
+    "id": 607,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "bainite",
+      "CCT",
+      "austempering",
+      "tempered martensite"
+    ],
+    "diagramRequired": false,
+    "question": "What is NOT a distinct feature of bainite?",
+    "options": {
+      "A": "it can give a strength-toughness compromise comparable with tempered martensite",
+      "B": "it has a fine, highly resolved microstructure",
+      "C": "100% bainite is normally attained upon ordinary continuous cooling",
+      "D": "it forms by a transformation involving ferrite and carbides rather than a fully diffusionless martensitic reaction"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the NOT feature because the notes stress that bainite is difficult to obtain completely by continuous cooling; ordinary CCT paths often give mixed products depending on the time spent in each region. A is true because the lecture calls bainite an excellent alternative to tempered martensite for hardness and an optimum strength-toughness tradeoff. B is true because the notes describe bainite as a smaller, more detailed or highly resolved microstructure. D is true because bainite is ferrite plus carbide/acicular products and is not the same as diffusionless martensite.",
+    "relevantTheory": "Bainite forms between pearlite and martensite ranges. Upper bainite is coarser and forms at higher temperature; lower bainite is finer and stronger at lower temperature. It is made of ferrite plus carbides, often acicular or rod-like, and it can provide high hardness with better toughness than untempered martensite. To obtain mostly bainite, austempering or a suitable isothermal hold is often used; continuous cooling can pass through several transformation regions and produce ferrite, pearlite, bainite, martensite and retained austenite mixtures depending on the path.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant B), Q14; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pages/slides 5, 7 and 19; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-131-160.pdf, pages 4-5, 10-11 and 16"
+  },
+  {
+    "id": 608,
+    "deck": "question-bank",
+    "moduleId": null,
+    "section": "Plasticity",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "recovery",
+      "grain growth",
+      "recrystallization",
+      "dislocation density"
+    ],
+    "diagramRequired": false,
+    "question": "Which is NOT an effect of recovery?",
+    "options": {
+      "A": "lower residual stress",
+      "B": "reduction in dislocation density",
+      "C": "little or no replacement of the deformed grain structure",
+      "D": "grain growth"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is the NOT effect because grain growth is a later stage after recrystallization, not recovery. A is a recovery effect because stored and residual stresses are relieved. B is a recovery effect because some dislocations annihilate or rearrange into lower-energy structures. C is also characteristic of recovery: the deformed microstructure is not replaced by new strain-free grains, which is why recovery is less dramatic than recrystallization.",
+    "relevantTheory": "Recovery, recrystallization and grain growth should be kept separate. Recovery reduces stored energy mainly by dislocation rearrangement and stress relief, while preserving much of the cold-worked grain morphology. Recrystallization nucleates new strain-free grains, giving major softening and ductility restoration. Grain growth comes after recrystallization if heating continues, reducing grain-boundary area and often lowering strength by coarsening the microstructure.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant B), Q15; Self-assesment questions/Test 2024.12.10.pdf, page 1; Self-assesment questions/Self-test questions - miscellanea.pdf, page 2; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, page 22"
+  },
+  {
+    "id": 609,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Fe-C & Steels",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "unalloyed steel",
+      "alloyed steel",
+      "EN 10020"
+    ],
+    "diagramRequired": false,
+    "question": "According to the course logic for steel classification, when is a steel treated as alloyed rather than unalloyed?",
+    "options": {
+      "A": "Only when carbon exceeds the eutectoid composition.",
+      "B": "When at least one intentional alloying element exceeds its specified limit value.",
+      "C": "Only when chromium is above the stainless-steel threshold.",
+      "D": "Whenever the steel is heat treated after rolling."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the EN-style classification separates unalloyed and alloyed steels by concentration limits for alloying elements: if at least one element exceeds its limit, the steel is alloyed. A is wrong because carbon content classifies hypo-/hyper-eutectoid behavior, not the alloyed/unalloyed boundary. C is too narrow: stainless steels are one special high-chromium family, not the whole alloyed class. D confuses processing route with chemical classification.",
+    "relevantTheory": "Steel classification in this course must be read from the criterion being used. Chemical classification asks whether alloying elements exceed defined limits; application/property designations and heat-treatment families are separate systems. A common exam trap is to treat every number or treatment name as a composition criterion.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 3; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf"
+  },
+  {
+    "id": 610,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Fe-C & Steels",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "application",
+    "trapTags": [
+      "ferrous alloys",
+      "advantages",
+      "limitations"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best explains why ferrous alloys are used so extensively, while still recognizing one important limitation?",
+    "options": {
+      "A": "They are widely used because iron is abundant, steels are economical to process, and heat treatment/alloying gives a wide property range; corrosion can still limit use.",
+      "B": "They are widely used mainly because all ferrous alloys are naturally stainless in ordinary atmospheres.",
+      "C": "They are widely used because they cannot be strengthened, so their properties remain constant after manufacturing.",
+      "D": "They are widely used only for low-strength components because carbon always makes iron softer."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the course emphasizes the economic availability of iron, the broad processability of steels, and the ability to tune properties through composition, plastic deformation and heat treatment, while also noting limits such as corrosion and density. B is wrong because ordinary steels corrode unless protected or made stainless. C is wrong because steels are highly strengthen-able. D reverses the role of carbon and ignores high-strength steel families.",
+    "relevantTheory": "Ferrous alloys dominate engineering because cost, processability, recyclability and property tunability are favorable. Their limits include corrosion resistance, density/specific property penalties, and embrittlement or weldability problems when composition and processing are poorly selected.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 1"
+  },
+  {
+    "id": 611,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Heat Treatment",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "cold work",
+      "heat treatment",
+      "carbon content"
+    ],
+    "diagramRequired": false,
+    "question": "For steels, what is the most correct comparison between strengthening by cold work and strengthening by heat treatment?",
+    "options": {
+      "A": "Cold work and heat treatment both strengthen only by adding more carbon to the steel.",
+      "B": "Cold work is useful mainly because it removes dislocations, while quenching strengthens by recrystallization.",
+      "C": "Cold work strengthens by increasing defect density but reduces ductility; heat treatment can form martensite/bainite only when composition and hardenability are suitable.",
+      "D": "Heat treatment always improves toughness and ductility without increasing hardness."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because cold work raises strength through dislocation interactions and stored strain energy, usually at the expense of ductility, while steel heat treatment relies on austenitization and transformation products whose effectiveness depends strongly on carbon and alloying/hardenability. A is wrong because cold work does not add carbon. B reverses the mechanisms: recovery/recrystallization remove cold-work effects, while quenching suppresses diffusional transformation. D is too absolute; quenching can create hard but brittle martensite unless tempered.",
+    "relevantTheory": "Cold work is a deformation-based strengthening route. Heat treatment is a phase-transformation route in steels. Low-carbon steels may cold form and weld well but harden less by martensite; higher carbon and alloying increase hardenability but also increase cracking and toughness risks.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 1"
+  },
+  {
+    "id": 612,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Fe-C & Steels",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "MnS",
+      "oxide inclusions",
+      "anisotropy"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement correctly compares MnS inclusions with oxide inclusions in steels?",
+    "options": {
+      "A": "Both are always beneficial because all inclusions increase transverse impact toughness.",
+      "B": "Oxides are soft and plastic, whereas MnS inclusions are always hard ceramic particles.",
+      "C": "MnS inclusions are the chromium-rich particles responsible for stainless passivation.",
+      "D": "MnS is relatively soft/plastic and may aid machinability but can elongate into stringers; oxides are harder, brittle inclusions that act as crack initiators."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the course distinguishes soft-plastic sulfide inclusions from hard-brittle oxide inclusions. MnS can improve machinability by chip breaking, but elongated sulfide stringers reduce transverse ductility and impact energy. A is wrong because inclusions generally damage toughness, especially when elongated or brittle. B swaps the mechanical character. C confuses inclusions with chromium oxide passivation in stainless steels.",
+    "relevantTheory": "Inclusions matter not only by chemistry but also by shape, hardness and distribution. Hard brittle inclusions promote crack initiation; soft elongated inclusions create anisotropy and poor transverse properties. Inclusion shape control improves toughness by reducing stress concentration.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 1; Self-assesment questions/self-assessment questions Shaping by melting.pdf, page 2"
+  },
+  {
+    "id": 613,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Heat Treatment",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "hardness",
+      "hardenability",
+      "Jominy"
+    ],
+    "diagramRequired": false,
+    "question": "In the Jominy-end-quench interpretation, what is the difference between hardness and hardenability?",
+    "options": {
+      "A": "Hardness is resistance to indentation; hardenability is the ability to form hard martensitic structure to a given depth or cooling severity.",
+      "B": "Hardness is the depth of the hardened layer; hardenability is the surface indentation number.",
+      "C": "Hardness and hardenability are identical, so one value at the quenched end is enough.",
+      "D": "Hardenability means corrosion resistance after quenching."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because hardness is a local mechanical measurement, while hardenability describes how far hard transformation products are obtained from the quenched surface or along the Jominy distance. B reverses the definitions. C is wrong because two steels can have similar quenched-end hardness but very different hardness retention with distance. D invents a corrosion meaning that is not used in the heat-treatment context.",
+    "relevantTheory": "The Jominy test exposes one specimen to a cooling-rate gradient. The hardness curve versus distance shows hardenability: shallow-hardening steels drop rapidly, while highly hardenable steels keep high hardness farther from the quenched end.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 1"
+  },
+  {
+    "id": 614,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Heat Treatment",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "hardenability",
+      "TTT",
+      "critical cooling rate"
+    ],
+    "diagramRequired": false,
+    "question": "How does increased hardenability affect transformation kinetics during steel cooling?",
+    "options": {
+      "A": "It shifts diffusional transformation to shorter times, making martensite formation harder.",
+      "B": "It delays ferrite/pearlite/bainite transformations, lowering the critical cooling rate needed to obtain martensite through thicker sections.",
+      "C": "It removes the need for austenitization before quenching.",
+      "D": "It changes ferrite into cementite at room temperature without any cooling-rate effect."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because alloying elements that increase hardenability generally retard diffusional transformations, so a slower quench can still miss the ferrite/pearlite region and form martensite. A is the opposite. C is wrong because martensitic heat treatment still starts from austenite. D is not a meaningful heat-treatment mechanism.",
+    "relevantTheory": "Hardenability is crucial for thick or complex steel parts because the core cools more slowly than the surface. A hardenable steel can transform to martensite deeper inside the part, improving through-section strength but also increasing the need to control cracking and tempering.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 1; Self-assesment questions/Self-test questions - miscellanea.pdf, page 1"
+  },
+  {
+    "id": 615,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Fe-C & Steels",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "eutectoid",
+      "pearlite",
+      "Fe-C"
+    ],
+    "diagramRequired": false,
+    "question": "For the Fe-C system used in the course, which composition and transformation describe the eutectoid point in steel?",
+    "options": {
+      "A": "0.022%C, ferrite turns into cementite.",
+      "B": "4.3%C, liquid turns into austenite plus cementite.",
+      "C": "0.76%C, austenite transforms into ferrite plus cementite, normally as pearlite under slow cooling.",
+      "D": "6.67%C, cementite transforms into liquid iron."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the eutectoid composition is about 0.76%C and the solid-state reaction is austenite decomposing into ferrite plus cementite; the lamellar aggregate is pearlite. A gives the maximum carbon solubility in ferrite, not the eutectoid composition. B describes the eutectic carbon level, not the eutectoid. D gives cementite stoichiometry and an impossible statement.",
+    "relevantTheory": "Do not mix the key Fe-C numbers: ferrite holds only about 0.022%C, eutectoid steel is around 0.76%C, the steel/cast-iron boundary is around 2.14%C, the eutectic is around 4.3%C, and cementite is Fe3C with 6.67%C.",
+    "source": "Self-assesment questions/2024.12.19 Test.pdf, pages 1-3"
+  },
+  {
+    "id": 616,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Production",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "blast furnace",
+      "CO",
+      "limestone"
+    ],
+    "diagramRequired": false,
+    "question": "In the blast furnace route, which statement best describes the roles of coke-derived CO and limestone?",
+    "options": {
+      "A": "CO is the main reducing gas for iron oxides, while limestone decomposes to CaO and helps form slag with acidic impurities.",
+      "B": "CO is added only to cool the furnace, while limestone supplies all the iron atoms.",
+      "C": "Limestone is the main fuel and coke is used only as a chromium source.",
+      "D": "CO oxidizes metallic iron back to ore so that steel can be cast directly."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because coke combustion/gasification produces CO, which reduces iron oxides, and limestone produces CaO, which combines with gangue impurities into slag. B is wrong because CO is chemically reducing, not simply cooling, and limestone is a flux. C swaps fuel and flux. D reverses the desired reduction process.",
+    "relevantTheory": "Ironmaking separates oxygen and impurities from ore before steelmaking. Coke supplies heat, carbon and reducing gas; limestone fluxes impurities; the output is carbon-rich hot metal/pig iron that is then refined in steelmaking.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, pages 1-2"
+  },
+  {
+    "id": 617,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Production",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "pig iron",
+      "steel production",
+      "melting point"
+    ],
+    "diagramRequired": false,
+    "question": "Why does the integral steel route produce pig iron first rather than directly producing low-carbon steel in the blast furnace?",
+    "options": {
+      "A": "Because carbon-rich hot metal has a lower melting temperature and is the natural product of reducing iron ore with coke; refining to steel is then done separately.",
+      "B": "Because pig iron is always tougher and more ductile than steel, so no further refining is needed.",
+      "C": "Because the blast furnace removes all carbon and sulfur more completely than any steelmaking furnace.",
+      "D": "Because steel cannot be cast after it has been decarburized."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the blast furnace operates with coke and reducing conditions, producing carbon-rich liquid iron that melts and flows more readily; steelmaking then adjusts carbon and impurities. B is wrong because pig iron is high-carbon and brittle. C is wrong because BOF/secondary metallurgy are needed to remove or adjust carbon, oxygen, sulfur, hydrogen and other impurities. D is false because steel is routinely continuously cast.",
+    "relevantTheory": "Ironmaking and steelmaking are separated because ore reduction, melting, impurity removal and composition adjustment require different chemical conditions. The blast furnace makes hot metal; BOF/EAF and secondary metallurgy convert it to controlled steel grades.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 2"
+  },
+  {
+    "id": 618,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Production",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "BOF",
+      "decarburization",
+      "basic slag"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main function of the BOF/basic oxygen steelmaking step after blast-furnace ironmaking?",
+    "options": {
+      "A": "To add carbon until the melt becomes cast iron.",
+      "B": "To blow oxygen into hot metal so carbon and other oxidizable impurities are reduced to controlled steel levels with a basic slag.",
+      "C": "To form pearlite directly from liquid steel without solidification.",
+      "D": "To convert stainless steel into aluminum alloy."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because BOF uses oxygen blowing to oxidize carbon and impurities from hot metal, while basic slag helps capture unwanted oxides and elements. A is the opposite: carbon is lowered, not raised to cast-iron level. C confuses steelmaking with solid-state transformation after solidification. D is chemically unrelated.",
+    "relevantTheory": "Steel production is a process chain: iron ore is reduced to hot metal, then oxygen steelmaking decarburizes and refines it, then secondary metallurgy fine-tunes cleanliness, gases, inclusions and alloy content before casting.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 2; Self-assesment questions/TMM Questions 2024.11.28.pdf, page 6"
+  },
+  {
+    "id": 619,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Production",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "sulfur",
+      "desulfurization",
+      "hot shortness"
+    ],
+    "diagramRequired": false,
+    "question": "Why is sulfur usually detrimental in steels, and how is its content commonly reduced in the melt?",
+    "options": {
+      "A": "Sulfur improves all transverse toughness, so it is reduced only to increase corrosion.",
+      "B": "Sulfur is harmful because it can form low-melting or elongated sulfide effects that damage hot workability and toughness; basic desulfurizing slag/treatment transfers sulfur out of the steel.",
+      "C": "Sulfur is removed by adding more oxygen until every inclusion becomes MnS.",
+      "D": "Sulfur is the main element used to form the stainless passivating film, so it is never removed."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because sulfur is treated as harmful to hot ductility, toughness and weldability except in controlled free-machining grades; steelmaking uses basic slag or ladle treatments to lower sulfur. A is the opposite of the transverse toughness warning. C is wrong because uncontrolled oxidation creates oxide inclusions and does not describe desulfurization. D confuses sulfur with chromium passivation.",
+    "relevantTheory": "Small impurity contents can dominate steel performance. Sulfur and phosphorus are classic harmful elements; sulfur may be deliberately controlled for machinability, but that is a trade-off against ductility and impact properties, especially in directions transverse to elongated inclusions.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 2"
+  },
+  {
+    "id": 620,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Production",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "VOD",
+      "AOD",
+      "stainless steel"
+    ],
+    "diagramRequired": false,
+    "question": "Why are VOD and AOD especially important in stainless-steel production?",
+    "options": {
+      "A": "They make stainless steel by removing all chromium from the melt.",
+      "B": "They are rolling operations used only to create pearlite.",
+      "C": "They decarburize/refine the melt while limiting chromium oxidation losses, using vacuum or argon dilution to control carbon and oxygen reactions.",
+      "D": "They are surface-hardening treatments performed after final machining."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because VOD and AOD are secondary/refining routes used for stainless steels where carbon must be lowered without losing excessive chromium to oxidation. A is wrong because chromium must be retained for passivation. B confuses steel refining with rolling and transformations. D confuses melt refining with surface treatment.",
+    "relevantTheory": "Stainless steels require high chromium and controlled carbon. Refining must remove carbon and gases while preserving alloy chemistry. Vacuum and argon-assisted processes shift gas reactions and reduce unwanted oxidation losses.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 2"
+  },
+  {
+    "id": 621,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Production",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "deoxidation",
+      "hydrogen",
+      "nitrogen"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best matches the course treatment of dissolved gases and deoxidation in steelmaking?",
+    "options": {
+      "A": "Hydrogen can cause cracking/embrittlement and is removed by degassing; strong deoxidizers such as Al or Si tie up oxygen but can create oxide inclusions if cleanliness is not controlled.",
+      "B": "Hydrogen is intentionally retained because it always improves toughness in quenched steels.",
+      "C": "Deoxidation means adding oxygen until the steel contains no inclusions.",
+      "D": "Nitrogen is harmless in every steel because it cannot interact with dislocations or alloying elements."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the self-assessment asks about hydrogen removal, deoxidizing elements and the consequences of deoxidation products. B is wrong because hydrogen is dangerous for cracking/embrittlement. C reverses deoxidation and ignores oxide inclusion formation. D is too absolute; nitrogen can be harmful in some steels and can interact with strain aging or nitride-forming elements.",
+    "relevantTheory": "Secondary metallurgy controls both chemistry and cleanliness. Removing dissolved gases and oxygen improves reliability, but the products of deoxidation and desulfurization must also be controlled because inclusions affect toughness, fatigue and anisotropy.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 2"
+  },
+  {
+    "id": 622,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Heat Treatment",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "tempering",
+      "martensite",
+      "toughness"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main effect of tempering a previously quenched steel?",
+    "options": {
+      "A": "It converts all steel into liquid so carbon can evaporate.",
+      "B": "It makes martensite harder and more brittle without any microstructural change.",
+      "C": "It keeps austenite stable at room temperature by increasing carbon solubility in ferrite.",
+      "D": "It relieves stresses and allows carbon redistribution/precipitation, lowering excessive brittleness while adjusting hardness and toughness."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because tempering quenched martensite reduces internal stresses and brittleness while allowing controlled carbide precipitation and toughness recovery, depending on temperature/time. A is absurd and not heat treatment. B is wrong because tempering normally reduces as-quenched brittleness and changes microstructure. C confuses austenite stabilization with tempering mechanisms.",
+    "relevantTheory": "Quenching creates hard martensite but also high stresses and low toughness. Tempering is the follow-up heat treatment that balances strength and toughness for service. The chosen tempering conditions depend on the required hardness, impact behavior and resistance to embrittlement.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 1"
+  },
+  {
+    "id": 623,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Fe-C & Steels",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "AISI",
+      "carbon content",
+      "4140"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI/SAE designation AISI 4140, what is the nominal carbon content and alloy family indicated by the code?",
+    "options": {
+      "A": "About 0.40%C in a Cr-Mo low-alloy steel family.",
+      "B": "About 4.0%C in a plain cast iron.",
+      "C": "About 0.14%C in a stainless 40% Cr steel.",
+      "D": "About 41%C and 40% Mo."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because in AISI/SAE steels the last two digits give carbon in hundredths of a percent, so 40 means about 0.40%C, and 41xx is a Cr-Mo family. B reads the last digits as direct percent and moves into cast-iron range. C mixes AISI with EN X-grade stainless logic. D is chemically impossible for steel.",
+    "relevantTheory": "AISI/SAE four-digit steel codes use the first digits for alloy family and the last two for approximate carbon content in hundredths of a percent. This differs from EN chemical designations, where carbon and alloy elements use different multipliers depending on the grade family.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 3; Self-assesment questions/Self-assessment questions on steels (2).pdf, page 1"
+  },
+  {
+    "id": 624,
+    "deck": "self-assessment",
+    "moduleId": "self-steels",
+    "section": "Fe-C & Steels",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "EN designation",
+      "C25",
+      "42CrMoS4"
+    ],
+    "diagramRequired": false,
+    "question": "Which decoding follows the EN-style chemical designation rules used in the course?",
+    "options": {
+      "A": "C25 means about 25%C and no iron.",
+      "B": "42CrMoS4 means 42%C and 4% sulfur.",
+      "C": "C25 means about 0.25%C; in 42CrMoS4, 42 means about 0.42%C and the alloy-number must be read with element-specific factors.",
+      "D": "Any grade containing Cr must automatically be stainless steel."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because C25 is a plain-carbon/unalloyed designation with carbon multiplied by 100, and low-alloy grades such as 42CrMoS4 also begin with carbon multiplied by 100 while alloy numbers are scaled by factors. A and B read carbon as direct percent, impossible for steels. D is wrong because stainless behavior requires sufficiently high chromium, not merely the presence of Cr in a low-alloy grade.",
+    "relevantTheory": "For EN chemical designations, first identify the family. Plain carbon Cxx grades use xx = 100 x wt%C. Low-alloy grades use the first number for carbon and scaled numbers for alloying elements. High-alloy X grades use direct nominal alloy percentages after the element symbols.",
+    "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 3; Self-assesment questions/Self-assessment questions on steels (2).pdf, page 1"
+  },
+  {
+    "id": 625,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "plastic deformation",
+      "elastic deformation"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best defines plastic deformation in a crystalline metal?",
+    "options": {
+      "A": "A reversible deformation that disappears completely after unloading.",
+      "B": "An irreversible deformation that remains after unloading, usually carried by dislocation motion and related mechanisms.",
+      "C": "A change only in elastic modulus with no change in shape.",
+      "D": "A thermal expansion effect that occurs only above the melting point."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because plastic deformation is permanent after the load is removed and, in crystalline metals, is mainly enabled by dislocation motion, with twinning possible in specific cases. A describes elastic deformation. C confuses plastic strain with an intrinsic elastic property. D confuses mechanical deformation with thermal expansion and melting.",
+    "relevantTheory": "Elastic deformation is recoverable; plastic deformation is permanent. In metals, plasticity usually begins when resolved shear stress activates dislocation glide on favorable slip systems. This is why crystal structure, dislocation density, obstacles and temperature control formability and strengthening.",
+    "source": "Self-assesment questions/Test 2024.12.10.pdf, page 1; Self-assesment questions/self-assessment questions on Strengthening.pdf, page 1"
+  },
+  {
+    "id": 626,
+    "deck": "self-assessment",
+    "moduleId": "self-strengthening",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "work hardening",
+      "dislocations"
+    ],
+    "diagramRequired": false,
+    "question": "What is the primary microscopic cause of cold work hardening?",
+    "options": {
+      "A": "Diffusion removes all dislocations from the metal.",
+      "B": "The elastic modulus increases because atoms become heavier.",
+      "C": "Dislocation density rises and dislocations increasingly obstruct one another.",
+      "D": "Grain size becomes infinitely large during deformation."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because cold work increases dislocation density and dislocation interactions, making further slip more difficult and raising strength/hardness. A is the opposite of cold work; diffusion-driven recovery reduces stored defects. B is wrong because elastic modulus is not the main variable changed by work hardening. D is wrong because grain growth is not the cause of cold work hardening.",
+    "relevantTheory": "Most strengthening methods share one common feature: they make dislocation motion more difficult. Cold work does this by multiplying dislocations and creating interactions, tangles and internal stresses. The price is usually lower ductility and reduced ability to absorb further plastic strain.",
+    "source": "Self-assesment questions/Test 2024.12.10.pdf, pages 1-2; Self-assesment questions/self-assessment questions on Strengthening.pdf, pages 1 and 3"
+  },
+  {
+    "id": 627,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "recovery",
+      "recrystallization",
+      "cold work"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main difference between recovery and recrystallization after cold work?",
+    "options": {
+      "A": "Recovery forms new strain-free grains, while recrystallization only changes electrical resistivity.",
+      "B": "Recovery occurs only after melting, while recrystallization occurs only below room temperature.",
+      "C": "Recovery reduces internal stresses and rearranges defects without replacing the deformed grains; recrystallization nucleates and grows new strain-free grains.",
+      "D": "Both processes increase dislocation density and make the metal less ductile."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because recovery is partial defect rearrangement/annihilation, whereas recrystallization creates new low-dislocation grains and strongly softens the cold-worked microstructure. A swaps the definitions. B is physically wrong because both are solid-state annealing phenomena. D is the opposite of the usual softening effect.",
+    "relevantTheory": "After cold work, stored energy in the dislocation structure drives annealing. Recovery restores some physical properties and lowers residual stress. Recrystallization more strongly restores ductility by replacing distorted grains with new strain-free grains, followed by possible grain growth at long times.",
+    "source": "Self-assesment questions/Test 2024.12.10.pdf, page 1; Self-assesment questions/Self-test questions - miscellanea.pdf, pages 1-2"
+  },
+  {
+    "id": 628,
+    "deck": "self-assessment",
+    "moduleId": "self-strengthening",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "strain aging",
+      "Cottrell atmosphere",
+      "solute diffusion"
+    ],
+    "diagramRequired": false,
+    "question": "Which explanation correctly describes strain aging in steels or alloys with mobile solute atoms?",
+    "options": {
+      "A": "It is softening caused only by grain growth after melting.",
+      "B": "It is corrosion damage caused by oxygen at the surface.",
+      "C": "It is the instant disappearance of all dislocations during cold work.",
+      "D": "It is strengthening and loss of smooth plastic flow caused by solute atoms diffusing to and pinning dislocations."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because strain aging involves solute atoms such as C or N interacting with dislocations, forming Cottrell atmospheres that pin dislocations and raise the stress needed for further plastic flow. A confuses strain aging with grain growth. B confuses it with corrosion. C is wrong because dislocations are not eliminated by cold work; they are generated and then can be pinned.",
+    "relevantTheory": "Strain aging links diffusion and plasticity. Solute atoms are attracted to strained regions around dislocations; pinning produces yield-point effects, reduced ductility and sometimes dynamic strain aging when diffusion occurs during deformation.",
+    "source": "Self-assesment questions/Test 2024.12.10.pdf, page 1; Self-assesment questions/self-assessment questions on Strengthening.pdf, page 3"
+  },
+  {
+    "id": 629,
+    "deck": "self-assessment",
+    "moduleId": "self-strengthening",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "dynamic strain aging",
+      "temperature",
+      "strain rate"
+    ],
+    "diagramRequired": false,
+    "question": "Which condition most favors dynamic strain aging?",
+    "options": {
+      "A": "A temperature/strain-rate window where solute diffusion is fast enough to catch moving dislocations during deformation.",
+      "B": "Absolute zero, where solute atoms cannot diffuse at all.",
+      "C": "A perfectly pure crystal with no solute atoms and no dislocations.",
+      "D": "A fully liquid metal above the melting temperature."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because dynamic strain aging needs both plastic deformation and solute diffusion on a comparable time scale, so it appears in a suitable temperature and strain-rate range. B is wrong because diffusion is frozen. C removes the solute-dislocation interaction needed for aging. D is outside crystalline plastic deformation.",
+    "relevantTheory": "Dynamic strain aging is not simply high temperature or low temperature. It occurs when dislocations move while solute atoms can diffuse and re-pin them. This can cause serrated flow, reduced ductility and localized deformation.",
+    "source": "Self-assesment questions/Test 2024.12.10.pdf, page 2; Self-assesment questions/self-assessment questions on Strengthening.pdf, page 3"
+  },
+  {
+    "id": 630,
+    "deck": "self-assessment",
+    "moduleId": "self-plastic-deformation",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "hot forming",
+      "recrystallization",
+      "flow stress"
+    ],
+    "diagramRequired": false,
+    "question": "When is hot forming preferred in industrial shaping of metals and alloys?",
+    "options": {
+      "A": "When maximum surface finish and tight final tolerance are the only goals.",
+      "B": "When large deformation is required and lower flow stress, recovery/recrystallization, and reduced cracking risk are more important than cold-worked surface/tolerance advantages.",
+      "C": "Only when no microstructural changes are allowed during deformation.",
+      "D": "Only for brittle ceramics, never for metallic alloys."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because hot forming exploits thermally activated softening, recovery and recrystallization, allowing large shape changes at lower loads. A better describes cold finishing advantages. C is wrong because hot forming deliberately uses microstructural evolution. D is wrong because hot rolling/forging are standard metalworking processes.",
+    "relevantTheory": "Hot forming trades dimensional precision and surface quality for formability and lower forming load. Dynamic recovery and recrystallization can remove stored strain energy during deformation, refine grains and reduce residual stresses if temperature, strain and strain rate are controlled.",
+    "source": "Self-assesment questions/self-assessment questions on shaping by plastic deformation.pdf, page 1"
+  },
+  {
+    "id": 631,
+    "deck": "self-assessment",
+    "moduleId": "self-plastic-deformation",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "strain-rate sensitivity",
+      "superplasticity",
+      "necking"
+    ],
+    "diagramRequired": false,
+    "question": "What is the role of the strain-rate sensitivity coefficient in forming?",
+    "options": {
+      "A": "A higher value helps stabilize plastic flow and delays necking because faster-straining regions harden in rate terms relative to slower regions.",
+      "B": "It measures density, so it affects only component weight.",
+      "C": "It is the carbon percentage in steel designation.",
+      "D": "It must be zero for superplastic forming."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because positive strain-rate sensitivity stabilizes deformation: a local neck that strains faster experiences higher flow stress, which resists localization. B is unrelated. C confuses a forming parameter with steel designation. D is the opposite: superplastic forming requires high strain-rate sensitivity, along with fine grains and suitable temperature/strain rate.",
+    "relevantTheory": "Formability depends on resistance to strain localization. Strain hardening coefficient n and strain-rate sensitivity m both delay necking in different ways. High m is especially important for superplasticity, where very large elongations are possible under controlled hot-forming conditions.",
+    "source": "Self-assesment questions/self-assessment questions on shaping by plastic deformation.pdf, pages 1-2"
+  },
+  {
+    "id": 632,
+    "deck": "self-assessment",
+    "moduleId": "self-plastic-deformation",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "recrystallization",
+      "grain size",
+      "prior strain"
+    ],
+    "diagramRequired": false,
+    "question": "Why does the final recrystallized grain size generally decrease when prior straining is increased?",
+    "options": {
+      "A": "More prior strain stores more energy and creates more nucleation sites, so more new grains nucleate and the final recrystallized grain size is finer.",
+      "B": "More prior strain removes all grain boundaries before annealing begins.",
+      "C": "More prior strain prevents nucleation, so one giant grain consumes the material.",
+      "D": "Prior strain affects only color, not microstructure."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because cold/hot deformation raises stored energy and defect density, which increases the driving force and number of sites for recrystallization nucleation. B is wrong because deformation creates distorted grains and boundaries, not a boundary-free crystal. C is the opposite of the usual effect. D ignores the central microstructural role of deformation.",
+    "relevantTheory": "Recrystallized grain size is controlled by deformation amount, temperature, time and particle/solute effects. Higher prior strain usually produces finer recrystallized grains because many nuclei form before grain growth can dominate.",
+    "source": "Self-assesment questions/self-assessment questions on shaping by plastic deformation.pdf, page 1; Self-assesment questions/Self-test questions - miscellanea.pdf, page 2"
+  },
+  {
+    "id": 633,
+    "deck": "self-assessment",
+    "moduleId": "self-plastic-deformation",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "hot rolling",
+      "hot forging",
+      "product shape"
+    ],
+    "diagramRequired": false,
+    "question": "When is hot forging favored over hot rolling?",
+    "options": {
+      "A": "When a long flat plate with uniform thickness is the only desired product.",
+      "B": "When complex three-dimensional shape, local material flow, and tailored grain-flow direction are more important than producing simple strip or plate.",
+      "C": "When no compressive deformation is allowed.",
+      "D": "When the material must remain below recrystallization temperature at all times."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because forging is chosen for shaped parts where controlled material flow and mechanical property direction can be valuable. A describes rolling better. C is wrong because forging is based on compressive deformation. D contradicts hot forging, which is performed at elevated temperature to improve formability.",
+    "relevantTheory": "Rolling is efficient for plates, sheets and sections; forging is chosen for shaped components and property control through flow lines. Both can be hot processes, but their product geometry and deformation state differ.",
+    "source": "Self-assesment questions/self-assessment questions on shaping by plastic deformation.pdf, page 1"
+  },
+  {
+    "id": 634,
+    "deck": "self-assessment",
+    "moduleId": "self-plastic-deformation",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "normal anisotropy",
+      "planar anisotropy",
+      "sheet forming"
+    ],
+    "diagramRequired": false,
+    "question": "In sheet forming terminology, which association is correct?",
+    "options": {
+      "A": "Normal anisotropy relates to resistance to thinning/deep drawability, while planar anisotropy relates to direction-dependent in-plane behavior such as earing.",
+      "B": "Normal anisotropy is only the steel carbon content, and planar anisotropy is only corrosion rate.",
+      "C": "Planar anisotropy eliminates all texture effects from rolled sheet.",
+      "D": "Normal anisotropy means the sheet has no crystallographic texture."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because normal anisotropy, often measured by the r-value, is linked with thickness strain resistance and deep drawing, while planar anisotropy reflects variation with sheet direction and can cause earing. B is unrelated. C is wrong because planar anisotropy is a manifestation of texture effects. D is wrong because anisotropy usually comes from texture, not its absence.",
+    "relevantTheory": "Rolled sheet is not mechanically identical in every direction. Normal anisotropy helps drawing by reducing thinning; planar anisotropy produces uneven flow around the sheet plane. This distinction matters when comparing rimmed, Al-killed and interstitial-free steels.",
+    "source": "Self-assesment questions/self-assessment questions on shaping by plastic deformation.pdf, pages 1-2"
+  },
+  {
+    "id": 635,
+    "deck": "self-assessment",
+    "moduleId": "self-strengthening",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "slip systems",
+      "FCC",
+      "BCC"
+    ],
+    "diagramRequired": false,
+    "question": "Which comparison of FCC and BCC slip behavior best matches the strengthening/plasticity lectures?",
+    "options": {
+      "A": "FCC metals have close-packed slip systems and usually easier room-temperature slip; BCC metals have no close-packed planes and slip is more temperature/strain-rate sensitive.",
+      "B": "BCC metals have no possible slip systems, so they cannot plastically deform.",
+      "C": "FCC metals plastically deform only by vacancy diffusion.",
+      "D": "FCC and BCC slip behavior is identical because crystal structure never affects dislocation motion."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because FCC has close-packed planes/directions with many easy slip systems, whereas BCC dislocation motion faces higher lattice resistance and is more thermally activated. B is too absolute: BCC metals do plastically deform. C ignores dislocation glide. D contradicts the course emphasis on crystal structure and slip systems.",
+    "relevantTheory": "Slip systems are preferred planes and directions for dislocation travel because they minimize lattice resistance. Crystal structure controls available slip systems, Peierls-Nabarro stress, ductile-brittle behavior and sheet formability.",
+    "source": "Self-assesment questions/self-assessment questions on Strengthening.pdf, pages 1 and 3"
+  },
+  {
+    "id": 636,
+    "deck": "self-assessment",
+    "moduleId": "self-strengthening",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "calculation",
+    "trapTags": [
+      "Orowan equation",
+      "dislocation density",
+      "plastic strain rate"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main meaning of Orowan's equation in plastic deformation?",
+    "options": {
+      "A": "Plastic shear strain rate is connected to mobile dislocation density, Burgers vector and dislocation velocity.",
+      "B": "Corrosion rate equals chromium content divided by nickel content.",
+      "C": "Carbon content in AISI steels is equal to the first two digits.",
+      "D": "Only grain boundaries can carry plastic strain."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Orowan's relation expresses plastic shear strain rate as the product of mobile dislocation density, Burgers vector and dislocation velocity. B and C are unrelated formulas. D is wrong because dislocation glide through grains is the primary carrier of plastic strain in most crystalline metals.",
+    "relevantTheory": "Orowan's equation connects microscopic dislocation motion with macroscopic plastic strain rate. Strengthening increases when obstacles reduce dislocation mobility or require higher stress for dislocations to move, multiply or bypass barriers.",
+    "source": "Self-assesment questions/self-assessment questions on Strengthening.pdf, pages 1 and 3"
+  },
+  {
+    "id": 637,
+    "deck": "self-assessment",
+    "moduleId": "self-strengthening",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "grain refinement",
+      "Hall-Petch",
+      "fatigue"
+    ],
+    "diagramRequired": false,
+    "question": "Why is grain refinement treated as a particularly valuable strengthening mechanism?",
+    "options": {
+      "A": "Because it always removes every dislocation and makes the metal liquid-like.",
+      "B": "Because it strengthens by increasing grain-boundary barriers and can improve toughness/fatigue resistance rather than penalizing them like many other mechanisms.",
+      "C": "Because larger grains always give the highest yield strength.",
+      "D": "Because grain boundaries are chemically identical to cementite plates."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because smaller grains increase grain-boundary area, impeding dislocation motion and often improving toughness and fatigue resistance by interrupting crack paths. A is false: grain refinement does not remove all dislocations or melt the metal. C reverses the Hall-Petch trend. D confuses grain boundaries with a carbide phase.",
+    "relevantTheory": "The Hall-Petch idea is that yield strength increases as grain size decreases. Unlike many strengthening routes that trade strength for ductility/toughness, grain refinement can improve the strength-toughness balance, which is why TMCP and controlled recrystallization are important.",
+    "source": "Self-assesment questions/self-assessment questions on Strengthening.pdf, page 3; Self-assesment questions/Self-test questions - miscellanea.pdf, page 3"
+  },
+  {
+    "id": 638,
+    "deck": "self-assessment",
+    "moduleId": "self-strengthening",
+    "section": "Al & Casting",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "precipitation hardening",
+      "overaging",
+      "grain boundary precipitates"
+    ],
+    "diagramRequired": false,
+    "question": "For precipitation hardening, which microstructure gives the best strengthening before overaging?",
+    "options": {
+      "A": "Coarse equilibrium particles only at grain boundaries, with no intragranular precipitates.",
+      "B": "No solute retained in solid solution before aging.",
+      "C": "Fine, well-distributed precipitates inside grains that effectively obstruct dislocations while remaining small enough to be sheared or bypassed at high stress.",
+      "D": "A fully molten alloy held above the solutionizing temperature during service."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because optimum aging produces fine precipitates distributed through the matrix, strongly impeding dislocations. A is wrong because grain-boundary precipitation can deplete the matrix and reduce ductility/toughness. B prevents the supersaturation needed for precipitation hardening. D is not a serviceable solid microstructure.",
+    "relevantTheory": "Precipitation hardening requires solution treatment, quenching to retain supersaturated solid solution, and aging to form fine strengthening precipitates. Underaging gives too few/small obstacles, peak aging gives maximum resistance, and overaging coarsens particles so strength falls while ductility may recover.",
+    "source": "Self-assesment questions/self-assessment questions on Strengthening.pdf, page 4"
+  },
+  {
+    "id": 639,
+    "deck": "self-assessment",
+    "moduleId": "self-strengthening",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "twinning",
+      "stacking fault energy",
+      "HCP"
+    ],
+    "diagramRequired": false,
+    "question": "When is plastic deformation by twinning favored rather than ordinary dislocation glide?",
+    "options": {
+      "A": "When slip is difficult, for example in low-symmetry structures or low stacking-fault-energy conditions, often at low temperature or high strain rate.",
+      "B": "Only when the material is fully liquid.",
+      "C": "Only when the alloy has no crystal lattice.",
+      "D": "Only when the stress is zero."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because twinning becomes important when dislocation glide is limited, such as in HCP metals, low temperature/high rate conditions, or low stacking fault energy situations. B and C remove the crystalline solid needed for twinning. D is wrong because twinning requires stress.",
+    "relevantTheory": "Twinning reorients part of the crystal lattice, giving a mirror-like shear deformation. It is a plasticity mechanism distinct from dislocation glide and is favored when available slip systems are insufficient or glide resistance is high.",
+    "source": "Self-assesment questions/self-assessment questions on Strengthening.pdf, page 3; Self-assesment questions/Self-test questions - miscellanea.pdf, page 3"
+  },
+  {
+    "id": 640,
+    "deck": "self-assessment",
+    "moduleId": "self-strengthening",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "solid solution strengthening",
+      "lattice strain",
+      "solute atoms"
+    ],
+    "diagramRequired": false,
+    "question": "Why do impurity or solute atoms strengthen many metallic alloys?",
+    "options": {
+      "A": "They always lower strength because every solute atom lubricates dislocations.",
+      "B": "They create local lattice strain fields that interact with dislocations and make slip more difficult.",
+      "C": "They remove all grain boundaries from the alloy.",
+      "D": "They convert every alloy into a single crystal."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because solute atoms differ in size or bonding from matrix atoms, creating elastic distortions that interact with dislocation stress fields. A is the opposite of solid-solution strengthening. C and D are unrelated to solute strengthening and impossible as general statements.",
+    "relevantTheory": "Solid solution strengthening works by making dislocation motion harder through solute-dislocation interactions. Extensive solubility requires favorable atomic size, crystal structure, electronegativity and valence factors, but even limited solubility can increase strength if solutes distort the lattice.",
+    "source": "Self-assesment questions/self-assessment questions on Strengthening.pdf, pages 1 and 3"
+  },
+  {
+    "id": 641,
+    "deck": "self-assessment",
+    "moduleId": "self-diffusion",
+    "section": "Fundamentals",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "diffusion paths",
+      "surface",
+      "grain boundary",
+      "bulk"
+    ],
+    "diagramRequired": false,
+    "question": "At the same temperature, how do diffusion rates usually compare in a polycrystalline metal?",
+    "options": {
+      "A": "Surface diffusion is fastest, grain-boundary diffusion is intermediate, and bulk/volume diffusion is slowest.",
+      "B": "Bulk diffusion is fastest because atoms in the lattice are completely unconstrained.",
+      "C": "All diffusion paths have exactly the same activation energy and rate.",
+      "D": "Grain boundaries stop diffusion completely."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because surfaces and grain boundaries are more open, higher-energy paths with lower activation barriers than the crystal bulk. B is wrong because lattice diffusion requires more constrained atomic jumps. C ignores path-dependent activation energy. D is the opposite; grain boundaries often accelerate diffusion.",
+    "relevantTheory": "Diffusion path matters. Surface diffusion is easiest, grain-boundary diffusion is faster than volume diffusion, and bulk diffusion is slowest. As temperature rises, all rates increase, but fast paths are especially important at lower homologous temperatures.",
+    "source": "Self-assesment questions/self-assessment questions on Diffusion.pdf, page 1"
+  },
+  {
+    "id": 642,
+    "deck": "self-assessment",
+    "moduleId": "self-diffusion",
+    "section": "Fundamentals",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "interstitial diffusion",
+      "substitutional diffusion",
+      "vacancies"
+    ],
+    "diagramRequired": false,
+    "question": "Why is interstitial diffusion usually much faster than substitutional volume diffusion at the same temperature?",
+    "options": {
+      "A": "Interstitial atoms are smaller and can jump between interstitial sites without waiting for a neighboring vacancy.",
+      "B": "Interstitial atoms are larger than matrix atoms, so they cannot move at all.",
+      "C": "Substitutional atoms diffuse without activation energy, while interstitial atoms require melting.",
+      "D": "Interstitial diffusion occurs only on free surfaces and never inside crystals."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because small atoms such as C, N or H can move through interstitial sites with lower barriers and without the vacancy requirement typical of substitutional diffusion. B is false for the small interstitial atoms emphasized in steels. C reverses the activation-energy logic. D is wrong because interstitial diffusion occurs through the crystal lattice.",
+    "relevantTheory": "Diffusion mechanism controls rate. Substitutional atoms generally require vacancy-mediated jumps and higher activation energy. Interstitial atoms occupy spaces between matrix atoms and can move more easily, which is why carbon diffusion is central to carburizing, heat treatment and steel transformations.",
+    "source": "Self-assesment questions/self-assessment questions on Diffusion.pdf, page 1"
+  },
+  {
+    "id": 643,
+    "deck": "self-assessment",
+    "moduleId": "self-diffusion",
+    "section": "Fundamentals",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "thermally activated process",
+      "Arrhenius",
+      "D0"
+    ],
+    "diagramRequired": false,
+    "question": "What does it mean that diffusion is a thermally activated process?",
+    "options": {
+      "A": "Diffusion becomes independent of temperature once a metal is solid.",
+      "B": "Atoms must overcome an activation energy barrier, so the diffusion coefficient follows an Arrhenius-type dependence such as D = D0 exp(-Q/RT).",
+      "C": "Diffusion can occur only when no concentration gradient exists.",
+      "D": "D0 is the final grain size after recrystallization."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because atomic jumps require energy, and increasing temperature strongly increases the probability of successful jumps. A is wrong because temperature is the key variable. C confuses diffusion with equilibrium; gradients drive net flux. D misidentifies D0, which is the pre-exponential factor in the diffusion coefficient equation.",
+    "relevantTheory": "A thermally activated process has a rate controlled by activation energy and temperature. In D = D0 exp(-Q/RT), Q is the activation energy, R is the gas constant, T is absolute temperature, and D0 contains frequency/geometric factors for the diffusion mechanism.",
+    "source": "Self-assesment questions/self-assessment questions on Diffusion.pdf, page 1"
+  },
+  {
+    "id": 644,
+    "deck": "self-assessment",
+    "moduleId": "self-diffusion",
+    "section": "Fundamentals",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "calculation",
+    "trapTags": [
+      "Fick first law",
+      "concentration gradient",
+      "flux"
+    ],
+    "diagramRequired": false,
+    "question": "What is the essence of Fick's first law for steady-state diffusion?",
+    "options": {
+      "A": "Flux is proportional to the negative concentration gradient, so atoms diffuse from high concentration toward low concentration.",
+      "B": "Flux is zero whenever a concentration gradient exists.",
+      "C": "Flux always goes from low concentration to high concentration without external work.",
+      "D": "The diffusion coefficient is the same for every atom and every temperature."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Fick's first law is commonly written J = -D dC/dx; the negative sign means net flux goes down the concentration gradient. B is false because a gradient produces flux. C reverses the spontaneous direction. D ignores the dependence of D on atom, structure, path and temperature.",
+    "relevantTheory": "Fick's first law links diffusion flux to concentration gradient in steady state. It is the basis for understanding carburizing, bonding, homogenization and many heat-treatment processes where atoms redistribute over time.",
+    "source": "Self-assesment questions/self-assessment questions on Diffusion.pdf, page 1"
+  },
+  {
+    "id": 645,
+    "deck": "self-assessment",
+    "moduleId": "self-diffusion",
+    "section": "Fundamentals",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "diffusion bonding",
+      "interface",
+      "Ti6Al4V"
+    ],
+    "diagramRequired": false,
+    "question": "In diffusion bonding of steel to Ti6Al4V, which condition is most important for producing a sound solid-state joint?",
+    "options": {
+      "A": "Clean intimate surfaces held under pressure and temperature so atoms can diffuse across the interface without melting the whole joint.",
+      "B": "A thick oxide film deliberately left between the metals to block all atomic contact.",
+      "C": "A temperature above the boiling point of both metals.",
+      "D": "Zero time at temperature, because diffusion does not need time."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because diffusion bonding is a solid-state joining process requiring clean contact, pressure, temperature and time for interfacial diffusion and bond formation. B is wrong because oxides block bonding. C describes destructive melting/boiling, not diffusion bonding. D is wrong because diffusion distance depends on time and temperature.",
+    "relevantTheory": "Diffusion bonding uses atomic mobility below the melting point. Surface condition, pressure, temperature, time and control of brittle intermetallics are critical, especially for dissimilar metal combinations such as steel and titanium alloys.",
+    "source": "Self-assesment questions/self-assessment questions on Diffusion.pdf, page 1"
+  },
+  {
+    "id": 646,
+    "deck": "self-assessment",
+    "moduleId": "self-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "passivation",
+      "protective film",
+      "corrosion"
+    ],
+    "diagramRequired": false,
+    "question": "What are the fundamental requirements for a passivating film to protect a metal from corrosion?",
+    "options": {
+      "A": "It must be porous, non-adherent and soluble in the environment.",
+      "B": "It must be continuous, adherent, compact/stable in the environment and able to reform if locally damaged.",
+      "C": "It must be made only of liquid metal.",
+      "D": "It must make the metal an electrical insulator in every possible condition."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because a protective passive film must cover the surface, stay attached, resist dissolution and preferably self-heal. A lists the opposite of protective behavior. C is meaningless for an oxide passive film. D is too absolute; passivated metals can still conduct, and passivity depends on environment.",
+    "relevantTheory": "Passivation lowers corrosion rate by separating metal from the environment with a stable surface film. Chromium in stainless steels, aluminum oxide on Al, and titanium oxide on Ti are key course examples, but passive films can fail by chlorides, damage, crevices or sensitization.",
+    "source": "Self-assesment questions/self-assessment questions on Corrosion.pdf, page 1"
+  },
+  {
+    "id": 647,
+    "deck": "self-assessment",
+    "moduleId": "self-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "hydrogen",
+      "embrittlement",
+      "corrosion"
+    ],
+    "diagramRequired": false,
+    "question": "Why can hydrogen strongly worsen corrosion-related failure in steels and other alloys?",
+    "options": {
+      "A": "Hydrogen always forms a protective oxide thicker than chromium oxide.",
+      "B": "Hydrogen cannot enter metallic lattices, so it has no mechanical effect.",
+      "C": "Hydrogen can enter the metal, interact with defects/stress fields and promote embrittlement or cracking, especially in high-strength or cathodically charged conditions.",
+      "D": "Hydrogen improves all impact toughness by lubricating crack tips."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because hydrogen is small and mobile, can be generated by corrosion or cathodic reactions, and can contribute to embrittlement/cracking under stress. A confuses hydrogen with protective oxide-forming elements. B is false because hydrogen is an interstitial diffuser. D reverses the danger of hydrogen-assisted cracking.",
+    "relevantTheory": "Hydrogen damage is severe when hydrogen production/entry coincides with tensile stress and susceptible microstructure. High-strength steels are particularly vulnerable, so corrosion protection and electrochemical control must avoid driving hydrogen into the metal.",
+    "source": "Self-assesment questions/self-assessment questions on Corrosion.pdf, page 1"
+  },
+  {
+    "id": 648,
+    "deck": "self-assessment",
+    "moduleId": "self-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "galvanic corrosion",
+      "area factor",
+      "anode",
+      "cathode"
+    ],
+    "diagramRequired": false,
+    "question": "In galvanic corrosion design, which area ratio is most dangerous?",
+    "options": {
+      "A": "A large anodic area coupled to a very small cathodic area.",
+      "B": "A small anodic area coupled to a large cathodic area.",
+      "C": "Two identical isolated samples with no electrical connection.",
+      "D": "A completely dry joint with no electrolyte."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the anodic current is concentrated on a small dissolving area while the large cathode can sustain a high reduction current, causing rapid local attack. A is less severe because the anodic current is spread over a larger area. C lacks galvanic coupling. D lacks the electrolyte needed for an electrochemical corrosion cell.",
+    "relevantTheory": "Galvanic corrosion requires two electrically connected materials or regions, an electrolyte, and an anodic/cathodic potential difference. Area ratio matters: small anode plus large cathode is a classic dangerous design.",
+    "source": "Self-assesment questions/self-assessment questions on Corrosion.pdf, page 1"
+  },
+  {
+    "id": 649,
+    "deck": "self-assessment",
+    "moduleId": "self-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "electrode potentials",
+      "corrosion rate",
+      "kinetics"
+    ],
+    "diagramRequired": false,
+    "question": "What is the correct use of an electrode-potential table in corrosion reasoning?",
+    "options": {
+      "A": "It gives useful thermodynamic tendency for galvanic coupling, but it does not alone determine the actual corrosion rate.",
+      "B": "It gives exact service lifetime in hours for every alloy and environment.",
+      "C": "It replaces the need to consider passive films, polarization, area ratio or electrolyte.",
+      "D": "It applies only to plastic deformation and never to corrosion."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because potentials indicate relative nobility/tendency, but actual corrosion rate depends on kinetics, passivation, polarization, electrolyte, geometry and transport. B and C overclaim the table. D is unrelated and ignores the corrosion lecture.",
+    "relevantTheory": "Corrosion has thermodynamic and kinetic parts. Electrode potentials help predict which member of a galvanic couple tends to be anodic, but the rate and form of attack require environmental and surface-film information.",
+    "source": "Self-assesment questions/self-assessment questions on Corrosion.pdf, page 1"
+  },
+  {
+    "id": 650,
+    "deck": "self-assessment",
+    "moduleId": "self-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "stainless steel",
+      "Cr",
+      "Ni",
+      "Mo"
+    ],
+    "diagramRequired": false,
+    "question": "Which association of Cr, Ni and Mo in stainless steels is most correct?",
+    "options": {
+      "A": "Cr promotes passivation, Ni stabilizes austenite and improves ductility/toughness, and Mo improves resistance to localized corrosion such as pitting.",
+      "B": "Cr is added only to increase rusting, Ni is only a desulfurizer, and Mo always removes passivation.",
+      "C": "Ni alone makes a steel stainless even when chromium is absent.",
+      "D": "Mo is used only to turn stainless steel into cast iron."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because chromium is the essential passivating element, nickel stabilizes the austenitic structure and improves toughness/formability, and molybdenum increases resistance to pitting/crevice corrosion. B reverses the alloying roles. C is wrong because stainless behavior requires sufficient chromium. D is nonsensical.",
+    "relevantTheory": "Stainless steel design is composition-plus-environment. Chromium forms the passive film; nickel changes phase stability and toughness; molybdenum is important for chloride/pitting resistance, especially in austenitic and duplex stainless grades.",
+    "source": "Self-assesment questions/self-assessment questions on Corrosion.pdf, page 1"
+  },
+  {
+    "id": 651,
+    "deck": "self-assessment",
+    "moduleId": "self-corrosion",
+    "section": "Corrosion & SS",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "sensitization",
+      "chromium carbide",
+      "intergranular corrosion"
+    ],
+    "diagramRequired": false,
+    "question": "What is sensitization in stainless steels?",
+    "options": {
+      "A": "A magnetic test used to measure yield strength.",
+      "B": "The formation of chromium carbides near grain boundaries, depleting nearby chromium and making the boundaries susceptible to intergranular corrosion.",
+      "C": "The complete removal of all carbon and chromium from stainless steel by polishing.",
+      "D": "A beneficial oxide thickening that always improves welded stainless steels."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because sensitization occurs when chromium carbides precipitate at grain boundaries, locally reducing chromium below the level needed for passivation and promoting intergranular corrosion. A is unrelated. C is not the mechanism. D is the opposite for susceptible compositions and thermal histories.",
+    "relevantTheory": "Austenitic stainless steels can be sensitized by thermal exposure in the carbide precipitation range if carbon is not controlled or stabilized. Low-carbon grades or Ti/Nb-stabilized grades reduce this risk by preventing chromium depletion at grain boundaries.",
+    "source": "Self-assesment questions/self-assessment questions on Corrosion.pdf, page 1"
+  },
+  {
+    "id": 652,
+    "deck": "self-assessment",
+    "moduleId": "self-shaping-melting",
+    "section": "Al & Casting",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "application",
+    "trapTags": [
+      "casting",
+      "strain hardening",
+      "near-net shape"
+    ],
+    "diagramRequired": false,
+    "question": "When is shaping by casting more beneficial than shaping by plastic deformation/strain hardening?",
+    "options": {
+      "A": "When complex near-net shapes, internal cavities, high fluidity or poor wrought formability make melt shaping more practical than large plastic strain.",
+      "B": "Only when the alloy must have the highest possible wrought toughness.",
+      "C": "Only when the metal cannot melt.",
+      "D": "When no solidification microstructure is allowed."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because casting is selected for complex shapes, economic near-net production and alloys/components where deformation processing is difficult. B is wrong because wrought/strain-hardened materials often have better toughness than castings. C is impossible because casting requires melting. D contradicts the solidification basis of casting.",
+    "relevantTheory": "Casting gives shape freedom and lower forming loads but introduces solidification microstructures, segregation, porosity and usually lower ductility/toughness than wrought products. The selection is a process-property trade-off.",
+    "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf, page 1; Self-assesment questions/self-assessment questions on Strengthening.pdf, page 1"
+  },
+  {
+    "id": 653,
+    "deck": "self-assessment",
+    "moduleId": "self-shaping-melting",
+    "section": "Al & Casting",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "Al-Si",
+      "eutectic silicon",
+      "grain refinement"
+    ],
+    "diagramRequired": false,
+    "question": "How can an Al-Si automotive wheel casting be made tougher and stronger according to the casting self-assessment logic?",
+    "options": {
+      "A": "By coarsening the aluminum grains and leaving eutectic silicon as long brittle plates.",
+      "B": "By refining the aluminum matrix grains and modifying/refining the eutectic silicon morphology, together with suitable heat treatment where applicable.",
+      "C": "By removing all silicon so the alloy cannot cast well.",
+      "D": "By adding only sulfur to create elongated MnS stringers."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because toughness improves when the matrix is refined and brittle plate-like eutectic silicon is modified into a finer, less harmful morphology; heat treatment can further tune properties in suitable Al-Si-Mg/Cu alloys. A is the opposite and promotes brittleness. C harms castability because silicon improves fluidity and eutectic solidification. D imports a steel inclusion problem, not an Al-Si wheel solution.",
+    "relevantTheory": "In Al-Si castings, microstructure controls performance. Fine grains reduce crack path length, and modified eutectic silicon reduces stress concentration compared with coarse acicular/plate-like silicon. Casting quality also depends on porosity, feeding and heat treatment.",
+    "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf, page 1; Self-assesment questions/self-assessment questions on Strengthening.pdf, page 4"
+  },
+  {
+    "id": 654,
+    "deck": "self-assessment",
+    "moduleId": "self-shaping-melting",
+    "section": "Al & Casting",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "coring",
+      "segregation",
+      "solidification"
+    ],
+    "diagramRequired": false,
+    "question": "What is the origin of a coring structure in alloy solidification?",
+    "options": {
+      "A": "Perfectly uniform equilibrium diffusion in both solid and liquid during infinitely slow cooling.",
+      "B": "Solute redistribution during dendritic solidification with insufficient diffusion in the solid to homogenize the composition.",
+      "C": "A surface oxide film that protects stainless steel.",
+      "D": "A dislocation pile-up formed only during tensile testing."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because coring is a microsegregation effect: early solid and later solid have different compositions because solute partitions during solidification and diffusion in the solid is limited. A would eliminate coring by equilibrium homogenization. C is passivation, not solidification. D is plasticity, not casting segregation.",
+    "relevantTheory": "Segregation arises because solute partitions between solid and liquid during freezing. Faster cooling and limited solid-state diffusion preserve composition gradients. Homogenization heat treatment can reduce microsegregation, while severe macrosegregation is harder to remove.",
+    "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf, page 1"
+  },
+  {
+    "id": 655,
+    "deck": "self-assessment",
+    "moduleId": "self-shaping-melting",
+    "section": "Al & Casting",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "columnar grains",
+      "thermal gradient",
+      "metal mould"
+    ],
+    "diagramRequired": false,
+    "question": "Which condition promotes columnar structure during solidification in a metallic mould?",
+    "options": {
+      "A": "A strong directional thermal gradient and heat extraction from the mould wall, so grains grow preferentially opposite the heat-flow direction.",
+      "B": "No heat extraction from the mould at all.",
+      "C": "Complete absence of any solid-liquid interface.",
+      "D": "A fully recrystallized cold-worked sheet with no melt."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because directional heat flow favors grains that grow along the thermal gradient, producing columnar dendritic structure from the mould wall inward. B prevents solidification control. C removes the interface needed for growth. D describes a solid-state sheet, not casting.",
+    "relevantTheory": "Casting grain structure depends on nucleation rate and heat flow. Chilling at the mould wall can create fine equiaxed grains near the surface, while directional heat extraction can produce columnar grains unless equiaxed nucleation is promoted in the melt.",
+    "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf, page 1"
+  },
+  {
+    "id": 656,
+    "deck": "self-assessment",
+    "moduleId": "self-shaping-melting",
+    "section": "Al & Casting",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "segregation",
+      "ingot purification",
+      "electromagnetic stirring"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement correctly treats impurity segregation during ingot solidification?",
+    "options": {
+      "A": "Segregation is affected by partitioning, cooling rate, liquid flow/convection and the solidification range; controlled stirring or remelting strategies can help redistribute or separate impurity-rich regions.",
+      "B": "Segregation cannot occur in alloys because every solute has a partition coefficient of exactly one.",
+      "C": "Segregation is caused only by Charpy impact testing after the ingot is machined.",
+      "D": "The only way to remove segregation is to add hydrogen to embrittle the ingot."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because segregation is controlled by how solute partitions during freezing, how fast diffusion can homogenize, and how liquid movement redistributes solute. B is false because many alloying elements partition unequally. C confuses a mechanical test with solidification chemistry. D is dangerous and unrelated.",
+    "relevantTheory": "Microsegregation occurs on dendrite/interdendritic scales; macrosegregation occurs over larger ingot regions and is harder to remove. Homogenization helps microsegregation, while process control during solidification is needed to minimize large-scale composition gradients.",
+    "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf, pages 1-2"
+  },
+  {
+    "id": 657,
+    "deck": "self-assessment",
+    "moduleId": "self-miscellanea",
+    "section": "Heat Treatment",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "surface hardening",
+      "case",
+      "core toughness"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main reason for performing surface hardening of steels?",
+    "options": {
+      "A": "To obtain a hard, wear-resistant surface while keeping a tougher and less brittle core.",
+      "B": "To make the entire section chemically identical to pure aluminum.",
+      "C": "To reduce surface hardness so gears wear faster.",
+      "D": "To remove all carbon from the steel surface."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because surface hardening is used when contact wear, fatigue or local crushing resistance are needed at the surface without making the whole component brittle. B is unrelated to steels. C is the opposite of the goal. D is wrong because processes such as carburizing add carbon, while nitriding adds nitrogen.",
+    "relevantTheory": "Surface treatments create a property gradient. The case provides high hardness, wear resistance and often compressive residual stress; the core retains toughness and load support. Process choice depends on required depth, hardness, distortion, cost and service loading.",
+    "source": "Self-assesment questions/Self-test questions - miscellanea.pdf, page 1"
+  },
+  {
+    "id": 658,
+    "deck": "self-assessment",
+    "moduleId": "self-miscellanea",
+    "section": "Heat Treatment",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "residual austenite",
+      "quenching",
+      "dimensional stability"
+    ],
+    "diagramRequired": false,
+    "question": "Why can residual austenite be a problem after quenching carbon steels?",
+    "options": {
+      "A": "It always increases hardness above martensite and eliminates distortion.",
+      "B": "It is a stable liquid trapped inside the steel.",
+      "C": "It can reduce as-quenched hardness and later transform, causing dimensional instability or delayed property changes.",
+      "D": "It means the steel contains no carbon."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because retained austenite is softer than martensite and may transform later under cooling, stress or service, causing size change and property instability. A is wrong because retained austenite is not harder than martensite. B confuses austenite with liquid. D is false because carbon and alloying stabilize austenite.",
+    "relevantTheory": "Residual austenite is promoted by high carbon, alloying and insufficient transformation during quenching. It is controlled by composition, quench severity, sub-zero treatment and tempering strategy when dimensional stability and hardness are critical.",
+    "source": "Self-assesment questions/Self-test questions - miscellanea.pdf, page 1"
+  },
+  {
+    "id": 659,
+    "deck": "self-assessment",
+    "moduleId": "self-miscellanea",
+    "section": "Heat Treatment",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "TTT",
+      "nose",
+      "nucleation",
+      "growth"
+    ],
+    "diagramRequired": false,
+    "question": "What does the nose of a TTT curve represent conceptually?",
+    "options": {
+      "A": "The temperature/time region where transformation starts fastest because nucleation and growth have their most effective combined balance.",
+      "B": "The melting point of pure iron.",
+      "C": "The point where diffusion becomes impossible at all temperatures.",
+      "D": "The final surface roughness after grinding."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the TTT nose marks the shortest incubation time for diffusional transformation, where undercooling and atomic mobility combine to give rapid nucleation/growth. B is unrelated. C is wrong because diffusion is active in the transformation region. D is a manufacturing surface property, not transformation kinetics.",
+    "relevantTheory": "TTT curves reflect nucleation and growth kinetics. High temperature gives mobility but low driving force; low temperature gives driving force but slow diffusion. The nose is the fastest transformation region and determines the critical cooling-rate logic for avoiding pearlite/bainite during quenching.",
+    "source": "Self-assesment questions/Self-test questions - miscellanea.pdf, page 1"
+  },
+  {
+    "id": 660,
+    "deck": "self-assessment",
+    "moduleId": "self-miscellanea",
+    "section": "Heat Treatment",
+    "sourceType": "self-assessment",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "fine microstructure",
+      "nucleation",
+      "growth",
+      "undercooling"
+    ],
+    "diagramRequired": false,
+    "question": "For an isothermal transformation, what combination tends to produce a fine transformed microstructure?",
+    "options": {
+      "A": "Low nucleation rate and very high growth rate.",
+      "B": "No undercooling and no driving force.",
+      "C": "High nucleation rate with limited growth distance before neighboring products impinge.",
+      "D": "Complete melting followed by no solidification."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because many nuclei forming throughout the material divide the available space, so each transformed region remains small. A tends to produce coarse products because few nuclei grow large. B gives little driving force. D is outside solid-state isothermal transformation.",
+    "relevantTheory": "Microstructural scale follows the competition between nucleation and growth. Fine pearlite/bainite-like products require many nucleation events and restricted growth, while coarse products form when nucleation is sparse and growth proceeds over larger distances.",
+    "source": "Self-assesment questions/Self-test questions - miscellanea.pdf, page 1"
+  },
+  {
+    "id": 661,
+    "deck": "self-assessment",
+    "moduleId": "self-miscellanea",
+    "section": "Heat Treatment",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "austenitization",
+      "quenching",
+      "homogenization"
+    ],
+    "diagramRequired": false,
+    "question": "What are the main functions of austenitization before steel heat treatment?",
+    "options": {
+      "A": "To form austenite, dissolve/redistribute carbon and alloying elements as required, and prepare a uniform starting phase for controlled transformation.",
+      "B": "To convert all steel into graphite flakes.",
+      "C": "To remove the need for cooling after heating.",
+      "D": "To make ferrite the only possible phase at high temperature."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because austenitization creates the high-temperature austenitic starting state needed for quenching, normalizing or other transformations, with carbon/carbide dissolution depending on steel type. B describes cast-iron graphite, not normal steel heat treatment. C is wrong because subsequent cooling path controls final microstructure. D contradicts austenitization.",
+    "relevantTheory": "Heat treatment starts by setting the initial phase and composition distribution. Austenitization temperature/time must be sufficient but not excessive: poor dissolution gives nonuniform transformation, while overheating can coarsen grains and reduce toughness.",
+    "source": "Self-assesment questions/Self-test questions - miscellanea.pdf, page 1"
+  },
+  {
+    "id": 662,
+    "deck": "self-assessment",
+    "moduleId": "self-miscellanea",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "stored energy",
+      "plastic work",
+      "heat"
+    ],
+    "diagramRequired": false,
+    "question": "As a rule of thumb in plastic deformation, what happens to most of the mechanical work supplied to the specimen?",
+    "options": {
+      "A": "It is mostly converted into heat, while a smaller fraction is stored in defects such as dislocations.",
+      "B": "It is all stored as corrosion resistance.",
+      "C": "It disappears without energy conversion.",
+      "D": "It is all converted into elastic energy that remains forever after unloading."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because most plastic work is dissipated as heat, while part is stored as microstructural defect energy in dislocations and other defects. B is unrelated. C violates energy conservation. D describes neither plastic dissipation nor permanent deformation.",
+    "relevantTheory": "Plastic deformation is dissipative. The stored fraction increases defect density and drives recovery/recrystallization during later heating; the heat fraction matters for high-rate deformation and temperature rise during forming.",
+    "source": "Self-assesment questions/Self-test questions - miscellanea.pdf, page 3"
+  },
+  {
+    "id": 663,
+    "deck": "self-assessment",
+    "moduleId": "self-miscellanea",
+    "section": "Plasticity",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Luders bands",
+      "skin pass",
+      "strain aging"
+    ],
+    "diagramRequired": false,
+    "question": "Which industrial operation is commonly used to suppress visible Luders-band problems in low-carbon steel sheet before forming?",
+    "options": {
+      "A": "Skin-pass temper rolling with a small plastic strain.",
+      "B": "Holding the sheet above the boiling point.",
+      "C": "Adding enough carbon to make the sheet cast iron.",
+      "D": "Leaving the sheet unstrained until severe yield-point elongation appears in the final part."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because skin-pass rolling gives a small pre-strain that removes/controls yield-point elongation and reduces stretcher-strain markings during forming. B is destructive. C ruins the low-carbon sheet concept. D is the defect scenario, not the prevention method.",
+    "relevantTheory": "Luders bands are linked with discontinuous yielding and solute-dislocation locking in low-carbon steels. Skin pass, interstitial-free chemistry and control of C/N solutes are practical ways to improve sheet-forming appearance and uniformity.",
+    "source": "Self-assesment questions/Self-test questions - miscellanea.pdf, page 3"
+  },
+  {
+    "id": 664,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Fundamentals",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "ferrous alloy",
+      "iron"
+    ],
+    "diagramRequired": false,
+    "question": "Which option is the key defining characteristic of a ferrous alloy?",
+    "options": {
+      "A": "It is primarily based on iron.",
+      "B": "It must contain no carbon.",
+      "C": "It must be non-magnetic in all conditions.",
+      "D": "It must be more corrosion-resistant than titanium."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because ferrous alloys are iron-based materials, including steels and cast irons. B is wrong because carbon is central to steels and cast irons. C is false because magnetic behavior depends on phase/composition and many ferrous alloys are magnetic. D is not a defining criterion and is generally false for ordinary steels.",
+    "relevantTheory": "The first classification split in metallic materials is often ferrous versus non-ferrous. Ferrous means iron-based; the specific properties then depend on carbon content, alloying elements, microstructure and processing.",
+    "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf, page 1"
+  },
+  {
+    "id": 665,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Al & Casting",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "Hall-Heroult",
+      "aluminum",
+      "extraction"
+    ],
+    "diagramRequired": false,
+    "question": "The Hall-Heroult process is used for the extraction of which metal?",
+    "options": {
+      "A": "Iron",
+      "B": "Aluminum",
+      "C": "Copper",
+      "D": "Zinc"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the Hall-Heroult process is the electrolytic extraction route for aluminum from alumina dissolved in molten cryolite. A is wrong because iron is extracted mainly by reduction in the blast furnace route. C and D use different extraction/refining routes.",
+    "relevantTheory": "Aluminum extraction is energy intensive because Al is very stable as oxide. Electrolysis is required for primary aluminum, which is why recycling aluminum has such a large energy advantage compared with primary production.",
+    "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf, page 1"
+  },
+  {
+    "id": 666,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Production",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "flux",
+      "slag",
+      "metal extraction"
+    ],
+    "diagramRequired": false,
+    "question": "What is the main function of a flux in metal extraction?",
+    "options": {
+      "A": "To combine with impurities/gangue and help form a removable slag.",
+      "B": "To make the ore impossible to melt.",
+      "C": "To add only nitrogen to every metal.",
+      "D": "To replace the reducing agent in every extraction process."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because fluxes react with unwanted gangue/oxide impurities and help form slag that can be separated from the metal. B is the opposite of processing logic. C is unrelated. D is too broad and wrong because reducing agents and fluxes have different roles.",
+    "relevantTheory": "In pyrometallurgy, ore reduction and impurity removal are separate but coupled operations. Flux composition is chosen to bind impurities into slag, control melting behavior and protect/refine the metal bath.",
+    "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf, page 2"
+  },
+  {
+    "id": 667,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Fundamentals",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "refractory metal",
+      "molybdenum"
+    ],
+    "diagramRequired": false,
+    "question": "Which option is an example of a refractory metal in the practice-test sense?",
+    "options": {
+      "A": "Lead",
+      "B": "Molybdenum",
+      "C": "Gold",
+      "D": "Magnesium"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because molybdenum is a high-melting refractory metal. A is wrong because lead has a low melting point. C is noble but not the intended refractory example. D is light and reactive, not a refractory metal.",
+    "relevantTheory": "Refractory metals are characterized by very high melting points and high-temperature capability. The course repeatedly uses high melting point and bonding/structure as key links between atomic-scale behavior and application.",
+    "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf, page 2"
+  },
+  {
+    "id": 668,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Heat Treatment",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "carburizing",
+      "surface carbon",
+      "case hardening"
+    ],
+    "diagramRequired": false,
+    "question": "What is the primary purpose of carburizing a steel component?",
+    "options": {
+      "A": "To remove carbon from the surface and make it softer than the core.",
+      "B": "To increase surface carbon so that, after quenching, a hard wear-resistant case can form over a tougher core.",
+      "C": "To convert steel into pure copper.",
+      "D": "To prevent any diffusion from occurring."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because carburizing enriches the surface in carbon, enabling a hard martensitic case after quenching while the lower-carbon core remains tougher. A is the opposite. C is unrelated. D is impossible because carburizing is a diffusion-based chemical surface treatment.",
+    "relevantTheory": "Carburizing is selected for parts such as gears where surface contact fatigue/wear resistance and core toughness are both needed. It depends on carbon diffusion depth, temperature, time, steel hardenability and post-carburizing quench/tempering.",
+    "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf, page 3; Self-assesment questions/Self-test questions - miscellanea.pdf, page 1"
+  },
+  {
+    "id": 669,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Production",
+    "sourceType": "self-assessment",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "desulfurization",
+      "molten steel",
+      "impurity removal"
+    ],
+    "diagramRequired": false,
+    "question": "The process of removing sulfur from molten steel is best named:",
+    "options": {
+      "A": "Deoxidation",
+      "B": "Carburization",
+      "C": "Desulfurization",
+      "D": "Precipitation aging"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because sulfur removal is desulfurization. A is oxygen removal/control, not sulfur removal. B adds carbon to a surface or melt rather than removing sulfur. D is a solid-state strengthening heat treatment, not molten-steel impurity removal.",
+    "relevantTheory": "Steel refining names often reveal the impurity being controlled: deoxidation controls oxygen, decarburization lowers carbon, desulfurization lowers sulfur, and degassing removes dissolved gases such as hydrogen or nitrogen depending on treatment.",
+    "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf, page 5"
+  },
+  {
+    "id": 670,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Fe-C & Steels",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "cast iron",
+      "carbon content",
+      "brittleness"
+    ],
+    "diagramRequired": false,
+    "question": "Which statement best describes the basic character of cast iron compared with steels?",
+    "options": {
+      "A": "Cast iron is generally a high-carbon ferrous alloy with excellent castability but lower ductility/impact resistance than steels.",
+      "B": "Cast iron contains no carbon and is always more ductile than low-carbon steel.",
+      "C": "Cast iron is an aluminum alloy made by electrolysis.",
+      "D": "Cast iron is defined only by chromium passivation."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because cast irons are high-carbon ferrous alloys selected for castability, fluidity, damping and machinability, but ordinary cast irons have limited ductility and impact resistance. B is the opposite. C confuses cast iron with aluminum extraction. D confuses cast iron with stainless-steel corrosion behavior.",
+    "relevantTheory": "The steel/cast-iron distinction is mainly carbon range and microstructure. Cast irons exploit eutectic/near-eutectic solidification and graphite or carbide morphologies; graphite shape determines whether the iron is gray, ductile, malleable or compacted graphite.",
+    "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf, page 6"
+  },
+  {
+    "id": 671,
+    "deck": "self-assessment",
+    "moduleId": "self-practice-tests",
+    "section": "Al & Casting",
+    "sourceType": "self-assessment",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "casting",
+      "mould",
+      "solidification"
+    ],
+    "diagramRequired": false,
+    "question": "What is casting?",
+    "options": {
+      "A": "Cooling molten metal in a mould to obtain a solid shape.",
+      "B": "Stretching a cold sheet only by tensile deformation.",
+      "C": "Removing sulfur from molten steel.",
+      "D": "Measuring indentation resistance with a hardness test."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because casting is melt shaping: liquid metal is poured or injected into a mould and solidifies into the desired shape. B describes sheet forming, not casting. C is desulfurization. D is hardness testing.",
+    "relevantTheory": "Casting is chosen for complex shapes and alloys with suitable fluidity, but the final properties depend on solidification structure, segregation, porosity, feeding, cooling rate and post-casting treatment.",
+    "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf, page 7"
   }
-]
-;
+];
