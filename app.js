@@ -86,8 +86,8 @@ const els = {
 
 function getExamDate() {
   const now = new Date();
-  let examDate = new Date(now.getFullYear(), 5, 8, 0, 0, 0);
-  if (now > examDate) examDate = new Date(now.getFullYear() + 1, 5, 8, 0, 0, 0);
+  let examDate = new Date(now.getFullYear(), 5, 17, 0, 0, 0);
+  if (now > examDate) examDate = new Date(now.getFullYear() + 1, 5, 17, 0, 0, 0);
   return examDate;
 }
 
