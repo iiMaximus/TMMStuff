@@ -16,6 +16,12 @@ const SECTION_RULES = [
 const XP_PER_LEVEL = 120;
 const RECENT_CARD_GAP = 3;
 const OPTION_MARKERS = ["1", "2", "3", "4"];
+const LECTURE_PLAN_START = new Date(2026, 4, 20);
+const DAY_MS = 24 * 60 * 60 * 1000;
+const DATE_FORMATTER = new Intl.DateTimeFormat(undefined, {
+  month: "short",
+  day: "numeric"
+});
 
 const state = {
   allQuestions: [],
@@ -200,6 +206,38 @@ function masteredIn(questions) {
   return questions.filter((question) => cardProgress(question.id).mastered).length;
 }
 
+function startOfDay(date) {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+}
+
+function lectureDueDate(index) {
+  return new Date(LECTURE_PLAN_START.getTime() + index * DAY_MS);
+}
+
+function lectureScheduleStatus(dueDate, complete) {
+  if (complete) return { text: "Done", state: "done" };
+  const today = startOfDay(new Date());
+  const dueDay = startOfDay(dueDate);
+  if (today.getTime() > dueDay.getTime()) return { text: "You're behind", state: "behind" };
+  if (today.getTime() === dueDay.getTime()) return { text: "Due today", state: "today" };
+  return { text: "Upcoming", state: "upcoming" };
+}
+
+function addLectureSchedule(card, dueDate, complete) {
+  const status = lectureScheduleStatus(dueDate, complete);
+  const schedule = document.createElement("div");
+  schedule.className = `lecture-schedule ${status.state}`;
+
+  const due = document.createElement("span");
+  due.textContent = `Due ${DATE_FORMATTER.format(dueDate)}`;
+
+  const badge = document.createElement("strong");
+  badge.textContent = status.text;
+
+  schedule.append(due, badge);
+  card.append(schedule);
+}
+
 function updateHome() {
   const level = Math.floor(state.progress.xp / XP_PER_LEVEL) + 1;
   els.homeLevelText.textContent = `Level ${level}`;
@@ -234,9 +272,10 @@ function renderTopics() {
 function renderLectures() {
   els.lectureGrid.replaceChildren();
   const lectures = state.contentMap.modules.filter((module) => module.deck === "slides");
-  lectures.forEach((lecture) => {
+  lectures.forEach((lecture, index) => {
     const questions = moduleQuestions(lecture.id);
     const mastered = masteredIn(questions);
+    const complete = questions.length > 0 && mastered === questions.length;
     const card = choiceCard(lecture.title, questions.length
       ? `${mastered}/${questions.length} locked in`
       : "0 cards", questions.length
@@ -244,6 +283,7 @@ function renderLectures() {
       : "Waiting for cards."
     );
     if (!questions.length) card.classList.add("empty");
+    addLectureSchedule(card, lectureDueDate(index), complete);
     card.addEventListener("click", () => startSession({
       title: lecture.title,
       subtitle: "Lecture practice",

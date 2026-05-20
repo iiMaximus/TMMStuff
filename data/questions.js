@@ -23,7 +23,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because GP zones are very fine coherent solute clusters; their coherency strain distorts the surrounding lattice and they are typically shearable/cut by dislocations. Dislocation bowing is associated with larger, incoherent, non-shearable precipitates in the Orowan mechanism. A is wrong because small coherent GP zones can be sheared. B is wrong because coherency with the matrix is a defining GP-zone feature. D is wrong because lattice distortion is precisely why GP zones strengthen the alloy.",
     "relevantTheory": "In precipitation hardening, early coherent precipitates/GP zones strengthen by coherency strain and particle shearing; large incoherent particles strengthen by Orowan bowing.",
-    "source": "notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 2-3; slides&docs/Metallic Materials Assignment 3 (1).pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 2-3; slides&docs/Metallic Materials Assignment 3 (1).pdf, p. 1"
   },
   {
     "id": 2,
@@ -49,7 +49,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because recrystallization is a solid-state process occurring after cold work during heating; it does not take place in the liquid phase. A is wrong because recrystallization involves thermally activated atomic motion and is diffusion controlled. B is wrong because recrystallization produces new strain-free grains before subsequent grain growth at longer times or higher temperatures. D is wrong because recrystallization reduces dislocation density and therefore softens the metal.",
     "relevantTheory": "Recovery and recrystallization reduce stored deformation energy in cold-worked metals; recrystallization forms new strain-free grains and restores ductility before grain growth.",
-    "source": "Self-assesment questions/Self-test questions - miscellanea.pdf, p. 2; Self-assesment questions/Test 2024.12.10.pdf, pp. 1-2"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/Self-test questions - miscellanea.pdf, p. 2; Self-assesment questions/Test 2024.12.10.pdf, pp. 1-2"
   },
   {
     "id": 3,
@@ -75,7 +75,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because twinning is favored when ordinary dislocation slip is difficult, especially at low temperature and high strain rate, not at high temperature. B is wrong because cryogenic temperature promotes twinning. C is wrong because FCC metals can twin, especially when stacking fault energy is low. D is wrong because small stacking fault energy favors extended partial dislocations and twinning.",
     "relevantTheory": "Twinning is an alternative plastic deformation mechanism favored by low temperature, high strain rate, limited slip activity, and low stacking fault energy.",
-    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, pp. 9-11; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 5 Strengthening of Metals.pdf, pp. 9-11; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 3"
   },
   {
     "id": 4,
@@ -101,7 +101,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because in the course framing the valence factor is the relevant Hume-Rothery factor connected with strong metallic bonding in refractory transition metals such as W and Mo. A is wrong because crystal lattice is a solubility criterion but does not by itself explain the high melting point. B is wrong because atomic radius is the dimensional factor for solid-solution formation. D is wrong because electronegativity mainly indicates whether intermetallic compounds are favored instead of solid solutions.",
     "relevantTheory": "The Hume-Rothery rules include dimensional factor, crystal structure, electronegativity, and valence; high bonding strength and high melting temperature are linked to electronic/valence effects.",
-    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, pp. 1-4"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, pp. 1-4"
   },
   {
     "id": 5,
@@ -127,7 +127,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because the upper-left peritectic region of the Fe-C diagram contains liquid plus delta-ferrite before the peritectic transformation. A is wrong because alpha-ferrite is the low-temperature BCC ferrite, not the high-temperature ferrite in contact with liquid. B is wrong because gamma plus delta-ferrite is a solid-solid two-phase field, not the liquid-containing field. C is wrong because alpha-ferrite plus gamma is the lower-temperature intercritical field.",
     "relevantTheory": "In the Fe-Fe3C diagram, delta-ferrite is the high-temperature BCC solid solution; near the peritectic reaction the relevant two-phase field is liquid plus delta-ferrite.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3"
   },
   {
     "id": 6,
@@ -155,7 +155,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because the J point in the Fe-C diagram corresponds to the peritectic reaction, where liquid plus delta-ferrite transform to austenite. A is wrong because the eutectic point is at about 4.3%C and 1147-1148 °C. B is wrong because the Curie temperature concerns magnetic transformation, not an invariant phase reaction. D is wrong because the eutectoid point is at about 0.76%C and 727 °C.",
     "relevantTheory": "The three key invariant reactions in the Fe-C system are eutectoid, eutectic, and peritectic; the peritectic occurs at about 0.16%C and 1493 °C.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 3"
   },
   {
     "id": 7,
@@ -181,7 +181,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because the H region refers to delta-ferrite, which is a high-temperature BCC solid solution of carbon in iron. A is wrong because FCC solid solution is austenite, gamma-Fe. C is wrong because the region is not only pure Fe; it allows limited carbon solubility. D is wrong because the H region is a solid ferritic field, not liquid.",
     "relevantTheory": "Ferrite phases in iron are BCC; alpha-ferrite is low-temperature BCC and delta-ferrite is high-temperature BCC, while austenite is FCC.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3 and p. 16"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3 and p. 16"
   },
   {
     "id": 8,
@@ -207,7 +207,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because the maximum solubility of carbon in delta-ferrite is approximately 0.09 wt%C near the peritectic temperature. A is wrong because about 0.002-0.0025%C is the very low room-temperature solubility in alpha-ferrite. C is wrong because 0.5%C is far too high for ferrite. D is wrong because 0.16%C is associated with the peritectic composition, not the maximum carbon solubility in delta-ferrite.",
     "relevantTheory": "Carbon solubility is very low in BCC ferrite phases and much higher in FCC austenite; delta-ferrite has only limited carbon solubility near the peritectic region.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3"
   },
   {
     "id": 9,
@@ -234,7 +234,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because the horizontal eutectoid/austenite-pearlite transformation temperature used in the TTT diagram is A1. A is wrong because A2 is related to magnetic transformation, not the eutectoid transformation line in the TTT diagram. B is wrong because A3 is the austenite/ferrite boundary for hypoeutectoid steels. D is wrong because Acm is the austenite/cementite solubility boundary for hypereutectoid steels.",
     "relevantTheory": "A1 is the eutectoid critical temperature for austenite to pearlite transformation; A3 and Acm define the austenite boundaries on the Fe-C phase diagram.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 3; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-2"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 3; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-2"
   },
   {
     "id": 10,
@@ -261,7 +261,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because in the pearlitic transformation field of a TTT diagram, the partially transformed region contains pearlite plus remaining austenite. A is wrong because ferrite plus austenite applies to the ferrite transformation field, not the pearlitic field. B is wrong because below A1 the remaining austenite is not stable equilibrium austenite. C is wrong because cementite alone plus austenite is not the usual pearlitic transformation field; pearlite is the ferrite-cementite lamellar microconstituent.",
     "relevantTheory": "In a TTT diagram, transformation fields indicate partial transformation of austenite into products such as pearlite or bainite; before completion, the field contains the transformation product plus residual austenite.",
-    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 9 and 19; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 7"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 9 and 19; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 7"
   },
   {
     "id": 11,
@@ -285,9 +285,9 @@ window.TMM_QUESTIONS = [
       "D": "nitriding"
     },
     "correctAnswer": "D",
-    "explanation": "D is correct because nitriding produces a very hard nitride-rich surface layer with low distortion and high resistance to local contact stresses. A is wrong because laser hardening is localized thermal hardening without chemical enrichment and is not the standard answer for durable specific/contact-load resistance. B is wrong because induction hardening is useful for medium-carbon steels and produces martensitic surface hardening, but it is less chemically durable than a nitrided case. C is wrong because carburizing gives a deeper hard case and is excellent for gears, but for highly specific local contact resistance the nitrided case is the more suitable choice in the course framing.",
+    "explanation": "D is correct because nitriding produces a very hard nitride-rich surface layer with low distortion and high resistance to localized contact stresses. A is wrong because laser hardening is localized thermal hardening without chemical enrichment and is not the standard answer for durable specific/contact-load resistance. B is wrong because induction hardening is useful for medium-carbon steels and produces martensitic surface hardening, but it is less chemically durable than a nitrided case. C is wrong because carburizing gives a deeper hard case and is excellent for gears, but for highly specific local contact resistance the nitrided case is the more suitable choice in the course framing.",
     "relevantTheory": "Surface hardening processes are selected by required case depth, distortion, residual stress state, and contact/wear performance; nitriding forms hard alloy nitrides below A1 without quenching.",
-    "source": "Self-assesment questions/Self-test questions - miscellanea.pdf, p. 1; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/Self-test questions - miscellanea.pdf, p. 1; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 2"
   },
   {
     "id": 12,
@@ -313,7 +313,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because molybdenum is not an austenitizing element in the course classification; it is listed among ferritizing elements. A is wrong because Mo helps suppress temper embrittlement. C is wrong because Mo is a carbide former and can form complex carbides in alloyed steels. D is wrong because Mo promotes hardenability by delaying diffusion-controlled transformations.",
     "relevantTheory": "Mo in steels is important for hardenability, carbide formation, high-temperature strength, and resistance to temper embrittlement; austenitizers include C, N, Ni, Mn, Cu, and Co.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 4-5; TMM.txt"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 4-5; TMM.txt"
   },
   {
     "id": 13,
@@ -339,7 +339,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because the Basic Oxygen Furnace converts high-carbon pig iron into steel mainly by oxidizing and reducing the carbon content. A is wrong because iron ore reduction occurs in the blast furnace, not the BOF. B is wrong because the BOF is not primarily used to eliminate manganese. C is wrong because deoxidation is a later refining/killing operation, commonly using Si, Mn, and Al.",
     "relevantTheory": "Integral steel production uses blast furnace reduction to make pig iron, followed by BOF oxygen blowing to decarburize and refine it into steel.",
-    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 2"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 8 Modern Production of Steels.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 2"
   },
   {
     "id": 14,
@@ -365,7 +365,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because sensitization is caused by chromium carbide precipitation at grain boundaries, which creates chromium-depleted zones vulnerable to intergranular corrosion. B is wrong because nickel precipitation is not the sensitization mechanism. C is wrong because molybdenum precipitation is not the cause of sensitization. D is wrong because precipitation is indeed involved: specifically chromium carbide precipitation at grain boundaries.",
     "relevantTheory": "Austenitic stainless steels can suffer sensitization when Cr carbides precipitate at grain boundaries, locally reducing Cr below the level needed for passivation.",
-    "source": "slides&docs/Lecture 12.pdf, p. 1; Self-assesment questions/self-assessment questions on Corrosion.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 12.pdf, p. 1; Self-assesment questions/self-assessment questions on Corrosion.pdf, p. 1"
   },
   {
     "id": 15,
@@ -392,7 +392,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because duplex stainless steels are austeno-ferritic, meaning their microstructure is a mixture of austenite and ferrite. B is wrong because ferrite plus martensite describes a different steel microstructure, not duplex stainless. C is wrong because austenite plus martensite is not the duplex stainless family. D is wrong because pearlite is not a stainless steel duplex constituent.",
     "relevantTheory": "Stainless steels are classified by microstructure into ferritic, austenitic, martensitic, and duplex families. Duplex stainless steels intentionally contain both ferrite and austenite, combining high strength and chloride stress-corrosion resistance with useful toughness.",
-    "source": "slides&docs/Lecture 12.pdf, p. 1; slides&docs/TMM Assignment 4 2025-2026.pdf, p. 2"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 12.pdf, p. 1; slides&docs/TMM Assignment 4 2025-2026.pdf, p. 2"
   },
   {
     "id": 16,
@@ -418,7 +418,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because ordinary wet corrosion of steels requires humidity as electrolyte and oxygen as the cathodic reactant. A is incomplete because humidity alone does not express the oxygen reduction component. C is wrong because dry oxygen leads to dry oxidation/scale formation rather than ordinary wet uniform corrosion. D is wrong because hydrogen can contribute to embrittlement or acid corrosion, but the standard uniform corrosion condition for steels is humid oxygenated environment.",
     "relevantTheory": "Wet corrosion requires an electrochemical cell with anodic metal dissolution, cathodic reduction, electrolyte, and electrical connection; for steels in neutral environments, oxygen reduction is central.",
-    "source": "slides&docs/Lecture 11 Corrosion.pdf, p. 1; Self-assesment questions/self-assessment questions on Corrosion.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 11 Corrosion.pdf, p. 1; Self-assesment questions/self-assessment questions on Corrosion.pdf, p. 1"
   },
   {
     "id": 17,
@@ -445,7 +445,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because metallic bonding is not ionic; it is based on delocalized valence electrons shared by many atoms. A is wrong because free movement of valence electrons is a central feature of metallic bonding. B is a distractor because cohesive energy can vary, but the defining wrong bonding type here is ionic interaction. C is wrong because metallic bonding is non-directional, explaining ductility.",
     "relevantTheory": "Metallic bonding is characterized by delocalized valence electrons and non-directional bonds, which support conductivity and allow plastic deformation without bond rupture as in ionic/covalent solids.",
-    "source": "slides&docs/Lecture 2 Metals.pdf, p. 1; TMM.txt"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 2 Metals.pdf, p. 1; TMM.txt"
   },
   {
     "id": 18,
@@ -469,9 +469,9 @@ window.TMM_QUESTIONS = [
       "D": "the grains start to shear relatively"
     },
     "correctAnswer": "B",
-    "explanation": "B is correct because critical resolved shear stress is not the same as macroscopic yield strength; yield stress depends on crystal orientation through the Schmid factor. A is wrong because tau_CRSS is treated as a material property for slip activation. C is wrong because reaching tau_CRSS activates dislocation motion on a slip system. D is badly phrased, but the main examined trap is that tau_CRSS does not directly correspond to the material yield stress.",
+    "explanation": "B is correct because critical resolved shear stress is not the same as macroscopic yield strength; yield stress depends on crystal orientation through the Schmid factor. A is wrong because tau_CRSS is treated as a material property for slip activation. C is wrong because reaching tau_CRSS activates dislocation motion on a slip system. D preserves the professor's awkward past-exam wording; strictly a single crystal has no grains, but interpreted as the onset of relative shear/slip it is not the intended false clause. The tested false statement is B.",
     "relevantTheory": "Schmid's law states tau_RSS = sigma cos(phi) cos(lambda); slip begins when tau_RSS reaches tau_CRSS, so the applied yield stress depends on orientation.",
-    "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, p. 1; slides&docs/Schmid Law Exercise.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 4 Microplasticity (1).pdf, p. 1; slides&docs/Schmid Law Exercise.pdf, p. 1"
   },
   {
     "id": 19,
@@ -496,7 +496,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because magnesium has a hexagonal close-packed crystal structure at room temperature. A is wrong because FCC is typical of metals such as Al and Cu. B is wrong because BCC is typical of alpha-Fe and delta-Fe. D is wrong because simple cubic is not the crystal structure of Mg.",
     "relevantTheory": "Crystal structure controls slip systems and formability; Mg is HCP and therefore has fewer easy slip systems at room temperature than FCC metals.",
-    "source": "slides&docs/Lecture 2 Metals.pdf, p. 1; TMM.txt"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 2 Metals.pdf, p. 1; TMM.txt"
   },
   {
     "id": 20,
@@ -522,7 +522,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because stacking faults are not the relevant factor for polymorphic transformation in BCC iron. B is wrong because heating/cooling rate affects transformation temperatures and non-equilibrium critical points. C is wrong because defects such as dislocations can influence nucleation and transformation behavior. D is wrong because atomic diffusion is central to many solid-state transformations.",
     "relevantTheory": "Iron is polymorphic: liquid to delta-BCC, gamma-FCC, and alpha-BCC during cooling; transformation kinetics depend on thermal path and defect-assisted nucleation/diffusion.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 1 and 4; slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 10"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 1 and 4; slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 10"
   },
   {
     "id": 21,
@@ -549,7 +549,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because eutectoid austenite has about 0.76 wt%C before transforming to pearlite at A1. A is wrong because about 0.022-0.025%C is the maximum carbon solubility in ferrite near A1. C is wrong because 4.3%C is the eutectic composition. D is wrong because 6.67%C is the carbon content of cementite.",
     "relevantTheory": "At the eutectoid composition, austenite containing about 0.76 wt%C transforms into pearlite during slow cooling below A1. Pearlite is not a single phase; it is a lamellar mixture of ferrite and cementite produced by the eutectoid reaction.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3 and p. 16"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3 and p. 16"
   },
   {
     "id": 22,
@@ -576,7 +576,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because spheroidizing produces the softest condition, especially in hyper-eutectoid steels, by reducing ferrite/cementite interfacial area. A is wrong because annealing softens but is not the softest-ever condition emphasized in the slides. B is wrong because normalizing gives finer ferrite-pearlite and better strength than annealing. D is wrong because skin-passing is a light cold rolling step used to remove yield point effects, not to produce maximum softness.",
     "relevantTheory": "Spheroidizing is prolonged heating near or just below A1 that transforms lamellar cementite into spheroidal carbides, maximizing ductility and softness.",
-    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-2"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-2"
   },
   {
     "id": 23,
@@ -602,7 +602,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because undercooling during solidification promotes nucleation and therefore finer grains, which strengthen by grain refinement. A is wrong because solid solution strengthening depends on solute atoms in the lattice, not directly on undercooling. B is wrong because aluminium alloys do not strengthen by the steel-like austenite transformation mechanism. C is wrong because through-grain precipitation is related to aging after solution treatment and quenching, not the immediate effect of solidification undercooling.",
     "relevantTheory": "During solidification, increased nucleation relative to growth refines grain size; grain refinement strengthens by hindering dislocation motion at grain boundaries.",
-    "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, pp. 1-2"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, pp. 1-2"
   },
   {
     "id": 24,
@@ -627,7 +627,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because a thin casting in a metallic mould has strong directional heat extraction, favoring columnar growth toward the interior. A is wrong because large equiaxed grains are more associated with slow cooling and low temperature gradients. C is wrong because dendrites describe growth morphology, not the main grain-zone answer expected here. D is wrong because small equiaxed grains are typical of the chill zone or strong nucleation throughout the melt, not the inner core under directional heat flow.",
     "relevantTheory": "Casting grain structure depends on cooling rate and temperature gradient: metallic moulds promote rapid directional heat extraction, chill zones, and columnar growth.",
-    "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf"
   },
   {
     "id": 25,
@@ -653,7 +653,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because aluminium alloys are widely used for lightweight automotive sheet panels when low density is required. A is wrong because magnesium alloys have limited room-temperature formability due to HCP structure. B is wrong because low-alloy steels are generally stronger structural steels, while deep sheet forming is more associated with low-carbon/IF sheet steels. C is wrong because stainless steels are not the typical lightweight automotive panel choice in this exam context.",
     "relevantTheory": "Sheet-forming suitability depends on crystal structure, formability, density, and application; aluminium offers low density and FCC ductility, although formability can still be more critical than in low-carbon steels.",
-    "source": "Self-assesment questions/self-assessment questions on shaping by plastic deformation.pdf, pp. 1-2; slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions on shaping by plastic deformation.pdf, pp. 1-2; slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, p. 1"
   },
   {
     "id": 26,
@@ -678,7 +678,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because flowing water is generally less critical than stagnant or crevice conditions, since it reduces localized oxygen depletion and accumulation of aggressive ions. A is wrong because contact with another metal can create galvanic corrosion. B is wrong because marine chloride environments are critical for pitting and stress corrosion cracking. D is wrong because soils can create crevice-like, differential aeration, and aggressive corrosion conditions.",
     "relevantTheory": "Stainless steels rely on passivation but are vulnerable to localized corrosion in chlorides, galvanic contact, crevices, and stagnant/differential aeration environments.",
-    "source": "slides&docs/Lecture 11 Corrosion.pdf, p. 1; Self-assesment questions/self-assessment questions on Corrosion.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 11 Corrosion.pdf, p. 1; Self-assesment questions/self-assessment questions on Corrosion.pdf, p. 1"
   },
   {
     "id": 27,
@@ -705,7 +705,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because in this exam wording the intended meaning is carbide-forming alloying elements, and both Cr and Mo can form carbides in alloyed steels. A is incomplete because Mo also forms carbides. B is incomplete because Cr also forms carbides. D is wrong because both listed alloying elements are relevant carbide formers.",
     "relevantTheory": "In alloyed steels, cementite can be partly replaced by complex carbides involving elements such as Cr, Mo, and Mn; these elements influence hardenability and tempering response.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 5; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 5; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1"
   },
   {
     "id": 28,
@@ -730,7 +730,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because in the force-distance representation the elastic modulus is related to the slope near the equilibrium interatomic distance. B is wrong because a minimum refers to the potential energy curve, not the modulus in the F-r curve. C is wrong because a maximum force is not the elastic modulus. D is wrong because the inflection point is not the definition of Young's modulus in the force-distance curve.",
     "relevantTheory": "The Condon-Morse model connects bonding to stiffness: Young's modulus is linked to the curvature of the potential energy curve or equivalently the slope of the force-distance relation at equilibrium.",
-    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, pp. 2-4"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, pp. 2-4"
   },
   {
     "id": 29,
@@ -755,7 +755,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because FCC metals have close-packed planes and directions, giving easy slip and good ductility/formability. A is wrong because BCC has many potential slip systems but no close-packed planes and higher thermal activation is needed. C is wrong because BCT martensite is distorted and hard, not easy to slip. D is wrong because HCP has few independent slip systems at room temperature.",
     "relevantTheory": "Plastic deformation by slip is easiest on close-packed planes and directions; FCC metals are generally the most ductile and formable because of favorable slip systems.",
-    "source": "slides&docs/Lecture 2 Metals.pdf, p. 1; slides&docs/Lecture 4 Microplasticity (1).pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 2 Metals.pdf, p. 1; slides&docs/Lecture 4 Microplasticity (1).pdf, p. 1"
   },
   {
     "id": 30,
@@ -770,17 +770,17 @@ window.TMM_QUESTIONS = [
       "application"
     ],
     "diagramRequired": false,
-    "question": "Fe atom diffuses faster in BCC than in FCC crystal because:",
+    "question": "Small interstitial atoms diffuse faster in BCC than in FCC crystal because:",
     "options": {
-      "A": "larger n. of interstitial sites",
+      "A": "the BCC lattice is less closely packed and offers easier interstitial jump pathways",
       "B": "smaller size of interstitials sites",
       "C": "only at high temperature",
       "D": "less defects"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct in the exam's simplified wording because BCC iron is more open and offers more available diffusion paths/sites than close-packed FCC austenite. B is wrong because smaller interstitial sites would hinder, not promote, interstitial diffusion. C is wrong because the BCC/FCC diffusion difference is structural, not only a high-temperature effect. D is wrong because diffusion is not faster in BCC because of fewer defects.",
-    "relevantTheory": "Diffusion depends on crystal structure, available paths/sites, and activation energy; BCC structures are more open than FCC structures, so diffusion is generally faster.",
-    "source": "Self-assesment questions/self-assessment questions on Diffusion.pdf, p. 1; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 6-7"
+    "explanation": "A is correct in the course's intended interstitial-diffusion sense because BCC iron is less closely packed and offers easier jump pathways than close-packed FCC austenite. The original past-exam wording says Fe atom, but the lecture trap is really about small interstitial solute diffusion versus carbon solubility. B is wrong because simply having smaller interstitial holes explains lower solubility, not faster diffusion. C is wrong because the BCC/FCC difference is structural, not only a high-temperature effect. D is wrong because fewer defects are not the reason for faster diffusion.",
+    "relevantTheory": "Diffusion depends on crystal structure, atom type, available jump pathways and activation energy. FCC austenite has larger interstitial holes and higher carbon solubility, while BCC ferrite is more open and can allow faster interstitial diffusion.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions on Diffusion.pdf, p. 1; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 6-7"
   },
   {
     "id": 31,
@@ -806,7 +806,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because all three listed reactions occur in the blast furnace. A is wrong because coke burns with oxygen to form CO2 and heat. B is wrong because CO2 reacts with coke to form CO, the main reducing gas. C is wrong because limestone decomposes to CaO and CO2; CaO then helps form slag with impurities.",
     "relevantTheory": "In the blast furnace, coke supplies heat and CO reducing gas, while limestone decomposes to CaO flux. These reactions convert iron ore into pig iron and separate impurities into slag.",
-    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 2"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 8 Modern Production of Steels.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 2"
   },
   {
     "id": 32,
@@ -833,7 +833,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because for cast-iron range compositions above about 2%C, the important high-temperature invariant reaction is the eutectic reaction, liquid transforming to austenite plus cementite. B is wrong because the eutectoid reaction occurs at lower temperature around 0.76%C. C is wrong because the peritectic occurs at very low carbon content near 0.16%C. D is wrong because a peritectoid reaction is not the relevant Fe-Fe3C invariant reaction here.",
     "relevantTheory": "The Fe-Fe3C diagram has key invariant reactions: peritectic at low carbon and high temperature, eutectic at about 4.3%C and 1147 °C, and eutectoid at about 0.76%C and 727 °C.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3"
   },
   {
     "id": 33,
@@ -858,7 +858,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because in AISI designations the last two digits give the approximate carbon content in hundredths of a percent; 4140 therefore contains about 0.40%C. A is wrong because 4%C would be cast-iron range. C is too literal for the designation rule used in the exam. D is impossible for steel chemistry.",
     "relevantTheory": "In AISI/SAE steel designations, the first two digits identify the alloy family and the last two digits give the nominal carbon content in hundredths of a percent. AISI 4140 is a Cr-Mo low-alloy steel with about 0.40 wt%C.",
-    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 3"
   },
   {
     "id": 34,
@@ -886,7 +886,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because TMCP structural steels are designed to combine high strength with good toughness/resilience through fine microstructure control. A is wrong because high yield strength is a core TMCP objective. B is wrong because TMCP can also increase tensile strength. C is wrong because fine grains improve toughness, so high toughness is expected rather than false.",
     "relevantTheory": "Thermo-mechanical controlled processing uses controlled deformation, recrystallization/retarded recrystallization, precipitation, and cooling to refine grains in HSLA steels, improving strength and toughness together.",
-    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 2"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 8 Modern Production of Steels.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 2"
   },
   {
     "id": 35,
@@ -902,17 +902,17 @@ window.TMM_QUESTIONS = [
       "trap"
     ],
     "diagramRequired": false,
-    "question": "It is FALSE that extensive solid solution can be achieved with:",
+    "question": "Which Hume-Rothery violation most directly prevents extensive substitutional solid solution?",
     "options": {
-      "A": "very low activation energy",
-      "B": "interstitials",
-      "C": "FCC structure",
-      "D": "large difference in Electronegarivity"
+      "A": "similar atomic radii within about 15%",
+      "B": "the same crystal structure",
+      "C": "comparable electronegativity",
+      "D": "large difference in electronegativity"
     },
     "correctAnswer": "D",
-    "explanation": "D is correct because a large electronegativity difference favors intermetallic/compound formation, not extensive solid solution. A is not the key false condition in the Hume-Rothery sense because easier atomic motion can help solution formation. B is not generally a condition for extensive substitutional solubility, but interstitial solutions can still form when small atoms fit into the lattice. C is wrong because compatible crystal structure supports solubility; FCC can host solid solutions when the other rules are satisfied.",
+    "explanation": "D is correct because a large electronegativity difference favors compound or intermetallic formation instead of extensive substitutional solid solution. A is wrong because similar atomic radii are one of the favourable Hume-Rothery conditions. B is wrong because the same crystal structure supports extensive solubility. C is wrong because comparable electronegativity is also favourable.",
     "relevantTheory": "Hume-Rothery rules for extensive solid solubility require similar atomic radius, same crystal structure, comparable electronegativity, and favorable valence. Large electronegativity differences tend to produce compounds.",
-    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, p. 1; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, p. 1; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 1"
   },
   {
     "id": 36,
@@ -937,7 +937,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because the premise is wrong: metal dissolution/corrosion occurs at the anode, not preferentially at the cathode. A is wrong because electron arrival at the cathode supports reduction, not metal loss. B is wrong because electrons depart from the anodic metal during oxidation. D is wrong because hydrogen evolution is a cathodic reaction in acid environments, but it is not where metal corrosion dissolution occurs.",
     "relevantTheory": "In electrochemical corrosion, oxidation and metal dissolution occur at the anode, while reduction reactions occur at the cathode. The cathode is protected relative to the anode.",
-    "source": "slides&docs/Lecture 11 Corrosion.pdf, p. 1; tutorial_recaps/STM-TMM 04b Corrosion -Recap.pdf, pp. 1-3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 11 Corrosion.pdf, p. 1; tutorial_recaps/STM-TMM 04b Corrosion -Recap.pdf, pp. 1-3"
   },
   {
     "id": 37,
@@ -964,7 +964,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because AISI 1010 is a plain low-carbon steel with only about 0.10%C and no considerable Ni or Cr alloying. A is wrong because 0.10%C is low, not a considerable carbon content compared with medium/high-carbon steels. B is wrong because 10XX steels are plain carbon steels, not nickel steels. C is wrong because chromium is characteristic of other alloy series such as 41XX or stainless steels.",
     "relevantTheory": "In AISI steel designations, 10XX indicates plain carbon steel and the final two digits indicate approximate carbon content in hundredths of a percent.",
-    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 3"
   },
   {
     "id": 38,
@@ -989,7 +989,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because PREN is used for stainless steels, including austenitic grades, and higher PREN means better pitting resistance; common austenitic stainless steels are above about 15. B is wrong because lower PREN is worse for pitting resistance. C is wrong because PREN is applicable to austenitic stainless steels. D is wrong because below 15 would indicate poor pitting resistance rather than the target condition.",
     "relevantTheory": "PREN, the Pitting Resistance Equivalent Number, estimates localized corrosion resistance using Cr, Mo/W, and N contents. Higher PREN indicates better pitting resistance.",
-    "source": "slides&docs/Lecture 12.pdf, p. 1; TMM.txt"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 12.pdf, p. 1; TMM.txt"
   },
   {
     "id": 39,
@@ -1014,7 +1014,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because electropositivity is highest toward the lower-left of the periodic table and decreases toward the upper-right. A is wrong because moving left generally increases metallic/electropositive character. B is wrong because left/bottom is where electropositivity is highest. C is wrong because moving downward tends to increase electropositivity, partially opposing the rightward decrease.",
     "relevantTheory": "Electropositivity is the tendency to lose electrons and is linked to metallic character. It generally increases down a group and to the left across a period.",
-    "source": "slides&docs/Lecture 2 Metals.pdf, p. 1; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 2 Metals.pdf, p. 1; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, p. 1"
   },
   {
     "id": 40,
@@ -1040,7 +1040,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because thermal expansion is not always isotropic; crystal anisotropy and texture can make expansion direction-dependent. A is wrong because thermal expansion is treated as mostly bond-controlled and microstructure-insensitive compared with yield strength or toughness. C is wrong because the Condon-Morse potential explains thermal expansion through asymmetric bonding energy. D is a misleading statement, but the exam trap on thermal expansion is that it is not always isotropic; softness is instead related to stiffness/elastic modulus, not thermal expansion.",
     "relevantTheory": "Thermal expansion comes from interatomic bonding and the asymmetry of the potential-energy curve. It is an intrinsic property, but anisotropic crystals can expand differently along different directions.",
-    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, pp. 2-4; TMM.txt"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, pp. 2-4; TMM.txt"
   },
   {
     "id": 41,
@@ -1067,7 +1067,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because metallic bonding is non-directional and lacks the directional covalent bond constraints that make many materials brittle. A is wrong because spring-like elasticity explains reversible elastic deformation, not ductility. B is wrong because ductility occurs by dislocation motion and bond rearrangement, not permanent catastrophic bond breaking. D is wrong because atomic separation is not very large in metals and does not explain ductility.",
     "relevantTheory": "Metals are ductile because non-directional metallic bonds allow atoms and dislocations to move while the electron cloud continues bonding the lattice.",
-    "source": "slides&docs/Lecture 2 Metals.pdf, p. 1; TMM.txt"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 2 Metals.pdf, p. 1; TMM.txt"
   },
   {
     "id": 42,
@@ -1094,7 +1094,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because stacking faults are mainly discussed as close-packed plane sequence defects, especially in FCC crystals, not typical BCC packing faults. B is wrong because stacking faults are characteristic defects in FCC close-packed plane stacking. C is wrong because stacking faults can form during plastic deformation through partial dislocation motion. D is wrong because stacking/growth faults can also arise during crystal growth or solidification.",
     "relevantTheory": "A stacking fault is a two-dimensional defect in the normal stacking sequence of close-packed planes; stacking fault energy influences dislocation behavior and twinning.",
-    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, pp. 10 and 13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pp. 8-12"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 5 Strengthening of Metals.pdf, pp. 10 and 13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pp. 8-12"
   },
   {
     "id": 43,
@@ -1111,14 +1111,14 @@ window.TMM_QUESTIONS = [
     "question": "If the Vickers hardness (HV) of a steel is 420, its UTS is estimated as:",
     "options": {
       "A": "2000 MPa",
-      "B": "200 MPa A",
+      "B": "200 MPa",
       "C": "1400 MPa",
       "D": "400 MPa"
     },
     "correctAnswer": "C",
-    "explanation": "C is correct because a common steel estimate is UTS in MPa is about 3.3 times Vickers hardness; 420 HV gives about 1386 MPa, close to 1400 MPa. A is too high. B is far too low and includes a malformed option. D is also too low and close only to the hardness number, not the tensile strength estimate.",
+    "explanation": "C is correct because a common steel estimate is UTS in MPa is about 3.3 times Vickers hardness; 420 HV gives about 1386 MPa, close to 1400 MPa. A is too high. B is far too low. D is also too low and close only to the hardness number, not the tensile strength estimate.",
     "relevantTheory": "For steels, hardness can be used as an approximate proxy for strength; a useful rule is UTS(MPa) approximately equals 3.3 times HV.",
-    "source": "TMM.txt; slides&docs/Lecture 9 Steel Heat Treatment.pdf, p. 10"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; TMM.txt; slides&docs/Lecture 9 Steel Heat Treatment.pdf, p. 10"
   },
   {
     "id": 44,
@@ -1145,7 +1145,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because spheroidization softens pearlitic/cementite-containing steels by reducing interfacial area; it does not harden pearlite. A is wrong because pearlitic steels can increase strength by cold work. B is wrong because pearlite is lamellar ferrite plus cementite. D is not the best false option because pearlite has some ductility compared with cementite, although it is less ductile than ferrite.",
     "relevantTheory": "Pearlite is a lamellar ferrite-cementite microconstituent. Fine pearlite is harder than coarse pearlite, while spheroidized cementite in ferrite gives the softest condition.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2 and 16; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-2"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2 and 16; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-2"
   },
   {
     "id": 45,
@@ -1172,7 +1172,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because lower transformation temperature means lower atomic mobility and slower diffusion. A is wrong because diffusion does not increase as temperature decreases. B is not the general trend. D is wrong because diffusion is strongly temperature dependent and thermally activated.",
     "relevantTheory": "Transformation kinetics balance nucleation and growth: undercooling increases driving force and nucleation tendency, but decreasing temperature reduces diffusion and growth rate.",
-    "source": "slides&docs/Lecture 9 Steel Heat Treatment.pdf, p. 19; Self-assesment questions/Self-test questions - miscellanea.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 9 Steel Heat Treatment.pdf, p. 19; Self-assesment questions/Self-test questions - miscellanea.pdf, p. 1"
   },
   {
     "id": 46,
@@ -1198,7 +1198,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because ultrafast solidification creates strong undercooling and many nuclei with limited time for growth, producing very fine clusters/grains. A is wrong because large clusters require longer growth time. C is wrong because nuclei do not separate into elements simply because of fast solidification. D is wrong because nucleation behavior is relevant and answerable from solidification theory.",
     "relevantTheory": "Rapid or ultrafast solidification increases undercooling. Higher undercooling raises the nucleation rate, reduces the time available for growth and segregation, and therefore creates many small nuclei that develop into a refined microstructure.",
-    "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 2"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 2"
   },
   {
     "id": 47,
@@ -1224,7 +1224,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because a large casting in a ceramic mould cools slowly, especially in the core, favoring coarse equiaxed grains. B is wrong because fully columnar growth is favored by strong directional heat extraction, more typical of high thermal gradients. C is wrong because the grain-zone outcome can be inferred from casting solidification principles. D is wrong because small equiaxed grains require rapid cooling or strong nucleation, not a slow-cooling ceramic mould core.",
     "relevantTheory": "Casting grain size and morphology are controlled by cooling rate and temperature gradient. Slow cooling promotes coarse grains; rapid cooling and high nucleation promote fine grains.",
-    "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf"
   },
   {
     "id": 48,
@@ -1249,7 +1249,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because copper alloys, especially low-stacking-fault-energy alloys such as brass, show strong strain hardening ability. A is wrong because magnesium alloys have limited room-temperature slip due to HCP structure. B is not the best answer because low-alloy steels are often strengthened mainly through heat treatment or microstructure control. D is wrong in this comparative exam context because many aluminium alloys strain harden, but their strain hardening coefficient is generally lower than Cu alloys.",
     "relevantTheory": "Strain hardening depends on dislocation accumulation and dynamic recovery. Low stacking fault energy suppresses cross-slip, increasing dislocation storage and the strain hardening coefficient.",
-    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 13; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 13; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 3"
   },
   {
     "id": 49,
@@ -1276,7 +1276,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because copper alloys are FCC-based and generally remain ductile under regular cold working, with strong strain hardening rather than brittle fracture. B is wrong because magnesium alloys are HCP and more prone to limited formability/brittleness at room temperature. C is wrong because mild steel can suffer yield point/strain aging phenomena and reduced ductility after cold work. D is less suitable than copper alloy in this exam framing because aluminium alloys can have limited sheet formability and lower strain hardening capacity.",
     "relevantTheory": "Cold work increases dislocation density and strength while reducing ductility. FCC copper alloys usually tolerate cold work well because they have favorable slip systems.",
-    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, pp. 9 and 13; Self-assesment questions/self-assessment questions on shaping by plastic deformation.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 5 Strengthening of Metals.pdf, pp. 9 and 13; Self-assesment questions/self-assessment questions on shaping by plastic deformation.pdf, p. 1"
   },
   {
     "id": 50,
@@ -1301,7 +1301,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because in low-alloy EN-style designations the number after Cr is divided by the alloying factor for chromium, commonly 4; 9/4 gives about 2.25% Cr. A is wrong because 10 refers to Mo in this old designation style, not Cr. B is wrong because 14 indicates about 0.14%C, not chromium. D is wrong because the 9 must be divided by the Cr factor rather than read directly as percent Cr.",
     "relevantTheory": "Low-alloy steel designations encode carbon as the first number divided by 100, while alloying element numbers are converted using element-specific factors such as 4 for Cr.",
-    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1; Self-assesment questions/Self-assessment questions on steels (2).pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1; Self-assesment questions/Self-assessment questions on steels (2).pdf, p. 1"
   },
   {
     "id": 51,
@@ -1329,7 +1329,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because stiffness is mainly controlled by interatomic bonding, so alloying usually changes Young modulus only slightly; pure metals are not generally selected because they are stiffer than alloys. A is wrong because pure metals are often more ductile than alloys due to fewer obstacles to dislocation motion. B is not the main false statement in this exam context because some pure metals can show good corrosion behavior through passivation or absence of galvanic microconstituents. C is not the best false statement because pure metals can be tougher/more ductile than strengthened alloys, depending on microstructure.",
     "relevantTheory": "Alloying usually increases strength by impeding dislocation motion, but often reduces ductility. Stiffness is an intrinsic bond-controlled property and is much less microstructure-sensitive than yield strength.",
-    "source": "slides&docs/Lecture 2 Metals.pdf, p. 1; slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 2 Metals.pdf, p. 1; slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 1"
   },
   {
     "id": 52,
@@ -1355,7 +1355,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because the dimensional factor in the Hume-Rothery rules uses an atomic radius difference within about 15%, not 25%, for extensive solid solubility. A is wrong because electronegativity difference is one of the rules and large differences favor compounds. C is wrong because valence is included. D is wrong because identical crystal structure favors solid solution formation.",
     "relevantTheory": "The Hume-Rothery rules for substitutional solid solutions are atomic size difference within about 15%, same crystal structure, comparable electronegativity, and favorable valence.",
-    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, p. 1"
   },
   {
     "id": 53,
@@ -1380,7 +1380,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because a large electronegativity difference favors the formation of an intermetallic compound rather than a random solid solution. B is wrong because liquid solution is not the solid-state product described by the Hume-Rothery rule. C is wrong because solid solution is favored by comparable electronegativities. D is wrong because alloy steels are a broad alloy class, not the specific product of electronegativity mismatch.",
     "relevantTheory": "Hume-Rothery-type solid-solution formation is favored when atoms have similar electronegativity. Large electronegativity differences increase ionic/covalent character of bonding and favor ordered compounds or intermetallics rather than extensive solid solution.",
-    "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, p. 1"
   },
   {
     "id": 54,
@@ -1407,7 +1407,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because precipitation hardening does not rely on a martensitic/allotropic phase transformation during quenching; it relies on supersaturation followed by precipitation during aging. A is wrong because solutionizing dissolves solute into a single-phase solid solution. B is wrong because quenching retains a supersaturated solid solution. C is wrong because aging forms fine precipitates that strengthen the alloy.",
     "relevantTheory": "Age hardening consists of solution treatment, quenching, and aging. Strength comes from fine precipitates obstructing dislocations, not from a diffusionless phase change like steel quenching.",
-    "source": "slides&docs/Metallic Materials Assignment 3 (1).pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 2-3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Metallic Materials Assignment 3 (1).pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 2-3"
   },
   {
     "id": 55,
@@ -1434,7 +1434,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because manganese is an austenitizing element and decreases the A1 transformation temperature. B is wrong because ferritizing elements such as Si, Cr, Mo, Ti, and V tend to raise/stabilize ferrite-side transformation behavior. C is wrong because 5% Mn is enough to affect transformation points. D is wrong because the A1 transformation does not simply disappear in this exam context.",
     "relevantTheory": "Austenitizing elements such as Mn and Ni stabilize gamma-Fe and generally lower critical transformation temperatures; ferritizing elements such as Cr, Si, Al, Mo, Ti, and V stabilize alpha-Fe.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 4"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 4"
   },
   {
     "id": 56,
@@ -1462,7 +1462,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because AISI 1095 has about 0.95%C, above the eutectoid composition, so it is hypereutectoid and forms pro-eutectoid cementite on slow cooling. A is wrong because AISI 1020 has about 0.20%C and is hypoeutectoid, forming pro-eutectoid ferrite. B is wrong because AISI 4340 has about 0.40%C and is also hypoeutectoid. D is wrong because AISI 304 is an austenitic stainless steel, not a plain hypereutectoid carbon steel.",
     "relevantTheory": "Hypoeutectoid steels below about 0.76%C form pro-eutectoid ferrite plus pearlite; hypereutectoid steels above about 0.76%C form pro-eutectoid cementite plus pearlite.",
-    "source": "slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2 and 9; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2 and 9; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1"
   },
   {
     "id": 57,
@@ -1489,7 +1489,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because induction hardening requires enough carbon and hardenability to form martensite after rapid surface heating and quenching; tempering/medium-carbon steels are suitable. A is wrong because austenitic stainless steels are stabilized as austenite and are not hardened by ordinary quench transformation. C is wrong because low-carbon steels generally lack enough carbon for high martensitic hardness unless carburized first. D is wrong because tempering steels are a suitable class.",
     "relevantTheory": "Induction hardening is a thermal surface treatment: the composition is unchanged, so the steel must already contain enough carbon to form a hard martensitic surface.",
-    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 10-12"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 5-7; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 10-12"
   },
   {
     "id": 58,
@@ -1515,7 +1515,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because cobalt alloys are identified in the course as having very high strain hardening ability. A is wrong because aluminium alloys generally have lower strain hardening capacity and many high-strength grades rely on precipitation hardening. C is wrong because carbon steels can strain harden but often reach high strength through heat treatment and microstructure control. D is wrong because magnesium alloys have limited room-temperature plasticity due to HCP structure.",
     "relevantTheory": "High strain hardening is promoted when dislocations accumulate rather than recover easily. Low stacking fault energy and difficult cross-slip increase the strain hardening coefficient.",
-    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 13; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 13; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 3"
   },
   {
     "id": 59,
@@ -1541,7 +1541,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because the Al-Si eutectic is composed of aluminium-rich alpha solid solution plus silicon. A is too imprecise because aluminium in the eutectic is the alpha Al-rich solid solution, not pure Al. B is wrong because the eutectic is not two generic solid solutions alpha plus beta. C is wrong because eutectic is fully solid after transformation, not silicon plus liquid.",
     "relevantTheory": "Al-Si casting alloys are based on the eutectic reaction, producing an aluminium-rich alpha matrix plus silicon; modifying elements refine silicon morphology and improve toughness.",
-    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, pp. 1-2; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, pp. 1-2; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1"
   },
   {
     "id": 60,
@@ -1567,7 +1567,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because 2XXX aluminium alloys are Al-Cu alloys, and early aging forms Cu-rich GP zones that evolve toward Al2Cu-related precipitates. B, C, and D are wrong because Mn- or Mg-based GP zones are not the characteristic early precipitation sequence for A2XXX Al-Cu alloys.",
     "relevantTheory": "In Al-Cu age hardening, quenching creates a supersaturated solid solution; aging forms GP zones and metastable precipitates before the equilibrium theta Al2Cu phase.",
-    "source": "notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 2-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 10"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 2-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 10"
   },
   {
     "id": 61,
@@ -1592,7 +1592,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because zinc is more active/less noble than Cu, Fe, and Ti in typical galvanic ranking, so it corrodes preferentially. A is wrong because copper is more noble. B is wrong because iron corrodes readily but is less active than zinc in galvanic protection contexts. D is wrong because titanium is highly corrosion resistant due to a stable passive oxide film.",
     "relevantTheory": "Galvanic corrosion depends on relative nobility. Active metals such as Zn and Mg corrode preferentially and can act as sacrificial anodes to protect more noble metals.",
-    "source": "slides&docs/Lecture 11 Corrosion.pdf, p. 1; Self-assesment questions/self-assessment questions on Corrosion.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 11 Corrosion.pdf, p. 1; Self-assesment questions/self-assessment questions on Corrosion.pdf, p. 1"
   },
   {
     "id": 62,
@@ -1617,7 +1617,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because Hall-Petch strengthening describes how grain boundaries impede dislocation motion, increasing yield strength as grain size decreases. A is wrong because dislocation-dislocation interaction is strain hardening. B is wrong because interstitials relate to solid solution strengthening and Cottrell atmospheres. C is wrong because precipitates strengthen by particle-dislocation interactions such as shearing or Orowan bowing.",
     "relevantTheory": "Hall-Petch law states sigma_y = sigma_0 + k d^-1/2. Smaller grains mean more grain boundaries, shorter dislocation pile-ups, and higher strength.",
-    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 1; Self-assesment questions/self-assessment questions on Strengthening.pdf, pp. 1-3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 1; Self-assesment questions/self-assessment questions on Strengthening.pdf, pp. 1-3"
   },
   {
     "id": 63,
@@ -1643,7 +1643,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because precipitation-hardened steels obtain high strength mainly from precipitates and have relatively low uniform strain hardening capacity compared with highly work-hardening alloys. B is wrong because austenitic stainless steels often have strong work hardening. C is wrong because cobalt alloys are emphasized for high strain hardening. D is wrong because copper alloys, especially low-SFE alloys, can also have high strain hardening.",
     "relevantTheory": "The strain hardening coefficient n describes the ability to strengthen during plastic deformation and delay necking. Alloys already strengthened by precipitates may have lower remaining strain hardening capacity.",
-    "source": "slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 13; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 13; Self-assesment questions/self-assessment questions on Strengthening.pdf, p. 3"
   },
   {
     "id": 64,
@@ -1668,7 +1668,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct in the exam wording because the decrease in yield strength during overaging is driven by diffusion-controlled precipitate coarsening, which increases spacing and reduces strengthening. A is wrong because dislocation unpinning is not the main aging-curve mechanism. B is wrong because precipitates do not simply dissolve during ordinary overaging; they coarsen and transform toward equilibrium phases. C is wrong because residual stress relaxation is not the primary reason the Al-Cu aging peak declines.",
     "relevantTheory": "During artificial aging, fine coherent precipitates first increase strength. With excessive time/temperature, diffusion causes precipitate coarsening and loss of coherency, so yield strength decreases.",
-    "source": "notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 2-3; slides&docs/Metallic Materials Assignment 3 (1).pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 2-3; slides&docs/Metallic Materials Assignment 3 (1).pdf, p. 1"
   },
   {
     "id": 65,
@@ -1695,13 +1695,13 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because Sr modification promotes a finer eutectic morphology by increasing effective undercooling and altering silicon growth. A and B are too simplistic and do not express the modification mechanism. D is wrong because the key effect is not simply reduced Al-Si diffusion, but modified nucleation/growth of eutectic silicon.",
     "relevantTheory": "Modification of Al-Si castings with Sr or Na refines brittle silicon plates into a finer fibrous morphology, improving toughness and strength.",
-    "source": "Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; TMM.txt"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; TMM.txt"
   },
   {
     "id": 66,
     "deck": "question-bank",
     "moduleId": null,
-    "section": "Production",
+    "section": "Fe-C & Steels",
     "sourceType": "past-exam",
     "difficulty": "hard",
     "cardType": "application",
@@ -1719,9 +1719,9 @@ window.TMM_QUESTIONS = [
       "D": "Cr"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because in common carbon equivalent formulas Ni has a smaller coefficient contribution than Mn, Cr, or Si-type strengthening/hardenability contributors. B, C, and D are wrong because Si, Mn, and Cr more strongly affect hardenability/carbon equivalent in weldability assessment than Ni in the usual formula weighting.",
-    "relevantTheory": "Carbon equivalent estimates weldability and hardenability risk by combining C with alloying elements. Higher CE generally means poorer weldability and greater risk of hard HAZ microstructures.",
-    "source": "Self-assesment questions/self-assessment questions on steels.pdf, p. 1; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1"
+    "explanation": "A is correct in the Fe-C diagram context because CE here means eutectoid carbon content, not weldability carbon equivalent. Lecture 6 treats alloying elements as shifting A1 and CE; among the listed elements, Ni is the intended lesser-effect answer in the course chart. B, C and D are wrong because Si, Mn and Cr are treated as stronger shifters of the eutectoid carbon content in this exam context.",
+    "relevantTheory": "In Lecture 6, CE denotes eutectoid carbon content: the carbon percentage at the eutectoid point. This is different from the weldability carbon-equivalent formula. Alloying elements can shift A1 and CE, changing how much pearlite or proeutectoid phase forms for a fixed carbon content.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 5; PAST_EXAMS/QUESTION_SET_4.txt, Q10"
   },
   {
     "id": 67,
@@ -1748,7 +1748,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because nitriding is performed below A1 and does not require quenching, so distortion and residual stresses are minimized. A is wrong because laser hardening involves rapid local heating/cooling. B is wrong because induction hardening forms martensite by rapid heating and quenching, producing transformation stresses. C is wrong because carburizing is followed by quenching and can produce significant residual stress and distortion.",
     "relevantTheory": "Nitriding forms hard nitrides in the ferritic region without austenitization or quenching. This gives high surface hardness with excellent dimensional stability.",
-    "source": "slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1; Self-assesment questions/Self-test questions - miscellanea.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 2 and 11; Self-assesment questions/Self-test questions - miscellanea.pdf, p. 1"
   },
   {
     "id": 68,
@@ -1775,7 +1775,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because manganese is mainly taught here as a hardenability promoter, deoxidizer, and sulfur scavenger, not as the characteristic carbide-forming element in tempering steels. B is wrong because Mn binds sulfur and reduces hot shortness by forming MnS rather than FeS films. C is wrong because Mn can act as a deoxidizer in steelmaking. D is wrong because Mn increases hardenability by delaying diffusion-controlled transformations.",
     "relevantTheory": "Mn in steels improves hardenability, assists deoxidation, and combines with sulfur to reduce hot shortness. Strong carbide-forming roles are more associated with elements such as Cr, Mo, V, Ti, and Nb.",
-    "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, p. 1; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 5; TMM.txt"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 8 Modern Production of Steels.pdf, p. 1; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 5; TMM.txt"
   },
   {
     "id": 69,
@@ -1803,7 +1803,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because low-carbon steel weldability is governed most strongly by carbon content, hardenability/carbon equivalent, and HAZ microstructure; Ni is not the main factor for ordinary low-carbon steels in this exam context. B is wrong because carbon content strongly affects weldability and martensite risk. C is wrong because grain size affects toughness and HAZ behavior. D is wrong because hardenability of alloying elements directly affects the risk of hard brittle weld zones.",
     "relevantTheory": "Good weldability requires avoiding hard, brittle HAZ microstructures. Carbon content and carbon equivalent are key because they control hardenability and martensite formation during weld cooling.",
-    "source": "Self-assesment questions/self-assessment questions on steels.pdf, p. 1; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions on steels.pdf, p. 1; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1"
   },
   {
     "id": 70,
@@ -1829,7 +1829,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "B",
     "explanation": "B is correct because 7xxx aluminium alloys are heat-treatable Al-Zn-based alloys whose highest strengths come from precipitation hardening by aging. A is wrong because grain refinement helps but is not the dominant strengthening method. C is wrong because cold-working is not the main route for peak 7xxx strength. D is wrong because solid solution is only the starting state before precipitation hardening.",
     "relevantTheory": "Heat-treatable aluminium alloys such as 2xxx, 6xxx, and 7xxx are strengthened mainly by solution treatment, quenching, and aging to form fine precipitates.",
-    "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, pp. 1-2; TMM.txt"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, pp. 1-2; TMM.txt"
   },
   {
     "id": 71,
@@ -2029,14 +2029,14 @@ window.TMM_QUESTIONS = [
     "diagramRequired": false,
     "question": "Which statement best matches the Lecture 1 idea of crystal packing in metals?",
     "options": {
-      "A": "metals tend to form compact crystal structures such as FCC, BCC and HCP",
+      "A": "metals commonly form crystalline structures such as FCC, BCC and HCP; FCC and HCP are close packed, while BCC is less densely packed",
       "B": "metals always solidify as molecules without long-range order",
       "C": "FCC is impossible in engineering metals",
       "D": "crystal packing is unrelated to slip, diffusion or anisotropy"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because Lecture 1 introduces BCC, FCC and HCP as common metal crystal lattices and links packing to properties. B is wrong because metals normally form crystalline lattices. C is wrong because FCC is common in metals. D is wrong because packing controls available slip geometry, interstitial spaces, diffusion behaviour and directional properties.",
-    "relevantTheory": "Metal atoms pack into crystal lattices during solidification. The packing arrangement determines close-packed planes and directions, interstitial site geometry, crystal anisotropy, and many later mechanical and diffusion phenomena studied in the course.",
+    "explanation": "A is correct because Lecture 1 introduces BCC, FCC and HCP as common metal crystal lattices and links packing to properties. The wording also keeps the important trap straight: FCC and HCP are close-packed structures, whereas BCC is common in metals but less densely packed. B is wrong because metals normally form crystalline lattices. C is wrong because FCC is common in metals. D is wrong because packing controls available slip geometry, interstitial spaces, diffusion behaviour and directional properties.",
+    "relevantTheory": "Metal atoms arrange into crystal lattices during solidification. FCC and HCP are close packed; BCC has a lower packing factor. The packing arrangement determines close-packed planes and directions, interstitial site geometry, crystal anisotropy, and many later mechanical and diffusion phenomena studied in the course.",
     "source": "slides&docs/Lecture 1 Intro (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 9-11"
   },
   {
@@ -3102,8 +3102,8 @@ window.TMM_QUESTIONS = [
       "D": "FCC cannot be obtained by stacking atomic planes"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct according to the note values: packing factor BCC is 0.68 and FCC is 0.74. B is wrong because those values are different. C is wrong because BCC has interstitial sites, and in the notes it has more interstitial sites but smaller interstitial volume. D is wrong because FCC is described by stacking densely packed planes.",
-    "relevantTheory": "Packing factor measures how much of the crystal volume is occupied by atoms. FCC is more closely packed than BCC, which influences interstitial site size, solubility and diffusion behaviour.",
+    "explanation": "A is correct according to the note values: packing factor BCC is 0.68 and FCC is 0.74. B is wrong because those values are different. C is wrong because BCC does have interstitial positions, even though its interstitial holes are smaller than the most important FCC octahedral holes. D is wrong because FCC is described by stacking densely packed planes.",
+    "relevantTheory": "Packing factor measures how much of the crystal volume is occupied by atoms. FCC is more closely packed than BCC. This affects interstitial hole size, carbon solubility and diffusion behaviour: FCC has larger interstitial holes, while BCC is more open overall for interstitial diffusion pathways.",
     "source": "slides&docs/Lecture 1 Intro (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 9"
   },
   {
@@ -3149,14 +3149,14 @@ window.TMM_QUESTIONS = [
     "diagramRequired": false,
     "question": "Atom diffusion is faster in BCC than in FCC in the Lecture 1 reminder mainly because:",
     "options": {
-      "A": "BCC has a higher number of interstitial sites, even though each site is smaller",
+      "A": "BCC is less closely packed and offers more available interstitial jump positions/pathways",
       "B": "BCC is more closely packed than FCC",
       "C": "FCC has no interstitial volume",
       "D": "diffusion does not depend on crystal structure"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because the notes distinguish solubility from diffusion: FCC has larger interstitial volume, but BCC has more interstitial sites, favouring faster jumps. B is wrong because FCC is more closely packed than BCC. C is wrong because FCC has interstitial sites and larger interstitial volume. D is wrong because the notes explicitly state that diffusion depends on crystal structure.",
-    "relevantTheory": "Do not confuse solubility and diffusivity. Larger interstitial volume favours solubility, but a larger number of available interstitial sites can favour diffusion by providing more jump positions.",
+    "explanation": "A is correct in the lecture sense because the notes distinguish solubility from diffusion: FCC has larger interstitial holes, especially octahedral ones, so carbon is more soluble there; BCC is less closely packed and provides more available jump positions/pathways, so interstitial diffusion can be faster. B is wrong because FCC is more closely packed than BCC. C is wrong because FCC has interstitial sites and significant interstitial volume. D is wrong because diffusion depends strongly on crystal structure.",
+    "relevantTheory": "Do not confuse solubility and diffusivity. Larger interstitial holes favour solubility, which is why FCC austenite dissolves more carbon. Faster diffusion is more about jump frequency, activation energy and available pathways; the lecture simplifies this as BCC having more available interstitial jump positions despite lower carbon solubility.",
     "source": "slides&docs/Lecture 1 Intro (1).pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 9; PAST_EXAMS/QUESTIONS_SET_1.txt, style sample only"
   },
   {
@@ -3617,14 +3617,14 @@ window.TMM_QUESTIONS = [
     "diagramRequired": false,
     "question": "Why is diffusion of small atoms faster in BCC than in FCC in the Lecture 3 Fe-lattice discussion?",
     "options": {
-      "A": "BCC has more interstitial sites, even though the interstitial volume is smaller",
+      "A": "BCC is less closely packed and has more available interstitial jump positions/pathways",
       "B": "FCC has no interstitial sites",
       "C": "BCC has no lattice and therefore no barriers",
       "D": "diffusion is faster in the structure with fewer available jump sites"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because the slide distinguishes Vinterst and Ninterst: FCC has larger interstitial volume, but BCC has more interstitial sites. B is wrong because FCC has interstitial sites. C is wrong because BCC is a crystal lattice. D is wrong because more available sites support more possible jumps.",
-    "relevantTheory": "The exam trap is solubility versus diffusivity. Larger interstitial cavities help solubility; more interstitial sites help diffusion pathways. Thus FCC better dissolves carbon, while BCC can allow faster diffusion.",
+    "explanation": "A is correct because the slide distinguishes interstitial volume from available interstitial positions/pathways: FCC has larger interstitial holes and better carbon solubility, while BCC is more open overall and is treated in the lecture as offering more jump possibilities for faster diffusion. B is wrong because FCC has interstitial sites. C is wrong because BCC is a crystal lattice. D is wrong because fewer available jump positions would not explain faster diffusion.",
+    "relevantTheory": "The exam trap is solubility versus diffusivity. Larger interstitial cavities help solubility; lower packing, lower activation-energy jumps and more available pathways help diffusion. Thus FCC better dissolves carbon, while BCC can allow faster interstitial diffusion.",
     "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 9; PAST_EXAMS/QUESTIONS_SET_1.txt, style sample only"
   },
   {
@@ -4060,14 +4060,14 @@ window.TMM_QUESTIONS = [
     "diagramRequired": false,
     "question": "A student says: 'Carbon dissolves more in FCC, therefore it must diffuse faster in FCC.' What is wrong?",
     "options": {
-      "A": "they confused interstitial volume controlling solubility with number of interstitial sites controlling diffusion pathways",
+      "A": "they confused larger interstitial holes controlling solubility with open pathways/jump positions controlling diffusion",
       "B": "they forgot that FCC has no interstitial sites",
       "C": "they assumed carbon is substitutional in iron",
       "D": "nothing is wrong; Lecture 3 says solubility and diffusion are always the same"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because Lecture 3 separates the two concepts: FCC has larger interstitial volume and higher carbon solubility, while BCC has more interstitial sites and faster diffusion. B is wrong because FCC has sites. C is wrong as a statement about the lecture mechanism, but the student's specific error is solubility versus diffusion. D is wrong because the lecture explicitly distinguishes them.",
-    "relevantTheory": "Solubility asks how much solute can be accommodated; diffusion asks how easily atoms jump through available positions. They are related to different lattice features.",
+    "explanation": "A is correct because Lecture 3 separates the two concepts: FCC has larger interstitial holes and higher carbon solubility, while BCC is more open overall and is treated as giving faster interstitial diffusion through easier jumps and more available pathways. B is wrong because FCC has sites. C is wrong as a statement about the lecture mechanism, but the student's specific error is solubility versus diffusion. D is wrong because the lecture explicitly distinguishes them.",
+    "relevantTheory": "Solubility asks how much solute can be accommodated; diffusion asks how easily atoms jump through available positions. They are related, but not identical: FCC can dissolve more carbon, while BCC can let small interstitial atoms diffuse faster.",
     "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 9"
   },
   {
@@ -8920,9 +8920,9 @@ window.TMM_QUESTIONS = [
       "D": "an AISI 38XX steel with 5.3%C"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because X grades use direct nominal alloy percentages after the element symbols; the tool-steel table shows X38CrMoV5-3 with about 0.35-0.40%C, about 2.7-3.2% Cr and Mo in the same range, and V present. The designation shorthand emphasizes the X-grade direct-percent rule rather than low-alloy factors. B wrongly applies low-alloy factors. C and D use the wrong designation family.",
-    "relevantTheory": "X grades are used when at least one alloy element is above the high-alloy threshold, except rapid steels. The carbon number is still %C x100, but the alloy numbers are nominal percentages, not factor-scaled values.",
-    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 6 and 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 7-8"
+    "explanation": "A is correct because the self-assessment prompt and the Lecture 7 X-grade rule expect the high-alloy/tool-steel decoding: X38 gives about 0.38%C, and the alloy numbers after Cr-Mo-V are nominal percentages rather than low-alloy factor-scaled values, so Cr is about 5% and Mo about 3%, with V present. B wrongly applies low-alloy factors. C and D use the wrong designation family.",
+    "relevantTheory": "X grades are used when at least one alloy element is above the high-alloy threshold, except rapid steels. The carbon number is still %C x100, but the following alloy numbers are read as nominal percentages in element order rather than divided by low-alloy factors.",
+    "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 6; Self-assesment questions/self-assessment questions on steels.pdf, page 3; Self-assesment questions/Self-assessment questions on steels (2).pdf, page 1"
   },
   {
     "id": 343,
@@ -12558,12 +12558,12 @@ window.TMM_QUESTIONS = [
     "options": {
       "A": "Al has excellent corrosion resistance because a thin strong oxide coating passivates the surface",
       "B": "Anodising can be used to deliberately improve or thicken the protective oxide layer",
-      "C": "Precipitation-hardened Al alloys may suffer stress-corrosion cracking near precipitate-free zones at grain boundaries",
+      "C": "Precipitation-hardened Al alloys may suffer stress-corrosion cracking because ageing changes the local microstructure",
       "D": "Age hardening always improves corrosion resistance because all precipitates are uniformly inside grains"
     },
     "correctAnswer": "D",
-    "explanation": "D is the UNTRUE clause. Lecture 14 warns that precipitation-hardened alloys can suffer stress-corrosion cracking, especially because precipitate-free zones near grain boundaries create local weak/corrosion-sensitive paths. A is true: passive oxide gives Al its excellent corrosion resistance. B is true: anodising is mentioned as a way to use the oxide layer. C is true and is the main trap: high strength from precipitation can come with corrosion and stress-corrosion penalties.",
-    "relevantTheory": "Aluminium is naturally passivated by a stable oxide film, so many Al alloys resist uniform corrosion well. However, microstructure matters. Precipitation hardening changes solute distribution and may create precipitates and precipitate-free zones at grain boundaries. These local electrochemical and mechanical differences can reduce resistance to stress-corrosion cracking even while increasing strength.",
+    "explanation": "D is the UNTRUE clause. Lecture 14 warns that precipitation-hardened aluminium alloys can trade high strength against corrosion or stress-corrosion resistance when the ageing microstructure creates local electrochemical and mechanical weak paths. A is true: passive oxide gives Al its excellent corrosion resistance. B is true: anodising is mentioned as a way to deliberately improve or thicken the protective oxide layer. C is true in the course-supported sense that precipitation-hardened Al alloys may suffer stress-corrosion cracking.",
+    "relevantTheory": "Aluminium is naturally passivated by a stable oxide film, so many Al alloys resist uniform corrosion well. However, microstructure matters. Precipitation hardening changes solute distribution and precipitate morphology, which can improve strength while reducing resistance to localized or stress-assisted corrosion in susceptible alloys.",
     "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 3 and 6; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, Lecture 14 section"
   },
   {
@@ -14216,7 +14216,7 @@ window.TMM_QUESTIONS = [
     },
     "correctAnswer": "A",
     "explanation": "A is correct: the notes list 7xxx as Al plus Zn, Mg and Cu, with high strength and aircraft-structure use, and the exam style asks ageing as the main and most effective strengthening method. B describes 1xxx pure Al uses. C describes the wrong family; Mn-rich 3xxx is non-heat-treatable and annealing softens rather than strengthens. D is wrong because high-strength precipitated Al alloys can have weldability and stress-corrosion limitations.",
-    "relevantTheory": "The 7xxx series is the high-strength end of wrought aluminium alloys. Zn with Mg and often Cu enables precipitation hardening during ageing, giving very high yield strength for aerospace components. This strength comes with trade-offs: weldability is not the same as for 5xxx or 6xxx, and precipitation microstructures can be sensitive to stress-corrosion cracking, especially near grain-boundary precipitate-free zones.",
+    "relevantTheory": "The 7xxx series is the high-strength end of wrought aluminium alloys. Zn with Mg and often Cu enables precipitation hardening during ageing, giving very high yield strength for aerospace components. This strength comes with trade-offs: weldability is not the same as for 5xxx or 6xxx, and high-strength precipitation microstructures can be sensitive to stress-corrosion problems.",
     "source": "slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, slides 7 and 15; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 8; PAST_EXAMS/QUESTIONS_SET_1.txt, 7xxx strengthening wording"
   },
   {
@@ -14467,16 +14467,16 @@ window.TMM_QUESTIONS = [
       "low temperature"
     ],
     "diagramRequired": false,
-    "question": "Which is the fastest diffusion process at low temperature?",
+    "question": "Among surface, grain-boundary and bulk diffusion paths, which is fastest at low temperature?",
     "options": {
       "A": "surface diffusion",
       "B": "bulk diffusion",
       "C": "grain boundary diffusion",
-      "D": "interstitial diffusion"
+      "D": "vacancy-mediated bulk diffusion"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because surface atoms have fewer neighbours and a lower activation barrier, so surface diffusion is the fastest of the listed path-controlled diffusion processes at low temperature. B is wrong because bulk diffusion requires jumps through the crystal interior and is slower. C is wrong because grain-boundary diffusion is faster than bulk diffusion, but still not usually faster than surface diffusion. D is a real fast mechanism for small atoms such as C or N compared with volume diffusion, but the professor's surface/GB/bulk rate comparison makes the surface path the fastest low-temperature process here.",
-    "relevantTheory": "Diffusion is thermally activated atomic jumping. The rate depends on temperature, crystal structure, atom type and defects. Fast paths have lower activation energy because atoms are less constrained: surface diffusion is fastest, grain-boundary diffusion is intermediate, and lattice or bulk diffusion is slowest. Interstitial atoms such as C or N can diffuse faster than substitutional atoms because they use interstitial sites rather than vacancies.",
+    "explanation": "A is correct because surface atoms have fewer neighbours and a lower activation barrier, so surface diffusion is the fastest among the path-controlled choices. B is wrong because bulk diffusion requires jumps through the crystal interior and is slower. C is wrong because grain-boundary diffusion is faster than bulk diffusion, but still not usually faster than surface diffusion. D is wrong because vacancy-mediated bulk diffusion is still a bulk/lattice path and is not faster than surface diffusion.",
+    "relevantTheory": "Diffusion is thermally activated atomic jumping. Path comparisons and mechanism comparisons must not be mixed. For paths, surface diffusion is fastest, grain-boundary diffusion is intermediate, and lattice or bulk diffusion is slowest. Separately, interstitial atoms such as C or N can diffuse faster than substitutional atoms because they use interstitial positions rather than vacancy exchange.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, Written Exam of TMM (Marked \"FAIL\"), Q1; Self-assesment questions/self-assessment questions on Diffusion.pdf, page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 12-14"
   },
   {
@@ -15351,7 +15351,7 @@ window.TMM_QUESTIONS = [
       "fast diffusion paths"
     ],
     "diagramRequired": false,
-    "question": "Which is a fast diffusion path?",
+    "question": "Which is a fast diffusion path in a polycrystalline grain-boundary skeleton, not a diffusion mechanism?",
     "options": {
       "A": "Substitutional diffusion",
       "B": "N/A",
@@ -15359,7 +15359,7 @@ window.TMM_QUESTIONS = [
       "D": "Interstitial diffusion"
     },
     "correctAnswer": "C",
-    "explanation": "C is correct because the notes state that the grain-boundary skeleton acts as a fast diffusion path due to its high-energy, disordered structure. A is wrong because substitutional diffusion is a mechanism requiring vacancy-type jumps, not a special fast path. B is wrong because a valid fast path is listed. D is wrong in this wording because interstitial diffusion can be a fast mechanism for small atoms, but the phrase 'diffusion path' in the course points to grain boundaries.",
+    "explanation": "C is correct because the notes state that the grain-boundary skeleton acts as a fast diffusion path due to its high-energy, disordered structure. A is wrong because substitutional diffusion is a mechanism requiring vacancy-type jumps, not a special path. B is wrong because a valid fast path is listed. D is wrong in this wording because interstitial diffusion can be a fast mechanism for small atoms, but the question asks for a physical path in the polycrystal skeleton.",
     "relevantTheory": "Diffusion speed depends on the mechanism, species, temperature, and path. Grain boundaries have imperfect atomic packing and higher energy than grain interiors, so atoms can move along them more easily. This is helpful for some transformations but harmful for creep resistance when grain size is very small at high temperature.",
     "source": "PAST_EXAMS/QUESTION_SET_3.txt, Written Exam of TMM (Starts with \"Which is a fast diffusion path?\"), Q1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 5; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7"
   },
@@ -16699,7 +16699,7 @@ window.TMM_QUESTIONS = [
     "id": 638,
     "deck": "self-assessment",
     "moduleId": "self-strengthening",
-    "section": "Al & Casting",
+    "section": "Plasticity",
     "sourceType": "self-assessment",
     "difficulty": "hard",
     "cardType": "process-chain",
