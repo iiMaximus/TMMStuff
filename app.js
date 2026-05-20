@@ -57,6 +57,11 @@ const els = {
   bankCardCount: document.querySelector("#bankCardCount"),
   dueCardCount: document.querySelector("#dueCardCount"),
   selfCardCount: document.querySelector("#selfCardCount"),
+  dailyPlanBanner: document.querySelector("#dailyPlanBanner"),
+  dailyBannerKicker: document.querySelector("#dailyBannerKicker"),
+  dailyBannerTitle: document.querySelector("#dailyBannerTitle"),
+  dailyBannerText: document.querySelector("#dailyBannerText"),
+  dailyBannerButton: document.querySelector("#dailyBannerButton"),
   topicGrid: document.querySelector("#topicGrid"),
   lectureGrid: document.querySelector("#lectureGrid"),
   selfGrid: document.querySelector("#selfGrid"),
@@ -206,6 +211,10 @@ function masteredIn(questions) {
   return questions.filter((question) => cardProgress(question.id).mastered).length;
 }
 
+function lectureModules() {
+  return state.contentMap.modules.filter((module) => module.deck === "slides");
+}
+
 function startOfDay(date) {
   return new Date(date.getFullYear(), date.getMonth(), date.getDate());
 }
@@ -238,6 +247,64 @@ function addLectureSchedule(card, dueDate, complete) {
   card.append(schedule);
 }
 
+function lecturePlanItem(lecture, index) {
+  const questions = moduleQuestions(lecture.id);
+  const mastered = masteredIn(questions);
+  return {
+    lecture,
+    questions,
+    mastered,
+    complete: questions.length > 0 && mastered === questions.length,
+    dueDate: lectureDueDate(index)
+  };
+}
+
+function shortLectureTitle(title) {
+  const match = String(title).match(/Lecture\s+\d+/i);
+  return match ? match[0] : "lecture";
+}
+
+function startLectureSession(item, subtitle = "Lecture practice") {
+  startSession({
+    title: item.lecture.title,
+    subtitle,
+    questions: item.questions,
+    emptyDeck: {
+      deck: "slides",
+      moduleId: item.lecture.id,
+      source: item.lecture.source
+    }
+  });
+}
+
+function renderDailyPlanBanner() {
+  const today = startOfDay(new Date()).getTime();
+  const dueItems = lectureModules()
+    .map((lecture, index) => lecturePlanItem(lecture, index))
+    .filter((item) => item.questions.length && !item.complete && startOfDay(item.dueDate).getTime() <= today);
+  const target = dueItems[0];
+
+  if (!target) {
+    els.dailyPlanBanner.hidden = true;
+    return;
+  }
+
+  const targetDay = startOfDay(target.dueDate).getTime();
+  const isBehind = today > targetDay;
+  const remaining = target.questions.length - target.mastered;
+  els.dailyPlanBanner.hidden = false;
+  els.dailyPlanBanner.classList.toggle("is-behind", isBehind);
+  els.dailyBannerKicker.textContent = isBehind
+    ? `${dueItems.length} overdue ${dueItems.length === 1 ? "lecture" : "lectures"}`
+    : "Today's target";
+  els.dailyBannerTitle.textContent = isBehind
+    ? "Yo, you gotta catch up on this."
+    : "Yo, today's lecture is still waiting.";
+  els.dailyBannerText.textContent = `${target.lecture.title}: ${target.mastered}/${target.questions.length} locked in, ${remaining} to go. Due ${DATE_FORMATTER.format(target.dueDate)}.`;
+  els.dailyBannerButton.textContent = `Start ${shortLectureTitle(target.lecture.title)}`;
+  els.dailyBannerButton.onclick = () => startLectureSession(target, isBehind ? "Catch-up lecture" : "Today's lecture");
+}
+
 function updateHome() {
   const level = Math.floor(state.progress.xp / XP_PER_LEVEL) + 1;
   els.homeLevelText.textContent = `Level ${level}`;
@@ -246,6 +313,7 @@ function updateHome() {
   els.bankCardCount.textContent = `${deckQuestions("question-bank").length} cards`;
   els.dueCardCount.textContent = `${state.reviewIds.size} cards`;
   els.selfCardCount.textContent = `${deckQuestions("self-assessment").length} cards`;
+  renderDailyPlanBanner();
   renderTopics();
   renderLectures();
   renderSelfAssessments();
@@ -271,29 +339,18 @@ function renderTopics() {
 
 function renderLectures() {
   els.lectureGrid.replaceChildren();
-  const lectures = state.contentMap.modules.filter((module) => module.deck === "slides");
-  lectures.forEach((lecture, index) => {
-    const questions = moduleQuestions(lecture.id);
-    const mastered = masteredIn(questions);
-    const complete = questions.length > 0 && mastered === questions.length;
-    const card = choiceCard(lecture.title, questions.length
-      ? `${mastered}/${questions.length} locked in`
-      : "0 cards", questions.length
-      ? `${questions.length} cards total`
-      : "Waiting for cards."
-    );
-    if (!questions.length) card.classList.add("empty");
-    addLectureSchedule(card, lectureDueDate(index), complete);
-    card.addEventListener("click", () => startSession({
-      title: lecture.title,
-      subtitle: "Lecture practice",
-      questions,
-      emptyDeck: {
-        deck: "slides",
-        moduleId: lecture.id,
-        source: lecture.source
-      }
-    }));
+  lectureModules().forEach((lecture, index) => {
+    const item = lecturePlanItem(lecture, index);
+    const countText = item.questions.length
+      ? `${item.mastered}/${item.questions.length} locked in`
+      : "0 cards";
+    const detailText = item.questions.length
+      ? `${item.questions.length} cards total`
+      : "Waiting for cards.";
+    const card = choiceCard(lecture.title, countText, detailText);
+    if (!item.questions.length) card.classList.add("empty");
+    addLectureSchedule(card, item.dueDate, item.complete);
+    card.addEventListener("click", () => startLectureSession(item));
     els.lectureGrid.append(card);
   });
 }
