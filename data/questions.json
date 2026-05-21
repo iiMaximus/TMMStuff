@@ -338,7 +338,7 @@
     },
     "correctAnswer": "D",
     "explanation": "D is correct because the Basic Oxygen Furnace converts high-carbon pig iron into steel mainly by oxidizing and reducing the carbon content. A is wrong because iron ore reduction occurs in the blast furnace, not the BOF. B is wrong because the BOF is not primarily used to eliminate manganese. C is wrong because deoxidation is a later refining/killing operation, commonly using Si, Mn, and Al.",
-    "relevantTheory": "Integral steel production uses blast furnace reduction to make pig iron, followed by BOF oxygen blowing to decarburize and refine it into steel.",
+    "relevantTheory": "In the integral steelmaking chain, the blast furnace reduces iron ore to high-carbon hot metal or pig iron. The BOF converter then blows high-purity oxygen into this melt to oxidize excess carbon mainly to CO/CO2 and help refine impurities. Its central purpose is decarburization of pig iron into steel, not ore reduction or final deoxidation.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 8 Modern Production of Steels.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 2"
   },
   {
@@ -364,7 +364,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because sensitization is caused by chromium carbide precipitation at grain boundaries, which creates chromium-depleted zones vulnerable to intergranular corrosion. B is wrong because nickel precipitation is not the sensitization mechanism. C is wrong because molybdenum precipitation is not the cause of sensitization. D is wrong because precipitation is indeed involved: specifically chromium carbide precipitation at grain boundaries.",
-    "relevantTheory": "Austenitic stainless steels can suffer sensitization when Cr carbides precipitate at grain boundaries, locally reducing Cr below the level needed for passivation.",
+    "relevantTheory": "Sensitization in austenitic stainless steels occurs when chromium carbides precipitate at grain boundaries during an unfavorable thermal exposure. The nearby matrix becomes chromium-depleted, so it can no longer maintain a protective passive film. Corrosion then follows the grain boundaries, producing intergranular attack even though the bulk steel is still nominally stainless.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 12.pdf, p. 1; Self-assesment questions/self-assessment questions on Corrosion.pdf, p. 1"
   },
   {
@@ -626,7 +626,7 @@
     },
     "correctAnswer": "B",
     "explanation": "B is correct because a thin casting in a metallic mould has strong directional heat extraction, favoring columnar growth toward the interior. A is wrong because large equiaxed grains are more associated with slow cooling and low temperature gradients. C is wrong because dendrites describe growth morphology, not the main grain-zone answer expected here. D is wrong because small equiaxed grains are typical of the chill zone or strong nucleation throughout the melt, not the inner core under directional heat flow.",
-    "relevantTheory": "Casting grain structure depends on cooling rate and temperature gradient: metallic moulds promote rapid directional heat extraction, chill zones, and columnar growth.",
+    "relevantTheory": "Casting grain zones are controlled by cooling rate, temperature gradient and nucleation. A metallic mould extracts heat rapidly, creating a chill zone near the wall and strong directional heat flow. In a thin casting, this favors columnar grains growing inward from the mould wall rather than a slow-cooled coarse equiaxed core.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf"
   },
   {
@@ -677,7 +677,7 @@
     },
     "correctAnswer": "C",
     "explanation": "C is correct because flowing water is generally less critical than stagnant or crevice conditions, since it reduces localized oxygen depletion and accumulation of aggressive ions. A is wrong because contact with another metal can create galvanic corrosion. B is wrong because marine chloride environments are critical for pitting and stress corrosion cracking. D is wrong because soils can create crevice-like, differential aeration, and aggressive corrosion conditions.",
-    "relevantTheory": "Stainless steels rely on passivation but are vulnerable to localized corrosion in chlorides, galvanic contact, crevices, and stagnant/differential aeration environments.",
+    "relevantTheory": "Stainless steels resist corrosion by forming a thin passive chromium oxide film. They become critical in conditions that break or locally starve this film: chlorides near the sea, crevices, soils, stagnant or differential-aeration zones, and galvanic contact with another metal. Flowing water is usually less severe because it reduces stagnant chemistry and local oxygen depletion.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 11 Corrosion.pdf, p. 1; Self-assesment questions/self-assessment questions on Corrosion.pdf, p. 1"
   },
   {
@@ -704,7 +704,7 @@
     },
     "correctAnswer": "C",
     "explanation": "C is correct because in this exam wording the intended meaning is carbide-forming alloying elements, and both Cr and Mo can form carbides in alloyed steels. A is incomplete because Mo also forms carbides. B is incomplete because Cr also forms carbides. D is wrong because both listed alloying elements are relevant carbide formers.",
-    "relevantTheory": "In alloyed steels, cementite can be partly replaced by complex carbides involving elements such as Cr, Mo, and Mn; these elements influence hardenability and tempering response.",
+    "relevantTheory": "This question mixes steel designation with carbide-forming terminology. In EN-style low-alloy names, the first number gives carbon approximately as wt%C x 100, so 28 means about 0.28%C. Cr and Mo are alloying symbols; both are carbide-forming elements in steels, so they can form alloy carbides or enter cementite and affect hardenability, tempering response and secondary hardening. Do not confuse carbide-forming alloy elements with the carbon added during carburizing surface treatment.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 5; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1"
   },
   {
@@ -963,7 +963,7 @@
     },
     "correctAnswer": "D",
     "explanation": "D is correct because AISI 1010 is a plain low-carbon steel with only about 0.10%C and no considerable Ni or Cr alloying. A is wrong because 0.10%C is low, not a considerable carbon content compared with medium/high-carbon steels. B is wrong because 10XX steels are plain carbon steels, not nickel steels. C is wrong because chromium is characteristic of other alloy series such as 41XX or stainless steels.",
-    "relevantTheory": "In AISI steel designations, 10XX indicates plain carbon steel and the final two digits indicate approximate carbon content in hundredths of a percent.",
+    "relevantTheory": "AISI/SAE codes must be decoded by position. In 10XX steels, 10 means plain carbon steel, not 10% alloying element, and the last two digits give approximate carbon content in hundredths of a percent. Therefore AISI 1010 is a low-carbon plain carbon steel with about 0.10 wt%C and no considerable intentional Ni or Cr addition. This is separate from EN names such as C45 or 42CrMo4.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1; Self-assesment questions/self-assessment questions on steels.pdf, p. 3"
   },
   {
@@ -988,7 +988,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because PREN is used for stainless steels, including austenitic grades, and higher PREN means better pitting resistance; common austenitic stainless steels are above about 15. B is wrong because lower PREN is worse for pitting resistance. C is wrong because PREN is applicable to austenitic stainless steels. D is wrong because below 15 would indicate poor pitting resistance rather than the target condition.",
-    "relevantTheory": "PREN, the Pitting Resistance Equivalent Number, estimates localized corrosion resistance using Cr, Mo/W, and N contents. Higher PREN indicates better pitting resistance.",
+    "relevantTheory": "PREN means Pitting Resistance Equivalent Number. It is a composition-based index used for stainless steels to compare resistance to localized chloride pitting, mainly from Cr, Mo/W and N contents. Higher Cr supports passivation, Mo strongly improves pitting and crevice resistance, and N also raises pitting resistance. PREN is not a corrosion rate in mm/year and it does not replace environment-specific testing; it is a ranking tool for stainless grade selection.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 12.pdf, p. 1; TMM.txt"
   },
   {
@@ -1093,7 +1093,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because stacking faults are mainly discussed as close-packed plane sequence defects, especially in FCC crystals, not typical BCC packing faults. B is wrong because stacking faults are characteristic defects in FCC close-packed plane stacking. C is wrong because stacking faults can form during plastic deformation through partial dislocation motion. D is wrong because stacking/growth faults can also arise during crystal growth or solidification.",
-    "relevantTheory": "A stacking fault is a two-dimensional defect in the normal stacking sequence of close-packed planes; stacking fault energy influences dislocation behavior and twinning.",
+    "relevantTheory": "A stacking fault is a planar defect where the normal stacking sequence of close-packed atomic planes is interrupted, especially in FCC metals. It is not the same as a grain boundary or a crack: the crystal remains continuous, but the local plane order is disturbed. Stacking fault energy controls whether dislocations remain compact or split into partials, so it affects slip mode, twinning tendency, strain hardening and ductility.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 5 Strengthening of Metals.pdf, pp. 10 and 13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, pp. 8-12"
   },
   {
@@ -1117,7 +1117,7 @@
     },
     "correctAnswer": "C",
     "explanation": "C is correct because a common steel estimate is UTS in MPa is about 3.3 times Vickers hardness; 420 HV gives about 1386 MPa, close to 1400 MPa. A is too high. B is far too low. D is also too low and close only to the hardness number, not the tensile strength estimate.",
-    "relevantTheory": "For steels, hardness can be used as an approximate proxy for strength; a useful rule is UTS(MPa) approximately equals 3.3 times HV.",
+    "relevantTheory": "Hardness tests measure local resistance to indentation, not tensile strength directly. In steels, hardness often correlates with strength because both increase when dislocation motion is made harder by martensite, cold work, fine pearlite or precipitation. The rule UTS in MPa is approximately 3.3 x HV is only an engineering estimate for steels, so it should not be treated as a universal conversion for every alloy or microstructure.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; TMM.txt; slides&docs/Lecture 9 Steel Heat Treatment.pdf, p. 10"
   },
   {
@@ -1223,7 +1223,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because a large casting in a ceramic mould cools slowly, especially in the core, favoring coarse equiaxed grains. B is wrong because fully columnar growth is favored by strong directional heat extraction, more typical of high thermal gradients. C is wrong because the grain-zone outcome can be inferred from casting solidification principles. D is wrong because small equiaxed grains require rapid cooling or strong nucleation, not a slow-cooling ceramic mould core.",
-    "relevantTheory": "Casting grain size and morphology are controlled by cooling rate and temperature gradient. Slow cooling promotes coarse grains; rapid cooling and high nucleation promote fine grains.",
+    "relevantTheory": "A large casting in a ceramic mould cools slowly, especially in the inner core, because the mould removes heat less aggressively than a metallic mould. Slow cooling and weaker directional gradients favor coarse equiaxed grains in the center. Rapid cooling or strong inoculation would instead promote finer equiaxed grains.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf"
   },
   {
@@ -1300,7 +1300,7 @@
     },
     "correctAnswer": "C",
     "explanation": "C is correct because in low-alloy EN-style designations the number after Cr is divided by the alloying factor for chromium, commonly 4; 9/4 gives about 2.25% Cr. A is wrong because 10 refers to Mo in this old designation style, not Cr. B is wrong because 14 indicates about 0.14%C, not chromium. D is wrong because the 9 must be divided by the Cr factor rather than read directly as percent Cr.",
-    "relevantTheory": "Low-alloy steel designations encode carbon as the first number divided by 100, while alloying element numbers are converted using element-specific factors such as 4 for Cr.",
+    "relevantTheory": "Low-alloy EN-style chemical designations use multipliers, so the numbers are not read as direct percentages. The first number gives carbon as wt%C x 100, so 14 means about 0.14%C. Alloy symbols then follow, and their numbers are divided by element-specific factors; for Cr the factor is 4, so Cr9 means about 9/4 = 2.25% Cr. Mo is treated with a different factor, commonly 10. This is why 14CrMo910 is a Cr-Mo low-alloy steel designation, not 14% Cr or 9% Cr.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, p. 1; Self-assesment questions/Self-assessment questions on steels (2).pdf, p. 1"
   },
   {
@@ -1406,7 +1406,7 @@
     },
     "correctAnswer": "D",
     "explanation": "D is correct because precipitation hardening does not rely on a martensitic/allotropic phase transformation during quenching; it relies on supersaturation followed by precipitation during aging. A is wrong because solutionizing dissolves solute into a single-phase solid solution. B is wrong because quenching retains a supersaturated solid solution. C is wrong because aging forms fine precipitates that strengthen the alloy.",
-    "relevantTheory": "Age hardening consists of solution treatment, quenching, and aging. Strength comes from fine precipitates obstructing dislocations, not from a diffusionless phase change like steel quenching.",
+    "relevantTheory": "Precipitation hardening is a solid-state strengthening sequence: solutionizing dissolves solute, quenching freezes a supersaturated solid solution, and aging allows fine precipitates to form. The strengthening comes from obstacles to dislocation motion. It is not the same as steel quenching, because it does not rely on an allotropical or martensitic phase change during the quench.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Metallic Materials Assignment 3 (1).pdf, p. 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 2-3"
   },
   {
@@ -1488,7 +1488,7 @@
     },
     "correctAnswer": "B",
     "explanation": "B is correct because induction hardening requires enough carbon and hardenability to form martensite after rapid surface heating and quenching; tempering/medium-carbon steels are suitable. A is wrong because austenitic stainless steels are stabilized as austenite and are not hardened by ordinary quench transformation. C is wrong because low-carbon steels generally lack enough carbon for high martensitic hardness unless carburized first. D is wrong because tempering steels are a suitable class.",
-    "relevantTheory": "Induction hardening is a thermal surface treatment: the composition is unchanged, so the steel must already contain enough carbon to form a hard martensitic surface.",
+    "relevantTheory": "Induction hardening is a thermal surface treatment: the surface is rapidly heated into the austenite range and then quenched to martensite. Because no carbon is added, the steel must already have enough carbon and hardenability to form a hard martensitic case. Low-carbon steels usually need carburizing first; austenitic stainless steels do not harden by this ordinary martensitic route.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 5-7; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 10-12"
   },
   {
@@ -1566,7 +1566,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because 2XXX aluminium alloys are Al-Cu alloys, and early aging forms Cu-rich GP zones that evolve toward Al2Cu-related precipitates. B, C, and D are wrong because Mn- or Mg-based GP zones are not the characteristic early precipitation sequence for A2XXX Al-Cu alloys.",
-    "relevantTheory": "In Al-Cu age hardening, quenching creates a supersaturated solid solution; aging forms GP zones and metastable precipitates before the equilibrium theta Al2Cu phase.",
+    "relevantTheory": "2xxx aluminium alloys are Al-Cu age-hardening alloys. After solution treatment and quenching, the supersaturated solid solution decomposes during aging through Cu-rich GP zones and metastable Al-Cu precipitates before the equilibrium theta Al2Cu phase. Early coherent zones strengthen strongly because they distort the lattice and interact with moving dislocations.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-46-70.pdf, pp. 2-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, p. 10"
   },
   {
@@ -1694,7 +1694,7 @@
     },
     "correctAnswer": "C",
     "explanation": "C is correct because Sr modification promotes a finer eutectic morphology by increasing effective undercooling and altering silicon growth. A and B are too simplistic and do not express the modification mechanism. D is wrong because the key effect is not simply reduced Al-Si diffusion, but modified nucleation/growth of eutectic silicon.",
-    "relevantTheory": "Modification of Al-Si castings with Sr or Na refines brittle silicon plates into a finer fibrous morphology, improving toughness and strength.",
+    "relevantTheory": "In Al-Si castings, unmodified eutectic silicon tends to grow as coarse brittle plates that lower toughness. Sr or Na modification changes eutectic nucleation and growth and creates effective undercooling, so silicon forms a finer fibrous morphology. The benefit is not simply bonding with Al or Si, but a refined eutectic microstructure that improves ductility and strength.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; TMM.txt"
   },
   {
@@ -1720,7 +1720,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct in the Fe-C diagram context because CE here means eutectoid carbon content, not weldability carbon equivalent. Lecture 6 treats alloying elements as shifting A1 and CE; among the listed elements, Ni is the intended lesser-effect answer in the course chart. B, C and D are wrong because Si, Mn and Cr are treated as stronger shifters of the eutectoid carbon content in this exam context.",
-    "relevantTheory": "In Lecture 6, CE denotes eutectoid carbon content: the carbon percentage at the eutectoid point. This is different from the weldability carbon-equivalent formula. Alloying elements can shift A1 and CE, changing how much pearlite or proeutectoid phase forms for a fixed carbon content.",
+    "relevantTheory": "In this Fe-C/alloying context, CE means eutectoid carbon content, not the weldability carbon-equivalent formula. CE is the carbon percentage at the eutectoid point, where austenite transforms to pearlite. Alloying elements shift both A1 and CE: austenitizing elements such as Mn and Ni tend to stabilize gamma/austenite, while ferritizing or carbide-forming elements such as Cr, Si, Mo, Ti and V change the ferrite/carbide side of the diagram. For a fixed steel carbon content, shifting CE changes the expected pearlite and pro-eutectoid phase fractions.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 5; PAST_EXAMS/QUESTION_SET_4.txt, Q10"
   },
   {
@@ -1747,7 +1747,7 @@
     },
     "correctAnswer": "D",
     "explanation": "D is correct because nitriding is performed below A1 and does not require quenching, so distortion and residual stresses are minimized. A is wrong because laser hardening involves rapid local heating/cooling. B is wrong because induction hardening forms martensite by rapid heating and quenching, producing transformation stresses. C is wrong because carburizing is followed by quenching and can produce significant residual stress and distortion.",
-    "relevantTheory": "Nitriding forms hard nitrides in the ferritic region without austenitization or quenching. This gives high surface hardness with excellent dimensional stability.",
+    "relevantTheory": "Nitriding introduces nitrogen into the surface below A1, so the steel remains ferritic and does not need austenitizing or quenching. Hard alloy nitrides form in the case, giving high wear and contact resistance with low distortion and relatively low residual-stress problems compared with quench-based surface hardening such as induction hardening or carburizing.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, pp. 2 and 11; Self-assesment questions/Self-test questions - miscellanea.pdf, p. 1"
   },
   {
@@ -1802,7 +1802,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because low-carbon steel weldability is governed most strongly by carbon content, hardenability/carbon equivalent, and HAZ microstructure; Ni is not the main factor for ordinary low-carbon steels in this exam context. B is wrong because carbon content strongly affects weldability and martensite risk. C is wrong because grain size affects toughness and HAZ behavior. D is wrong because hardenability of alloying elements directly affects the risk of hard brittle weld zones.",
-    "relevantTheory": "Good weldability requires avoiding hard, brittle HAZ microstructures. Carbon content and carbon equivalent are key because they control hardenability and martensite formation during weld cooling.",
+    "relevantTheory": "Weldability of low-carbon steels is controlled mainly by whether welding creates a hard, brittle heat-affected zone. Carbon is the strongest simple warning sign because it increases hardenability and martensite risk during rapid weld cooling. Carbon equivalent formulas extend this idea by adding the hardenability effect of alloying elements such as Mn, Cr, Mo, V, Ni and Cu. Good weldability therefore means low carbon or carbon equivalent, controlled HAZ microstructure, adequate toughness and limited cracking tendency; it is not judged by the mere presence of one alloy name.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions on steels.pdf, p. 1; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1"
   },
   {
@@ -1828,7 +1828,7 @@
     },
     "correctAnswer": "B",
     "explanation": "B is correct because 7xxx aluminium alloys are heat-treatable Al-Zn-based alloys whose highest strengths come from precipitation hardening by aging. A is wrong because grain refinement helps but is not the dominant strengthening method. C is wrong because cold-working is not the main route for peak 7xxx strength. D is wrong because solid solution is only the starting state before precipitation hardening.",
-    "relevantTheory": "Heat-treatable aluminium alloys such as 2xxx, 6xxx, and 7xxx are strengthened mainly by solution treatment, quenching, and aging to form fine precipitates.",
+    "relevantTheory": "7xxx aluminium alloys are heat-treatable Al-Zn-Mg based alloys. Their highest strength comes from precipitation hardening: solution treatment dissolves solute, quenching retains a supersaturated solid solution, and aging forms fine precipitates that obstruct dislocations. Grain refinement, cold work and solid solution contribute, but aging is the dominant strengthening route.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, pp. 1-2; TMM.txt"
   },
   {
@@ -2166,7 +2166,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the lecture introduces microstructure as multiscale: grains, phases, fracture surfaces and finer defects may require different observation methods. B is wrong because many structural features are microscopic or nanoscopic. C is wrong because microscopy complements, not replaces, property and performance testing. D is wrong because the copper example is only an example; all engineering alloys have microstructures.",
-    "relevantTheory": "Microstructure includes features at several scales, from grains and phases to defects and precipitates. Optical microscopy and electron microscopy reveal different levels of structure, which helps explain mechanical properties and failures.",
+    "relevantTheory": "Microstructure must be observed at the scale of the feature being studied. Optical microscopy uses visible light and can show grains, phases and etched boundaries at micrometre scale. Electron microscopy reaches finer particles, defects, fracture surfaces and nanoscale structures: SEM is especially useful for surface/fracture morphology, while TEM can reveal very fine defects and precipitates in thin specimens. Microscopy explains why two alloys with the same composition may behave differently, but it complements mechanical tests rather than replacing them.",
     "source": "slides&docs/Lecture 1 Intro (1).pdf, slides/pages 10-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 3-4"
   },
   {
@@ -2843,7 +2843,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because Lecture 1 shows optical microscopy, electron microscopy, fracture surface observation and nanostructural features. B is wrong because grains, graphite, precipitates and dislocations occupy different scales. C is wrong because both surface and internal structure may matter. D is wrong because composition alone does not reveal phase morphology, defects or distribution.",
-    "relevantTheory": "Microstructure must be studied across scales. Optical microscopy can reveal grains and phases; SEM can analyze surface morphology and fracture; TEM can reveal finer defects, precipitates and diffraction information.",
+    "relevantTheory": "Microstructure is multiscale, so no single instrument reveals everything. OM, optical microscopy, uses visible light for micrometre-scale grains, grain boundaries, phases and inclusions. SEM uses electrons for higher-resolution surface detail, fracture surfaces, particles, pores and phase distribution. TEM transmits electrons through a thin specimen to reveal nanoscale or atomic-scale dislocations, precipitates and lattice defects. XRD is different from imaging: it uses X-ray diffraction from crystal planes to identify crystal structure, phases, lattice spacing, crystallinity and residual stress.",
     "source": "slides&docs/Lecture 1 Intro (1).pdf, slides/pages 10-12; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, pages 3-4"
   },
   {
@@ -3676,7 +3676,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the notes explain that corrosive acid makes grain boundaries black due to their high energy and reactivity. B is wrong because the sample is solid. C is wrong because boundaries are preferentially revealed, not perfect centers only. D is wrong because their reactivity is the reason etching works.",
-    "relevantTheory": "Metallography uses differences in chemical or optical response to reveal microstructure. Grain boundaries, phases and orientations can be made visible because they react or reflect differently.",
+    "relevantTheory": "Metallography starts from a prepared, polished surface; etching then creates contrast because different regions react or reflect differently. Grain boundaries are high-energy, disordered regions, so they may be preferentially attacked and appear dark. Phases, inclusions and differently oriented grains can also show contrast, which is why etching turns an apparently uniform metal surface into a readable microstructure.",
     "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 8; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 3"
   },
   {
@@ -3728,7 +3728,7 @@
     },
     "correctAnswer": "D",
     "explanation": "D is correct as the false clause because rolling can create texture or banding, making a polycrystal anisotropic. A is true because the slide explicitly links crystal direction to packing. B is true because random orientation averages properties. C is true because oriented grains along working directions affect mechanical properties.",
-    "relevantTheory": "Anisotropy means property depends on direction. It can come from crystal structure in a single crystal or from processing-induced texture, banding and oriented features in a polycrystal.",
+    "relevantTheory": "Anisotropy means a property depends on direction. It may come from the crystal itself, because atomic packing differs along crystallographic directions, or from the microstructure, because rolling, forging or solidification can align grains, inclusions, dendrites or bands. A randomly oriented polycrystal may average toward isotropy, but a processed polycrystal often keeps direction-dependent strength, ductility, toughness or corrosion behavior.",
     "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 10; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 10"
   },
   {
@@ -3754,7 +3754,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because density, thermal conductivity, elastic modulus and thermal expansion coefficient are listed under non-sensitive/intrinsic properties, meaning they are mainly controlled by atomic bonding nature. B is wrong because yielding strength, hardness, elongation and toughness are sensitive to fabrication history and microstructure. C is wrong because fatigue, creep, corrosion and hardness depend on defects, phases, surfaces and environment. D is wrong because impact energy, fracture toughness, elongation and yield stress are all strongly affected by microstructure.",
-    "relevantTheory": "Intrinsic properties are related mainly to atomic bonding nature. Extrinsic properties are affected by intentional alloying, impurities, defects and the microstructure produced by processing.",
+    "relevantTheory": "Intrinsic properties are mainly controlled by bonding and crystal structure, so density, elastic modulus and thermal expansion change relatively little with ordinary heat treatment or deformation. Extrinsic properties are microstructure-sensitive: yield strength, hardness, toughness, fatigue resistance and ductility depend on grain size, phases, dislocations, precipitates, inclusions, cracks and surfaces. This distinction is central when choosing between measuring a material property and predicting real component performance.",
     "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 11; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-1-20.pdf, page 10"
   },
   {
@@ -4093,7 +4093,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because adjacent grains have different orientations and the boundary must accommodate misfit, producing disorder and non-equilibrium spacing. B is wrong because boundaries are not empty holes. C is wrong because boundaries interrupt perfect order. D is wrong because grain boundaries are solid-state defects in polycrystals.",
-    "relevantTheory": "Grain boundaries are 2D defects. Their higher energy makes them more reactive, faster diffusion paths and preferred sites for segregation or microstructural change.",
+    "relevantTheory": "A grain boundary is a two-dimensional defect between crystals of different orientation. Atoms near the boundary cannot keep the perfect equilibrium spacing of either grain, so the boundary has excess energy and often acts as a fast diffusion path. This makes grain boundaries important for etching, segregation, precipitation, corrosion, recrystallization, grain growth and dislocation blocking.",
     "source": "slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, slide/page 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, page 3"
   },
   {
@@ -4562,7 +4562,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the lecture lists TEM, SEM, OM and X-ray diffractometer with different resolution scales. B is wrong because optical microscopy is not sufficient for nanoscale defects. C is wrong because XRD diagnoses crystallographic/lattice-scale information. D is wrong because SEM and TEM are microscopes, not shaping routes.",
-    "relevantTheory": "Different microstructural scales require different instruments. OM observes micrometre-scale grains and phases; SEM gives higher-resolution surface and microstructural images; TEM can see nanoscale defects; XRD detects crystal structure and lattice-scale information.",
+    "relevantTheory": "Different microstructural scales require different instruments. OM, optical microscopy, uses visible light and is suitable for larger micrometre-scale features such as grains, grain boundaries, phases and inclusions. SEM, scanning electron microscopy, uses electrons instead of light, so it has much higher resolution than OM and shows detailed surface structure and fine microstructural features such as fracture surfaces, particles, pores and phase distribution. TEM, transmission electron microscopy, sends electrons through a very thin sample and can reveal nanometre- or atomic-scale features such as dislocations, precipitates, lattice defects and nanoscale particles. XRD, X-ray diffraction, is not mainly an imaging technique: it detects diffraction from crystal planes and is used to identify crystal structure, phases present, lattice spacing, crystallinity and residual stress.",
     "source": "slides&docs/Lecture 2 Metals.pdf, p. 16"
   },
   {
@@ -4770,7 +4770,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because Lecture 2 shows soundness of castings by X-ray for real parts such as wheels, crankshafts and piping. The point is detecting internal casting defects that are not necessarily visible from the surface. B is wrong because X-ray inspection does not alloy the material. C is wrong because inspection is not cold work. D is wrong because X-ray is used for internal soundness, not colour.",
-    "relevantTheory": "Casting integrity matters because internal defects act as weak points and stress concentrators. Non-destructive inspection such as X-ray helps verify whether a casting is sound enough for service.",
+    "relevantTheory": "X-ray inspection is a non-destructive testing method used to check internal soundness, especially in castings where defects may be hidden below the surface. It is useful for detecting density or thickness changes such as shrinkage cavities, porosity and some internal cracks. These defects reduce load-bearing area and act as stress concentrators, so a casting can look acceptable outside but fail because of internal unsoundness.",
     "source": "slides&docs/Lecture 2 Metals.pdf, p. 6"
   },
   {
@@ -6487,7 +6487,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the notes list microvoids and microcracks as 3D lattice defects and explain that a pore can become a crack. B is wrong because no defect is not a crack embryo. C is not a defect family. D is wrong because coherent twin boundaries are not the main crack-embryo example here.",
-    "relevantTheory": "Toughness is sensitive to defects that concentrate stress. Pores, inclusions, microvoids and microcracks can initiate fracture, especially when they grow or link under tensile loading.",
+    "relevantTheory": "Three-dimensional defects such as pores, shrinkage cavities, inclusions, microvoids and microcracks are dangerous because they concentrate stress in a finite volume. Under tensile or cyclic loading, small voids can nucleate, grow and link together into a crack. Toughness and fatigue resistance are therefore strongly affected by defect size, shape, distribution and orientation, not only by nominal alloy composition.",
     "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 13-14; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-21-45.pdf, p. 13; PAST_EXAMS/QUESTION_SET_3.txt, style sample only"
   },
   {
@@ -8191,7 +8191,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the lecture says steels can be classified by alloying element content, heat treatment, application and workability, and that standards typically do not follow only one criterion. B is wrong because carbon percentage is only one possible chemical criterion. C is wrong because heat treatment is only one family of criteria. D is wrong because S, D, H, P and similar designations are application/property groups.",
-    "relevantTheory": "Steel designation is not a single universal naming rule. EN systems can name steels by use and mechanical properties or by chemical composition, so the first exam step is to recognize which designation family is being used.",
+    "relevantTheory": "Steel standards use several designation families, so the first task is to identify the naming system before decoding numbers. EN property/use names such as S235 or DD13 indicate application or mechanical/property class, not full composition. EN chemical names such as C45, 42CrMo4 or X40Cr14 encode carbon and alloy content using family-specific rules. AISI/SAE names such as 1040 or 4140 use first digits for alloy family and last digits for carbon x100. Numeric EN 1.xxxx codes are another mapping system. Exam traps often come from applying the rule from one family to a different family.",
     "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 1-3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 4"
   },
   {
@@ -8295,7 +8295,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the lecture lists R as +20 °C, 0 as 0 °C, 2 as -20 °C and 3 as -30 °C for the temperature part of S235XY. B is wrong because this is not a chemical composition code. C is wrong because the strength value is 235. D is wrong because no Cr content is encoded by the number 2 here.",
-    "relevantTheory": "In S-group structural steels, the last symbols are toughness/resilience requirements. J, K and L indicate minimum impact energy classes, while R, 0, 2, 3 indicate the test temperature.",
+    "relevantTheory": "In EN structural steel symbols such as S235J2, the strength part and toughness part must be read separately. S235 indicates a structural steel with specified yield strength level, while J, K or L refer to impact-energy classes and R, 0, 2 or 3 indicate test temperature. The 2 in J2 means the Charpy/resilience requirement is checked at -20 C, not that the steel contains 2% of an alloying element.",
     "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 5"
   },
   {
@@ -8321,7 +8321,7 @@
     },
     "correctAnswer": "D",
     "explanation": "D is the NOT TRUE clause because 235 or 355 in S235/S355 is a yield-property value, not wt.% carbon. A is true because the producer may meet prescribed properties using different composition/process combinations. B is true because the slide emphasizes maximum C and Mn for weldability. C is true because the notes explain that the old designation considered fracture stress, while the present one considers yield stress.",
-    "relevantTheory": "Structural steel designations are property/use designations. They prescribe mechanical performance and weldability limits, not a complete composition recipe. This is a common exam trap because chemical designations also use numbers.",
+    "relevantTheory": "S235 and S355 are EN structural steel property/use designations. The letter S indicates structural steel, and 235 or 355 refers to nominal minimum yield strength in MPa, not carbon percentage. Their standards also limit composition, especially C, Mn and carbon equivalent, because structural steels must remain weldable and tough. This differs from chemical designations such as C45, where the number does encode carbon content.",
     "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 4; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 5"
   },
   {
@@ -8895,7 +8895,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the factor table lists S with factor 100 and B with factor 1000. B gives factors belonging to other elements. C is wrong because low-alloy n-values are scaled. D is wrong because S is shown in example grades such as 42CrMoS4 and 20NiCrMoS2-2, and B appears in the factor table.",
-    "relevantTheory": "The element factor table prevents decoding errors. Large factors are used for elements present in small amounts, so a small number in the name can correspond to a very small mass percentage.",
+    "relevantTheory": "Low-alloy EN chemical designations use element factors to convert coded numbers into approximate mass percentages. Common factors in the lecture include 4 for elements such as Cr, Ni, Mn, Co, Si and W; 10 for elements such as Mo, V, Al, Cu and Ti; 100 for elements such as S, P, N and Ce; and 1000 for B. Large factors are used for elements effective at very small additions, so a small designation number can represent a trace-level alloying addition. Always identify the element and its factor before calculating composition.",
     "source": "slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, page/slide 6"
   },
   {
@@ -9316,7 +9316,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the slide explicitly says VOD is more suitable for mixed shops where stainless output is lower, and it can be used as a degassing system for conventional steels. B and C misdefine the process. D contradicts the name and slide: VOD uses vacuum and is costly.",
-    "relevantTheory": "AOD and VOD are alternative secondary refining choices. The selection depends on product mix, production rate, cost and degassing/decarburization needs.",
+    "relevantTheory": "AOD and VOD are secondary refining routes used especially for stainless and alloy steels where carbon, gases and chromium loss must be controlled. VOD uses vacuum, so it is useful for lower stainless production rates or mixed shops and can also serve as a degassing system for conventional steels. The choice depends on production rate, cost, product mix and decarburization or degassing requirements.",
     "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 5; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 21"
   },
   {
@@ -9475,7 +9475,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the slide links TMCP, HSLA and Nb(CN) with precipitation strengthening and grain refinement. B confuses steel TMCP with cast iron graphite. C is wrong because large grains reduce toughness and dissolved/coarsened precipitates do not give the desired strengthening. D contradicts the thermomechanical controlled processing route.",
-    "relevantTheory": "TMCP uses deformation schedule, finishing rolling temperature, cooling and coiling temperature to control precipitation, austenite/ferrite grain size and final strength-toughness balance.",
+    "relevantTheory": "TMCP links rolling schedule, finishing temperature, accelerated cooling and coiling temperature to the final HSLA microstructure. Nb(CN) precipitation and controlled deformation restrict austenite grain growth, refine ferrite, and add precipitation strengthening. The target is high strength together with good toughness, not simply maximum alloying or maximum grain growth.",
     "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 10"
   },
   {
@@ -10156,7 +10156,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the notes explain that an insulating hot top keeps impurities in the upper removable part of the ingot. B is the opposite of the goal. C confuses ingot casting with steel refining. D is a rolling effect after solidification.",
-    "relevantTheory": "Ingot solidification can concentrate carbon and residual elements in the last-liquid regions. A hot top acts as a sacrificial reservoir so the most segregated region can be cut away.",
+    "relevantTheory": "During ingot solidification, the last liquid is enriched in carbon and residual elements, so segregation tends to concentrate near the top or central last-freezing region. A hot top keeps an upper reservoir liquid longer and feeds shrinkage while trapping the most segregated material. That sacrificial top is then cut away to improve the usable ingot quality.",
     "source": "notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 16; slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 5"
   },
   {
@@ -10314,7 +10314,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the slide notes an optimum coiling temperature: much lower temperature gives insufficient precipitation in ferrite, while higher temperature gives coarsened precipitates with reduced strengthening. B ignores the processing window. C is not coiling. D ignores precipitation strengthening.",
-    "relevantTheory": "TMCP is a window-control problem. Rolling temperature, cooling path and coiling temperature determine precipitation state, ferrite grain size and therefore the strength-toughness compromise.",
+    "relevantTheory": "Coiling temperature in TMCP controls precipitation after rolling. If it is too low, diffusion is insufficient and Nb(CN) precipitation in ferrite may be incomplete; if it is too high, precipitates coarsen and lose strengthening power. The optimum temperature balances fine precipitation, ferrite grain size and the strength-toughness compromise.",
     "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 10"
   },
   {
@@ -10448,7 +10448,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because the slides and notes state that inclusions decrease mechanical properties, including upper energy shelf in impact testing and total ductility. B is wrong because inclusions are non-metallic and often brittle. C ignores the CVN discussion. D is too absolute and contradicts the anisotropy problem.",
-    "relevantTheory": "Charpy V-notch energy measures impact toughness. Inclusions reduce the energy needed for fracture, especially when elongated or clustered in the direction unfavorable to loading.",
+    "relevantTheory": "Charpy V-notch testing measures absorbed impact energy during rapid fracture of a notched specimen; upper-shelf energy represents the higher-energy ductile-fracture region. Non-metallic inclusions lower ductility and impact energy because they act as weak interfaces, brittle particles or void-nucleation sites. Elongated inclusions are especially harmful in transverse loading, so inclusion cleanliness and shape control are part of steel toughness control.",
     "source": "slides&docs/Lecture 8 Modern Production of Steels.pdf, slides/pages 12-13; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, page 18"
   },
   {
@@ -16070,7 +16070,7 @@
     },
     "correctAnswer": "A",
     "explanation": "A is correct because hardness is a local mechanical measurement, while hardenability describes how far hard transformation products are obtained from the quenched surface or along the Jominy distance. B reverses the definitions. C is wrong because two steels can have similar quenched-end hardness but very different hardness retention with distance. D invents a corrosion meaning that is not used in the heat-treatment context.",
-    "relevantTheory": "The Jominy test exposes one specimen to a cooling-rate gradient. The hardness curve versus distance shows hardenability: shallow-hardening steels drop rapidly, while highly hardenable steels keep high hardness farther from the quenched end.",
+    "relevantTheory": "Hardness is a local indentation measurement, while hardenability describes how deeply a steel can form hard transformation products during cooling. The Jominy end-quench test creates a cooling-rate gradient along one bar: the quenched end cools fastest and positions farther away cool more slowly. A highly hardenable steel keeps high hardness farther from the quenched end because alloying delays pearlite/bainite formation and allows martensite deeper into thick sections.",
     "source": "Self-assesment questions/self-assessment questions on steels.pdf, page 1"
   },
   {
