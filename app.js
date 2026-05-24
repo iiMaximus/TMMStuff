@@ -17,6 +17,7 @@ const XP_PER_LEVEL = 120;
 const RECENT_CARD_GAP = 3;
 const OPTION_MARKERS = ["1", "2", "3", "4"];
 const LECTURE_PLAN_START = new Date(2026, 4, 20);
+const LECTURE_BREAK_INTERVAL = 4;
 const DAY_MS = 24 * 60 * 60 * 1000;
 const DATE_FORMATTER = new Intl.DateTimeFormat(undefined, {
   month: "short",
@@ -220,7 +221,8 @@ function startOfDay(date) {
 }
 
 function lectureDueDate(index) {
-  return new Date(LECTURE_PLAN_START.getTime() + index * DAY_MS);
+  const breakDays = Math.floor((index + 1) / LECTURE_BREAK_INTERVAL);
+  return new Date(LECTURE_PLAN_START.getTime() + (index + breakDays) * DAY_MS);
 }
 
 function lectureScheduleStatus(dueDate, complete) {
