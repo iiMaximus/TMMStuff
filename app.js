@@ -30,8 +30,10 @@ const state = {
   activeQuestions: [],
   contentMap: { decks: [], modules: [] },
   current: null,
+  currentDeck: null,
   currentTitle: "Exam bank",
   currentSubtitle: "",
+  shuffleQuestions: false,
   correct: 0,
   wrong: 0,
   answered: false,
@@ -198,6 +200,15 @@ function shuffledOptionEntries(options) {
     [entries[index], entries[swapIndex]] = [entries[swapIndex], entries[index]];
   }
   return entries;
+}
+
+function shuffledQuestions(questions) {
+  const shuffled = [...questions];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+  }
+  return shuffled;
 }
 
 function topicQuestions(topic) {
@@ -395,10 +406,12 @@ function choiceCard(title, count, detail) {
   return button;
 }
 
-function startSession({ title, subtitle, questions, emptyDeck = null }) {
+function startSession({ title, subtitle, questions, emptyDeck = null, deck = null, shuffleQuestions = false }) {
   state.currentTitle = title;
   state.currentSubtitle = subtitle;
-  state.activeQuestions = questions;
+  state.currentDeck = deck;
+  state.shuffleQuestions = shuffleQuestions;
+  state.activeQuestions = shuffleQuestions ? shuffledQuestions(questions) : questions;
   state.correct = 0;
   state.wrong = 0;
   state.seenIds.clear();
@@ -434,7 +447,24 @@ function chooseNextQuestion() {
   const poolBase = spaced.length ? spaced : state.activeQuestions;
   const unseen = poolBase.filter((question) => !state.seenIds.has(question.id));
   const pool = unseen.length ? unseen : poolBase;
+  if (state.currentDeck === "question-bank") return chooseWeightedRandomQuestion(pool);
   return [...pool].sort((a, b) => scoreCandidate(b) - scoreCandidate(a))[0] || null;
+}
+
+function chooseWeightedRandomQuestion(pool) {
+  const scored = pool.map((question) => ({
+    question,
+    weight: Math.max(1, scoreCandidate(question))
+  }));
+  const total = scored.reduce((sum, item) => sum + item.weight, 0);
+  let pick = Math.random() * total;
+
+  for (const item of scored) {
+    pick -= item.weight;
+    if (pick <= 0) return item.question;
+  }
+
+  return scored[scored.length - 1]?.question || null;
 }
 
 function courseMastery() {
@@ -643,6 +673,8 @@ document.querySelectorAll("[data-study]").forEach((button) => {
         title: button.querySelector("strong").textContent,
         subtitle: isPastExam ? "Past exam bank" : isSelfAssessment ? "Self-test bank" : "Study set",
         questions: deckQuestions(study),
+        deck: study,
+        shuffleQuestions: isPastExam,
         emptyDeck: { deck: study, moduleId: null }
       });
     }
@@ -653,7 +685,9 @@ els.nextButton.addEventListener("click", renderQuestion);
 els.restartButton.addEventListener("click", () => startSession({
   title: state.currentTitle,
   subtitle: state.currentSubtitle,
-  questions: state.activeQuestions
+  questions: state.activeQuestions,
+  deck: state.currentDeck,
+  shuffleQuestions: state.shuffleQuestions
 }));
 els.backHomeButton.addEventListener("click", goHome);
 els.lectureFocusButton.addEventListener("click", () => {
