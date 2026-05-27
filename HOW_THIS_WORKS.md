@@ -43,7 +43,7 @@ A card is mastered after two correct answers in a row. If it is answered wrong, 
 
 Cards marked with `"diagramRequired": true` are kept in the data file but skipped by all normal study paths. Use that flag for past-exam questions that refer to missing phase diagrams, cooling curves, labeled regions, or other figures.
 
-Graph cards use `deck="graph-questions"` and include an embedded `visual` object, usually `visual.type="svg-graph"`. They are rendered in their own home-screen section and intentionally excluded from Everything, Exam bank, and Due review until the user chooses Graph questions directly.
+Graph cards use `deck="graph-questions"` and include an embedded `visual` object. When a source figure exists in `exams_images/`, the card should use a cropped image visual so the graph matches the exam exactly; SVG redraws are reserved for cases where the original figure is missing or unusable. Graph cards are rendered in their own home-screen section and intentionally excluded from Everything, Exam bank, and Due review until the user chooses Graph questions directly.
 
 Question selection inside a session is adaptive:
 

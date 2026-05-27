@@ -42,9 +42,26 @@ function validateVisual(question, label, errors, warnings) {
     return;
   }
 
-  if (question.visual.type !== "svg-graph") {
-    errors.push(`Question ${label}: visual.type must be "svg-graph".`);
+  if (!["svg-graph", "image"].includes(question.visual.type)) {
+    errors.push(`Question ${label}: visual.type must be "svg-graph" or "image".`);
+    return;
   }
+
+  if (question.visual.type === "image") {
+    if (typeof question.visual.src !== "string" || !question.visual.src.trim()) {
+      errors.push(`Question ${label}: visual.src must be a non-empty string for image visuals.`);
+    } else if (!fs.existsSync(question.visual.src)) {
+      errors.push(`Question ${label}: visual.src "${question.visual.src}" does not exist.`);
+    }
+    if (question.visual.alt !== undefined && typeof question.visual.alt !== "string") {
+      errors.push(`Question ${label}: visual.alt must be a string when present.`);
+    }
+    if (question.diagramRequired === true) {
+      warn(warnings, label, "visual is present but diagramRequired is true.");
+    }
+    return;
+  }
+
   if (!isNumberPair(question.visual.xRange)) {
     errors.push(`Question ${label}: visual.xRange must be two finite numbers.`);
   }

@@ -55,7 +55,7 @@ Required optional metadata for new work:
 - `cardType`: one of `definition`, `trap`, `application`, `calculation`, `process-chain`, `graph-interpretation`, `graph-calculation`
 - `trapTags`: short array of traps or concepts tested
 - `diagramRequired`: `true` when the card cannot stand alone without an included diagram; normal website sessions automatically skip these cards
-- `visual`: optional structured SVG graph data for `graph-questions` cards. Use `visual.type="svg-graph"` with numeric `xRange`, `yRange`, `series`, `markers`, and `labels`. Do not inject raw HTML.
+- `visual`: optional graph/diagram data for `graph-questions` cards. Prefer `visual.type="image"` with a cropped source figure when the exam image exists. Use `visual.type="svg-graph"` with numeric `xRange`, `yRange`, `series`, `markers`, and `labels` only when no usable source figure is available. Do not inject raw HTML.
 
 Existing older cards may omit this metadata, but all new large-batch work should include it so the website does not depend on brittle topic guessing.
 
@@ -140,4 +140,4 @@ Past exam questions often reference a phase diagram or TTT/cooling curve. Skip t
 
 If a card is kept only for archival completeness but depends on a missing figure, set `"diagramRequired": true`. It will remain in `data/questions.json` but will not appear in Everything, Exam bank, topics, lectures, self-assessment, or due review.
 
-For `graph-questions`, the graph must be embedded in `visual` and `diagramRequired` must be `false`. Keep these cards out of the normal past-exam bank. Make graph titles neutral; do not reveal the answer in the caption or labels unless the original exam figure did so.
+For `graph-questions`, the graph must be embedded in `visual` and `diagramRequired` must be `false`. Keep these cards out of the normal past-exam bank. Use the original `exams_images/` figure whenever available, ideally cropped to the diagram only. Make graph titles neutral; do not reveal the answer in the caption or labels unless the original exam figure did so.

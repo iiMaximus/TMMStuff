@@ -42,7 +42,7 @@ function collectFiles(dir, prefix = "") {
 }
 
 const sourceFiles = collectFiles(path.join(__dirname, ".."))
-  .filter((file) => /\.(pdf|png|txt)$/i.test(file))
+  .filter((file) => /\.(pdf|png|jpe?g|txt)$/i.test(file))
   .filter((file) => !file.startsWith(".git/"));
 
 for (const question of questions) {

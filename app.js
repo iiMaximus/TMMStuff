@@ -512,7 +512,26 @@ function graphPointMapper(visual, width, height, margin) {
 function renderQuestionVisual(visual) {
   els.questionVisual.replaceChildren();
 
-  if (!visual || visual.type !== "svg-graph") {
+  if (!visual) {
+    els.questionVisual.hidden = true;
+    return;
+  }
+
+  if (visual.type === "image") {
+    const figure = document.createElement("figure");
+    const caption = document.createElement("figcaption");
+    const image = document.createElement("img");
+    image.src = visual.src;
+    image.alt = visual.alt || visual.title || "Question diagram";
+    image.loading = "lazy";
+    caption.textContent = visual.title || "Question diagram";
+    figure.append(caption, image);
+    els.questionVisual.append(figure);
+    els.questionVisual.hidden = false;
+    return;
+  }
+
+  if (visual.type !== "svg-graph") {
     els.questionVisual.hidden = true;
     return;
   }
