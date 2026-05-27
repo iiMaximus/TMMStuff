@@ -17770,9 +17770,9 @@ window.TMM_QUESTIONS = [
       "C": "1.00%",
       "D": "3.75%"
     },
-    "correctAnswer": "B",
-    "explanation": "B is correct because the figure identifies the steel as 38NiCr15, and in this designation the final number 15 corresponds to about 1.5% nickel in the professor's exam convention. A is wrong because 15 is not read directly as 15 wt% Ni. C is wrong because 1.00% is too low for the indicated 15 suffix. D is wrong because it confuses the 38 carbon prefix or other alloy-number rules with the Ni content.",
-    "relevantTheory": "Steel designations encode approximate composition rather than writing every percentage directly. In the exam style, 38NiCr15 is read as a medium-carbon Ni-Cr steel with roughly 0.38%C and about 1.5% Ni; the designation is then used together with the TTT diagram to identify heat-treatment behavior and alloy class.",
+    "correctAnswer": "D",
+    "explanation": "D is correct because 38NiCr15 is a low-alloy designation in the course style: 38 means about 0.38%C, and the alloy number 15 for Ni is divided by the factor 4, giving about 3.75% Ni. A is wrong because 15% reads the number directly and ignores the low-alloy multiplier rule. B is wrong because 1.50% divides by 10, which is not the factor used for Ni in Lecture 7. C is wrong because 1.00% is not obtained from the 15 suffix or the factor table.",
+    "relevantTheory": "Low-alloy steel names use coded composition: the first number is carbon times 100, and alloying numbers are divided by element factors. For Ni, Cr, Mn, Co, Si and W the factor is 4. Therefore 38NiCr15 should be read as roughly 0.38%C with Ni on the order of 15/4 = 3.75%, not as 15% or 1.5% Ni.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 153-157; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/ttt-38nicr15-source.jpg; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-3",
     "visual": {
       "type": "image",
@@ -17844,6 +17844,2412 @@ window.TMM_QUESTIONS = [
       "src": "assets/exam-graphs/fec-feb2023-q-r-source.jpg",
       "alt": "Cropped source exam Fe-C diagram showing the Q temperature line, R region, eutectoid composition and alloy line."
     }
+  },
+  {
+    "id": 679,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "TTT curve shift",
+      "hardenability"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 1095 TTT figure, how do hardenability-promoter elements affect the TTT curves?",
+    "options": {
+      "A": "Shift M90 down",
+      "B": "Shift M90 up",
+      "C": "Shift left",
+      "D": "Shift down-right"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because hardenability-promoting elements delay diffusional transformation, so the C-curves move to longer times and martensite transformation temperatures tend to move downward. A is wrong because it only mentions M90 and misses the rightward delay of the transformation curves. B is wrong because raising M90 is the opposite of the usual alloying effect on martensite temperatures. C is wrong because a left shift would reduce hardenability by making pearlite/bainite easier to form during cooling.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. A rightward shift means slower diffusional transformation and easier martensite formation for a given cooling rate.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 54-58; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/ttt-c-r-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 1095 TTT exam figure",
+      "src": "assets/exam-graphs/ttt-c-r-source.jpg",
+      "alt": "Cropped AISI 1095 TTT diagram with labelled C, R and point 2."
+    }
+  },
+  {
+    "id": 680,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "cooling path",
+      "retained austenite",
+      "pearlite"
+    ],
+    "diagramRequired": false,
+    "question": "Using the AISI 1095 TTT path, estimate the cooling products after transformation at point 2.",
+    "options": {
+      "A": "50%P + 45%BL + 5%AR",
+      "B": "50%P + 45%TM+BL + 5%AR",
+      "C": "50%P + 50%TM-BL",
+      "D": "50%P + 50%AR"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the path first forms about half pearlite, then most of the remaining austenite transforms in the bainitic/lower-bainitic region, with only a small retained-austenite residue at point 2. B is wrong because it replaces the bainitic product with tempered-martensite wording even though the path is read in the bainitic field. C is wrong because it leaves no retained austenite, while the end point still indicates a small residual fraction. D is wrong because it ignores the second transformation step and leaves too much austenite untransformed.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. For staged paths, sum the fraction already transformed at each hold and apply later products only to the austenite still remaining.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 64-68; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/ttt-c-r-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 1095 TTT exam figure",
+      "src": "assets/exam-graphs/ttt-c-r-source.jpg",
+      "alt": "Cropped AISI 1095 TTT diagram with point 2 path."
+    }
+  },
+  {
+    "id": 681,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "ferrite formation",
+      "pearlite competition"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 38NiCr15 TTT figure, why is ferrite formation incomplete?",
+    "options": {
+      "A": "it is hindered by pearlite",
+      "B": "diffusionless transformation",
+      "C": "slow diffusion of carbon",
+      "D": "difficulty in carbide dissolution"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the ferrite field is interrupted when the pearlite reaction starts and consumes the remaining austenite, so ferrite does not complete independently. B is wrong because ferrite formation is diffusional, not a martensitic diffusionless transformation. C is wrong because slow carbon diffusion affects kinetics but is not the specific reason shown by the interrupted field in this diagram. D is wrong because carbide dissolution is an austenitizing issue, not the reason ferrite stops forming during the TTT path.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Adjacent fields compete: ferrite, pearlite and bainite labels are not independent final answers unless the path actually reaches their start/finish curves.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 148-152; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/ttt-38nicr15-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 38NiCr15 TTT exam figure",
+      "src": "assets/exam-graphs/ttt-38nicr15-source.jpg",
+      "alt": "Cropped TTT diagram for AISI 38NiCr15 steel."
+    }
+  },
+  {
+    "id": 682,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "stepped transformation",
+      "M90",
+      "retained austenite"
+    ],
+    "diagramRequired": false,
+    "question": "From the AISI 38NiCr15 TTT figure, estimate the products during stepped isothermal transformations 1-2.",
+    "options": {
+      "A": "100% AR",
+      "B": "90%TM+BL + 10%AR",
+      "C": "100% TM+BL",
+      "D": "100% Stable A"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the path ends near the M90/low-temperature transformation region, so about ninety percent has transformed to tempered-martensitic/lower-bainitic product and about ten percent remains as residual austenite. A is wrong because the diagram shows transformation, so it cannot remain entirely residual austenite. C is wrong because it ignores the small retained-austenite fraction indicated by the final line. D is wrong because stable austenite is not the final low-temperature product for this TTT path.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. The labels M50, M90 and AR are traps: they tell you the transformed martensitic fraction and the austenite that remains after the path.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 158-162; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/ttt-38nicr15-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 38NiCr15 TTT exam figure",
+      "src": "assets/exam-graphs/ttt-38nicr15-source.jpg",
+      "alt": "Cropped TTT diagram for AISI 38NiCr15 steel."
+    }
+  },
+  {
+    "id": 683,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Acm",
+      "full austenite",
+      "quenching"
+    ],
+    "diagramRequired": false,
+    "question": "For the C1 alloy in the figure, 100% martensite can be formed after equilibrium cooling to which line before quenching?",
+    "options": {
+      "A": "A1 then quenching",
+      "B": "A3 then quenching",
+      "C": "Acm then quenching",
+      "D": "none"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because C1 is on the hyper-eutectoid side, and at Acm it can still be fully austenitic; quenching from fully austenite gives martensite throughout. A is wrong because cooling to A1 allows pro-eutectoid cementite before quenching, so not all material can become martensite. B is wrong because A3 is the hypo-eutectoid boundary and is not the correct line for the carbon-rich C1 alloy. D is wrong because a fully austenitic state is available before cementite forms, so martensite is possible after quenching.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Martensite forms from austenite; any ferrite or cementite already present before quenching will remain as a non-martensitic constituent.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 217-221; exams_images/photo_2026-02-13 21.45.52.jpeg; assets/exam-graphs/qs1-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Co-C1 Fe-C and AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/qs1-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with Co and C1 alloy lines plus the TTT diagram."
+    }
+  },
+  {
+    "id": 684,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "A1",
+      "alloying",
+      "Ni"
+    ],
+    "diagramRequired": false,
+    "question": "In the Fe-C figure, the A1 point decreases its value with alloying by which element?",
+    "options": {
+      "A": "Si",
+      "B": "Mo",
+      "C": "Ni",
+      "D": "Ti"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because nickel is an austenite stabilizer and lowers the eutectoid temperature A1 in the course figure. A is wrong because silicon is treated as raising or stabilizing against the decrease of A1 in this exam trap. B is wrong because molybdenum is not the intended A1-lowering answer here. D is wrong because titanium is a strong carbide former and not the listed austenite-stabilizer answer.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Austenite stabilizers such as Ni and Mn tend to lower A1, while ferrite or carbide-forming elements often shift the eutectoid relations differently.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 222-226; exams_images/photo_2026-02-13 21.45.52.jpeg; assets/exam-graphs/qs1-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Co-C1 Fe-C and AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/qs1-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with alloying and Fe-C labels."
+    }
+  },
+  {
+    "id": 685,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "cementite fraction",
+      "lever rule",
+      "pearlite"
+    ],
+    "diagramRequired": false,
+    "question": "From the Co alloy figure, estimate the cementite proportion in pearlite at Co and To.",
+    "options": {
+      "A": "0.4-6.6/7%",
+      "B": "0.4/7%",
+      "C": "0.5%",
+      "D": "0.5-6.6/7%"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the exam shorthand estimates the cementite in pearlite for about 0.4%C steel as roughly carbon divided by the cementite carbon content, i.e. about 0.4/6.67, rounded as 0.4/7. A is wrong because subtracting from 6.6 reverses the lever-rule numerator and gives the ferrite-rich side, not cementite. C is wrong because 0.5% is far too small and is not a lever-rule expression. D is wrong because it uses the wrong side of the tie line and the wrong numerator for cementite.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Cementite is Fe3C with about 6.67%C, so its fraction in ferrite-cementite mixtures is estimated from the carbon balance.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 227-231; exams_images/photo_2026-02-13 21.45.52.jpeg; assets/exam-graphs/qs1-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Co-C1 Fe-C and AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/qs1-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with Co alloy and To line."
+    }
+  },
+  {
+    "id": 686,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "C temperature",
+      "R region",
+      "martensite"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 4140 TTT figure, give the symbol name for the C temperature and the R region.",
+    "options": {
+      "A": "A1 / M+AR",
+      "B": "A3 / M+AR",
+      "C": "A3 / M",
+      "D": "Acm / M"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the C label is read as the upper critical A3 line for this hypo-eutectoid alloy, and the R region includes martensite plus residual austenite. A is wrong because A1 is the lower eutectoid line, not the C temperature label in this figure. C is wrong because it omits residual austenite, which is explicitly part of the low-temperature martensitic region. D is wrong because Acm belongs to hyper-eutectoid austenite-cementite boundaries, not this C label.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. In alloy-steel TTT diagrams, labels such as R, C and T must be read locally; R may mean retained austenite with martensite rather than a universal phase field.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 232-236; exams_images/photo_2026-02-13 21.45.52.jpeg; assets/exam-graphs/qs1-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Co-C1 Fe-C and AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/qs1-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with the C and R labels."
+    }
+  },
+  {
+    "id": 687,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "growth rate",
+      "temperature"
+    ],
+    "diagramRequired": false,
+    "question": "In the TTT kinetics figure, how does growth rate change with increasing temperature?",
+    "options": {
+      "A": "decreases",
+      "B": "increases",
+      "C": "unchanged",
+      "D": "uncertain"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because atomic mobility and diffusion are higher at higher temperature, so the growth part of a diffusional transformation generally increases. A is wrong because decrease would describe the loss of driving force in some contexts, not the diffusion-controlled growth-rate trend asked here. C is wrong because growth rate is temperature-dependent. D is wrong because the plotted teaching point is definite: higher temperature gives faster growth.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. Nucleation and growth do not vary in exactly the same way: undercooling raises driving force, while higher temperature improves diffusion and growth mobility.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 242-246; exams_images/photo_2026-02-13 21.45.52.jpeg; assets/exam-graphs/qs1-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 4140 TTT exam figure",
+      "src": "assets/exam-graphs/qs1-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT figure used for kinetics questions."
+    }
+  },
+  {
+    "id": 688,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "bainitic bay",
+      "Cr",
+      "Mo"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 4140 TTT figure, what is the cause of the bainitic bay?",
+    "options": {
+      "A": "presence of Ni",
+      "B": "presence of large amount of C",
+      "C": "presence of Ni, Cr, Mo",
+      "D": "presence of Cr, Mo"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the 4140-type Cr-Mo alloying separates pearlitic and bainitic transformation ranges, producing the bay shape in the TTT diagram. A is wrong because nickel alone is not the cause for this specific Cr-Mo 4140 diagram. B is wrong because a large carbon content is not the defining feature of AISI 4140 or the bay shown. C is wrong because Ni is added unnecessarily; the tested cause here is the Cr-Mo alloying effect.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. Alloying elements alter diffusional transformation kinetics differently, and Cr-Mo steels commonly show delayed pearlite and separated bainite regions.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 247-251; exams_images/photo_2026-02-13 21.45.52.jpeg; assets/exam-graphs/qs1-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 4140 TTT exam figure",
+      "src": "assets/exam-graphs/qs1-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT figure showing the bainitic bay."
+    }
+  },
+  {
+    "id": 689,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "upper bainite",
+      "martensite",
+      "retained austenite"
+    ],
+    "diagramRequired": false,
+    "question": "Using the AISI 4140 TTT figure, estimate the fraction of cooling products at point 2.",
+    "options": {
+      "A": "75%BU + 25%AR",
+      "B": "75%BU + 45%TM-BL + 5%AR",
+      "C": "75%BU + 12.5%M + 12.5%AR",
+      "D": "75%BL + 25%AR"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the first step gives roughly 75% upper bainite; of the remaining 25% austenite, about half transforms to martensite and half remains residual austenite at the final point. A is wrong because it leaves all remaining austenite untransformed and misses the martensite part. B is wrong because the percentages add incorrectly beyond the available remaining austenite and overcounts later products. D is wrong because it reads the first product as lower bainite and ignores martensite formation.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Percentage labels in a TTT path apply to the amount transformed from the austenite available at that step; later products are fractions of what remains.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 252-256; exams_images/photo_2026-02-13 21.45.52.jpeg; assets/exam-graphs/qs1-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 4140 TTT exam figure",
+      "src": "assets/exam-graphs/qs1-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT figure with point 2 path."
+    }
+  },
+  {
+    "id": 690,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "K point",
+      "martensite fraction"
+    ],
+    "diagramRequired": false,
+    "question": "In the alternate K-point figure, estimate the percent martensite in 1%C steel after quenching from K.",
+    "options": {
+      "A": "30%",
+      "B": "~99%",
+      "C": "~1%",
+      "D": "~70%"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because K lies in a mostly austenitic hyper-eutectoid field; rapid quenching converts almost all of that dominant austenite to martensite. A is wrong because 30% is far too low for the dominant austenite fraction at K. C is wrong because about one percent would be the small non-austenitic remainder, not the martensite fraction. D is wrong because 70% still underestimates the austenite fraction shown near K.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. A hyper-eutectoid alloy just above A1 contains austenite plus some pro-eutectoid cementite; on quenching, only the austenite transforms to martensite.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 306-310; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "1%C K-point Fe-C figure",
+      "src": "assets/exam-graphs/fec-1c-k-source.jpg",
+      "alt": "Enhanced crop of the Fe-C K-point figure."
+    }
+  },
+  {
+    "id": 691,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "K point",
+      "austenite carbon"
+    ],
+    "diagramRequired": false,
+    "question": "At the K point in the 1%C Fe-C figure, what is the approximate carbon content of austenite?",
+    "options": {
+      "A": "6.67%",
+      "B": "0.09%",
+      "C": "0.9%",
+      "D": "1%"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because K is read on the 1%C alloy position at the austenite boundary, so the austenite composition is approximately 1%C in this exam reading. A is wrong because 6.67% is cementite, not austenite. B is wrong because 0.09% belongs to delta-ferrite/high-temperature solubility traps, not this K point. C is wrong because 0.9% is close but the labelled alloy point is intended as the 1%C steel.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. When a point lies on a phase boundary, distinguish the bulk alloy composition from phase-endpoint compositions; the exam often rounds to the labelled alloy content.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 311-315; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "1%C K-point Fe-C figure",
+      "src": "assets/exam-graphs/fec-1c-k-source.jpg",
+      "alt": "Enhanced crop of the Fe-C K-point figure."
+    }
+  },
+  {
+    "id": 692,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "cementite",
+      "K point"
+    ],
+    "diagramRequired": false,
+    "question": "At the K point in the Fe-C figure, what is the carbon content of cementite?",
+    "options": {
+      "A": "6.67%",
+      "B": "0.09%",
+      "C": "0.9%",
+      "D": "1%"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because cementite is Fe3C and its fixed carbon content in the Fe-C diagram is about 6.67%C. B is wrong because 0.09% is a ferrite-solubility type value, not cementite. C is wrong because 0.9% is an austenite/alloy-composition distractor. D is wrong because 1% is the steel composition, not the cementite phase composition.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Cementite is a compound with fixed composition, so its carbon content is not read as the bulk steel percentage.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 321-325; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "1%C K-point Fe-C figure",
+      "src": "assets/exam-graphs/fec-1c-k-source.jpg",
+      "alt": "Enhanced crop of the Fe-C K-point figure."
+    }
+  },
+  {
+    "id": 693,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "T1",
+      "A3",
+      "38NiCr15"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 38NiCr15 TTT figure, what is the T1 temperature line?",
+    "options": {
+      "A": "A2",
+      "B": "A3",
+      "C": "A1",
+      "D": "Acm"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because T1 is the upper critical line for the hypo-eutectoid alloy in this diagram, corresponding to A3. A is wrong because A2 is the Curie/magnetic transformation and is not the heat-treatment line used here. C is wrong because A1 is the lower eutectoid line, labelled separately below T1. D is wrong because Acm is the hyper-eutectoid austenite-cementite boundary, not this alloy line.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Hypo-eutectoid steel heat-treatment diagrams commonly show A3 above A1; the exact label must be taken from the alloy and field shown.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 326-330; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/ttt-38nicr15-undercooling-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 38NiCr15 TTT figure",
+      "src": "assets/exam-graphs/ttt-38nicr15-undercooling-source.jpg",
+      "alt": "Cropped TTT figure showing T1 and T2."
+    }
+  },
+  {
+    "id": 694,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "stepped transformation",
+      "martensite",
+      "bainite"
+    ],
+    "diagramRequired": false,
+    "question": "For the stepped AISI 38NiCr15 TTT path 1-3, estimate the final cooling-product fractions.",
+    "options": {
+      "A": "30%BL+TM + 70%AR",
+      "B": "30%M + 20%BL+TM + 50%AR",
+      "C": "30%M + 60%BL+TM + 10%AR",
+      "D": "30%M + 70%AR"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the first low-temperature step forms about 30% martensite, the isothermal step transforms most of the remainder into lower-bainitic/tempered-martensitic product, and about 10% remains austenite. A is wrong because it omits the martensite formed during the first step. B is wrong because it leaves too much residual austenite and too little bainitic/tempered product. D is wrong because it ignores the large transformation during the intermediate hold.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. For multi-step TTT paths, keep a running balance: martensite can form on quench first, then the remaining austenite can transform isothermally.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 346-350; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/ttt-38nicr15-undercooling-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 38NiCr15 TTT figure",
+      "src": "assets/exam-graphs/ttt-38nicr15-undercooling-source.jpg",
+      "alt": "Cropped TTT figure showing path 1-3."
+    }
+  },
+  {
+    "id": 695,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "ferrite solubility",
+      "Acm"
+    ],
+    "diagramRequired": false,
+    "question": "In the Fe-C figure, determine the carbon content in Y and the symbol of the T-line in W.",
+    "options": {
+      "A": "0.022% / Acm",
+      "B": "0.0025% / Acm",
+      "C": "0.0025% / A3",
+      "D": "0.022% / A3"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because Y marks the very low room-temperature carbon solubility in ferrite, about 0.0025%C, and W lies on the hyper-eutectoid Acm boundary. A is wrong because 0.022%C is the maximum ferrite solubility near A1, not the room-temperature Y value. C is wrong because it reads Y correctly but mislabels W as A3 instead of Acm. D is wrong because both the Y solubility and the hyper-eutectoid boundary label are wrong.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Ferrite carbon solubility is tiny and temperature-dependent: about 0.022%C near A1 and about 0.0025%C near room temperature.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 400-404; exams_images/photo_2026-02-13 21.46.03.jpeg; assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Co-C1 Fe-C and AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with Y and W labels."
+    }
+  },
+  {
+    "id": 696,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Mn",
+      "A1",
+      "austenite stabilizer"
+    ],
+    "diagramRequired": false,
+    "question": "In the Co-alloy Fe-C figure, how does A1 change after alloying 5% Mn?",
+    "options": {
+      "A": "decreased",
+      "B": "increased",
+      "C": "unchanged",
+      "D": "disappear"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because manganese stabilizes austenite in this course context and lowers the eutectoid temperature A1. B is wrong because increasing A1 is the opposite of the austenite-stabilizing effect tested here. C is wrong because the figure and theory indicate that alloying shifts A1. D is wrong because A1 shifts; it does not disappear from the phase diagram.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Austenite stabilizers such as Mn and Ni lower transformation temperatures and change the eutectoid point, affecting phase fractions after cooling.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 405-409; exams_images/photo_2026-02-13 21.46.03.jpeg; assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Co-C1 Fe-C and AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with Co alloy and A1 line."
+    }
+  },
+  {
+    "id": 697,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "proeutectoid cementite",
+      "martensite"
+    ],
+    "diagramRequired": false,
+    "question": "For C1 alloy, which equilibrium temperature must be reached before quenching to form about 5% cementite and 95% martensite?",
+    "options": {
+      "A": "down to Tamb",
+      "B": "down to Acm",
+      "C": "down to A1",
+      "D": "down to A3"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because cooling a hyper-eutectoid alloy to just above A1 forms a small amount of pro-eutectoid cementite while most material remains austenite, which then quenches to martensite. A is wrong because at room temperature under equilibrium the microstructure is ferrite/cementite or pearlite, not mostly austenite ready to transform to martensite. B is wrong because at Acm the alloy is essentially fully austenitic, giving near 100% martensite rather than 5% cementite. D is wrong because A3 is the wrong boundary for the C1 hyper-eutectoid alloy.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. To obtain martensite plus pro-eutectoid cementite, first create cementite under equilibrium, then quench the remaining austenite.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 410-414; exams_images/photo_2026-02-13 21.46.03.jpeg; assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Co-C1 Fe-C and AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with C1 line and A1/Acm boundaries."
+    }
+  },
+  {
+    "id": 698,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "pearlite fraction",
+      "Co alloy",
+      "lever rule"
+    ],
+    "diagramRequired": false,
+    "question": "From the Co-alloy Fe-C figure, estimate the proportion of pearlite at To.",
+    "options": {
+      "A": "~10%",
+      "B": "~40%",
+      "C": "~0.2+7%",
+      "D": "50%"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the hypo-eutectoid Co alloy has a pearlite fraction estimated by the lever rule between ferrite and eutectoid austenite, giving roughly forty percent. A is wrong because ten percent is too low for the shown Co composition. C is wrong because this is not a meaningful percentage result for the pearlite fraction. D is wrong because fifty percent overestimates the lever-rule fraction for the shown composition.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Below A1 in hypo-eutectoid steel, final microstructure is pro-eutectoid ferrite plus pearlite; pearlite fraction equals the austenite fraction just above A1.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 415-419; exams_images/photo_2026-02-13 21.46.03.jpeg; assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Co-C1 Fe-C and AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with Co alloy and To line."
+    }
+  },
+  {
+    "id": 699,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "AISI 4140",
+      "R field",
+      "stable austenite"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 4140 TTT figure, what is the R-field name?",
+    "options": {
+      "A": "F+P",
+      "B": "F+cementite",
+      "C": "stable A",
+      "D": "BU"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the R label in this figure is located in the high-temperature austenitic region before transformation, so it is stable austenite. A is wrong because F+P is a transformed ferrite-pearlite mixture, not the labelled R field. B is wrong because ferrite plus cementite is the low-temperature equilibrium product, not this TTT field. D is wrong because upper bainite is a lower-temperature transformation product and is not where R is placed.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Field letters are local to the figure. Do not memorize R as one universal microstructure; read whether it sits in austenite, pearlite, bainite or martensite regions.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 420-424; exams_images/photo_2026-02-13 21.46.03.jpeg; assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT figure with R field."
+    }
+  },
+  {
+    "id": 700,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "toughness",
+      "temperature",
+      "AISI 4140"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 4140 TTT diagram, how is microstructure toughness affected as transformation temperature decreases?",
+    "options": {
+      "A": "increased",
+      "B": "decreased",
+      "C": "unaffected",
+      "D": "undefined"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because lower transformation temperatures produce harder martensitic or lower-bainitic products with lower toughness than higher-temperature products. A is wrong because this reverses the usual hardness-toughness trend. C is wrong because microstructure and toughness change strongly with transformation temperature. D is wrong because the diagram and course theory allow a clear trend to be read.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. Fine low-temperature products often have higher hardness and strength but lower toughness; heat treatment balances these properties by selecting transformation and tempering conditions.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 430-434; exams_images/photo_2026-02-13 21.46.03.jpeg; assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT figure used for toughness trend."
+    }
+  },
+  {
+    "id": 701,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "cooling products",
+      "martensite",
+      "retained austenite"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 4140 TTT path, estimate the cooling products on cooling down to point 2.",
+    "options": {
+      "A": "50%M + 50%TM-BL",
+      "B": "50%M + 45%TM-BL + 5%AR",
+      "C": "50%TM-BL + 50%AR",
+      "D": "90%TM-BL + 10%AR"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the path indicates about half martensite, most of the remaining austenite transforming to tempered-martensitic/lower-bainitic product, and a small retained-austenite fraction. A is wrong because it ignores the retained austenite and over-simplifies the second product. C is wrong because it omits the martensite fraction shown by the path. D is wrong because it overstates the tempered/lower-bainitic product and misses the martensite fraction.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Read TTT product fractions sequentially: initial martensite is not replaced by later bainitic/tempered product, and retained austenite remains if the path does not fully transform.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 440-444; exams_images/photo_2026-02-13 21.46.03.jpeg; assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 4140 TTT figure",
+      "src": "assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT figure with point 2 cooling path."
+    }
+  },
+  {
+    "id": 702,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "invariant point",
+      "eutectic"
+    ],
+    "diagramRequired": false,
+    "question": "In the Fe-C figure, what is the rightmost invariant point?",
+    "options": {
+      "A": "eutectic point",
+      "B": "peritectic point",
+      "C": "N/A",
+      "D": "eutectoid point"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the eutectic point lies at high carbon content around 4.3%C, farther right than the peritectic and eutectoid points. B is wrong because the peritectic point is near the low-carbon side of the diagram. C is wrong because the Fe-C diagram definitely has invariant points. D is wrong because the eutectoid point is near 0.76%C, not the rightmost invariant point.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. The main Fe-C invariant reactions are peritectic at low carbon, eutectoid near 0.76%C, and eutectic near 4.3%C.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 499-503; exams_images/photo_2026-02-13 21.46.10.jpeg; assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "N-domain Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with Fe-C invariant-point labels."
+    }
+  },
+  {
+    "id": 703,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "N domain",
+      "ferrite+austenite"
+    ],
+    "diagramRequired": false,
+    "question": "In the Fe-C figure, what is the N domain?",
+    "options": {
+      "A": "A+F",
+      "B": "F+CEM",
+      "C": "F",
+      "D": "Fe"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because N is placed in the two-phase austenite plus ferrite field on the hypo-eutectoid side between A3 and A1. B is wrong because ferrite plus cementite is below A1, not the N field shown. C is wrong because single-phase ferrite is on the very low-carbon side below the boundary. D is wrong because pure Fe is not a phase-field name for this region.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Above A1 and left of the eutectoid composition, hypo-eutectoid steels pass through the ferrite plus austenite field before transforming to ferrite plus pearlite.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 504-508; exams_images/photo_2026-02-13 21.46.10.jpeg; assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "N-domain Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with N domain."
+    }
+  },
+  {
+    "id": 704,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "pearlite",
+      "cementite percentage"
+    ],
+    "diagramRequired": false,
+    "question": "Using the Fe-C figure, estimate the percent cementite inside pearlite.",
+    "options": {
+      "A": "30%",
+      "B": "~60%",
+      "C": "90%",
+      "D": "10%"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because pearlite at the eutectoid composition is mostly ferrite and only about eleven percent cementite, rounded in the exam to ten percent. A is wrong because thirty percent overestimates the cementite fraction in pearlite. B is wrong because sixty percent would make pearlite cementite-dominated, which it is not. C is wrong because ninety percent is approximately the ferrite fraction, not the cementite fraction.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. At 0.76%C, the lever rule between ferrite and cementite gives pearlite as roughly 89% ferrite and 11% cementite.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 509-513; exams_images/photo_2026-02-13 21.46.10.jpeg; assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "N-domain Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure used for pearlite fraction."
+    }
+  },
+  {
+    "id": 705,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "A temperature",
+      "A1",
+      "TTT"
+    ],
+    "diagramRequired": false,
+    "question": "In the TTT figure, what is the symbol name of the A-temperature?",
+    "options": {
+      "A": "A2",
+      "B": "A1",
+      "C": "Acm",
+      "D": "A3"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the A label sits on the eutectoid lower critical temperature line of the TTT diagram, which is A1. A is wrong because A2 is a magnetic transformation and not the TTT critical line here. C is wrong because Acm is the hyper-eutectoid boundary from the Fe-C phase diagram. D is wrong because A3 is the upper critical line, not the lower A-temperature labelled in this figure.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. TTT charts often show A1, A3 or Acm reference lines at the top; the label must be matched to alloy composition and line position.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 514-518; exams_images/photo_2026-02-13 21.46.10.jpeg; assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "N-domain Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT figure with A-temperature label."
+    }
+  },
+  {
+    "id": 706,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "C field",
+      "pearlite",
+      "cementite"
+    ],
+    "diagramRequired": false,
+    "question": "In the TTT figure, what is the C-field name?",
+    "options": {
+      "A": "CEM+F",
+      "B": "CEM+AR",
+      "C": "CEM+P",
+      "D": "CEM+B"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the C field is in the pearlitic transformation region with cementite participating in pearlite formation. A is wrong because cementite plus ferrite is the equilibrium phase pair but not the labelled C field product here. B is wrong because residual austenite is not the field label at C. D is wrong because bainite is a different lower-temperature product field.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Pearlite is a lamellar ferrite-cementite microconstituent, so exam labels may refer to P together with cementite when reading a TTT field.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 519-523; exams_images/photo_2026-02-13 21.46.10.jpeg; assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "N-domain Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT figure with C field."
+    }
+  },
+  {
+    "id": 707,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "hardenability",
+      "curve shift"
+    ],
+    "diagramRequired": false,
+    "question": "In this TTT figure, how do hardenability-promoter elements affect the curves?",
+    "options": {
+      "A": "Shift M90 down",
+      "B": "Shift M90 up",
+      "C": "Shift left",
+      "D": "Shift down-right"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because hardenability promoters delay diffusional transformations to longer times and often lower martensite temperatures, represented here as a down-right shift. A is wrong because only moving M90 down is incomplete because the C-curves must also shift to longer times. B is wrong because martensite temperatures do not shift upward for this hardenability effect. C is wrong because a left shift would make transformation easier and reduce hardenability.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. Increased hardenability means the steel can avoid pearlite/bainite during slower cooling because the transformation curves move rightward.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 524-528; exams_images/photo_2026-02-13 21.46.10.jpeg; assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "N-domain Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT figure with transformation curves."
+    }
+  },
+  {
+    "id": 708,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "transformation n2",
+      "bainite",
+      "retained austenite"
+    ],
+    "diagramRequired": false,
+    "question": "From the TTT figure, estimate the cooling products along transformation n.2.",
+    "options": {
+      "A": "50%M + 40%BL + 10%AR",
+      "B": "25%F + 60%BL + 15%AR",
+      "C": "25%F + 60%BL + 5%MT-BL + 10%AR",
+      "D": "25%F + 60%BL + 15%MT-BL"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the path first produces a ferritic fraction, then mainly bainite, then a small lower-temperature martensitic/tempered product, leaving about ten percent residual austenite. A is wrong because it omits the ferrite fraction indicated before the bainitic transformation. B is wrong because it misses the small final martensitic/tempered product. D is wrong because it omits retained austenite and over-assigns the final fraction.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. For numbered TTT paths, the final microstructure is accumulated across each segment; ferrite, bainite, martensite and retained austenite can all appear in one answer.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 534-538; exams_images/photo_2026-02-13 21.46.10.jpeg; assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "N-domain Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT figure with transformation n.2."
+    }
+  },
+  {
+    "id": 709,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Acm",
+      "Q temperature"
+    ],
+    "diagramRequired": false,
+    "question": "In the facsimile Fe-C figure, what is the symbol name of the Q-temperature?",
+    "options": {
+      "A": "A1",
+      "B": "A3",
+      "C": "Acm",
+      "D": "A4 deg C"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because Q lies on the hyper-eutectoid austenite-cementite boundary, which is Acm. A is wrong because A1 is the eutectoid horizontal line. B is wrong because A3 is the hypo-eutectoid ferrite-austenite boundary on the left side. D is wrong because A4 is a high-temperature allotropic line for pure iron and not this boundary.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. The common trap is to call every sloped line A3; on the carbon-rich side, the correct boundary is Acm.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 588-592; exams_images/TMM_WRITTEN_TEST_FAC-SIMILE_for demo to students_Pagina_1.png; assets/exam-graphs/facsimile-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Facsimile Fe-C and TTT figure",
+      "src": "assets/exam-graphs/facsimile-fec-ttt-source.jpg",
+      "alt": "Cropped facsimile exam figures."
+    }
+  },
+  {
+    "id": 710,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "R region",
+      "hyper-eutectoid"
+    ],
+    "diagramRequired": false,
+    "question": "In the facsimile Fe-C figure, what is the domain name of the R-region?",
+    "options": {
+      "A": "F+A",
+      "B": "A+P",
+      "C": "Cementite+A",
+      "D": "Cementite+F"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because R is placed in the hyper-eutectoid two-phase field above A1, where austenite coexists with cementite. A is wrong because ferrite plus austenite is the left-side hypo-eutectoid field. B is wrong because pearlite is not a phase field above A1. D is wrong because cementite plus ferrite is the low-temperature equilibrium phase pair below A1.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Hyper-eutectoid steels form pro-eutectoid cementite before the eutectoid reaction; above A1 the field is austenite plus cementite.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 593-597; exams_images/TMM_WRITTEN_TEST_FAC-SIMILE_for demo to students_Pagina_1.png; assets/exam-graphs/facsimile-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Facsimile Fe-C and TTT figure",
+      "src": "assets/exam-graphs/facsimile-fec-ttt-source.jpg",
+      "alt": "Cropped facsimile exam figures."
+    }
+  },
+  {
+    "id": 711,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "A1",
+      "Ni",
+      "alloying"
+    ],
+    "diagramRequired": false,
+    "question": "In the facsimile Fe-C figure, A1 decreases with alloying by which element?",
+    "options": {
+      "A": "Si",
+      "B": "Mo",
+      "C": "Ni",
+      "D": "Ti"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because nickel stabilizes austenite and lowers the A1 temperature in the professor-style Fe-C alloying question. A is wrong because silicon is not the listed A1-lowering answer here. B is wrong because molybdenum is not the intended austenite-stabilizer choice in this item. D is wrong because titanium is a carbide-forming/ferrite-related distractor rather than the A1-lowering element.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Alloying changes critical temperatures; Ni and Mn stabilize austenite, while elements such as Si, Mo and Ti are tested as distractors in this A1 question.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 598-602; exams_images/TMM_WRITTEN_TEST_FAC-SIMILE_for demo to students_Pagina_1.png; assets/exam-graphs/facsimile-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Facsimile Fe-C and TTT figure",
+      "src": "assets/exam-graphs/facsimile-fec-ttt-source.jpg",
+      "alt": "Cropped facsimile exam figures."
+    }
+  },
+  {
+    "id": 712,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "AISI 1038",
+      "point 2",
+      "retained austenite"
+    ],
+    "diagramRequired": false,
+    "question": "In the facsimile TTT diagram, estimate the cooling products after transformation at point 2.",
+    "options": {
+      "A": "30%F + 35%TM-BL + 35%AR",
+      "B": "~50%F + 40%TM-BL + 10%AR",
+      "C": "50%F + 50%TM-BL",
+      "D": "50%F + 50%AR"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the path produces about half ferrite first, then most of the remaining austenite becomes tempered-martensitic/lower-bainitic product, leaving about ten percent residual austenite. A is wrong because it underestimates ferrite and leaves too much retained austenite. C is wrong because it ignores the retained-austenite fraction shown by the final point. D is wrong because it ignores the later lower-temperature transformation product.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. In cooling-path questions, read both the early diffusional product and the later low-temperature product; the answer must sum to the original austenite.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 816-820; exams_images/TMM_WRITTEN_TEST_FAC-SIMILE_for demo to students_Pagina_1.png; assets/exam-graphs/facsimile-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Facsimile Fe-C and TTT figure",
+      "src": "assets/exam-graphs/facsimile-fec-ttt-source.jpg",
+      "alt": "Cropped facsimile exam figures."
+    }
+  },
+  {
+    "id": 713,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "A3",
+      "normalizing"
+    ],
+    "diagramRequired": false,
+    "question": "In the July 1 Fe-C figure, guess the A3 temperature of the alloy.",
+    "options": {
+      "A": "850 deg C",
+      "B": "750 deg C",
+      "C": "950 deg C",
+      "D": "1050 deg C"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the alloy vertical intersects the hypo-eutectoid A3 boundary at approximately 750 deg C in the plotted figure. A is wrong because 850 deg C is above the plotted intersection and closer to an austenitizing allowance. C is wrong because 950 deg C is much too high for the shown A3 crossing. D is wrong because 1050 deg C is far outside the local critical-temperature reading.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. For hypo-eutectoid steels, A3 is the boundary above which the steel is fully austenitic; read it where the alloy composition line meets A3.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 29-33; exams_images/photo_2026-02-13 21.45.58.jpeg; assets/exam-graphs/qs2-july1-fe-c-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 1 Fe-C exam figure",
+      "src": "assets/exam-graphs/qs2-july1-fe-c-source.jpg",
+      "alt": "Cropped Fe-C diagram for the July 1 exam variant."
+    }
+  },
+  {
+    "id": 714,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "normalizing",
+      "austenitization"
+    ],
+    "diagramRequired": false,
+    "question": "Using the July 1 Fe-C figure, what excess temperature above A3 is proper for normalizing?",
+    "options": {
+      "A": "180 deg C",
+      "B": "30 deg C",
+      "C": "50 deg C",
+      "D": "80 deg C"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the course rule for normalizing uses a modest overheating above A3, conventionally about 50 deg C. A is wrong because 180 deg C is excessive and risks unnecessary grain growth. B is wrong because 30 deg C is below the professor-style normalizing allowance used in this question. D is wrong because 80 deg C is larger than the standard answer expected here.",
+    "relevantTheory": "Normalizing requires heating into the austenite field and then air cooling. For hypo-eutectoid steels the target is above A3, with a practical excess used to ensure austenitization without excessive grain growth.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 34-38; exams_images/photo_2026-02-13 21.45.58.jpeg; assets/exam-graphs/qs2-july1-fe-c-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 1 Fe-C exam figure",
+      "src": "assets/exam-graphs/qs2-july1-fe-c-source.jpg",
+      "alt": "Cropped Fe-C diagram for the July 1 exam variant."
+    }
+  },
+  {
+    "id": 715,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "martensite fraction",
+      "B temperature",
+      "lever rule"
+    ],
+    "diagramRequired": false,
+    "question": "For the July 1 alloy figure, estimate the martensite fraction after quenching from B-temperature.",
+    "options": {
+      "A": "N/A",
+      "B": "~0.1/0.5",
+      "C": "~0.4/0.5",
+      "D": "~100%"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because at B the alloy is in a ferrite plus austenite field, and only the austenite fraction transforms to martensite; the lever-rule fraction is about 0.4 over 0.5. A is wrong because the fraction is readable from the phase field and tie line. B is wrong because this underestimates the austenite fraction at B. D is wrong because 100% would require fully austenitic material before quenching, which B is not.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Quenching does not turn ferrite or cementite into martensite; it transforms only the austenite present at the quench temperature.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 44-48; exams_images/photo_2026-02-13 21.45.58.jpeg; assets/exam-graphs/qs2-july1-fe-c-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 1 Fe-C exam figure",
+      "src": "assets/exam-graphs/qs2-july1-fe-c-source.jpg",
+      "alt": "Cropped Fe-C diagram with B-temperature point."
+    }
+  },
+  {
+    "id": 716,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Q temperature",
+      "A1",
+      "TTT"
+    ],
+    "diagramRequired": false,
+    "question": "In the July 1 TTT diagram, give the Q-temperature value for the steel.",
+    "options": {
+      "A": "A2",
+      "B": "A3",
+      "C": "A1",
+      "D": "Acm"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because Q is drawn on the lower critical/eutectoid reference line in the TTT diagram, which is A1. A is wrong because A2 is a magnetic transformation and not the TTT reference line. B is wrong because A3 is the upper critical line, not Q in this figure. D is wrong because Acm is a hyper-eutectoid Fe-C boundary, not the Q line in this TTT chart.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. TTT diagrams often include A1 and sometimes A3/Acm reference temperatures above the transformation curves; the label location determines the answer.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 49-53; exams_images/photo_2026-02-13 21.45.58.jpeg; assets/exam-graphs/qs2-july1-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 1 AISI 1085 TTT figure",
+      "src": "assets/exam-graphs/qs2-july1-ttt-source.jpg",
+      "alt": "Cropped TTT diagram for AISI 1085 steel."
+    }
+  },
+  {
+    "id": 717,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "R field",
+      "diffusion",
+      "TTT"
+    ],
+    "diagramRequired": false,
+    "question": "In the July 1 TTT figure, what controls phase transformations in the R-field?",
+    "options": {
+      "A": "diffusion",
+      "B": "diffusionless",
+      "C": "no growth",
+      "D": "no transformation"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the R-field is in the diffusional transformation region of the TTT diagram rather than the martensitic region. B is wrong because diffusionless describes martensite, not the R-field in this figure. C is wrong because growth occurs in diffusional products; the field is not defined by absence of growth. D is wrong because the field represents transformation, not no transformation.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. Pearlite, ferrite and bainite require diffusion to some degree, while martensite is treated as diffusionless in the course.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 54-58; exams_images/photo_2026-02-13 21.45.58.jpeg; assets/exam-graphs/qs2-july1-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 1 AISI 1085 TTT figure",
+      "src": "assets/exam-graphs/qs2-july1-ttt-source.jpg",
+      "alt": "Cropped TTT diagram for the R-field question."
+    }
+  },
+  {
+    "id": 718,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Si",
+      "TTT shift"
+    ],
+    "diagramRequired": false,
+    "question": "In the July 1 TTT-style question, silicon alloying shifts steel TTT curves in which direction?",
+    "options": {
+      "A": "right",
+      "B": "left",
+      "C": "right-down",
+      "D": "left-down"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because silicon delays the diffusional transformation curves, so the basic curve shift tested here is to the right. B is wrong because a left shift would make transformation faster and reduce hardenability. C is wrong because the option adds an unnecessary downward martensite-temperature shift for the specific Si question. D is wrong because left-down contains the wrong time-direction shift.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. A right shift means longer times are needed for transformation at the same temperature, which increases hardenability.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 59-63; exams_images/photo_2026-02-13 21.45.58.jpeg; assets/exam-graphs/qs2-july1-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 1 AISI 1085 TTT figure",
+      "src": "assets/exam-graphs/qs2-july1-ttt-source.jpg",
+      "alt": "Cropped TTT diagram used for alloying-shift question."
+    }
+  },
+  {
+    "id": 719,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "W alloy",
+      "phase fields"
+    ],
+    "diagramRequired": false,
+    "question": "In the W-alloy Fe-C figure, what are the A/B/C phase names?",
+    "options": {
+      "A": "A/F/A",
+      "B": "A/A/A",
+      "C": "F/F/F",
+      "D": "A/F/CEM"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the labelled positions cross austenite, ferrite, and cementite-related regions in the order asked by the W-alloy figure. A is wrong because it incorrectly makes the final field austenite instead of cementite-related. B is wrong because it ignores the changes in phase field along the plotted positions. C is wrong because it incorrectly makes all positions ferrite.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Follow the alloy line through the labelled fields; phase names change when the line crosses A3, A1 or Acm boundaries.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 123-127; exams_images/OUR_EXAM.jpg; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "W/Z/S2 Fe-C exam figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Clear duplicate crop of the exam Fe-C figure with W, Z and S2 labels."
+    }
+  },
+  {
+    "id": 720,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Z alloy",
+      "pearlite colonies"
+    ],
+    "diagramRequired": false,
+    "question": "In the Z-alloy Fe-C figure, what is the microstructure composition in R?",
+    "options": {
+      "A": "F grains",
+      "B": "CEM grains",
+      "C": "P colonies",
+      "D": "F+CEM grains"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because R is drawn in the pearlite colony region of the figure, so the expected microstructure wording is pearlite colonies. A is wrong because single ferrite grains would be the low-carbon ferrite field, not R. B is wrong because single cementite grains are not the labelled microstructure at R. D is wrong because ferrite plus cementite names the phases but misses the microconstituent form tested by the drawing.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. The exam distinguishes phases from microconstituents: pearlite is ferrite plus cementite arranged as colonies/lamellae after eutectoid transformation.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 128-132; exams_images/OUR_EXAM.jpg; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "W/Z/S2 Fe-C exam figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Clear duplicate crop of the exam Fe-C figure with W, Z and S2 labels."
+    }
+  },
+  {
+    "id": 721,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "austenite composition",
+      "eutectoid"
+    ],
+    "diagramRequired": false,
+    "question": "In the S2-alloy figure, detect the carbon content in austenite at T(S2).",
+    "options": {
+      "A": "0.2%C",
+      "B": "0.07%C",
+      "C": "0.4%",
+      "D": "0.76%C"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because at T(S2) the austenite in equilibrium with ferrite is read near the eutectoid composition, about 0.76%C. A is wrong because 0.2%C is the bulk alloy-side value, not the austenite endpoint. B is wrong because 0.07%C is too low and closer to ferrite-side solubility. C is wrong because 0.4% is an intermediate distractor, not the gamma endpoint shown.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. In a two-phase field, the two phases have different compositions given by the ends of the horizontal tie line, not by the bulk composition alone.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 133-137; exams_images/OUR_EXAM.jpg; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "W/Z/S2 Fe-C exam figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Clear duplicate crop of the exam Fe-C figure with W, Z and S2 labels."
+    }
+  },
+  {
+    "id": 722,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "C/A temperatures",
+      "A3",
+      "A1"
+    ],
+    "diagramRequired": false,
+    "question": "In the W/Z/S2 TTT figure, what are the C/A temperature symbols?",
+    "options": {
+      "A": "A3/A1",
+      "B": "Acm/A1",
+      "C": "A1/A3",
+      "D": "A/A1"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because C is the upper critical line and A is the lower eutectoid line in this hypo-eutectoid TTT figure, so the pair is A3/A1. B is wrong because Acm is for the hyper-eutectoid austenite-cementite boundary. C is wrong because it reverses the two labelled temperature lines. D is wrong because A alone is not the symbolic critical-line name.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Hypo-eutectoid TTT diagrams may show both A3 and A1 because ferrite begins above the eutectoid line before pearlite transformation.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 143-147; exams_images/OUR_EXAM.jpg; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "W/Z/S2 TTT exam figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Clear duplicate crop of the exam TTT figure used for W/Z/S2 questions."
+    }
+  },
+  {
+    "id": 723,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "bainitic bay",
+      "nucleation growth"
+    ],
+    "diagramRequired": false,
+    "question": "At the bay temperature in the TTT diagram, which nucleation/growth condition is expected?",
+    "options": {
+      "A": "nucleation is slow and growth fast",
+      "B": "nucleation is fast and growth slow",
+      "C": "nucleation is fast and growth moderate",
+      "D": "both nucleation and growth are fast"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the bay occurs where undercooling gives high nucleation tendency but diffusion-controlled growth is slow. A is wrong because it reverses the undercooling effect on nucleation. C is wrong because growth is not moderate in the bay trap; it is slow enough to separate the transformation region. D is wrong because if both were fast, the diagram would show a rapid nose rather than a bay.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. The shape of a TTT curve reflects nucleation and growth separately; high undercooling can promote nucleation while restricted diffusion slows growth.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 153-157; exams_images/OUR_EXAM.jpg; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "W/Z/S2 TTT exam figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Clear duplicate crop of the exam TTT figure used for W/Z/S2 questions."
+    }
+  },
+  {
+    "id": 724,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "W Y lines",
+      "Acm",
+      "A3"
+    ],
+    "diagramRequired": false,
+    "question": "In the February 2022 Fe-C figure, identify the temperature lines W and Y.",
+    "options": {
+      "A": "A1, A3",
+      "B": "Acm, Ac3",
+      "C": "Acm, Ac1",
+      "D": "Acm, A3"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because W is the hyper-eutectoid Acm line, while Y is the hypo-eutectoid A3 line. A is wrong because it misses the Acm line at W. B is wrong because Ac3 is not the notation used here for the Y boundary. C is wrong because Y is not the A1 horizontal line.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. The left sloped boundary is A3 and the right sloped boundary is Acm; A1 is horizontal at the eutectoid temperature.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 219-223; exams_images/photo_2024-01-29_20-16-29.jpg; assets/exam-graphs/feb2022-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "February 2022 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/feb2022-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with W and Y labels."
+    }
+  },
+  {
+    "id": 725,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "pearlite composition",
+      "eutectoid carbon"
+    ],
+    "diagramRequired": false,
+    "question": "For the February 2022 alloy figure, determine the carbon content in pearlite at room temperature.",
+    "options": {
+      "A": "0.022%",
+      "B": "0.25%",
+      "C": "0.50%",
+      "D": "0.77%"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because pearlite is the eutectoid product of austenite and therefore has the eutectoid average carbon content, about 0.77%C. A is wrong because 0.022% is ferrite solubility near A1, not pearlite composition. B is wrong because 0.25% is a bulk hypo-eutectoid steel composition distractor. C is wrong because 0.50% is not the eutectoid composition.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Pearlite forms from eutectoid austenite; even in a hypo-eutectoid steel, pearlite itself has the eutectoid composition.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 224-228; exams_images/photo_2024-01-29_20-16-29.jpg; assets/exam-graphs/feb2022-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "February 2022 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/feb2022-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure used for pearlite composition."
+    }
+  },
+  {
+    "id": 726,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "minimum austenite",
+      "A1",
+      "quench"
+    ],
+    "diagramRequired": false,
+    "question": "For the February 2022 alloy figure, to form the minimum proportion of austenite before quenching, the alloy must cool down to:",
+    "options": {
+      "A": "A3, then cool fast",
+      "B": "Acm, then cool fast",
+      "C": "Tamb, then cool fast",
+      "D": "A1, then cool fast"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because just above A1 the remaining austenite fraction is minimized before eutectoid transformation; quenching then converts only that remaining austenite to martensite. A is wrong because at A3 the steel has just entered the two-phase range and contains more austenite. B is wrong because Acm is the wrong boundary for this hypo-eutectoid alloy. C is wrong because at room temperature there is no equilibrium austenite left to quench.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. To minimize martensite after quenching from a hypo-eutectoid equilibrium path, cool as far as possible while retaining some austenite, namely just above A1.",
+    "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 229-233; exams_images/photo_2024-01-29_20-16-29.jpg; assets/exam-graphs/feb2022-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "February 2022 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/feb2022-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with A1/A3 lines."
+    }
+  },
+  {
+    "id": 727,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "A1",
+      "Ni"
+    ],
+    "diagramRequired": false,
+    "question": "In the February 2023 Fe-C figure, A1 does NOT increase with the addition of which element?",
+    "options": {
+      "A": "Si",
+      "B": "Mo",
+      "C": "Ti",
+      "D": "Ni"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because Ni is an austenite stabilizer and lowers A1 rather than increasing it. A is wrong because Si is a ferrite-side distractor that does not represent the A1-lowering answer. B is wrong because Mo is not the intended austenite-stabilizer answer here. C is wrong because Ti is a carbide-forming distractor, not the A1-lowering addition.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Read NOT questions carefully: the element that does not increase A1 is the one that lowers it, especially nickel in this professor-style item.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 41-45; exams_images/photo_2026-02-13 21.45.33.jpeg; assets/exam-graphs/feb2023-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "February 2023 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/feb2023-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with Fe-C and AISI 1095 TTT charts."
+    }
+  },
+  {
+    "id": 728,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "austenite composition",
+      "Acm"
+    ],
+    "diagramRequired": false,
+    "question": "In the February 2023 Fe-C figure, detect the approximate carbon content in austenite of the given alloy.",
+    "options": {
+      "A": "~0.83%",
+      "B": "~0.8%",
+      "C": "0.77%",
+      "D": "~6.7%"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the austenite composition is read at the boundary near the labelled alloy point, slightly above the eutectoid composition, about 0.83%C. B is wrong because 0.8% is close but is not the more precise value indicated by the figure/options. C is wrong because 0.77% is the eutectoid composition, not the slightly shifted austenite value in this figure. D is wrong because 6.7% is cementite, not austenite.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. In two-phase regions, the phase composition is read from the tie-line endpoint, not from the name of the phase alone.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 46-50; exams_images/photo_2026-02-13 21.45.33.jpeg; assets/exam-graphs/feb2023-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "February 2023 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/feb2023-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with austenite-composition question."
+    }
+  },
+  {
+    "id": 729,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "R domain",
+      "pearlite+austenite"
+    ],
+    "diagramRequired": false,
+    "question": "In the February 2023 AISI 1095 TTT figure, give the R-domain name.",
+    "options": {
+      "A": "Cementite+A",
+      "B": "P+A",
+      "C": "A+B",
+      "D": "F+A"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because R is located in the pearlite plus untransformed austenite region of the TTT chart. A is wrong because cementite plus austenite is a phase-diagram field, not the labelled TTT R domain. C is wrong because austenite plus bainite would be in a lower-temperature bainitic region. D is wrong because ferrite plus austenite is not where R is drawn in the AISI 1095 TTT figure.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. In hypereutectoid/eutectoid TTT diagrams, pearlite can coexist with remaining austenite during incomplete transformation.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 51-55; exams_images/photo_2026-02-13 21.45.33.jpeg; assets/exam-graphs/ttt-1095-feb2023-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "February 2023 AISI 1095 TTT figure",
+      "src": "assets/exam-graphs/ttt-1095-feb2023-source.jpg",
+      "alt": "Cropped AISI 1095 TTT diagram from the February 2023 exam."
+    }
+  },
+  {
+    "id": 730,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Ni",
+      "Ms"
+    ],
+    "diagramRequired": false,
+    "question": "In the February 2023 TTT-curve question, how does Ni alloying shift Ms?",
+    "options": {
+      "A": "Shift left",
+      "B": "Shift right",
+      "C": "Decrease",
+      "D": "Increase"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because nickel stabilizes austenite and lowers the martensite-start temperature Ms. A is wrong because left/right refers to time-axis curve shifts, not the vertical Ms temperature asked here. B is wrong because right shift is a transformation-curve delay, not the Ms effect. D is wrong because Ni does not increase Ms in this course context.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. Ms is a temperature, so the answer should be increase/decrease rather than left/right unless the question asks about curve position on the time axis.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 56-60; exams_images/photo_2026-02-13 21.45.33.jpeg; assets/exam-graphs/ttt-1095-feb2023-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "February 2023 AISI 1095 TTT figure",
+      "src": "assets/exam-graphs/ttt-1095-feb2023-source.jpg",
+      "alt": "Cropped AISI 1095 TTT diagram used for Ms shift."
+    }
+  },
+  {
+    "id": 731,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "AISI1095",
+      "point 2",
+      "pearlite"
+    ],
+    "diagramRequired": false,
+    "question": "In the February 2023 AISI 1095 TTT diagram, estimate the microstructure at point 2, neglecting products below 5%.",
+    "options": {
+      "A": "50%F + 50%TM-BL",
+      "B": "10%C + 50%P + 40%TM-BL",
+      "C": "50%P + 25%TM-BL + 25%AR",
+      "D": "~50%P + 50%BL"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the path gives about half pearlite first, then about half of the remaining austenite transforms to tempered/lower-bainitic product, leaving about a quarter retained austenite. A is wrong because ferrite is not the main product for the AISI 1095 TTT path. B is wrong because it introduces a cementite fraction not read as a separate major product here. D is wrong because it assigns all remaining austenite to bainite and leaves no retained austenite.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. When a question says neglect products below 5%, keep only the main path products and calculate fractions from the remaining austenite after each step.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 66-70; exams_images/photo_2026-02-13 21.45.33.jpeg; assets/exam-graphs/ttt-1095-feb2023-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "February 2023 AISI 1095 TTT figure",
+      "src": "assets/exam-graphs/ttt-1095-feb2023-source.jpg",
+      "alt": "Cropped TTT diagram with point 2 path."
+    }
+  },
+  {
+    "id": 732,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "0.2%C",
+      "pearlite fraction",
+      "lever rule"
+    ],
+    "diagramRequired": false,
+    "question": "Apply the lever rule to estimate the pearlite fraction in the 0.2%C steel figure.",
+    "options": {
+      "A": "~0.2",
+      "B": "~0.5",
+      "C": "~0.35",
+      "D": "~0.65"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because for 0.2%C hypo-eutectoid steel, the pearlite fraction is approximately (0.2-0.022)/(0.76-0.022), about 0.24 and rounded to the closest option, 0.2. B is wrong because 0.5 overestimates the austenite/pearlite fraction for 0.2%C steel. C is wrong because 0.35 is still too high for the tie-line calculation. D is wrong because 0.65 would correspond to a much higher-carbon hypo-eutectoid steel.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. The pearlite fraction after slow cooling equals the austenite fraction just above A1 for a hypo-eutectoid steel.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 120-124; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 1060 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs3-1060-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with 0.2%C and AISI 1060 charts."
+    }
+  },
+  {
+    "id": 733,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "D field",
+      "F field",
+      "phase fields"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 1060 top figure, what are the domain phases in D and F, in the format D/F?",
+    "options": {
+      "A": "F+A / Cem+A",
+      "B": "F / Cem+A",
+      "C": "F / Cem+F",
+      "D": "A / F"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because D is on the hypo-eutectoid ferrite plus austenite side, while F is on the hyper-eutectoid austenite plus cementite side. B is wrong because D is not single ferrite; it is a two-phase region. C is wrong because F above A1 contains austenite plus cementite, not cementite plus ferrite. D is wrong because it misreads both labelled fields as single-phase regions.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. On opposite sides of the eutectoid composition, the two upper fields are ferrite plus austenite and austenite plus cementite.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 130-134; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 1060 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs3-1060-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with D and F fields."
+    }
+  },
+  {
+    "id": 734,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "critical points",
+      "A3",
+      "A1"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 1060 Fe-C figure, what are the critical points S and G, in the format S/G?",
+    "options": {
+      "A": "A4/A3",
+      "B": "A3/A1",
+      "C": "A1/A3",
+      "D": "A3/A4"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because S is on the upper hypo-eutectoid boundary A3, while G lies on the eutectoid horizontal A1 line. A is wrong because A4 is not the labelled line in this lower Fe-C region. C is wrong because it reverses the two critical points. D is wrong because G is A1, not A4.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. A3 is composition-dependent on the hypo-eutectoid side; A1 is the horizontal eutectoid temperature.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 135-139; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 1060 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs3-1060-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with S and G critical points."
+    }
+  },
+  {
+    "id": 735,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "AISI 1060",
+      "carbon designation"
+    ],
+    "diagramRequired": false,
+    "question": "What is the carbon content in the AISI 1060 steel shown in the TTT diagram?",
+    "options": {
+      "A": "0.10",
+      "B": "6",
+      "C": "~0.6",
+      "D": "0.06"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because in AISI 1060, the 60 indicates approximately 0.60 wt%C. A is wrong because 0.10%C would correspond to a 1010-type plain carbon steel. B is wrong because 6%C is far above the steel range and close to cast-iron/cementite territory. D is wrong because 0.06%C would be an ultra-low-carbon steel, not 1060.",
+    "relevantTheory": "For AISI plain-carbon steels, 10XX denotes plain carbon steel and the last two digits give the nominal carbon content in hundredths of a percent. AISI 1060 is therefore about 0.60%C.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 140-144; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-fec-ttt-source.jpg; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 1060 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs3-1060-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with AISI 1060 TTT diagram."
+    }
+  },
+  {
+    "id": 736,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "A/B temperatures",
+      "A3",
+      "A1"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 1060 top figure, what are the two temperatures A and B, in the format A/B?",
+    "options": {
+      "A": "A4/A3",
+      "B": "A1/A3",
+      "C": "A3/A1",
+      "D": "A3/A4"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because A is the upper critical line A3 and B is the lower eutectoid line A1. A is wrong because B is not A3, and A4 is not involved in this lower-temperature steel region. B is wrong because it reverses the two labels. D is wrong because B is A1 rather than A4.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. For heat treatment of hypo-eutectoid steels, A3 and A1 are the key critical temperatures used for austenitizing and transformation.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 145-149; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 1060 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs3-1060-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with A and B temperatures."
+    }
+  },
+  {
+    "id": 737,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "nucleation time",
+      "TTT nose"
+    ],
+    "diagramRequired": false,
+    "question": "From the AISI 1060 TTT figure, estimate the lowest nucleation time.",
+    "options": {
+      "A": "0.5",
+      "B": "none",
+      "C": "2 s",
+      "D": "10 s"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the nose of the start curve is read at roughly two seconds on the logarithmic time axis. A is wrong because 0.5 s is left of the plotted start-curve nose. B is wrong because the diagram clearly gives a finite minimum time. D is wrong because 10 s is to the right of the fastest-start point.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. The nose of a TTT start curve is the shortest incubation time for transformation and controls the critical-cooling-rate idea.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 150-154; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 1060 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs3-1060-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT diagram with nose time."
+    }
+  },
+  {
+    "id": 738,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "stepped transformation",
+      "AISI1060"
+    ],
+    "diagramRequired": false,
+    "question": "In the AISI 1060 TTT path 1-4, estimate the weight fraction of cooling products.",
+    "options": {
+      "A": "50%M + 40%TM-BL + 10%AR",
+      "B": "10%P + 10%BU + 70%BL+TM + 10%AR",
+      "C": "90%M + 10%TM+BL",
+      "D": "50%M + 50%TM + BL"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the staged path produces small pearlite and upper-bainite fractions first, then mainly lower bainite/tempered martensitic product, with about ten percent retained austenite. A is wrong because it omits the early pearlite and upper-bainite products. C is wrong because it overstates martensite and ignores the bainitic transformation steps. D is wrong because it omits retained austenite and the early products.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Staged transformations accumulate products in order: each hold changes only the austenite still available from the previous step.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 160-164; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "AISI 1060 Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs3-1060-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT diagram with path 1-4."
+    }
+  },
+  {
+    "id": 739,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "K point",
+      "fine pearlite"
+    ],
+    "diagramRequired": false,
+    "question": "From the July 2024 K-point figure, estimate the fine-pearlite fraction after non-equilibrium cooling from K.",
+    "options": {
+      "A": "~30%",
+      "B": "~99%",
+      "C": "~1%",
+      "D": "~70%"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because K is almost fully austenitic before cooling, and the non-equilibrium path is intended to transform nearly all of that austenite into fine pearlite. A is wrong because thirty percent is far too low for the dominant austenite fraction at K. C is wrong because about one percent would correspond to only a tiny residual/minor phase. D is wrong because seventy percent still underestimates the near-complete transformed fraction.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Near the 1%C K point, austenite is the dominant phase; the final product depends on cooling path, with quenching giving martensite and suitable non-equilibrium cooling giving fine pearlite.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 214-218; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/qs3-kpoint-38nicr-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 2024 K-point and 38NiCr15 figure",
+      "src": "assets/exam-graphs/qs3-kpoint-38nicr-source.jpg",
+      "alt": "Cropped exam figure with K point and 38NiCr15 TTT diagram."
+    }
+  },
+  {
+    "id": 740,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "hyper-eutectoid",
+      "coarse cementite",
+      "grain boundaries"
+    ],
+    "diagramRequired": false,
+    "question": "Why is the 1%C steel brittle after slow cooling from K point?",
+    "options": {
+      "A": "coarse P segregates at GBs",
+      "B": "Ferrite is coarse",
+      "C": "Coarse cem segregates at GBs",
+      "D": "Carbon atoms segregates at GBs"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because 1%C steel is hyper-eutectoid, so slow cooling can form pro-eutectoid cementite along grain boundaries, causing brittleness. A is wrong because the dangerous continuous grain-boundary constituent is cementite, not coarse pearlite alone. B is wrong because pro-eutectoid ferrite is the hypo-eutectoid issue, not the 1%C hyper-eutectoid case. D is wrong because the problem is a cementite phase network, not merely isolated carbon atoms.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Hyper-eutectoid steels can form pro-eutectoid cementite at austenite grain boundaries; this is brittle and harmful if coarse or continuous.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 219-223; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/qs3-kpoint-38nicr-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 2024 K-point and 38NiCr15 figure",
+      "src": "assets/exam-graphs/qs3-kpoint-38nicr-source.jpg",
+      "alt": "Cropped exam figure with K point."
+    }
+  },
+  {
+    "id": 741,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "D field",
+      "ferrite+austenite"
+    ],
+    "diagramRequired": false,
+    "question": "In the July 2024 Fe-C figure, what are the domain phases in D?",
+    "options": {
+      "A": "A/F",
+      "B": "F/Cem",
+      "C": "L/Cem",
+      "D": "A/Cem"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because D is in the austenite plus ferrite field, written in the exam option as A/F. B is wrong because ferrite plus cementite is below A1, not D. C is wrong because liquid is not involved in the low-temperature D field. D is wrong because austenite plus cementite is the hyper-eutectoid field, not D here.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. On the hypo-eutectoid side above A1, ferrite and austenite coexist before pearlite forms on further cooling.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 224-228; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/qs3-kpoint-38nicr-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 2024 K-point and 38NiCr15 figure",
+      "src": "assets/exam-graphs/qs3-kpoint-38nicr-source.jpg",
+      "alt": "Cropped exam figure with D field."
+    }
+  },
+  {
+    "id": 742,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "E point",
+      "Acm"
+    ],
+    "diagramRequired": false,
+    "question": "In the July 2024 Fe-C figure, specify the symbolic critical point denoted with E.",
+    "options": {
+      "A": "A4",
+      "B": "A3",
+      "C": "Acm",
+      "D": "A1"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because E is on the carbon-rich austenite-cementite boundary, which is Acm. A is wrong because A4 is a high-temperature delta/austenite line for pure iron. B is wrong because A3 is the left-side hypo-eutectoid boundary. D is wrong because A1 is the eutectoid horizontal line.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. The right-hand boundary of the austenite field in hyper-eutectoid steels is Acm; this is a favorite exam trap.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 229-233; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/qs3-kpoint-38nicr-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 2024 K-point and 38NiCr15 figure",
+      "src": "assets/exam-graphs/qs3-kpoint-38nicr-source.jpg",
+      "alt": "Cropped exam figure with E critical point."
+    }
+  },
+  {
+    "id": 743,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "38NiCr15",
+      "carbon designation"
+    ],
+    "diagramRequired": false,
+    "question": "What is the carbon content in the steel shown in the 38NiCr15 TTT diagram?",
+    "options": {
+      "A": "38%",
+      "B": "0.38%",
+      "C": "3.8%",
+      "D": "3%"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the first number 38 in the low-alloy steel designation means carbon percentage multiplied by 100, so it is about 0.38%C. A is wrong because 38% carbon is impossible for steel and reads the number directly. C is wrong because 3.8% is still far too high and would approach cast-iron composition. D is wrong because 3% is not obtained from the designation rule.",
+    "relevantTheory": "Low-alloy steel names use coded composition: the first number is carbon times 100, and alloying numbers are divided by element factors. For Ni, Cr, Mn, Co, Si and W the factor is 4. The carbon number is not divided by the alloying-element factor; it is directly wt%C times 100.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 234-238; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/qs3-kpoint-38nicr-source.jpg; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 2024 K-point and 38NiCr15 figure",
+      "src": "assets/exam-graphs/qs3-kpoint-38nicr-source.jpg",
+      "alt": "Cropped exam figure with 38NiCr15 TTT diagram."
+    }
+  },
+  {
+    "id": 744,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "E domain",
+      "pearlite+austenite"
+    ],
+    "diagramRequired": false,
+    "question": "In the 38NiCr15 TTT diagram, what is the domain name of E?",
+    "options": {
+      "A": "A",
+      "B": "Cem+A",
+      "C": "F+A",
+      "D": "P+A"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because E is located in the pearlite transformation region with remaining austenite, so it is P+A. A is wrong because the E field is not single-phase austenite. B is wrong because cementite plus austenite is a phase-diagram field, not the labelled TTT E region. C is wrong because ferrite plus austenite is the wrong transformation region for E.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. During TTT transformation, product plus remaining austenite can coexist; labels such as P+A mean partial transformation, not final equilibrium phases only.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 239-243; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/qs3-kpoint-38nicr-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 2024 K-point and 38NiCr15 figure",
+      "src": "assets/exam-graphs/qs3-kpoint-38nicr-source.jpg",
+      "alt": "Cropped exam figure with E field in TTT diagram."
+    }
+  },
+  {
+    "id": 745,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "T2",
+      "A1"
+    ],
+    "diagramRequired": false,
+    "question": "In the 38NiCr15 TTT diagram, what is the temperature T2?",
+    "options": {
+      "A": "A3",
+      "B": "A1",
+      "C": "Acm",
+      "D": "A2"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because T2 is the lower critical eutectoid temperature line in the diagram, corresponding to A1. A is wrong because A3 is the upper critical line above the T2 line. C is wrong because Acm applies to the carbon-rich Fe-C boundary, not this TTT reference line. D is wrong because A2 is the magnetic transformation and is not T2 here.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. A1 is the lower critical reference used for eutectoid transformation; alloy TTT diagrams may label it as T2 or another local symbol.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 244-248; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/qs3-kpoint-38nicr-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 2024 K-point and 38NiCr15 figure",
+      "src": "assets/exam-graphs/qs3-kpoint-38nicr-source.jpg",
+      "alt": "Cropped exam figure with T2 temperature line."
+    }
+  },
+  {
+    "id": 746,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "bainitic bay",
+      "Ni addition"
+    ],
+    "diagramRequired": false,
+    "question": "In the 38NiCr15 TTT diagram, what is the cause of the observed bainitic bay?",
+    "options": {
+      "A": "large undercooling",
+      "B": "Ni addition",
+      "C": "excessive %C",
+      "D": "too low %C"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the alloyed Ni-Cr steel diagram shows separation of transformation regions, and in this exam item the bay is attributed to Ni addition. A is wrong because undercooling affects kinetics but is not the specific alloying cause asked for this diagram. C is wrong because the steel has about 0.38%C, not excessive carbon as the reason for the bay. D is wrong because too low carbon is not the cause indicated by the figure.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. Alloying elements reshape TTT curves by delaying or separating diffusional transformations; the professor often asks which alloying addition causes the bay.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 249-253; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/qs3-kpoint-38nicr-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "July 2024 K-point and 38NiCr15 figure",
+      "src": "assets/exam-graphs/qs3-kpoint-38nicr-source.jpg",
+      "alt": "Cropped exam figure with bainitic bay."
+    }
+  },
+  {
+    "id": 747,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "phase region",
+      "ferrite",
+      "pearlite"
+    ],
+    "diagramRequired": false,
+    "question": "In the Jan 2025 Variant A Fe-C figure, what is the small phase region left-adjacent to P?",
+    "options": {
+      "A": "austenite",
+      "B": "ferrite",
+      "C": "A+F",
+      "D": "pearlite"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the small low-carbon region immediately left of the pearlite field is pro-eutectoid ferrite. A is wrong because austenite is the high-temperature gamma phase, not the small region left of P. C is wrong because A+F is the two-phase upper field, not the small low-temperature region asked. D is wrong because P is the adjacent pearlite region itself, not the region left of it.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Hypo-eutectoid steels below A1 contain pro-eutectoid ferrite plus pearlite; the ferrite region sits on the low-carbon side.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 29-33; exams_images/photo_2026-02-13 21.46.13.jpeg; assets/exam-graphs/qs4-a-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant A Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs4-a-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with Fe-C and AISI 4140 TTT diagrams."
+    }
+  },
+  {
+    "id": 748,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "ferrite in pearlite",
+      "pearlite"
+    ],
+    "diagramRequired": false,
+    "question": "Using the Jan 2025 Variant A Fe-C figure, estimate the ferrite percentage inside pearlite.",
+    "options": {
+      "A": "30%",
+      "B": "~60%",
+      "C": "90%",
+      "D": "10%"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because pearlite is mostly ferrite with about ten percent cementite, so the ferrite fraction is about ninety percent. A is wrong because thirty percent is far too low for ferrite in pearlite. B is wrong because sixty percent still underestimates ferrite in pearlite. D is wrong because ten percent is approximately the cementite fraction, not ferrite.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. At the eutectoid composition, pearlite consists of ferrite and cementite lamellae, with ferrite as the dominant constituent by mass.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 34-38; exams_images/photo_2026-02-13 21.46.13.jpeg; assets/exam-graphs/qs4-a-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant A Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs4-a-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure used for pearlite fraction."
+    }
+  },
+  {
+    "id": 749,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "G field",
+      "martensite",
+      "retained austenite"
+    ],
+    "diagramRequired": false,
+    "question": "In the Jan 2025 Variant A TTT diagram, what is the G-field name?",
+    "options": {
+      "A": "MT+BL",
+      "B": "MT+BL+AR",
+      "C": "M+A",
+      "D": "M"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because G is placed in the low-temperature martensite plus austenite region, where some austenite remains untransformed. A is wrong because it substitutes tempered martensite/lower bainite for the labelled martensite-austenite field. B is wrong because it adds lower bainite and retained austenite wording not represented by G. D is wrong because it omits the austenite still present in the field.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Below Ms, austenite progressively transforms to martensite; between Ms and completion, martensite coexists with remaining austenite.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 39-43; exams_images/photo_2026-02-13 21.46.13.jpeg; assets/exam-graphs/qs4-a-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant A TTT figure",
+      "src": "assets/exam-graphs/qs4-a-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT diagram with G field."
+    }
+  },
+  {
+    "id": 750,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "transformation n3",
+      "M",
+      "AR"
+    ],
+    "diagramRequired": false,
+    "question": "In the Jan 2025 Variant A TTT figure, estimate the products along transformation n.3.",
+    "options": {
+      "A": "30%M + 60%MT-BL + 10%AR",
+      "B": "10%F + 30%M + 30%MT-BL + 30%AR",
+      "C": "50%F + 20%M + 30%AR",
+      "D": "10%F + 30%M + 60%MT-BL"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the path gives about thirty percent martensite first, then sixty percent tempered-martensitic/lower-bainitic product, with about ten percent retained austenite. B is wrong because it adds a ferrite fraction and leaves too much retained austenite for this path. C is wrong because it misses the main tempered/lower-bainitic product. D is wrong because it omits the retained-austenite fraction.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. The final answer to a numbered TTT path is a mass balance across martensite, bainitic/tempered products and retained austenite.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 44-48; exams_images/photo_2026-02-13 21.46.13.jpeg; assets/exam-graphs/qs4-a-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant A TTT figure",
+      "src": "assets/exam-graphs/qs4-a-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT diagram with transformation n.3."
+    }
+  },
+  {
+    "id": 751,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "H phase",
+      "cementite"
+    ],
+    "diagramRequired": false,
+    "question": "In the Jan 2025 Variant B Fe-C figure, what is the phase indicated as H?",
+    "options": {
+      "A": "ferrite",
+      "B": "austenite",
+      "C": "pearlite",
+      "D": "cementite"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because H is located on the cementite side of the low-temperature Fe-C figure. A is wrong because ferrite is the low-carbon alpha phase, not the H label here. B is wrong because austenite is the high-temperature gamma phase. C is wrong because pearlite is a microconstituent, while H points to the cementite phase region.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Cementite is the carbon-rich Fe3C phase at 6.67%C and appears on the right side of the Fe-C diagram.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 98-102; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant B Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with H phase label."
+    }
+  },
+  {
+    "id": 752,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "0.8%C",
+      "austenite composition"
+    ],
+    "diagramRequired": false,
+    "question": "For 0.8%C steel at 760 deg C in the figure, estimate the carbon content of the T phase.",
+    "options": {
+      "A": "0.76%",
+      "B": "0.022%",
+      "C": "6.7%",
+      "D": "0.0025%"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because near the eutectoid composition and just above A1, the austenite/T phase is read at about 0.76%C. B is wrong because 0.022% is the maximum ferrite carbon solubility near A1. C is wrong because 6.7% is cementite. D is wrong because 0.0025% is room-temperature ferrite solubility.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Eutectoid austenite has about 0.76-0.77%C; ferrite and cementite endpoints are very different and are common distractors.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 103-107; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant B Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with T phase."
+    }
+  },
+  {
+    "id": 753,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "proeutectoid cementite",
+      "1.8%C"
+    ],
+    "diagramRequired": false,
+    "question": "For a 1.8%C alloy at 760 deg C in the figure, estimate the pro-eutectoid cementite fraction.",
+    "options": {
+      "A": "~1.8/6.7%",
+      "B": "~0.8/6.7%",
+      "C": "~1/6%",
+      "D": "~5/6%"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the pro-eutectoid cementite fraction is approximately (1.8-0.8)/(6.7-0.8), which is close to one sixth. A is wrong because it uses the bulk carbon directly instead of subtracting the eutectoid/austenite endpoint. B is wrong because it uses the eutectoid composition as the numerator. D is wrong because five sixths is the opposite-side fraction and much too large.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. For hyper-eutectoid steel just above/below A1, pro-eutectoid cementite is found from the tie line between eutectoid austenite and cementite.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 108-112; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant B Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure with 1.8%C alloy."
+    }
+  },
+  {
+    "id": 754,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "G field",
+      "martensite+austenite"
+    ],
+    "diagramRequired": false,
+    "question": "In the Jan 2025 Variant B TTT diagram, indicate the G-field name.",
+    "options": {
+      "A": "M",
+      "B": "F+CEM",
+      "C": "AR+TM-BL",
+      "D": "M+A"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because G lies in the martensite plus remaining-austenite region below the martensite-start line. A is wrong because single martensite omits the remaining austenite indicated by the field. B is wrong because ferrite plus cementite is an equilibrium phase pair, not this TTT field. C is wrong because tempered/lower-bainitic product is not the G field label here.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Martensitic regions are not always 100% martensite; between Ms and completion, martensite coexists with retained austenite.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 113-117; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant B TTT figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT diagram with G field."
+    }
+  },
+  {
+    "id": 755,
+    "deck": "graph-questions",
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Mn",
+      "eutectoid carbon",
+      "pearlite fraction"
+    ],
+    "diagramRequired": false,
+    "question": "In the Jan 2025 Variant B figure, if Mn changes the eutectoid carbon CE, what happens to the percent pearlite as Mn increases?",
+    "options": {
+      "A": "increases",
+      "B": "decreases",
+      "C": "drops to zero",
+      "D": "increases to 100%"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because Mn lowers the eutectoid carbon content, so for a fixed steel composition the lever-rule fraction transforming as pearlite increases. B is wrong because this reverses the lever-rule effect of lowering CE. C is wrong because pearlite does not vanish from the shown composition. D is wrong because the increase is not necessarily to one hundred percent.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Changing the eutectoid point changes phase fractions: for a fixed hypo-eutectoid composition, lowering CE increases the pearlite fraction.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 118-122; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant B Fe-C and TTT figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam figure used for Mn and CE question."
+    }
+  },
+  {
+    "id": 756,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "easy",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "nucleation rate",
+      "undercooling"
+    ],
+    "diagramRequired": false,
+    "question": "In the Jan 2025 Variant B TTT diagram, with decreasing transformation temperature, the nucleation rate:",
+    "options": {
+      "A": "decreases",
+      "B": "increases",
+      "C": "does not change",
+      "D": "N/A"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because decreasing transformation temperature increases undercooling and the driving force for nucleation in the course treatment. A is wrong because this confuses nucleation rate with diffusion-controlled growth at low temperature. C is wrong because nucleation depends strongly on undercooling. D is wrong because the TTT diagram explicitly tests this trend.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. Nucleation is favored by undercooling, while growth may slow because diffusion is reduced; the exam often separates these two trends.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 123-127; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant B TTT figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT diagram used for nucleation-rate question."
+    }
+  },
+  {
+    "id": 757,
+    "deck": "graph-questions",
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "curve n1",
+      "cooling products",
+      "AISI4140"
+    ],
+    "diagramRequired": false,
+    "question": "In the Jan 2025 Variant B TTT diagram, estimate the microstructure at the end of transformation curve n.1.",
+    "options": {
+      "A": "20%P + 65%BL + 15%TM-BL",
+      "B": "60%F + 30%BL + 5%TM-BL + 5%AR",
+      "C": "40%F + 50%BL + 5%TM-BL + 5%AR",
+      "D": "10%F + 70%BL + 5%TM-BL + 15%AR"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because curve n.1 first forms a large ferrite fraction, then bainite, then a small tempered/lower-bainitic amount, leaving only a small residual-austenite fraction. A is wrong because it introduces pearlite instead of the ferrite-dominant first product. C is wrong because it underestimates ferrite and overestimates bainite for n.1. D is wrong because it greatly underestimates ferrite and leaves too much retained austenite.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Numbered cooling curves require reading each intersection with transformation regions and percentage lines, then summing the products in order.",
+    "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 133-137; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "visual": {
+      "type": "image",
+      "title": "Jan 2025 Variant B TTT figure",
+      "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
+      "alt": "Cropped exam TTT diagram with curve n.1."
+    }
   }
-]
-;
+];
