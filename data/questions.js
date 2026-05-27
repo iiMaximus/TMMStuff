@@ -17644,12 +17644,12 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "A",
     "explanation": "A is correct because point B in the Fe-C figure marks the high-temperature allotropic transformation of pure iron near 1394 °C, where delta-ferrite changes to austenite on cooling. B is wrong because 1147 °C is the eutectic temperature. C is wrong because 727 °C is the eutectoid A1 temperature. D is wrong because 911 °C is the A3 transformation temperature of pure iron, not the B point shown at the top of the diagram.",
     "relevantTheory": "In the Fe-C diagram, pure iron changes crystal structure with temperature: alpha-ferrite is BCC at low temperature, austenite is FCC above about 911 °C, and delta-ferrite is BCC above about 1394 °C before melting near 1536-1538 °C. Exam questions often test whether a labelled point is an allotropic transformation, eutectoid point, eutectic point, or peritectic/peritectic-region feature.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 118-122; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 118-122; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/fec-1c-b-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3",
     "visual": {
       "type": "image",
-      "title": "Original Fe-C exam figure: 1%C K point",
-      "src": "assets/exam-graphs/fec-1c-k-source.jpg",
-      "alt": "Cropped source exam Fe-C diagram showing a 1 wt% C steel, the K point, and labelled phase regions."
+      "title": "Original Fe-C exam figure: B point",
+      "src": "assets/exam-graphs/fec-1c-b-source.jpg",
+      "alt": "Enhanced crop of the source exam Fe-C diagram showing the labelled B point and 1 wt% C region."
     }
   },
   {
@@ -17677,12 +17677,12 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because the K point for a 1%C steel lies in the austenite plus cementite region with austenite as the overwhelmingly dominant phase; on rapid quenching, that austenite transforms mainly to martensite. A and D are too low because they would imply a large pre-existing cementite fraction at K. B is wrong because only a very small fraction would be non-austenitic before quenching, not the martensite fraction.",
     "relevantTheory": "For a hyper-eutectoid steel just above A1, the phases are austenite plus pro-eutectoid cementite. The austenite fraction can be estimated with the lever rule between the eutectoid austenite composition and cementite; for 1 wt%C it is very high, so quenching from that point gives almost all martensite plus a small amount of cementite or retained austenite depending on conditions.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 128-132; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-3",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 128-132; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-3",
     "visual": {
       "type": "image",
-      "title": "Original Fe-C exam figure: 1%C K point",
+      "title": "Original Fe-C exam figure: K point highlighted",
       "src": "assets/exam-graphs/fec-1c-k-source.jpg",
-      "alt": "Cropped source exam Fe-C diagram showing a 1 wt% C steel, the K point, and labelled phase regions."
+      "alt": "Enhanced crop of the source exam Fe-C diagram with the K point visibly circled and labelled."
     }
   },
   {
@@ -17709,12 +17709,12 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because a 1%C steel is hyper-eutectoid and the K point lies in the austenite plus cementite field; the requested format puts the minor pro-eutectoid phase before the dominant austenite, so Cem/A is the intended answer. A is wrong because ferrite plus pearlite is a low-temperature hypoeutectoid mixture. B contains the same phases but reverses the requested format. C is wrong because ferrite is not the pro-eutectoid phase for a 1%C hyper-eutectoid steel.",
     "relevantTheory": "Below and near the eutectoid composition, hypo-eutectoid steels form pro-eutectoid ferrite plus austenite before the eutectoid reaction. Above the eutectoid composition, hyper-eutectoid steels form pro-eutectoid cementite plus austenite. At 1 wt%C just above A1, austenite is dominant and cementite is the pro-eutectoid phase.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 133-137; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 133-137; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7",
     "visual": {
       "type": "image",
-      "title": "Original Fe-C exam figure: 1%C K point",
+      "title": "Original Fe-C exam figure: K point highlighted",
       "src": "assets/exam-graphs/fec-1c-k-source.jpg",
-      "alt": "Cropped source exam Fe-C diagram showing a 1 wt% C steel, the K point, and labelled phase regions."
+      "alt": "Enhanced crop of the source exam Fe-C diagram with the K point visibly circled and labelled."
     }
   },
   {
