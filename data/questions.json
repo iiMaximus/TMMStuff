@@ -169,18 +169,19 @@
   },
   {
     "id": 7,
-    "deck": "question-bank",
+    "deck": "graph-questions",
     "moduleId": null,
     "section": "Fe-C & Steels",
     "sourceType": "past-exam",
     "difficulty": "hard",
-    "cardType": "definition",
+    "cardType": "graph-interpretation",
     "trapTags": [
-      "diagram label",
+      "delta ferrite",
+      "BCC",
       "Fe-C diagram",
-      "definition"
+      "H region"
     ],
-    "diagramRequired": true,
+    "diagramRequired": false,
     "question": "What is the crystal structure of H-region (figure)?",
     "options": {
       "A": "FCC solid solution",
@@ -190,23 +191,29 @@
     },
     "correctAnswer": "B",
     "explanation": "B is correct because the H region refers to delta-ferrite, which is a high-temperature BCC solid solution of carbon in iron. A is wrong because FCC solid solution is austenite, gamma-Fe. C is wrong because the region is not only pure Fe; it allows limited carbon solubility. D is wrong because the H region is a solid ferritic field, not liquid.",
-    "relevantTheory": "Ferrite phases in iron are BCC; alpha-ferrite is low-temperature BCC and delta-ferrite is high-temperature BCC, while austenite is FCC.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3 and p. 16"
+    "relevantTheory": "Ferrite phases in iron are BCC solid solutions: alpha-ferrite is low-temperature BCC and delta-ferrite is high-temperature BCC, while austenite is FCC. Even when carbon solubility is very small, the delta-ferrite field is still a solid solution, not simply pure iron.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 34-38; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/fec-r-j-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3 and p. 16",
+    "visual": {
+      "type": "image",
+      "title": "Original Fe-C exam figure: H, R and J",
+      "src": "assets/exam-graphs/fec-r-j-source.jpg",
+      "alt": "Cropped source exam Fe-C diagram showing the 1536 deg C region labelled H, R and J."
+    }
   },
   {
     "id": 8,
-    "deck": "question-bank",
+    "deck": "graph-questions",
     "moduleId": null,
     "section": "Fe-C & Steels",
     "sourceType": "past-exam",
     "difficulty": "hard",
-    "cardType": "calculation",
+    "cardType": "graph-interpretation",
     "trapTags": [
-      "diagram label",
-      "Fe-C diagram",
-      "calculation"
+      "delta ferrite",
+      "carbon solubility",
+      "Fe-C diagram"
     ],
-    "diagramRequired": true,
+    "diagramRequired": false,
     "question": "Approximate solubility of C in delta-ferrite (figure).",
     "options": {
       "A": "~0.002%",
@@ -217,7 +224,13 @@
     "correctAnswer": "B",
     "explanation": "B is correct because the maximum solubility of carbon in delta-ferrite is approximately 0.09 wt%C near the peritectic temperature. A is wrong because about 0.002-0.0025%C is the very low room-temperature solubility in alpha-ferrite. C is wrong because 0.5%C is far too high for ferrite. D is wrong because 0.16%C is associated with the peritectic composition, not the maximum carbon solubility in delta-ferrite.",
     "relevantTheory": "Carbon solubility is very low in BCC ferrite phases and much higher in FCC austenite; delta-ferrite has only limited carbon solubility near the peritectic region.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 39-43; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/fec-r-j-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3",
+    "visual": {
+      "type": "image",
+      "title": "Original Fe-C exam figure: H, R and J",
+      "src": "assets/exam-graphs/fec-r-j-source.jpg",
+      "alt": "Cropped source exam Fe-C diagram showing the 1536 deg C region labelled H, R and J."
+    }
   },
   {
     "id": 9,
@@ -1169,19 +1182,18 @@
   },
   {
     "id": 45,
-    "deck": "question-bank",
+    "deck": "graph-questions",
     "moduleId": null,
     "section": "Heat Treatment",
     "sourceType": "past-exam",
     "difficulty": "hard",
-    "cardType": "application",
+    "cardType": "graph-interpretation",
     "trapTags": [
-      "NOT TRUE wording",
       "TTT diagram",
-      "application",
-      "diagram label"
+      "undercooling",
+      "diffusion rate"
     ],
-    "diagramRequired": true,
+    "diagramRequired": false,
     "question": "With increasing undercooling in TTT diagram, the rate of diffusion:",
     "options": {
       "A": "increases",
@@ -1192,7 +1204,13 @@
     "correctAnswer": "C",
     "explanation": "C is correct because lower transformation temperature means lower atomic mobility and slower diffusion. A is wrong because diffusion does not increase as temperature decreases. B is not the general trend. D is wrong because diffusion is strongly temperature dependent and thermally activated.",
     "relevantTheory": "Transformation kinetics balance nucleation and growth: undercooling increases driving force and nucleation tendency, but decreasing temperature reduces diffusion and growth rate.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 9 Steel Heat Treatment.pdf, p. 19; Self-assesment questions/Self-test questions - miscellanea.pdf, p. 1"
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 341-345; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/ttt-38nicr15-undercooling-source.jpg; slides&docs/Lecture 9 Steel Heat Treatment.pdf, p. 19; Self-assesment questions/Self-test questions - miscellanea.pdf, p. 1",
+    "visual": {
+      "type": "image",
+      "title": "Original TTT exam figure: undercooling and diffusion",
+      "src": "assets/exam-graphs/ttt-38nicr15-undercooling-source.jpg",
+      "alt": "Cropped source exam figure showing the AISI 38NiCr15 TTT diagram used for the undercooling and diffusion-rate question."
+    }
   },
   {
     "id": 46,
@@ -17601,5 +17619,230 @@
     "explanation": "A is correct because casting is melt shaping: liquid metal is poured or injected into a mould and solidifies into the desired shape. B describes sheet forming, not casting. C is desulfurization. D is hardness testing.",
     "relevantTheory": "Casting is chosen for complex shapes and alloys with suitable fluidity, but the final properties depend on solidification structure, segregation, porosity, feeding, cooling rate and post-casting treatment.",
     "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf, page 7"
+  },
+  {
+    "id": 672,
+    "deck": "graph-questions",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Fe-C diagram",
+      "critical temperature",
+      "B point"
+    ],
+    "diagramRequired": false,
+    "question": "The value of B point (figure).",
+    "options": {
+      "A": "1394 °C",
+      "B": "1147°C",
+      "C": "727°C",
+      "D": "911°C"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because point B in the Fe-C figure marks the high-temperature allotropic transformation of pure iron near 1394 °C, where delta-ferrite changes to austenite on cooling. B is wrong because 1147 °C is the eutectic temperature. C is wrong because 727 °C is the eutectoid A1 temperature. D is wrong because 911 °C is the A3 transformation temperature of pure iron, not the B point shown at the top of the diagram.",
+    "relevantTheory": "In the Fe-C diagram, pure iron changes crystal structure with temperature: alpha-ferrite is BCC at low temperature, austenite is FCC above about 911 °C, and delta-ferrite is BCC above about 1394 °C before melting near 1536-1538 °C. Exam questions often test whether a labelled point is an allotropic transformation, eutectoid point, eutectic point, or peritectic/peritectic-region feature.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 118-122; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3",
+    "visual": {
+      "type": "image",
+      "title": "Original Fe-C exam figure: 1%C K point",
+      "src": "assets/exam-graphs/fec-1c-k-source.jpg",
+      "alt": "Cropped source exam Fe-C diagram showing a 1 wt% C steel, the K point, and labelled phase regions."
+    }
+  },
+  {
+    "id": 673,
+    "deck": "graph-questions",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-calculation",
+    "trapTags": [
+      "Fe-C diagram",
+      "quenching",
+      "martensite fraction",
+      "lever rule"
+    ],
+    "diagramRequired": false,
+    "question": "Estimate the %M in 1%C steel after quenching from K point (figure).",
+    "options": {
+      "A": "~30%",
+      "B": "~1%",
+      "C": "~99%",
+      "D": "~70%"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the K point for a 1%C steel lies in the austenite plus cementite region with austenite as the overwhelmingly dominant phase; on rapid quenching, that austenite transforms mainly to martensite. A and D are too low because they would imply a large pre-existing cementite fraction at K. B is wrong because only a very small fraction would be non-austenitic before quenching, not the martensite fraction.",
+    "relevantTheory": "For a hyper-eutectoid steel just above A1, the phases are austenite plus pro-eutectoid cementite. The austenite fraction can be estimated with the lever rule between the eutectoid austenite composition and cementite; for 1 wt%C it is very high, so quenching from that point gives almost all martensite plus a small amount of cementite or retained austenite depending on conditions.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 128-132; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-3",
+    "visual": {
+      "type": "image",
+      "title": "Original Fe-C exam figure: 1%C K point",
+      "src": "assets/exam-graphs/fec-1c-k-source.jpg",
+      "alt": "Cropped source exam Fe-C diagram showing a 1 wt% C steel, the K point, and labelled phase regions."
+    }
+  },
+  {
+    "id": 674,
+    "deck": "graph-questions",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Fe-C diagram",
+      "hyper-eutectoid steel",
+      "K point"
+    ],
+    "diagramRequired": false,
+    "question": "The two domain phases (format P/A figure) at K point in 1%C steel with A the dominant phase present.",
+    "options": {
+      "A": "F/P",
+      "B": "A/Cem",
+      "C": "A/F",
+      "D": "Cem/A"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because a 1%C steel is hyper-eutectoid and the K point lies in the austenite plus cementite field; the requested format puts the minor pro-eutectoid phase before the dominant austenite, so Cem/A is the intended answer. A is wrong because ferrite plus pearlite is a low-temperature hypoeutectoid mixture. B contains the same phases but reverses the requested format. C is wrong because ferrite is not the pro-eutectoid phase for a 1%C hyper-eutectoid steel.",
+    "relevantTheory": "Below and near the eutectoid composition, hypo-eutectoid steels form pro-eutectoid ferrite plus austenite before the eutectoid reaction. Above the eutectoid composition, hyper-eutectoid steels form pro-eutectoid cementite plus austenite. At 1 wt%C just above A1, austenite is dominant and cementite is the pro-eutectoid phase.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 133-137; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7",
+    "visual": {
+      "type": "image",
+      "title": "Original Fe-C exam figure: 1%C K point",
+      "src": "assets/exam-graphs/fec-1c-k-source.jpg",
+      "alt": "Cropped source exam Fe-C diagram showing a 1 wt% C steel, the K point, and labelled phase regions."
+    }
+  },
+  {
+    "id": 675,
+    "deck": "graph-questions",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "TTT diagram",
+      "AISI designation",
+      "tempering steel"
+    ],
+    "diagramRequired": false,
+    "question": "The steel shown in the TTT diagram belongs to the class of (figure)?",
+    "options": {
+      "A": "carburizing steel",
+      "B": "martensitic stainless steel",
+      "C": "tempering steel",
+      "D": "tool steel"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the TTT figure labels an AISI 38NiCr15 steel, a medium-carbon Ni-Cr alloy steel intended for quenching and tempering. A is wrong because carburizing steels are usually lower-carbon case-hardening steels. B is wrong because the designation is not a martensitic stainless steel grade. D is wrong because the diagram does not indicate a high-carbon/high-alloy tool steel class.",
+    "relevantTheory": "TTT diagrams are tied to steel composition and intended heat treatment. Medium-carbon low-alloy Ni-Cr steels are typical quench-and-temper, or tempering, steels: they are austenitized, quenched to martensite/bainitic products, then tempered to obtain strength and toughness.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 138-142; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/ttt-38nicr15-source.jpg; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-3",
+    "visual": {
+      "type": "image",
+      "title": "Original TTT exam figure: AISI 38NiCr15",
+      "src": "assets/exam-graphs/ttt-38nicr15-source.jpg",
+      "alt": "Cropped source exam TTT diagram for AISI 38NiCr15 steel with labelled fields, temperatures, and transformation curves."
+    }
+  },
+  {
+    "id": 676,
+    "deck": "graph-questions",
+    "moduleId": null,
+    "section": "Heat Treatment",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "TTT diagram",
+      "steel designation",
+      "Ni content"
+    ],
+    "diagramRequired": false,
+    "question": "What is %Ni in the steel shown in the TTT diagram (figure)?",
+    "options": {
+      "A": "15%",
+      "B": "1.50%",
+      "C": "1.00%",
+      "D": "3.75%"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the figure identifies the steel as 38NiCr15, and in this designation the final number 15 corresponds to about 1.5% nickel in the professor's exam convention. A is wrong because 15 is not read directly as 15 wt% Ni. C is wrong because 1.00% is too low for the indicated 15 suffix. D is wrong because it confuses the 38 carbon prefix or other alloy-number rules with the Ni content.",
+    "relevantTheory": "Steel designations encode approximate composition rather than writing every percentage directly. In the exam style, 38NiCr15 is read as a medium-carbon Ni-Cr steel with roughly 0.38%C and about 1.5% Ni; the designation is then used together with the TTT diagram to identify heat-treatment behavior and alloy class.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 153-157; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/ttt-38nicr15-source.jpg; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-3",
+    "visual": {
+      "type": "image",
+      "title": "Original TTT exam figure: AISI 38NiCr15",
+      "src": "assets/exam-graphs/ttt-38nicr15-source.jpg",
+      "alt": "Cropped source exam TTT diagram for AISI 38NiCr15 steel with labelled fields, temperatures, and transformation curves."
+    }
+  },
+  {
+    "id": 677,
+    "deck": "graph-questions",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "medium",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Fe-C diagram",
+      "Acm",
+      "Q temperature line"
+    ],
+    "diagramRequired": false,
+    "question": "Give the symbol name for the Q-temperature line in the figure.",
+    "options": {
+      "A": "A1",
+      "B": "A3",
+      "C": "Acm",
+      "D": "A4 °C"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the Q line in the figure is on the hyper-eutectoid/right-hand austenite-cementite boundary, which is the Acm line. A is wrong because A1 is the horizontal eutectoid temperature. B is wrong because A3 is the hypo-eutectoid ferrite-austenite boundary on the left side. D is wrong because A4 refers to the high-temperature delta/austenite transformation of pure iron, not the right-hand carbon-rich boundary.",
+    "relevantTheory": "The Fe-C diagram uses different critical lines on different sides of the eutectoid composition. A1 is the eutectoid horizontal line, A3 is the austenite/ferrite boundary for hypo-eutectoid steels, and Acm is the austenite/cementite boundary for hyper-eutectoid steels. Do not identify every sloped boundary as A3.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 31-35; exams_images/photo_2026-02-13 21.45.33.jpeg; assets/exam-graphs/fec-feb2023-q-r-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7",
+    "visual": {
+      "type": "image",
+      "title": "Original Fe-C exam figure: Q line and R region",
+      "src": "assets/exam-graphs/fec-feb2023-q-r-source.jpg",
+      "alt": "Cropped source exam Fe-C diagram showing the Q temperature line, R region, eutectoid composition and alloy line."
+    }
+  },
+  {
+    "id": 678,
+    "deck": "graph-questions",
+    "moduleId": null,
+    "section": "Fe-C & Steels",
+    "sourceType": "past-exam",
+    "difficulty": "hard",
+    "cardType": "graph-interpretation",
+    "trapTags": [
+      "Fe-C diagram",
+      "R region",
+      "hyper-eutectoid steel"
+    ],
+    "diagramRequired": false,
+    "question": "The phase mixture name of the R-region in the figure.",
+    "options": {
+      "A": "Ferrite+Austenite",
+      "B": "A+P",
+      "C": "Cementite+A",
+      "D": "Cementite+Ferrite"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because in this specific Fe-C figure the R label is on the hypo-eutectoid side between the A3 boundary and the A1 temperature, where the two phases are ferrite plus austenite. B is wrong because pearlite is a microconstituent formed below A1, not the phase field labelled R. C is wrong for this figure because cementite plus austenite is the hyper-eutectoid field on the right of the eutectoid composition, not the shown R field. D is wrong because cementite plus ferrite is the low-temperature equilibrium product below A1, not the R region here.",
+    "relevantTheory": "Region labels such as R are not universal; the answer depends on where the label sits in the shown diagram. In the Fe-C diagram, the field between A3 and A1 on the left of the eutectoid composition is ferrite plus austenite, while the field between Acm and A1 on the right is austenite plus cementite. Below A1 the equilibrium phases are ferrite plus cementite, often arranged as pearlite plus any pro-eutectoid phase.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 36-40; exams_images/photo_2026-02-13 21.45.33.jpeg; assets/exam-graphs/fec-feb2023-q-r-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7",
+    "visual": {
+      "type": "image",
+      "title": "Original Fe-C exam figure: Q line and R region",
+      "src": "assets/exam-graphs/fec-feb2023-q-r-source.jpg",
+      "alt": "Cropped source exam Fe-C diagram showing the Q temperature line, R region, eutectoid composition and alloy line."
+    }
   }
 ]
