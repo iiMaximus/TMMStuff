@@ -23,6 +23,12 @@ window.TMM_CONTENT_MAP = {
       "title": "Self-assessment",
       "shortTitle": "Self-test",
       "description": "Professor self-assessment prompts turned into teach-and-test cards."
+    },
+    {
+      "id": "graph-questions",
+      "title": "Graph questions",
+      "shortTitle": "Graphs",
+      "description": "Diagram and graph interpretation cards with embedded static visuals."
     }
   ],
   "modules": [
@@ -159,4 +165,5 @@ window.TMM_CONTENT_MAP = {
       "source": "Self-assesment questions/TMM Questions 2024.11.28.pdf"
     }
   ]
-};
+}
+;

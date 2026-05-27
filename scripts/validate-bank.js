@@ -3,10 +3,10 @@ const fs = require("fs");
 const QUESTIONS_PATH = "data/questions.json";
 const CONTENT_MAP_PATH = "data/content-map.json";
 const OPTION_KEYS = ["A", "B", "C", "D"];
-const VALID_DECKS = new Set(["question-bank", "slides", "self-assessment"]);
+const VALID_DECKS = new Set(["question-bank", "slides", "self-assessment", "graph-questions"]);
 const VALID_SOURCE_TYPES = new Set(["past-exam", "slides", "self-assessment"]);
 const VALID_DIFFICULTIES = new Set(["easy", "medium", "hard"]);
-const VALID_CARD_TYPES = new Set(["definition", "trap", "application", "calculation", "process-chain"]);
+const VALID_CARD_TYPES = new Set(["definition", "trap", "application", "calculation", "process-chain", "graph-interpretation", "graph-calculation"]);
 const METADATA_ENFORCED_AFTER_ID = 70;
 
 function readJson(path) {
@@ -19,6 +19,61 @@ function words(text) {
 
 function warn(warnings, id, message) {
   warnings.push(`Q${id}: ${message}`);
+}
+
+function isFiniteNumber(value) {
+  return typeof value === "number" && Number.isFinite(value);
+}
+
+function isNumberPair(value) {
+  return Array.isArray(value) && value.length === 2 && value.every(isFiniteNumber);
+}
+
+function validateVisual(question, label, errors, warnings) {
+  if (question.visual === undefined) {
+    if ((question.deck || "question-bank") === "graph-questions") {
+      warn(warnings, label, "graph-questions card should include a visual object.");
+    }
+    return;
+  }
+
+  if (!question.visual || typeof question.visual !== "object" || Array.isArray(question.visual)) {
+    errors.push(`Question ${label}: visual must be an object when present.`);
+    return;
+  }
+
+  if (question.visual.type !== "svg-graph") {
+    errors.push(`Question ${label}: visual.type must be "svg-graph".`);
+  }
+  if (!isNumberPair(question.visual.xRange)) {
+    errors.push(`Question ${label}: visual.xRange must be two finite numbers.`);
+  }
+  if (!isNumberPair(question.visual.yRange)) {
+    errors.push(`Question ${label}: visual.yRange must be two finite numbers.`);
+  }
+
+  (question.visual.series || []).forEach((series, seriesIndex) => {
+    if (!series || typeof series !== "object" || Array.isArray(series)) {
+      errors.push(`Question ${label}: visual.series[${seriesIndex}] must be an object.`);
+      return;
+    }
+    if (series.kind !== "polyline") {
+      errors.push(`Question ${label}: visual.series[${seriesIndex}].kind must be "polyline".`);
+    }
+    if (!Array.isArray(series.points) || !series.points.every(isNumberPair)) {
+      errors.push(`Question ${label}: visual.series[${seriesIndex}].points must be [x, y] number pairs.`);
+    }
+  });
+
+  (question.visual.markers || []).forEach((marker, markerIndex) => {
+    if (!marker || typeof marker !== "object" || !isFiniteNumber(marker.x) || !isFiniteNumber(marker.y)) {
+      errors.push(`Question ${label}: visual.markers[${markerIndex}] must include finite x and y.`);
+    }
+  });
+
+  if (question.diagramRequired === true) {
+    warn(warnings, label, "visual is present but diagramRequired is true.");
+  }
 }
 
 const questions = readJson(QUESTIONS_PATH);
@@ -80,7 +135,7 @@ if (!Array.isArray(questions)) {
     errors.push(`Question ${label}: moduleId "${question.moduleId}" is not in ${CONTENT_MAP_PATH}.`);
   }
 
-  if (deck !== "question-bank" && !question.moduleId) {
+  if ((deck === "slides" || deck === "self-assessment") && !question.moduleId) {
     warn(warnings, label, "new slide/self-assessment cards should include moduleId.");
   }
 
@@ -122,7 +177,8 @@ if (!Array.isArray(questions)) {
 
   if (!question.diagramRequired && words(question.explanation) < 35) warn(warnings, label, "explanation may be too short.");
   if (!question.diagramRequired && words(question.relevantTheory) < 20) warn(warnings, label, "relevantTheory may be too short.");
-  if (/figure|shown in the diagram|from the diagram|cooling curve|phase diagram|ttt diagram|r-region|j-point|h-region|r-field|c-temperature/i.test(question.question) && question.diagramRequired !== true) {
+  validateVisual(question, label, errors, warnings);
+  if (!question.visual && /figure|shown in the diagram|from the diagram|cooling curve|phase diagram|ttt diagram|r-region|j-point|h-region|r-field|c-temperature/i.test(question.question) && question.diagramRequired !== true) {
     warn(warnings, label, "question appears to depend on a missing figure/diagram but diagramRequired is not true.");
   }
 });

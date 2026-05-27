@@ -18,6 +18,7 @@ The user starts from a home screen and can choose:
 
 - `Everything`: adaptive practice across every generated card.
 - `Exam bank`: the current past-exam MCQ bank.
+- `Graph questions`: past-exam graph/diagram questions with embedded sketches. These are separate from Everything and Exam bank.
 - `Due review`: only cards previously answered incorrectly and not yet remastered.
 - `Self-assessment`: cards generated from professor self-assessment prompts.
 - topic practice, such as Plasticity or Corrosion, once cards exist in that section.
@@ -41,6 +42,8 @@ Each card has:
 A card is mastered after two correct answers in a row. If it is answered wrong, it enters due review and stays there until mastered.
 
 Cards marked with `"diagramRequired": true` are kept in the data file but skipped by all normal study paths. Use that flag for past-exam questions that refer to missing phase diagrams, cooling curves, labeled regions, or other figures.
+
+Graph cards use `deck="graph-questions"` and include an embedded `visual` object, usually `visual.type="svg-graph"`. They are rendered in their own home-screen section and intentionally excluded from Everything, Exam bank, and Due review until the user chooses Graph questions directly.
 
 Question selection inside a session is adaptive:
 
@@ -101,7 +104,7 @@ Recommended work order:
 2. Convert self-assessment prompts into deep explanation cards.
 3. Convert slides lecture by lecture, using notes to fill gaps.
 4. Convert student notes into reinforcement cards for weak topics.
-5. Optionally create diagram-specific decks with embedded images/screenshots later. Until then, mark diagram-dependent cards as `diagramRequired: true` so they stay out of normal practice.
+5. Continue the `graph-questions` deck in small, fact-checked batches. If a diagram-dependent card cannot be recreated safely, keep `diagramRequired: true` so it stays out of normal practice.
 
 Large content batches should stay small enough to review. A good target is 10-20 cards per agent pass, then validate and skim before adding more. A whole lecture may end up with about 25-40 cards, or more for longer lectures, but agents should build that in batches so quality does not drift.
 

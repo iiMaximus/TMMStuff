@@ -47,14 +47,15 @@ Every card must follow the existing schema and may add optional metadata:
 
 Required optional metadata for new work:
 
-- `deck`: one of `question-bank`, `slides`, `self-assessment`
+- `deck`: one of `question-bank`, `slides`, `self-assessment`, `graph-questions`
 - `moduleId`: use the matching id in `data/content-map.json`
 - `section`: course topic shown on the home screen, such as `Plasticity`, `Fe-C & Steels`, `Corrosion & SS`, `Heat Treatment`, `Production`, `Al & Casting`, or `Fundamentals`
 - `sourceType`: one of `past-exam`, `slides`, `self-assessment`
 - `difficulty`: one of `easy`, `medium`, `hard`
-- `cardType`: one of `definition`, `trap`, `application`, `calculation`, `process-chain`
+- `cardType`: one of `definition`, `trap`, `application`, `calculation`, `process-chain`, `graph-interpretation`, `graph-calculation`
 - `trapTags`: short array of traps or concepts tested
 - `diagramRequired`: `true` when the card cannot stand alone without an included diagram; normal website sessions automatically skip these cards
+- `visual`: optional structured SVG graph data for `graph-questions` cards. Use `visual.type="svg-graph"` with numeric `xRange`, `yRange`, `series`, `markers`, and `labels`. Do not inject raw HTML.
 
 Existing older cards may omit this metadata, but all new large-batch work should include it so the website does not depend on brittle topic guessing.
 
@@ -65,6 +66,7 @@ Correct-answer letters should be balanced across a generated batch. Do not make 
 Suggested parallel assignments:
 
 - Past exam agent: `deck="question-bank"`, continue converting non-diagram past exam questions.
+- Graph-question agent: `deck="graph-questions"`, convert only diagram/graph past-exam questions whose graph can be embedded directly in the card and whose answer can be fact-checked.
 - Slides agents: one agent per lecture, `deck="slides"`, `moduleId="lecture-N-..."`.
 - Self-assessment agent: `deck="self-assessment"`, one module per self-assessment PDF.
 - Notes-support agent: do not create a user-facing notes deck by page range. The split notes are disorganized and are not aligned 1:1 with lectures, so search them yourself, identify the pages that actually match the assigned lecture, and use them to make the slide cards complete.
@@ -137,3 +139,5 @@ For example, if a slide only says "Hume-Rothery rules," the generated cards must
 Past exam questions often reference a phase diagram or TTT/cooling curve. Skip those unless the necessary diagram is included in the card itself or the user asks for a diagram-specific deck.
 
 If a card is kept only for archival completeness but depends on a missing figure, set `"diagramRequired": true`. It will remain in `data/questions.json` but will not appear in Everything, Exam bank, topics, lectures, self-assessment, or due review.
+
+For `graph-questions`, the graph must be embedded in `visual` and `diagramRequired` must be `false`. Keep these cards out of the normal past-exam bank. Make graph titles neutral; do not reveal the answer in the caption or labels unless the original exam figure did so.

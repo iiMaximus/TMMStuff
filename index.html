@@ -74,6 +74,22 @@
           </aside>
         </section>
 
+        <details class="home-section picker-section" id="graphPicker" open>
+          <summary>
+            <span>
+              <strong>Graph questions</strong>
+              <small>Fe-C and TTT diagram practice with embedded sketches.</small>
+            </span>
+          </summary>
+          <div class="source-grid">
+            <button class="home-card" type="button" data-study="graph-questions">
+              <strong>Graph questions</strong>
+              <span id="graphCardCount">0 cards</span>
+              <small>Start with four carefully checked graph cards.</small>
+            </button>
+          </div>
+        </details>
+
         <details class="home-section picker-section" id="lecturePicker" open>
           <summary>
             <span>
@@ -171,6 +187,7 @@
             <span id="questionMastery">New</span>
           </div>
           <h2 id="questionText">Loading question...</h2>
+          <div class="question-visual" id="questionVisual" hidden></div>
           <div class="options" id="options"></div>
         </section>
 

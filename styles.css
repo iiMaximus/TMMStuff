@@ -640,6 +640,107 @@ h2 {
   font-size: clamp(1.22rem, 3vw, 2.05rem);
 }
 
+.question-visual {
+  margin: 0 0 18px;
+}
+
+.question-visual[hidden] {
+  display: none;
+}
+
+.question-visual figure {
+  margin: 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcff;
+}
+
+.question-visual figcaption {
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.question-visual svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.graph-plot {
+  fill: #fff;
+  stroke: var(--line);
+}
+
+.graph-axis,
+.graph-line {
+  fill: none;
+  stroke: #334155;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.graph-axis {
+  stroke-width: 1;
+}
+
+.graph-line {
+  stroke-width: 2.4;
+}
+
+.graph-line.secondary {
+  stroke: #64748b;
+  stroke-dasharray: 6 5;
+}
+
+.graph-line.boundary {
+  stroke: var(--primary);
+}
+
+.graph-line.invariant {
+  stroke: var(--red);
+  stroke-dasharray: 8 5;
+}
+
+.graph-marker {
+  fill: var(--red);
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.graph-marker-label,
+.graph-label,
+.graph-tick,
+.graph-axis-label {
+  fill: var(--ink);
+  font-family: inherit;
+}
+
+.graph-marker-label,
+.graph-label {
+  font-size: 16px;
+  font-weight: 950;
+}
+
+.graph-label.muted {
+  fill: var(--muted);
+  font-size: 14px;
+}
+
+.graph-tick {
+  fill: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.graph-axis-label {
+  fill: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+}
+
 .options {
   display: grid;
   gap: 10px;

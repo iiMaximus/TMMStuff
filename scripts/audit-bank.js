@@ -68,7 +68,7 @@ for (const question of questions) {
       });
     }
 
-    if (/\b(figure|shown below|see graph|from the graph|from the curve|from the diagram|r-region|j-point|h-region)\b/i.test(question.question)) {
+    if (!question.visual && /\b(figure|shown below|see graph|from the graph|from the curve|from the diagram|r-region|j-point|h-region)\b/i.test(question.question)) {
       diagramLeaks.push({ id: question.id, question: question.question });
     }
   }

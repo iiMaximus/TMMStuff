@@ -16,6 +16,7 @@ const SECTION_RULES = [
 const XP_PER_LEVEL = 120;
 const RECENT_CARD_GAP = 3;
 const OPTION_MARKERS = ["1", "2", "3", "4"];
+const GRAPH_DECK = "graph-questions";
 const LECTURE_PLAN_START = new Date(2026, 4, 20);
 const LECTURE_BREAK_INTERVAL = 4;
 const DAY_MS = 24 * 60 * 60 * 1000;
@@ -26,6 +27,7 @@ const DATE_FORMATTER = new Intl.DateTimeFormat(undefined, {
 
 const state = {
   allQuestions: [],
+  graphQuestions: [],
   skippedQuestions: [],
   activeQuestions: [],
   contentMap: { decks: [], modules: [] },
@@ -60,6 +62,7 @@ const els = {
   bankCardCount: document.querySelector("#bankCardCount"),
   dueCardCount: document.querySelector("#dueCardCount"),
   selfCardCount: document.querySelector("#selfCardCount"),
+  graphCardCount: document.querySelector("#graphCardCount"),
   dailyPlanBanner: document.querySelector("#dailyPlanBanner"),
   dailyBannerKicker: document.querySelector("#dailyBannerKicker"),
   dailyBannerTitle: document.querySelector("#dailyBannerTitle"),
@@ -89,6 +92,7 @@ const els = {
   questionMastery: document.querySelector("#questionMastery"),
   questionSource: document.querySelector("#questionSource"),
   questionText: document.querySelector("#questionText"),
+  questionVisual: document.querySelector("#questionVisual"),
   options: document.querySelector("#options"),
   feedback: document.querySelector("#feedback"),
   resultLine: document.querySelector("#resultLine"),
@@ -178,6 +182,7 @@ function cardProgress(id) {
 }
 
 function deckQuestions(deck) {
+  if (deck === GRAPH_DECK) return state.graphQuestions;
   if (deck === "all") return state.allQuestions;
   return state.allQuestions.filter((question) => question.deck === deck);
 }
@@ -326,6 +331,7 @@ function updateHome() {
   els.bankCardCount.textContent = `${deckQuestions("question-bank").length} cards`;
   els.dueCardCount.textContent = `${state.reviewIds.size} cards`;
   els.selfCardCount.textContent = `${deckQuestions("self-assessment").length} cards`;
+  els.graphCardCount.textContent = `${deckQuestions(GRAPH_DECK).length} cards`;
   renderDailyPlanBanner();
   renderTopics();
   renderLectures();
@@ -467,6 +473,115 @@ function chooseWeightedRandomQuestion(pool) {
   return scored[scored.length - 1]?.question || null;
 }
 
+function svgElement(name, attrs = {}) {
+  const element = document.createElementNS("http://www.w3.org/2000/svg", name);
+  Object.entries(attrs).forEach(([key, value]) => element.setAttribute(key, value));
+  return element;
+}
+
+function addSvgText(svg, text, x, y, className, anchor = "middle") {
+  const label = svgElement("text", { x, y, class: className, "text-anchor": anchor });
+  label.textContent = text;
+  svg.append(label);
+  return label;
+}
+
+function graphTicks(range, count = 4) {
+  const [min, max] = range;
+  const step = (max - min) / count;
+  return Array.from({ length: count + 1 }, (_, index) => ({
+    value: min + step * index,
+    label: Number.isInteger(min + step * index)
+      ? String(min + step * index)
+      : (min + step * index).toFixed(2).replace(/0+$/, "").replace(/\.$/, "")
+  }));
+}
+
+function graphPointMapper(visual, width, height, margin) {
+  const [xMin, xMax] = visual.xRange;
+  const [yMin, yMax] = visual.yRange;
+  const plotWidth = width - margin.left - margin.right;
+  const plotHeight = height - margin.top - margin.bottom;
+
+  return {
+    x: (value) => margin.left + ((value - xMin) / (xMax - xMin)) * plotWidth,
+    y: (value) => margin.top + (1 - (value - yMin) / (yMax - yMin)) * plotHeight
+  };
+}
+
+function renderQuestionVisual(visual) {
+  els.questionVisual.replaceChildren();
+
+  if (!visual || visual.type !== "svg-graph") {
+    els.questionVisual.hidden = true;
+    return;
+  }
+
+  const width = 680;
+  const height = 360;
+  const margin = { top: 34, right: 24, bottom: 56, left: 68 };
+  const map = graphPointMapper(visual, width, height, margin);
+  const figure = document.createElement("figure");
+  const caption = document.createElement("figcaption");
+  const svg = svgElement("svg", {
+    viewBox: `0 0 ${width} ${height}`,
+    role: "img",
+    "aria-label": visual.title || "Question graph"
+  });
+
+  caption.textContent = visual.title || "Question graph";
+  figure.append(caption, svg);
+
+  svg.append(svgElement("rect", {
+    x: margin.left,
+    y: margin.top,
+    width: width - margin.left - margin.right,
+    height: height - margin.top - margin.bottom,
+    class: "graph-plot"
+  }));
+
+  const xAxisY = height - margin.bottom;
+  const yAxisX = margin.left;
+  svg.append(svgElement("line", { x1: yAxisX, y1: margin.top, x2: yAxisX, y2: xAxisY, class: "graph-axis" }));
+  svg.append(svgElement("line", { x1: yAxisX, y1: xAxisY, x2: width - margin.right, y2: xAxisY, class: "graph-axis" }));
+
+  (visual.xTicks || graphTicks(visual.xRange)).forEach((tick) => {
+    const x = map.x(tick.value);
+    svg.append(svgElement("line", { x1: x, y1: xAxisY, x2: x, y2: xAxisY + 5, class: "graph-axis" }));
+    addSvgText(svg, tick.label, x, xAxisY + 20, "graph-tick");
+  });
+
+  (visual.yTicks || graphTicks(visual.yRange)).forEach((tick) => {
+    const y = map.y(tick.value);
+    svg.append(svgElement("line", { x1: yAxisX - 5, y1: y, x2: yAxisX, y2: y, class: "graph-axis" }));
+    addSvgText(svg, tick.label, yAxisX - 10, y + 4, "graph-tick", "end");
+  });
+
+  (visual.series || []).forEach((series) => {
+    if (series.kind !== "polyline") return;
+    const points = series.points.map(([x, y]) => `${map.x(x)},${map.y(y)}`).join(" ");
+    svg.append(svgElement("polyline", { points, class: `graph-line ${series.className || ""}`.trim() }));
+  });
+
+  (visual.markers || []).forEach((marker) => {
+    const x = map.x(marker.x);
+    const y = map.y(marker.y);
+    svg.append(svgElement("circle", { cx: x, cy: y, r: marker.r ?? 5, class: `graph-marker ${marker.className || ""}`.trim() }));
+    addSvgText(svg, marker.label, x + (marker.dx ?? 12), y + (marker.dy ?? -10), "graph-marker-label", marker.anchor || "start");
+  });
+
+  (visual.labels || []).forEach((label) => {
+    addSvgText(svg, label.text, map.x(label.x), map.y(label.y), `graph-label ${label.className || ""}`.trim(), label.anchor || "middle");
+  });
+
+  addSvgText(svg, visual.xLabel || "x", width / 2, height - 14, "graph-axis-label");
+  const yLabel = addSvgText(svg, visual.yLabel || "y", 16, height / 2, "graph-axis-label");
+  yLabel.setAttribute("transform", `rotate(-90 16 ${height / 2})`);
+
+  els.questionVisual.append(figure);
+  els.questionVisual.hidden = false;
+}
+
 function courseMastery() {
   if (!state.activeQuestions.length) return 0;
   return Math.round((masteredIn(state.activeQuestions) / state.activeQuestions.length) * 100);
@@ -528,6 +643,7 @@ function renderQuestion() {
   els.questionSection.textContent = question.section;
   els.questionMastery.textContent = masteryLabel(question);
   els.questionText.textContent = question.question;
+  renderQuestionVisual(question.visual);
   els.feedback.hidden = true;
   els.resultLine.className = "result-line";
   els.explanation.textContent = "";
@@ -622,6 +738,7 @@ function renderEmptyDeck(emptyDeck) {
     ? "No review cards are due right now."
     : `${state.currentTitle} does not have generated cards yet.`;
   els.options.replaceChildren();
+  renderQuestionVisual(null);
   els.feedback.hidden = false;
   els.resultLine.className = "result-line";
   els.resultLine.textContent = isDueReview
@@ -649,7 +766,9 @@ async function init() {
   window.setInterval(updateCountdown, 60 * 1000);
   const decoratedQuestions = decorateQuestions(window.TMM_QUESTIONS || []);
   state.skippedQuestions = decoratedQuestions.filter((question) => !isStudyReady(question));
-  state.allQuestions = decoratedQuestions.filter(isStudyReady);
+  const readyQuestions = decoratedQuestions.filter(isStudyReady);
+  state.graphQuestions = readyQuestions.filter((question) => question.deck === GRAPH_DECK);
+  state.allQuestions = readyQuestions.filter((question) => question.deck !== GRAPH_DECK);
   state.contentMap = window.TMM_CONTENT_MAP || { decks: [], modules: [] };
   loadProgress();
   updateHome();
@@ -669,9 +788,10 @@ document.querySelectorAll("[data-study]").forEach((button) => {
     } else {
       const isPastExam = study === "question-bank";
       const isSelfAssessment = study === "self-assessment";
+      const isGraph = study === GRAPH_DECK;
       startSession({
         title: button.querySelector("strong").textContent,
-        subtitle: isPastExam ? "Past exam bank" : isSelfAssessment ? "Self-test bank" : "Study set",
+        subtitle: isPastExam ? "Past exam bank" : isSelfAssessment ? "Self-test bank" : isGraph ? "Graph practice" : "Study set",
         questions: deckQuestions(study),
         deck: study,
         shuffleQuestions: isPastExam,
