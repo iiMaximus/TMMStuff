@@ -124,10 +124,10 @@ window.TMM_QUESTIONS = [
       "C": "alpha-ferrite + gamma",
       "D": "Liquid + delta-ferrite"
     },
-    "correctAnswer": "D",
-    "explanation": "D is correct because the upper-left peritectic region of the Fe-C diagram contains liquid plus delta-ferrite before the peritectic transformation. A is wrong because alpha-ferrite is the low-temperature BCC ferrite, not the high-temperature ferrite in contact with liquid. B is wrong because gamma plus delta-ferrite is a solid-solid two-phase field, not the liquid-containing field. C is wrong because alpha-ferrite plus gamma is the lower-temperature intercritical field.",
-    "relevantTheory": "In the Fe-Fe3C diagram, delta-ferrite is the high-temperature BCC solid solution; near the peritectic reaction the relevant two-phase field is liquid plus delta-ferrite.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/fec-r-j-source.jpg",
+    "correctAnswer": "B",
+    "explanation": "B is correct because the R label sits in the small solid-solid wedge just below the peritectic line, where gamma-austenite and delta-ferrite coexist. A is wrong because alpha-ferrite is the low-temperature ferrite and is not part of this high-temperature peritectic corner. C is wrong because alpha-ferrite plus gamma belongs to the much lower-temperature intercritical region. D is wrong because liquid plus delta-ferrite lies above/adjacent to the peritectic line, not in the R wedge shown.",
+    "relevantTheory": "In the Fe-Fe3C diagram, delta-ferrite is the high-temperature BCC solid solution and gamma is austenite. Around the peritectic corner, distinguish liquid-containing fields above the peritectic from the solid-solid gamma + delta-ferrite field below it.",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 24-28; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 2-3; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/fec-r-j-source.jpg",
     "visual": {
       "type": "image",
       "title": "Original Fe-C exam figure: H, R and J",
@@ -159,7 +159,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because the J point in the Fe-C diagram corresponds to the peritectic reaction, where liquid plus delta-ferrite transform to austenite. A is wrong because the eutectic point is at about 4.3%C and 1147-1148 °C. B is wrong because the Curie temperature concerns magnetic transformation, not an invariant phase reaction. D is wrong because the eutectoid point is at about 0.76%C and 727 °C.",
     "relevantTheory": "The three key invariant reactions in the Fe-C system are eutectoid, eutectic, and peritectic; the peritectic occurs at about 0.16%C and 1493 °C.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 3; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/fec-r-j-source.jpg",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 29-33; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 3; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/fec-r-j-source.jpg",
     "visual": {
       "type": "image",
       "title": "Original Fe-C exam figure: H, R and J",
@@ -256,7 +256,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because the horizontal eutectoid/austenite-pearlite transformation temperature used in the TTT diagram is A1. A is wrong because A2 is related to magnetic transformation, not the eutectoid transformation line in the TTT diagram. B is wrong because A3 is the austenite/ferrite boundary for hypoeutectoid steels. D is wrong because Acm is the austenite/cementite solubility boundary for hypereutectoid steels.",
     "relevantTheory": "A1 is the eutectoid critical temperature for austenite to pearlite transformation; A3 and Acm define the austenite boundaries on the Fe-C phase diagram.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 3; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-2; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/ttt-c-r-source.jpg",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 44-48; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 3; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-2; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/ttt-c-r-source.jpg",
     "visual": {
       "type": "image",
       "title": "Original TTT exam figure: C line and R field",
@@ -288,7 +288,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because in the pearlitic transformation field of a TTT diagram, the partially transformed region contains pearlite plus remaining austenite. A is wrong because ferrite plus austenite applies to the ferrite transformation field, not the pearlitic field. B is wrong because below A1 the remaining austenite is not stable equilibrium austenite. C is wrong because cementite alone plus austenite is not the usual pearlitic transformation field; pearlite is the ferrite-cementite lamellar microconstituent.",
     "relevantTheory": "In a TTT diagram, transformation fields indicate partial transformation of austenite into products such as pearlite or bainite; before completion, the field contains the transformation product plus residual austenite.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 9 and 19; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 7; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/ttt-c-r-source.jpg",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 49-53; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 9 and 19; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 7; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/ttt-c-r-source.jpg",
     "visual": {
       "type": "image",
       "title": "Original TTT exam figure: C line and R field",
@@ -625,7 +625,7 @@ window.TMM_QUESTIONS = [
       "grain refinement"
     ],
     "diagramRequired": false,
-    "question": "Increased undercooling during aluminium-alloy solidification most directly strengthens by:",
+    "question": "In the course solidification logic, increased undercooling during aluminium-alloy solidification most directly strengthens by:",
     "options": {
       "A": "Solid solution",
       "B": "phase transformation",
@@ -633,8 +633,8 @@ window.TMM_QUESTIONS = [
       "D": "grain refinement"
     },
     "correctAnswer": "D",
-    "explanation": "D is correct because undercooling during solidification promotes nucleation and therefore finer grains, which strengthen by grain refinement. A is wrong because solid solution strengthening depends on solute atoms in the lattice, not directly on undercooling. B is wrong because aluminium alloys do not strengthen by the steel-like austenite transformation mechanism. C is wrong because through-grain precipitation is related to aging after solution treatment and quenching, not the immediate effect of solidification undercooling.",
-    "relevantTheory": "During solidification, increased nucleation relative to growth refines grain size; grain refinement strengthens by hindering dislocation motion at grain boundaries.",
+    "explanation": "D is correct because increased undercooling during solidification promotes nucleation and therefore finer grains, which strengthen by grain refinement. A is wrong because solid solution strengthening depends on solute atoms in the lattice, not directly on undercooling. B is wrong because aluminium alloys do not strengthen by the steel-like austenite transformation mechanism. C is wrong because through-grain precipitation is related to aging after solution treatment and quenching, not the immediate effect of solidification undercooling.",
+    "relevantTheory": "During solidification, increased undercooling raises the driving force for nucleation. More nuclei relative to growth gives finer grains; grain refinement strengthens by adding grain-boundary obstacles to dislocation motion. Do not confuse this with small undercooling, which gives fewer nuclei and coarser crystals.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions Shaping by melting.pdf, p. 1; slides&docs/Lecture 14 Aluminum Alloys 2026.pdf, pp. 1-2"
   },
   {
@@ -803,7 +803,7 @@ window.TMM_QUESTIONS = [
       "application"
     ],
     "diagramRequired": false,
-    "question": "Small interstitial atoms diffuse faster in BCC than in FCC crystal because:",
+    "question": "Small interstitial solute atoms diffuse faster in BCC than in FCC crystal because:",
     "options": {
       "A": "the BCC lattice is less closely packed and offers easier interstitial jump pathways",
       "B": "smaller size of interstitials sites",
@@ -811,8 +811,8 @@ window.TMM_QUESTIONS = [
       "D": "less defects"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct in the course's intended interstitial-diffusion sense because BCC iron is less closely packed and offers easier jump pathways than close-packed FCC austenite. The original past-exam wording says Fe atom, but the lecture trap is really about small interstitial solute diffusion versus carbon solubility. B is wrong because simply having smaller interstitial holes explains lower solubility, not faster diffusion. C is wrong because the BCC/FCC difference is structural, not only a high-temperature effect. D is wrong because fewer defects are not the reason for faster diffusion.",
-    "relevantTheory": "Diffusion depends on crystal structure, atom type, available jump pathways and activation energy. FCC austenite has larger interstitial holes and higher carbon solubility, while BCC ferrite is more open and can allow faster interstitial diffusion.",
+    "explanation": "A is correct in the course's intended interstitial-diffusion sense because BCC iron is less closely packed and offers easier jump pathways than close-packed FCC austenite. B is wrong because simply having smaller interstitial holes explains lower solubility, not faster diffusion. C is wrong because the BCC/FCC difference is structural, not only a high-temperature effect. D is wrong because fewer defects are not the reason for faster diffusion.",
+    "relevantTheory": "Diffusion depends on crystal structure, atom type, available jump pathways and activation energy. In the lecture trap, FCC austenite has larger interstitial holes and therefore higher carbon solubility, while BCC ferrite is less closely packed and allows faster interstitial diffusion. This card concerns small interstitial solutes, not substitutional self-diffusion of Fe atoms.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions on Diffusion.pdf, p. 1; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 6-7"
   },
   {
@@ -1068,11 +1068,11 @@ window.TMM_QUESTIONS = [
       "A": "it is a microstructure insensitive property",
       "B": "it is always isotropic",
       "C": "it can be derived from the Condon-Morse curve",
-      "D": "it measures the softness of crystals"
+      "D": "it is connected with bond softness/stiffness in the Condon-Morse picture"
     },
     "correctAnswer": "B",
-    "explanation": "B is correct because thermal expansion is not always isotropic; crystal anisotropy and texture can make expansion direction-dependent. A is wrong because thermal expansion is treated as mostly bond-controlled and microstructure-insensitive compared with yield strength or toughness. C is wrong because the Condon-Morse potential explains thermal expansion through asymmetric bonding energy. D is a misleading statement, but the exam trap on thermal expansion is that it is not always isotropic; softness is instead related to stiffness/elastic modulus, not thermal expansion.",
-    "relevantTheory": "Thermal expansion comes from interatomic bonding and the asymmetry of the potential-energy curve. It is an intrinsic property, but anisotropic crystals can expand differently along different directions.",
+    "explanation": "B is correct because thermal expansion is not always isotropic; crystal anisotropy and texture can make expansion direction-dependent. A is wrong because thermal expansion is treated as mostly bond-controlled and microstructure-insensitive compared with yield strength or toughness. C is wrong because the Condon-Morse potential explains thermal expansion through asymmetric bonding energy. D is wrong as the false choice because, in the Condon-Morse treatment, bond stiffness/softness is connected with the curvature and asymmetry of the interatomic potential.",
+    "relevantTheory": "Thermal expansion comes from interatomic bonding and the asymmetry of the potential-energy curve. Stiffer, deeper bonds generally give lower expansion; softer/asymmetric bonds give larger expansion. It is an intrinsic property, but anisotropic crystals can expand differently along different directions.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 3 Condon Morse Microstructure Anisotropy (1).pdf, pp. 2-4; TMM.txt"
   },
   {
@@ -1360,13 +1360,13 @@ window.TMM_QUESTIONS = [
     "question": "It is FALSE on the advantages of pure metals vs. alloys that pure metals are:",
     "options": {
       "A": "> ductile",
-      "B": "> corrosion resistant",
+      "B": "often less affected by multiphase galvanic microcells",
       "C": "tougher",
       "D": "stiffer"
     },
     "correctAnswer": "D",
-    "explanation": "D is correct because stiffness is mainly controlled by interatomic bonding, so alloying usually changes Young modulus only slightly; pure metals are not generally selected because they are stiffer than alloys. A is wrong because pure metals are often more ductile than alloys due to fewer obstacles to dislocation motion. B is not the main false statement in this exam context because some pure metals can show good corrosion behavior through passivation or absence of galvanic microconstituents. C is not the best false statement because pure metals can be tougher/more ductile than strengthened alloys, depending on microstructure.",
-    "relevantTheory": "Alloying usually increases strength by impeding dislocation motion, but often reduces ductility. Stiffness is an intrinsic bond-controlled property and is much less microstructure-sensitive than yield strength.",
+    "explanation": "D is correct because stiffness is mainly controlled by interatomic bonding, so alloying usually changes Young modulus only slightly; pure metals are not generally selected because they are stiffer than alloys. A is wrong because pure metals are often more ductile than alloys due to fewer obstacles to dislocation motion. B is wrong as the false choice because a chemically simple, single-phase pure metal can avoid some multiphase micro-galvanic effects, even though corrosion resistance is not universally higher for every pure metal. C is not the best false statement because pure metals can be tougher/more ductile than strengthened alloys, depending on microstructure.",
+    "relevantTheory": "Alloying usually increases strength by impeding dislocation motion, but often reduces ductility. Corrosion depends strongly on composition, passivation and micro-galvanic coupling, so broad corrosion claims need context. Stiffness is an intrinsic bond-controlled property and is much less microstructure-sensitive than yield strength.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; slides&docs/Lecture 2 Metals.pdf, p. 1; slides&docs/Lecture 5 Strengthening of Metals.pdf, p. 1"
   },
   {
@@ -1831,7 +1831,7 @@ window.TMM_QUESTIONS = [
       "trap"
     ],
     "diagramRequired": false,
-    "question": "A NON-influencing factor for weldability of low carbon steels is:",
+    "question": "In the simplified past-exam treatment, the least direct factor for weldability of low-carbon steels is:",
     "options": {
       "A": "%Ni",
       "B": "%C",
@@ -1839,7 +1839,7 @@ window.TMM_QUESTIONS = [
       "D": "hardenability of elements"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because low-carbon steel weldability is governed most strongly by carbon content, hardenability/carbon equivalent, and HAZ microstructure; Ni is not the main factor for ordinary low-carbon steels in this exam context. B is wrong because carbon content strongly affects weldability and martensite risk. C is wrong because grain size affects toughness and HAZ behavior. D is wrong because hardenability of alloying elements directly affects the risk of hard brittle weld zones.",
+    "explanation": "A is correct in the simplified exam treatment because low-carbon steel weldability is governed most strongly by carbon content, hardenability/carbon equivalent, and HAZ microstructure; %Ni alone is not the main first check for ordinary low-carbon steels. B is wrong because carbon content strongly affects weldability and martensite risk. C is wrong because grain size affects toughness and HAZ behavior. D is wrong because hardenability of alloying elements directly affects the risk of hard brittle weld zones.",
     "relevantTheory": "Weldability of low-carbon steels is controlled mainly by whether welding creates a hard, brittle heat-affected zone. Carbon is the strongest simple warning sign because it increases hardenability and martensite risk during rapid weld cooling. Carbon equivalent formulas extend this idea by adding the hardenability effect of alloying elements such as Mn, Cr, Mo, V, Ni and Cu. Good weldability therefore means low carbon or carbon equivalent, controlled HAZ microstructure, adequate toughness and limited cracking tendency; it is not judged by the mere presence of one alloy name.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt; Self-assesment questions/self-assessment questions on steels.pdf, p. 1; slides&docs/Lecture 10 Thermal Chemical Treatment of Steels.pdf, p. 1"
   },
@@ -5093,7 +5093,7 @@ window.TMM_QUESTIONS = [
       "D": "It is identical to the externally applied tensile stress for every crystal orientation."
     },
     "correctAnswer": "D",
-    "explanation": "D is correct because tau_CRSS is not automatically equal to the applied tensile stress; the tensile stress must be projected by the Schmid factor. A is wrong because that is the definition. B is wrong because the slide states tau_CRSS is a material property closely related to sigma_y. C is wrong because tau_RSS > tau_CRSS is the condition for slip activation.",
+    "explanation": "D is the NOT TRUE clause because tau_CRSS is not automatically equal to the applied tensile stress; the tensile stress must be projected by the Schmid factor. A is a true statement because tau_CRSS is the critical shear stress for dislocation motion on a slip system. B is true because the slide states tau_CRSS is a material property closely related to sigma_y. C is true because tau_RSS > tau_CRSS is the condition for slip activation.",
     "relevantTheory": "CRSS is the shear threshold for slip. In a tensile test, the applied tensile stress required to yield depends on crystal orientation through tau_RSS = sigma m; therefore sigma_y and tau_CRSS are related but not identical for every orientation.",
     "source": "slides&docs/Lecture 4 Microplasticity (1).pdf, pp. 4-6; PAST_EXAMS/QUESTIONS_SET_1.txt, style sample only"
   },
@@ -15181,11 +15181,11 @@ window.TMM_QUESTIONS = [
       "recrystallization"
     ],
     "diagramRequired": false,
-    "question": "The strengthening method which induces grain refinement is:",
+    "question": "The strengthening route which induces grain refinement is:",
     "options": {
       "A": "Aging",
       "B": "Solid solution",
-      "C": "Cold work",
+      "C": "Cold work followed by recrystallization",
       "D": "Precipitation at grain boundaries"
     },
     "correctAnswer": "C",
@@ -15342,10 +15342,10 @@ window.TMM_QUESTIONS = [
       "A": "Steel alloying",
       "B": "Trap impurities",
       "C": "Decrease the melting point of iron ores",
-      "D": "Prevent oxidation of pig iron"
+      "D": "Contribute to slag formation and separation/protection of the liquid metal"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because limestone is a flux in the blast furnace, not an alloying addition used to set the final steel composition. B is wrong because limestone decomposes to CaO, which reacts with SiO2 and Al2O3 to form slag and purify the melt. C is wrong because the notes explicitly say limestone/fluxing facilitates melting of the high-melting iron-ore charge. D is the tricky wording: the main reducing chemistry comes from coke/CO, but the limestone-derived slag/flux environment helps separate and cover the liquid metal; the clearly non-limestone role is steel alloying.",
+    "explanation": "A is correct because limestone is a flux in the blast furnace, not an alloying addition used to set the final steel composition. B is wrong because limestone decomposes to CaO, which reacts with SiO2 and Al2O3 to form slag and purify the melt. C is wrong because the notes explicitly say limestone/fluxing facilitates melting of the high-melting iron-ore charge. D is wrong because the limestone-derived slag/flux environment helps separate impurities from the liquid metal and can act as a cover; the clearly non-limestone role is steel alloying.",
     "relevantTheory": "The blast furnace charge alternates iron ore, coke, and limestone. Coke supplies heat and CO reducing gas. Limestone, mainly CaCO3, decomposes to CaO; CaO combines with gangue oxides to form slag. This flux/purification role is separate from alloy design, which is adjusted later in steelmaking or ladle operations.",
     "source": "PAST_EXAMS/QUESTION_SET_3.txt, Session of July 3rd, 2023 (and Feb 20, 2023), Q15; slides&docs/Lecture 8 Modern Production of Steels.pdf, slide/page 3; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-101-130.pdf, pages 10-13"
   },
@@ -17677,7 +17677,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because the K point for a 1%C steel lies in the austenite plus cementite region with austenite as the overwhelmingly dominant phase; on rapid quenching, that austenite transforms mainly to martensite. A and D are too low because they would imply a large pre-existing cementite fraction at K. B is wrong because only a very small fraction would be non-austenitic before quenching, not the martensite fraction.",
     "relevantTheory": "For a hyper-eutectoid steel just above A1, the phases are austenite plus pro-eutectoid cementite. The austenite fraction can be estimated with the lever rule between the eutectoid austenite composition and cementite; for 1 wt%C it is very high, so quenching from that point gives almost all martensite plus a small amount of cementite or retained austenite depending on conditions.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 128-132; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-3",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 128-132; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-3",
     "visual": {
       "type": "image",
       "title": "Original Fe-C exam figure: K point highlighted",
@@ -17709,7 +17709,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "D",
     "explanation": "D is correct because a 1%C steel is hyper-eutectoid and the K point lies in the austenite plus cementite field; the requested format puts the minor pro-eutectoid phase before the dominant austenite, so Cem/A is the intended answer. A is wrong because ferrite plus pearlite is a low-temperature hypoeutectoid mixture. B contains the same phases but reverses the requested format. C is wrong because ferrite is not the pro-eutectoid phase for a 1%C hyper-eutectoid steel.",
     "relevantTheory": "Below and near the eutectoid composition, hypo-eutectoid steels form pro-eutectoid ferrite plus austenite before the eutectoid reaction. Above the eutectoid composition, hyper-eutectoid steels form pro-eutectoid cementite plus austenite. At 1 wt%C just above A1, austenite is dominant and cementite is the pro-eutectoid phase.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 133-137; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 133-137; exams_images/photo_2026-02-13 21.45.29.jpeg; assets/exam-graphs/fec-1c-k-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7",
     "visual": {
       "type": "image",
       "title": "Original Fe-C exam figure: K point highlighted",
@@ -17834,9 +17834,9 @@ window.TMM_QUESTIONS = [
       "C": "Cementite+A",
       "D": "Cementite+Ferrite"
     },
-    "correctAnswer": "A",
-    "explanation": "A is correct because in this specific Fe-C figure the R label is on the hypo-eutectoid side between the A3 boundary and the A1 temperature, where the two phases are ferrite plus austenite. B is wrong because pearlite is a microconstituent formed below A1, not the phase field labelled R. C is wrong for this figure because cementite plus austenite is the hyper-eutectoid field on the right of the eutectoid composition, not the shown R field. D is wrong because cementite plus ferrite is the low-temperature equilibrium product below A1, not the R region here.",
-    "relevantTheory": "Region labels such as R are not universal; the answer depends on where the label sits in the shown diagram. In the Fe-C diagram, the field between A3 and A1 on the left of the eutectoid composition is ferrite plus austenite, while the field between Acm and A1 on the right is austenite plus cementite. Below A1 the equilibrium phases are ferrite plus cementite, often arranged as pearlite plus any pro-eutectoid phase.",
+    "correctAnswer": "D",
+    "explanation": "D is correct because in this specific Fe-C figure the R label is below the A1/eutectoid horizontal, where the equilibrium phases are ferrite and cementite. A is wrong because ferrite plus austenite is the intercritical field above A1 on the hypo-eutectoid side. B is wrong because austenite plus pearlite is not the phase field below A1. C is wrong because cementite plus austenite is the hyper-eutectoid field above A1, not the low-temperature R region.",
+    "relevantTheory": "Region labels such as R are not universal; the answer depends on where the label sits in the shown diagram. In the Fe-C diagram, fields above A1 can contain austenite plus ferrite or austenite plus cementite. Below A1 the equilibrium phases are ferrite plus cementite, often organized as pearlite plus any pro-eutectoid constituent.",
     "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 36-40; exams_images/photo_2026-02-13 21.45.33.jpeg; assets/exam-graphs/fec-feb2023-q-r-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, pp. 5-7",
     "visual": {
       "type": "image",
@@ -17895,9 +17895,9 @@ window.TMM_QUESTIONS = [
       "C": "50%P + 50%TM-BL",
       "D": "50%P + 50%AR"
     },
-    "correctAnswer": "A",
-    "explanation": "A is correct because the path first forms about half pearlite, then most of the remaining austenite transforms in the bainitic/lower-bainitic region, with only a small retained-austenite residue at point 2. B is wrong because it replaces the bainitic product with tempered-martensite wording even though the path is read in the bainitic field. C is wrong because it leaves no retained austenite, while the end point still indicates a small residual fraction. D is wrong because it ignores the second transformation step and leaves too much austenite untransformed.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. For staged paths, sum the fraction already transformed at each hold and apply later products only to the austenite still remaining.",
+    "correctAnswer": "B",
+    "explanation": "B is correct because the path first forms about half pearlite, then the remaining austenite is taken into the low-temperature martensitic/lower-bainitic part of the diagram, giving about 45% TM+BL and about 5% retained austenite. A is wrong because pure BL omits the martensitic/tempered-martensitic contribution indicated by the drop below the bainitic range. C is wrong because it leaves no retained austenite, while the end point still indicates a small residual fraction. D is wrong because it ignores the second transformation step and leaves too much austenite untransformed.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. For staged paths, sum the fraction already transformed at each hold and apply later products only to the austenite still remaining. When the path enters the low-temperature region below Ms/near M90, the exam labels the product as martensitic or tempered-martensitic plus possible lower bainite, with retained austenite left over.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 64-68; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/ttt-c-r-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -18039,10 +18039,10 @@ window.TMM_QUESTIONS = [
     "trapTags": [
       "cementite fraction",
       "lever rule",
-      "pearlite"
+      "pearlite vs total fraction"
     ],
     "diagramRequired": false,
-    "question": "From the Co alloy figure, estimate the cementite proportion in pearlite at Co and To.",
+    "question": "From the Co alloy figure, the source asks for cementite proportion in P at Co and To; which option matches the professor's intended total-cementite shorthand?",
     "options": {
       "A": "0.4-6.6/7%",
       "B": "0.4/7%",
@@ -18050,8 +18050,8 @@ window.TMM_QUESTIONS = [
       "D": "0.5-6.6/7%"
     },
     "correctAnswer": "B",
-    "explanation": "B is correct because the exam shorthand estimates the cementite in pearlite for about 0.4%C steel as roughly carbon divided by the cementite carbon content, i.e. about 0.4/6.67, rounded as 0.4/7. A is wrong because subtracting from 6.6 reverses the lever-rule numerator and gives the ferrite-rich side, not cementite. C is wrong because 0.5% is far too small and is not a lever-rule expression. D is wrong because it uses the wrong side of the tie line and the wrong numerator for cementite.",
-    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Cementite is Fe3C with about 6.67%C, so its fraction in ferrite-cementite mixtures is estimated from the carbon balance.",
+    "explanation": "B is correct because the exam shorthand estimates the total cementite in the whole 0.4%C steel as roughly carbon divided by the cementite carbon content, i.e. about 0.4/6.67, rounded as 0.4/7. The original wording says cementite in P, but this option only makes sense as the total cementite fraction in the alloy; cementite inside pearlite would be about 11%. A is wrong because subtracting from 6.6 reverses the lever-rule numerator and gives the ferrite-rich side, not cementite. C is wrong because 0.5% is far too small and is not a lever-rule expression. D is wrong because it uses the wrong side of the tie line and the wrong numerator for cementite.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Do not confuse total cementite in the whole alloy with cementite inside pearlite. A 0.4%C steel contains about 0.4/6.67 total cementite by carbon balance, while pearlite itself has the eutectoid composition and contains about 11% cementite by mass.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 227-231; exams_images/photo_2026-02-13 21.45.52.jpeg; assets/exam-graphs/qs1-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -18446,9 +18446,9 @@ window.TMM_QUESTIONS = [
       "C": "~0.2+7%",
       "D": "50%"
     },
-    "correctAnswer": "B",
-    "explanation": "B is correct because the hypo-eutectoid Co alloy has a pearlite fraction estimated by the lever rule between ferrite and eutectoid austenite, giving roughly forty percent. A is wrong because ten percent is too low for the shown Co composition. C is wrong because this is not a meaningful percentage result for the pearlite fraction. D is wrong because fifty percent overestimates the lever-rule fraction for the shown composition.",
-    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Below A1 in hypo-eutectoid steel, final microstructure is pro-eutectoid ferrite plus pearlite; pearlite fraction equals the austenite fraction just above A1.",
+    "correctAnswer": "D",
+    "explanation": "D is correct because the hypo-eutectoid Co alloy is about 0.4%C, so the pearlite fraction at To is the austenite fraction just above A1: approximately (0.40 - 0.022)/(0.76 - 0.022), which is close to 0.5. A is wrong because ten percent is too low for the shown Co composition. B is wrong because forty percent underestimates the lever-rule fraction for a 0.4%C alloy. C is wrong because this is not a meaningful percentage result for the pearlite fraction.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Below A1 in hypo-eutectoid steel, final microstructure is pro-eutectoid ferrite plus pearlite; pearlite fraction equals the austenite fraction just above A1, approximately (C0 - C_alpha)/(C_eutectoid - C_alpha).",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 415-419; exams_images/photo_2026-02-13 21.46.03.jpeg; assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -18692,8 +18692,8 @@ window.TMM_QUESTIONS = [
       "D": "CEM+B"
     },
     "correctAnswer": "C",
-    "explanation": "C is correct because the C field is in the pearlitic transformation region with cementite participating in pearlite formation. A is wrong because cementite plus ferrite is the equilibrium phase pair but not the labelled C field product here. B is wrong because residual austenite is not the field label at C. D is wrong because bainite is a different lower-temperature product field.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Pearlite is a lamellar ferrite-cementite microconstituent, so exam labels may refer to P together with cementite when reading a TTT field.",
+    "explanation": "C is correct in the professor's source-option shorthand because the C field is associated with the pearlitic transformation region, and pearlite contains cementite as part of its lamellar ferrite-cementite structure. A is wrong because plain cementite plus ferrite names the equilibrium phase pair but misses the pearlitic product label used in this exam item. B is wrong because residual austenite is not the field label at C. D is wrong because bainite is the lower-temperature transformation product, not the C-field label here.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. The professor's options sometimes use shorthand such as CEM+P for a pearlitic transformation field; strictly, pearlite itself is ferrite plus cementite.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 519-523; exams_images/photo_2026-02-13 21.46.10.jpeg; assets/exam-graphs/qs1-n-domain-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -18836,7 +18836,7 @@ window.TMM_QUESTIONS = [
       "alloying"
     ],
     "diagramRequired": false,
-    "question": "In the facsimile Fe-C figure, A1 decreases with alloying by which element?",
+    "question": "In the Fe-C alloying question, A1 decreases with alloying by which element?",
     "options": {
       "A": "Si",
       "B": "Mo",
@@ -18846,7 +18846,7 @@ window.TMM_QUESTIONS = [
     "correctAnswer": "C",
     "explanation": "C is correct because nickel stabilizes austenite and lowers the A1 temperature in the professor-style Fe-C alloying question. A is wrong because silicon is not the listed A1-lowering answer here. B is wrong because molybdenum is not the intended austenite-stabilizer choice in this item. D is wrong because titanium is a carbide-forming/ferrite-related distractor rather than the A1-lowering element.",
     "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Alloying changes critical temperatures; Ni and Mn stabilize austenite, while elements such as Si, Mo and Ti are tested as distractors in this A1 question.",
-    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 598-602; exams_images/TMM_WRITTEN_TEST_FAC-SIMILE_for demo to students_Pagina_1.png; assets/exam-graphs/facsimile-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 598-602; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
       "title": "Facsimile Fe-C and TTT figure",
@@ -18870,12 +18870,12 @@ window.TMM_QUESTIONS = [
     "question": "In the facsimile TTT diagram, estimate the cooling products after transformation at point 2.",
     "options": {
       "A": "30%F + 35%TM-BL + 35%AR",
-      "B": "~50%F + 40%TM-BL + 10%AR",
+      "B": "~50%F + 40%BL-TM + 10%AR",
       "C": "50%F + 50%TM-BL",
       "D": "50%F + 50%AR"
     },
     "correctAnswer": "B",
-    "explanation": "B is correct because the path produces about half ferrite first, then most of the remaining austenite becomes tempered-martensitic/lower-bainitic product, leaving about ten percent residual austenite. A is wrong because it underestimates ferrite and leaves too much retained austenite. C is wrong because it ignores the retained-austenite fraction shown by the final point. D is wrong because it ignores the later lower-temperature transformation product.",
+    "explanation": "B is correct because the path produces about half ferrite first, then most of the remaining austenite becomes lower-bainitic/tempered-martensitic product, leaving about ten percent residual austenite. A is wrong because it underestimates ferrite and leaves too much retained austenite. C is wrong because it ignores the retained-austenite fraction shown by the final point. D is wrong because it ignores the later lower-temperature transformation product.",
     "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. In cooling-path questions, read both the early diffusional product and the later low-temperature product; the answer must sum to the original austenite.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 816-820; exams_images/TMM_WRITTEN_TEST_FAC-SIMILE_for demo to students_Pagina_1.png; assets/exam-graphs/facsimile-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
@@ -18985,7 +18985,7 @@ window.TMM_QUESTIONS = [
     "cardType": "graph-interpretation",
     "trapTags": [
       "Q temperature",
-      "A1",
+      "Acm",
       "TTT"
     ],
     "diagramRequired": false,
@@ -18996,9 +18996,9 @@ window.TMM_QUESTIONS = [
       "C": "A1",
       "D": "Acm"
     },
-    "correctAnswer": "C",
-    "explanation": "C is correct because Q is drawn on the lower critical/eutectoid reference line in the TTT diagram, which is A1. A is wrong because A2 is a magnetic transformation and not the TTT reference line. B is wrong because A3 is the upper critical line, not Q in this figure. D is wrong because Acm is a hyper-eutectoid Fe-C boundary, not the Q line in this TTT chart.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. TTT diagrams often include A1 and sometimes A3/Acm reference temperatures above the transformation curves; the label location determines the answer.",
+    "correctAnswer": "D",
+    "explanation": "D is correct because Q is drawn on the upper critical reference line for the AISI 1085 steel; since 1085 is slightly hyper-eutectoid, that upper critical boundary is Acm. A is wrong because A2 is a magnetic transformation and not the TTT reference line. B is wrong because A3 is the upper critical line for hypo-eutectoid steels, not this hyper-eutectoid steel. C is wrong because A1 is the lower eutectoid line, drawn separately below Q.",
+    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. For hypo-eutectoid steels the upper critical line is A3; for hyper-eutectoid steels it is Acm. AISI 1085 is above the eutectoid carbon content, so its upper critical reference is Acm rather than A3.",
     "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 49-53; exams_images/photo_2026-02-13 21.45.58.jpeg; assets/exam-graphs/qs2-july1-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -19027,9 +19027,9 @@ window.TMM_QUESTIONS = [
       "C": "no growth",
       "D": "no transformation"
     },
-    "correctAnswer": "A",
-    "explanation": "A is correct because the R-field is in the diffusional transformation region of the TTT diagram rather than the martensitic region. B is wrong because diffusionless describes martensite, not the R-field in this figure. C is wrong because growth occurs in diffusional products; the field is not defined by absence of growth. D is wrong because the field represents transformation, not no transformation.",
-    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion. Alloying elements can shift curves, and lower transformation temperature generally gives harder, less tough microstructures. Pearlite, ferrite and bainite require diffusion to some degree, while martensite is treated as diffusionless in the course.",
+    "correctAnswer": "B",
+    "explanation": "B is correct because the R-field in this specific figure is drawn in the low-temperature martensitic region below Ms/near M90, so the controlling transformation mechanism is diffusionless. A is wrong because diffusion controls pearlite, ferrite and bainite formation, but not martensite in this course treatment. C is wrong because the issue is not absence of growth but the diffusionless nature of martensite. D is wrong because transformation is occurring; it is not a no-transformation field.",
+    "relevantTheory": "In TTT diagrams, transformation kinetics come from the balance between driving force and diffusion for ferrite, pearlite and bainite. Martensite is different: it forms by a diffusionless shear-like transformation below Ms, with retained austenite possible if the path does not reach complete transformation. Always locate the field in the actual figure before choosing between diffusion and diffusionless.",
     "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 54-58; exams_images/photo_2026-02-13 21.45.58.jpeg; assets/exam-graphs/qs2-july1-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -19087,9 +19087,9 @@ window.TMM_QUESTIONS = [
       "C": "F/F/F",
       "D": "A/F/CEM"
     },
-    "correctAnswer": "D",
-    "explanation": "D is correct because the labelled positions cross austenite, ferrite, and cementite-related regions in the order asked by the W-alloy figure. A is wrong because it incorrectly makes the final field austenite instead of cementite-related. B is wrong because it ignores the changes in phase field along the plotted positions. C is wrong because it incorrectly makes all positions ferrite.",
-    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Follow the alloy line through the labelled fields; phase names change when the line crosses A3, A1 or Acm boundaries.",
+    "correctAnswer": "A",
+    "explanation": "A is correct because the A/B/C labels in the W-alloy figure correspond to austenite, ferrite and austenite in the shown hypo-eutectoid/intercritical region. B is wrong because it ignores the ferrite label. C is wrong because the labelled regions are not all ferrite. D is wrong because it incorrectly makes the final C label cementite; cementite belongs on the carbon-rich side, not this W-alloy label.",
+    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Hypo-eutectoid alloys on the low-carbon side involve ferrite plus austenite in the intercritical field; cementite is the carbon-rich Fe3C phase and is not automatically present just because a label is near a boundary.",
     "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 123-127; exams_images/OUR_EXAM.jpg; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -19147,9 +19147,9 @@ window.TMM_QUESTIONS = [
       "C": "0.4%",
       "D": "0.76%C"
     },
-    "correctAnswer": "D",
-    "explanation": "D is correct because at T(S2) the austenite in equilibrium with ferrite is read near the eutectoid composition, about 0.76%C. A is wrong because 0.2%C is the bulk alloy-side value, not the austenite endpoint. B is wrong because 0.07%C is too low and closer to ferrite-side solubility. C is wrong because 0.4% is an intermediate distractor, not the gamma endpoint shown.",
-    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. In a two-phase field, the two phases have different compositions given by the ends of the horizontal tie line, not by the bulk composition alone.",
+    "correctAnswer": "C",
+    "explanation": "C is correct because the T(S2) tie line intersects the austenite boundary at about 0.4%C in the figure. A is wrong because 0.2%C is the bulk composition of the S2 alloy, not the austenite composition at the tie-line endpoint. B is wrong because 0.07%C is the ferrite-side composition at this temperature. D is wrong because 0.76%C is the eutectoid austenite composition at A1, while T(S2) is drawn above A1.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then draw the horizontal tie line at the stated temperature. The phase compositions are the tie-line endpoints: ferrite is read from the alpha boundary, austenite from the gamma boundary, and the bulk alloy composition lies between them. Do not automatically use 0.76%C unless the tie line is the eutectoid A1 line.",
     "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 133-137; exams_images/OUR_EXAM.jpg; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -19265,12 +19265,12 @@ window.TMM_QUESTIONS = [
     "question": "For the February 2022 alloy figure, determine the carbon content in pearlite at room temperature.",
     "options": {
       "A": "0.022%",
-      "B": "0.25%",
-      "C": "0.50%",
+      "B": "0.50%",
+      "C": "0.25%",
       "D": "0.77%"
     },
     "correctAnswer": "D",
-    "explanation": "D is correct because pearlite is the eutectoid product of austenite and therefore has the eutectoid average carbon content, about 0.77%C. A is wrong because 0.022% is ferrite solubility near A1, not pearlite composition. B is wrong because 0.25% is a bulk hypo-eutectoid steel composition distractor. C is wrong because 0.50% is not the eutectoid composition.",
+    "explanation": "D is correct because pearlite is the eutectoid product of austenite and therefore has the eutectoid average carbon content, about 0.77%C. A is wrong because 0.022% is ferrite solubility near A1, not pearlite composition. B is wrong because 0.50% is not the eutectoid composition. C is wrong because 0.25% is a bulk hypo-eutectoid steel composition distractor.",
     "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Pearlite forms from eutectoid austenite; even in a hypo-eutectoid steel, pearlite itself has the eutectoid composition.",
     "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 224-228; exams_images/photo_2024-01-29_20-16-29.jpg; assets/exam-graphs/feb2022-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
@@ -19296,12 +19296,12 @@ window.TMM_QUESTIONS = [
     "question": "For the February 2022 alloy figure, to form the minimum proportion of austenite before quenching, the alloy must cool down to:",
     "options": {
       "A": "A3, then cool fast",
-      "B": "Acm, then cool fast",
-      "C": "Tamb, then cool fast",
+      "B": "[cut off in source image]",
+      "C": "Acm, then cool fast",
       "D": "A1, then cool fast"
     },
     "correctAnswer": "D",
-    "explanation": "D is correct because just above A1 the remaining austenite fraction is minimized before eutectoid transformation; quenching then converts only that remaining austenite to martensite. A is wrong because at A3 the steel has just entered the two-phase range and contains more austenite. B is wrong because Acm is the wrong boundary for this hypo-eutectoid alloy. C is wrong because at room temperature there is no equilibrium austenite left to quench.",
+    "explanation": "D is correct because just above A1 the remaining austenite fraction is minimized before eutectoid transformation; quenching then converts only that remaining austenite to martensite. A is wrong because at A3 the steel has just entered the two-phase range and contains more austenite. B is not the intended answer; the source crop cuts this option off. C is wrong because Acm is the wrong boundary for this hypo-eutectoid alloy.",
     "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. To minimize martensite after quenching from a hypo-eutectoid equilibrium path, cool as far as possible while retaining some austenite, namely just above A1.",
     "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 229-233; exams_images/photo_2024-01-29_20-16-29.jpg; assets/exam-graphs/feb2022-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
@@ -19477,13 +19477,13 @@ window.TMM_QUESTIONS = [
     "diagramRequired": false,
     "question": "Apply the lever rule to estimate the pearlite fraction in the 0.2%C steel figure.",
     "options": {
-      "A": "~0.2",
-      "B": "~0.5",
-      "C": "~0.35",
-      "D": "~0.65"
+      "A": "~0.2 %",
+      "B": "~0.5 %",
+      "C": "~0.35 %",
+      "D": "~0.65 %"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because for 0.2%C hypo-eutectoid steel, the pearlite fraction is approximately (0.2-0.022)/(0.76-0.022), about 0.24 and rounded to the closest option, 0.2. B is wrong because 0.5 overestimates the austenite/pearlite fraction for 0.2%C steel. C is wrong because 0.35 is still too high for the tie-line calculation. D is wrong because 0.65 would correspond to a much higher-carbon hypo-eutectoid steel.",
+    "explanation": "A is correct because for 0.2%C hypo-eutectoid steel, the pearlite fraction is approximately (0.2-0.022)/(0.76-0.022), about 0.24 and rounded to the closest source option, ~0.2. The source writes the options with percent signs, but the intended quantity is a fraction of the microstructure, about 20-25%. B is wrong because 0.5 overestimates the austenite/pearlite fraction for 0.2%C steel. C is wrong because 0.35 is still too high for the tie-line calculation. D is wrong because 0.65 would correspond to a much higher-carbon hypo-eutectoid steel.",
     "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. The pearlite fraction after slow cooling equals the austenite fraction just above A1 for a hypo-eutectoid steel.",
     "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 120-124; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
@@ -19660,7 +19660,7 @@ window.TMM_QUESTIONS = [
     "diagramRequired": false,
     "question": "In the AISI 1060 TTT path 1-4, estimate the weight fraction of cooling products.",
     "options": {
-      "A": "50%M + 40%TM-BL + 10%AR",
+      "A": "50%M + 40%TM+BL + 10%AR",
       "B": "10%P + 10%BU + 70%BL+TM + 10%AR",
       "C": "90%M + 10%TM+BL",
       "D": "50%M + 50%TM + BL"
@@ -19746,7 +19746,7 @@ window.TMM_QUESTIONS = [
     "cardType": "graph-interpretation",
     "trapTags": [
       "D field",
-      "ferrite+austenite"
+      "austenite domain"
     ],
     "diagramRequired": false,
     "question": "In the July 2024 Fe-C figure, what are the domain phases in D?",
@@ -19836,7 +19836,7 @@ window.TMM_QUESTIONS = [
     "cardType": "graph-interpretation",
     "trapTags": [
       "E domain",
-      "pearlite+austenite"
+      "ferrite+austenite"
     ],
     "diagramRequired": false,
     "question": "In the 38NiCr15 TTT diagram, what is the domain name of E?",
@@ -19846,9 +19846,9 @@ window.TMM_QUESTIONS = [
       "C": "F+A",
       "D": "P+A"
     },
-    "correctAnswer": "D",
-    "explanation": "D is correct because E is located in the pearlite transformation region with remaining austenite, so it is P+A. A is wrong because the E field is not single-phase austenite. B is wrong because cementite plus austenite is a phase-diagram field, not the labelled TTT E region. C is wrong because ferrite plus austenite is the wrong transformation region for E.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. During TTT transformation, product plus remaining austenite can coexist; labels such as P+A mean partial transformation, not final equilibrium phases only.",
+    "correctAnswer": "A",
+    "explanation": "A is correct because E lies in the untransformed-austenite region of the TTT diagram, before the relevant transformation-start curve is crossed. B is wrong because Cem+A is a Fe-C phase-field idea for hyper-eutectoid compositions, not the TTT domain marked here. C is wrong because F+A would require ferrite transformation to have started. D is wrong because P+A would require pearlite transformation to have started below the eutectoid range.",
+    "relevantTheory": "In a TTT diagram, austenite remains unchanged until the cooling or holding path crosses a transformation-start curve. Product-plus-austenite fields such as F+A, P+A, B+A or M+A mean some transformation has already begun but is incomplete. Read both the temperature line and the position relative to the start curve before naming the domain.",
     "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 239-243; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/qs3-kpoint-38nicr-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -20120,8 +20120,8 @@ window.TMM_QUESTIONS = [
       "D": "~5/6%"
     },
     "correctAnswer": "C",
-    "explanation": "C is correct because the pro-eutectoid cementite fraction is approximately (1.8-0.8)/(6.7-0.8), which is close to one sixth. A is wrong because it uses the bulk carbon directly instead of subtracting the eutectoid/austenite endpoint. B is wrong because it uses the eutectoid composition as the numerator. D is wrong because five sixths is the opposite-side fraction and much too large.",
-    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. For hyper-eutectoid steel just above/below A1, pro-eutectoid cementite is found from the tie line between eutectoid austenite and cementite.",
+    "explanation": "C is correct because the pro-eutectoid cementite fraction is approximately (1.8-0.8)/(6.7-0.8), which is close to one sixth of the microstructure, about 17%. The source writes ~1/6%, but the exam shorthand should be read as a fraction, not literally as 0.167%. A is wrong because it uses the bulk carbon directly instead of subtracting the eutectoid/austenite endpoint. B is wrong because it uses the eutectoid composition as the numerator. D is wrong because five sixths is the opposite-side fraction and much too large.",
+    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. For hyper-eutectoid steel just above/below A1, pro-eutectoid cementite is found from the tie line between eutectoid austenite and cementite. Be careful with the professor's fraction notation: 1/6 means roughly one sixth of the microstructure, not one sixth of one percent.",
     "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 108-112; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -20252,4 +20252,5 @@ window.TMM_QUESTIONS = [
       "alt": "Cropped exam TTT diagram with curve n.1."
     }
   }
-];
+]
+;
