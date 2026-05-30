@@ -24,6 +24,110 @@ const DATE_FORMATTER = new Intl.DateTimeFormat(undefined, {
   month: "short",
   day: "numeric"
 });
+const TTT_TUTORIAL_STEPS = [
+  {
+    id: "map",
+    kicker: "Step 1",
+    title: "Read the map before reading the path.",
+    text: "A TTT diagram starts from fully austenitized steel. The vertical axis is temperature, the horizontal axis is time, and the C-shaped curves tell you when austenite starts and finishes transforming at a given temperature.",
+    bullets: [
+      "Above the start curve, the structure is still austenite, A.",
+      "A1 is the eutectoid/austenite-pearlite reference line used in the professor's TTT questions.",
+      "Ms, M90 and Mf are martensite reference lines, not equilibrium Fe-C phase boundaries."
+    ],
+    rule: "First name the field. Do not jump straight to the final answer until you know whether the path is still in A, inside product + A, or below Ms.",
+    path: "M125 60 L250 60",
+    point: [250, 60],
+    label: ["100% A before transformation", 266, 54],
+    badge: "Start with austenite",
+    focus: "No product has formed until a start curve is crossed."
+  },
+  {
+    id: "start-finish",
+    kicker: "Step 2",
+    title: "Crossing a start curve means product plus remaining austenite.",
+    text: "The left C-curve is the start of transformation and the right curve or percentage line is completion. If the path enters but does not finish a region, only part of the austenite has transformed.",
+    bullets: [
+      "Inside the pearlite field, write P + A until pearlite is complete.",
+      "Inside a ferrite field, write F + A until ferrite formation finishes.",
+      "If a cooling path leaves the field early, the remaining A continues to the next lower reaction."
+    ],
+    rule: "The professor often asks for field names like P+A or M+A. The +A is the leftover austenite, not a new stable room-temperature phase.",
+    path: "M125 60 L125 150 L280 150",
+    point: [280, 150],
+    label: ["P + remaining A", 300, 142],
+    badge: "Partial transformation",
+    focus: "Product amount is controlled by how far and how long the path sits inside the region."
+  },
+  {
+    id: "bainite",
+    kicker: "Step 3",
+    title: "Place bainite between pearlite and martensite.",
+    text: "Bainite forms below the pearlite region and above Ms. The course/exam labels usually split it into upper bainite, BU, at higher bainitic temperature and lower bainite, BL, closer to Ms.",
+    bullets: [
+      "BU is the higher-temperature bainite product.",
+      "BL is the lower-temperature bainite product and is commonly grouped near martensite in exam mixtures.",
+      "The bainitic bay is a delay/notch in the TTT curves; exam traps link it to fast nucleation but slow growth or to alloying elements such as Cr, Mo or Ni in the shown steel."
+    ],
+    rule: "If the path holds in the bainite range, call the transformed part BU or BL by height on the diagram. Carry any untransformed A onward.",
+    path: "M125 60 L125 282 L245 282 L245 374",
+    point: [245, 282],
+    label: ["Partial bainite hold", 260, 272],
+    badge: "Bainite range",
+    focus: "Higher bainite field gives BU; lower bainite field gives BL."
+  },
+  {
+    id: "martensite",
+    kicker: "Step 4",
+    title: "Below Ms, remaining austenite becomes martensite only partly.",
+    text: "Martensite is diffusionless. It begins at Ms and increases as temperature falls toward M90 or Mf. If the path does not transform all austenite, the rest is residual or retained austenite, AR.",
+    bullets: [
+      "M means martensite formed from the austenite still left when the path crossed Ms.",
+      "M + AR means some austenite transformed to martensite and some remained.",
+      "More carbon and austenitizing alloying elements can lower Ms and increase residual austenite."
+    ],
+    rule: "Do not convert the whole steel to martensite if some austenite already became P, F or B earlier. Martensite only comes from the austenite still remaining.",
+    path: "M125 60 L125 365 L390 365",
+    point: [390, 365],
+    label: ["M + AR", 408, 356],
+    badge: "Quench below Ms",
+    focus: "Residual austenite is the untransformed remainder at room temperature."
+  },
+  {
+    id: "fractions",
+    kicker: "Step 5",
+    title: "For percentage questions, keep a running balance.",
+    text: "The professor's diagram questions are usually approximate. You read a fraction from the curve or labeled path, subtract it from the remaining austenite, and then continue to the next segment.",
+    bullets: [
+      "Start at 100% A.",
+      "If 50% becomes P, only the remaining 50% can later become BL, M or AR.",
+      "Final answers often look like 50%P + 45%TM+BL + 5%AR because the path produced products in stages."
+    ],
+    rule: "The right answer is the best approximate mixture from the path, not the prettiest exact calculation. If the prompt says neglect below 5%, omit tiny products.",
+    path: "M125 60 L125 150 L250 150 L250 292 L265 292 L265 374",
+    point: [265, 292],
+    label: ["Stage 2: BL/TM", 286, 280],
+    badge: "Staged answer",
+    focus: "Each product consumes only the austenite available at that moment."
+  },
+  {
+    id: "traps",
+    kicker: "Step 6",
+    title: "Watch the professor's recurring traps.",
+    text: "The graph questions mix TTT reading with Fe-C symbols, steel names and shorthand region labels. Most wrong answers come from treating every A as final austenite or forgetting which critical line is being shown.",
+    bullets: [
+      "A1, A3 and Acm are different critical lines; do not choose the familiar one automatically.",
+      "P is pearlite, a ferrite + cementite microconstituent, not a single phase.",
+      "Ni can lower Ms; hardenability promoters shift transformation curves to longer times, often down-right in the exam wording."
+    ],
+    rule: "Read the exact figure label first. Region names like R, G or C are not universal; they mean whatever field that label touches in the shown diagram.",
+    path: "M125 60 L125 118 L356 118 M125 60 L125 340 L560 340",
+    point: [560, 340],
+    label: ["Labels depend on the exact figure", 474, 332],
+    badge: "Exam traps",
+    focus: "Use the diagram's fields, not memorized letter names."
+  }
+];
 
 const state = {
   allQuestions: [],
@@ -53,6 +157,7 @@ const state = {
 const els = {
   homeScreen: document.querySelector("#homeScreen"),
   quizScreen: document.querySelector("#quizScreen"),
+  tutorialScreen: document.querySelector("#tutorialScreen"),
   countdownDays: document.querySelector("#countdownDays"),
   countdownHours: document.querySelector("#countdownHours"),
   countdownMinutes: document.querySelector("#countdownMinutes"),
@@ -73,6 +178,20 @@ const els = {
   selfGrid: document.querySelector("#selfGrid"),
   lectureFocusButton: document.querySelector("#lectureFocusButton"),
   lecturePicker: document.querySelector("#lecturePicker"),
+  tttTutorialButton: document.querySelector("#tttTutorialButton"),
+  tutorialHomeButton: document.querySelector("#tutorialHomeButton"),
+  tutorialStepButtons: document.querySelectorAll("[data-ttt-step]"),
+  tutorialKicker: document.querySelector("#tutorialKicker"),
+  tutorialStepTitle: document.querySelector("#tutorialStepTitle"),
+  tutorialStepText: document.querySelector("#tutorialStepText"),
+  tutorialStepList: document.querySelector("#tutorialStepList"),
+  tutorialProfessorRule: document.querySelector("#tutorialProfessorRule"),
+  tutorialPathLine: document.querySelector("#tutorialPathLine"),
+  tutorialPathGhost: document.querySelector("#tutorialPathGhost"),
+  tutorialPathPoint: document.querySelector("#tutorialPathPoint"),
+  tutorialPathLabel: document.querySelector("#tutorialPathLabel"),
+  tutorialPathBadge: document.querySelector("#tutorialPathBadge"),
+  tutorialLegendFocus: document.querySelector("#tutorialLegendFocus"),
   backHomeButton: document.querySelector("#backHomeButton"),
   activePath: document.querySelector("#activePath"),
   quizTitle: document.querySelector("#quizTitle"),
@@ -412,6 +531,44 @@ function choiceCard(title, count, detail) {
   return button;
 }
 
+function renderTutorialStep(index) {
+  const step = TTT_TUTORIAL_STEPS[index] || TTT_TUTORIAL_STEPS[0];
+  els.tutorialScreen.dataset.step = step.id;
+  els.tutorialStepButtons.forEach((button) => {
+    const isActive = Number(button.dataset.tttStep) === index;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-selected", String(isActive));
+  });
+
+  els.tutorialKicker.textContent = step.kicker;
+  els.tutorialStepTitle.textContent = step.title;
+  els.tutorialStepText.textContent = step.text;
+  els.tutorialStepList.replaceChildren();
+  step.bullets.forEach((bullet) => {
+    const item = document.createElement("li");
+    item.textContent = bullet;
+    els.tutorialStepList.append(item);
+  });
+  els.tutorialProfessorRule.textContent = step.rule;
+  els.tutorialPathLine.setAttribute("d", step.path);
+  els.tutorialPathGhost.setAttribute("d", step.path);
+  els.tutorialPathPoint.setAttribute("cx", step.point[0]);
+  els.tutorialPathPoint.setAttribute("cy", step.point[1]);
+  els.tutorialPathLabel.textContent = step.label[0];
+  els.tutorialPathLabel.setAttribute("x", step.label[1]);
+  els.tutorialPathLabel.setAttribute("y", step.label[2]);
+  els.tutorialPathBadge.textContent = step.badge;
+  els.tutorialLegendFocus.textContent = step.focus;
+}
+
+function showTutorial(index = 0) {
+  els.homeScreen.hidden = true;
+  els.quizScreen.hidden = true;
+  els.tutorialScreen.hidden = false;
+  renderTutorialStep(index);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 function startSession({ title, subtitle, questions, emptyDeck = null, deck = null, shuffleQuestions = false }) {
   state.currentTitle = title;
   state.currentSubtitle = subtitle;
@@ -424,6 +581,7 @@ function startSession({ title, subtitle, questions, emptyDeck = null, deck = nul
   state.recentIds = [];
   state.current = null;
   els.homeScreen.hidden = true;
+  els.tutorialScreen.hidden = true;
   els.quizScreen.hidden = false;
   els.activePath.textContent = subtitle;
   els.quizTitle.textContent = title;
@@ -774,6 +932,7 @@ function renderEmptyDeck(emptyDeck) {
 
 function goHome() {
   els.quizScreen.hidden = true;
+  els.tutorialScreen.hidden = true;
   els.homeScreen.hidden = false;
   state.current = null;
   state.answered = false;
@@ -829,6 +988,11 @@ els.restartButton.addEventListener("click", () => startSession({
   shuffleQuestions: state.shuffleQuestions
 }));
 els.backHomeButton.addEventListener("click", goHome);
+els.tutorialHomeButton.addEventListener("click", goHome);
+els.tttTutorialButton.addEventListener("click", () => showTutorial());
+els.tutorialStepButtons.forEach((button) => {
+  button.addEventListener("click", () => renderTutorialStep(Number(button.dataset.tttStep)));
+});
 els.lectureFocusButton.addEventListener("click", () => {
   els.lecturePicker.open = true;
   els.lecturePicker.scrollIntoView({ behavior: "smooth", block: "start" });

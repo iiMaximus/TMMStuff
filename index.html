@@ -92,6 +92,11 @@
             </span>
           </summary>
           <div class="source-grid">
+            <button class="home-card tutorial-card" type="button" id="tttTutorialButton">
+              <strong>TTT tutorial</strong>
+              <span>Guided method</span>
+              <small>Learn the professor's diagram shorthand for bainite, martensite and residual austenite.</small>
+            </button>
             <button class="home-card" type="button" data-study="graph-questions">
               <strong>Graph questions</strong>
               <span id="graphCardCount">0 cards</span>
@@ -126,6 +131,158 @@
           </div>
           <div class="choice-grid self-grid" id="selfGrid"></div>
         </details>
+      </section>
+
+      <section id="tutorialScreen" class="tutorial-screen" hidden>
+        <div class="quiz-top tutorial-top">
+          <button id="tutorialHomeButton" class="plain-button" type="button">Home</button>
+          <div>
+            <p class="eyebrow">TTT diagram tutorial</p>
+            <h2>Professor-style transformation reading</h2>
+          </div>
+        </div>
+
+        <section class="tutorial-hero-panel" aria-label="TTT diagram guide">
+          <div class="tutorial-intro">
+            <span class="kicker">Heat treatment map</span>
+            <h2>Read the path, keep the remaining austenite, then name the final products.</h2>
+            <p>
+              The exam trick is not artistic graph reading. It is bookkeeping: start with austenite,
+              mark every transformation region the path enters, estimate what fraction transforms,
+              and carry the rest forward until martensite or residual austenite is decided.
+            </p>
+            <div class="tutorial-pill-row" aria-label="Core TTT labels">
+              <span>A</span>
+              <span>F</span>
+              <span>P</span>
+              <span>BU</span>
+              <span>BL</span>
+              <span>M</span>
+              <span>AR</span>
+            </div>
+          </div>
+
+          <div class="ttt-visual-panel">
+            <svg class="ttt-svg" viewBox="0 0 760 460" role="img" aria-labelledby="tttDiagramTitle tttDiagramDesc">
+              <title id="tttDiagramTitle">Simplified TTT diagram with an example cooling path</title>
+              <desc id="tttDiagramDesc">A simplified TTT diagram showing austenite, pearlite, upper bainite, lower bainite, martensite start and martensite finish regions.</desc>
+              <defs>
+                <linearGradient id="tttPlotBg" x1="0" x2="1" y1="0" y2="1">
+                  <stop offset="0%" stop-color="#ffffff"></stop>
+                  <stop offset="100%" stop-color="#eef6ff"></stop>
+                </linearGradient>
+                <marker id="tttArrow" markerWidth="12" markerHeight="12" refX="9" refY="3.5" orient="auto">
+                  <path d="M0,0 L10,3.5 L0,7 Z" fill="#2f6fed"></path>
+                </marker>
+              </defs>
+
+              <rect class="ttt-plot-bg" x="70" y="34" width="650" height="372" rx="18"></rect>
+              <line class="ttt-grid" x1="118" y1="34" x2="118" y2="406"></line>
+              <line class="ttt-grid" x1="275" y1="34" x2="275" y2="406"></line>
+              <line class="ttt-grid" x1="432" y1="34" x2="432" y2="406"></line>
+              <line class="ttt-grid" x1="589" y1="34" x2="589" y2="406"></line>
+
+              <rect class="ttt-band band-austenite" x="92" y="52" width="604" height="43" rx="12"></rect>
+              <rect class="ttt-band band-pearlite" x="92" y="110" width="604" height="78" rx="14"></rect>
+              <rect class="ttt-band band-upper" x="92" y="204" width="604" height="58" rx="14"></rect>
+              <rect class="ttt-band band-lower" x="92" y="272" width="604" height="57" rx="14"></rect>
+              <rect class="ttt-band band-martensite" x="92" y="344" width="604" height="43" rx="12"></rect>
+
+              <line class="ttt-axis" x1="82" y1="390" x2="710" y2="390"></line>
+              <line class="ttt-axis" x1="82" y1="42" x2="82" y2="390"></line>
+              <text class="ttt-axis-label" x="396" y="436">time, log scale</text>
+              <text class="ttt-axis-label rotated" x="-230" y="24" transform="rotate(-90)">temperature</text>
+
+              <line class="ttt-critical a1-line" x1="92" y1="98" x2="696" y2="98"></line>
+              <line class="ttt-critical ms-line" x1="92" y1="340" x2="696" y2="340"></line>
+              <line class="ttt-critical mf-line" x1="92" y1="384" x2="696" y2="384"></line>
+              <text class="ttt-small-label" x="102" y="89">A1</text>
+              <text class="ttt-small-label" x="102" y="333">Ms</text>
+              <text class="ttt-small-label" x="102" y="378">Mf / M90</text>
+
+              <path class="ttt-region-curve ttt-start-curve" d="M148 88 C245 112 258 165 198 204 C152 232 166 275 248 306 C340 333 520 329 654 304"></path>
+              <path class="ttt-region-curve ttt-finish-curve" d="M196 92 C360 116 366 176 284 218 C226 248 250 296 338 322 C454 334 606 330 690 316"></path>
+              <text class="ttt-curve-label" x="205" y="116">start</text>
+              <text class="ttt-curve-label" x="369" y="116">finish</text>
+
+              <text class="ttt-band-label" x="610" y="80">Austenite (A)</text>
+              <text class="ttt-band-label" x="602" y="154">Pearlite (P)</text>
+              <text class="ttt-band-label" x="568" y="238">Upper bainite (BU)</text>
+              <text class="ttt-band-label" x="568" y="306">Lower bainite (BL)</text>
+              <text class="ttt-band-label" x="585" y="371">Martensite (M) + AR</text>
+
+              <path id="tutorialPathGhost" class="ttt-path-ghost" d="M125 60 L125 255 L520 255 L520 392"></path>
+              <path id="tutorialPathLine" class="ttt-path-line" d="M125 60 L125 255 L520 255 L520 392"></path>
+              <circle id="tutorialPathPoint" class="ttt-path-point" cx="520" cy="255" r="8"></circle>
+              <text id="tutorialPathLabel" class="ttt-path-label" x="538" y="246">Hold in bainite range</text>
+            </svg>
+            <div class="ttt-caption">
+              <strong id="tutorialPathBadge">Example path</strong>
+              <span id="tutorialLegendFocus">The path is drawn over a simplified teaching diagram; exam answers still depend on the exact source figure.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="tutorial-workbench" aria-label="TTT solving method">
+          <div class="tutorial-stepper" role="tablist" aria-label="TTT tutorial steps">
+            <button class="tutorial-tab is-active" type="button" data-ttt-step="0">1. Map</button>
+            <button class="tutorial-tab" type="button" data-ttt-step="1">2. Start/finish</button>
+            <button class="tutorial-tab" type="button" data-ttt-step="2">3. Bainite</button>
+            <button class="tutorial-tab" type="button" data-ttt-step="3">4. Martensite</button>
+            <button class="tutorial-tab" type="button" data-ttt-step="4">5. Fractions</button>
+            <button class="tutorial-tab" type="button" data-ttt-step="5">6. Traps</button>
+          </div>
+
+          <article class="tutorial-lesson">
+            <span class="kicker" id="tutorialKicker">Step 1</span>
+            <h2 id="tutorialStepTitle">Read the map before reading the path.</h2>
+            <p id="tutorialStepText"></p>
+            <ul id="tutorialStepList"></ul>
+            <div class="professor-rule">
+              <strong>Professor shortcut</strong>
+              <p id="tutorialProfessorRule"></p>
+            </div>
+          </article>
+        </section>
+
+        <section class="product-cheatsheet" aria-label="TTT product cheat sheet">
+          <article>
+            <strong>A / AR</strong>
+            <span>Austenite and residual austenite</span>
+            <p>A is the parent phase before transformation. AR is the austenite still left at room temperature after the path did not finish transforming it.</p>
+          </article>
+          <article>
+            <strong>F / P</strong>
+            <span>Ferrite and pearlite</span>
+            <p>Ferrite may form first in hypo-eutectoid steels. Pearlite is ferrite plus cementite lamellae; coarse at higher temperature, finer and harder lower down.</p>
+          </article>
+          <article>
+            <strong>BU / BL</strong>
+            <span>Upper and lower bainite</span>
+            <p>Upper bainite forms in the higher bainite range. Lower bainite forms closer to Ms, is finer, and is often grouped with martensitic/tempered-martensite labels in exam sketches.</p>
+          </article>
+          <article>
+            <strong>M / TM</strong>
+            <span>Martensite and tempered martensite</span>
+            <p>Martensite starts below Ms without diffusion. TM is the tempered martensite label used in several exam diagrams after martensite has been heat treated.</p>
+          </article>
+        </section>
+
+        <section class="tutorial-method-card">
+          <div>
+            <span class="kicker">Exam answer recipe</span>
+            <h2>For percentage questions, do the same bookkeeping every time.</h2>
+            <p class="tutorial-source-note">Based on Lecture 9 Steel Heat Treatment and the converted TTT graph questions from the past exams.</p>
+          </div>
+          <ol>
+            <li>Begin with 100% austenite after austenitizing.</li>
+            <li>At each hold or cooling segment, write the product whose start curve is crossed.</li>
+            <li>If the path stops inside a field, write product + remaining A, not only the product.</li>
+            <li>Carry the untransformed austenite to the next lower region.</li>
+            <li>Below Ms, convert only the reached martensite fraction; what remains at room temperature is AR.</li>
+            <li>If the exam says neglect phases below 5%, drop tiny products from the final mixture.</li>
+          </ol>
+        </section>
       </section>
 
       <section id="quizScreen" hidden>
