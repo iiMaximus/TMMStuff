@@ -11748,13 +11748,13 @@ window.TMM_QUESTIONS = [
     "diagramRequired": false,
     "question": "Which statement best explains why stainless steels are stainless?",
     "options": {
-      "A": "They contain at least about 11.5% Cr, which forms a chromium oxide passivating film on the surface.",
+      "A": "They contain at least about 10.5% Cr, which forms a chromium oxide passivating film on the surface.",
       "B": "They contain high Ni, which directly forms the protective oxide film on the surface.",
       "C": "They contain high C, which forms carbides that seal the surface against corrosion.",
       "D": "They resist corrosion because their matrix is always martensitic and therefore very hard."
     },
     "correctAnswer": "A",
-    "explanation": "A is correct: Lecture 12 defines stainless steels by excellent corrosion resistance due to high chromium, at least 11.5%, forming chromium oxide over the surface. B is wrong because Ni is important for properties such as austenite stability, corrosion performance, toughness and cold plastic deformation, but the lecture attributes the basic passivating film to Cr oxide, not Ni oxide. C is wrong because carbon carbides are not protective in this context; chromium carbides can even cause sensitization by depleting Cr near grain boundaries. D is wrong because stainless steels include ferritic, austenitic, duplex and martensitic families, and martensitic stainless steels actually have lower corrosion resistance than the others, especially in chlorides.",
+    "explanation": "A is correct: Lecture 12 defines stainless steels by excellent corrosion resistance due to high chromium, at least about 10.5%, forming chromium oxide over the surface. B is wrong because Ni is important for properties such as austenite stability, corrosion performance, toughness and cold plastic deformation, but the lecture attributes the basic passivating film to Cr oxide, not Ni oxide. C is wrong because carbon carbides are not protective in this context; chromium carbides can even cause sensitization by depleting Cr near grain boundaries. D is wrong because stainless steels include ferritic, austenitic, duplex and martensitic families, and martensitic stainless steels actually have lower corrosion resistance than the others, especially in chlorides.",
     "relevantTheory": "The key idea is passivity. A sufficiently high chromium content allows a thin, adherent chromium oxide film to form on the surface. If this film is stable and continuous, the metal underneath is protected from active corrosion. Other elements then tune the stainless grade: Ni stabilizes austenite and improves toughness/plastic deformation, Mo and N help localized corrosion resistance, and C may help hardness but can be dangerous for sensitization. Do not confuse high hardness with stainless behavior: corrosion resistance comes first from Cr passivation.",
     "source": "slides&docs/Lecture 12.pdf, slide/page 1; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, page 19"
   },
@@ -12042,7 +12042,7 @@ window.TMM_QUESTIONS = [
     "options": {
       "A": "It is an empirical composition index using terms for Cr, Mo, N and Ni to compare resistance to localized corrosion such as pitting and crevice corrosion.",
       "B": "It is a hardness number used only to rank martensitic stainless steels after quenching.",
-      "C": "It proves that pitting corrosion is irrelevant for stainless steels once the alloy contains more than 11.5% Cr.",
+      "C": "It proves that pitting corrosion is irrelevant for stainless steels once the alloy contains more than 10.5% Cr.",
       "D": "It is calculated from carbon and cementite fractions in the Fe-C diagram."
     },
     "correctAnswer": "A",
@@ -15086,7 +15086,7 @@ window.TMM_QUESTIONS = [
     },
     "correctAnswer": "B",
     "explanation": "B is correct because the X designation is used for high-alloy steels, and X10CrNiTi18-10 contains about 18% Cr and 10% Ni; the chromium level is far above the stainless threshold. A is wrong because a tempered steel grade such as C45E or 42CrMo4 is a different family in the lecture examples. C is wrong because X grades are not low-alloy grades with every element below 5%. D is wrong because tool steels may also be high alloy, but the Cr-Ni-Ti 18-10 chemistry points to a stainless steel, with Ti used as a stabilizing carbide-former in austenitic stainless grades.",
-    "relevantTheory": "In EN chemical designations, the first number after X gives carbon times 100, and the following alloy symbols and numbers identify high alloy content directly rather than by the low-alloy scaling factors. Stainless steels require high chromium, listed in the course as above about 10.5-11.5% Cr with limited carbon, because chromium forms the passivating oxide film. A Cr-Ni 18-10 type grade belongs to the stainless family; Ni stabilizes austenite, and Ti can tie up carbon to reduce chromium-carbide sensitization in welded or heated austenitic stainless steels.",
+    "relevantTheory": "In EN chemical designations, the first number after X gives carbon times 100, and the following alloy symbols and numbers identify high alloy content directly rather than by the low-alloy scaling factors. Stainless steels require high chromium, above about 10.5% Cr with limited carbon, because chromium forms the passivating oxide film. A Cr-Ni 18-10 type grade belongs to the stainless family; Ni stabilizes austenite, and Ti can tie up carbon to reduce chromium-carbide sensitization in welded or heated austenitic stainless steels.",
     "source": "PAST_EXAMS/QUESTION_SET_2.txt, Session of July 1st, 2022, Q16; slides&docs/Lecture 7 Designation of Steels EN AISI Standards.pdf, pages/slides 2 and 6; slides&docs/Lecture 12.pdf, pages/slides 1 and 10"
   },
   {
@@ -15816,7 +15816,7 @@ window.TMM_QUESTIONS = [
     },
     "correctAnswer": "C",
     "explanation": "C is correct because, among the families listed in the exam options, the lecture ranks austenitic stainless steels high in corrosion resistance and discusses pitting resistance mainly through austenitic/localized corrosion indexes. A is wrong because martensitic stainless steels are explicitly limited by lower corrosion resistance, especially in chlorides, with possible pitting. B is wrong because common ferritic stainless steels sit below austenitic grades in the lecture's chemical-property ranking, even though ELI ferritic grades improve localized corrosion compared with common ferritic stainless steels. D is wrong because one of the listed families is the intended choice.",
-    "relevantTheory": "Stainless behavior comes from at least about 11.5% Cr forming a passivating chromium oxide film, but stainless families are not equivalent. Austenitic Cr-Ni steels are generally the high corrosion-resistance family in the lecture comparison. Ferritic grades can be useful and cheaper, and ELI ferritic grades improve pitting/localized resistance, but the ordinary family ranking still places austenitic grades above common ferritic and martensitic steels. Martensitic stainless steels trade corrosion resistance for high strength and hardness after quenching and are especially vulnerable to chloride pitting and stress corrosion cracking.",
+    "relevantTheory": "Stainless behavior comes from at least about 10.5% Cr forming a passivating chromium oxide film, but stainless families are not equivalent. Austenitic Cr-Ni steels are generally the high corrosion-resistance family in the lecture comparison. Ferritic grades can be useful and cheaper, and ELI ferritic grades improve pitting/localized resistance, but the ordinary family ranking still places austenitic grades above common ferritic and martensitic steels. Martensitic stainless steels trade corrosion resistance for high strength and hardness after quenching and are especially vulnerable to chloride pitting and stress corrosion cracking.",
     "source": "PAST_EXAMS/QUESTION_SET_4.txt, Session of Jan 28, 2025 (Variant A), Q4; slides&docs/Lecture 12.pdf, pages/slides 1, 3, 5, 6 and 7; notes-split/TMM NOTES BY PAST-YEAR STUDENTS_251222_110914-161-186.pdf, pages 19-22"
   },
   {
