@@ -19,6 +19,7 @@ const OPTION_MARKERS = ["1", "2", "3", "4"];
 const GRAPH_DECK = "graph-questions";
 const LECTURE_PLAN_START = new Date(2026, 4, 20);
 const LECTURE_BREAK_INTERVAL = 4;
+const LECTURE_FINAL_BREAK_START_INDEX = 13;
 const DAY_MS = 24 * 60 * 60 * 1000;
 const DATE_FORMATTER = new Intl.DateTimeFormat(undefined, {
   month: "short",
@@ -357,7 +358,8 @@ function startOfDay(date) {
 
 function lectureDueDate(index) {
   const breakDays = Math.floor((index + 1) / LECTURE_BREAK_INTERVAL);
-  return new Date(LECTURE_PLAN_START.getTime() + (index + breakDays) * DAY_MS);
+  const finalBreakDays = index >= LECTURE_FINAL_BREAK_START_INDEX ? 1 : 0;
+  return new Date(LECTURE_PLAN_START.getTime() + (index + breakDays + finalBreakDays) * DAY_MS);
 }
 
 function lectureScheduleStatus(dueDate, complete) {
