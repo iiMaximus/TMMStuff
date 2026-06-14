@@ -20021,8 +20021,9 @@ window.TMM_QUESTIONS = [
     "cardType": "graph-calculation",
     "trapTags": [
       "transformation n3",
-      "M",
-      "AR"
+      "ferrite",
+      "martensite tempering",
+      "imperfect options"
     ],
     "diagramRequired": false,
     "question": "In the Jan 2025 Variant A TTT figure, estimate the products along transformation n.3.",
@@ -20032,9 +20033,9 @@ window.TMM_QUESTIONS = [
       "C": "50%F + 20%M + 30%AR",
       "D": "10%F + 30%M + 60%MT-BL"
     },
-    "correctAnswer": "A",
-    "explanation": "A is correct because the path gives about thirty percent martensite first, then sixty percent tempered-martensitic/lower-bainitic product, with about ten percent retained austenite. B is wrong because it adds a ferrite fraction and leaves too much retained austenite for this path. C is wrong because it misses the main tempered/lower-bainitic product. D is wrong because it omits the retained-austenite fraction.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. The final answer to a numbered TTT path is a mass balance across martensite, bainitic/tempered products and retained austenite.",
+    "correctAnswer": "C",
+    "explanation": "C is the best available answer among the printed options. Reading path n.3 in time order: the first rapid cooling step does not by itself form a major product; the first isothermal hold enters the ferrite transformation range and produces roughly half ferrite. The following quench below Ms forms only a small martensitic fraction, about 20%, and the remaining austenite stays as about 30% AR. The final hold would temper the martensite, so the option's plain M is imperfect shorthand. A is wrong because it invents a large 60% MT-BL fraction that the n.3 path does not justify. B is wrong because it gives too little ferrite and introduces an extra MT-BL fraction. D is wrong because it omits retained austenite and again overstates MT-BL.",
+    "relevantTheory": "For TTT product-fraction questions, read the numbered path in time order. A horizontal hold inside a ferrite, pearlite or bainite start/finish field forms that diffusional product from the austenite available at that moment. Martensite forms only during cooling below Ms, and its fraction depends on the lowest martensite line reached, not on holding time. A later hold below A1 can temper martensite already formed, but it does not create new martensite. Some past-exam options use imperfect shorthand, so choose the option whose fractions follow the path and then explain the microstructural wording carefully.",
     "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 44-48; exams_images/photo_2026-02-13 21.46.13.jpeg; assets/exam-graphs/qs4-a-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
