@@ -274,8 +274,9 @@ window.TMM_QUESTIONS = [
     "cardType": "graph-interpretation",
     "trapTags": [
       "TTT diagram",
-      "pearlite field",
-      "partial transformation"
+      "hypereutectoid steel",
+      "proeutectoid cementite",
+      "R field"
     ],
     "diagramRequired": false,
     "question": "The R-field name in the TTT diagram (figure).",
@@ -285,9 +286,9 @@ window.TMM_QUESTIONS = [
       "C": "Cementite+A",
       "D": "P+A"
     },
-    "correctAnswer": "D",
-    "explanation": "D is correct because in the pearlitic transformation field of a TTT diagram, the partially transformed region contains pearlite plus remaining austenite. A is wrong because ferrite plus austenite applies to the ferrite transformation field, not the pearlitic field. B is wrong because below A1 the remaining austenite is not stable equilibrium austenite. C is wrong because cementite alone plus austenite is not the usual pearlitic transformation field; pearlite is the ferrite-cementite lamellar microconstituent.",
-    "relevantTheory": "In a TTT diagram, transformation fields indicate partial transformation of austenite into products such as pearlite or bainite; before completion, the field contains the transformation product plus residual austenite.",
+    "correctAnswer": "C",
+    "explanation": "C is correct because the steel is AISI 1095, a hypereutectoid steel, and the R field is drawn in the upper proeutectoid transformation range before the pearlite field. There the first product is cementite while austenite remains, so the field is Cementite+A. A is wrong because ferrite plus austenite is the proeutectoid field for hypoeutectoid steels, not 1095. B is wrong because the remaining austenite is not called stable austenite in this transformation field. D is wrong because P+A would mean pearlite has already started while austenite remains; that is the pearlite transformation field farther along the TTT curve, not the upper R field.",
+    "relevantTheory": "AISI 1095 contains about 0.95%C, so it is hypereutectoid. During cooling from austenite, hypereutectoid steels first form proeutectoid cementite before the eutectoid pearlite reaction. In a TTT diagram this upper transformation domain is Cementite+A while transformation is incomplete. Do not call it P+A unless the marked field is actually inside the pearlite-start/finish region.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 49-53; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 9 and 19; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 7; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/ttt-c-r-source.jpg",
     "visual": {
       "type": "image",
