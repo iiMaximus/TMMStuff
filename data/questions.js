@@ -18324,9 +18324,9 @@ window.TMM_QUESTIONS = [
       "C": "30%M + 60%BL+TM + 10%AR",
       "D": "30%M + 70%AR"
     },
-    "correctAnswer": "C",
-    "explanation": "C is correct because the first low-temperature step forms about 30% martensite, the isothermal step transforms most of the remainder into lower-bainitic/tempered-martensitic product, and about 10% remains austenite. A is wrong because it omits the martensite formed during the first step. B is wrong because it leaves too much residual austenite and too little bainitic/tempered product. D is wrong because it ignores the large transformation during the intermediate hold.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. For multi-step TTT paths, keep a running balance: martensite can form on quench first, then the remaining austenite can transform isothermally.",
+    "correctAnswer": "A",
+    "explanation": "A is correct because the path does not hold inside a pearlite or bainite start/finish region before the low-temperature step. The martensitic fraction is produced by the temperature drop into the martensite range; the following isothermal hold mainly tempers that newly formed martensite, while the rest remains retained austenite. B and C are wrong because they assume that a large extra fraction of austenite transforms during the hold even though the path does not enter the relevant bainite start/finish field. D is wrong because it leaves the martensite untempered, while the shown stepped hold is treated as a tempered-martensite/lower-temperature product.",
+    "relevantTheory": "Martensite is diffusionless and athermal: it forms when temperature falls below Ms, not simply because time passes at one temperature. Diffusional products such as pearlite and bainite require the path to enter their start/finish regions and remain there long enough. In stepped TTT questions, separate the effects: vertical cooling through Ms creates martensite; horizontal holding can temper existing martensite or transform remaining austenite only if the hold is in a transformation field.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 346-350; exams_images/photo_2026-02-13 21.45.46.jpeg; assets/exam-graphs/ttt-38nicr15-undercooling-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -18539,9 +18539,9 @@ window.TMM_QUESTIONS = [
       "C": "50%TM-BL + 50%AR",
       "D": "90%TM-BL + 10%AR"
     },
-    "correctAnswer": "B",
-    "explanation": "B is correct because the path indicates about half martensite, most of the remaining austenite transforming to tempered-martensitic/lower-bainitic product, and a small retained-austenite fraction. A is wrong because it ignores the retained austenite and over-simplifies the second product. C is wrong because it omits the martensite fraction shown by the path. D is wrong because it overstates the tempered/lower-bainitic product and misses the martensite fraction.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Read TTT product fractions sequentially: initial martensite is not replaced by later bainitic/tempered product, and retained austenite remains if the path does not fully transform.",
+    "correctAnswer": "C",
+    "explanation": "C is correct because the path cools only to about the M50 line, so only about 50% of the austenite transforms martensitically. Martensite is diffusionless and its amount is controlled by the lowest temperature reached, not by holding time. The remaining 50% austenite does not become new martensite without further cooling, and the path does not cross a bainite start/finish field below Ms in this figure, so it is read as retained austenite. A is wrong because it converts the retained austenite into low-temperature product without a bainite transformation field. B is wrong because it invents an extra 45% TM-BL plus only 5% AR after reaching only M50. D is wrong because it ignores the M50 martensite fraction and greatly overstates TM-BL.",
+    "relevantTheory": "For the professor's TTT-reading method, martensite forms by a diffusionless austenite-to-martensite transformation during cooling below Ms. The fraction is controlled mainly by the lowest martensite line reached: reaching M50 gives about 50% martensite, while more martensite would require cooling farther, toward M90 or Mf. Holding at a constant temperature does not create additional martensite. Bainite is treated as the product between roughly 500 C and Ms and must be read from the bainite start/finish field; if the path below Ms does not enter such a field, the untransformed austenite remains retained austenite. If martensite is then held below A1, it may temper, so the option TM-BL can represent the already-formed martensitic/low-temperature product, not new martensite formed by time alone.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 440-444; exams_images/photo_2026-02-13 21.46.03.jpeg; assets/exam-graphs/feb2022-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -19087,9 +19087,9 @@ window.TMM_QUESTIONS = [
       "C": "F/F/F",
       "D": "A/F/CEM"
     },
-    "correctAnswer": "A",
-    "explanation": "A is correct because the A/B/C labels in the W-alloy figure correspond to austenite, ferrite and austenite in the shown hypo-eutectoid/intercritical region. B is wrong because it ignores the ferrite label. C is wrong because the labelled regions are not all ferrite. D is wrong because it incorrectly makes the final C label cementite; cementite belongs on the carbon-rich side, not this W-alloy label.",
-    "relevantTheory": "In Fe-C diagram questions, A1 is the eutectoid horizontal line, A3 is the hypo-eutectoid ferrite/austenite boundary, and Acm is the hyper-eutectoid austenite/cementite boundary. Region labels must be read from the specific figure. Hypo-eutectoid alloys on the low-carbon side involve ferrite plus austenite in the intercritical field; cementite is the carbon-rich Fe3C phase and is not automatically present just because a label is near a boundary.",
+    "correctAnswer": "B",
+    "explanation": "B is correct because W is drawn inside the single-phase austenite field above the eutectoid/A1 line and within the gamma region. The A/B/C labels in the W microstructure sketch therefore identify different austenite grains or regions, not different phases. A is wrong because ferrite would require the W point to be in the ferrite+austenite intercritical field below the A3 boundary. C is wrong because the region is not ferritic. D is wrong because cementite belongs on the carbon-rich side or in hypereutectoid/eutectoid products, not in the W austenite field.",
+    "relevantTheory": "On the Fe-C diagram, being above A1 alone is not enough to guarantee pure austenite; the point must also lie inside the gamma field, above the relevant A3/Acm boundary. In this figure, W is inside that austenite field, so all labelled regions in the W inset are austenite grains. In the intercritical ferrite+austenite field the answer would include F, but W is not drawn there.",
     "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 123-127; exams_images/OUR_EXAM.jpg; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -19380,7 +19380,9 @@ window.TMM_QUESTIONS = [
     "cardType": "graph-interpretation",
     "trapTags": [
       "R domain",
-      "pearlite+austenite"
+      "hypereutectoid steel",
+      "proeutectoid cementite",
+      "Acm line"
     ],
     "diagramRequired": false,
     "question": "In the February 2023 AISI 1095 TTT figure, give the R-domain name.",
@@ -19390,9 +19392,9 @@ window.TMM_QUESTIONS = [
       "C": "A+B",
       "D": "F+A"
     },
-    "correctAnswer": "B",
-    "explanation": "B is correct because R is located in the pearlite plus untransformed austenite region of the TTT chart. A is wrong because cementite plus austenite is a phase-diagram field, not the labelled TTT R domain. C is wrong because austenite plus bainite would be in a lower-temperature bainitic region. D is wrong because ferrite plus austenite is not where R is drawn in the AISI 1095 TTT figure.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. In hypereutectoid/eutectoid TTT diagrams, pearlite can coexist with remaining austenite during incomplete transformation.",
+    "correctAnswer": "A",
+    "explanation": "A is correct because AISI 1095 is hypereutectoid, so the upper transformation domain marked R starts from the Acm-side/proeutectoid-cementite region: cementite forms first while austenite remains. B is wrong because P+A is the incomplete pearlite-transformation field farther to the right/lower in the TTT diagram, after the pearlite start curve is reached. C is wrong because A+B would refer to incomplete bainite formation at lower temperature. D is wrong because F+A is the proeutectoid field for hypoeutectoid steels, not for a high-carbon 1095 steel.",
+    "relevantTheory": "AISI 1095 has about 0.95%C, so it is hypereutectoid. In hypereutectoid steel, cooling austenite first enters the austenite + cementite field at the Acm boundary before eutectoid pearlite forms. Therefore the high-temperature upper TTT domain associated with proeutectoid transformation is Cementite + A. Do not confuse it with P+A: P+A means pearlite has started but some austenite remains, and it lies in the pearlite-start/finish region, not the Acm-side proeutectoid-cementite region.",
     "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 51-55; exams_images/photo_2026-02-13 21.45.33.jpeg; assets/exam-graphs/ttt-1095-feb2023-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -19665,14 +19667,14 @@ window.TMM_QUESTIONS = [
       "C": "90%M + 10%TM+BL",
       "D": "50%M + 50%TM + BL"
     },
-    "correctAnswer": "B",
-    "explanation": "B is correct because the staged path produces small pearlite and upper-bainite fractions first, then mainly lower bainite/tempered martensitic product, with about ten percent retained austenite. A is wrong because it omits the early pearlite and upper-bainite products. C is wrong because it overstates martensite and ignores the bainitic transformation steps. D is wrong because it omits retained austenite and the early products.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Staged transformations accumulate products in order: each hold changes only the austenite still available from the previous step.",
-    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 160-164; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "correctAnswer": "A",
+    "explanation": "A is correct because the 1-4 stepped path is quenched rapidly down near the martensite range and then held at low temperatures. It never spends an isothermal hold inside the pearlite or upper-bainite start/finish fields, so the product is mainly martensite followed by tempered martensite/lower-bainitic product, with about 10% retained austenite. B is wrong because it invents pearlite and upper bainite that the shown path does not enter. C is wrong because it overstates fresh martensite and omits retained austenite. D is wrong because it omits the retained-austenite fraction and does not match the stepped path percentages.",
+    "relevantTheory": "For TTT path questions, follow the actual thermal path, not only the available phase labels. Diffusional products such as pearlite and bainite form only if the path reaches their start/finish regions for enough time. A rapid quench below Ms forms martensite athermally; later low-temperature holds can temper martensite and may allow lower-bainitic transformation of remaining austenite, while some austenite can remain retained.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 160-164; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-ttt-path14-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
       "title": "AISI 1060 Fe-C and TTT figure",
-      "src": "assets/exam-graphs/qs3-1060-fec-ttt-source.jpg",
+      "src": "assets/exam-graphs/qs3-1060-ttt-path14-source.jpg",
       "alt": "Cropped exam TTT diagram with path 1-4."
     }
   },
@@ -19846,15 +19848,15 @@ window.TMM_QUESTIONS = [
       "C": "F+A",
       "D": "P+A"
     },
-    "correctAnswer": "A",
-    "explanation": "A is correct because E lies in the untransformed-austenite region of the TTT diagram, before the relevant transformation-start curve is crossed. B is wrong because Cem+A is a Fe-C phase-field idea for hyper-eutectoid compositions, not the TTT domain marked here. C is wrong because F+A would require ferrite transformation to have started. D is wrong because P+A would require pearlite transformation to have started below the eutectoid range.",
-    "relevantTheory": "In a TTT diagram, austenite remains unchanged until the cooling or holding path crosses a transformation-start curve. Product-plus-austenite fields such as F+A, P+A, B+A or M+A mean some transformation has already begun but is incomplete. Read both the temperature line and the position relative to the start curve before naming the domain.",
-    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 239-243; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/qs3-kpoint-38nicr-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "correctAnswer": "C",
+    "explanation": "C is correct because E's leader line points into the high-temperature transformation domain below the upper critical boundary but above the pearlite range, where proeutectoid ferrite has started while austenite remains. A is wrong because the arrow tip is not in the untransformed-austenite-only region. B is wrong because Cem+A is a hyper-eutectoid Fe-C phase-field idea, while 38NiCr15 is about 0.38%C and the marked TTT field is not cementite plus austenite. D is wrong because P+A belongs to the pearlite transformation range below the eutectoid/A1-type line, not the upper ferrite-plus-austenite field marked by E.",
+    "relevantTheory": "For a hypoeutectoid steel TTT diagram, the upper transformation range between the austenite boundary and the eutectoid/A1-type line corresponds to proeutectoid ferrite forming from austenite, so the mixed domain is F+A. Below the eutectoid line, pearlite transformation gives P+A while it is incomplete. Always read the leader-line tip, not just the printed letter location.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 239-243; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/ttt-38nicr15-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
       "title": "July 2024 K-point and 38NiCr15 figure",
-      "src": "assets/exam-graphs/qs3-kpoint-38nicr-source.jpg",
-      "alt": "Cropped exam figure with E field in TTT diagram."
+      "src": "assets/exam-graphs/ttt-38nicr15-source.jpg",
+      "alt": "Cropped exam figure with the E leader line in the 38NiCr15 TTT diagram."
     }
   },
   {

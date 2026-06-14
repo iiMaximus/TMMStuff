@@ -21,6 +21,7 @@ const LECTURE_PLAN_START = new Date(2026, 4, 20);
 const LECTURE_BREAK_INTERVAL = 4;
 const LECTURE_FINAL_BREAK_START_INDEX = 13;
 const DAY_MS = 24 * 60 * 60 * 1000;
+const CONFETTI_COLORS = ["#2f6fed", "#1f8f63", "#f59e0b", "#ef4444", "#7c3aed"];
 const DATE_FORMATTER = new Intl.DateTimeFormat(undefined, {
   month: "short",
   day: "numeric"
@@ -882,6 +883,7 @@ function answerQuestion(selected) {
   saveProgress();
   paintAnsweredOptions(selected, question.correctAnswer, isCorrect);
   showFeedback(question, isCorrect);
+  triggerAnswerEffects(question, isCorrect);
   updateStats();
 }
 
@@ -904,6 +906,77 @@ function showFeedback(question, isCorrect) {
   els.relevantTheory.textContent = question.relevantTheory;
   els.feedback.hidden = false;
   els.nextButton.disabled = false;
+}
+
+function prefersReducedMotion() {
+  return window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches === true;
+}
+
+function isCoolingProductQuestion(question) {
+  const haystack = [
+    question.question,
+    question.explanation,
+    question.relevantTheory,
+    question.cardType,
+    ...(question.trapTags || [])
+  ].join(" ").toLowerCase();
+  return /cooling[- ]?products?|cooling[- ]?product fractions?|stepped isothermal transformations?/.test(haystack);
+}
+
+function isVeryEasyQuestion(question) {
+  const tags = (question.trapTags || []).join(" ").toLowerCase();
+  return String(question.difficulty || "").toLowerCase() === "easy" || tags.includes("very easy");
+}
+
+function triggerAnswerEffects(question, isCorrect) {
+  if (!isCorrect || prefersReducedMotion()) return;
+  if (isCoolingProductQuestion(question)) launchConfetti();
+  if (isVeryEasyQuestion(question)) launchEasyCorrectEffect();
+}
+
+function launchConfetti() {
+  const overlay = document.createElement("div");
+  overlay.className = "answer-effect confetti-effect";
+  overlay.setAttribute("aria-hidden", "true");
+
+  for (let index = 0; index < 54; index += 1) {
+    const piece = document.createElement("span");
+    piece.className = "confetti-piece";
+    piece.style.setProperty("--x", `${Math.random() * 100}vw`);
+    piece.style.setProperty("--drift", `${Math.random() * 120 - 60}px`);
+    piece.style.setProperty("--rot", `${Math.random() * 360}deg`);
+    piece.style.setProperty("--duration", `${1.25 + Math.random() * 0.8}s`);
+    piece.style.setProperty("--delay", `${Math.random() * 0.18}s`);
+    piece.style.setProperty("--color", CONFETTI_COLORS[index % CONFETTI_COLORS.length]);
+    overlay.append(piece);
+  }
+
+  document.body.append(overlay);
+  window.setTimeout(() => overlay.remove(), 2400);
+}
+
+function launchEasyCorrectEffect() {
+  const overlay = document.createElement("div");
+  overlay.className = "answer-effect easy-correct-effect";
+  overlay.setAttribute("aria-hidden", "true");
+
+  const mark = document.createElement("div");
+  mark.className = "easy-correct-x";
+  mark.textContent = "X";
+  overlay.append(mark);
+
+  for (let index = 0; index < 22; index += 1) {
+    const drop = document.createElement("span");
+    drop.className = "easy-correct-splatter";
+    drop.style.setProperty("--x", `${Math.random() * 78 - 39}vw`);
+    drop.style.setProperty("--y", `${Math.random() * 58 - 29}vh`);
+    drop.style.setProperty("--s", `${10 + Math.random() * 28}px`);
+    drop.style.setProperty("--delay", `${Math.random() * 0.18}s`);
+    overlay.append(drop);
+  }
+
+  document.body.append(overlay);
+  window.setTimeout(() => overlay.remove(), 1600);
 }
 
 function renderEmptyDeck(emptyDeck) {
