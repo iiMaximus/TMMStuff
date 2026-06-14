@@ -18985,7 +18985,7 @@ window.TMM_QUESTIONS = [
     "cardType": "graph-interpretation",
     "trapTags": [
       "Q temperature",
-      "Acm",
+      "A1",
       "TTT"
     ],
     "diagramRequired": false,
@@ -18996,9 +18996,9 @@ window.TMM_QUESTIONS = [
       "C": "A1",
       "D": "Acm"
     },
-    "correctAnswer": "D",
-    "explanation": "D is correct because Q is drawn on the upper critical reference line for the AISI 1085 steel; since 1085 is slightly hyper-eutectoid, that upper critical boundary is Acm. A is wrong because A2 is a magnetic transformation and not the TTT reference line. B is wrong because A3 is the upper critical line for hypo-eutectoid steels, not this hyper-eutectoid steel. C is wrong because A1 is the lower eutectoid line, drawn separately below Q.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. For hypo-eutectoid steels the upper critical line is A3; for hyper-eutectoid steels it is Acm. AISI 1085 is above the eutectoid carbon content, so its upper critical reference is Acm rather than A3.",
+    "correctAnswer": "C",
+    "explanation": "C is correct because Q is drawn on the horizontal eutectoid transformation reference line where the TTT transformation curve begins; this is A1. A is wrong because A2 is the magnetic/Curie transformation and is not the TTT transformation-start reference. B is wrong because A3 is the hypo-eutectoid upper critical boundary, not the horizontal eutectoid line. D is wrong here because although AISI 1085 is slightly hyper-eutectoid, Acm would be a separate upper austenite/cementite boundary; the line marked by Q in this TTT figure is the transformation-start/eutectoid line, not an Acm line.",
+    "relevantTheory": "In TTT diagrams, the horizontal line at the top of the transformation curves is the eutectoid/lower critical reference A1: below it, austenite can transform with time. A3 and Acm are upper critical boundaries from the Fe-C phase diagram: A3 applies on the hypo-eutectoid side and Acm on the hyper-eutectoid side. Do not choose Acm only because the steel is hyper-eutectoid; if the label points to the horizontal line from which the TTT start curve develops, the intended symbol is A1.",
     "source": "PAST_EXAMS/QUESTION_SET_2.txt, lines 49-53; exams_images/photo_2026-02-13 21.45.58.jpeg; assets/exam-graphs/qs2-july1-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
