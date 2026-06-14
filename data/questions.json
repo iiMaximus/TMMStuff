@@ -19635,14 +19635,14 @@
       "C": "2 s",
       "D": "10 s"
     },
-    "correctAnswer": "C",
-    "explanation": "C is correct because the nose of the start curve is read at roughly two seconds on the logarithmic time axis. A is wrong because 0.5 s is left of the plotted start-curve nose. B is wrong because the diagram clearly gives a finite minimum time. D is wrong because 10 s is to the right of the fastest-start point.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. The nose of a TTT start curve is the shortest incubation time for transformation and controls the critical-cooling-rate idea.",
-    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 150-154; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
+    "correctAnswer": "A",
+    "explanation": "A is correct because the start-curve nose is essentially at the left boundary of this printed logarithmic time axis, which is labelled about 0.5 s. C is wrong because 2 s is already to the right of the fastest-start point in this figure. B is wrong because the diagram does show a finite minimum nucleation time. D is wrong because 10 s is much farther right than the nose.",
+    "relevantTheory": "TTT diagrams use a logarithmic time axis, so the left vertical plotting boundary is not time zero. Read the tick label at that boundary. The nose of the start curve is the shortest incubation or nucleation time for transformation; if that nose is clipped by the left edge of the plot, estimate it from the first visible time tick rather than inventing 0 s.",
+    "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 150-154; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-ttt-nose-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
       "title": "AISI 1060 Fe-C and TTT figure",
-      "src": "assets/exam-graphs/qs3-1060-fec-ttt-source.jpg",
+      "src": "assets/exam-graphs/qs3-1060-ttt-nose-source.jpg",
       "alt": "Cropped exam TTT diagram with nose time."
     }
   },
