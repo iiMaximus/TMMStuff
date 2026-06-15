@@ -923,15 +923,20 @@ function isCoolingProductQuestion(question) {
   return /cooling[- ]?products?|cooling[- ]?product fractions?|stepped isothermal transformations?/.test(haystack);
 }
 
-function isVeryEasyQuestion(question) {
+function isPastExamOrGraphQuestion(question) {
+  return question.deck === GRAPH_DECK || question.deck === "question-bank" || question.sourceType === "past-exam";
+}
+
+function isEasyMistakeQuestion(question) {
   const tags = (question.trapTags || []).join(" ").toLowerCase();
-  return String(question.difficulty || "").toLowerCase() === "easy" || tags.includes("very easy");
+  const difficulty = String(question.difficulty || "").toLowerCase();
+  return difficulty === "easy" || tags.includes("very easy") || (isPastExamOrGraphQuestion(question) && tags.includes("basic"));
 }
 
 function triggerAnswerEffects(question, isCorrect) {
-  if (!isCorrect || prefersReducedMotion()) return;
-  if (isCoolingProductQuestion(question)) launchConfetti();
-  if (isVeryEasyQuestion(question)) launchEasyCorrectEffect();
+  if (prefersReducedMotion()) return;
+  if (isCorrect && isCoolingProductQuestion(question)) launchConfetti();
+  if (!isCorrect && isEasyMistakeQuestion(question)) launchEasyWrongEffect();
 }
 
 function launchConfetti() {
@@ -955,19 +960,19 @@ function launchConfetti() {
   window.setTimeout(() => overlay.remove(), 2400);
 }
 
-function launchEasyCorrectEffect() {
+function launchEasyWrongEffect() {
   const overlay = document.createElement("div");
-  overlay.className = "answer-effect easy-correct-effect";
+  overlay.className = "answer-effect easy-wrong-effect";
   overlay.setAttribute("aria-hidden", "true");
 
   const mark = document.createElement("div");
-  mark.className = "easy-correct-x";
+  mark.className = "easy-wrong-x";
   mark.textContent = "X";
   overlay.append(mark);
 
   for (let index = 0; index < 22; index += 1) {
     const drop = document.createElement("span");
-    drop.className = "easy-correct-splatter";
+    drop.className = "easy-wrong-splatter";
     drop.style.setProperty("--x", `${Math.random() * 78 - 39}vw`);
     drop.style.setProperty("--y", `${Math.random() * 58 - 29}vh`);
     drop.style.setProperty("--s", `${10 + Math.random() * 28}px`);
