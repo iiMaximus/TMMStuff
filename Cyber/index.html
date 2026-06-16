@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cyber Exam Prep</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="topbar" aria-label="Exam status">
+        <div>
+          <p class="eyebrow">Cybersecurity exam prep</p>
+          <h1>Cyber Study Hub</h1>
+        </div>
+        <div class="countdown" aria-live="polite">
+          <strong id="countdownDays">--</strong>
+          <span>days</span>
+          <strong id="countdownHours">--</strong>
+          <span>hours</span>
+          <strong id="countdownMinutes">--</strong>
+          <span>min</span>
+          <small id="countdownLabel">until June 26</small>
+        </div>
+      </section>
+
+      <section id="homeScreen">
+        <section class="hero">
+          <div class="hero-copy">
+            <span class="kicker">Lecture-first flashcards</span>
+            <h2>Learn the Cyber course one module at a time.</h2>
+            <p>Pick a lecture, mix the whole course, or review the cards your brain tried to quietly delete.</p>
+            <div class="hero-actions">
+              <button id="continueButton" class="primary-action" type="button">Continue study</button>
+              <button class="ghost-action" type="button" data-study="all">Mix everything</button>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <svg viewBox="0 0 360 240" role="img">
+              <rect x="16" y="20" width="328" height="200" rx="22"></rect>
+              <path d="M62 72h82m72 0h76M62 120h44m70 0h116M62 168h92m74 0h64"></path>
+              <circle cx="62" cy="72" r="13"></circle>
+              <circle cx="180" cy="120" r="13"></circle>
+              <circle cx="228" cy="168" r="13"></circle>
+              <path class="shield" d="M182 46l47 18v36c0 34-19 57-47 74-28-17-47-40-47-74V64z"></path>
+              <path class="check" d="M158 102l17 17 34-42"></path>
+            </svg>
+          </div>
+        </section>
+
+        <section class="stats-grid" aria-label="Study progress">
+          <article>
+            <strong id="totalProgress">0/0</strong>
+            <span>cards mastered</span>
+          </article>
+          <article>
+            <strong id="homeXp">0 XP</strong>
+            <span id="homeLevel">level 1</span>
+          </article>
+          <article>
+            <strong id="dueCount">0</strong>
+            <span>review due</span>
+          </article>
+          <article>
+            <strong id="bestStreak">0</strong>
+            <span>best streak</span>
+          </article>
+        </section>
+
+        <section class="quick-grid" aria-label="Quick study actions">
+          <button class="quick-card featured" type="button" data-study="slides">
+            <span class="kicker">Main path</span>
+            <strong>Work by lecture</strong>
+            <small id="lectureCardCount">0 cards ready</small>
+          </button>
+          <button class="quick-card" type="button" data-study="due">
+            <span class="kicker">Memory cleanup</span>
+            <strong>Review mistakes</strong>
+            <small id="reviewCardCount">0 cards waiting</small>
+          </button>
+          <button class="quick-card" type="button" data-study="all">
+            <span class="kicker">Exam mode</span>
+            <strong>Mixed Cyber drill</strong>
+            <small id="allCardCount">0 cards total</small>
+          </button>
+        </section>
+
+        <section class="section-block">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Course map</p>
+              <h2>Modules</h2>
+            </div>
+            <p>Each module card shows mastery across its lecture cards.</p>
+          </div>
+          <div id="moduleGrid" class="module-grid"></div>
+        </section>
+      </section>
+
+      <section id="quizScreen" class="quiz-screen" hidden>
+        <div class="quiz-top">
+          <button id="homeButton" class="plain-button" type="button">Home</button>
+          <div>
+            <p id="activePath" class="eyebrow">Cyber</p>
+            <h2 id="quizTitle">Practice</h2>
+          </div>
+        </div>
+
+        <section class="session-panel" aria-label="Session progress">
+          <div>
+            <span id="questionProgress">0/0</span>
+            <small>session progress</small>
+          </div>
+          <div>
+            <span id="correctCount">0</span>
+            <small>correct</small>
+          </div>
+          <div>
+            <span id="wrongCount">0</span>
+            <small>wrong</small>
+          </div>
+          <div>
+            <span id="streakCount">0</span>
+            <small>streak</small>
+          </div>
+        </section>
+
+        <section class="card-panel">
+          <div class="card-meta">
+            <span id="questionSection">Cyber</span>
+            <span id="questionMastery">New</span>
+          </div>
+          <p id="questionSource" class="source"></p>
+          <h2 id="questionText"></h2>
+          <div id="options" class="options"></div>
+        </section>
+
+        <section id="feedback" class="feedback" hidden>
+          <h3 id="resultLine"></h3>
+          <div>
+            <p class="feedback-label">Why</p>
+            <p id="explanation"></p>
+          </div>
+          <div>
+            <p class="feedback-label">Relevant theory</p>
+            <p id="relevantTheory"></p>
+          </div>
+        </section>
+
+        <div class="quiz-actions">
+          <button id="nextButton" class="primary-action" type="button" disabled>Next</button>
+          <button id="restartButton" class="ghost-action" type="button">Restart session</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="data/content-map.js"></script>
+    <script src="data/questions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+

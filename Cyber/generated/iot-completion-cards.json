@@ -1,0 +1,212 @@
+[
+  {
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["resource constraints", "lightweight cryptography", "TLS/IPsec"],
+    "question": "A battery-powered medical sensor has little memory and processing power, but still needs confidentiality and integrity for transmitted measurements. Which design choice best matches the lecture's IoT security reasoning?",
+    "options": {
+      "A": "Use lightweight cryptography designed for constrained devices, while recognizing that it is an engineering trade-off between security strength and operational efficiency.",
+      "B": "Avoid cryptography because constrained IoT devices cannot provide any robust security.",
+      "C": "Use only a human password, because passwords are the most suitable mechanism for automated sensor-to-platform communication.",
+      "D": "Move all protection to the cloud and send sensor data in cleartext because the device layer is outside the security framework."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture presents lightweight cryptography as cryptography tailored to limited devices such as sensors, RFID tags, contactless smart cards, and medical equipment. B is wrong because constrained devices can still use suitable security mechanisms. C contradicts the slide warning that passwords are poorly suited for automated machine-to-machine authentication. D is wrong because IoT security must protect communication and data across layers, including smart objects and edge devices.",
+    "relevantTheory": "IoT security cannot simply copy heavyweight enterprise controls onto every device. Many smart objects have limited CPU, memory, energy, and interface capabilities, so security mechanisms must fit the device. Lightweight cryptography adapts cryptographic protection to constrained environments and can support confidentiality and integrity, but designers still need to consider efficiency, key management, and where stronger mechanisms such as gateways, HSMs, PKI, or TEEs are feasible.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 13-14, 39-42"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": ["device lifecycle", "end of support", "orphaned devices"],
+    "question": "Which lifecycle risk is most characteristic of IoT devices according to the lecture?",
+    "options": {
+      "A": "IoT devices normally stop working before vendor support ends, so old deployments rarely create security exposure.",
+      "B": "IoT devices can remain operational for a long time after manufacturer support ends, leaving orphaned devices without ongoing security enhancements.",
+      "C": "IoT devices are secure as long as they are physically durable, because durability and security support are the same property.",
+      "D": "IoT lifecycle risk is limited to cloud servers because edge devices never require maintenance after deployment."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the lecture stresses extended device life and end of support, where durable devices keep functioning after updates and support stop. A reverses the risk. C confuses physical durability with security maintenance. D ignores the lecture's focus on edge devices becoming orphaned or abandoned.",
+    "relevantTheory": "A major IoT trap is that a device can remain useful physically while becoming insecure operationally. Long-lived sensors, appliances, industrial devices, and controllers may outlast the manufacturer's security support. Once updates, patches, and security enhancements stop, vulnerabilities accumulate and the device becomes an orphaned endpoint that may still be connected to networks and physical processes.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, page 30"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["updates", "security management", "user neglect"],
+    "question": "A vendor says its IoT camera is secure because firmware updates exist, but updates must be downloaded manually from a hidden support page and many users never apply them. What is the best course-aligned criticism?",
+    "options": {
+      "A": "The update mechanism is irrelevant because IoT devices do not need software changes once installed.",
+      "B": "Manual updates are always stronger than remote updates because user effort proves legitimacy.",
+      "C": "The device still suffers from the lecture's lack-of-upgrade problem: updates may exist, but inconvenient update paths lead users to overlook or ignore them.",
+      "D": "The only issue is data center security; endpoint update usability does not affect IoT risk."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture notes that many IoT devices are not built for frequent upgrades, and even available updates may be inconvenient enough that users ignore them. A denies the need for updates. B invents a false security benefit from inconvenience. D ignores that vulnerable endpoints can expose users, networks, and connected systems.",
+    "relevantTheory": "Security management in IoT must account for deployment reality, not just the existence of a patch. Devices should support practical update and credential-management processes throughout their lifespan. If users cannot easily see, trust, and apply updates, known vulnerabilities may remain present at scale. Secure Elements can help manage lifecycle credentials and over-the-air updates, but update design must be usable and reliable.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 31, 47"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": ["device identity", "PKI", "mutual authentication"],
+    "question": "In an IoT deployment where devices and the platform must verify each other before exchanging data, which mechanism best supports stronger device identity than simple passwords?",
+    "options": {
+      "A": "Unlogged device nicknames chosen by users during installation.",
+      "B": "A shared default password printed in the manual for every device model.",
+      "C": "Disabling authentication because device-to-device traffic is automated.",
+      "D": "PKI certificates managed through roles, policies, and procedures for issuing, using, storing, and revoking digital certificates."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture presents PKI as a way to confirm identities of communicating parties when simple password authentication is inadequate. A is only a label, not a strong identity mechanism. B is especially weak because shared defaults scale compromise. C contradicts the mutual authentication and authorization requirement.",
+    "relevantTheory": "IoT devices are identifiable things connected to networks, so identity is central to access control and trustworthy communication. The lecture lists mutual authentication and authorization as an IoT requirement: both the device or user and the IoT platform verify identity and permissions before access. PKI supports this by managing digital certificates and public-key encryption, enabling stronger authentication and integrity protection than human-entered passwords in automated exchanges.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 9, 18, 42, 49"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": ["network exposure", "core network", "endpoint scale"],
+    "question": "Why does IoT amplify security complexity in core networks even though the core network faces familiar kinds of security challenges?",
+    "options": {
+      "A": "Because IoT removes endpoint management from the network and leaves only cloud database security.",
+      "B": "Because the high volume of endpoints requiring interaction and management greatly increases the scale of the security problem.",
+      "C": "Because core networks cannot use confidentiality or integrity protections between layers.",
+      "D": "Because smart objects never communicate with central hubs, so the core network has no real role."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the lecture says the core network links central hubs and IoT devices and that many endpoints amplify security complexity. A wrongly removes endpoint management. C contradicts the Internet Protocol Security capability that protects data between layers. D contradicts the core network's role in transmission between hubs and devices.",
+    "relevantTheory": "IoT does not necessarily invent a new type of core-network security problem, but it changes the scale. A conventional core network already needs confidentiality, integrity, access control, monitoring, and resilience. IoT adds huge numbers of devices, protocols, and management interactions. Each endpoint can become a path for misuse, data exposure, or attack propagation, so network defenses must handle both traditional security controls and massive endpoint coordination.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 23-24, 27, 37"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["privacy", "limited transparency", "data collection"],
+    "question": "A home assistant vendor adds a firmware feature that collects additional behavioral data, but users cannot inspect the device's internal processes or disable the collection. Which IoT challenge does this best illustrate?",
+    "options": {
+      "A": "Device homogeneity only, because all privacy problems come from identical hardware.",
+      "B": "Absence of physical tamper detection only, because data collection is unrelated to privacy.",
+      "C": "Internet Protocol Security only, because privacy is solved once traffic is encrypted.",
+      "D": "Limited transparency, because users must rely on assumptions about device behavior and may lack control over unwanted features or data collection."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture defines limited transparency as users being unable to monitor or control internal processes, unwanted features, or data collection, including changes introduced by manufacturer updates. A is too narrow. B ignores the privacy and data-management issue. C is wrong because encryption in transit does not by itself explain or control what the device collects.",
+    "relevantTheory": "Privacy in IoT is not only about eavesdropping. IoT devices collect data from physical environments and may infer behavior, habits, presence, health, or other sensitive facts. The lecture links data security and privacy across all layers and warns that limited transparency makes users dependent on manufacturer behavior. A privacy-aware IoT design should minimize unnecessary collection, protect stored and transmitted data, and give meaningful control and auditability where possible.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 16, 26, 32, 36"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["physical exposure", "tamper detection", "edge devices"],
+    "question": "A city deploys environmental sensors on street furniture where attackers may physically reach them. Which security capability is most directly motivated by this deployment condition?",
+    "options": {
+      "A": "Tamper resistance and detection at the device and fog layers, because components may sit outside the enterprise's secured perimeter.",
+      "B": "Ignoring the device layer and protecting only the data center, because physical access does not matter for IoT.",
+      "C": "Replacing all sensors with user passwords, because physical tampering is primarily an authentication-interface problem.",
+      "D": "Removing network connectivity, because any communicating thing is no longer an IoT device."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture explicitly says tamper resistance and detection are crucial mainly at the device and fog layers, where components may be outside secured perimeters. B denies the physical exposure problem. C does not address manipulation, extraction, or replacement of devices. D contradicts the definition that communication is essential for IoT participation.",
+    "relevantTheory": "IoT extends computation into unusual or easily accessible locations, so the attacker may not need to break into a server room. Physical exposure can enable device theft, modification, sensor manipulation, credential extraction, or actuator abuse. Tamper resistance and detection, hardware roots of trust, secure elements, and careful deployment design help preserve authenticity and integrity of sensor data and protect actuators against unauthorized access.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 21, 26, 29, 47"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["cyber attacks", "weakest links", "controlled access"],
+    "question": "A compromised smart appliance is used as a foothold to attack other systems on the same connected environment. Which defense approach best matches the lecture's treatment of IoT cyber attacks?",
+    "options": {
+      "A": "Treat the appliance as harmless because only traditional computers can open a network to cyber threats.",
+      "B": "Focus on securing the weakest links and tailoring defenses such as continuous monitoring and controlled access.",
+      "C": "Disable all security audits because visibility increases the chance of compromise.",
+      "D": "Rely only on physical durability because cyber attacks require device failure first."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the lecture says connected IoT devices can open networks and systems to cyber threats, and effective defenses include securing weakest links, continuous monitoring, and controlled access. A contradicts the smart oven and sprinkler examples. C reverses the audit requirement. D confuses device reliability with cyber compromise.",
+    "relevantTheory": "IoT attacks matter because devices bridge digital networks and physical environments. A weak appliance, sensor, gateway, or actuator can expose connected systems, enable unauthorized commands, leak data, or create safety and property consequences. Practical defenses combine built-in security, encryption, risk analysis, access control, monitoring, authentication, and auditing rather than assuming small devices are too simple to be useful to attackers.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 34-38"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": ["data erasure", "decommissioning", "privacy"],
+    "question": "An organization retires IoT devices that stored local sensor histories and credentials. Which countermeasure from the lecture is most relevant before disposal or reassignment?",
+    "options": {
+      "A": "Blockchain, because appending records to a shared ledger automatically removes local device data.",
+      "B": "MFA, because asking two factors during login overwrites storage.",
+      "C": "Data erasure, because clearing or wiping overwrites existing information and should confirm complete removal across the device.",
+      "D": "Role-Based Access Control, because assigning a new role deletes all previous data."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture defines data erasure or wiping as overwriting storage with binary data and verifying complete removal. A describes a ledger technology, not sanitization. B strengthens identity checks but does not remove stored data. D controls permissions but does not by itself sanitize retired storage.",
+    "relevantTheory": "IoT lifecycle security includes what happens when devices are replaced, transferred, repaired, or discarded. Devices may contain sensor data, configuration, certificates, keys, logs, or user information. Data erasure reduces privacy and credential-leak risk by overwriting stored information and confirming the process across the whole device. Access control and authentication are still useful, but they are not substitutes for sanitizing storage at end of use.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 36, 48"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": ["hardware crypto", "HSM", "secure cryptoprocessor"],
+    "question": "Which statement best distinguishes the purpose of HSMs and secure cryptoprocessors in the IoT countermeasures section?",
+    "options": {
+      "A": "They are both only password managers, so neither performs cryptographic operations.",
+      "B": "They are useful only for blockchain and have no role in authentication or key handling.",
+      "C": "They replace the need for all other security because physical tamper resistance alone solves privacy, updates, and network exposure.",
+      "D": "They protect cryptographic material and operations in dedicated hardware; an HSM manages keys and performs crypto tasks, while a secure cryptoprocessor keeps decrypted data or instructions inside a protected environment."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture defines HSMs as dedicated devices for key generation, secure key storage, management, authentication, and cryptographic operations, and secure cryptoprocessors as protected chips that perform cryptographic functions without exposing decrypted data or instructions outside the protected environment. A and B ignore their cryptographic and authentication roles. C overstates hardware protection and ignores layered IoT security requirements.",
+    "relevantTheory": "Hardware-backed security is valuable in IoT because software-only secrets may be exposed by physical access, weak operating environments, or large-scale compromise. HSMs can generate, store, and manage cryptographic keys and offload symmetric or asymmetric operations. Secure cryptoprocessors place cryptographic functions inside tamper-resistant packages so sensitive material does not leave a protected boundary. These tools support stronger systems but still need access control, updates, auditing, and network protection.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 39, 43, 51"
+  }
+]

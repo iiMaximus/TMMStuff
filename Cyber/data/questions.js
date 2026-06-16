@@ -1,0 +1,7687 @@
+window.CYBER_QUESTIONS = [
+  {
+    "id": 1,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "cyberspace",
+      "socio-technical systems",
+      "interdependencies"
+    ],
+    "question": "In Lecture A1, why is cyberspace described as more than a collection of computers and networks?",
+    "options": {
+      "A": "Because it is a socio-technical environment where people, software, services, networks, and dependencies interact.",
+      "B": "Because it is only the set of devices physically located inside national borders.",
+      "C": "Because it is defined only by the cryptographic protocols used to protect Internet traffic.",
+      "D": "Because it is a static technical infrastructure whose risks can be analyzed one device at a time."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture defines cyberspace as the interaction of people, software, services, and networks, shaped by technical, legal, and social rules. B confuses cyberspace with national cyberspace. C narrows the concept to cryptography, which is only one protection mechanism. D is the opposite of the lecture's point: cyberspace is dynamic and systemic.",
+    "relevantTheory": "Cybersecurity exists because cyberspace exists as a dynamic socio-technical environment. Security problems are not limited to isolated machines: hardware, software, data, networks, procedures, people, automation, and governance interact. Interdependencies dominate, so a failure or attack in one part of the environment may propagate through services and organizations.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 16 and slide/page 26"
+  },
+  {
+    "id": 2,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "connectivity",
+      "remote attack paths",
+      "code mobility"
+    ],
+    "question": "Which statement best captures the security lesson of ARPANET, Creeper, and Reaper in the lecture timeline?",
+    "options": {
+      "A": "Networking solved the main security problem by replacing local physical access with packet switching.",
+      "B": "Connectivity and code mobility created remote attack paths, and defense began to co-evolve because threats could scale.",
+      "C": "The first self-propagating programs were primarily economically motivated cybercrime tools.",
+      "D": "Defensive software appeared only after the World Wide Web made the Internet usable by everyone."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: ARPANET showed that distance stopped being protection, Creeper showed autonomous code movement, and Reaper introduced active defensive software. A reverses the lesson because networking expanded trust assumptions. C is wrong because Creeper was not presented as malicious or economically motivated. D is wrong because Reaper is dated to 1972, long before the Web.",
+    "relevantTheory": "Early isolated computers relied on physical security assumptions: users were few, trusted, and co-located. Networking changed the game by enabling remote collaboration and remote attack paths. Creeper demonstrated that code could move across a network; Reaper showed that defense would evolve in response to scalable threats.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 8, slide/page 9, and slide/page 10"
+  },
+  {
+    "id": 3,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "IT",
+      "OT",
+      "physical consequences",
+      "critical infrastructure"
+    ],
+    "question": "A hospital connects clinical databases, cloud services, sensors, and automated drug-dispensing equipment. Which interpretation matches the Module A1 distinction between IT and OT?",
+    "options": {
+      "A": "Only the databases are security-relevant because OT systems are physical, not cyber.",
+      "B": "Only the drug-dispensing equipment is security-relevant because patient records are not operational.",
+      "C": "The combined IT/OT environment creates new dependencies, attack paths, and possible real-world physical consequences.",
+      "D": "The system is secure if each device works correctly in isolation, because interdependencies are not part of cybersecurity."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture says IT manages data, computation, and communication, while OT controls physical processes, and modern infrastructures combine them. A and B artificially separate assets that interact in practice. D ignores the lecture's systemic view: dependencies are a central source of cybersecurity risk.",
+    "relevantTheory": "IT systems include servers, databases, cloud services, and communication. OT systems include industrial controllers, sensors, and actuators controlling physical processes. When infrastructures combine IT and OT, compromise can move from data and communication into operations and physical effects, so cybersecurity becomes systemic.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 19 and slide/page 20"
+  },
+  {
+    "id": 4,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "cybersecurity definitions",
+      "CIA",
+      "resilience",
+      "risk reduction"
+    ],
+    "question": "Across the three cybersecurity definitions introduced in Lecture A1, what is the common core?",
+    "options": {
+      "A": "Formal verification of all software, complete elimination of vulnerabilities, and physical isolation.",
+      "B": "Encryption, antivirus, and firewalls as the only necessary technical controls.",
+      "C": "Protection only of personal devices from theft or damage.",
+      "D": "Confidentiality, integrity, availability, resilience, and risk reduction across user, system, and national scopes."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture explicitly states that the definitions converge on CIA, resilience, and risk reduction while expanding scope from user to system to nation. A is unrealistic and contradicted by the lecture's note that comprehensive formal verification is infeasible. B lists tools, not the shared conceptual core. C captures only the user-centric operational definition.",
+    "relevantTheory": "The lecture presents cybersecurity from three viewpoints: reducing cyberattack risk for users and organizations, protecting networks and information systems while ensuring CIA and resilience, and protecting physical assets plus information at national scale. The shared core is not a specific product but a set of security goals and risk-management purposes.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 22, slide/page 23, slide/page 24, and slide/page 25"
+  },
+  {
+    "id": 5,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "complexity",
+      "vulnerability",
+      "formal verification",
+      "attack surface"
+    ],
+    "question": "Why does Lecture A1 use software size and vulnerability counts to argue that cybersecurity is necessary?",
+    "options": {
+      "A": "Because large software ecosystems make comprehensive formal verification infeasible, leaving hidden dependencies and vulnerabilities.",
+      "B": "Because once software exceeds a certain number of lines of code, all vulnerabilities become immediately visible to defenders.",
+      "C": "Because complexity matters only for operating systems, not for cloud services or enterprise platforms.",
+      "D": "Because security failures appear instantly, so gradual emergence is not a realistic concern."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture links large code bases, hidden dependencies, infeasible complete verification, and discovered high-severity vulnerabilities. B is wrong because complexity hides problems rather than making them visible. C is wrong because the lecture discusses entire computing ecosystems, enterprise platforms, and layered cyberspace. D contradicts the slide statement that failures often emerge gradually until visible.",
+    "relevantTheory": "Cyberspace complexity comes from networks of networks, protocol and software stratification, heterogeneous devices, services, operating systems, firmware, and people. Large software systems contain millions or billions of lines of code; fully verifying them is generally infeasible. This creates systemic vulnerability rather than a purely local technical inconvenience.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 30 and slide/page 31"
+  },
+  {
+    "id": 6,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "danger",
+      "threat",
+      "intention"
+    ],
+    "question": "A high-voltage cabinet can harm a technician even when nobody is trying to cause harm. In Lecture A2 terminology, what is it?",
+    "options": {
+      "A": "A threat, because every harmful condition requires a hostile agent.",
+      "B": "A danger, because it has an intrinsic potential to generate a harmful event even without malicious intention.",
+      "C": "A vulnerability, because it is a specific exploitable weakness in software.",
+      "D": "A cyber risk, because all harms in modern organizations are cyber harms."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the lecture defines danger as an intrinsic property or quality with potential to generate harm, independent of malicious actors. A is wrong because threat introduces intention or a hostile agent. C imports a later cyberattack concept and is too narrow. D overgeneralizes: cyber risk concerns damage arising from information-system malfunction or cyber conditions.",
+    "relevantTheory": "The course distinguishes danger from threat. Danger can exist as a property of a factor such as equipment, material, method, or process. Threat adds an intentional or hostile dimension, especially in cybersecurity where an adversary may seek unauthorized access, disclosure, modification, destruction, or denial of service.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 7, slide/page 9, and slide/page 10"
+  },
+  {
+    "id": 7,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "asset view",
+      "impact",
+      "security scope"
+    ],
+    "question": "Why does Lecture A2 say that without assets there is no meaningful security discussion?",
+    "options": {
+      "A": "Because assets define consequences, and consequences determine impact, severity, and risk acceptance.",
+      "B": "Because assets are only physical objects, so intangible data cannot be part of cybersecurity.",
+      "C": "Because security policies are independent of what stakeholders value.",
+      "D": "Because every asset must be protected with identical controls regardless of mission role."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: security must be scoped around assets and the consequences of losing them. B is wrong because assets may be tangible or intangible, and intangible assets are often primary cyberattack targets. C ignores stakeholder-defined scope. D ignores the lecture's impact dimensions: value, criticality, irreplaceability, and mission role.",
+    "relevantTheory": "Security is defined as freedom from conditions causing unacceptable asset loss. An asset is any item of value owned by an organization that can be monetized, including hardware, software, data, information, intellectual property, image, and reputation. Impact analysis turns assets into decision priorities by considering value, criticality, irreplaceability, and mission role.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 12, slide/page 13, slide/page 15, and slide/page 16"
+  },
+  {
+    "id": 8,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "risk formula",
+      "likelihood",
+      "impact",
+      "residual risk"
+    ],
+    "question": "A university estimates that unauthorized access to academic records is unlikely but would create serious privacy and reputational consequences. Which risk interpretation best matches Lecture A2?",
+    "options": {
+      "A": "Risk is only the probability of unauthorized access, so the impact can be ignored.",
+      "B": "Risk is only the severity of consequences, so likelihood does not matter.",
+      "C": "Risk combines probability or likelihood with severity or impact, so both dimensions must be assessed.",
+      "D": "Risk disappears once an insurance policy exists, so no security controls are needed."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture summarizes risk as R = S x P and maps the NIST view to likelihood times impact. A and B each omit one necessary dimension. D is wrong because insurance concerns residual cyber risk; it does not replace asset inventory, protections, countermeasures, and residual-risk evaluation.",
+    "relevantTheory": "Lecture A2 presents several compatible definitions of risk, then operationalizes them as the combination of severity of impact and probability of occurrence. In cyber risk, impact may include financial loss, service interruption, regulatory consequences, privacy violation, or reputational damage. Risk-based management identifies assets, threats, protections, and residual risks.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 23, slide/page 24, slide/page 25, slide/page 26, and slide/page 27"
+  },
+  {
+    "id": 9,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "risk-based security management",
+      "asset inventory",
+      "countermeasures"
+    ],
+    "question": "Which sequence best represents the operational loop of risk-based security management in Lecture A2?",
+    "options": {
+      "A": "Buy insurance, ignore assets, deploy generic tools, then document after an incident.",
+      "B": "Patch systems, classify attackers, publish an SLA, then estimate asset value.",
+      "C": "Start with residual risk, then infer assets, then search for threats only if damage occurs.",
+      "D": "Prepare an asset inventory, analyze threats and risks for each asset, deploy protections and countermeasures, then evaluate residual risk."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct and follows the slide's operational loop. A is wrong because insurance may cover residual risk but does not replace analysis. B lists useful activities in the wrong conceptual order and omits residual risk. C reverses the loop: residual risk is evaluated after controls, not before assets are known.",
+    "relevantTheory": "Risk-based security management begins by knowing what must be protected. For each asset, the organization analyzes threats and risks, chooses controls and countermeasures, and evaluates the remaining exposure. Residual risk may be accepted, reduced further, transferred, or insured, but it should be explicit rather than accidental.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 27 and slide/page 28"
+  },
+  {
+    "id": 10,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "safety",
+      "security",
+      "CIA",
+      "physical vs logical security"
+    ],
+    "question": "Which comparison between safety and computer security is most consistent with Lecture A2?",
+    "options": {
+      "A": "Safety is about authorized access to data, while computer security is only about avoiding human injury.",
+      "B": "Safety means a system operates or fails without causing human injury or environmental damage; computer security prevents and detects unauthorized actions and protects CIA.",
+      "C": "Safety and security are identical in English, so the course treats them as the same concept.",
+      "D": "Computer security excludes physical security because only logical access can compromise a system."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the lecture separates safety from computer security, while noting that the Italian 'sicurezza' is broader. A swaps the meanings. C ignores the lecture's reason for defining several English terms. D is wrong because the lecture says systems can be compromised physically or logically and both are security-relevant.",
+    "relevantTheory": "Safety concerns operation without danger of human injury, death, or environmental damage, including safe failure. Computer security concerns prevention and detection of unauthorized actions and the confidentiality, integrity, and availability of information-system assets. Security controls may be physical, such as building access and environmental protection, or logical, such as access control, system protection, backup, and disaster recovery.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 33, slide/page 34, slide/page 38, slide/page 40, slide/page 41, slide/page 43, and slide/page 44"
+  },
+  {
+    "id": 11,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "data vs information",
+      "inference attack",
+      "quasi-identifiers"
+    ],
+    "question": "A hospital publishes only the average age of patients in a small ward. A neighbor uses that statistic and outside knowledge to infer Bob's condition. What does this illustrate?",
+    "options": {
+      "A": "No leak occurred because raw medical records were not published.",
+      "B": "Only data can be leaked; information cannot be revealed indirectly.",
+      "C": "An inference-based information leak can occur even without directly disclosing the sensitive record.",
+      "D": "Encryption is unnecessary when only statistical summaries are released."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture distinguishes raw data from information inferred from data plus context, including linkage and inference attacks. A and B are the trap: information can leak through summaries and auxiliary knowledge. D is too broad and misses the real issue, which is identifiability and inference risk.",
+    "relevantTheory": "Data are raw or unprocessed items such as ZIP code, age, GPS coordinates, or timestamps. Information is meaning inferred from data and context. Privacy risk can arise when quasi-identifiers and auxiliary information let an attacker link records and infer sensitive attributes, even if a dataset does not explicitly name the target.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 10, slide/page 13, slide/page 14, slide/page 15, and slide/page 16"
+  },
+  {
+    "id": 12,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "CIA triad",
+      "confidentiality",
+      "integrity",
+      "availability"
+    ],
+    "question": "Which option correctly matches the CIA triad properties from Lecture A3?",
+    "options": {
+      "A": "Confidentiality prevents unauthorized modification; integrity ensures timely access; availability prevents disclosure.",
+      "B": "Confidentiality prevents unauthorized disclosure; integrity prevents unauthorized modification; availability ensures timely, reliable access.",
+      "C": "Confidentiality proves who sent a message; integrity guarantees uptime; availability prevents repudiation.",
+      "D": "Confidentiality, integrity, and availability are legal rights, not information security properties."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the lecture definitions. A rotates the meanings. C confuses CIA with authenticity, availability metrics, and non-repudiation. D is wrong because CIA is presented as the core of information security, applying to data and services.",
+    "relevantTheory": "Information security preserves confidentiality, integrity, and availability. Confidentiality means information is not learned or disclosed to unauthorized entities. Integrity means information is not modified or destroyed without authorization. Availability means data and services are accessible in a timely and reliable way when needed.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 19, slide/page 20, slide/page 21, and slide/page 27"
+  },
+  {
+    "id": 13,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "authenticity",
+      "accountability",
+      "non-repudiation",
+      "identity"
+    ],
+    "question": "A system logs every administrator action, but the logs do not provide cryptographic evidence that would stop an administrator from denying a signed transaction. Which distinction is being tested?",
+    "options": {
+      "A": "Availability versus confidentiality.",
+      "B": "Authentication versus authorization.",
+      "C": "Symmetric encryption versus hashing.",
+      "D": "Accountability enables tracing actions, while non-repudiation provides cryptographic evidence against denial."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because Lecture A3 explicitly distinguishes accountability from non-repudiation. A is unrelated to the scenario. B matters for access control but does not explain denial of a performed action. C concerns cryptographic primitives but not the property distinction asked here.",
+    "relevantTheory": "Authenticity answers whether a message or source is genuine. Accountability enables actions of a user, process, or device to be uniquely traced, often through secure logs and audit trails. Non-repudiation goes further by providing cryptographic evidence that an action occurred, such as with digital signatures, timestamps, secure key management, and strong identity binding.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 23, slide/page 24, and slide/page 25"
+  },
+  {
+    "id": 14,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "attacker capabilities",
+      "CIA threats",
+      "forging",
+      "authenticity"
+    ],
+    "question": "In the source-destination threat model, an attacker injects a fake software update that appears to come from a legitimate vendor. Which property is most directly violated?",
+    "options": {
+      "A": "Confidentiality, because the attacker merely reads private data.",
+      "B": "Availability, because every injected message necessarily blocks service.",
+      "C": "Accountability, because the attack is only about log retention.",
+      "D": "Authenticity, because the attacker forges an object that appears legitimate."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because Lecture A3 maps forging or injecting fake legitimate-looking messages to authenticity attacks. A would be eavesdropping or stealing. B would be inhibiting or denial of service. C is not the primary violated property in the described source-destination model.",
+    "relevantTheory": "The lecture maps attacker capabilities to security properties: read or eavesdrop breaks confidentiality; modify or tamper breaks integrity; block or degrade breaks availability; inject or forge breaks authenticity. Controls must match the violation: encryption for confidentiality, MACs or signatures for integrity and authenticity, redundancy and rate limiting for availability.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 30, slide/page 31, slide/page 32, slide/page 33, and slide/page 34"
+  },
+  {
+    "id": 15,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "encryption",
+      "MAC",
+      "hash",
+      "digital signature",
+      "Kerckhoffs"
+    ],
+    "question": "Which statement about the cryptographic mechanisms in Lecture A3 is correct?",
+    "options": {
+      "A": "A plain hash alone is enough against an active attacker who can alter both the message and digest.",
+      "B": "Symmetric cryptography uses a public/private key pair and is mainly used for public verification.",
+      "C": "Security should depend on keeping the encryption algorithm secret, not on protecting keys.",
+      "D": "Encryption provides confidentiality; MACs provide authenticated integrity with a shared secret; digital signatures provide integrity, authenticity, and non-repudiation with public verification."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct and integrates the lecture's mechanism mapping. A is wrong because a hash alone detects accidental changes only when the attacker cannot alter both values; active attackers require authenticated integrity. B describes asymmetric rather than symmetric cryptography. C contradicts Kerckhoffs's principle: security depends on key management, not algorithm secrecy.",
+    "relevantTheory": "Encryption transforms a message into ciphertext using an algorithm and key, mainly to protect confidentiality in transit and at rest. Symmetric cryptography uses one shared secret key and is efficient for bulk data but has a key-exchange problem. Public-key cryptography uses public/private keys for confidentiality and signatures. Hashes create fixed-length digests; MACs and digital signatures authenticate integrity against active attackers.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 37, slide/page 39, slide/page 40, slide/page 41, slide/page 42, slide/page 43, and slide/page 44"
+  },
+  {
+    "id": 16,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "privacy",
+      "data protection",
+      "secrecy"
+    ],
+    "question": "Which distinction between privacy, data protection, and secrecy best matches Lecture A4?",
+    "options": {
+      "A": "Privacy protects strategic state information; secrecy protects consumer preferences; data protection is only encryption.",
+      "B": "Privacy protects the person and private sphere; data protection constrains personal-data processing; secrecy protects sensitive institutional or state information.",
+      "C": "Privacy, data protection, and secrecy are interchangeable words for confidentiality.",
+      "D": "Secrecy exists only for companies, while privacy exists only for governments."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. A swaps the meanings and reduces data protection to a single technical mechanism. C ignores the lecture's three-dimension framework. D contradicts the slides: secrecy concerns institutional or state information and privacy concerns individuals.",
+    "relevantTheory": "Lecture A4 asks why, for whom, and under which constraints information must be protected. Privacy is about the individual: private sphere, communications, behavioral patterns, autonomy, identity construction, and protection from unjustified surveillance. Data protection turns personal-data processing into enforceable organizational and engineering duties. Secrecy protects institutional, mission, and state interests from harmful disclosure.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 7, slide/page 8, slide/page 15, and slide/page 43"
+  },
+  {
+    "id": 17,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "accessible",
+      "public",
+      "legitimate use",
+      "purpose limitation"
+    ],
+    "question": "A company scrapes technically reachable social-media posts, merges them with location traces, and profiles users for an unrelated purpose. Which Lecture A4 trap does this violate?",
+    "options": {
+      "A": "If data are accessible, they are automatically public and legitimately usable.",
+      "B": "Availability is equivalent to authorization, so reachable data can be used freely.",
+      "C": "Only encrypted datasets can create privacy risks.",
+      "D": "Accessible, public, and legitimately usable are different; lawful basis and purpose matter."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture explicitly separates technically reachable, intentionally disclosed, and legally/purpose-authorized use. A and B state the false equivalence the slide warns against. C is wrong because aggregation, correlation, profiling, and predictive analytics can create risk even when data are readable.",
+    "relevantTheory": "In cyberspace, personal data can be explicit, implicit, or derived. Risk arises from aggregation, cross-dataset correlation, and predictive analytics. Privacy and data protection are not satisfied by technical availability alone: lawful basis, purpose limitation, data minimization, retention limits, and control over access and disclosure all matter.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 17, slide/page 18, and slide/page 25"
+  },
+  {
+    "id": 18,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "GDPR",
+      "accountability",
+      "privacy by design",
+      "organizational duties"
+    ],
+    "question": "An engineering team designing a personal-data service wants to treat GDPR as an operational design constraint. Which set of duties fits Lecture A4?",
+    "options": {
+      "A": "Collect all possible data now, define purposes later, and rely on users not asking questions.",
+      "B": "Use encryption only; if data are encrypted at rest, GDPR accountability is automatically complete.",
+      "C": "Avoid logging because audit trails are always privacy violations.",
+      "D": "Define lawful basis and purpose, minimize collection and retention, restrict and secure access, support data-subject rights, and document incident readiness."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct and follows the lecture's conversion of GDPR principles into organizational duties. A violates purpose limitation and minimization. B mistakes one mechanism for full compliance. C is wrong because logging and accountability support compliance and breach detection, although logs must also be protected.",
+    "relevantTheory": "GDPR makes security a design constraint, not an optional add-on. Organizations must prove compliance through accountability. Engineering implications include lawful basis, clear purpose, minimization, retention limits, access control, protection in storage and transit, transparency, user rights, documentation, and readiness to detect, assess, and manage breaches.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 23, slide/page 24, and slide/page 25"
+  },
+  {
+    "id": 19,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "anonymization",
+      "pseudonymization",
+      "GDPR",
+      "identifiability"
+    ],
+    "question": "Which statement correctly compares anonymization and pseudonymization in Lecture A4?",
+    "options": {
+      "A": "Anonymization removes identifiability if effective; pseudonymization replaces identifiers with reversible tokens and the data remain personal data.",
+      "B": "Pseudonymization eliminates all GDPR obligations because no actor can ever reconnect the data to a person.",
+      "C": "Anonymization is always reversible if the controller keeps additional information separately.",
+      "D": "Both mechanisms act only on access rights, not on identifiers or identifiability."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. B is wrong because pseudonymized data remain personal data and reduce, not eliminate, obligations. C describes pseudonymization, not anonymization; effective anonymization should be irreversible. D confuses these mechanisms with access control.",
+    "relevantTheory": "Anonymization aims to eliminate the correlation between personal data and the individual, so effective anonymized data are no longer personal data under GDPR. Its effectiveness depends on context and auxiliary information. Pseudonymization replaces identifying fields with artificial identifiers, but re-identification remains possible with separately held additional information, so it reduces exposure without removing regulatory duties.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 36, slide/page 37, slide/page 38, slide/page 39, and slide/page 40"
+  },
+  {
+    "id": 20,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "secrecy",
+      "classification",
+      "need-to-know",
+      "national defense"
+    ],
+    "question": "A cleared analyst asks for a full classified dataset unrelated to the current mission. Which Lecture A4 principle should deny or limit access?",
+    "options": {
+      "A": "Privacy paradox, because users often accept default settings.",
+      "B": "Encryption at rest, because ciphertext automatically decides who may use decrypted data.",
+      "C": "Need-to-know, because clearance or authorization is not unlimited access and distribution must follow operational necessity.",
+      "D": "Anonymization, because all state secrets become non-secret when identifiers are removed."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: in secrecy regimes, authorization and need-to-know work together. A concerns individual privacy behavior, not classified access. B is wrong because encryption protects confidentiality but does not regulate use after decryption. D is wrong because secrecy protects institutional and state interests, not just personal identifiability.",
+    "relevantTheory": "Secrecy is institutional protection for information whose disclosure would harm collective interests such as national security, strategic infrastructure, military operations, intelligence, or high-impact state functions. Italian classifications increase with possible damage to the Republic. Need-to-know limits access to what is strictly necessary for a specific role or mission, reducing exposure and damage from compromise.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 43, slide/page 44, and slide/page 45"
+  },
+  {
+    "id": 21,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "weakness",
+      "vulnerability",
+      "CWE",
+      "CVE"
+    ],
+    "question": "Which option best distinguishes weakness from vulnerability in Lecture A5?",
+    "options": {
+      "A": "A weakness is a recurring class of flaw; a vulnerability is a specific exploitable instance in a specific component or environment.",
+      "B": "A weakness is always malicious code, while a vulnerability is always an attacker group.",
+      "C": "A vulnerability is any general design habit, while a weakness is a publicly disclosed CVE entry.",
+      "D": "Weaknesses and vulnerabilities are identical because every weak point is exploitable in every environment."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and matches the lecture's CWE versus CVE distinction. B is conceptually unrelated. C reverses the distinction: CWE catalogs recurring weaknesses, CVE catalogs publicly known vulnerabilities. D ignores context: not every weakness becomes a vulnerability, and exploitability depends on environment.",
+    "relevantTheory": "A weakness is a systematic and classifiable weak point in design, implementation, configuration, or organizational practice. CWE provides a common language for these recurring weaknesses. A vulnerability is a particular weakness present in a specific component that can be exploited by an attacker; CVE entries identify publicly disclosed vulnerabilities.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 10, slide/page 14, slide/page 19, slide/page 20, and slide/page 21"
+  },
+  {
+    "id": 22,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "exploitability",
+      "context",
+      "CVE",
+      "ethics"
+    ],
+    "question": "A CVE affects a software version installed in a lab system that is isolated, requires local admin access, and is protected by compensating controls. What is the best Lecture A5 interpretation?",
+    "options": {
+      "A": "The CVE proves that exploitation is guaranteed in that environment.",
+      "B": "The CVE may represent exposure, but exploitability must be assessed through reachability, privileges, preconditions, user interaction, mitigations, and operational context.",
+      "C": "The vulnerability can be exploited without authorization because it is publicly known.",
+      "D": "The issue is only a weakness, never a vulnerability, because CVEs cannot affect lab systems."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: Lecture A5 explicitly says CVE present does not necessarily mean exploitable in your environment. A ignores exploitability context. C violates the lecture's ethics and legality point: a vulnerability does not create a right to exploit it. D is wrong because a CVE can describe a real vulnerability even if local exploitability is limited.",
+    "relevantTheory": "A vulnerability is meaningful for defenders only in context. Exploitability depends on whether the vulnerable component is reachable, what privileges and preconditions are required, whether user interaction is needed, what mitigations exist, and whether the system is a lab, internal service, or Internet-facing production asset. Security testing requires explicit authorization and scope.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 22 and slide/page 65"
+  },
+  {
+    "id": 23,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "threat chain",
+      "kill chain",
+      "exposure",
+      "execution"
+    ],
+    "question": "Which pairing correctly separates the Threat Chain from the Cyber Kill Chain in Lecture A5?",
+    "options": {
+      "A": "Threat Chain explains legal attribution; Kill Chain explains GDPR compliance.",
+      "B": "Threat Chain explains why attack opportunities exist through weakness, vulnerability, exploit, and attack; Kill Chain explains how an attacker progresses from reconnaissance to actions on objectives.",
+      "C": "Threat Chain and Kill Chain are the same sequence with different names.",
+      "D": "Threat Chain applies only to physical safety; Kill Chain applies only to non-technical human behavior."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and directly reflects the lecture comparison. A mixes unrelated frameworks. C ignores the distinction between exposure and execution. D is wrong because both chains are used to reason about cybersecurity attacks, though they answer different questions.",
+    "relevantTheory": "The Threat Chain explains how complexity creates exposure: weak points can become vulnerabilities, vulnerabilities can be exploited, and exploitation can produce unauthorized actions on assets. The Cyber Kill Chain describes attack execution stages: reconnaissance, weaponization, delivery, exploitation, installation, command and control, and actions on objectives.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 24, slide/page 30, slide/page 31, and slide/page 32"
+  },
+  {
+    "id": 24,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "kill chain",
+      "delivery",
+      "exploitation",
+      "installation",
+      "C2"
+    ],
+    "question": "An attacker sends a spear-phishing email with a malicious document. The victim opens it, a macro downloads malware, the malware persists at startup, then beacons to an attacker server. Which sequence of Kill Chain stages is shown after weaponization?",
+    "options": {
+      "A": "Reconnaissance, actions on objectives, installation, weaponization.",
+      "B": "Delivery, exploitation, installation, command and control.",
+      "C": "Command and control, delivery, reconnaissance, vulnerability management.",
+      "D": "Threat intelligence, residual risk, patching, insurance."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: sending the email is delivery, opening the document and executing the macro is exploitation, persistence is installation, and beaconing to the attacker server is C2. A is out of order and includes prior/later stages. C starts with C2 before payload delivery. D lists defensive or risk concepts, not Kill Chain phases.",
+    "relevantTheory": "The Cyber Kill Chain is useful for describing many intrusion-oriented campaigns. Delivery brings the weaponized payload to the target. Exploitation triggers code execution or first compromise. Installation establishes persistent access. Command and Control lets the attacker remotely manage the compromised host before final actions such as theft, sabotage, or extortion.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 36, slide/page 38, slide/page 40, slide/page 42, and slide/page 44"
+  },
+  {
+    "id": 25,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "threat actors",
+      "APT",
+      "cybercrime",
+      "hacktivism",
+      "motivation"
+    ],
+    "question": "Which classification by perpetrator best matches the motivations emphasized in Lecture A5?",
+    "options": {
+      "A": "State-sponsored attacks are mainly strategic; cybercriminal attacks are mainly profit-driven; hacktivist attacks are mainly ideological or visibility-driven.",
+      "B": "State-sponsored attacks are always ransomware for quick payment; cybercrime is always geopolitical; hacktivism is always covert long-term espionage.",
+      "C": "APT names are ground-truth identities, so a single name always proves the exact government behind an attack.",
+      "D": "Hacktivists prioritize persistence over visibility, so public embarrassment is rarely part of their logic."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. B swaps the lecture's motivations. C is wrong because APT labels are names for observed activity clusters and may overlap across research organizations; they are not ground-truth identity. D contradicts the lecture's point that hacktivism often prioritizes visibility, narrative influence, disruption, embarrassment, and media attention.",
+    "relevantTheory": "Lecture A5 classifies attacks by perpetrators: state-sponsored operations pursue strategic objectives such as espionage, disruption, sabotage, and pre-positioning; cybercriminal operations pursue profit through theft, extortion, stolen access, and criminal services; hacktivism is politically or socially motivated and often seeks visibility and symbolic disruption.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 51, slide/page 52, slide/page 53, slide/page 54, slide/page 57, slide/page 74, slide/page 75, and slide/page 76"
+  },
+  {
+    "id": 26,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "MITRE ATT&CK",
+      "behavioral framework",
+      "tactics techniques procedures"
+    ],
+    "question": "What is MITRE ATT&CK primarily used to catalog in Lecture A6?",
+    "options": {
+      "A": "A fixed chronological sequence of attacks that must always be read left to right.",
+      "B": "Only malware families, CVE records, and specific attack tools.",
+      "C": "Real-world adversary behavioral patterns organized as tactics, techniques, and procedures.",
+      "D": "Only national laws and compliance duties for cybercrime investigations."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because ATT&CK is presented as a curated knowledge base of real-world adversary behavior. A is wrong because ATT&CK is not another Kill Chain and is not a mandatory sequence. B is wrong because it does not primarily catalog malware, vulnerabilities, or tools. D is outside the framework's purpose.",
+    "relevantTheory": "ATT&CK models actions, not merely software. It organizes adversary behavior at three analytical levels: tactics are why an action is performed, techniques are reusable methods for achieving that objective, and procedures are concrete campaign-specific implementations. Analysts map observed behavior to techniques to support defensive reasoning.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 10, slide/page 11, slide/page 14, and slide/page 15"
+  },
+  {
+    "id": 27,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "kill chain limitation",
+      "behavioral ontology",
+      "nonlinear attacks"
+    ],
+    "question": "Why does Lecture A6 argue that sequential attack models are insufficient on their own?",
+    "options": {
+      "A": "Because real adversaries may pivot, repeat steps, retry failed actions, combine human and technical actions, and reuse techniques outside a clean linear path.",
+      "B": "Because every real intrusion follows a perfectly linear Kill Chain with no repeated tactics.",
+      "C": "Because defenders should ignore observable behavior and focus only on campaign phase labels.",
+      "D": "Because ATT&CK eliminates the need for telemetry and detection engineering."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and summarizes the lecture's reason for moving from sequential models to behavioral ontologies. B states the limitation as if it were true. C is the reverse of the lecture's message: defense should be expressed in terms of observable behavior. D is wrong because ATT&CK becomes operational only when connected to telemetry and controls.",
+    "relevantTheory": "The Cyber Kill Chain helps reason about progression and interruption points, but real intrusions often are not clean sequences. ATT&CK asks 'what is the adversary doing?' rather than only 'where are we in the intrusion sequence?' This supports detection engineering, telemetry design, capability assessment, and threat-informed defense.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 6, slide/page 7, and slide/page 8"
+  },
+  {
+    "id": 28,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "tactic",
+      "technique",
+      "procedure",
+      "credential access"
+    ],
+    "question": "An analyst writes: 'Credential Access; OS Credential Dumping; dumping LSASS memory with a specific tool.' Which mapping is correct?",
+    "options": {
+      "A": "Technique; tactic; procedure.",
+      "B": "Procedure; tactic; technique.",
+      "C": "Tactic; technique; procedure.",
+      "D": "Vulnerability; exploit; attack."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: Credential Access is the adversary's objective, OS Credential Dumping is the reusable method, and dumping LSASS with a specific tool is the concrete implementation. A and B scramble the ATT&CK levels. D uses Threat Chain terms rather than ATT&CK analytical levels.",
+    "relevantTheory": "ATT&CK separates strategic objective, operational method, and concrete implementation. A tactic describes why behavior is performed, such as Credential Access. A technique describes how the objective is achieved, such as OS Credential Dumping. A procedure describes how that technique was implemented in a specific campaign or environment.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 15 and slide/page 21"
+  },
+  {
+    "id": 29,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "defensive mapping",
+      "telemetry",
+      "detection logic",
+      "response"
+    ],
+    "question": "Which chain best expresses when an ATT&CK technique becomes defensible in Lecture A6?",
+    "options": {
+      "A": "Technique, artifact, telemetry, detection logic, response.",
+      "B": "Tactic, public attribution, media report, insurance claim, closure.",
+      "C": "CVE entry, exploit code, exploit success, no further analysis.",
+      "D": "Logging alone, without hypothesis, baseline, correlation, or false-positive reduction."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and reproduces the defensive chain from the lecture. B confuses defense with public reporting. C is vulnerability-centered and misses behavior, telemetry, and response. D is wrong because detection is analytical interpretation, not mere logging.",
+    "relevantTheory": "A behavioral technique is defensible only if it leaves artifacts, those artifacts generate telemetry, telemetry can be modeled analytically, and the model supports detection and response. Artifacts include process creation, registry changes, file changes, network connections, authentication events, and configuration changes. Telemetry includes OS logs, endpoint sensors, network monitoring, application logs, and industrial monitoring data.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 23, slide/page 24, and slide/page 25"
+  },
+  {
+    "id": 30,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "Stuxnet",
+      "air-gap",
+      "IT OT",
+      "strategic physical effects"
+    ],
+    "question": "Which conclusion about Stuxnet best matches Lecture A6?",
+    "options": {
+      "A": "Air-gapping removes all attack paths, so Stuxnet could not have reached a restricted industrial environment through removable media.",
+      "B": "Stuxnet was only ordinary malware for data theft, with no cyber-physical or strategic significance.",
+      "C": "Stuxnet mattered because it combined targeted intrusion, IT-to-OT compromise, PLC logic manipulation, deception of operators, and physical sabotage despite segmentation.",
+      "D": "The case shows that behavioral monitoring is unnecessary when physical isolation exists."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: the lecture presents Stuxnet as a landmark cyber-physical operation producing strategic physical effects. A is one of the main traps: air-gapping reduces exposure but does not remove paths such as infected removable media. B ignores PLC manipulation and sabotage. D contradicts the lesson that incomplete telemetry creates weak visibility and behavioral monitoring is essential.",
+    "relevantTheory": "Stuxnet targeted uranium-enrichment centrifuges by manipulating Siemens PLC logic after entering a restricted environment, plausibly through removable media. It used multiple Windows zero-days, propagated locally, checked for specific industrial conditions, changed centrifuge operation, and reported misleading normal readings. The case teaches that IT and OT security cannot be separated and that cyber operations can create strategic physical effects.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 33, slide/page 34, slide/page 35, slide/page 36, and slide/page 42"
+  },
+  {
+    "id": 31,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "human factor",
+      "weakest link",
+      "social engineering"
+    ],
+    "question": "Which statement best captures why the human factor is treated as central in Module B social engineering?",
+    "options": {
+      "A": "Humans can be manipulated into actions that bypass technical protections, such as opening links, sending money, or revealing credentials.",
+      "B": "Humans are relevant only when they intentionally install backdoors in software or hardware.",
+      "C": "Humans are usually safer than computers because firewalls, antivirus, and encryption remove the need for user judgment.",
+      "D": "Humans are considered a minor risk because social engineering requires advanced programming skills."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture frames humans as the weakest link: attackers manipulate people into performing malicious operations against themselves. B is too narrow and confuses intentional technical backdoors with human manipulation. C is the opposite of the Mitnick quotation used in the lecture. D is wrong because the slides explicitly say social engineering often does not require being a hacker or programmer.",
+    "relevantTheory": "Technical defenses matter, but social engineering attacks the person who uses the system. If a victim can be persuaded to download software, visit a malicious website, send money, open a physical door, or disclose a password, the attacker may avoid finding a software vulnerability at all.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 6-8 and 24"
+  },
+  {
+    "id": 32,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "vulnerability classification",
+      "intentional",
+      "unintentional"
+    ],
+    "question": "In the lecture's vulnerability classification, which pairing is the best example of confusing the nature of a vulnerability with its domain?",
+    "options": {
+      "A": "Calling a software bug an unintentional vulnerability.",
+      "B": "Calling a backdoor intentional while also recognizing it may appear in a technology domain.",
+      "C": "Treating every human vulnerability as a software specification flaw.",
+      "D": "Separating vulnerabilities by nature, such as unintentional and intentional, and by domain, such as technology, organization, and human."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the confused statement: the classification separates nature from domain, so a human vulnerability should not be reduced to a software specification flaw. A fits the slide's unintentional side. B is compatible with the idea that a vulnerability can have a nature and a domain. D restates the classification correctly.",
+    "relevantTheory": "The slide distinguishes two axes. One axis is the nature of the vulnerability, such as unintentional bugs or intentional backdoors. Another axis is the domain, such as technology, organization, or human. Social engineering belongs to the human side because it exploits behavior, good faith, and cognitive bias rather than only code.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 5 and 13"
+  },
+  {
+    "id": 33,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "social engineering",
+      "persuasion",
+      "sensitive information"
+    ],
+    "question": "Which option is the most complete definition of social engineering according to the lecture?",
+    "options": {
+      "A": "A combination of sociological, psychological, and information-gathering techniques used to manipulate people into disclosing information, violating security measures, or enabling unauthorized access.",
+      "B": "Any attack that uses malware rather than cryptography.",
+      "C": "Only the act of guessing passwords by looking at public information.",
+      "D": "Only physical impersonation, such as pretending to be an employee at a door."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because it includes manipulation, persuasion, information gathering, and the three outcomes stressed in the slides. B is generic and malware-centered. C is only one possible preparatory activity. D captures one possible form but misses email, websites, attachments, credential theft, and other non-physical channels.",
+    "relevantTheory": "The lecture presents social engineering as both an art and a science of making people do what the attacker wants. Its goal may be to obtain sensitive information, make the victim perform an unsafe action, or gain unauthorized access to systems, networks, data, devices, or physical spaces.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 9-11"
+  },
+  {
+    "id": 34,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "dual process theory",
+      "System 1",
+      "System 2"
+    ],
+    "question": "An employee instantly obeys a message that appears to come from the CEO and only later notices the email address was slightly wrong. Which explanation best matches dual process theory?",
+    "options": {
+      "A": "System 2 made a slow logical decision and correctly prioritized authority over sender verification.",
+      "B": "System 1 produced a fast emotional compliance response before System 2 performed deliberate checks.",
+      "C": "Both systems are equally slow, so the problem is only lack of technical training.",
+      "D": "System 1 is used only for mathematical reasoning, while System 2 detects emotion and authority."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: System 1 is fast, instinctive, emotional, and always active, so it can trigger compliance quickly. A wrongly assigns the fast response to System 2 and calls it correct. C ignores the lecture's distinction between intuitive and analytical cognition. D reverses the examples: emotion detection is System 1, while deliberate calculation is System 2.",
+    "relevantTheory": "Dual process theory divides decision-making into System 1 and System 2. System 1 is automatic, fast, low-effort, and emotional. System 2 is deliberate, slow, logical, effortful, and easily exhausted. Social engineers try to keep victims in System 1 by using pressure, authority, and emotion.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 14-17 and 21"
+  },
+  {
+    "id": 35,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "urgent wire transfer",
+      "authority",
+      "urgency",
+      "loss risk"
+    ],
+    "question": "In the lecture's urgent wire transfer example, which chain correctly explains how the attacker manipulates the victim?",
+    "options": {
+      "A": "Technical exploit -> firewall bypass -> encrypted transfer -> credential dump.",
+      "B": "Typos in the email -> antivirus warning -> sandbox execution -> safe deletion.",
+      "C": "CEO authority cue -> ten-minute deadline -> fear of losing the deal -> System 1 compliance before System 2 verification.",
+      "D": "Open-source intelligence only -> no emotional pressure -> victim performs a purely rational financial analysis."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because it follows the lecture's three bias triggers: authority, urgency, and loss risk. A describes a technical intrusion, not this social engineering case. B mixes unrelated defenses with no account of persuasion. D is wrong because the example depends precisely on emotional pressure and suppression of slow verification.",
+    "relevantTheory": "The attacker is not mainly hacking the computer; the attacker is exploiting cognitive biases. Authority makes a CEO request feel legitimate, urgency creates stress and suppresses slow System 2 thinking, and loss risk makes the employee act impulsively to avoid a negative outcome.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 20-22"
+  },
+  {
+    "id": 36,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "target selection",
+      "help desk",
+      "support staff"
+    ],
+    "question": "Which statement about social engineering targets is FALSE according to the lecture?",
+    "options": {
+      "A": "Each of us can be the chosen victim.",
+      "B": "Help desk, secretarial, and support staff are typical primary targets.",
+      "C": "Attackers may prefer fraudulently obtaining a password over searching for a technical vulnerability.",
+      "D": "Only senior technical administrators can be useful targets because other employees have no exploitable access."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is false because the lecture explicitly says each of us can be the victim and highlights help desk, secretarial, and support staff. A, B, and C are all aligned with the slides. The trap is assuming that only highly technical or highly privileged people matter.",
+    "relevantTheory": "Social engineering target selection is practical. Attackers often choose people who can be pressured, trusted, or used as a stepping stone. Support roles are attractive because they interact with many people and may be asked to reset accounts, share procedures, open doors, or handle requests quickly.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 23-24"
+  },
+  {
+    "id": 37,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "cyber hygiene",
+      "precautionary measures"
+    ],
+    "question": "What does the lecture mean by cyber hygiene in the phishing context?",
+    "options": {
+      "A": "A set of precautionary measures by organizations and individuals to help keep sensitive data safe and secure.",
+      "B": "A legal rule that makes phishing technically impossible after an email is reported.",
+      "C": "A malware family that disinfects Office documents before they are opened.",
+      "D": "A one-time awareness test that replaces daily caution around links and attachments."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is the lecture definition. B is wrong because cyber hygiene is not a magic legal or technical prevention. C invents a malware/disinfection meaning. D is wrong because the lecture presents hygiene as ongoing behavior and best practices, not a one-time substitute for suspicion.",
+    "relevantTheory": "Cyber hygiene is the routine set of precautions that reduce risk: suspicion toward unexpected emails, checking senders and destinations, avoiding unsafe links and attachments, restricting macros, and isolating risky actions in virtual machines or sandboxes when unavoidable.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 4-5 and 30-37"
+  },
+  {
+    "id": 38,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "phishing",
+      "credentials",
+      "malicious links",
+      "attachments"
+    ],
+    "question": "Which action is NOT one of the main goals of phishing listed in the lecture?",
+    "options": {
+      "A": "Tricking a victim into providing login credentials or bank and credit card details.",
+      "B": "Tricking a victim into clicking malicious links.",
+      "C": "Tricking a victim into opening attachments containing malware.",
+      "D": "Forcing a victim's computer to disclose secrets without any user interaction or deception."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is not a phishing goal as presented: phishing depends on tricking the victim. A, B, and C are exactly the three outcomes listed on the phishing definition slide. The distinction matters because phishing is a social engineering vector, not merely an automatic technical exploit.",
+    "relevantTheory": "Phishing is internet fraud where the attacker tricks the victim into giving personal information, clicking a malicious link, or opening a malicious attachment. It can be broad or targeted, but deception and victim action are central.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slide/page 8"
+  },
+  {
+    "id": 39,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "spear phishing",
+      "whaling",
+      "BEC"
+    ],
+    "question": "A tailored email appears to come from a known vendor and asks the finance office to pay a fake invoice to a new account. Which classification is most precise?",
+    "options": {
+      "A": "Whaling, because every finance-related email targets only CEOs and CFOs.",
+      "B": "Smishing, because fake invoices are always sent by SMS.",
+      "C": "Business Email Compromise, a spear-phishing style attack against organizations for money or sensitive information.",
+      "D": "Ordinary non-targeted phishing, because vendor impersonation cannot be targeted."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because BEC uses apparently trusted contacts such as colleagues, vendors, partners, or customers to trick organizations into payments or disclosure. A is too narrow: whaling is spear phishing for highest-value targets. B changes the channel to SMS without evidence. D ignores the vendor impersonation and organizational payment goal.",
+    "relevantTheory": "Spear phishing is targeted at a specific person or role and often uses personal or contextual details. Whaling is spear phishing against high-ranking, high-value targets. BEC is a spear-phishing type attack where trusted business identity is abused to obtain money or sensitive information, sometimes using a compromised sender account.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 11-13"
+  },
+  {
+    "id": 40,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "vishing",
+      "smishing",
+      "social media",
+      "password reuse"
+    ],
+    "question": "Which scenario best matches the lecture's definition of smishing rather than vishing or social-media phishing?",
+    "options": {
+      "A": "A phone call uses caller ID spoofing and claims there is legal trouble unless money is sent immediately.",
+      "B": "A text message impersonates a mobile carrier, promises a free gift, and asks the user to update credit card details.",
+      "C": "A fake profile impersonates a friend and asks for login details, later enabling account takeover.",
+      "D": "A targeted email pretends to be the user's boss and mentions the user's vacation plans."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is smishing because it is SMS phishing through a fraudulent text message. A is vishing because it uses a voice call and caller ID spoofing. C is social-media phishing and account takeover. D is spear phishing by email.",
+    "relevantTheory": "The lecture separates phishing variants by channel and target. Vishing uses voice calls, often with caller ID spoofing and alarming claims. Smishing uses fraudulent SMS messages. Social-media phishing uses impersonation on social platforms, and password reuse increases the damage if one account is captured.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 14-15"
+  },
+  {
+    "id": 41,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "phishing recognition",
+      "sender",
+      "domain",
+      "typosquatting"
+    ],
+    "question": "An email appears to come from a university address, but the button opens a login page on an external domain that resembles the original and contains small typos. What is the best assessment?",
+    "options": {
+      "A": "It is safe because the visible sender address belongs to the university.",
+      "B": "It is suspicious because sender appearance, link destination, and copied landing pages must all be checked.",
+      "C": "It is safe if the landing page logo is correct, because logos prove domain ownership.",
+      "D": "It is suspicious only if the message has spelling errors in the subject line."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and matches the PoliTo example: a sender can look legitimate while the link points outside the organization and the landing page only resembles the real one. A and C over-trust visible identity cues. D is too narrow; typos are a signal, but domain mismatch alone is already dangerous.",
+    "relevantTheory": "Recognition signals include unknown or suspect sender, typos and spelling errors, urgent requests for confidential data, and subtle domain differences such as rnicrosoft.com instead of microsoft.com. More advanced examples may copy a real brand while using typosquatting or an external domain.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 16-17 and 25 and 29"
+  },
+  {
+    "id": 42,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "attachments",
+      "macros",
+      "DDE",
+      "sandbox"
+    ],
+    "question": "A colleague sends an unexpected Office file by email and says it must be opened immediately. Which response best follows the lecture's cyber hygiene guidance?",
+    "options": {
+      "A": "Open it because Office files are safer than executable programs.",
+      "B": "Enable macros if the document requests it, because macros are the only risky Office mechanism.",
+      "C": "Forward it to others so more people can decide whether it is legitimate.",
+      "D": "Treat it as suspicious, avoid opening or saving it, and if opening is unavoidable use an isolated VM or sandbox while macro/VBA execution is prevented."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture warns against opening or saving attachments at the slightest suspicion and recommends VMs or sandboxes if opening is unavoidable. A is wrong because images, PDFs, and Office files may still be dangerous. B ignores DDE exploits, which can execute embedded code without the macro authorization request. C spreads risk.",
+    "relevantTheory": "Office documents can contain malicious code in macros or through DDE exploits. DDE was designed for data exchange between Office applications and is retained for backwards compatibility, but it can be abused to execute embedded code. Defensive hygiene includes suspicion, macro/VBA prevention policies, not emailing Office source files, quality PDF readers, and isolation for risky files.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 31-37"
+  },
+  {
+    "id": 43,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "baiting",
+      "USB",
+      "HID",
+      "drive-by"
+    ],
+    "question": "A branded USB gadget is left where employees can pick it up. When connected, it behaves like a keyboard and rapidly runs commands that install a payload. Which attack is this?",
+    "options": {
+      "A": "Baiting through a Human Interface Device or USB drive-by attack.",
+      "B": "Dumpster diving because the victim found an object in a public area.",
+      "C": "Smishing because the attack uses a short physical message.",
+      "D": "Degaussing because the USB device erases the hard disk magnetically."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the bait is the attractive device, and the technical mechanism is a USB device simulating keystrokes as an HID/drive-by attack. B is wrong because dumpster diving is about collecting discarded material. C is SMS phishing, not USB. D is a sanitizing technique for magnetic media, not this attack.",
+    "relevantTheory": "Baiting uses an attractive object to make the victim take an unsafe action. USB baiting is especially dangerous because any USB-connected device, not only a pendrive, can infect a PC. A programmable device can act as a keyboard and execute a preconfigured sequence of keystrokes to drop a malicious payload.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 7-14"
+  },
+  {
+    "id": 44,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "baiting",
+      "kill chain",
+      "Google campaign"
+    ],
+    "question": "What is the most important lesson from the Google USB plasma globe campaign described in the lecture?",
+    "options": {
+      "A": "A baiting attack can be only a harmless awareness exercise if the first infected users are not the final target.",
+      "B": "A physical bait can become the first link of a kill chain, compromising identities and privileges that are then used to reach the real target.",
+      "C": "USB attacks require expensive custom hardware and are therefore unrealistic for ordinary organizations.",
+      "D": "Employees always raise alarms quickly once a suspicious USB device starts sending keystrokes."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the initial infected employees were not related to Google Glass, but their identities and privileges were used to send further malicious emails and reach the target. A is wrong because the attack still succeeded. C contradicts the slide on low cost and available tools. D contradicts the reported result: zero alarms were raised.",
+    "relevantTheory": "Physical attacks can chain into digital compromise. In the lecture example, a USB gift sent keystrokes, downloaded a payload, enabled remote access, let attackers impersonate victims, and eventually helped retrieve target fingerprints and files. The reported outcome included compromised accounts, stolen data, and no alarms.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 15-18"
+  },
+  {
+    "id": 45,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "smartphone charging",
+      "USB data pins",
+      "cyber hygiene"
+    ],
+    "question": "When charging a smartphone in a hotel or public area, which practice best matches the lecture's guidance?",
+    "options": {
+      "A": "Plug directly into the public USB outlet because charging cables only carry power.",
+      "B": "Use any borrowed USB cable if the phone displays the normal charging icon.",
+      "C": "Use a wall charger connected to the electrical outlet, or insert a data-blocking device that connects only the power pins.",
+      "D": "Disable the screen lock, because charging attacks depend only on the screen being locked."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture says to connect the charger to an electrical outlet rather than directly to a USB outlet, or to use a device that leaves data pins disconnected. A is false because USB can carry data as well as power. B over-trusts the cable. D is unrelated and weakens physical security.",
+    "relevantTheory": "The baiting lesson extends to smartphones: any USB connection may expose a device to data transfer or attack. A charge-only adapter or data blocker reduces this by connecting only the power pins. The lecture also notes that even charging can leak information in research settings through power-consumption analysis.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 19-22"
+  },
+  {
+    "id": 46,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "dumpster diving",
+      "deletion",
+      "sanitizing"
+    ],
+    "question": "Why is simply deleting files before disposing of a device insufficient against dumpster diving?",
+    "options": {
+      "A": "Because deleting a file always sends a full readable copy to the attacker by email.",
+      "B": "Because deletion normally tells the operating system the space may be reused, while the data can remain physically stored until overwritten.",
+      "C": "Because dumpster diving applies only to paper documents, not storage devices.",
+      "D": "Because GDPR requires keeping deleted files recoverable forever."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the lecture's explanation of deletion. A is invented. C is false because discarded PCs, external HDDs, USB sticks, tablets, smartphones, printers, and other devices are explicitly listed. D reverses the point of secure deletion obligations.",
+    "relevantTheory": "Dumpster diving is collection and analysis of discarded material. Storage devices are dangerous because normal deletion often removes a reference rather than physically destroying the data. Sanitizing is the process of removing sensitive data so it cannot be recovered by any known technique before reuse, resale, donation, disposal, or return.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 24-28 and 33-35"
+  },
+  {
+    "id": 47,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "degaussing",
+      "wiping",
+      "sanitizing"
+    ],
+    "question": "Which statement correctly distinguishes degaussing from wiping in the lecture's sanitizing approaches?",
+    "options": {
+      "A": "Degaussing writes new data over every bit, while wiping removes the magnetic field of a hard disk.",
+      "B": "Both terms mean deleting files through the operating system recycle bin.",
+      "C": "Degaussing is only for social-media accounts, while wiping is only for printed notebooks.",
+      "D": "Degaussing removes or reduces the magnetic field of suitable media, while wiping overwrites file data with new data."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct. A reverses the definitions. B confuses sanitizing with ordinary deletion, which is insufficient. C is unrelated to the hardware/software distinction on the slides.",
+    "relevantTheory": "Sanitizing approaches depend on the required security level and the device type. Degaussing is a hardware-oriented technique for magnetic media and can render disks inoperable by erasing low-level formatting. Wiping, also called overwriting or shredding, writes new data over bits or blocks of file data.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 29-32"
+  },
+  {
+    "id": 48,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "keylogger",
+      "piggybacking",
+      "physical access",
+      "man-in-the-video"
+    ],
+    "question": "Which defensive reasoning best combines the lecture's final physical-attack lessons?",
+    "options": {
+      "A": "Physical access can bypass strong digital defenses, so protect unattended devices, control office access, use screen locks/privacy filters, and distrust suspicious cables or peripherals.",
+      "B": "Cleaning staff should be allowed into sensitive unattended offices because keyloggers are only software.",
+      "C": "Privacy filters and screen locks are useful only against malware, not against people nearby.",
+      "D": "Encryption, firewalls, and 2FA make physical access irrelevant, so office procedures are secondary."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because it connects keylogger hygiene, piggybacking defenses, and the warning that physical access attacks the environment rather than only the network. B ignores hardware keyloggers and the warning about unattended sensitive offices. C reverses the purpose of privacy filters and screen locks. D contradicts the lecture's physical access slide.",
+    "relevantTheory": "Keyloggers can be hardware devices placed in keyboard paths or software at hypervisor, kernel, API, or form-grabbing level. Piggybacking or shoulder surfing uses proximity to gain access to restricted areas or information. Physical access can defeat otherwise strong digital controls, and even cables can be malicious, as in man-in-the-video attacks that manipulate HDMI output.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 37-49"
+  },
+  {
+    "id": 49,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "pseudo-randomness",
+      "seed",
+      "entropy"
+    ],
+    "question": "Which statement best captures the difference between true random and pseudo-random sequences in the lecture?",
+    "options": {
+      "A": "True random sequences are generated by physical random processes, while pseudo-random sequences are generated deterministically from entropy and a seed.",
+      "B": "Pseudo-random sequences are safer because they contain no deterministic step and therefore need no seed.",
+      "C": "True random sequences are produced by block ciphers, while pseudo-random sequences are produced only by hash functions.",
+      "D": "Pseudo-random sequences are secure even if the seed is predictable because the output still looks random."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slides distinguish physical random processes from deterministic pseudo-random generation started from entropy and represented by a seed. B is wrong because pseudo-random generators are deterministic and require a seed. C invents a mechanism distinction that the slide does not make. D is the key trap: if the process or seed is weak, the sequence may become predictable.",
+    "relevantTheory": "Cryptographic randomness matters for both selecting secrets, such as keys, and making cryptographic outputs reveal no useful structure. A pseudo-random generator can be statistically indistinguishable from true randomness only if it is seeded with enough entropy and implemented securely. Predictability of the seed or process defeats the security effect.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, page 3"
+  },
+  {
+    "id": 50,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Kerckhoffs principle",
+      "security through obscurity",
+      "keys"
+    ],
+    "question": "A team argues that its encryption is secure because the algorithm is secret. According to the lecture, what is the best response?",
+    "options": {
+      "A": "This is security through obscurity; strength should rely on secret, well-managed, adequate-length keys and public analysis of the algorithm.",
+      "B": "This is acceptable if the algorithm is complicated enough and the key is at least 128 bits.",
+      "C": "This is the preferred modern approach because public algorithms help attackers perform cryptanalysis.",
+      "D": "This is safe only for symmetric cryptography, because asymmetric cryptography requires public algorithms."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture contrasts security through obscurity with Kerckhoffs' principle. B is wrong because algorithm secrecy is not made sound by complexity or key length. C reverses the lecture's point: public algorithms can be widely analysed for weaknesses. D invents a category exception; the principle is not limited in that way.",
+    "relevantTheory": "Kerckhoffs' principle says that a cryptosystem should remain secure even when the attacker knows the algorithm. The secret is the key, which must be kept secret, managed by trusted systems, and long enough for the context. Security through obscurity is presented as an illusion and a cause of attacks.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, pages 8-9"
+  },
+  {
+    "id": 51,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "key length",
+      "brute force",
+      "key expiration"
+    ],
+    "question": "Why does the lecture say that symmetric keys expire and need to be refreshed even if their length was initially appropriate?",
+    "options": {
+      "A": "Because attackers get more time and more encrypted data, while technology and cryptanalysis can reduce the practical search effort.",
+      "B": "Because block ciphers stop decrypting correctly after their first key lifetime.",
+      "C": "Because symmetric keys automatically become public after a fixed number of encryptions.",
+      "D": "Because renewing a key lets the algorithm remain secret, which is the main security requirement."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slides list time reasons, use reasons, technological evolution, parallel brute force, and cryptanalysis as reasons keys and algorithms weaken. B and C describe mechanisms that are not in the lecture. D repeats the security-through-obscurity trap instead of the key-management point.",
+    "relevantTheory": "For a well-designed symmetric algorithm with an n-bit secret key, exhaustive attack requires about 2^n trials. But the relevant question is whether the attacker can complete enough trials within the useful lifetime of the protected data. More ciphertext can also help cryptanalysis. Therefore keys should be random, adequately long, and periodically refreshed.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, pages 10, 12-14"
+  },
+  {
+    "id": 52,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "stream cipher",
+      "one-time pad",
+      "seed reuse"
+    ],
+    "question": "In a stream algorithm built from a pseudo-random generator, what is the dangerous effect of reusing the same seed/key stream?",
+    "options": {
+      "A": "It turns the stream algorithm into a block algorithm with 128-bit blocks.",
+      "B": "It makes the ciphertext longer than the plaintext because padding is required.",
+      "C": "It prevents the receiver from regenerating the same stream for decryption.",
+      "D": "It generates the same pseudo-random sequence again, so the XOR protection can leak relationships between messages."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the lecture states that the same seed generates the same sequence, and stream encryption XORs that sequence with plaintext. A confuses stream and block ciphers. B describes block padding, not stream operation. C is wrong because regeneration is exactly why decryption works, but it becomes dangerous when reused across messages.",
+    "relevantTheory": "A stream cipher protects data by combining plaintext, often bit by bit or byte by byte, with a pseudo-random sequence using XOR. The ideal one-time pad needs a truly random key as long as the message and used only once. Practical stream ciphers use a generator seeded by a key; reuse of the same generated stream undermines confidentiality.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, pages 16-17"
+  },
+  {
+    "id": 53,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "ECB",
+      "CBC",
+      "block modes"
+    ],
+    "question": "Which option explains why ECB is marked as unsuitable for long messages?",
+    "options": {
+      "A": "ECB requires an initialization vector, and IV transmission always reveals the key.",
+      "B": "ECB is a stream mode, so it cannot use AES or other block ciphers.",
+      "C": "ECB can encrypt only less than one block of data and therefore needs cipher stealing.",
+      "D": "ECB encrypts identical plaintext blocks into identical ciphertext blocks and does not detect block swapping."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the slides explicitly warn that ECB leaks repeated blocks and allows undetected swapping of ciphertext blocks. A describes CBC's IV requirement and wrongly claims the IV reveals the key. B is false because ECB is a block-cipher mode. C confuses ECB with the separate problem of messages smaller than a block.",
+    "relevantTheory": "A block cipher defines how to transform one fixed-size block. A mode of operation defines how to apply that primitive to longer data. ECB computes each ciphertext block independently from the corresponding plaintext block, so structure remains visible when plaintext blocks repeat. CBC chains each block with the previous ciphertext block and starts with an IV.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, pages 18-22"
+  },
+  {
+    "id": 54,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "hash",
+      "collision",
+      "birthday bound"
+    ],
+    "question": "A well-designed hash produces an n-bit digest. Which attack estimate matches the lecture?",
+    "options": {
+      "A": "Finding a second message matching a fixed digest and finding any collision both require 2^n attempts.",
+      "B": "Finding any two messages with the same digest requires 2^n attempts, while matching a fixed message requires 2^(n/2).",
+      "C": "Finding a message matching a fixed message's digest needs about 2^n attempts, while finding any collision needs about 2^(n/2).",
+      "D": "Both attacks require only n attempts because the digest has n bits."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct and captures the birthday-effect distinction in the slides. A misses the easier generic collision attack. B reverses the two estimates. D confuses digest length with the exponential size of the digest space.",
+    "relevantTheory": "A cryptographic digest is a fixed-length summary of arbitrary-length data. Good hash functions are fast, hard to invert, and resistant to collisions. Because many messages map into a finite digest space, collisions exist; the security question is how hard they are to find. The lecture also notes that changing one input bit should change about half the digest bits on average.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, pages 26-27"
+  },
+  {
+    "id": 55,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "MAC",
+      "digest",
+      "authenticated encryption"
+    ],
+    "question": "Why does the lecture say that sending a plain digest with a message is not enough against a man-in-the-middle attacker?",
+    "options": {
+      "A": "Because a digest protects confidentiality but not integrity.",
+      "B": "Because a man-in-the-middle can change the data and recompute an unkeyed digest.",
+      "C": "Because digest algorithms cannot process messages larger than one block.",
+      "D": "Because public-key cryptography is required for every integrity check."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: an unkeyed hash only shows consistency between data and digest, not who produced both. A reverses the property; hashes do not provide confidentiality. C is false because hashes process arbitrary-length data through blocks. D is too strong; keyed digests/MACs and authenticated encryption are symmetric mechanisms for data authentication.",
+    "relevantTheory": "Integrity evidence must be protected. A keyed digest or MAC computes the digest over both data and a shared secret, so an attacker who lacks the key cannot forge a valid value after altering the message. Authenticated encryption combines privacy, integrity, and authentication in one operation, producing ciphertext plus an authentication tag.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, pages 30-36"
+  },
+  {
+    "id": 56,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "symmetric key management",
+      "asymmetric crypto"
+    ],
+    "question": "Why does the lecture introduce asymmetric cryptography after symmetric cryptography?",
+    "options": {
+      "A": "Because asymmetric cryptography is faster and should replace symmetric encryption for large files.",
+      "B": "Because asymmetric cryptography removes the need to keep any key secret.",
+      "C": "Because symmetric cryptography cannot provide confidentiality even if the key is secret.",
+      "D": "Because symmetric cryptography requires one shared secret per communicating pair, creating a key-management problem."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the slides show that N users require N x (N-1) / 2 pairwise symmetric keys. A is wrong because asymmetric cryptography is computationally heavy and unsuitable for large quantities of data. B is false because the private key must remain secret. C is false; symmetric encryption provides confidentiality when used correctly.",
+    "relevantTheory": "Symmetric cryptography is efficient and good for bulk data, but key distribution does not scale well. Asymmetric cryptography uses a public/private key pair and is useful for distributing small secrets, such as session keys, and for digital signatures when combined with hash functions.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, pages 3-5"
+  },
+  {
+    "id": 57,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "public key",
+      "private key",
+      "RSA"
+    ],
+    "question": "Which statement about asymmetric key pairs is most accurate according to the lecture?",
+    "options": {
+      "A": "The keys are generated independently at random and work together only because the algorithm is secret.",
+      "B": "The public key must be confidential, while the private key can be distributed for verification.",
+      "C": "The two keys must have inverse functionality and share mathematical properties; one is kept private and the other is distributed publicly.",
+      "D": "In all cryptosystems the public and private keys are visibly different, so their roles cannot be chosen."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: asymmetric keys are generated in pairs with inverse functionality and mathematical relation. A ignores the required mathematical properties. B swaps the public/private semantics. D is wrong because the slides state that in some cryptosystems, such as RSA, the keys are indistinguishable and public/private is a matter of choice.",
+    "relevantTheory": "Asymmetric cryptography depends on paired keys. What one key does, the other can undo for the intended operation. The private key is kept secret; the public key is widely distributed. In RSA, the public key is (n,e) and the private key is (n,d), where p and q must remain secret because they allow computation of the private exponent.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, pages 6, 10-11"
+  },
+  {
+    "id": 58,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "hybrid encryption",
+      "enveloped data",
+      "bulk encryption"
+    ],
+    "question": "Alice wants to send a large confidential file to Bob using Bob's public key infrastructure. Which design matches the lecture?",
+    "options": {
+      "A": "Encrypt the file with a random symmetric message key, then encrypt that message key with Bob's public key.",
+      "B": "Hash the file and send only the digest because the digest allows Bob to reconstruct the original file.",
+      "C": "Encrypt the entire file directly with RSA because asymmetric algorithms are optimized for large quantities of data.",
+      "D": "Encrypt the file with Alice's private key so that only Bob can decrypt it."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture's enveloped-data pattern uses a random symmetric key for the message and asymmetric encryption for that key. B confuses hashing with encryption and reconstruction. C is wrong because public-key algorithms are computationally heavy and not used for bulk encryption. D would be a signature-like operation, not confidentiality for Bob.",
+    "relevantTheory": "Hybrid encryption combines the efficiency of symmetric cryptography with the distribution advantage of public-key cryptography. The sender randomly generates a message key K, encrypts the bulk data symmetrically with K, encrypts K with the recipient's public key, and sends both encrypted components.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, pages 5, 16"
+  },
+  {
+    "id": 59,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Diffie-Hellman",
+      "man-in-the-middle",
+      "pre-authentication"
+    ],
+    "question": "What is the main security trap in using plain Diffie-Hellman over an unauthenticated channel?",
+    "options": {
+      "A": "It cannot produce the same key on both sides even without an attacker.",
+      "B": "It protects against sniffing, but an active attacker can mount a man-in-the-middle attack unless the exchange is authenticated.",
+      "C": "It requires Alice and Bob to share the final symmetric key before running the protocol.",
+      "D": "It works only for digital signatures and cannot be used for key agreement."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the slides state that DH resists sniffing but requires pre-authentication to work in the wild against manipulation. A contradicts the DH construction, where both sides compute g^(XY) mod p. C reverses the purpose of DH. D is false because DH is specifically introduced as key agreement.",
+    "relevantTheory": "Diffie-Hellman lets two parties derive a shared secret from public exchanges and private exponents. A passive eavesdropper sees the public values but cannot efficiently derive the shared key. However, an active attacker can replace public values and establish separate keys with each party, so authentication of the exchange is necessary.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, pages 17-19"
+  },
+  {
+    "id": 60,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "digital signature",
+      "hash",
+      "integrity"
+    ],
+    "question": "Which sequence describes the lecture's real digital-signature process?",
+    "options": {
+      "A": "Encrypt the whole message with the recipient's public key; the result is the signature.",
+      "B": "Encrypt a random nonce with a symmetric key; the result proves the originator's identity.",
+      "C": "Compress the document; if the compressed form is stable, the document is authenticated.",
+      "D": "Hash the message, encrypt the digest with the signer's private key, and let verifiers compare it using the signer's public key."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the slides define digital signature as an encrypted digest using the originator's private key, then verification with the originator's public key. A describes confidentiality for a recipient, not signature. B describes a shared-secret style challenge, not the lecture's signature process. C is unrelated to cryptographic authentication.",
+    "relevantTheory": "A digital signature provides data authentication and integrity together. The signer computes a digest of the message and applies the private key to that digest. A verifier uses the public key to recover the signed digest and compares it with a freshly computed hash of the received message. Padding must also be managed to avoid attacks.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, pages 7, 21-22"
+  },
+  {
+    "id": 61,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "KDF",
+      "password",
+      "salt",
+      "iterations"
+    ],
+    "question": "A user wants to derive a symmetric cryptographic key from a passphrase. Which design best matches the lecture?",
+    "options": {
+      "A": "Use the passphrase directly as the key because user-selected text is easier to remember.",
+      "B": "Hash the passphrase once without salt so the same user always gets the same key.",
+      "C": "Encrypt the passphrase with the public key and use the ciphertext as a permanent key.",
+      "D": "Use a KDF with the password/passphrase, a salt, and many iterations to reduce predictability and slow brute force."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the KDF slide defines K = KDF(P, S, iterations), with salt to make the key less predictable and iterations to slow brute-force attacks. A is wrong because passwords are simple and predictable, not random. B omits salt and work factor. C is not the KDF construction described.",
+    "relevantTheory": "Symmetric keys should be random, but users prefer passwords or passphrases. A key derivation function transforms a password into key material using a salt and repeated computation. Examples in the lecture include PBKDF2 and HKDF, with the general purpose of making guessing attacks more expensive.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, page 27"
+  },
+  {
+    "id": 62,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "quantum",
+      "PQC",
+      "symmetric resistance"
+    ],
+    "question": "Which statement best reflects the lecture's comparison of quantum impact on asymmetric and symmetric cryptography?",
+    "options": {
+      "A": "RSA, DSA, and ECC would become weak under practical Shor-style quantum attacks, while symmetric cryptography is mainly handled by increasing key length against Grover-style speedup.",
+      "B": "Quantum computers affect only symmetric encryption and have no consequence for RSA, DSA, or ECC.",
+      "C": "Grover's algorithm makes all cryptography useless immediately, so post-quantum standards cannot help.",
+      "D": "Post-quantum cryptography means replacing every hash function with RSA using a longer modulus."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the slides state that Shor's algorithm would make RSA, DSA, and ECC weak, while symmetric crypto and hash functions are not very affected and can respond by doubling key length. B reverses the impact. C exaggerates Grover's effect. D is incoherent because RSA is exactly one of the classical public-key systems threatened by quantum factoring.",
+    "relevantTheory": "Classical public-key systems often rely on factoring or discrete logarithm hardness. A sufficiently capable quantum computer running Shor's algorithm would attack those problems efficiently. Post-quantum cryptography seeks hard problems that remain difficult for quantum computers, while symmetric cryptography mainly needs engineering updates such as longer keys.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, pages 29-33"
+  },
+  {
+    "id": 63,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "access control",
+      "authorization",
+      "policy"
+    ],
+    "question": "Which definition best matches access control in the lecture?",
+    "options": {
+      "A": "A process that regulates use of system resources according to a security policy and permits only authorized entities.",
+      "B": "A cryptographic process that encrypts every resource before it is stored.",
+      "C": "A monitoring process that only records security events after they happen.",
+      "D": "A network-only service that blocks all cyber-attacks at the perimeter."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and follows the RFC-style definition in the slides. B confuses access control with encryption. C describes audit, not access-control decision making. D is wrong because access control is a major building block but cannot by itself prevent all cyber-attacks.",
+    "relevantTheory": "Access control protects data and resources against unauthorized disclosure, improper modification, and denial to legitimate users by ensuring that every access is controlled. It governs who may access what resource, for how long, on which days, with what modality, and by performing which operation.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, pages 3-7"
+  },
+  {
+    "id": 64,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "authentication",
+      "authorization",
+      "audit"
+    ],
+    "question": "A system checks a user's password, then decides whether the user may delete a database row, and later reviews logs for policy violations. Which mapping is correct?",
+    "options": {
+      "A": "Password check = authentication; delete decision = authorization; log review = audit.",
+      "B": "Password check = authorization; delete decision = audit; log review = authentication.",
+      "C": "Password check = audit; delete decision = authentication; log review = authorization.",
+      "D": "All three actions are authentication because they concern a user."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture defines authentication as verifying credentials, authorization as granting a right to access a resource, and audit as independent review of records and activities. B and C scramble the functions. D ignores the separate roles in the access-control architecture.",
+    "relevantTheory": "Access control relates to authentication, authorization, and audit, but they are not synonyms. Authentication establishes that credentials are valid. Authorization determines what the authenticated entity is trusted or permitted to do. Audit reviews records and activities to verify controls, compliance, and possible breaches.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, pages 16-19"
+  },
+  {
+    "id": 65,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "policy",
+      "mechanism",
+      "model"
+    ],
+    "question": "Which option correctly separates security policy, mechanism, and model in access control?",
+    "options": {
+      "A": "A mechanism is the high-level rule; a policy is the hardware implementation; a model is the user interface.",
+      "B": "A policy is the high-level rule, a mechanism implements controls in software/hardware, and a model formally represents the policy for reasoning.",
+      "C": "A policy, mechanism, and model are interchangeable names for the authorization database.",
+      "D": "A model is used only after deployment, while policy and mechanism are used only during auditing."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the slide definitions. A reverses policy and mechanism and invents a UI role. C misses the lecture's separation between requirements, implementation, and formalization. D is not supported; models are part of design and proof of properties.",
+    "relevantTheory": "The lecture emphasizes separation between policies and mechanisms. A policy states what access is allowed, under what circumstances, and by whom. A mechanism is the low-level function that enforces controls. A model is a formal representation of the policy, useful for proving security properties and comparing designs.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, pages 31-35"
+  },
+  {
+    "id": 66,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "subject",
+      "object",
+      "access right"
+    ],
+    "question": "In access-control terminology, which example correctly identifies subject, object, and action?",
+    "options": {
+      "A": "Subject = database file, object = process, action = user's identity.",
+      "B": "Subject = the password, object = the audit log, action = authentication.",
+      "C": "Subject = a process acting for a user, object = a file, action = read or write.",
+      "D": "Subject = encryption algorithm, object = key length, action = brute force."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: the slides say subjects are active entities, often processes, objects are resources, and actions are access rights such as read, write, and execute. A swaps subject and object. B confuses credentials and authentication with access-control entities. D belongs to cryptography, not this access-control model.",
+    "relevantTheory": "A subject is an entity capable of accessing objects, typically a process representing a user or application. An object is a resource to which access is controlled, such as a file, directory, program, record, table, port, or network node. An action or operation is what the subject may do to the object.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, pages 37-45"
+  },
+  {
+    "id": 67,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "DAC",
+      "MAC",
+      "RBAC",
+      "ABAC"
+    ],
+    "question": "Which access-control model is described by rules based on subject, resource, requested operation, and environmental attributes such as time or network security level?",
+    "options": {
+      "A": "Discretionary access control, because users can pass privileges to others.",
+      "B": "Mandatory access control, because every object has only a fixed classification label.",
+      "C": "Role-based access control, because roles are the only attributes that matter.",
+      "D": "Attribute-based access control, because it evaluates attributes of subjects, objects, operations, and environment."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: ABAC uses combinations of subject, object/resource, environmental, and operation attributes. A describes DAC's identity and discretionary privilege passing. B describes MAC's comparison of labels and clearances. C describes RBAC's role-centric model and is too narrow for environmental conditions.",
+    "relevantTheory": "The lecture groups policies into DAC, MAC, RBAC, and ABAC. DAC uses requestor identity and explicit access rules, often with privilege transfer. MAC compares security labels with clearances and is mandatory because users cannot pass access on by choice. RBAC assigns permissions to roles. ABAC is more flexible but more complex and performance-costly.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, pages 46-48, 59, 61-63, 72-80"
+  },
+  {
+    "id": 68,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "access matrix",
+      "ACL",
+      "capability",
+      "sparse matrix"
+    ],
+    "question": "Why does the lecture say that a full two-dimensional access matrix is usually not appropriate for implementation?",
+    "options": {
+      "A": "Because it cannot represent read, write, or execute rights.",
+      "B": "Because it works only for mandatory access control and not for discretionary systems.",
+      "C": "Because in real systems it is usually enormous and sparse, so practical implementations use structures such as authorization tables, ACLs, or capabilities.",
+      "D": "Because it requires every object to be encrypted with a public key."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: the slide states the matrix is a good conceptualization but enormous and sparse, wasting memory if stored directly. A is false because matrix entries are access rights. B is false because the lecture introduces it under DAC concepts. D is unrelated to access-matrix implementation.",
+    "relevantTheory": "An access matrix represents the authorization state: subjects on one dimension, objects on the other, and access rights in each cell. It is useful as an abstract model, but practical systems avoid storing a huge sparse array and instead use authorization tables, access control lists, or capabilities.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, pages 49-56"
+  },
+  {
+    "id": 69,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "RBAC",
+      "role hierarchy",
+      "constraints"
+    ],
+    "question": "Which statement about RBAC is correct according to the lecture?",
+    "options": {
+      "A": "RBAC assigns permissions directly to individual users because identity is always the main authorization factor.",
+      "B": "RBAC assigns access rights to roles, users are assigned to roles, and hierarchies can let senior roles inherit subordinate permissions.",
+      "C": "RBAC forbids constraints such as mutually exclusive roles because constraints belong only to ABAC.",
+      "D": "RBAC is the same as MAC because both depend only on security clearances and object classifications."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: RBAC is based on roles as job functions, users are assigned to roles, and role hierarchies allow inheritance. A describes traditional user/group discretionary thinking more than RBAC. C is wrong because RBAC constraints include mutually exclusive roles, cardinality, and prerequisite roles. D confuses RBAC with mandatory access control.",
+    "relevantTheory": "RBAC maps naturally to organizational structure. It focuses on what responsibilities a user has rather than who the user is, except for accountability. The set of roles is often more stable than users. RBAC can include hierarchies and constraints to reflect enterprise policy and reduce inappropriate combinations of authority.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, pages 61-68, 71"
+  },
+  {
+    "id": 70,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "security by design",
+      "architecture",
+      "sensitive data"
+    ],
+    "question": "What does 'secure by design' mean in the lecture?",
+    "options": {
+      "A": "The software is designed from the foundation to be secure, with security tactics and patterns selected and enforced by the architecture.",
+      "B": "Security is added after deployment once the system's vulnerabilities are known.",
+      "C": "Security is achieved by keeping the architecture secret from users and developers.",
+      "D": "Only cloud systems need security design because local software has no sensitive data."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and follows the slide definition. B describes late patching, not design from the foundation. C repeats security-through-obscurity logic, not open design. D is false; cloud protection of sensitive business-critical data is a key aspect, not the only scope of secure design.",
+    "relevantTheory": "Security by design means security requirements and patterns guide the architecture and development process from the beginning. The lecture groups it with principles such as least privilege, separation of duties, defense in depth, fail secure, complete mediation, psychological acceptability, and attention to the weakest link.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, pages 4-6"
+  },
+  {
+    "id": 71,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "least privilege",
+      "separation of duties",
+      "separation of privilege"
+    ],
+    "question": "A payment system requires two different employees to approve a high-value transfer. Which principle is most directly illustrated?",
+    "options": {
+      "A": "Least privilege, because every employee receives all permissions temporarily.",
+      "B": "Defense in depth, because multiple network firewalls are placed in sequence.",
+      "C": "Separation of duties, because completion of a sensitive activity depends on multiple conditions or individuals.",
+      "D": "Psychological acceptability, because the interface must be easy to understand."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: the slide uses multi-person authorization as the example for separation of duties. A is wrong because least privilege gives minimum privileges for minimum time, not all permissions. B refers to layered protections, not split approval. D is a usability principle, not the approval rule itself.",
+    "relevantTheory": "Least privilege minimizes privileges and resources for the minimum time needed. Separation of duties makes sensitive activities depend on multiple conditions, forcing collusion to compromise the system. Separation of privilege similarly breaks one privilege among multiple independent subjects so that more than one authorization is required.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, pages 7-11"
+  },
+  {
+    "id": 72,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "fail secure",
+      "permissions",
+      "recovery"
+    ],
+    "question": "A cloud access-control service crashes and cannot verify user permissions. Which behavior best follows the lecture's fail-secure principle?",
+    "options": {
+      "A": "Allow all requests until the service recovers, to preserve availability.",
+      "B": "Deny normal user access by default and allow only administrator recovery until controls are reestablished.",
+      "C": "Keep using cached decisions forever, even after the system restarts.",
+      "D": "Disable authentication but keep logging enabled."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: fail secure means failure should not compromise security, with access denied by default and administrator-only access if manual recovery is needed. A is fail-open and compromises security. C violates reexamination and recovery concerns. D removes a core control and is not fail secure.",
+    "relevantTheory": "Fail secure requires that a failed system enter or recover into a state where security and data are not compromised. The lecture links this with permissions rather than exclusions: if authorization cannot be confirmed, access should not be granted. Recovery should not accidentally permit unauthorized access to sensitive information.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, pages 13-15"
+  },
+  {
+    "id": 73,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "complete mediation",
+      "least common mechanism",
+      "weakest link"
+    ],
+    "question": "Which design violates complete mediation as described in the lecture?",
+    "options": {
+      "A": "Every request identifies the entity, checks that the request has not changed, applies authorization, and reexamines prior authorizations.",
+      "B": "A restart mode temporarily bypasses authorization checks so maintenance scripts can access objects faster.",
+      "C": "The system minimizes shared protection mechanisms to reduce covert channels.",
+      "D": "The user interface makes access-control choices understandable without complex instructions."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct as the violation: complete mediation must not be bypassed during initialization, shutdown, restart, or maintenance. A lists the lecture's complete-mediation steps. C describes least common mechanism. D describes psychological acceptability.",
+    "relevantTheory": "Complete mediation means every subject request to access an object must undergo a valid and effective authorization procedure. It includes identifying the requester, verifying the request has not changed, applying authorization, and reexamining prior authorizations. It must remain active during exceptional system states.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, pages 16-19"
+  },
+  {
+    "id": 74,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "national defence",
+      "state-level capabilities",
+      "sovereignty"
+    ],
+    "question": "What is the main reason the lecture separates ordinary cybersecurity from national defence?",
+    "options": {
+      "A": "National defence cares only about user passwords, while cybersecurity cares only about military command.",
+      "B": "Cybersecurity focuses on systems, data, users, networks, and services, while national defence focuses on sovereignty, command, intelligence, military operations, and critical functions.",
+      "C": "Publicly secure systems are automatically secure against state-level capabilities.",
+      "D": "Cryptography is national defence only when it is obsolete or broken."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the lecture's comparison table. A reverses and distorts the categories. C contradicts the lecture's opening distinction between public security and state-level capabilities. D is false because cryptography becomes national defence when it protects state power and secrets at scale.",
+    "relevantTheory": "The lecture frames cryptography as national capability in three aspects: defensive protection of state, military, diplomatic, and industrial secrets; offensive/intelligence ability to read, alter, or exploit others' secrets; and sovereign ability not to depend blindly on uncontrollable algorithms, products, standards, hardware, firmware, or suppliers.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, pages 3-8"
+  },
+  {
+    "id": 75,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "weak encryption",
+      "compromised channel",
+      "Mary Stuart"
+    ],
+    "question": "What lesson does the Mary Stuart/Babington Plot case teach about weak encryption?",
+    "options": {
+      "A": "A sophisticated-looking cipher is enough if users add null symbols.",
+      "B": "Encryption secures the communication even when the courier channel is compromised.",
+      "C": "Weak encryption believed to be strong can be worse than no encryption because users speak openly while the adversary reads silently.",
+      "D": "Cryptanalysis matters only for confidentiality and cannot become legal or political evidence."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: the lecture explicitly highlights that weak encryption can change user behaviour in ways that help the adversary. A is wrong because Mary's nomenclator still leaked linguistic structure. B is wrong because the channel was controlled and copied. D is false because the decrypted letters became political and legal evidence.",
+    "relevantTheory": "The Babington Plot combines human intelligence, interception, copying/resealing, cryptanalysis, deception, and legal-political exploitation. The national-defence lesson is that secure communication is not only the algorithm; it is the whole ecosystem of people, endpoints, procedures, channels, and operational discipline.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, pages 12-20"
+  },
+  {
+    "id": 76,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "cryptanalytic intelligence",
+      "source protection",
+      "Zimmermann Telegram"
+    ],
+    "question": "In the Zimmermann Telegram case, why was disclosure strategically delicate?",
+    "options": {
+      "A": "Because the telegram was already public and disclosure could not influence events.",
+      "B": "Because ciphertext becomes intelligence automatically as soon as it is intercepted.",
+      "C": "Because encrypted diplomatic content never depends on infrastructure or cable routes.",
+      "D": "Because cryptanalytic intelligence can shape policy if revealed, but revealing it too visibly may burn the source and cause adversary adaptation."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the lecture frames the reveal/protect dilemma as influence versus preserving access. A is false because disclosure helped shift U.S. opinion and policy. B is wrong because the lecture lists decryption, reconstruction, confidence assessment, and decision-maker trust before ciphertext becomes usable intelligence. C contradicts the exposed-infrastructure lesson.",
+    "relevantTheory": "Cryptanalytic intelligence creates a statecraft dilemma. A breakthrough kept secret can preserve long-term intelligence advantage; a breakthrough disclosed can shape events but may reveal capabilities. The Zimmermann Telegram also shows that communication secrecy depends on infrastructure controlled or crossed by the message path, not only the cipher.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, pages 23-31"
+  },
+  {
+    "id": 77,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "supplier trust",
+      "Crypto AG",
+      "cryptographic sovereignty"
+    ],
+    "question": "Which procurement conclusion follows from the Crypto AG/Operation Rubicon case in the lecture?",
+    "options": {
+      "A": "Cryptographic procurement is purely technical as long as the algorithm name sounds modern.",
+      "B": "A supplier-level compromise can scale across many governments, so national defence must evaluate who controls products, updates, implementations, and hidden design choices.",
+      "C": "Buying from a neutral country removes all intelligence risk from cryptographic devices.",
+      "D": "A compromised product causes visible failures immediately, so it cannot operate silently for long."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the lecture states that one vendor and hidden weakness can expose many states and that procurement is a strategic trust decision. A ignores sovereignty and supplier control. C is refuted by the Crypto AG case itself. D contradicts the point that compromised products may operate silently for decades.",
+    "relevantTheory": "Cryptographic sovereignty is the ability to protect state secrets without blind dependence on actors outside national control. It includes control or verification of algorithms, standards, implementations, key generation, storage, rotation, destruction, hardware, firmware, maintenance, and operator procedures.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, pages 31-34"
+  },
+  {
+    "id": 78,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Crypto Wars",
+      "key escrow",
+      "exceptional access"
+    ],
+    "question": "Why did key escrow and Clipper-style exceptional access fail as a trust model in the lecture's framing?",
+    "options": {
+      "A": "Because they provided no way for law enforcement to recover access under any condition.",
+      "B": "Because they made encryption too weak for users but did not affect attack surface or governance.",
+      "C": "Because they tried to centralize recovery access, creating risks of abuse, insider compromise, systemic vulnerability, business distrust, civil-liberties objections, and international distrust.",
+      "D": "Because they were rejected only because AES had not been invented yet."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: the lecture's core objection is the collapsed trust model around centralized exceptional access. A is the opposite of escrow's goal. B omits the major technical and governance objections. D is unrelated and historically too narrow for the lecture's argument.",
+    "relevantTheory": "The Crypto Wars shifted the battlefield from stopping strong cryptography's distribution to preserving access to plaintext. Key escrow proposed strong encryption with recoverable access, but exceptional access becomes part of the attack surface and requires politically acceptable governance. The lecture connects this to modern debates over devices, cloud encryption, and client-side scanning.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, pages 70-88"
+  },
+  {
+    "id": 79,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "OS role",
+      "hardware abstraction"
+    ],
+    "question": "Which description best matches the role of an operating system in the lecture?",
+    "options": {
+      "A": "An organized collection of software extensions of hardware that provides control routines, an execution environment, and an interface between users and hardware.",
+      "B": "A single application loaded by a bootloader into one memory space, with no special privilege over other code.",
+      "C": "A cryptographic module whose main purpose is to sign measurements of firmware and bootloaders.",
+      "D": "A user interface program only; resource allocation and security are handled directly by applications."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture defines an OS as software extensions of hardware that control resources, run programs, and mediate between users and hardware. B describes a simple single-task device, not a general-purpose OS. C describes TPM-style trusted computing, not an OS. D is too narrow: a shell or GUI is only one OS service, while the OS also manages memory, processes, devices, files, and security.",
+    "relevantTheory": "The OS hides hardware details and offers services to programs: program execution, I/O, filesystem manipulation, communication, error detection, resource allocation, logging, protection, and security. On a general-purpose machine, the OS runs at a higher privileged level so it can load applications into RAM and allocate resources safely.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 4, 7, 12-15"
+  },
+  {
+    "id": 80,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "bootloader",
+      "single memory space",
+      "OS privilege"
+    ],
+    "question": "A small embedded board loads one application into RAM at startup and all code shares one memory space. What is the best security interpretation using the OS introduction slides?",
+    "options": {
+      "A": "It is automatically more secure than a full OS because fewer services always remove the need for isolation.",
+      "B": "It must still provide UNIX-style users, process lifecycle management, and filesystem permissions.",
+      "C": "It is equivalent to measured boot, because the bootloader loading code into RAM proves the application is trusted.",
+      "D": "It resembles the Arduino example: no full OS is running, so there is no OS-managed multi-user or process-isolation boundary."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the lecture contrasts simple devices such as Arduino, with one task and a single memory space, against full OS systems such as FreeBSD with multitasking and multi-user process management. A is a trap: simplicity can reduce attack surface but does not create isolation by itself. B describes a full OS example. C confuses ordinary loading with trusted measurement and attestation.",
+    "relevantTheory": "On simple devices, the bootloader may move the only application from persistent storage into RAM. A general-purpose OS substitutes for the bootloader for user applications and provides privileged resource management. Security boundaries such as processes, users, permissions, and memory isolation are OS features, not automatic consequences of having a bootloader.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 6-9"
+  },
+  {
+    "id": 81,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "system calls",
+      "API",
+      "kernel boundary"
+    ],
+    "question": "In UNIX/Linux, a C program calls printf(). Which path best reflects the lecture's explanation of how this reaches the kernel?",
+    "options": {
+      "A": "printf() writes directly to the display hardware, bypassing the operating system for performance.",
+      "B": "printf() changes the process permissions, then the filesystem interprets the text as a command.",
+      "C": "The C library handles the request, translates it into an appropriate system call such as write(), the kernel processes it, and the result is returned to the user program.",
+      "D": "The TPM signs the text, then the OS prints it only if the PCR values match."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture presents the standard C library as a bridge between user applications and the kernel system-call interface. A is wrong because applications do not normally access hardware directly. B confuses output with permission changes. D mixes in trusted computing mechanisms that are not part of normal printf() execution.",
+    "relevantTheory": "System calls are the controlled entry points into OS services. Each system call is associated with a number and dispatched through an OS-maintained table. The caller follows the API rules without needing to know the implementation. This boundary is important for security because privileged operations are mediated by the kernel rather than performed directly by user code.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 25, 30-31"
+  },
+  {
+    "id": 82,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "policy vs mechanism",
+      "security enforcement"
+    ],
+    "question": "A user says: 'Only members of the backup role may read archived files.' The OS implements ACL checks, permission lookups, and kernel enforcement to make that happen. Which statement is correct?",
+    "options": {
+      "A": "The ACL checks are the policy, while the statement about the backup role is the mechanism.",
+      "B": "Both the role statement and the ACL implementation are policies, because both are about security.",
+      "C": "The user must implement the security mechanism directly in every application.",
+      "D": "The role statement is the policy; the OS enforcement code and permission checks are mechanisms."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: policy states what behavior is required, while mechanism is how the system enforces it. A reverses the definitions. B misses the distinction. C is wrong because the lecture emphasizes that users state desired behavior and the system implements the mechanism.",
+    "relevantTheory": "The OS abstracts implementation details. A policy defines what needs to be done; a mechanism defines how it is done. Different mechanisms can enforce the same rule, and the user normally wants to define rules rather than reimplement security enforcement.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 33-34"
+  },
+  {
+    "id": 83,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "least privilege",
+      "process permissions"
+    ],
+    "question": "What is the least privilege principle as applied to OS processes?",
+    "options": {
+      "A": "Every process should inherit administrator rights so that execution errors can be handled centrally.",
+      "B": "A process should be restricted strictly to the actions and resources it needs to fulfill its goals.",
+      "C": "Permissions should be granted once and then treated as unlimited until the user logs out.",
+      "D": "Only human users need limited permissions; computer processes do not need privilege restrictions."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the slides state that every system element or process should operate with the minimum access needed. A increases blast radius. C violates the requirement to verify access attempts and keep access limited. D is explicitly contradicted by the lecture, which extends least privilege beyond users to processes.",
+    "relevantTheory": "Least privilege improves stability, security, and deployment. If vulnerable code has only narrow permissions, one program's vulnerability is less likely to compromise the whole system. This is a core OS security boundary because processes should not receive system-wide authority unless their role truly requires it.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 5-6, 9"
+  },
+  {
+    "id": 84,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "reference monitor",
+      "complete mediation"
+    ],
+    "question": "Which answer gives the three key elements of the reference monitor described in the OS security lecture?",
+    "options": {
+      "A": "Bootloader, PCR bank, and attestation key.",
+      "B": "Owner, group, and world permission bits.",
+      "C": "Interface for access requests, authorization module, and policy store.",
+      "D": "Firewall, antivirus scanner, and backup system."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: the reference monitor consists of an interface, an authorization module that evaluates requests, and a policy store containing access rules. A belongs to trusted computing. B is one possible filesystem permission style, not the reference monitor structure. D lists useful defenses but not the lecture's reference monitor model.",
+    "relevantTheory": "The reference monitor is the foundational enforcement mechanism for access control. Its interface catches security-sensitive operations, the authorization module maps process identity, object references, and requested operations into a query, and the policy store returns authorization decisions such as yes or no.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 10, 19, 21-23"
+  },
+  {
+    "id": 85,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "DAC",
+      "MAC",
+      "labels"
+    ],
+    "question": "Which scenario is the clearest example of discretionary access control (DAC), not mandatory access control (MAC)?",
+    "options": {
+      "A": "Only trusted administrator software can change immutable security labels on subjects and objects.",
+      "B": "A military system uses labels such as confidential, secret, and top secret to govern access.",
+      "C": "The system itself determines access based on security authorizations and classifications.",
+      "D": "A file owner decides which other users may read or write the file, and the OS enforces that choice."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because DAC lets the resource owner grant or restrict access at their own judgment. A, B, and C describe MAC or mandatory protection: labels and system-controlled policy rather than owner discretion.",
+    "relevantTheory": "DAC is common in Windows, Linux, macOS, and UNIX variants: when a user creates a file, that owner can set permissions for other users. MAC is controlled by the system using labels assigned to subjects and objects, often for sensitive environments where users must not freely pass access rights around.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 13-17"
+  },
+  {
+    "id": 86,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "secure OS",
+      "reference monitor guarantees"
+    ],
+    "question": "Which statement is NOT one of the three reference monitor guarantees required by the lecture for a secure OS with mandatory security protections?",
+    "options": {
+      "A": "Complete mediation: every security-sensitive operation is evaluated.",
+      "B": "Tamperproof: access-control components are protected from unauthorized modification by untrusted software.",
+      "C": "Verifiable: the enforcement mechanism is compact enough for analysis and testing.",
+      "D": "User-discretionary: every resource owner can bypass mandatory rules for resources they created."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the NOT answer: allowing owners to bypass mandatory rules is discretionary, not a reference monitor guarantee. A, B, and C are the three guarantees listed: complete mediation, tamperproofness, and verifiability.",
+    "relevantTheory": "A secure OS must enforce access controls so that future software cannot bypass protections. Complete mediation prevents unchecked sensitive operations; tamperproofness protects the enforcement mechanism itself; verifiability makes the mechanism small and clear enough to assess.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 33-34"
+  },
+  {
+    "id": 87,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "UNIX TCB",
+      "root",
+      "user isolation"
+    ],
+    "question": "In the UNIX security example, why are the kernel and root-level processes treated differently from ordinary user processes?",
+    "options": {
+      "A": "They are part of the trusted computing base and have unrestricted access to system resources, while ordinary processes are limited by their user identity.",
+      "B": "They run without an address space, so they cannot affect other users' files.",
+      "C": "They use only DAC, while ordinary processes use only MAC.",
+      "D": "They are outside the OS, so reference monitor rules do not apply to them."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the UNIX TCB includes the kernel and privileged root processes, which perform critical functions and have unrestricted access. B is false because address spaces are a protection mechanism, not an absence of memory. C invents a split the lecture does not make. D is wrong because these components are central to OS enforcement.",
+    "relevantTheory": "UNIX protects users from one another and protects the system TCB from user threats. Each process has a user-based identity and a unique address space. Persistent resources are represented as files, and permissions restrict access for non-privileged processes.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 37-39"
+  },
+  {
+    "id": 88,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Android sandbox",
+      "SELinux",
+      "permissions"
+    ],
+    "question": "An Android app tries to read another app's private files without an explicit sharing decision. Which lecture concept explains why this should fail?",
+    "options": {
+      "A": "Android apps share one root identity, so the request fails only if the network is disconnected.",
+      "B": "Android relies on a UNIX-like permission system, unique app user identities, sandboxing, and SELinux MAC to isolate apps and regulate process permissions.",
+      "C": "Android uses only password-based protection, so file access depends on whether the user typed the device PIN recently.",
+      "D": "Android prevents access only during Safe Mode; in normal boot all third-party apps can read each other's data."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the slides describe Android app sandboxing, explicit permissions, unique user identities, UNIX-like filesystem permissions, and SELinux MAC. A is false because apps do not all share one root identity. C is too narrow. D reverses the point: Safe Mode stops third-party apps from starting automatically, but normal app isolation still exists.",
+    "relevantTheory": "Android is built on the Linux kernel and uses process isolation, IPC controls, permissions, SELinux MAC, and a protected system partition. App data remains private unless developers explicitly allow sharing, and access to resources depends on granted permissions and system policy.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 44-49"
+  },
+  {
+    "id": 89,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "trusted vs secure",
+      "platform state"
+    ],
+    "question": "In the TCG sense used in the lecture, what is the best meaning of a 'trusted' platform?",
+    "options": {
+      "A": "A platform that has no vulnerabilities and cannot be attacked.",
+      "B": "A platform whose users are morally trustworthy.",
+      "C": "A platform that always blocks every modified boot component before it executes.",
+      "D": "A platform that behaves as expected for a specific purpose, which is not the same as being secure."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: trusted means expected or predictable behavior for a purpose. A confuses trusted with perfectly secure. B is irrelevant to platform-state trust. C describes Secure Boot behavior, not the general meaning of trusted.",
+    "relevantTheory": "The lecture stresses 'Trusted != Secure'. Secure means enforcing a defined security policy under a defined threat model. Trusted means expected behavior. Trusted computing provides evidence about platform state so a verifier can decide whether a platform should be trusted for a specific operation.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 39, 45"
+  },
+  {
+    "id": 90,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "TPM",
+      "platform trust anchor"
+    ],
+    "question": "Which statement best describes a TPM according to the trusted computing lecture?",
+    "options": {
+      "A": "A removable HSM that only accelerates cryptographic operations and does not know platform state.",
+      "B": "A standardized security component that protects keys and measurements, maintains PCRs, executes commands through an interface, and can produce authenticated evidence about selected TPM state.",
+      "C": "A general-purpose co-processor where arbitrary applications can be installed to enforce OS policy.",
+      "D": "A software daemon that replaces the OS kernel during boot."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the TPM definition in the slides. A is an HSM-like description and misses platform measurement and identity. C is explicitly denied: a TPM is not a general-purpose co-processor. D is false; the TPM is a hardware or firmware trust anchor, not a kernel replacement.",
+    "relevantTheory": "A TPM supports platform-state trust by anchoring trust in protected capabilities. It stores protected security state, keys, seeds, authorization values, PCRs, and attestation functions. Applications normally use a TPM software stack rather than raw TPM commands.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 40-42"
+  },
+  {
+    "id": 91,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "Roots of Trust",
+      "RTM",
+      "RTS",
+      "RTR"
+    ],
+    "question": "Which mapping of Roots of Trust in a TPM-based platform is correct?",
+    "options": {
+      "A": "RTM protects PCRs inside the TPM; RTS signs quotes; RTR measures firmware.",
+      "B": "RTM is the user application; RTS is the filesystem; RTR is the bootloader.",
+      "C": "RTM measures components or events and sends measurements to protected storage; RTS protects security-relevant state such as PCRs and keys; RTR reports protected state through authenticated attestation.",
+      "D": "All three roots are implemented only by the cloud verifier after boot."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. A swaps the functions. B replaces roots of trust with ordinary software layers. D is wrong because roots of trust are platform-side components and assumptions, not only verifier-side logic.",
+    "relevantTheory": "A Root of Trust is a component assumed to behave correctly because its misbehavior cannot be detected by lower-level mechanisms. In TPM systems, the TPM implements much of RTS and RTR, while RTM is typically firmware or boot code starting from the CRTM.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 47-49"
+  },
+  {
+    "id": 92,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "measured boot",
+      "measure before execute",
+      "PCR"
+    ],
+    "question": "What is the correct sequence for measured boot?",
+    "options": {
+      "A": "Execute the next component, then ask the verifier whether it should have been allowed.",
+      "B": "Measure the next component, extend the measurement into a PCR, then transfer control to the measured component; each later component repeats the process.",
+      "C": "Erase all previous PCR values and write only the latest bootloader hash.",
+      "D": "Verify a signature, block unauthorized code immediately, and avoid recording measurements."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: measured boot follows measure-before-execute and accumulates measurements in PCRs. A loses the protected evidence chain. C is wrong because PCRs are extended, not overwritten. D describes Secure Boot more than Measured Boot.",
+    "relevantTheory": "Measured Boot records what was loaded so the boot state is verifiable after startup. It does not by itself prevent a modified component from executing. Components such as firmware, bootloaders, boot configuration, kernel, and early drivers are hashed and accumulated in TPM PCRs.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 52-54, 63"
+  },
+  {
+    "id": 93,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "PCR extend",
+      "tamper-evident history"
+    ],
+    "question": "Why does the TPM extend a PCR instead of simply overwriting it with the newest measurement?",
+    "options": {
+      "A": "Because PCRs are normal storage registers optimized for easy editing by the OS.",
+      "B": "Because overwriting would let a compromised platform erase bad measurements and replace them with good ones.",
+      "C": "Because the verifier only accepts the first measurement and ignores all later boot events.",
+      "D": "Because PCRs are used only for encryption keys, not for measurement history."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the extend operation makes PCRs a tamper-evident summary of all measurements and their order. A is the opposite of the shielded PCR model. C is wrong because final PCR values depend on all extended measurements. D ignores PCR use in measured boot and attestation.",
+    "relevantTheory": "A PCR extend computes a new value from the old PCR value concatenated with the measurement hash. Therefore the final PCR depends on every measurement and the exact order. This makes the PCR useful as a protected aggregate, but a measurement event log is still needed to explain what caused the aggregate value.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 54, 57-60"
+  },
+  {
+    "id": 94,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "sealing",
+      "PCR policy",
+      "updates"
+    ],
+    "question": "A disk encryption key is released only on the same TPM and only when firmware, bootloader, and Secure Boot policy match approved PCR values. What TPM feature is being used?",
+    "options": {
+      "A": "Sealing, because a secret is bound to the correct TPM and required platform state.",
+      "B": "A TPM quote, because the key is signed and sent to a verifier.",
+      "C": "A Privacy CA, because the key certifies an Attestation Key.",
+      "D": "Logical isolation, because the OS hides implementation details."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: sealing protects data with a TPM policy requiring both the correct TPM and acceptable PCR state. B is attestation evidence, not local secret release. C is for AK certification. D is an OS separation concept, not TPM secret binding.",
+    "relevantTheory": "Sealed objects are released only when policy conditions hold. This is powerful for disk keys, VPN credentials, device identity keys, and application secrets, but PCR policies must be designed carefully because legitimate firmware, bootloader, or kernel updates can change PCR values and prevent unsealing.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, page 65"
+  },
+  {
+    "id": 95,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "remote attestation",
+      "RATS"
+    ],
+    "question": "What problem does Remote Attestation solve in distributed systems?",
+    "options": {
+      "A": "It lets a service learn cryptographic evidence about a remote platform's identity and state, with freshness and policy-based trust decisions.",
+      "B": "It encrypts all user data so the remote platform never needs to be checked.",
+      "C": "It replaces reference values with user passwords.",
+      "D": "It proves that every measured program is vulnerability-free."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: Remote Attestation lets a verifier evaluate evidence about identity and platform state remotely. B is encryption, not attestation. C is wrong because reference values are known-good measurements, not passwords. D overclaims: attestation checks expected state, not absence of vulnerabilities.",
+    "relevantTheory": "In distributed systems, trust is remote. A service may need to know whether a node is genuine, booted with expected firmware/kernel, has Secure Boot configured, and still has trusted runtime components. Remote Attestation provides evidence, freshness against replay, binding to a trust anchor, and policy-based decisions.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 3-5"
+  },
+  {
+    "id": 96,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "TPM quote",
+      "nonce",
+      "AK"
+    ],
+    "question": "In the TPM-based integrity challenge protocol, which sequence is correct?",
+    "options": {
+      "A": "The attester sends old healthy evidence first; the verifier later adds a nonce if suspicious.",
+      "B": "The verifier sends a nonce; the attestation agent requests a TPM quote over selected PCRs using an AK; the agent sends quote, PCR values, logs, and AK certificate to the verifier.",
+      "C": "The Privacy CA computes PCR values and returns the measurement logs to the attester.",
+      "D": "The relying party overwrites PCRs with reference values and then grants access."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the protocol steps. A is exactly what nonce freshness prevents. C confuses Privacy CA certification with attestation evidence collection. D is impossible and insecure because PCRs are protected and not overwritten with reference values.",
+    "relevantTheory": "A TPM quote is a TPM-produced signature over selected PCR state and freshness data. The nonce binds the response to the verifier's challenge. The attestation agent also supplies raw PCR values, logs, and key certificates so the verifier can authenticate the AK, verify the quote, validate logs, and appraise measurements.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 13-14, 19-20"
+  },
+  {
+    "id": 97,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "nonce",
+      "replay attack",
+      "freshness"
+    ],
+    "question": "Why must the verifier include a fresh nonce in a TPM attestation challenge?",
+    "options": {
+      "A": "To hide reference values from the attester.",
+      "B": "To force the TPM to erase all previous measurement events.",
+      "C": "To ensure the quote was produced for this challenge and is not an old healthy quote replayed after compromise.",
+      "D": "To let the attester choose which PCRs are required by policy."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: the nonce provides freshness and blocks replay of previously valid evidence. A is unrelated. B is false because PCR history is not erased by nonce use. D is wrong because PCR selection must satisfy verifier policy.",
+    "relevantTheory": "Without freshness, an attacker could store a valid quote from a trusted time and replay it after the platform becomes compromised. By including the verifier's unpredictable nonce in the signed quote, the TPM proves the evidence was produced for the current challenge.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, page 14"
+  },
+  {
+    "id": 98,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "quote vs logs",
+      "PCR aggregate",
+      "verifier validation"
+    ],
+    "question": "Why is a TPM quote alone not enough for a verifier to understand platform state?",
+    "options": {
+      "A": "Because a quote does not authenticate selected PCR state.",
+      "B": "Because a quote is signed by the EK, which is never trusted.",
+      "C": "Because PCR values are aggregates; the verifier also needs raw PCR values and measurement logs to learn what was measured, in what order, and which event caused a mismatch.",
+      "D": "Because logs are inside the TPM and cannot be compared with PCRs."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. The quote authenticates selected PCR state and freshness, but PCRs are aggregate values. A is false because quote authentication is its purpose. B is wrong because quotes are usually signed by an AK, not the EK. D is wrong because logs are outside the TPM and must be validated against PCRs.",
+    "relevantTheory": "The lecture summarizes: quote authenticates PCR values, PCRs authenticate the logs, and logs explain history. The verifier replays the extend operations from the log and compares the recomputed PCR with the quoted PCR before appraising individual events against policy.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 20, 23-26"
+  },
+  {
+    "id": 99,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "IMA",
+      "runtime integrity",
+      "PCR 10"
+    ],
+    "question": "What does Linux IMA add to measured boot?",
+    "options": {
+      "A": "It replaces the TPM by storing all runtime measurements only in ordinary system memory.",
+      "B": "It proves that measured software has no vulnerabilities and behaves correctly.",
+      "C": "It blocks every tampered file automatically even when IMA Appraisal is not enforced.",
+      "D": "It extends the chain of trust from boot to runtime by measuring selected files before use, logging events, and extending event digests into a TPM PCR, typically PCR 10."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct. IMA measures selected runtime files according to policy and extends measurements into a TPM PCR. A misses the TPM anchoring. B is explicitly outside IMA guarantees. C is false unless IMA Appraisal is configured to deny access on failure.",
+    "relevantTheory": "IMA stands for Integrity Measurement Architecture. It is part of the Linux Integrity Subsystem and measures selected executables, libraries, kernel modules, scripts, configuration files, and security policies before use. It helps verify what the Linux system uses after boot.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 34, 37-39, 45"
+  },
+  {
+    "id": 100,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "IMA log validation",
+      "reference values",
+      "policy"
+    ],
+    "question": "A verifier receives a TPM quote over PCR 10 and an IMA Measurement Log. What should it do before trusting individual IMA events?",
+    "options": {
+      "A": "Start from the PCR initial value, replay the extend operation over the IMA log entries in order, recompute PCR 10, and compare it with the quoted PCR 10.",
+      "B": "Trust the log immediately because all IMA logs are stored inside the TPM.",
+      "C": "Compare only the file names in the log with an allowlist and ignore digests.",
+      "D": "Delete unknown events from the log and recompute PCR 10 on the remaining entries."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and is the verifier-side log validation process. B is false because the IMA log is outside the TPM. C is insufficient; event digests must be appraised against reference values after log consistency is validated. D is tampering with evidence and would break the PCR comparison.",
+    "relevantTheory": "Remote attestation with IMA requires quote authenticity and freshness, PCR 10 authenticity, log consistency with PCR 10, and appraisal of individual IMA events against reference values. If the recomputed PCR differs from the quoted PCR, the log may be modified, truncated, reordered, or incomplete.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 40-43"
+  },
+  {
+    "id": 101,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "IoT definition",
+      "Thing",
+      "device components"
+    ],
+    "question": "Which answer best matches the lecture's definition of IoT and an IoT device?",
+    "options": {
+      "A": "IoT is only a cloud database for storing sensor readings; devices do not need communication.",
+      "B": "IoT is a global infrastructure connecting physical and virtual things via interoperable communication technologies; an IoT device must support communication and may include sensing, actuation, storage, and processing.",
+      "C": "IoT refers only to human-to-human communication using mobile phones.",
+      "D": "IoT devices are defined by having a full desktop operating system and no sensors or actuators."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the ITU-T Y.2060 definition used in the slides. A ignores communication and narrows IoT to storage. C misses things and automation. D is wrong because many IoT devices are small embedded systems with microcontrollers, sensors or actuators, identifiers, and connectivity.",
+    "relevantTheory": "IoT connects physical objects, controllers, sensors, actuators, and the Internet. A typical object has a microcontroller for intelligence, sensors or actuators for interacting with physical parameters, and network connectivity. The key new dimension is communication among any thing, complementing any time and any location communication.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 5-9"
+  },
+  {
+    "id": 102,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "gateway",
+      "resource constraints",
+      "TLS/IPsec"
+    ],
+    "question": "A deployment contains tiny sensors with minimal built-in security and a gateway that translates protocols before forwarding data to central platforms. What is the most course-aligned security interpretation?",
+    "options": {
+      "A": "The tiny sensors can always run full TLS and IPsec, so the gateway has no security role.",
+      "B": "The gateway is only a performance cache and should never participate in security.",
+      "C": "Gateway devices are important because they can enable secure communication between constrained IoT devices and application or management platforms, often handling protocol translation and networking services.",
+      "D": "Central systems are irrelevant because IoT security exists only at the physical device layer."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. The slides state that gateways often provide protocol translation and additional networking services, and they play a crucial role in secure communication with central systems. A overestimates constrained devices. B ignores the gateway's security role. D ignores application platforms, repositories, and management systems at the network core.",
+    "relevantTheory": "IoT devices range from simple resource-limited units to more capable devices. Sophisticated devices may include security features, but constrained devices may have minimal or no built-in security. Gateways help connect these devices to data centers, cloud applications, and management platforms while supporting security protocols where feasible.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 13-14"
+  },
+  {
+    "id": 103,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "IoT requirements",
+      "mutual authentication",
+      "audit"
+    ],
+    "question": "Which pair is explicitly listed among the IoT security requirements in ITU-T Y.2066 as presented in the lecture?",
+    "options": {
+      "A": "Single-factor passwords for all machine communication and no logging to protect privacy.",
+      "B": "Mutual authentication and authorization before access, and security audit with transparent, traceable, reproducible access records.",
+      "C": "Avoiding integration of security policies, because devices are too diverse.",
+      "D": "Replacing data management security with blockchain in every layer."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. Mutual authentication/authorization and security audit are listed requirements. A contradicts the audit requirement and later password limitations. C reverses the requirement to integrate policies and techniques. D overstates blockchain and omits the actual data management security requirement.",
+    "relevantTheory": "The IoT requirements include communication security, data management security, service provision security, integration of security policies and techniques, mutual authentication and authorization, and security audit. The point is consistent protection across diverse devices, users, networks, transmission, storage, processing, and application usage.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 16-18"
+  },
+  {
+    "id": 104,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "IoT framework",
+      "layers"
+    ],
+    "question": "Which ordering matches the simplified IoT security framework layers in the lecture?",
+    "options": {
+      "A": "Smart Objects, Fog Network, Core Network, Data Center/Cloud.",
+      "B": "Browser, Kernel, TPM, Privacy CA.",
+      "C": "PCR 0, PCR 10, Event Log, Quote.",
+      "D": "User Interface, Filesystem, Shell, Application."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the framework is organized into Smart Objects, Fog Network, Core Network, and Data Center/Cloud. B and C are trusted-computing concepts, not IoT architecture layers. D lists OS concepts rather than the IoT security framework.",
+    "relevantTheory": "The smart objects layer includes sensors, actuators, and embedded devices at the edge. Edge/fog networks connect diverse devices and protocols. The core network carries data between hubs and devices. The data center/cloud hosts applications, repositories, and management systems. Security capabilities must operate across these layers.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 19-26"
+  },
+  {
+    "id": 105,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "IoT challenges",
+      "homogeneity",
+      "scale"
+    ],
+    "question": "Which statement is the best trap-aware explanation of why IoT homogeneity is a security challenge?",
+    "options": {
+      "A": "Homogeneity means every device is unique, so attacks cannot scale.",
+      "B": "Homogeneity matters only in the cloud layer, because edge devices are always physically protected.",
+      "C": "Many devices share similar designs, connectivity methods, and hardware components, so a vulnerability in one device or system may affect many others.",
+      "D": "Homogeneity removes the need for updates because all devices can be trusted forever."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct and captures the scale effect. A reverses the meaning. B is wrong because edge devices often lack physical security. D ignores long device life, end of support, and lack of upgrade as major IoT challenges.",
+    "relevantTheory": "IoT security problems are amplified by scale, diversity, deployment in unusual or accessible places, long device life, orphaned devices, lack of upgrades, limited transparency, and absence of alerts. The result is that vulnerabilities and misbehavior can spread widely and remain unnoticed.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 28-33"
+  },
+  {
+    "id": 106,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "IoT threats",
+      "safety",
+      "data breaches"
+    ],
+    "question": "Which option is NOT one of the three primary IoT threat concern areas named in the lecture?",
+    "options": {
+      "A": "Device failures that can affect safety or property.",
+      "B": "Cyberattacks that use connected devices as weak links into larger systems.",
+      "C": "Unauthorized data access and data breaches.",
+      "D": "PCR bank algorithm agility."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct as the NOT answer: PCR bank algorithm agility belongs to TPM/trusted computing, not the IoT threat list. A, B, and C are the lecture's three major areas: device failures, cyberattacks, and unauthorized data access.",
+    "relevantTheory": "IoT devices bridge computing with the physical world, so failures may cause safety or property damage. Data is a major asset and vulnerability, attracting actors interested in marketing, identity theft, stalking, wrongful incrimination, or malicious use. Connected IoT devices can also expose wider networks to attack.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 34-38"
+  },
+  {
+    "id": 107,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "password limitations",
+      "machine-to-machine"
+    ],
+    "question": "Why are passwords described as less viable for authenticating IoT devices?",
+    "options": {
+      "A": "Because passwords are too strong for resource-limited devices.",
+      "B": "Because IoT devices never need authentication.",
+      "C": "Because passwords usually require human input and can be difficult for constrained devices to store or process, making them poorly suited for automated machine-to-machine exchanges.",
+      "D": "Because passwords automatically provide mutual authentication, audit, and tamper detection."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. The lecture gives two reasons: limited device capabilities and poor fit for automated authentication requiring human input. A is nonsensical. B contradicts the mutual authentication requirement. D overstates passwords and assigns them properties they do not provide by themselves.",
+    "relevantTheory": "IoT countermeasures need to fit constrained and automated environments. Password-based protection may be weak for device-to-device communication, so stronger mechanisms such as cryptographic keys, PKI certificates, HSMs, secure elements, TEEs, and hardware cryptographic processors may be used depending on the layer and device capability.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 39, 42-43, 49"
+  },
+  {
+    "id": 108,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "TEE",
+      "secure element",
+      "hardware trust"
+    ],
+    "question": "Which statement correctly distinguishes a TEE from a Secure Element in the IoT countermeasures lecture?",
+    "options": {
+      "A": "A TEE is a hardware CPU security extension that creates shielded execution environments; a Secure Element is a tamper-proof module that can act as a root of trust and protect credentials through the device lifecycle.",
+      "B": "A TEE is a password database; a Secure Element is a network firewall.",
+      "C": "A TEE exists only in cloud data centers; a Secure Element can never be embedded in IoT devices.",
+      "D": "Both are purely software logging tools with no hardware isolation."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. TEEs provide hardware-level isolation for critical code and sensitive data; Secure Elements are robust tamper-proof modules comparable to smart cards and can manage credentials and lifecycle updates. B, C, and D contradict the hardware-focused definitions in the slides.",
+    "relevantTheory": "IoT security often uses hardware-backed mechanisms because devices can be physically exposed and resource constrained. TEEs create protected execution environments inside CPUs. Secure Elements store sensitive information for authorized users and applications and can support over-the-air updates for credentials, patches, and evolving protections.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 45-47"
+  },
+  {
+    "id": 109,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "convenience",
+      "systemic risk",
+      "digital services"
+    ],
+    "question": "A bank moves payments, customer support, and identity checks into always-on digital services. Which Module A1 interpretation is most accurate?",
+    "options": {
+      "A": "The same infrastructure that scales convenience also scales failures, attacks, fraud, outages, and leaked data.",
+      "B": "Digital services remove most security risk because transactions no longer require physical presence.",
+      "C": "Cybersecurity is mainly needed for military networks, not for online banking or healthcare portals.",
+      "D": "Convenience and cybersecurity are unrelated because security begins only after an attack is confirmed."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture frames digital services as scaling both convenience and chaos. B is wrong because remote access creates new attack paths. C is wrong because the examples include everyday services such as banking, shopping, chat, healthcare, and smart devices. D is wrong because cybersecurity is a response to systemic digital risk, not only a post-incident activity.",
+    "relevantTheory": "Module A1 begins from a simple tradeoff: online services increase speed, reach, and convenience, but they also make failures, attacks, and disruption scalable. A single click, leaked credential, ransomware infection, outage, or deep fake can propagate through services and organizations. Cybersecurity became necessary because ordinary life and critical services now depend on interconnected digital systems.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 5"
+  },
+  {
+    "id": 110,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "stored-program",
+      "flexibility",
+      "vulnerability"
+    ],
+    "question": "Why does Lecture A1 connect the stored-program concept to cybersecurity risk?",
+    "options": {
+      "A": "Because it made programs impossible to modify after deployment.",
+      "B": "Because instructions became modifiable digital objects, creating both software flexibility and opportunities for exploitation.",
+      "C": "Because it eliminated the need to store data in computer memory.",
+      "D": "Because it made security assumptions purely physical again."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because stored programs put instructions and data in memory as modifiable digital objects. A is the opposite of the lecture point. C is wrong because programs and data are both stored. D is wrong because this abstraction moves risk beyond purely physical access assumptions.",
+    "relevantTheory": "The Manchester Baby and the stored-program concept illustrate a root cybersecurity tension: the same abstraction that enables reusable logic, reprogrammable machines, and innovation also makes software exploitation possible. Flexibility is not a defect, but it enlarges what can be changed, abused, or subverted by malicious code.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 7"
+  },
+  {
+    "id": 111,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "process-chain",
+    "trapTags": [
+      "history",
+      "adoption",
+      "commercial defense"
+    ],
+    "question": "Which sequence best captures the Module A1 story from isolated computing to commercial defense?",
+    "options": {
+      "A": "Commercial antivirus appeared first, then networking, then code mobility.",
+      "B": "Stored programs removed digital risk, then ARPANET made systems isolated again.",
+      "C": "Isolated trusted machines were followed by networking, mobile code, active defense, and then commercial antivirus as PCs spread.",
+      "D": "Cybersecurity began only after cloud computing and did not exist during early networking."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: the lecture moves from isolated computers to networking, Creeper, Reaper, and commercial antivirus in the PC era. A reverses the timeline. B contradicts the stored-program and networking points. D ignores ARPANET, Creeper, Reaper, and early antivirus.",
+    "relevantTheory": "A1 uses history to show why security assumptions changed. Early computers were physically accessed by few trusted users. Networking expanded trust beyond one room. Creeper showed autonomous code movement; Reaper showed active defense; personal computers and floppy-borne viruses helped create a commercial security market. Security follows adoption.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 6, slide/page 8, slide/page 9, slide/page 10, and slide/page 11"
+  },
+  {
+    "id": 112,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "national cyberspace",
+      "sovereignty",
+      "jurisdiction"
+    ],
+    "question": "What distinguishes national cyberspace from cyberspace in general in Lecture A1?",
+    "options": {
+      "A": "National cyberspace contains only military networks and excludes citizens and businesses.",
+      "B": "National cyberspace is completely disconnected from the global Internet.",
+      "C": "National cyberspace refers only to hardware located in government buildings.",
+      "D": "National cyberspace is the portion of global cyberspace under a nation's legal, administrative, economic, cultural, and political context."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture defines national cyberspace through jurisdiction, governance, infrastructure, citizens, businesses, government, devices, software, and data. A is too narrow. B is wrong because it is interlinked with global cyberspace. C ignores software, data, citizens, businesses, and legal context.",
+    "relevantTheory": "Cyberspace is global and socio-technical, but national cyberspace is the segment governed by national laws, institutions, and context. It includes devices, software, and data generated, stored, or transiting through national infrastructure. This is where cybersecurity becomes connected to sovereignty, law, and coordinated response.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 28 and slide/page 29"
+  },
+  {
+    "id": 113,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "hidden dependencies",
+      "systemic effects",
+      "complexity"
+    ],
+    "question": "A small configuration change in a cloud dependency disrupts several unrelated customer services. Which A1 concept explains why this is not surprising?",
+    "options": {
+      "A": "Cyberspace complexity creates hidden dependencies, so small changes can have systemic effects.",
+      "B": "Failures in cyberspace are always immediately visible and local.",
+      "C": "Only hardware layers can create systemic cybersecurity failures.",
+      "D": "Complex systems are secure if each application is tested once before deployment."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because A1 emphasizes networks of networks, layered software, heterogeneity, cloud services, and human interaction. B is wrong because failures may emerge gradually and systemically. C ignores firmware, middleware, applications, operating systems, cloud services, and people. D overstates testing and ignores evolving dependencies.",
+    "relevantTheory": "The lecture calls cyberspace the most complex thing humans have built: networks of networks, protocol and software stratification, heterogeneous terminals, cloud services, operating systems, firmware, middleware, applications, and human interaction. Complexity creates hidden dependencies and emergent failures, which is why cybersecurity is systemic.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 30"
+  },
+  {
+    "id": 114,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "pervasiveness",
+      "attack surface",
+      "physical environment"
+    ],
+    "question": "Why does A1 say cyberspace pervasiveness is a key driver of attack surface explosion?",
+    "options": {
+      "A": "Because attack surface shrinks when devices are always connected.",
+      "B": "Because cyberspace now pervades physical environments, daily life, and critical services rather than staying inside computers and networks.",
+      "C": "Because only desktop computers are connected to the Internet.",
+      "D": "Because robotics, 5G, and always-on devices remove dependence on software."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the lecture links pervasiveness to robotics, 5G, always-on systems, and critical services. A is the opposite of the slide. C is outdated and too narrow. D is wrong because these technologies increase software and network dependence.",
+    "relevantTheory": "Pervasiveness means cyberspace extends into homes, smart devices, robotics, 5G, healthcare, industrial systems, and critical services. More connected devices, services, and physical interfaces mean more paths where failures or attacks can enter and propagate. Attack surface is therefore not only a list of servers; it includes digital dependencies embedded in everyday and physical environments.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 32"
+  },
+  {
+    "id": 115,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "cyberspace",
+      "human behavior",
+      "rules"
+    ],
+    "question": "Which statement best reflects the A1 definition of cyberspace?",
+    "options": {
+      "A": "Cyberspace is only the physical cables and routers that carry Internet traffic.",
+      "B": "Cyberspace is only the cloud services owned by large technology firms.",
+      "C": "Cyberspace is a complex, dynamic environment produced by people, software, services, and networks connected to the Internet.",
+      "D": "Cyberspace is a legal term for national defense networks."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because A1 defines cyberspace as the interaction of people, software, services, and networks, shaped by human behavior, automation, and rules. A is only infrastructure. B is only one service layer. D confuses general cyberspace with national cyberspace and defense governance.",
+    "relevantTheory": "The lecture treats cyberspace as a dynamic socio-technical environment. It is not merely computers or cables: it includes people, services, software, automation, networks, technical rules, legal rules, and social rules. This definition explains why cybersecurity problems are both technical and organizational.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 26 and slide/page 27"
+  },
+  {
+    "id": 116,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "attack maps",
+      "visualization",
+      "risk measurement"
+    ],
+    "question": "A manager points to a real-time cyber attack map and says it proves exactly which country has the highest risk today. What is the best A1 response?",
+    "options": {
+      "A": "Correct, attack maps are precise measurements of national cyber risk.",
+      "B": "Correct, attack maps measure impact better than incident analysis.",
+      "C": "Incorrect, attack maps show only military attacks and exclude ordinary systems.",
+      "D": "Incorrect, attack maps are visualization tools, not direct measurements of risk or impact."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture explicitly warns that attack maps are visualization tools, not measurements of risk or impact. A and B overinterpret the display. C is wrong because the lecture does not limit them to military attacks.",
+    "relevantTheory": "A1 uses attack maps to show that attacks are constant and visible, but it also warns against confusing visualization with measurement. Risk depends on assets, threats, likelihood, impact, exposure, resilience, and governance context. A flashy display can support awareness, but it cannot replace analysis.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 37"
+  },
+  {
+    "id": 117,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "interdependence",
+      "governance levels",
+      "systemic impact"
+    ],
+    "question": "Why does Lecture A1 say cybersecurity problems must be addressed at individual, organizational, national, and international levels?",
+    "options": {
+      "A": "Because interdependence makes cybersecurity impact scale across governance boundaries.",
+      "B": "Because individuals are the only level where cyber incidents occur.",
+      "C": "Because international coordination eliminates the need for organizational controls.",
+      "D": "Because national laws fully control all global Internet dependencies."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because A1 links interdependence and governance scope to systemic impact. B ignores organizations, states, and cross-border infrastructure. C is wrong because controls are needed at all levels. D is wrong because global cyberspace is interlinked across jurisdictions.",
+    "relevantTheory": "Cybersecurity scales with interdependence. A compromised user account may affect an organization; an organizational incident may affect critical services; national infrastructures depend on global supply chains, Internet routing, and international services. The higher the interdependence, the higher the potential systemic impact.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 40 and slide/page 41"
+  },
+  {
+    "id": 118,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l1-why-cybersecurity",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "digitalization",
+      "connectivity",
+      "necessity"
+    ],
+    "question": "Which chain best summarizes A1's explanation of why cybersecurity became a necessity?",
+    "options": {
+      "A": "Digitalization -> default connectivity -> interdependent ecosystems -> amplified failures and attacks -> systemic security necessity.",
+      "B": "Digitalization -> isolated systems -> local failures only -> no need for coordinated security.",
+      "C": "Connectivity -> fewer dependencies -> lower attack surface -> purely physical security.",
+      "D": "Cloud services -> formal verification of all code -> disappearance of vulnerabilities."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and closely follows the lecture's causal argument. B contradicts the move from isolated systems to pervasive cyberspace. C is the opposite of the attack-surface point. D is wrong because comprehensive formal verification is described as infeasible for large ecosystems.",
+    "relevantTheory": "The lecture's central claim is causal: digitalization made connectivity normal; connectivity transformed isolated systems into interdependent ecosystems; interdependence amplified both failures and attacks; therefore cybersecurity moved from a narrow technical issue to a systemic necessity.",
+    "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf, slide/page 31, slide/page 32, and slide/page 33"
+  },
+  {
+    "id": 119,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "context",
+      "danger",
+      "threat"
+    ],
+    "question": "A GPS receiver is used by hikers and also by a military unit. Which A2 lesson is illustrated by comparing location privacy, data manipulation, spoofing, and denial of navigation?",
+    "options": {
+      "A": "Danger and threat have the same meaning in every domain.",
+      "B": "Only military systems have threats; civilian systems have none.",
+      "C": "The relevant dangers and threats depend strongly on target context and application domain.",
+      "D": "Navigation systems are security-free because they only receive signals."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because A2 explicitly uses satellite navigation to show context dependence. A ignores the lecture's distinction. B is false because civilian privacy and manipulation threats still exist. D is wrong because signal spoofing, denial, privacy violations, and data manipulation are security-relevant.",
+    "relevantTheory": "A2 distinguishes danger from threat but warns that their practical meaning depends on context. A GPS receiver may raise civilian concerns such as location privacy and manipulation of navigation data, while a military context may emphasize adversarial spoofing or strategic denial. Security scope must be defined by the target, assets, and consequences.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 11"
+  },
+  {
+    "id": 120,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "asset types",
+      "intangible assets",
+      "impact"
+    ],
+    "question": "Which option correctly applies the A2 asset concept to cyberattacks?",
+    "options": {
+      "A": "Only physical hardware is an asset because only hardware can be monetized.",
+      "B": "Intangible assets such as data, software, reputation, image, and intellectual property may be primary cyberattack targets.",
+      "C": "Assets matter only after an incident, not during risk assessment.",
+      "D": "If an item has no physical form, its loss has no impact."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because A2 explicitly includes intangible assets and notes they are often primary cyberattack targets. A and D ignore data, information, software, reputation, and IP. C is wrong because identifying assets is the start of meaningful security and risk analysis.",
+    "relevantTheory": "An asset is any item of value owned by an organization that can be monetized. A2 separates tangible assets, such as hardware and network devices, from intangible assets, such as data, information, software, trademarks, intellectual property, image, and reputation. Impact analysis evaluates value, criticality, irreplaceability, and mission role.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 14, slide/page 15, and slide/page 16"
+  },
+  {
+    "id": 121,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "process-chain",
+    "trapTags": [
+      "safety threat chain",
+      "fault error failure"
+    ],
+    "question": "In the safety community's 3-universe model, what is the correct chain from cause to user-visible problem?",
+    "options": {
+      "A": "Fault in the physical domain -> error in the information domain -> failure in the user domain.",
+      "B": "Attack in the user domain -> vulnerability in the information domain -> weakness in the physical domain.",
+      "C": "Failure in the user domain -> error in the physical domain -> fault in the information domain.",
+      "D": "Threat actor -> exploit -> command and control."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the safety model is Fault -> Error -> Failure across physical, information, and user domains. B is the security chain reversed and mixed with safety terminology. C reverses the causal order. D describes intrusion execution, not the safety 3-universe model.",
+    "relevantTheory": "A2 compares communities. In safety, accidental causality is often described as a fault in the physical domain leading to an error in the information domain and then a failure perceived in the user domain. The ABS example is a damaged wheel speed sensor causing incorrect measurements and unsafe braking behavior.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 50, slide/page 51, and slide/page 52"
+  },
+  {
+    "id": 122,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "software community",
+      "error",
+      "bug",
+      "failure"
+    ],
+    "question": "A developer writes an incorrect condition that remains in the program; at runtime the program cannot meet its required performance behavior. Which A2 software-community distinction is correct?",
+    "options": {
+      "A": "The runtime inability is a human error, while the incorrect condition is a user-domain failure.",
+      "B": "The incorrect human action is an error, the incorrect program element is a fault or informally a bug, and the runtime inability is a failure.",
+      "C": "The bug is a hostile agent, and the failure is a cyberattack.",
+      "D": "Errors, faults, bugs, and failures are all synonyms in the lecture."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the IEEE-style definitions in A2. A swaps the terms. C confuses software dependability terminology with security adversaries. D is wrong because the lecture distinguishes the terms even if bug is used informally.",
+    "relevantTheory": "The software community uses a different chain from safety and security. An error is a human action producing an incorrect result. A fault is an incorrect step, process, or data definition in code; bug is often an informal term for an error or fault that causes a failure. A failure is the runtime inability to perform required functions.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 53"
+  },
+  {
+    "id": 123,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "security threat chain",
+      "weakness vulnerability attack"
+    ],
+    "question": "A login form lacks input validation, an attacker discovers SQL injection is possible, and then submits a malicious query to bypass authentication. Which A2 chain is this?",
+    "options": {
+      "A": "Fault -> error -> failure.",
+      "B": "Error -> bug -> failure.",
+      "C": "Weakness -> vulnerability -> attack.",
+      "D": "Asset -> impact -> insurance."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lack of validation is a weakness, exploitable SQL injection is a vulnerability, and the malicious query is the attack. A is the safety chain. B is the software-community chain. D is part of risk management, not the security threat chain.",
+    "relevantTheory": "In the security community, adversarial causality is modeled as weakness, vulnerability, attack. A weakness is a design or implementation flaw. It becomes a vulnerability when an attacker realizes it can be exploited in a specific context. An attack is concrete exploitation against assets.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 54, slide/page 55, and slide/page 56"
+  },
+  {
+    "id": 124,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "safety security conflict",
+      "by-design"
+    ],
+    "question": "A car has a pressure sensor that opens doors when the car is flipped, but attackers can jump on the roof to open the doors. What is the A2 lesson?",
+    "options": {
+      "A": "A safety control can never create a security problem.",
+      "B": "The system is secure because the safety goal is legitimate.",
+      "C": "This is only a reliability problem and has no security implication.",
+      "D": "A system can be safe and insecure at the same time, so safety and security must be handled by design."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the slide uses this exact kind of conflict to motivate Safety & Security-by-Design. A and B ignore the unauthorized-entry consequence. C is wrong because the exploit is a malicious action enabled by the safety mechanism.",
+    "relevantTheory": "Safety requirements and security requirements can conflict. A mechanism that improves safety, such as emergency door opening, may introduce a security weakness if adversarial use is not considered. The lecture's answer is Safety & Security-by-Design: security cannot simply be retrofitted once deployed.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 58 and slide/page 59"
+  },
+  {
+    "id": 125,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "accidentality",
+      "intentionality",
+      "malicious agent"
+    ],
+    "question": "Which comparison matches A2's accidentality versus intentionality distinction?",
+    "options": {
+      "A": "Safety threats are usually intentional, while security threats are always atmospheric events.",
+      "B": "Safety threats are accidental events such as component failure or unintentional human error, while security threats are usually carried intentionally by a malicious agent.",
+      "C": "Safety and security both ignore human actions.",
+      "D": "Security considers only accidental faults because attackers cannot adapt."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the lecture comparison. A reverses the distinction. C is wrong because safety may include unintentional human error and security includes malicious agents. D is wrong because attacker intention and adaptation are central to security.",
+    "relevantTheory": "A2 contrasts safety and security threats. Safety usually deals with accidental events: endogenous component failures, exogenous environmental disturbances, electromagnetic noise, or unintentional human errors in design, manufacturing, or testing. Security usually deals with intentional malicious agents, whether human or system-driven.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 61"
+  },
+  {
+    "id": 126,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "cardinality",
+      "shared components",
+      "scale"
+    ],
+    "question": "Why does A2 say security threats have a different cardinality problem from many safety failures?",
+    "options": {
+      "A": "Security failures affect only one system at a time because attackers must be physically present.",
+      "B": "Safety failures always affect millions of systems simultaneously.",
+      "C": "A single shared vulnerability can allow attackers to compromise thousands or millions of systems quickly.",
+      "D": "Cardinality matters only for insurance, not for system design."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because modern systems share software components, so one vulnerability may be exploited at scale. A is false in cyberspace. B overstates safety failures; safety failures often arise from limited accidental combinations. D ignores the lecture's engineering comparison.",
+    "relevantTheory": "Safety failures often arise from limited combinations of accidental events and may manifest sporadically. Security is different because modern systems reuse software components and are connected. Once a vulnerability is known and exploitable, attackers can automate exploitation across many systems simultaneously.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 63"
+  },
+  {
+    "id": 127,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "fault tolerance",
+      "vulnerability tolerance",
+      "defense in depth"
+    ],
+    "question": "Which design approach best matches A2's security-side failure prevention?",
+    "options": {
+      "A": "Use only time redundancy and compare repeated operation results.",
+      "B": "Assume vulnerabilities never exist after testing.",
+      "C": "Replace monitoring with formal safety standards only.",
+      "D": "Build vulnerability-tolerant architecture using defense in depth, isolation, least privilege, monitoring, and CIA-oriented controls."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because A2 describes security prevention as remaining secure even when vulnerabilities exist. A is a safety fault-tolerance example, not sufficient for malicious exploitation. B is unrealistic. C ignores monitoring and security controls.",
+    "relevantTheory": "Safety engineering often uses fault-tolerant architectures and redundancy to tolerate accidental faults. Security engineering needs vulnerability-tolerant architectures: defense in depth, isolation or sandboxing, least privilege, monitoring, intrusion detection, encryption and access control for confidentiality, hashes/MACs/signatures for integrity, and redundancy for availability.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 65, slide/page 66, and slide/page 70"
+  },
+  {
+    "id": 128,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l2-systems-risk",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "dependability",
+      "attributes",
+      "means"
+    ],
+    "question": "What does A2 mean by dependability?",
+    "options": {
+      "A": "The property of a system that allows justified reliance on the service it delivers.",
+      "B": "The guarantee that a system contains no vulnerabilities.",
+      "C": "The same thing as confidentiality only.",
+      "D": "A legal classification level for national secrets."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and matches the lecture definition. B is too absolute and not the definition. C is only one security property. D belongs to secrecy classification, not dependability.",
+    "relevantTheory": "Dependability is the property that allows justified reliance on the service a system delivers. A2 breaks it into attributes, threats, and means. Attributes include reliability, safety, security, confidentiality, integrity, availability, and maintainability. Threats are events or conditions that affect dependability, and means are mechanisms to improve it.",
+    "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf, slide/page 75, slide/page 76, and slide/page 77"
+  },
+  {
+    "id": 129,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "datacracy",
+      "data-driven society",
+      "inference"
+    ],
+    "question": "Which statement best captures the security implication of Big Data, datacracy, and data-driven society in A3?",
+    "options": {
+      "A": "More data and connectivity create more exposure, more inference, and more impact.",
+      "B": "Big Data reduces inference risk because individual records disappear inside large datasets.",
+      "C": "Datacracy means decisions are independent of data access and analytics.",
+      "D": "Data-driven services are security-neutral because models do not reveal information."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because A3 explicitly links scale to exposure, inference, and impact. B is a trap: large datasets can increase inference and linkage risk. C contradicts the definition of datacracy. D ignores that models and analytics can reveal information.",
+    "relevantTheory": "A3 frames pervasive cyberspace as a data ecosystem. Big Data means massive heterogeneous streams collected continuously. Datacracy means decisions and power increasingly depend on data access and analytics. A data-driven society optimizes services, markets, and institutions using data and models. This makes privacy and security systemic.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 5, slide/page 6, slide/page 7, and slide/page 8"
+  },
+  {
+    "id": 130,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "availability",
+      "uptime",
+      "MTBF",
+      "MTTR"
+    ],
+    "question": "A cloud service advertises 99.999% uptime and tracks mean time between failures and mean time to repair. Which A3 property is being operationalized?",
+    "options": {
+      "A": "Authenticity, because public keys are being verified.",
+      "B": "Non-repudiation, because users cannot deny actions.",
+      "C": "Availability, treated as timely reliable access and measured with reliability-style metrics.",
+      "D": "Confidentiality, because uptime prevents unauthorized disclosure."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because A3 connects availability to timely reliable access and operational metrics such as uptime, MTBF, and MTTR. A and B concern authenticity and evidence of action. D confuses access reliability with secrecy.",
+    "relevantTheory": "Availability means information or services can be accessed when desired in a timely and reliable way. A3 also presents availability as a reliability concept: A(t), uptime, mean time between failures, and mean time to repair. DoS, DDoS, ransomware outages, and power failures threaten availability.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 27 and slide/page 28"
+  },
+  {
+    "id": 131,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "data integrity",
+      "system integrity",
+      "scope"
+    ],
+    "question": "Which distinction between data integrity and system integrity matches A3?",
+    "options": {
+      "A": "Data integrity means uptime; system integrity means encryption.",
+      "B": "Data integrity assures data and programs are changed only as authorized; system integrity assures the system performs operations in an unimpaired manner.",
+      "C": "Data integrity applies only to paper records; system integrity applies only to physical locks.",
+      "D": "Data integrity and system integrity are identical terms with no scope difference."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the lecture. A confuses integrity with availability and confidentiality controls. C is irrelevant to the information-system scope. D ignores the two scopes A3 explicitly names.",
+    "relevantTheory": "Integrity is not only 'the bits did not change.' A3 gives two scopes. Data integrity assures data and programs are modified only in a specified and authorized manner. System integrity assures a system performs its intended function in an unimpaired manner, free from unauthorized manipulation.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 21 and slide/page 22"
+  },
+  {
+    "id": 132,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "read modify block inject",
+      "control matching"
+    ],
+    "question": "An attacker overloads a public API so legitimate users cannot access it. Which A3 mapping is correct?",
+    "options": {
+      "A": "Read -> confidentiality breach -> encryption is the main control.",
+      "B": "Modify -> integrity breach -> MACs are the only relevant control.",
+      "C": "Inject -> authenticity breach -> signatures alone solve the problem.",
+      "D": "Block or degrade -> availability breach -> redundancy, rate limiting, distributed infrastructure, and incident response are relevant controls."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because overload is a blocking/degradation attack against availability. A, B, and C map to other attacker actions and properties. Signatures or encryption alone do not keep a service available under DoS pressure.",
+    "relevantTheory": "A3's simple source-destination model maps attacker actions to properties: read/eavesdrop breaks confidentiality, modify/tamper breaks integrity, block/degrade breaks availability, and inject/forge breaks authenticity. Controls must match the violated property. Availability controls include redundancy, rate limiting, distributed infrastructures, monitoring, detection, and response.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 30 and slide/page 33"
+  },
+  {
+    "id": 133,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Kerckhoffs",
+      "key management",
+      "algorithm secrecy"
+    ],
+    "question": "A team says its encryption is secure because nobody outside the team knows the algorithm. What is the A3 objection?",
+    "options": {
+      "A": "Cryptographic security should depend on key management, not secrecy of the algorithm.",
+      "B": "Encryption should never use keys.",
+      "C": "Confidentiality is impossible for data in transit.",
+      "D": "Algorithms must be secret because public verification weakens cryptography."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and reflects Kerckhoffs's principle as presented in A3. B is false because encryption uses algorithms and keys. C is false because encryption protects data in transit and at rest. D reverses the robust public-verification design philosophy.",
+    "relevantTheory": "A3 defines encryption as transforming a message with an algorithm and key into ciphertext to protect confidentiality. It emphasizes that security of a cryptographic system depends on key management, not on secrecy of the algorithm. Publicly analyzed algorithms are preferred because they can be examined and verified.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 37 and slide/page 38"
+  },
+  {
+    "id": 134,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "hybrid crypto",
+      "session key",
+      "bulk data"
+    ],
+    "question": "Why do real systems often use asymmetric cryptography to exchange a session key and symmetric cryptography for the session data?",
+    "options": {
+      "A": "Because symmetric cryptography is public-key cryptography with two keys.",
+      "B": "Because asymmetric cryptography cannot help with key exchange.",
+      "C": "Because symmetric encryption is efficient for bulk data, but securely distributing the shared secret at scale is the main challenge.",
+      "D": "Because session keys are used only for digital signatures."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because A3 says symmetric crypto is efficient but has a key-exchange problem. A is wrong because symmetric crypto uses one shared secret key. B is wrong because asymmetric crypto can help establish a session key. D confuses session encryption with signatures.",
+    "relevantTheory": "Symmetric cryptography uses one shared secret key K for encryption and decryption and is efficient for files, disks, and network traffic. Its main problem is how parties obtain K securely at scale. In real systems, asymmetric cryptography is often used to exchange a session key, then symmetric encryption protects the bulk session data.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 39 and slide/page 40"
+  },
+  {
+    "id": 135,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "hash",
+      "active attacker",
+      "authenticated integrity"
+    ],
+    "question": "A sender publishes a file and its hash on the same compromised website. An attacker replaces both the file and the hash. What does A3 say about relying on the hash alone?",
+    "options": {
+      "A": "A hash alone is enough against active attackers because it is fixed length.",
+      "B": "A hash is useful for accidental changes, but active attackers can change both message and hash unless authenticated integrity is used.",
+      "C": "A hash provides non-repudiation because it uses the sender's private key.",
+      "D": "A hash encrypts the file, so the attacker cannot read it."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because A3 says hashes detect accidental changes when the attacker cannot alter both values, but active attackers require MACs or signatures. A overstates hashes. C describes digital signatures, not bare hashes. D confuses hashing with encryption.",
+    "relevantTheory": "A cryptographic hash takes any-length input and returns a fixed-length digest. Desired properties include one-wayness and collision resistance. Hashes can detect accidental corruption, but they do not authenticate who produced the digest. For active attackers, use authenticated integrity: a MAC with a shared secret or a digital signature with public verification.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 41 and slide/page 42"
+  },
+  {
+    "id": 136,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "MAC",
+      "digital signature",
+      "public verification"
+    ],
+    "question": "A software vendor wants anyone to verify that an update came from the vendor, without giving all users a shared secret that would let them forge updates. Which A3 mechanism fits best?",
+    "options": {
+      "A": "A bare hash of the update, because it proves the vendor's identity.",
+      "B": "A MAC shared with all users, because every verifier should know the signing secret.",
+      "C": "Symmetric encryption of the update only.",
+      "D": "A digital signature: the vendor signs with a private key and users verify with the public key."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because signatures support public verification without sharing the signing key. A lacks authenticity. B would let verifiers forge MACs if they all know the secret. C gives confidentiality but not public authenticity or non-repudiation.",
+    "relevantTheory": "MACs provide authenticated integrity using a shared secret key; both sender and verifier must know the secret. That is suitable for parties who already share a key, but not for public software distribution. Digital signatures use the sender's private key to sign and a public key to verify, supporting integrity, authenticity, and non-repudiation.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 43 and slide/page 44"
+  },
+  {
+    "id": 137,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "inference attack",
+      "linkage",
+      "auxiliary information"
+    ],
+    "question": "A dataset omits names but includes ZIP code, age, and timestamps. An attacker links it with public information and infers one person's medical routine. Which A3 risk is shown?",
+    "options": {
+      "A": "No risk, because names were removed.",
+      "B": "Only an availability risk, because the dataset can still be accessed.",
+      "C": "Linkage plus inference can reveal sensitive information even without directly revealing the original sensitive field.",
+      "D": "A cryptographic non-repudiation failure."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because A3 emphasizes that information can be inferred from data plus context. A is a classic trap: removing names may not prevent linkage. B confuses privacy inference with availability. D is unrelated to evidence of action.",
+    "relevantTheory": "A3 distinguishes data from information. Data are raw items such as ZIP code, age, GPS coordinates, or timestamps. Information is meaning inferred from data and context. Linkage with auxiliary information can create privacy breaches even when a dataset does not directly disclose the sensitive attribute.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 10, slide/page 13, slide/page 14, slide/page 15, and slide/page 16"
+  },
+  {
+    "id": 138,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l3-security-crypto",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "public key",
+      "private key",
+      "direction"
+    ],
+    "question": "Which use of asymmetric keys matches A3?",
+    "options": {
+      "A": "For public-key confidentiality, encrypt with the recipient's public key and decrypt with the recipient's private key.",
+      "B": "For digital signatures, sign with the receiver's public key and verify with the sender's private key.",
+      "C": "For all uses, both parties must keep both keys secret.",
+      "D": "For confidentiality, publish the private key so anyone can decrypt."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. For confidentiality, anyone may encrypt to the recipient's public key, but only the private-key holder can decrypt. B reverses signature direction: the sender signs with a private key and others verify with the public key. C and D misunderstand public/private key roles.",
+    "relevantTheory": "Asymmetric cryptography gives each entity a public key and a private key. Public-key encryption supports confidentiality by encrypting with the recipient's public key and decrypting with the recipient's private key. Digital signatures support integrity, authenticity, and non-repudiation by signing with the sender's private key and verifying with the sender's public key.",
+    "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf, slide/page 40"
+  },
+  {
+    "id": 139,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "privacy",
+      "person",
+      "fundamental right"
+    ],
+    "question": "Which statement best expresses A4's definition of privacy?",
+    "options": {
+      "A": "Privacy is only the encryption of files stored in a database.",
+      "B": "Privacy protects only state secrets and military plans.",
+      "C": "Privacy is the same as public availability of data.",
+      "D": "Privacy protects the individual private sphere, communications, behavioral patterns, autonomy, and identity construction."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because A4 frames privacy as protection of the person, not just data. A is only one technical mechanism. B describes secrecy. C confuses accessibility with authorization and privacy.",
+    "relevantTheory": "A4 treats privacy as a fundamental right centered on the person. It covers private life and autonomy, correspondence and interactions, habits and profiling, and freedom from unjustified surveillance. The lecture's key phrase is that privacy protects the person, not just the data.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 8"
+  },
+  {
+    "id": 140,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "privacy mechanisms",
+      "purpose limitation",
+      "retention"
+    ],
+    "question": "A service collects precise location continuously for a one-time delivery feature, keeps it indefinitely, and shares it broadly. Which A4 operational privacy requirements are most directly violated?",
+    "options": {
+      "A": "Data minimization, purpose limitation, control over access and disclosure, and limitations on retention.",
+      "B": "Only cryptographic key length, because privacy has no organizational side.",
+      "C": "Only national secrecy classification.",
+      "D": "Only availability, because the location data remain reachable."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the scenario over-collects, repurposes, over-shares, and over-retains personal data. B ignores privacy mechanisms beyond encryption. C is about institutional secrecy, not ordinary service data. D confuses availability with lawful and limited use.",
+    "relevantTheory": "A4 says privacy requires mechanisms, not intentions. Operational protection includes data minimization, purpose limitation, informed consent, control over access and disclosure, and retention limits. These convert the broad right to privacy into engineering and governance constraints on systems.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 9"
+  },
+  {
+    "id": 141,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "technology dual role",
+      "profiling",
+      "privacy-enhancing technologies"
+    ],
+    "question": "Which A4 statement best captures the role of technology in privacy?",
+    "options": {
+      "A": "Technology only threatens privacy and cannot be used to protect it.",
+      "B": "Technology only protects privacy and cannot enable surveillance.",
+      "C": "Technology enables large-scale collection, inference, profiling, and surveillance, but also enables encryption, access control, and privacy-enhancing technologies.",
+      "D": "Technology is irrelevant because privacy is purely philosophical."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because A4 presents technology as both the source of large-scale privacy threats and part of the protection toolkit. A and B are one-sided. D ignores the lecture's engineering focus.",
+    "relevantTheory": "A4 emphasizes that technology creates the privacy problem at scale: data collection, inference, automated profiling, and mass surveillance. But technology also supplies countermeasures such as encryption, access control, privacy-enhancing technologies, and Trusted Execution Environments. Privacy engineering must protect users from attacks made possible by technology itself.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 11"
+  },
+  {
+    "id": 142,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "explicit data",
+      "implicit data",
+      "derived data"
+    ],
+    "question": "A platform stores a user's profile form, click timing, device fingerprint, and a predicted risk score. Which A4 classification is correct?",
+    "options": {
+      "A": "All of them are explicit data because they are stored digitally.",
+      "B": "The profile form is explicit data, timing and fingerprints are implicit data, and the risk score is derived data.",
+      "C": "Only the profile form matters; metadata and inferences cannot represent the user.",
+      "D": "The risk score is secrecy, not personal data."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because it matches A4's categories. A confuses digital storage with explicit sharing. C ignores that implicit and derived data define citizens, workers, voters, and consumers. D confuses derived personal data with institutional secrecy.",
+    "relevantTheory": "In cyberspace, personal data can be explicit, implicit, or derived. Explicit data are intentionally shared. Implicit data are generated by interaction, such as logs, metadata, device fingerprints, click patterns, timing, and location traces. Derived data are inferences and profiles generated from analysis. Risk arises from aggregation, correlation, and prediction.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 17"
+  },
+  {
+    "id": 143,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "privacy paradox",
+      "consent quality",
+      "dark patterns"
+    ],
+    "question": "Why does A4 treat the privacy paradox as a problem for relying on consent clicks alone?",
+    "options": {
+      "A": "Because users never care about privacy.",
+      "B": "Because privacy harms are always immediate and obvious.",
+      "C": "Because free services cannot collect personal data.",
+      "D": "Because information asymmetry, bounded rationality, and dark patterns can make consent a low-quality signal of real preferences."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because A4 says people value privacy but often accept defaults or click agree due to asymmetry, delayed harms, and interface nudges. A is too cynical and contradicts the paradox. B is wrong because harms may be delayed or uncertain. C is false in the lecture's platform economy framing.",
+    "relevantTheory": "The privacy paradox is the gap between stated privacy values and actual behavior. Users accept defaults, click agree quickly, or share more than intended because they do not know what is collected or inferred, face immediate service costs, and may be steered by dark patterns. This weakens consent as a true expression of self-determination.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 19 and slide/page 20"
+  },
+  {
+    "id": 144,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "data breach",
+      "CIA personal data",
+      "accidental unlawful"
+    ],
+    "question": "A cloud backup misconfiguration exposes stored customer records to unauthorized access. Under A4, why is this a data breach?",
+    "options": {
+      "A": "Because any security breach affecting personal data through accidental or unlawful destruction, loss, alteration, disclosure, or access is a data breach.",
+      "B": "Because data breaches occur only when attackers encrypt systems for ransom.",
+      "C": "Because only intentional disclosure can count as a breach.",
+      "D": "Because availability always improves when more people can access the data."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because A4 defines a data breach broadly around accidental or unlawful effects on personal data. B is too narrow. C ignores accidental breaches. D mistakes technical reachability for authorized and lawful access.",
+    "relevantTheory": "A4 defines a data breach as a security breach that accidentally or unlawfully results in destruction, loss, alteration, unauthorized disclosure of, or access to personal data. Breaches can affect confidentiality, integrity, and availability of personal data and require detection, assessment, management, and documentation.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 26 and slide/page 25"
+  },
+  {
+    "id": 145,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "encryption",
+      "privacy",
+      "decrypted use"
+    ],
+    "question": "A database is encrypted at rest, but every employee can decrypt and use all customer profiles for any purpose. What A4 trap does this illustrate?",
+    "options": {
+      "A": "Encryption automatically satisfies privacy because ciphertext exists somewhere.",
+      "B": "Encryption protects confidentiality, but it does not regulate how data are used once decrypted.",
+      "C": "Encryption is useful only for availability, not confidentiality.",
+      "D": "Encrypted personal data are always outside GDPR."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because A4 explicitly says encryption protects data but does not regulate use once decrypted: encryption is not the same as privacy. A and D overclaim. C misstates encryption's main objective.",
+    "relevantTheory": "Encryption transforms data into ciphertext to protect confidentiality for data at rest and in transit. It remains one layer in a privacy/data-protection architecture. Privacy also needs lawful purpose, minimization, access control, rights, retention limits, accountability, and controls over use after decryption.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 32 and slide/page 34"
+  },
+  {
+    "id": 146,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "access control",
+      "authentication",
+      "authorization",
+      "accountability"
+    ],
+    "question": "Which A4 mapping of access-control functions is correct?",
+    "options": {
+      "A": "Authentication means what you can do; authorization means what you did; accountability means who you are.",
+      "B": "Authentication means who you are; authorization means what you can do; accountability means what you did.",
+      "C": "Authentication, authorization, and accountability are all synonyms for encryption.",
+      "D": "Access control grants physical entry only, not use of information services."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the A4 access-control slide. A scrambles the terms. C confuses access control with encryption. D is too narrow because access control covers information resources, processing services, and physical or logical domains.",
+    "relevantTheory": "Access control grants or denies requests to access information resources, use processing services, or enter physical or logical domains. It enforces authentication, authorization, and accountability: who you are, what you can do, and what you did. It is a core privacy and data-protection mechanism.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 33"
+  },
+  {
+    "id": 147,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "logging",
+      "detective control",
+      "accountability"
+    ],
+    "question": "Which statement about logging and accountability matches A4?",
+    "options": {
+      "A": "Logging is a detective control that supports traceability, anomaly detection, investigation, GDPR compliance, and breach detection.",
+      "B": "Logging prevents every unauthorized access before it occurs.",
+      "C": "Logging is useless for privacy because it records events.",
+      "D": "Logging replaces access control and encryption."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because A4 presents logging as event records and audit trails that support traceability and investigation, but as a detective rather than preventive control. B overstates prevention. C ignores compliance and investigation value. D wrongly replaces layered controls with one mechanism.",
+    "relevantTheory": "Logging records events such as access to data, modification of data, and system activity. Logs may be server files, application logs, database logs, operating-system logs, audit trails, or centralized logging. They enable accountability and detection, but they do not by themselves prevent misuse.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 35"
+  },
+  {
+    "id": 148,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l4-privacy-data",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "secrecy",
+      "classification",
+      "democratic balance"
+    ],
+    "question": "Why does A4 say secrecy supports national defense but excessive secrecy is still a problem?",
+    "options": {
+      "A": "Because secrecy protects strategic capabilities and denies adversarial intelligence, but democratic systems also require transparency and balance.",
+      "B": "Because secrecy and confidentiality are exactly the same technical property.",
+      "C": "Because secrecy protects only individual privacy rights.",
+      "D": "Because classified information should be accessible to anyone with curiosity."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because A4 frames secrecy as institutional protection for high-impact collective interests while warning that excessive secrecy reduces transparency. B confuses a governance regime with a CIA property. C describes privacy, not secrecy. D contradicts classification and need-to-know.",
+    "relevantTheory": "Secrecy protects sensitive institutional or state information whose disclosure would harm collective interests: national security, strategic infrastructure, military operations, intelligence, and high-impact functions. It supports national defense by protecting capabilities, preventing adversarial intelligence gathering, and reducing systemic vulnerability, but democratic governance requires balance.",
+    "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf, slide/page 43, slide/page 48, and slide/page 49"
+  },
+  {
+    "id": 149,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "complexity domains",
+      "attack surface",
+      "misconfiguration"
+    ],
+    "question": "Which set of complexity domains does A5 identify as fundamental drivers of cyber-attack opportunities?",
+    "options": {
+      "A": "Only mathematical complexity in encryption algorithms.",
+      "B": "Technological, organizational, and human complexity.",
+      "C": "Only legal complexity in international treaties.",
+      "D": "Only hardware complexity in processors."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because A5 explicitly lists technological, organizational, and human complexity. A, C, and D each reduce the issue to one narrow domain and miss attack surface, procedures, supply chain, workarounds, and social engineering.",
+    "relevantTheory": "A5 asks why cyberattacks are possible and highlights system complexity. Technological complexity includes heterogeneous stacks, third-party code, and IT/OT interconnection. Organizational complexity includes unclear responsibilities, supply-chain dependencies, inconsistent procedures, and poor control. Human complexity includes errors, shortcuts, and susceptibility to social engineering.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 7, slide/page 8, and slide/page 9"
+  },
+  {
+    "id": 150,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "hard-coded password",
+      "weakness",
+      "structural flaw"
+    ],
+    "question": "A program contains the literal password \"admin123\" in its source code. In A5 terms, what is the best classification before any specific exploitable deployed instance is identified?",
+    "options": {
+      "A": "A completed attack because the password appears in text.",
+      "B": "An example of a weakness: a recurring structural flaw in design or implementation.",
+      "C": "A denial-of-service action.",
+      "D": "A Kill Chain command-and-control phase."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because A5 uses hard-coded passwords as a weakness example. A is too late in the chain; an attack requires concrete unauthorized action. C and D are unrelated to the flaw's classification.",
+    "relevantTheory": "A weakness is a systematic, classifiable weak point in design, implementation, configuration, or organizational practice. A hard-coded password assumes the secret remains hidden even if the code is inspected, reverse engineered, or leaked. It may become a vulnerability in a specific component and environment.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 10, slide/page 11, and slide/page 13"
+  },
+  {
+    "id": 151,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "exploit",
+      "artifact",
+      "operational technique"
+    ],
+    "question": "Which description best matches A5's definition of an exploit?",
+    "options": {
+      "A": "The means or method of taking advantage of a vulnerability, such as code, a payload, crafted input, or an operational technique.",
+      "B": "Any asset that has monetary value.",
+      "C": "A general software design mistake that has not been connected to any attack path.",
+      "D": "A security policy stating what is allowed."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because A5 defines exploit as the means or method of taking advantage of a vulnerability for malicious purposes. B defines an asset. C is closer to weakness. D is a policy concept, not an exploit.",
+    "relevantTheory": "An exploit can be interpreted as a technical artifact or an operational technique. It may be code, a malicious document, a crafted network packet, or a practical way to leverage a vulnerability in a scenario. Exploits connect vulnerabilities to concrete attacks.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 23"
+  },
+  {
+    "id": 152,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "defender view",
+      "threat chain controls",
+      "hardening"
+    ],
+    "question": "A defender wants to intervene at each point of the A5 Threat Chain. Which mapping is correct?",
+    "options": {
+      "A": "Weakness -> incident response only; vulnerability -> no action; exploitability -> ignore; attack -> architecture review.",
+      "B": "Weakness -> phishing email filtering; vulnerability -> national attribution; attack -> formal verification only.",
+      "C": "Weakness -> secure design/reviews/architecture; vulnerability -> scanning, inventory, patching; exploitability -> hardening, segmentation, least privilege; attack -> detection, containment, recovery.",
+      "D": "All stages require only buying cyber insurance."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct and follows the defender view slide. A and B mismatch stages and controls. D may address residual financial exposure but does not reduce weakness, vulnerability, exploitability, or attack activity.",
+    "relevantTheory": "The Threat Chain is useful for defense because each stage suggests different action. Design and review reduce weaknesses. Asset inventory, scanning, and patching address vulnerabilities. Hardening, segmentation, and least privilege reduce exploitability. Detection, containment, and recovery handle attacks that occur.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 24 and slide/page 25"
+  },
+  {
+    "id": 153,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "reconnaissance",
+      "passive active",
+      "entry points"
+    ],
+    "question": "A group studies job postings, GitHub profiles, DNS records, and then scans Internet-facing VPN portals. Which Kill Chain phase is this?",
+    "options": {
+      "A": "Installation, because malware is being persisted.",
+      "B": "Actions on objectives, because files are being stolen.",
+      "C": "Reconnaissance, because the attacker is collecting technical and organizational information to identify entry points.",
+      "D": "Command and Control, because the attacker is issuing commands to an infected host."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the activities are passive and active reconnaissance. A, B, and D occur after compromise, while the scenario is still information gathering and hypothesis building.",
+    "relevantTheory": "Reconnaissance gathers information about the target: exposed services, software versions, vulnerabilities, network ranges, authentication mechanisms, employee identities, suppliers, public documents, and operational details. Passive reconnaissance uses public sources; active reconnaissance uses scanning, host discovery, service enumeration, and banner grabbing.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 34 and slide/page 35"
+  },
+  {
+    "id": 154,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "weaponization",
+      "delivery",
+      "distinction"
+    ],
+    "question": "An attacker prepares a malicious document tailored to an engineer's project, then later sends it by email. Which distinction is correct?",
+    "options": {
+      "A": "Preparing the document is delivery; sending it is weaponization.",
+      "B": "Both actions are reconnaissance because the attacker uses a name.",
+      "C": "Both actions are command and control.",
+      "D": "Preparing the malicious artifact is weaponization; transmitting it to the target is delivery."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because weaponization prepares the payload and delivery transmits it. A reverses the phases. B ignores that reconnaissance has already produced target knowledge. C occurs only after a compromised host communicates with attacker infrastructure.",
+    "relevantTheory": "In the Cyber Kill Chain, weaponization prepares the malicious payload: malware, malicious scripts, phishing pages, malicious documents, or adapted tools. Delivery is the act of getting the weaponized payload to the target through phishing, malicious websites, direct exploitation, removable media, supply chains, or messaging channels.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 36, slide/page 37, slide/page 38, and slide/page 39"
+  },
+  {
+    "id": 155,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "break the chain",
+      "defensive controls",
+      "egress control"
+    ],
+    "question": "Which defensive mapping to Kill Chain stages matches A5?",
+    "options": {
+      "A": "Reconnaissance: exposure management and deception; delivery: filtering and user training; C2: network detection and egress control; actions on objectives: incident response and recovery.",
+      "B": "Reconnaissance: pay ransom; delivery: ignore email; C2: remove backups; actions on objectives: publish credentials.",
+      "C": "Only actions on objectives can be defended against; earlier stages cannot be interrupted.",
+      "D": "All stages are defended only with antivirus signatures."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and reflects the 'where can defenders break the chain' slide. B lists harmful or irrelevant actions. C is wrong because many stages offer interruption points. D is too narrow and misses exposure management, filtering, hardening, monitoring, egress control, and response.",
+    "relevantTheory": "The Kill Chain is useful because defenders can break it at different points. Reconnaissance can be detected or shaped with exposure management and deception. Delivery can be prevented with filtering, email/web security, and training. C2 can be limited by network detection and egress control. Final actions require containment, eradication, and recovery.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 48"
+  },
+  {
+    "id": 156,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "APT",
+      "attribution labels",
+      "activity clusters"
+    ],
+    "question": "What caution does A5 give about APT names and attribution?",
+    "options": {
+      "A": "APT names are legal proof of the exact government employee responsible.",
+      "B": "APT names should be treated as labels for observed activity clusters; multiple organizations may use different names for overlapping activity.",
+      "C": "APT naming is irrelevant because state-sponsored actors never use malware.",
+      "D": "One APT name always maps cleanly to one public tool."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the lecture warns that multiple names and overlaps complicate attribution and threat intelligence sharing. A overstates certainty. C is false because APTs combine malware, exploitation, deception, and social engineering. D confuses actor labels with tools.",
+    "relevantTheory": "APT research organizations assign names or numbers to adversary activity upon discovery. Because many organizations conduct research, there can be overlapping clusters and multiple names for the same or related activity. A5 says to treat APT names as labels for observed activity clusters, not as ground truth identity.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 52, slide/page 53, and slide/page 54"
+  },
+  {
+    "id": 157,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "cyber-enabled",
+      "cyber-dependent",
+      "Budapest Convention"
+    ],
+    "question": "Which comparison matches A5's cybercrime distinction?",
+    "options": {
+      "A": "Cyber-enabled crimes exist only because digital systems exist; cyber-dependent crimes are traditional crimes with computers nearby.",
+      "B": "Cyber-enabled crimes are traditional crimes amplified or facilitated by digital systems; cyber-dependent crimes exist only because digital systems exist.",
+      "C": "Cybercrime includes only state-sponsored espionage.",
+      "D": "Ransomware is not cybercrime because it targets availability."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. A reverses the definitions. C confuses cybercriminal and state-sponsored categories. D is wrong because ransomware is a core cyber-dependent/profit-driven example affecting availability and extortion.",
+    "relevantTheory": "A5 presents cybercrime as criminal offences committed using computer systems, networks, or data, or targeting them. Cyber-enabled crimes are traditional crimes amplified by digital systems, such as fraud or identity theft at scale. Cyber-dependent crimes exist because digital systems exist, such as malware, ransomware, botnets, and DDoS-for-hire.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 58, slide/page 59, and slide/page 60"
+  },
+  {
+    "id": 158,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l5-cyber-attacks",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "ethics",
+      "authorization",
+      "vulnerable system"
+    ],
+    "question": "A student finds an exposed admin panel and logs in 'just to prove it is vulnerable,' without permission and without changing data. What does A5 say?",
+    "options": {
+      "A": "It is allowed because no damage was intended.",
+      "B": "It is allowed because a vulnerability creates a right to exploit it.",
+      "C": "It is allowed if the student later reports the issue.",
+      "D": "Unauthorized access is illegal even if no damage is done; security testing requires explicit authorization, scope, and rules of engagement."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because A5 is explicit: vulnerability does not create a right to exploit, and unauthorized access is illegal even without damage. A, B, and C all ignore authorization and scope.",
+    "relevantTheory": "A5 separates security testing from illegal access. Attacking or entering a vulnerable system is a criminal act without authorization. The lecture uses the open-house-door analogy: an open door does not give you a right to enter. Legitimate testing requires explicit authorization, defined scope, and rules of engagement.",
+    "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf, slide/page 65"
+  },
+  {
+    "id": 159,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "ATT&CK not kill chain",
+      "behavioral space",
+      "sequence"
+    ],
+    "question": "An analyst reads ATT&CK left-to-right as a mandatory attack sequence. What is wrong with this according to A6?",
+    "options": {
+      "A": "ATT&CK contains only malware families, so sequence is irrelevant.",
+      "B": "ATT&CK is a list of vulnerabilities, not behavior.",
+      "C": "ATT&CK is a behavioral space; columns are goals and techniques are selected from observed behavior, not a fixed chronology.",
+      "D": "ATT&CK applies only after actions on objectives."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because A6 stresses that ATT&CK is not another fixed Kill Chain. A and B contradict the lecture's definition: it catalogs behavior, not primarily malware or vulnerabilities. D is too narrow; ATT&CK can model many parts of an intrusion.",
+    "relevantTheory": "ATT&CK is a curated knowledge base of real-world adversary behavior. It is not read as first do A, then B, then C. Columns represent tactical objectives, cells represent techniques, and sub-techniques refine operational variants. Analysts map observed behavior to techniques and infer objectives.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 10, slide/page 11, and slide/page 14"
+  },
+  {
+    "id": 160,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "same tactic",
+      "different techniques",
+      "credential access"
+    ],
+    "question": "Two campaigns both pursue Credential Access. One uses brute force; another dumps OS credentials. What does A6 infer?",
+    "options": {
+      "A": "The same objective can be served by different techniques, so tactic alone is not enough to describe behavior.",
+      "B": "They must be the same campaign because the tactic matches.",
+      "C": "Credential Access is a malware family.",
+      "D": "Only brute force is observable; credential dumping cannot be mapped."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because ATT&CK distinguishes tactical objective from technique. B overclaims attribution from overlap. C confuses tactics with software. D is false because OS Credential Dumping is a mappable technique in the lecture examples.",
+    "relevantTheory": "A6 uses Credential Access to show that the same objective can be achieved through brute force, phishing, credential dumping, password store access, or adversary-in-the-middle behavior. Tactics explain why an action is performed; techniques explain how. Good analysis needs both.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 11, slide/page 15, and slide/page 19"
+  },
+  {
+    "id": 161,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "behavioral overlap",
+      "attribution",
+      "search space"
+    ],
+    "question": "Two intrusions share phishing, credential dumping, and application-layer C2. What is the safest A6 conclusion?",
+    "options": {
+      "A": "They are certainly the same adversary.",
+      "B": "They are certainly unrelated because techniques are reusable.",
+      "C": "Attribution is impossible, so the overlap has no value.",
+      "D": "Behavioral overlap is informative, but it is not sufficient by itself for attribution."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because A6 says campaigns may overlap behaviorally without being the same campaign. A overattributes. B goes too far in the opposite direction. C ignores that overlap can still guide detection and threat-informed defense.",
+    "relevantTheory": "ATT&CK can be interpreted as a multidimensional behavioral search space. Different adversaries may follow different paths toward similar objectives, and campaigns may overlap in techniques. Overlap supports analysis and defense, but attribution needs more evidence than shared techniques alone.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 16 and slide/page 18"
+  },
+  {
+    "id": 162,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "technique quality",
+      "observable",
+      "detection engineering"
+    ],
+    "question": "According to A6, why are ATT&CK techniques useful for detection engineering?",
+    "options": {
+      "A": "Because a technique is tied to exactly one malware family.",
+      "B": "Because a good technique is observable, reusable across campaigns, not tied to one malware family, and mappable to telemetry and controls.",
+      "C": "Because techniques are legal classifications of secrecy.",
+      "D": "Because techniques replace the need for telemetry."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because it follows the A6 description of a good technique. A is wrong because techniques are not tied to one malware family. C is unrelated. D is the opposite of the lecture: techniques become defensible through telemetry.",
+    "relevantTheory": "A6 defines techniques as reusable methods adversaries use to achieve tactical objectives. Their defensive value comes from observability and mapping: if a technique leaves artifacts, sensors can capture telemetry, analysts can build detection logic, and defenders can connect behavior to controls.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 20"
+  },
+  {
+    "id": 163,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "enterprise",
+      "ICS",
+      "procedure"
+    ],
+    "question": "Which item is an A6 example of a procedure rather than a tactic or generic technique?",
+    "options": {
+      "A": "Credential Access.",
+      "B": "OS Credential Dumping.",
+      "C": "Dumping LSASS memory with a specific tool during a particular operation.",
+      "D": "Initial Access."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because a procedure is the concrete implementation of a technique in a specific campaign. A and D are tactics. B is a technique.",
+    "relevantTheory": "A6 separates three levels. A tactic is the adversary's immediate objective, such as Credential Access or Initial Access. A technique is the reusable method, such as OS Credential Dumping. A procedure is the concrete campaign-specific implementation, such as dumping LSASS memory with a named tool or introducing an infected USB into an engineering workstation.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 15 and slide/page 21"
+  },
+  {
+    "id": 164,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "defensive mapping",
+      "coverage",
+      "residual risk"
+    ],
+    "question": "Which sequence best represents A6's defensive mapping workflow?",
+    "options": {
+      "A": "Select relevant techniques -> assess visibility -> assess detection capability -> assess mitigation and residual risk.",
+      "B": "Name a malware family -> assign blame -> stop collecting telemetry -> close the case.",
+      "C": "Read ATT&CK left-to-right -> assume every stage occurred -> ignore controls.",
+      "D": "Buy a tool -> declare all techniques covered -> avoid measuring false positives."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because it follows the four analytical steps in A6. B, C, and D replace analysis with labels, false sequence assumptions, or unsupported tool confidence.",
+    "relevantTheory": "Defensive mapping makes ATT&CK operational. First select techniques relevant to the threat model. Then ask what telemetry could reveal them. Then determine whether detection is reliable and operationally useful. Finally assess mitigation and residual risk if detection fails or arrives late.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 26"
+  },
+  {
+    "id": 165,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "coverage dimensions",
+      "visibility",
+      "detection",
+      "mitigation"
+    ],
+    "question": "A SOC collects endpoint logs for credential dumping but has no reliable analytic and no containment playbook. Which A6 assessment is best?",
+    "options": {
+      "A": "Coverage is complete because some logs exist.",
+      "B": "Coverage is layered and incomplete: visibility may exist, but detection and mitigation coverage are weak.",
+      "C": "Mitigation coverage exists automatically whenever visibility exists.",
+      "D": "The technique is not defensible because it has artifacts."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because A6 says coverage is not binary and must be evaluated across visibility, detection, and mitigation. A and C collapse those dimensions. D is backwards: artifacts make defense possible if telemetry and analytics exist.",
+    "relevantTheory": "A6 distinguishes visibility coverage, detection coverage, and mitigation coverage. Visibility asks whether relevant telemetry is collected. Detection asks whether the technique is identified with sufficient reliability and acceptable false positives. Mitigation asks whether controls reduce impact if the technique succeeds.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 27 and slide/page 28"
+  },
+  {
+    "id": 166,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "artifacts",
+      "telemetry",
+      "invisible traces"
+    ],
+    "question": "Which A6 distinction between artifact and telemetry is correct?",
+    "options": {
+      "A": "An artifact is the sensor; telemetry is the action trace.",
+      "B": "Artifacts and telemetry are synonyms for malware families.",
+      "C": "Artifacts are traces left by actions; telemetry is the mechanism or data source that captures those traces.",
+      "D": "Artifacts are useful only when no logs exist."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. A reverses the relationship. B is unrelated. D is wrong because without telemetry artifacts remain invisible to defenders.",
+    "relevantTheory": "An artifact is a trace left by behavior: process creation, registry modification, file change, network connection, authentication event, or configuration change. Telemetry is how defenders capture those traces: OS logs, endpoint sensors, network monitoring, application logs, or industrial monitoring data.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 24"
+  },
+  {
+    "id": 167,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "Stuxnet",
+      "air-gap",
+      "removable media"
+    ],
+    "question": "In the Stuxnet case, what does the removable-media entry path teach about air-gapping?",
+    "options": {
+      "A": "Air-gapping removes every attack path, so Stuxnet could not have entered.",
+      "B": "Air-gapping changes network exposure but does not remove all access paths, especially human-carried media and maintenance workflows.",
+      "C": "Air-gapped systems never need endpoint detection or media controls.",
+      "D": "Air-gapping is equivalent to public Internet exposure."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because A6 says Stuxnet was designed for the air-gap constraint and likely entered through human-carried removable media. A and C overtrust isolation. D is wrong because air-gapping reduces exposure but does not eliminate it.",
+    "relevantTheory": "Stuxnet targeted a restricted industrial environment that relied on segmentation and air-gapping. Its designers planned around that constraint by using infected removable media and local propagation after entry. The lesson is not that air-gaps are useless; it is that physical isolation must be supported by media controls, monitoring, and trusted validation.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 34, slide/page 35, slide/page 39, and slide/page 42"
+  },
+  {
+    "id": 168,
+    "deck": "slides",
+    "moduleId": "module-a-foundations",
+    "lectureId": "module-a-l6-mitre-defensive-mapping",
+    "section": "Foundations",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "Stuxnet",
+      "rootkit",
+      "visibility",
+      "OT deception"
+    ],
+    "question": "Stuxnet hid malicious PLC code and replayed normal-looking readings to operators. Which A6 lesson does this most directly support?",
+    "options": {
+      "A": "If telemetry is incomplete or untrustworthy, visibility is structurally weak and defenders may miss both IT and OT manipulation.",
+      "B": "Operator displays are always a perfect source of truth.",
+      "C": "Defense evasion affects only Windows files, never industrial process visibility.",
+      "D": "PLC logic modification threatens only confidentiality."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the Stuxnet slides emphasize deception, false readings, and loss of trustworthy visibility. B is the trap Stuxnet exploited. C is too narrow because evasion affected both IT and OT layers. D is wrong because PLC modification can cause integrity compromise and physical impact.",
+    "relevantTheory": "A6 decomposes Stuxnet as defense evasion and impact in an OT setting. The malware used rootkit-like hiding and misleading normal readings while changing centrifuge behavior. This shows why industrial defense needs independent monitoring, process anomaly detection, trusted validation of OT state, and separation between operational control and operator view.",
+    "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf, slide/page 35, slide/page 40, slide/page 41, and slide/page 42"
+  },
+  {
+    "id": 169,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "application",
+    "trapTags": [
+      "risk misperception",
+      "awareness",
+      "meaningless information"
+    ],
+    "question": "A non-technical employee says: \"This list of internal project names is harmless; cybersecurity is only for people configuring laptops and firewalls.\" Which lecture idea does this most clearly violate?",
+    "options": {
+      "A": "Lack of awareness and risk misperception by all stakeholders can make apparently meaningless information useful for social engineering.",
+      "B": "Only malware authors can create cybersecurity risk.",
+      "C": "Information has security value only when it is encrypted.",
+      "D": "Social engineering works only when a victim has administrator privileges."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture stresses lack of awareness, weak culture, and misperception of risk across all involved people. B is wrong because attackers can exploit people without writing malware. C is wrong because ordinary contextual information can help build a believable pretext. D is too narrow: any person can become a target or stepping stone.",
+    "relevantTheory": "The human factor starts from the fact that cybersecurity is not only a technical operation performed by a few specialists. Users often underestimate information they consider meaningless. Social engineers can combine small details with urgency, authority, or trust to make later deception more convincing.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slide/page 8"
+  },
+  {
+    "id": 170,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "human vulnerabilities",
+      "good faith",
+      "behavioral traits"
+    ],
+    "question": "According to the human factor analysis, which set best describes the main bases of human vulnerabilities exploited by social engineers?",
+    "options": {
+      "A": "Compiler errors, network latency, and encryption key length.",
+      "B": "Only lack of money and lack of technical hardware.",
+      "C": "Behavioral traits, good faith in social relationships, and cognitive bias.",
+      "D": "Only intentional backdoors inserted by the victim."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because it follows the lecture's list. A belongs to technical performance or implementation issues, not human factor analysis. B invents causes not presented in the lecture. D confuses human vulnerability with intentional technical vulnerabilities.",
+    "relevantTheory": "The lecture describes humans as complex systems. Criminals can manipulate emotions and instincts so that victims perform actions against their own interests. The exploitable surface includes how people behave, the trust they exercise in ordinary relationships, and biases that distort intuitive judgment.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slide/page 13"
+  },
+  {
+    "id": 171,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "social engineering",
+      "programming skill",
+      "email"
+    ],
+    "question": "Which statement is the best correction to the claim \"social engineering is unlikely because the attacker must be a skilled programmer\"?",
+    "options": {
+      "A": "The lecture says social engineering often does not require being a hacker or programmer; many attacks mainly require the ability to send a convincing email.",
+      "B": "The lecture says social engineering is impossible unless the attacker writes a custom exploit.",
+      "C": "The lecture says programming skill matters more than psychology in all social engineering attacks.",
+      "D": "The lecture says social engineering is limited to physical lock picking."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and matches the lecture wording. B and C reverse the lecture's emphasis on manipulation, awareness, and persuasion. D is too narrow because social engineering can use email, websites, attachments, credentials, physical doors, and other channels.",
+    "relevantTheory": "Social engineering is dangerous because it can bypass technical complexity. Instead of finding a software vulnerability, the attacker may persuade someone to open a file, click a link, send money, reveal a password, or grant access. The required skill is often psychological and operational rather than purely programming-based.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 8-10 and 24"
+  },
+  {
+    "id": 172,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "System 1",
+      "emotion detection",
+      "automatic cognition"
+    ],
+    "question": "In the lecture's System 1 example, why does recognizing anger in a face illustrate intuitive thinking?",
+    "options": {
+      "A": "Because the observer must calculate the person's mood step by step.",
+      "B": "Because it requires maximum concentration and voluntary control.",
+      "C": "Because it is performed only after opening a suspicious attachment.",
+      "D": "Because it is automatic, efficient, and happens without deliberate effort."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the lecture uses emotion detection as a System 1 example because the recognition simply happens. A, B, and C describe System 2 properties: deliberate calculation, effort, concentration, and rule-based reasoning.",
+    "relevantTheory": "Dual process theory separates intuitive System 1 from analytical System 2. System 1 is fast, automatic, always active, and low effort. This is useful in ordinary life, but social engineers exploit it when they want a victim to react before checking details carefully.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 14-16"
+  },
+  {
+    "id": 173,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "System 2",
+      "capacity",
+      "verification"
+    ],
+    "question": "An employee begins checking whether a payment request is legitimate, but a colleague interrupts them repeatedly and they lose the verification steps. Which System 2 limitation is being illustrated?",
+    "options": {
+      "A": "System 2 is always active and cannot be interrupted.",
+      "B": "System 2 needs no working memory because it is purely emotional.",
+      "C": "System 2 is useful only for detecting emotion in faces.",
+      "D": "System 2 has limited resources; distracting it can make a person lose the analytical sequence."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture's System 2 example emphasizes intentionality, capacity limits, and rule-based steps. A is false because System 2 requires activation and effort. B reverses System 1 and System 2. C assigns the System 1 emotion example to System 2.",
+    "relevantTheory": "System 2 is slow, logical, deliberate, effortful, and easily exhausted. It supports checks such as verifying a sender address, confirming a request through another channel, or following a payment procedure. Pressure and interruption make victims more likely to fall back to System 1.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 15 and 17"
+  },
+  {
+    "id": 174,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "cognitive bias",
+      "System 1",
+      "social engineering"
+    ],
+    "question": "Which chain best describes how a social engineer uses cognitive bias as a vulnerability?",
+    "options": {
+      "A": "Patch software -> remove all human trust -> eliminate every attack vector.",
+      "B": "Avoid all persuasion -> rely only on cryptographic weakness.",
+      "C": "Ask the victim to perform long arithmetic -> activate System 2 -> guarantee secure behavior.",
+      "D": "Create emotional or social trigger -> distort intuitive perception -> push the victim toward an action that serves the attacker's goal."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture states that social engineers exploit the onset of cognitive bias and use these weaknesses to achieve their goals. A is unrealistic and not the lecture's mechanism. B removes the defining manipulation component. C may activate System 2, but it does not describe the social engineering attack path.",
+    "relevantTheory": "Cognitive biases interfere with intuitive thinking and alter perception. In social engineering, the attacker creates conditions such as authority, urgency, fear, or trust so the victim's first reaction favors compliance. The defensive lesson is to slow down and force deliberate verification.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 18-22"
+  },
+  {
+    "id": 175,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "authority",
+      "out-of-band verification",
+      "wire transfer"
+    ],
+    "question": "A finance employee receives a CEO-looking email demanding a confidential transfer in ten minutes. Which response best counters the exact biases used in the lecture's example?",
+    "options": {
+      "A": "Treat the request as suspicious, pause the deadline pressure, and verify through an independent trusted channel or procedure before any transfer.",
+      "B": "Reply to the same email thread asking for confirmation, then transfer if the reply is fast.",
+      "C": "Comply first because CEO authority is enough evidence when the amount is urgent.",
+      "D": "Forward the bank details to colleagues so they can decide under the same deadline."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because independent verification reactivates System 2 and resists authority, urgency, and loss-risk pressure. B may still reach the attacker if the sender is spoofed or compromised. C is exactly the manipulated compliance response. D spreads sensitive data and preserves the artificial pressure.",
+    "relevantTheory": "The urgent wire transfer example combines a CEO authority cue, a ten-minute deadline, and fear of losing a deal. These triggers push the victim toward fast System 1 compliance. A robust response interrupts the chain and uses a separate trusted process, such as a known phone number or internal payment approval workflow.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 20-22"
+  },
+  {
+    "id": 176,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "target selection",
+      "support staff",
+      "least obvious targets"
+    ],
+    "question": "Why are help desk, secretarial, or support staff highlighted as primary social engineering targets?",
+    "options": {
+      "A": "Because they are the only employees who can be attacked legally.",
+      "B": "Because they never interact with outsiders.",
+      "C": "Because they often handle requests, information flows, access routines, or assistance that can be abused as a stepping stone.",
+      "D": "Because senior leaders cannot be targeted by social engineering."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because these roles are useful to attackers even when they are not the final target. A is irrelevant. B is the opposite of many support roles. D is false: whaling and CEO-style impersonation show that senior figures can also be involved.",
+    "relevantTheory": "The lecture warns that each person can be the chosen victim. Attackers often choose practical targets who can reset, route, open, approve, share, or escalate. A victim does not need to own the final secret; they may provide the path to it.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slide/page 23"
+  },
+  {
+    "id": 177,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "Mitnick",
+      "impersonation",
+      "persuasion"
+    ],
+    "question": "Which option best reflects the Mitnick-style definition of social engineering quoted in the lecture?",
+    "options": {
+      "A": "Breaking encryption by mathematical analysis.",
+      "B": "Using influence and persuasion to deceive others into believing the social engineer is someone or something they are not.",
+      "C": "Only scanning a network for open ports.",
+      "D": "Only exploiting a buffer overflow in a public service."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the quoted definition centers on influence, persuasion, deception, and false identity. A, C, and D are technical attack activities and do not capture the human manipulation emphasized by the lecture.",
+    "relevantTheory": "Social engineering often succeeds by creating a believable social role: a manager, technician, colleague, vendor, bank, university office, or trusted organization. Once the victim accepts the false identity, they may release information, violate normal security measures, or grant access.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slide/page 11"
+  },
+  {
+    "id": 178,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "attack vectors",
+      "phishing types",
+      "social engineering"
+    ],
+    "question": "Which list contains only phishing-related attack vectors named in the lecture?",
+    "options": {
+      "A": "Degaussing, wiping, and physical access.",
+      "B": "Phishing, spear phishing, whaling, Business Email Compromise, vishing, smishing, and social-media phishing.",
+      "C": "AES, RSA, TLS, and hash functions.",
+      "D": "Firewalls, antivirus, intrusion detection, and encryption."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because these are exactly the phishing family items listed under social engineering attack vectors. A belongs mainly to physical attacks and sanitizing. C is cryptography. D is a set of technical defenses, not phishing vectors.",
+    "relevantTheory": "Module B separates social engineering vectors into phishing, posing as others, physical attacks, and cognitive type attacks. The phishing lecture then refines phishing into different forms by targeting, value of target, business context, communication channel, and social platform.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 6-7"
+  },
+  {
+    "id": 179,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "email subject",
+      "urgency",
+      "legitimacy"
+    ],
+    "question": "A phishing email uses the subject \"Problem with your order\" and visually imitates a postal service. Why is this more convincing than a random threatening subject?",
+    "options": {
+      "A": "Because the lecture says real organizations always require personal data by email.",
+      "B": "Because a realistic subject can match what the impersonated sender would plausibly use, while still triggering concern or urgency.",
+      "C": "Because graphics prove the sender owns the domain.",
+      "D": "Because emails with ordinary business subjects cannot contain malicious links."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the lecture says sophisticated scammers use subjects the impersonated sender would realistically use, such as order or invoice topics. A is false; serious organizations should not ask for passwords through email links. C over-trusts visual imitation. D is false because ordinary-looking messages can still be malicious.",
+    "relevantTheory": "Phishing is often realized through email messages that mimic bank, postal, or organizational sites in graphics and settings. Subject lines are part of the manipulation: they can trigger emotion and urgency or make the message feel routine and legitimate.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slide/page 10"
+  },
+  {
+    "id": 180,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "spear phishing",
+      "personal details",
+      "authority"
+    ],
+    "question": "Which detail most clearly turns an ordinary phishing attempt into spear phishing in the lecture's sense?",
+    "options": {
+      "A": "The message is sent to millions of unknown recipients with no personalization.",
+      "B": "The message is printed on paper rather than sent digitally.",
+      "C": "The message uses personal context, such as the target's vacation plans and role, to make a boss-like request feel authentic.",
+      "D": "The message contains no requested action."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because spear phishing is highly targeted and uses insights or personal details to appear authentic. A describes broad phishing. B changes the medium but not the targeting logic. D removes the attacker's practical objective.",
+    "relevantTheory": "Spear phishing aims at a specific individual, often someone with sensitive access or special authority. Attackers gather contextual details and write messages that look natural for the supposed sender and situation, such as a boss requesting invoice handling before a vacation.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slide/page 11"
+  },
+  {
+    "id": 181,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "whaling",
+      "high-value targets",
+      "authority"
+    ],
+    "question": "Why does the lecture call attacks on CEOs, CFOs, senior leaders, or political figures \"whaling\"?",
+    "options": {
+      "A": "Because those people are high-value targets with authority to approve large payments or release sensitive information.",
+      "B": "Because whaling is phishing conducted only over SMS.",
+      "C": "Because whaling targets only people with no access to money.",
+      "D": "Because whaling is a sanitizing method for storage devices."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: whaling is spear phishing adapted for the highest-value targets. B describes smishing, not whaling. C reverses the reason these targets are attractive. D belongs to the physical-attacks lecture, not phishing classification.",
+    "relevantTheory": "Whaling is not just any executive-themed spam. It targets people whose role gives them unusual authority, money access, or ability to release sensitive information without additional approval. The attack is still social engineering, but the target value is higher.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slide/page 12"
+  },
+  {
+    "id": 182,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "BEC",
+      "compromised sender",
+      "trusted contact"
+    ],
+    "question": "A payment request arrives from a vendor's real mailbox after that mailbox was compromised. The wording and thread history look authentic, but the bank account is changed. What is the best classification and lesson?",
+    "options": {
+      "A": "It cannot be phishing because the sender account is real.",
+      "B": "It is only vishing because money is involved.",
+      "C": "It is Business Email Compromise; trusted business identity can be abused, so payment changes need independent verification.",
+      "D": "It is dumpster diving because the invoice is financial information."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture notes that BEC can use colleague, vendor, partner, customer, or other trusted-contact identities, including unauthorized access to the sender's email account. A is the trap: a real account can still be compromised. B confuses channel with goal. D is about discarded material, not email deception.",
+    "relevantTheory": "Business Email Compromise is a spear-phishing type attack against organizations to obtain money or sensitive information. It often exploits business trust: fake invoices, fraudulent transfer instructions, or requests for customer data and financial records.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slide/page 13"
+  },
+  {
+    "id": 183,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "rnicrosoft",
+      "sender inspection",
+      "typos"
+    ],
+    "question": "An email sender appears as no-reply@rnicrosoft.com and asks for an urgent password reset. Which recognition cue from the lecture is most important?",
+    "options": {
+      "A": "The domain is safe because it contains most letters from microsoft.com.",
+      "B": "The domain is suspicious because \"rn\" can visually imitate \"m\", a small difference used to fool fast reading.",
+      "C": "The email is safe because urgent password resets are always legitimate.",
+      "D": "The email is safe if there are no spelling mistakes in the body."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the lecture explicitly uses no-reply@microsoft.com versus no-reply@rnicrosoft.com to show subtle domain deception. A accepts the visual trick. C over-trusts urgency, which is itself suspicious. D is too narrow; a domain mismatch is enough to trigger suspicion.",
+    "relevantTheory": "Phishing recognition requires careful inspection, not just visual familiarity. Unknown or suspect senders, typos, spelling errors, urgent requests for confidential data, and tiny domain differences are all warning signs.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 16-18"
+  },
+  {
+    "id": 184,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "typosquatting",
+      "domain",
+      "landing page"
+    ],
+    "question": "What is typosquatting in the sophisticated phishing example?",
+    "options": {
+      "A": "Encrypting the link so the user cannot read it.",
+      "B": "Sending an SMS instead of an email.",
+      "C": "Registering a common misspelling of another organization's domain and using it as the phishing destination.",
+      "D": "Opening an attachment only inside a virtual machine."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct and follows the lecture definition. A may hide a link but is not typosquatting. B is smishing. D is a defensive practice, not the attack technique.",
+    "relevantTheory": "A phishing page can resemble the original while the URL points to a different domain. Typosquatting exploits users who skim domains quickly or trust familiar-looking words. The defense is to inspect the actual destination before clicking and not rely only on logos or page appearance.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 25-29"
+  },
+  {
+    "id": 185,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "DDE",
+      "macroless",
+      "Office documents"
+    ],
+    "question": "A student says: \"This Office document is safe because it did not ask me to enable macros.\" Which lecture point makes that reasoning unsafe?",
+    "options": {
+      "A": "Office documents cannot contain malicious code.",
+      "B": "Only PDF files can be dangerous attachments.",
+      "C": "DDE was designed only for smartphone charging.",
+      "D": "DDE exploits can allow embedded code execution when a victim opens an Office file, without the authorization request associated with macros."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture warns that malicious Office documents can use macros or DDE exploits. A is false. B ignores Office files and other attachment types. C is unrelated; DDE is a Microsoft Office data-exchange protocol.",
+    "relevantTheory": "Microsoft Dynamic Data Exchange was designed to move data between Office applications and is still supported for backwards compatibility. That compatibility can create an avenue for attackers. Cyber hygiene therefore cannot rely only on refusing macro prompts; suspicious Office files should still be avoided or isolated.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 32-34"
+  },
+  {
+    "id": 186,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "virtual machine",
+      "sandbox",
+      "isolation"
+    ],
+    "question": "Which statement best distinguishes the defensive purpose of a virtual machine or sandbox in the email-attachment guidance?",
+    "options": {
+      "A": "They make suspicious attachments trustworthy, so inspection is unnecessary.",
+      "B": "They are isolated environments for risky execution; compromise inside them should not directly damage the host system.",
+      "C": "They are legal disclaimers attached to emails.",
+      "D": "They replace the need to check sender, links, and attachment type."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the lecture defines VMs and sandboxes as virtual or isolated environments. A and D are dangerous overstatements: isolation reduces exposure but does not make the content legitimate. C is unrelated.",
+    "relevantTheory": "A virtual machine emulates a physical machine with allocated resources; if its operating system is compromised, the host should not be directly affected. A sandbox is an isolated environment for non-certified applications, downloaded files, or suspicious websites. The lecture recommends them only when opening an email attachment is truly necessary.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 35-37"
+  },
+  {
+    "id": 187,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "baiting",
+      "trusted source",
+      "USB hygiene"
+    ],
+    "question": "A student finds a USB stick in the corridor labeled \"exam solutions\". What action best follows the baiting cyber hygiene slide?",
+    "options": {
+      "A": "Plug it into the main laptop because a USB stick is passive storage.",
+      "B": "Do not connect it to the PC unless it comes from a reliable and trusted source; if it must be accessed, use a VM or sandbox.",
+      "C": "Open it on a friend's laptop first, then copy the files if nothing visible happens.",
+      "D": "Rename the files before opening them to remove the payload."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the lecture's baiting hygiene. A is false because USB devices can act as attack devices, not just storage. C shifts the risk to another machine and still trusts the bait. D does not neutralize HID behavior or malicious content.",
+    "relevantTheory": "Baiting uses an attractive object to make the victim self-initiate the compromise. A USB device may simulate keystrokes or contain malicious files. The defensive habit is to distrust unknown USB devices and isolate unavoidable access.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 7-18"
+  },
+  {
+    "id": 188,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "HID",
+      "cost",
+      "cross-platform"
+    ],
+    "question": "Which statement about HID or USB drive-by attacks best matches the lecture?",
+    "options": {
+      "A": "They require the victim to type the attacker's commands manually.",
+      "B": "They work only on one operating system and require expensive specialized equipment.",
+      "C": "A programmable USB device can execute preconfigured keystrokes to drop a payload, with configurable payloads and cheap available platforms.",
+      "D": "They are impossible because operating systems never trust keyboard-like USB devices."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture describes Teensy-style programmable devices, preconfigured keystrokes, configurable payloads, cross-platform use, and low cost. A misses the simulated keystrokes. B contradicts the slides on Linux, Windows, Mac OS X, and about 24 USD cost. D is false because HID trust is what enables the attack.",
+    "relevantTheory": "HID attacks abuse the fact that computers accept input from devices that appear to be keyboards. The device does not need to exploit a file parser first; it can type commands extremely quickly and install or download a payload.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 11-14"
+  },
+  {
+    "id": 189,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "charging",
+      "side channel",
+      "public outlet"
+    ],
+    "question": "Why does the lecture say that even charging can be dangerous?",
+    "options": {
+      "A": "Because a public USB charging connection may expose data paths, and research also showed user behavior can be inferred from power consumption.",
+      "B": "Because electrical outlets always install malware without a data cable.",
+      "C": "Because charging removes all screen locks.",
+      "D": "Because a data blocker connects only data pins and disconnects power pins."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because it combines the public USB charging warning with the slide on inferring behavior from power consumption. B overstates the lecture. C is unrelated. D reverses the data-blocking device: it connects only power pins and leaves data pins disconnected.",
+    "relevantTheory": "The safe practice is to use a wall charger plugged into an electrical outlet rather than a public USB socket, or use a charge-only/data-blocking adapter. The wider lesson is that physical connections can create unexpected data or side-channel exposure.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 19-22"
+  },
+  {
+    "id": 190,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "dumpster diving",
+      "discarded accounts",
+      "storage devices"
+    ],
+    "question": "Which discarded item is within the lecture's dumpster-diving risk examples?",
+    "options": {
+      "A": "Only paper diaries and calendars; devices are excluded.",
+      "B": "Only active cloud accounts; physical objects are excluded.",
+      "C": "Only passwords written on public websites.",
+      "D": "Dismissed storage-capable devices, paper documents, or accounts such as email, social, and cloud accounts."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture lists devices with storage capability, paper documents, and accounts. A and B each include only part of the list while excluding the rest. C is not the dumpster-diving example.",
+    "relevantTheory": "Dumpster diving is collection and analysis of material thrown away by the victim. The material can be physical paper, a storage-capable device, or access to an account that was not properly closed or sanitized. Disposal is therefore a security event, not just a logistics task.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 24-25"
+  },
+  {
+    "id": 191,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "GDPR",
+      "reuse",
+      "secure deletion"
+    ],
+    "question": "A company plans to donate old laptops after ordinary file deletion. Which lecture-based concern is strongest?",
+    "options": {
+      "A": "Ordinary deletion is always equivalent to degaussing.",
+      "B": "GDPR and related guidance create pressure to manage secure deletion before reuse, resale, donation, disposal, or end-of-lease return.",
+      "C": "Donating devices removes all personal-data obligations.",
+      "D": "Sanitizing means keeping personal data recoverable for audit forever."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the lecture connects GDPR sensitivity and severe penalties to procedures for secure deletion before reuse, resale, donation, disposal, or return. A is false because deletion and degaussing differ. C is the risky assumption. D reverses the definition of sanitizing.",
+    "relevantTheory": "Sanitizing aims to make sensitive data unrecoverable by known techniques. Regulations and standards matter because organizations must manage the whole disposal lifecycle, especially when devices leave their control.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 27-35"
+  },
+  {
+    "id": 192,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "keylogger",
+      "hardware",
+      "software"
+    ],
+    "question": "Which option best defines a keylogger and its two broad implementation families from the lecture?",
+    "options": {
+      "A": "A tool that intercepts and secretly records or transmits keystrokes; it can be hardware connected to the keyboard path or software that logs keyboard activity.",
+      "B": "A tool used only to erase magnetic fields from hard disks.",
+      "C": "A phishing message sent only by SMS.",
+      "D": "A privacy filter that prevents shoulder surfing."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and matches the lecture definition and hardware/software split. B describes degaussing. C describes smishing. D is a defense against visual observation, not a keylogger.",
+    "relevantTheory": "Keyloggers are dangerous because they capture what the user types without awareness, including passwords or sensitive messages. Hardware keyloggers may be inserted between keyboard and computer or inside the keyboard; software keyloggers run as malicious code on the system.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 37-40"
+  },
+  {
+    "id": 193,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "software keylogger",
+      "hypervisor",
+      "form grabbing"
+    ],
+    "question": "Which statement correctly matches a software keylogger implementation to its behavior?",
+    "options": {
+      "A": "Hypervisor keylogging means a malicious driver inside the operating system intercepts keystrokes through the kernel.",
+      "B": "API keylogging means a degausser removes a disk's magnetic field.",
+      "C": "Form grabbing means malware stores information entered into a web form when it is submitted, before it is sent by the browser.",
+      "D": "Kernel keylogging means a malicious hypervisor runs below an untouched operating system."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct and matches the lecture's form-grabbing description. A describes kernel keylogging, not hypervisor keylogging. B confuses software keylogging with degaussing. D describes hypervisor keylogging, not kernel keylogging.",
+    "relevantTheory": "The lecture separates software keylogger implementations into hypervisor, kernel, API, and form grabbing. Hypervisor attacks run below the operating system. Kernel attacks use a malicious driver in the operating system. API attacks log keyboard events through application APIs. Form grabbing captures submitted web-form data before browser transmission.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 42-43"
+  },
+  {
+    "id": 194,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "piggybacking",
+      "shoulder surfing",
+      "screen lock"
+    ],
+    "question": "In a crowded train, a user opens confidential work data on a laptop and then leaves the device unlocked on the table while buying coffee. Which pair of defenses best matches the lecture?",
+    "options": {
+      "A": "Use a privacy filter in crowded places and lock the screen whenever walking away.",
+      "B": "Disable the password so colleagues can help faster.",
+      "C": "Trust nearby people because shoulder surfing requires malware.",
+      "D": "Use only email filtering; physical proximity cannot leak information."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture's piggybacking hygiene recommends privacy filters in crowded places and screen locks when leaving a smartphone or PC unattended. B weakens access control. C is false because shoulder surfing is based on proximity. D ignores physical observation and access risks.",
+    "relevantTheory": "Piggybacking or shoulder surfing is illicit access to restricted areas or information by following or observing someone at close range. Defense is behavioral as much as technical: protect screens, control physical access, and never leave devices exposed.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 45-46"
+  },
+  {
+    "id": 195,
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "man-in-the-video",
+      "HDMI",
+      "phishing replica"
+    ],
+    "question": "A malicious HDMI cable changes the URL shown on a user's display so a phishing replica appears to have a legitimate address. Which attack does this describe?",
+    "options": {
+      "A": "Degaussing, because the display is magnetically erased.",
+      "B": "Smishing, because a cable is short.",
+      "C": "Business Email Compromise, because all phishing involves invoices.",
+      "D": "Man-in-the-video, where a malicious cable intercepts and manipulates video output."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture describes substituting an HDMI cable with a malicious one that intercepts and manipulates video output, including changing the URL shown to the user. A is storage sanitizing. B is SMS phishing. C is a business email fraud category, not a video-output manipulation.",
+    "relevantTheory": "Physical access attacks can target the environment around the computer, including cables and displays. Man-in-the-video is a physical man-in-the-middle attack against video output, showing why even apparently ordinary peripherals deserve suspicion in sensitive contexts.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slide/page 49"
+  },
+  {
+    "id": 196,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "randomness",
+      "keys"
+    ],
+    "question": "Why does the lecture say cryptographic systems need randomness both before and during cryptographic operations?",
+    "options": {
+      "A": "To choose secret values such as keys and to make cryptographic outputs reveal no useful structure",
+      "B": "To keep the encryption algorithm secret from attackers",
+      "C": "To make ciphertext shorter than plaintext",
+      "D": "To avoid the need for authentication"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: randomness is used to select secrets and to make operation results look random. B confuses randomness with security through obscurity. C is not a goal of encryption. D is wrong because authentication is still needed to detect alteration or impersonation.",
+    "relevantTheory": "The lecture separates random processes, pseudo-random sequences, and cryptographic effects. A key must not be predictable, even partly, and ciphertext or tags should not leak exploitable patterns. Pseudo-random generators are deterministic and need entropy to start; weak entropy makes later cryptographic outputs predictable.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 5"
+  },
+  {
+    "id": 197,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "brute force",
+      "cryptanalysis"
+    ],
+    "question": "A manager says: 'Our symmetric algorithm has a 128-bit key, so brute force is the only attack forever.' What is the best correction?",
+    "options": {
+      "A": "Correct; key length alone permanently guarantees security",
+      "B": "Correct only if the ciphertext is sent with a plain hash",
+      "C": "Wrong; public algorithms are always weaker than secret algorithms",
+      "D": "Wrong; even well-designed algorithms age because computing power grows and cryptanalysis may reduce the effective search space"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the lecture says attack time decreases as technology evolves, brute force parallelizes, and cryptanalysis can reduce the search space. A ignores obsolescence. B mixes confidentiality with integrity and does not fix algorithm aging. C contradicts Kerckhoffs' principle.",
+    "relevantTheory": "Cryptographic strength is contextual: it depends on the time attackers need compared with the time available to them. A well-designed symmetric algorithm may initially force exhaustive search, but faster hardware, parallel GPUs, and cryptanalytic shortcuts can make old algorithms or key sizes obsolete.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 12-13"
+  },
+  {
+    "id": 198,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "stream cipher",
+      "one-time pad"
+    ],
+    "question": "Which statement best distinguishes the ideal stream cipher from real stream algorithms in the lecture?",
+    "options": {
+      "A": "The ideal one-time pad uses a key as short as the block size; real stream ciphers use public counters only",
+      "B": "The ideal one-time pad uses asymmetric keys; real stream ciphers use hashes",
+      "C": "The ideal one-time pad requires a key as long as the protected message; real stream algorithms use pseudo-random generators seeded by a key",
+      "D": "The ideal one-time pad is a block cipher mode; real stream ciphers are only padding methods"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. The one-time pad is ideal but impractical because its key stream must be as long as the message and used only once. A is wrong about key length and counters. B confuses stream ciphers with asymmetric and hash mechanisms. D confuses stream algorithms with block-cipher modes.",
+    "relevantTheory": "Stream algorithms protect data bit by bit or byte by byte, typically by XORing plaintext with a key stream. Real stream ciphers generate that key stream pseudo-randomly from a secret seed/key; repeating the same seed repeats the same sequence, which is dangerous.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 17"
+  },
+  {
+    "id": 199,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "CBC",
+      "IV"
+    ],
+    "question": "In CBC mode, why is an initialization vector needed?",
+    "options": {
+      "A": "It stores the private key for the recipient",
+      "B": "It replaces padding for the last block",
+      "C": "It lets the receiver skip decryption of the first block",
+      "D": "It provides the previous-block input for the first plaintext block before encryption"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: CBC computes each ciphertext block from the current plaintext block XORed with the previous ciphertext block, so the first block needs C0, the IV. A confuses IV and key. B is wrong because padding is a separate issue. C is false; the first block must still be decrypted.",
+    "relevantTheory": "CBC chains blocks: Ci = enc(K, Pi XOR Ci-1). This avoids ECB's independent-block pattern leakage, but the first block has no previous ciphertext, so C0 is defined as an Initialization Vector. The IV is part of the mode of operation, not the secret key itself.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 22"
+  },
+  {
+    "id": 200,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "padding",
+      "block cipher"
+    ],
+    "question": "Why do block-cipher applications need padding or cipher stealing when the plaintext is shorter than a full final block?",
+    "options": {
+      "A": "Because the block algorithm transforms fixed-size blocks and the data length may not be a multiple of the block size",
+      "B": "Because padding hides the public key",
+      "C": "Because padding proves who sent the message",
+      "D": "Because all block ciphers require the plaintext to be exactly one block long"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: a block algorithm has a fixed block size, so extra handling is needed for data whose size is not a multiple of that block. B and C assign padding security goals it does not provide. D is too strong; modes of operation allow many blocks, not only one.",
+    "relevantTheory": "The lecture distinguishes the block algorithm from its modes of operation. The algorithm transforms one fixed-size block; modes allow longer messages, shorter final pieces, and stream-like behavior. Padding adds bits until a multiple of the block size is reached, raising questions about extra data and padding values.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 19 and 23"
+  },
+  {
+    "id": 201,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "hash",
+      "avalanche"
+    ],
+    "question": "For a well-designed cryptographic hash in the lecture, what should happen on average if one input bit changes?",
+    "options": {
+      "A": "Only the corresponding digest bit changes",
+      "B": "The digest length doubles",
+      "C": "About 50 percent of the digest bits change",
+      "D": "The original message becomes recoverable from the digest"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct and describes the avalanche-like behavior in the slide. A would leak structure. B is unrelated; digest length is fixed by the algorithm. D contradicts the requirement that inversion be impossible or very difficult.",
+    "relevantTheory": "A message digest is a fixed-length summary of an arbitrary-length message. Good cryptographic hash outputs should look pseudo-random, be fast to compute, difficult to invert, and collision-resistant enough for the intended security strength.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 26-27"
+  },
+  {
+    "id": 202,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "collision",
+      "security strength"
+    ],
+    "question": "A hash has an n-bit digest. Which pair of effort estimates matches the lecture?",
+    "options": {
+      "A": "Same digest as a fixed message: 2^(n/2); any two colliding messages: 2^n",
+      "B": "Both attacks need exactly n attempts",
+      "C": "Both attacks need exactly 2^n attempts",
+      "D": "Same digest as a fixed message: 2^n; any two colliding messages: 2^(n/2)"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct. Finding a second message matching a fixed digest is harder than finding any pair of messages that collide. A reverses the estimates. B confuses bit length with trial count. C ignores the birthday effect for generic collision search.",
+    "relevantTheory": "Digest length matters because collisions are always possible in principle: arbitrary-size inputs map to fixed-size outputs. The lecture says a hash is described as having n bits of security when the easiest relevant attack needs about 2^n attempts; it also notes at least 80-bit security strength as a validity threshold.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 27"
+  },
+  {
+    "id": 203,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "MAC",
+      "shared secret"
+    ],
+    "question": "What makes a keyed digest or MAC different from sending a plain hash digest with the data?",
+    "options": {
+      "A": "It encrypts the entire message with the recipient's public key",
+      "B": "It removes the need for both sender and receiver to share anything",
+      "C": "It makes the message shorter by deleting repeated blocks",
+      "D": "It computes the digest over the data together with a shared secret key"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: a MAC/keyed digest uses secret knowledge, so an attacker who changes the data cannot recompute a valid value without the key. A describes asymmetric encryption, not a MAC. B is false because a shared secret is the basis of this authentication method. C is unrelated.",
+    "relevantTheory": "A plain digest protects only against accidental or non-adversarial changes if the evidence is not protected. Against a man-in-the-middle, the evidence must be shared securely. A MAC authenticates data by proving knowledge of a secret shared by the legitimate parties.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 31-33"
+  },
+  {
+    "id": 204,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "HMAC",
+      "hash"
+    ],
+    "question": "Which description best captures HMAC as presented in the lecture?",
+    "options": {
+      "A": "A standardized keyed-digest construction that combines a hash function, a normalized key, inner padding, outer padding, and the data",
+      "B": "A block-cipher mode that chains ciphertext blocks using an IV",
+      "C": "A public-key signature format that encrypts the whole message with a private key",
+      "D": "A way to generate a true random key without entropy"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and matches the HMAC slide: HMAC is built from a base hash, key processing, ipad, opad, and nested hashing. B describes CBC. C confuses HMAC with digital signatures. D is impossible; random key generation still needs entropy.",
+    "relevantTheory": "HMAC is a concrete MAC construction standardized in RFC 2104 and FIPS 198. It turns a cryptographic hash into a keyed authentication mechanism. Its purpose is not confidentiality, but data authentication and integrity based on shared secret knowledge.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 34"
+  },
+  {
+    "id": 205,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "AEAD",
+      "associated data"
+    ],
+    "question": "A network packet has a header that must stay readable for routing, but the payload must be confidential and the header must still be authenticated. Which mechanism matches the lecture?",
+    "options": {
+      "A": "ECB mode with no digest",
+      "B": "A plain SHA-256 digest appended to the packet",
+      "C": "Authenticated Encryption with Associated Data, where associated data is authenticated but not encrypted",
+      "D": "A Caesar cipher plus a checksum"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: AEAD takes key, nonce, associated data, and plaintext, producing ciphertext plus an authentication tag. A gives neither safe long-message confidentiality nor authentication. B lacks a secret and can be replaced by an attacker. D is historically weak and irrelevant.",
+    "relevantTheory": "Authenticated Encryption combines privacy, integrity, and authentication in one operation. AEAD extends this by allowing associated data, such as packet headers, to remain visible while still being covered by the authentication tag. GCM is identified as widely used, including in TLS.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 35-36"
+  },
+  {
+    "id": 206,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l1-crypto-part-i",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "SHA",
+      "obsolete hashes"
+    ],
+    "question": "Which choice best follows the lecture's guidance on hash families?",
+    "options": {
+      "A": "MD5 remains good because it has a 128-bit digest",
+      "B": "SHA-1 is the best available because SHA-2 was based on similar math",
+      "C": "SHA-3 was selected through a competition and uses a completely new scheme, with Keccak as winner",
+      "D": "Digest algorithms are interchangeable as long as their names include SHA"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. The lecture marks MD2, MD4, and MD5 as obsolete, treats SHA-1 cautiously, presents SHA-2 as remediation, and highlights SHA-3/Keccak as a new scheme selected by competition. A, B, and D ignore the lecture's algorithm-status distinctions.",
+    "relevantTheory": "Hash choice is part of security design. Digest length alone is not enough if the algorithm is broken or aging. The slides distinguish obsolete algorithms, acceptable families such as SHA-2, and SHA-3 as a newer design chosen after public competition.",
+    "source": "Cyber/Material(3)/Crypto_PartI.pdf, slide/page 28-29"
+  },
+  {
+    "id": 207,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "RSA",
+      "key pair"
+    ],
+    "question": "In RSA key generation, which value must remain secret because knowing it lets an attacker compute the private exponent?",
+    "options": {
+      "A": "The public exponent e only",
+      "B": "The public modulus n only",
+      "C": "The primes p and q used to form n",
+      "D": "The ciphertext C"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: if an attacker learns p and q, they can compute PHI and then d. A and B are public-key components in RSA. D is the encrypted data, not key-generation material.",
+    "relevantTheory": "RSA publishes n = p q and a public exponent e, while keeping the factors p and q secret. The private exponent d is computed from e and PHI = (p - 1)(q - 1). The hard problem is recovering the private information from the public modulus.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 10-12"
+  },
+  {
+    "id": 208,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": [
+      "public key length",
+      "RSA"
+    ],
+    "question": "Which RSA public-key length statement matches the lecture's attack-time estimates without quantum computers?",
+    "options": {
+      "A": "512 bits can be attacked in weeks, 1024 bits in months, and 2048 bits offers appropriate security for several years",
+      "B": "512 bits and 2048 bits offer the same protection if the public exponent is secret",
+      "C": "1024 bits is stronger than 2048 bits because it is faster",
+      "D": "Key length is irrelevant for public-key systems"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and follows the lecture estimates. B is wrong because the exponent is public and length matters. C confuses speed with security. D contradicts the public-key length slide.",
+    "relevantTheory": "Asymmetric key sizes cannot be compared directly with symmetric key sizes. For RSA-like systems, attack feasibility depends on factoring-related work. The lecture gives historical estimates to show why old public-key sizes become unacceptable.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 13"
+  },
+  {
+    "id": 209,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "enveloped data",
+      "hybrid encryption"
+    ],
+    "question": "Why does the lecture's enveloped-data design encrypt the message with a random symmetric key and then encrypt only that key asymmetrically?",
+    "options": {
+      "A": "Because asymmetric cryptography can only verify signatures",
+      "B": "Because symmetric cryptography is slow for large data",
+      "C": "Because RSA requires the sender and receiver to already share p and q",
+      "D": "Because asymmetric cryptography is computationally heavy and is best used for a few bytes such as secret keys"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct. The lecture says public-key algorithms are heavy and good for distributing a few bytes, while symmetric algorithms handle large data efficiently. A is false; public key can support encryption and signatures depending on the algorithm. B reverses the performance point. C misunderstands RSA.",
+    "relevantTheory": "Hybrid encryption combines the strengths of both families: generate a fresh random message key K, encrypt the bulk message symmetrically with K, then encrypt K using the recipient's public key. The recipient uses the private key to recover K and decrypt the message.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 5 and 16"
+  },
+  {
+    "id": 210,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "ECC",
+      "ECDSA",
+      "ECDH"
+    ],
+    "question": "What is the lecture's main practical advantage of elliptic curve cryptography over modular-arithmetic public-key systems?",
+    "options": {
+      "A": "It removes the need for private keys",
+      "B": "It makes quantum attacks impossible by definition",
+      "C": "It is a symmetric block cipher mode",
+      "D": "It provides comparable hard problems with shorter keys and faster legitimate operations"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: ECC uses operations on elliptic curves, making attacker work demanding while allowing much shorter keys and faster use. A is false because ECC still uses private keys. B is false; the lecture says RSA, DSA, and ECC versions would become weak with practical Shor-capable quantum computers. C is category confusion.",
+    "relevantTheory": "ECC is presented as a public-key family using elliptic-curve arithmetic instead of ordinary modular arithmetic. Applications include ECDSA for digital signatures and ECDH for key agreement. The lecture highlights shorter keys, roughly one tenth, and better performance for legitimate users.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 24"
+  },
+  {
+    "id": 211,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Shor",
+      "post-quantum"
+    ],
+    "question": "Why does Shor's algorithm create a qualitatively different concern for RSA, DSA, and ECC than Grover's algorithm creates for symmetric cryptography?",
+    "options": {
+      "A": "Shor's algorithm only speeds up symmetric brute force, while Grover breaks RSA",
+      "B": "Grover removes the need for post-quantum cryptography",
+      "C": "Both algorithms have exactly the same effect on all cryptography",
+      "D": "Shor would make the underlying factoring/discrete-log problems polynomial on suitable quantum computers, while Grover mainly gives a speedup addressable by longer symmetric keys"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct. The lecture says Shor threatens RSA, DSA, and ECC immediately if capable quantum computers exist, whereas symmetric crypto and hashes are not very affected and can respond by increasing lengths. A reverses the algorithms. B is wrong because PQC is urgently needed for public-key mechanisms. C erases the distinction.",
+    "relevantTheory": "Post-quantum cryptography searches for hard problems that remain hard even for quantum computers. The lecture lists lattice-based, multivariate, hash-based, code-based, isogeny-based, and symmetric-key quantum-resistance approaches, and names NIST-selected standards such as ML-KEM, ML-DSA, and SLH-DSA.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 29-33"
+  },
+  {
+    "id": 212,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "certificate",
+      "CA"
+    ],
+    "question": "What does a public-key certificate securely bind according to the lecture?",
+    "options": {
+      "A": "A password to a symmetric cipher mode",
+      "B": "A ciphertext block to an IV",
+      "C": "A public key to attributes such as identity, IP address, email address, or DNS name",
+      "D": "A hash function to its digest length only"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct and follows the certificate definition. A and B are unrelated to certificates. D is not a binding of an entity to a public key.",
+    "relevantTheory": "Asymmetric cryptography works only if private keys stay secret and public keys are distributed with a trustworthy owner binding. A digital certificate is signed by an issuer, the Certification Authority, has a limited lifetime, and can be revoked by subject or issuer.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 35-36"
+  },
+  {
+    "id": 213,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "PKI",
+      "certificate chain"
+    ],
+    "question": "A verifier has a certificate for subject X signed by CA1. What is the next trust problem described by the lecture?",
+    "options": {
+      "A": "The verifier must encrypt the certificate with X's private key",
+      "B": "The verifier must replace all certificates with symmetric MACs",
+      "C": "The verifier must ignore the CA signature and trust only the subject name",
+      "D": "The verifier must obtain and trust CA1's public-key certificate, which may itself be signed by another CA"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: verifying a CA-signed certificate requires the CA's certificate, leading to certification chains and trusted roots. A is impossible because the verifier does not have X's private key. B does not solve public-key identity binding at Internet scale. C defeats the point of certificates.",
+    "relevantTheory": "PKI is the technical and administrative infrastructure for creating, distributing, and revoking public-key certificates. Certificate verification can require a hierarchy up to a trusted root CA, because each issuer's public key also needs authentication.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 37-41"
+  },
+  {
+    "id": 214,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "revocation",
+      "relying party"
+    ],
+    "question": "When verifying a signature, who is responsible in the lecture for checking that the signer's certificate was valid at signature time?",
+    "options": {
+      "A": "The relying party receiving/verifying the signature",
+      "B": "Only the subject named in the certificate",
+      "C": "Only the original document author, after verification",
+      "D": "No one, because expiration alone is enough"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the lecture explicitly assigns this check to the receiver/relying party. B is wrong because the subject may not be the verifier. C is not the verification role. D ignores revocation before expiration.",
+    "relevantTheory": "Certificates have limited lifetimes but may also be revoked early by owner request or issuer action. Revocation mechanisms include CRLs, signed lists of revoked certificates, and OCSP, signed online status responses. Verification must consider validity at the relevant time, not only the current document content.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 42-43"
+  },
+  {
+    "id": 215,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "signed documents",
+      "signature formats"
+    ],
+    "question": "Which signed-document format description matches the lecture?",
+    "options": {
+      "A": "Enveloped signature means the signature is hidden in a separate network packet only",
+      "B": "All signed-document formats require the document to be encrypted",
+      "C": "Detached signature means the document is deleted after signing",
+      "D": "Enveloping signature means the signature contains or wraps the signed data"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the lecture's diagram shows enveloping signatures containing signed data. A is not the definition; enveloped signatures are placed within the document format, such as PDF. B is false because signing is about integrity/authentication, not necessarily confidentiality. C misreads detached as destructive.",
+    "relevantTheory": "Secure electronic documents need integrity, authentication of the originator, usability, and long-term verifiability. Signature packaging can be enveloped, enveloping, or detached, and standards such as CAdES, XAdES, PAdES, and ASiC support different document ecosystems.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 45-46 and 51"
+  },
+  {
+    "id": 216,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "timestamp",
+      "TSA"
+    ],
+    "question": "What is the purpose of a trusted time-stamp token in the lecture?",
+    "options": {
+      "A": "To prove some data existed before a certain date using a digest, date-time value, and TSA digital signature",
+      "B": "To encrypt all future versions of a document automatically",
+      "C": "To replace certificate revocation checks",
+      "D": "To make a weak password into a random password"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The time-stamping slide shows a hash digest, date and time, and a TSA digital signature producing a TST. B, C, and D are not time-stamping functions.",
+    "relevantTheory": "Long-term electronic-document verification needs evidence not only of who signed and what was signed, but also when the data existed. A Time-Stamping Authority signs time-stamp tokens so later verifiers can establish temporal evidence even years later.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 49"
+  },
+  {
+    "id": 217,
+    "deck": "slides",
+    "moduleId": "module-c-cryptography",
+    "lectureId": "module-c-l2-crypto-part-ii",
+    "section": "Cryptography",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "QES",
+      "qualified certificate"
+    ],
+    "question": "Which design best matches a Qualified Electronic Signature as described in the lecture?",
+    "options": {
+      "A": "Any scanned handwritten signature pasted into a PDF",
+      "B": "A digital signature using a Qualified Certificate and generated with secure signature devices, with trusted CA recognition and proper key-usage attributes",
+      "C": "A plain hash of a document stored in a folder",
+      "D": "A password-protected ZIP file sent by email"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. QES is not just any electronic mark; it depends on qualified certificates, secure devices, trusted CAs, and legal-purpose attributes. A is a visual copy, not cryptographic signature. C lacks origin authentication. D provides neither the legal-signature framework nor the cryptographic signing semantics.",
+    "relevantTheory": "The lecture frames QES as intended to meet legal requirements comparable to handwritten signatures and usable in court. Its trust depends on certificate qualification, secure signature creation, trusted authorities, timestamps from trusted TSAs, and attributes that clarify purpose and scope.",
+    "source": "Cyber/Material(3)/Crypto_PartII.pdf, slide/page 50"
+  },
+  {
+    "id": 218,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "remote access",
+      "NIST SP 800-171"
+    ],
+    "question": "Which requirement is a derived access-control requirement in the lecture's NIST SP 800-171 examples?",
+    "options": {
+      "A": "Publish all controlled information on public systems",
+      "B": "Let wireless devices connect before authorization",
+      "C": "Allow unlimited unsuccessful logon attempts",
+      "D": "Route remote access via managed access control points and monitor remote sessions"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the slides list monitoring remote sessions and routing remote access through managed access control points. A, B, and C invert other requirements, which limit public posting, unauthorized wireless access, and unsuccessful logons.",
+    "relevantTheory": "The lecture uses NIST SP 800-171 to show that access control includes transaction/function limits, duty separation, least privilege, session locks, remote-session monitoring, cryptographic protection of remote access, and control over wireless, mobile, external, and public systems.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 9-14"
+  },
+  {
+    "id": 219,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "internal audit",
+      "external audit"
+    ],
+    "question": "Which statement correctly distinguishes internal and external audit in the lecture?",
+    "options": {
+      "A": "Internal audit is performed by employees to identify risks and mitigation status; external audit is performed by independent outside professionals",
+      "B": "Internal audit is only for shareholders, while external audit is only for system administrators",
+      "C": "Internal audit grants access rights, while external audit authenticates passwords",
+      "D": "External audit is never independent"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. B reverses the stakeholder emphasis. C confuses audit with authorization and authentication. D contradicts the slide's emphasis on independent outside auditors.",
+    "relevantTheory": "Audit is an independent review of records and activities to check control adequacy, compliance, breaches, and needed changes. Internal auditors help the organization manage performance, security, and compliance risks; external auditors provide independent assessment valued by shareholders and clients.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 18 and 21-24"
+  },
+  {
+    "id": 220,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "access control mechanism",
+      "authorization database"
+    ],
+    "question": "In the lecture's access-control mechanism, what happens after an entity is authenticated?",
+    "options": {
+      "A": "The system permanently grants every future action",
+      "B": "The audit function replaces the authorization database",
+      "C": "The access control function checks the requested access against the authorization database",
+      "D": "The user becomes the security administrator"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: authentication establishes that the entity may access the system at all, then access control consults authorization data for the specific requested access. A violates complete mediation. B confuses audit with decision enforcement. D is a privilege escalation, not the mechanism.",
+    "relevantTheory": "Authentication, authorization, access control, and audit are related but distinct. A security administrator maintains authorization data; users access resources after authentication; access control mediates each requested operation; audit independently reviews records and activities.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 19 and 25-30"
+  },
+  {
+    "id": 221,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "access rights",
+      "write includes read"
+    ],
+    "question": "Which access-right definition matches the lecture?",
+    "options": {
+      "A": "Read means add, modify, or delete data",
+      "B": "Search means delete records",
+      "C": "Execute means list files in a directory",
+      "D": "Write means add, modify, or delete data and includes read access"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct. The lecture defines write as adding, modifying, or deleting data and says write includes read access. A is the write definition, not read. B confuses search with delete. C confuses execute with search.",
+    "relevantTheory": "Access rights specify what a subject may do to an object. Typical rights include read, write, execute, delete, create, and search. Their exact meaning matters because authorization must be defined at the operation level, not just at the resource level.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 43-45"
+  },
+  {
+    "id": 222,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "DAC",
+      "privilege propagation"
+    ],
+    "question": "Why are discretionary access-control policies called 'discretionary' in the lecture?",
+    "options": {
+      "A": "Because access is decided randomly at runtime",
+      "B": "Because only security labels and clearances matter",
+      "C": "Because users can be given the ability to pass privileges to other users, under an administrative policy",
+      "D": "Because roles are the only basis for access"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. DAC is identity/requestor based with explicit access rules, and the discretionary part is the ability to pass privileges under administrative control. A is nonsense. B describes MAC. D describes RBAC.",
+    "relevantTheory": "DAC controls access based on requestor identity and explicit authorizations stating what requestors may or may not do to resources. Granting and revocation are regulated by administrative policy, which is why DAC cannot be understood without asking who is allowed to specify authorizations.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 47-49"
+  },
+  {
+    "id": 223,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "ACL",
+      "capability",
+      "access matrix"
+    ],
+    "question": "Which option lists practical implementations of the access matrix named in the lecture?",
+    "options": {
+      "A": "Firewall, VPN, password",
+      "B": "Hash, MAC, digital signature",
+      "C": "Read, write, execute",
+      "D": "Authorization table, Access Control List, and capability"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct. A lists security tools from a different context. B lists cryptographic integrity/authentication mechanisms. C lists access rights, not data structures for representing a whole access matrix.",
+    "relevantTheory": "An access matrix is a conceptual representation of the authorization state: subjects on one dimension, objects on the other, and rights in each cell. Because the matrix is usually huge and sparse, practical systems use more compact structures such as authorization tables, ACLs, and capabilities.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 49 and 53-56"
+  },
+  {
+    "id": 224,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "MAC",
+      "mandatory"
+    ],
+    "question": "What makes mandatory access control mandatory according to the lecture?",
+    "options": {
+      "A": "A permitted entity can freely delegate its permission to anyone",
+      "B": "Access is controlled by comparing resource security labels with entity permissions, and the entity cannot on its own allow another entity to access the resource",
+      "C": "Access is based only on job functions",
+      "D": "Access is decided by environmental attributes such as time of day only"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. A describes discretionary delegation, not MAC. C describes RBAC. D is closer to ABAC and is too narrow even for that.",
+    "relevantTheory": "MAC controls access using labels indicating resource sensitivity or criticality and permissions/clearances indicating eligible entities. It is mandatory because users do not own the decision to pass access onward; the policy is imposed by the system.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 59"
+  },
+  {
+    "id": 225,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "RBAC",
+      "role hierarchy"
+    ],
+    "question": "A hospital defines 'senior doctor' as inheriting the permissions of 'doctor' plus extra approval rights. Which RBAC feature is this?",
+    "options": {
+      "A": "Role hierarchy using inheritance",
+      "B": "Mandatory security labels only",
+      "C": "A plain hash collision",
+      "D": "Export-grade cryptography"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Role hierarchies reflect organizational hierarchy and allow superior roles to implicitly include subordinate-role rights. B is MAC, not RBAC hierarchy. C and D are unrelated.",
+    "relevantTheory": "RBAC assigns permissions to roles and users to roles, often many-to-many. Roles usually map to job functions and remain more stable than users. Role hierarchy models organizational authority, where greater responsibility can include inherited subordinate access rights.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 61-68"
+  },
+  {
+    "id": 226,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "definition",
+    "trapTags": [
+      "RBAC constraints",
+      "mutual exclusion"
+    ],
+    "question": "Which example best illustrates an RBAC constraint from the lecture?",
+    "options": {
+      "A": "A digest changes when one input bit changes",
+      "B": "All users share one administrator account",
+      "C": "A user may be assigned to the 'payment requester' role only if already assigned to the 'employee' role, and may not simultaneously hold an exclusive 'payment approver' role",
+      "D": "A firewall blocks all traffic from the Internet"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: it combines prerequisite roles and mutually exclusive roles, both named RBAC constraints. A is cryptographic hash behavior. B violates accountability and least privilege. D is network filtering, not an RBAC constraint.",
+    "relevantTheory": "RBAC constraints adapt role systems to organizational policies. The lecture names mutually exclusive roles, cardinality limits, and prerequisite roles. These constraints prevent conflicts of interest, limit concentration of authority, and encode administrative/security rules.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 71"
+  },
+  {
+    "id": 227,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "ABAC",
+      "performance tradeoff"
+    ],
+    "question": "What is the main obstacle to ABAC adoption in real systems according to the lecture?",
+    "options": {
+      "A": "It cannot express conditions on resource attributes",
+      "B": "It cannot model RBAC, DAC, or MAC concepts",
+      "C": "It only works for physical doors",
+      "D": "Concern about performance impact and complexity when evaluating predicates over user, resource, operation, and environment attributes for each access"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct. The lecture praises ABAC's flexibility but notes cost in design, implementation, and performance. A is false because resource attributes are central. B is false because ABAC can enforce DAC, RBAC, and MAC concepts. C is unrelated.",
+    "relevantTheory": "ABAC makes decisions from subject, object/resource, environment, and requested-operation attributes. It is expressive and flexible, but each decision may require evaluating rich predicates, making performance and implementation complexity a serious tradeoff.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 72-80"
+  },
+  {
+    "id": 228,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l1-access-control",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "subject",
+      "accountability"
+    ],
+    "question": "Why does the lecture often equate a subject with a process rather than only with a human user?",
+    "options": {
+      "A": "Because users and applications gain access to objects through processes that act on their behalf",
+      "B": "Because processes cannot be audited",
+      "C": "Because objects always initiate access",
+      "D": "Because subjects are passive containers of information"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. A process represents the user or application in actual access requests. B is wrong because audit trails can record the association of subjects with security-relevant actions. C reverses subject/object roles. D describes objects, not subjects.",
+    "relevantTheory": "A subject is an active entity capable of accessing objects, often a process. Subjects may create child subjects and can be held accountable for actions. Objects are passive resources containing or receiving information, such as files, records, programs, ports, or network nodes.",
+    "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf, slide/page 37-42"
+  },
+  {
+    "id": 229,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "security by design",
+      "architecture"
+    ],
+    "question": "What does secure by design mean in the Security by Design lecture?",
+    "options": {
+      "A": "Adding a firewall after development is complete",
+      "B": "Keeping the design secret so attackers cannot analyze it",
+      "C": "Relying on users to avoid mistakes",
+      "D": "Designing software from the foundation to be secure, with security tactics and patterns enforced by architecture and guiding developers"
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct. Secure by design places security into the foundation and architecture. A is late add-on security. B conflicts with open design and repeats security-through-obscurity thinking. C ignores design responsibility.",
+    "relevantTheory": "Security by design means security tactics and patterns are selected and enforced at architecture level, then used as developer guidance. In cloud computing, the lecture highlights protection of sensitive, business-critical data as a key aspect.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 5"
+  },
+  {
+    "id": 230,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "least privilege",
+      "time-limited access"
+    ],
+    "question": "A cloud job needs database read access for a 15-minute export and then should lose that access automatically. Which principle is most directly applied?",
+    "options": {
+      "A": "Defense in depth",
+      "B": "Least privilege",
+      "C": "Open design",
+      "D": "Weakest link"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the entity receives only the minimum privilege and resources for the minimum time needed. A is about multiple protective layers. C is about not depending on secrecy of design. D is about finding fragile modules, not privilege minimization itself.",
+    "relevantTheory": "Least privilege applies to users, processes, and other entities. It reduces opportunities for unauthorized access by limiting both scope and duration of privileges to what a task actually requires.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 7"
+  },
+  {
+    "id": 231,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "separation of duties",
+      "separation of privilege"
+    ],
+    "question": "Which option best distinguishes separation of duties from separation of privilege in the lecture?",
+    "options": {
+      "A": "They are identical names for password complexity",
+      "B": "Separation of duties requires multiple conditions for a sensitive activity; separation of privilege breaks one privilege among multiple independent subjects so more than one authorization is needed",
+      "C": "Separation of duties means all duties go to one administrator; separation of privilege means no authorization is checked",
+      "D": "Both principles mean publishing source code"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the two slide definitions. A collapses distinct concepts. C states the opposite of the principles. D confuses them with open design.",
+    "relevantTheory": "Separation of duties reduces risk by requiring plural conditions or actors for sensitive activities, forcing collusion to compromise the system. Separation of privilege divides a single privilege among independent subjects or components so one actor alone cannot perform the protected action.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 8 and 11"
+  },
+  {
+    "id": 232,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "defense in depth",
+      "layers"
+    ],
+    "question": "What is defense in depth as defined in the lecture?",
+    "options": {
+      "A": "Using only the strongest single control",
+      "B": "Letting users decide whether controls apply",
+      "C": "Applying multiple layers of protection so a later layer provides protection if an earlier layer is breached",
+      "D": "Removing all shared mechanisms"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. A is the opposite of layered protection. B is not a security-by-design principle. D is closer to least common mechanism, not defense in depth.",
+    "relevantTheory": "Defense in depth assumes that individual controls can fail. Security architecture should therefore include multiple protective layers, so compromise of one layer does not immediately compromise the whole system or its sensitive data.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 12"
+  },
+  {
+    "id": 233,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "fail secure",
+      "fail safe"
+    ],
+    "question": "A cloud authorization service cannot reach its policy database. What behavior best follows fail secure?",
+    "options": {
+      "A": "Grant access temporarily so work can continue",
+      "B": "Deny normal user/process access until controls are reestablished, allowing only appropriate administrator recovery if needed",
+      "C": "Disable logging to reduce load",
+      "D": "Reuse the last successful user's permissions for everyone"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. Fail secure means failure should not compromise the system or its data and should default to denial when permissions cannot be verified. A, C, and D all create unauthorized-access risk.",
+    "relevantTheory": "Fail secure differs from merely keeping a system available. In the lecture, a failed system should fall into a state where security is preserved, recover into a secure state, and in manual recovery permit only administrator access until controls are restored.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 13-15"
+  },
+  {
+    "id": 234,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "complete mediation",
+      "authorization procedure"
+    ],
+    "question": "Which sequence is part of complete mediation according to the lecture?",
+    "options": {
+      "A": "Identify the requesting entity, verify the request has not changed, apply authorization procedures, and reexamine previously authorized requests by the same entity",
+      "B": "Authenticate once at login and skip later checks for performance",
+      "C": "Disable checks during startup, shutdown, restart, or maintenance mode",
+      "D": "Let cached permissions override policy updates indefinitely"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and follows the complete mediation entailments listed in the slides. B, C, and D are classic bypasses of complete mediation.",
+    "relevantTheory": "Complete mediation means every request by a subject to access an object must pass a valid and effective authorization procedure. The mediation must not be suspended or bypassable during initialization, shutdown, restart, or maintenance.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 16-17"
+  },
+  {
+    "id": 235,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "least common mechanism",
+      "covert channel"
+    ],
+    "question": "Why does the least common mechanism principle reduce sharing of protection mechanisms?",
+    "options": {
+      "A": "Because shared access paths can become covert channels for unauthorized information exchange",
+      "B": "Because users prefer complex instructions",
+      "C": "Because every mechanism must be proprietary",
+      "D": "Because it eliminates the need for authorization"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The lecture explicitly links shared access paths to covert channels. B contradicts psychological acceptability. C is not the principle. D is false; authorization remains necessary.",
+    "relevantTheory": "Least common mechanism states that the minimum number of protection mechanisms should be common to multiple users. Shared mechanisms and paths can accidentally transfer information between users, so reducing unnecessary sharing reduces covert-channel risk.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 18"
+  },
+  {
+    "id": 236,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "application",
+    "trapTags": [
+      "psychological acceptability",
+      "usability"
+    ],
+    "question": "A secure cloud access-control console is technically strong but so confusing that users regularly misconfigure permissions. Which principle is being violated?",
+    "options": {
+      "A": "Psychological acceptability",
+      "B": "Cryptographic sovereignty",
+      "C": "Message authentication code",
+      "D": "Certificate revocation"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. Psychological acceptability requires an understandable, intuitive interface for security controls. B is from national-defence framing. C and D are cryptographic mechanisms, not usability principles.",
+    "relevantTheory": "Security controls fail in practice when legitimate users cannot understand or operate them correctly. Psychological acceptability means the interface controlling cloud access mechanisms should be easy enough to use without complex interpretation.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 19"
+  },
+  {
+    "id": 237,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "weakest link",
+      "review"
+    ],
+    "question": "What design action follows from the weakest-link principle in the lecture?",
+    "options": {
+      "A": "Secure only the strongest module because attackers avoid weak parts",
+      "B": "Repeatedly revise the security system to detect and resolve the most fragile parts of the protection chain",
+      "C": "Use one shared mechanism for all users",
+      "D": "Assume cloud providers make every module equally strong"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. The lecture says attackers seek the most fragile part and the system should be revised again and again to detect and resolve weak parts. A is backwards. C may increase shared-path risk. D is an unsafe assumption.",
+    "relevantTheory": "A system's security is limited by its weakest module. Secure design is therefore iterative: designers must look for fragile points across the whole protection chain, not only strengthen already-strong components.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 20"
+  },
+  {
+    "id": 238,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "permissions",
+      "exclusions"
+    ],
+    "question": "The fail-secure lecture says the approach is based on permissions instead of exclusions. What is the security meaning?",
+    "options": {
+      "A": "Everything is allowed unless specifically blocked",
+      "B": "Access should be granted only when permission is positively established",
+      "C": "Exclusions should be hidden from administrators",
+      "D": "Permissions are only needed after recovery"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. A is a fail-open mindset. C is unrelated. D is wrong because permissions are the basis for normal operation and recovery.",
+    "relevantTheory": "Fail secure defaults toward denial when the system cannot prove access is allowed. Designing from positive permissions avoids accidental access when exclusion lists are incomplete, unavailable, or not yet restored after failure.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 14-15"
+  },
+  {
+    "id": 239,
+    "deck": "slides",
+    "moduleId": "module-d-secure-design-access",
+    "lectureId": "module-d-l2-security-by-design",
+    "section": "Secure Design",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "zero trust",
+      "distributed security"
+    ],
+    "question": "Which group of examples appears under Zero Trust in the lecture slides?",
+    "options": {
+      "A": "Frequency analysis, rotor machines, codebooks",
+      "B": "Distributed security, firewall, VPN, password",
+      "C": "MD5, SHA-1, SHA-2, SHA-3",
+      "D": "CRL, OCSP, TSA, QES"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and matches the Zero Trust slide. A belongs to cryptographic history, C to hash algorithms, and D to certificate/document-signature infrastructure.",
+    "relevantTheory": "The Security by Design lecture groups Zero Trust with security principles and lists familiar control areas around distributed security, firewalls, VPNs, and passwords. The exam trap is to keep this framing distinct from cryptographic algorithms or certificate mechanisms.",
+    "source": "Cyber/Material(4)/Security_By_Design.pdf, slide/page 21-23"
+  },
+  {
+    "id": 240,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "national capability",
+      "state power"
+    ],
+    "question": "Which trio best summarizes cryptography as a national capability in the lecture?",
+    "options": {
+      "A": "Defensive capability, offensive/intelligence capability, and sovereign capability",
+      "B": "Hashing, compression, and formatting",
+      "C": "User training, password reuse, and helpdesk support",
+      "D": "Only protection of private companies from malware"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The lecture divides cryptography as national capability into protecting state secrets, reading or exploiting others' secrets, and avoiding blind dependence on uncontrollable tools and suppliers. B, C, and D reduce the concept to technical or civilian fragments.",
+    "relevantTheory": "The lecture distinguishes ordinary cybersecurity from national defence. Cybersecurity protects systems, data, users, networks, and services; national defence protects sovereignty, command, intelligence, military operations, and critical functions.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, slide/page 3-5"
+  },
+  {
+    "id": 241,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "capability secrecy",
+      "cryptanalysis"
+    ],
+    "question": "Why is knowing how to break an adversary's cryptosystem itself treated as secret?",
+    "options": {
+      "A": "Because public disclosure usually makes the adversary keep using the same system",
+      "B": "Because revealing the capability can cause the adversary to change the system, destroying the intelligence advantage",
+      "C": "Because cryptanalysis has no strategic value unless published",
+      "D": "Because classified work is always mathematically weaker"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and states the lecture's paradox of cryptanalysis. A is the opposite of adaptation. C confuses public science incentives with intelligence incentives. D is unsupported.",
+    "relevantTheory": "A cryptanalytic breakthrough plus secrecy creates intelligence advantage; breakthrough plus disclosure creates adversary adaptation. This produces a structural tension: public science rewards disclosure, while intelligence rewards silence.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, slide/page 9-10 and 20"
+  },
+  {
+    "id": 242,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "intelligence cycle",
+      "Zimmermann"
+    ],
+    "question": "In the Zimmermann Telegram case, what must happen before intercepted ciphertext becomes usable intelligence?",
+    "options": {
+      "A": "Intercepted ciphertext, cryptanalytic decryption, reconstruction/interpretation, confidence assessment, and decision-maker trust/political use",
+      "B": "Only publication in a newspaper",
+      "C": "Only possession of the cable route",
+      "D": "Only knowing that the sender used a diplomatic code"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct and follows the slide's chain. B may be part of political use but is not enough. C gives interception opportunity, not intelligence. D gives context, not decrypted, trusted intelligence.",
+    "relevantTheory": "The Zimmermann Telegram shows cryptanalysis entering grand strategy. Britain had to use the intelligence to influence U.S. policy while protecting the source, because visible use of cryptanalytic intelligence can expose codebreaking capability.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, slide/page 24 and 29-30"
+  },
+  {
+    "id": 243,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": [
+      "cryptographic sovereignty",
+      "procurement"
+    ],
+    "question": "A ministry buys sealed encryption appliances from a foreign supplier and cannot inspect algorithms, firmware, key generation, updates, or operator procedures. Which national-defence risk does this illustrate?",
+    "options": {
+      "A": "Only a usability problem",
+      "B": "Only a lack of compression efficiency",
+      "C": "Cryptographic sovereignty risk through blind dependence on actors and products outside national control",
+      "D": "A guarantee that the system is secure because the supplier is specialized"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. The lecture defines cryptographic sovereignty as the ability to protect state secrets without blind dependence on uncontrollable algorithms, products, standards, hardware, firmware, suppliers, and procedures. A and B are too narrow. D repeats the exact trust trap illustrated by supplier compromise cases.",
+    "relevantTheory": "Cryptographic sovereignty includes governing algorithms, standards, implementation and verification, key generation/storage/rotation/destruction, hardware/firmware, product ownership and maintenance, and operator behavior. Procurement is strategic, not merely technical.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, slide/page 31 and 33-34"
+  },
+  {
+    "id": 244,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Enigma",
+      "procedures"
+    ],
+    "question": "Which lesson does the Enigma case teach about strong machines and weak procedures?",
+    "options": {
+      "A": "A huge key space guarantees security even when operators repeat patterns",
+      "B": "A strong algorithm or machine cannot compensate for weak operational discipline such as repeated message keys, predictable choices, stereotyped messages, or captured key sheets",
+      "C": "Only brute force mattered against Enigma",
+      "D": "Procedures are irrelevant when encryption is dynamic"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. The lecture says Enigma was strong as a machine but fragile as a system. A and D ignore operational weaknesses. C ignores Polish mathematical modeling, cribs, Bombes, intelligence inputs, and procedure exploitation.",
+    "relevantTheory": "Enigma's security depended on rotor order, starting positions, ring settings, plugboard connections, daily keys, and message keys. Breakthroughs exploited procedures and context, including repeated message-key encryption, cillies, stereotyped traffic, and captured materials.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, slide/page 38-45 and 49"
+  },
+  {
+    "id": 245,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Ultra",
+      "source protection"
+    ],
+    "question": "Ultra reveals the location of several enemy targets. Why might commanders avoid attacking every target immediately?",
+    "options": {
+      "A": "Because decrypted intelligence is never operationally useful",
+      "B": "Because acting too perfectly can reveal the intelligence source and cause the adversary to adapt",
+      "C": "Because Enigma messages could never be read in time",
+      "D": "Because public disclosure is always more valuable than military advantage"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. The lecture says Ultra had to be used indirectly or selectively because the source could be more valuable than one target. A is false; Ultra was strategically useful. C is too absolute. D reverses the intelligence logic.",
+    "relevantTheory": "Using intelligence can reveal that you have intelligence. Ultra created choices between direct action, covered action, and no action. Commanders sometimes needed plausible explanations, delayed action, or partial action to preserve long-term access.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, slide/page 47-50"
+  },
+  {
+    "id": 246,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "DES",
+      "standards"
+    ],
+    "question": "Why did DES create a public trust problem even though it became a public encryption standard?",
+    "options": {
+      "A": "Because no government agency was involved at all",
+      "B": "Because it used no key",
+      "C": "Because NSA involvement, the 56-bit key length, and unexplained internal design choices made some researchers suspect classified weakening or state-level advantage",
+      "D": "Because it solved key distribution completely"
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct. DES was useful as a standard, but opaque national-security influence created trust concerns. A is false; NSA was involved. B is false; DES is symmetric. D is false; the lecture says DES did not solve key distribution.",
+    "relevantTheory": "When cryptography becomes infrastructure, standardization becomes strategic. DES supported interoperability and commercial encryption, but classified influence over public standards can create political and technical suspicion.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, slide/page 52-56"
+  },
+  {
+    "id": 247,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "GCHQ",
+      "classified prehistory"
+    ],
+    "question": "What is the main national-defence lesson of the GCHQ public-key prehistory?",
+    "options": {
+      "A": "Public-key cryptography was invented only once and immediately published",
+      "B": "The classified domain can be ahead of the public domain, but secrecy may delay recognition, patents, and civilian diffusion",
+      "C": "Public science and intelligence reward disclosure in the same way",
+      "D": "Key distribution was irrelevant to military communication"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. Ellis, Cocks, and Williamson developed non-secret encryption, RSA-like encryption, and DH-like key exchange inside GCHQ before public recognition. A and C contradict the lecture. D ignores the central problem.",
+    "relevantTheory": "The lecture contrasts public science, which publishes and rewards citation, with classified intelligence, which restricts disclosure to protect capability. Cryptographic knowledge itself is a strategic asset controlled through classification, disclosure timing, standards, patents, and historical narrative.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, slide/page 63-69"
+  },
+  {
+    "id": 248,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "process-chain",
+    "trapTags": [
+      "PGP",
+      "hybrid encryption"
+    ],
+    "question": "Which sequence best describes PGP hybrid encryption in the lecture?",
+    "options": {
+      "A": "Encrypt the whole email with RSA only, then discard the key",
+      "B": "Generate a random session key, encrypt the message symmetrically, encrypt the session key with the recipient's public RSA key, and send both encrypted items",
+      "C": "Send a password by courier for every message",
+      "D": "Publish the private key so everyone can verify confidentiality"
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. PGP combined public-key cryptography, symmetric encryption, signatures, key management, and email workflow. A is inefficient and not the lecture sequence. C is the old logistics problem. D destroys security.",
+    "relevantTheory": "PGP made strong cryptography usable for ordinary email users. Hybrid encryption solved the performance and key-distribution tradeoff: symmetric encryption handles message data quickly, while public-key encryption protects only the short session key.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, slide/page 72-76"
+  },
+  {
+    "id": 249,
+    "deck": "slides",
+    "moduleId": "module-h-crypto-national-defence",
+    "lectureId": "module-h-l1-crypto-national-defence",
+    "section": "National Defence",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "export control",
+      "product design"
+    ],
+    "question": "What does the lecture mean by saying cryptographic policy can become product design?",
+    "options": {
+      "A": "Legal export limits affected distribution, product strength, and architecture, such as export-grade browsers and TPM capability boundaries",
+      "B": "Cryptographic products are never influenced by law",
+      "C": "Policy only changes user manuals, not technical capabilities",
+      "D": "Export controls made all users receive stronger encryption"
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct. The lecture gives export-grade browsers and TPM 1.2/2.0 boundaries as examples. B and C deny the lecture's point. D reverses the export-grade problem, which created weaker classes for foreign users.",
+    "relevantTheory": "Crypto Wars shifted from controlling distribution of strong cryptography to controlling access to plaintext. Export controls affected who could receive strong crypto, what vendors shipped, and which cryptographic functions products exposed.",
+    "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf, slide/page 80-84"
+  },
+  {
+    "id": 250,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "OS services",
+      "execution environment"
+    ],
+    "question": "Which answer best describes the operating system services that make a general-purpose computer usable for programs?",
+    "options": {
+      "A": "The OS is mainly a cryptographic library that encrypts all files and network traffic.",
+      "B": "The OS only provides the graphical user interface; programs communicate directly with disks, memory, and devices.",
+      "C": "The OS only starts the first application at boot and then stops participating in execution.",
+      "D": "The OS loads and runs programs, manages I/O, files, communications, errors, resources, logging, and protection/security."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture lists program execution, I/O, filesystem manipulation, communications, error detection, resource allocation, logging, and protection/security as OS services. A confuses OS security support with cryptography alone. B is wrong because GUI is only one possible user interface and hardware access is mediated. C describes a much simpler bootloader-style setting, not a general-purpose OS.",
+    "relevantTheory": "The OS is an organized collection of software extensions of hardware. It creates an execution environment for programs and hides hardware details while managing shared resources such as memory, processes, devices, files, and security decisions.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 12-15"
+  },
+  {
+    "id": 251,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "protection",
+      "security",
+      "authentication"
+    ],
+    "question": "In the OS introduction lecture, what is the best distinction between protection and security?",
+    "options": {
+      "A": "Protection is only about passwords, while security is only about file permissions.",
+      "B": "Protection controls access to system resources; security concerns access attempts from outsiders, such as user authentication.",
+      "C": "Protection is implemented by the bootloader, while security is implemented only by applications.",
+      "D": "Protection and security are identical terms and the lecture makes no distinction between them."
+    },
+    "correctAnswer": "B",
+    "explanation": "B follows the slide wording: protection means controlled access to all system resources, while security concerns outsider access attempts such as authentication. A swaps and narrows the concepts. C invents an implementation split not in the lecture. D is wrong because the slide explicitly separates the two bullets.",
+    "relevantTheory": "Operating systems provide both protection and security. Protection is the internal control of resource access by subjects such as processes and users. Security is broader and includes preventing or handling access attempts, especially from outside the system boundary.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, page 15"
+  },
+  {
+    "id": 252,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "CLI",
+      "shell",
+      "user interface"
+    ],
+    "question": "What is the role of a command-line interface or shell command interpreter in the OS model?",
+    "options": {
+      "A": "It replaces the kernel and directly edits CPU microcode for every user command.",
+      "B": "It is only a graphics layer that converts icons into mouse events.",
+      "C": "It fetches commands from the user, such as program names or built-ins, and executes them through OS services.",
+      "D": "It stores the access-control matrix and decides all mandatory security labels."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture says the CLI is the first interface with the system, fetching commands and executing them. A is wrong because the shell does not replace the kernel. B describes a GUI, not a CLI. D confuses the shell with the access-control policy machinery discussed in the next lecture.",
+    "relevantTheory": "A user interface may be CLI or GUI. A CLI can be implemented in the kernel or as a system program, but its purpose is to accept commands and request the corresponding OS actions, not to become the whole OS.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 17-19"
+  },
+  {
+    "id": 253,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "system calls",
+      "read",
+      "API parameters"
+    ],
+    "question": "A program calls the POSIX-style read(fd, buf, count). Which interpretation matches the lecture's API example?",
+    "options": {
+      "A": "fd is the maximum number of bytes, buf is the file name, and count is the return value.",
+      "B": "fd is a kernel password, buf selects the CPU register, and count selects the privilege ring.",
+      "C": "fd is the destination file to create, buf is a permission mask, and count is the owner identifier.",
+      "D": "fd identifies the file to read, buf is where the data is saved, and count is the maximum amount of data to read."
+    },
+    "correctAnswer": "D",
+    "explanation": "D matches the slide: fd is the file descriptor, buf is the buffer for read data, and count is the maximum data to be read. A misplaces the parameters. B invents security meanings that are not part of read(). C confuses read() with file creation and permissions.",
+    "relevantTheory": "System calls are the programming interface to OS services, often reached through higher-level APIs. The caller follows the API contract, while the OS system-call interface maps the request to the kernel implementation and returns a result.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 20-25"
+  },
+  {
+    "id": 254,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "process control",
+      "system call types"
+    ],
+    "question": "Which operation belongs to the process-control category of system calls in the lecture?",
+    "options": {
+      "A": "Creating or terminating a process, loading or executing it, waiting for an event, or allocating and freeing memory.",
+      "B": "Changing the magnetic layout of an SSD sector without OS mediation.",
+      "C": "Issuing a payment-card cryptogram inside a secure element.",
+      "D": "Deciding whether a remote attestation nonce is fresh."
+    },
+    "correctAnswer": "A",
+    "explanation": "A lists the process-control examples from the lecture. B is not a normal OS system-call type as presented. C belongs to secure-element/payment examples in trusted computing, not OS process control. D belongs to remote attestation, not Module E system-call categories.",
+    "relevantTheory": "The lecture groups system calls by purpose. Process-control calls manage creation, termination, loading, execution, attributes, waiting, memory allocation/freeing, and debugging. Other categories manage files, devices, and protection.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, page 27"
+  },
+  {
+    "id": 255,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "file calls",
+      "device calls",
+      "protection calls"
+    ],
+    "question": "Which grouping correctly matches the lecture's file, device, and protection system-call types?",
+    "options": {
+      "A": "Files: only encryption; devices: only authentication; protection: only graphical windows.",
+      "B": "Files: create/delete/open/close/read/write; devices: read/write/request/release/get-set attributes; protection: access control and permissions.",
+      "C": "Files: PCR extension; devices: AK certification; protection: TPM quote verification.",
+      "D": "Files: packet routing; devices: DNS lookup; protection: TLS certificate pinning."
+    },
+    "correctAnswer": "B",
+    "explanation": "B follows the lecture's system-call type slides. A is a set of unrelated simplifications. C imports TPM concepts from Module F. D lists network/security examples but not the OS system-call categories shown in the lecture.",
+    "relevantTheory": "System calls expose OS services in organized families. File-management calls manipulate files, device-management calls mediate I/O devices, and protection calls check or change permissions and allow or deny access.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 28-29"
+  },
+  {
+    "id": 256,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "system-call numbers",
+      "system-call table"
+    ],
+    "question": "Why does a user program not need to know the internal implementation of each system call?",
+    "options": {
+      "A": "Because system calls are executed entirely by the graphics driver.",
+      "B": "Because all system calls are public scripts stored in the user's home directory.",
+      "C": "Because the system-call interface uses API rules and a numbered OS table to call the requested kernel service and return results.",
+      "D": "Because the CPU refuses to execute any instruction that was not typed in a shell."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: the lecture says each system call is typically associated with a number, the OS maintains a table, and the caller only needs to follow API rules. A, B, and D are not how the system-call interface is described.",
+    "relevantTheory": "The system-call interface is an abstraction boundary. User programs request services through stable APIs; the OS maps the request to the correct kernel routine and hides implementation details, which supports portability and controlled privilege transitions.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 20, 25-26"
+  },
+  {
+    "id": 257,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "open",
+      "O_CREAT",
+      "permissions"
+    ],
+    "question": "A C program runs open('/tmp/file', O_WRONLY | O_CREAT | O_TRUNC, mode). Which chain best describes what the OS is asked to do?",
+    "options": {
+      "A": "Read from standard input, encrypt the data, and send it to the TPM.",
+      "B": "Create a new process, schedule it, and wait for termination.",
+      "C": "Verify a Secure Boot signature before executing the file as a kernel.",
+      "D": "Open the file for writing, create it if needed, truncate existing contents, and use mode to set permissions if creation occurs."
+    },
+    "correctAnswer": "D",
+    "explanation": "D matches the open() example and flags. A mixes in unrelated encryption/TPM behavior. B describes process control, not file opening. C confuses a file-management system call with Secure Boot.",
+    "relevantTheory": "File-management system calls let programs create, open, close, read, write, and delete files through OS mediation. Flags describe desired behavior, while mode can define permissions for newly created filesystem objects.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 23, 28-29"
+  },
+  {
+    "id": 258,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "resource allocation",
+      "multi-user",
+      "multi-program"
+    ],
+    "question": "Two users run several programs at the same time and all request CPU time, memory, and files. Which OS purpose is most directly being exercised?",
+    "options": {
+      "A": "Resource allocation in a multi-user or multi-program scenario.",
+      "B": "Replacing the OS with a single bootloader-managed application.",
+      "C": "Disabling all communication between running programs.",
+      "D": "Removing the need for permissions because users are already logged in."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture says the OS manages multi-user/program scenarios where different entities request system resources. B describes simple single-application devices, not general-purpose OS behavior. C is too absolute because the OS manages communications. D is wrong because authentication does not eliminate access control.",
+    "relevantTheory": "A central OS function is coordinating shared resources. On general-purpose machines, multiple users and programs can run concurrently, so the OS must allocate memory, process execution, devices, files, and permissions predictably.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 9, 12-14"
+  },
+  {
+    "id": 259,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": [
+      "GUI",
+      "CLI",
+      "interfaces"
+    ],
+    "question": "Which statement correctly compares CLI and GUI according to the OS introduction slides?",
+    "options": {
+      "A": "A CLI can only be used by the kernel, while a GUI can only be used by device drivers.",
+      "B": "A CLI sends textual commands directly or through a system program; a GUI uses mouse, keyboard, monitor, icons, and more intuitive actions.",
+      "C": "A GUI is required for all operating systems and a CLI is not an OS interface.",
+      "D": "Both CLI and GUI are storage devices managed by the filesystem."
+    },
+    "correctAnswer": "B",
+    "explanation": "B reflects the lecture wording. A invents restrictions on who can use the interfaces. C is wrong because interfaces can be CLI-based or GUI-based. D confuses user interfaces with storage resources.",
+    "relevantTheory": "The OS offers an interface to users and programs. CLI and GUI are two forms of user interaction: one command-oriented, the other icon and input-device oriented. Both ultimately request OS services.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 13, 17-19"
+  },
+  {
+    "id": 260,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l1-os-introduction",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "policy",
+      "mechanism",
+      "abstraction"
+    ],
+    "question": "A course administrator states, 'Students may submit only one report,' while the site enforces it with database checks, file permissions, and logging. Which policy/mechanism interpretation is correct?",
+    "options": {
+      "A": "The database checks are the policy and the one-report rule is the mechanism.",
+      "B": "Both the rule and the implementation are mechanisms because security policies are only cryptographic.",
+      "C": "The one-report rule is the policy; the concrete checks, permissions, and logs are mechanisms that enforce it.",
+      "D": "The OS cannot separate policy from mechanism because users must implement security themselves."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: policy says what behavior is required, mechanism is how the system implements it. A reverses the terms. B wrongly limits policy to cryptography. D contradicts the lecture's point that the user states behavior and the system implements mechanisms.",
+    "relevantTheory": "Policy represents what needs to be done; mechanism represents how it is done. The OS abstracts implementation details so users or administrators can state desired rules while the system enforces them through concrete mechanisms.",
+    "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf, pages 33-34"
+  },
+  {
+    "id": 261,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "protection state",
+      "protection system"
+    ],
+    "question": "What is a protection system in the OS security lecture?",
+    "options": {
+      "A": "A bootloader-only device that runs a single application with no memory separation.",
+      "B": "A list of cryptographic algorithms supported by the filesystem.",
+      "C": "A GUI menu that lets users drag files between folders.",
+      "D": "A protection state describing permitted subject-object actions, plus operations that can change that state."
+    },
+    "correctAnswer": "D",
+    "explanation": "D follows the lecture definition. A is an OS-introduction example, not a protection system. B is unrelated to the access-control model. C is only a user-interface action and does not define subjects, objects, rights, or state transitions.",
+    "relevantTheory": "A protection system manages who may do what to which resource. Its state includes subjects, objects, and authorized actions; its operations define how permissions or labels can be changed over time.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 11-12"
+  },
+  {
+    "id": 262,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "access matrix",
+      "protection domain"
+    ],
+    "question": "In an access matrix, what does reading across one subject's row tell you?",
+    "options": {
+      "A": "All operations that subject is allowed to perform on the various objects in its protection domain.",
+      "B": "All hashes extended into TPM PCR 10 during runtime.",
+      "C": "The physical sectors occupied by every file on the disk.",
+      "D": "Whether Secure Boot stopped a component before execution."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because rows correspond to subjects and cells contain rights over objects. B is IMA/TPM terminology, not the access matrix. C describes storage layout, not authorization. D is a boot verification decision, not a matrix row.",
+    "relevantTheory": "The access matrix models protection domains: subjects are rows, objects are columns, and cells specify allowed operations. It is a conceptual way to reason about permissions before implementing them with ACLs, capabilities, or other mechanisms.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 12, 31-32"
+  },
+  {
+    "id": 263,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "mandatory protection",
+      "labels",
+      "transitions"
+    ],
+    "question": "Which statement best captures what makes a mandatory protection system different from a DAC-style protection system?",
+    "options": {
+      "A": "Mandatory protection lets every file owner freely add subjects, objects, and rights to the matrix.",
+      "B": "Mandatory protection eliminates labels because labels are only useful for discretionary ownership.",
+      "C": "Mandatory protection is modified only by authorized administrators through trusted software, using subject/object labels and authorized label transitions.",
+      "D": "Mandatory protection means all access decisions are made by the user interface instead of the OS."
+    },
+    "correctAnswer": "C",
+    "explanation": "C matches the lecture: mandatory protection relies on labels, labeling state, and transition state controlled by authorized administrators and trusted software. A describes the discretionary weakness. B is the opposite of MAC's label-based approach. D misplaces enforcement in the UI.",
+    "relevantTheory": "DAC allows resource owners to grant rights at their discretion. MAC/mandatory protection restricts changes to the protection state so untrusted processes cannot freely reshape labels, objects, subjects, or permissions.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 13-16"
+  },
+  {
+    "id": 264,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "RBAC",
+      "roles",
+      "permissions"
+    ],
+    "question": "What is the main security-management advantage of RBAC in the lecture?",
+    "options": {
+      "A": "It removes the need for authentication by giving every user the same rights.",
+      "B": "It stores one ACL per disk sector instead of per object.",
+      "C": "It makes each user the owner of every object they access.",
+      "D": "It assigns permissions through roles based on responsibility, so roles can be created, modified, or retired without editing every user one by one."
+    },
+    "correctAnswer": "D",
+    "explanation": "D reflects the RBAC slide. A violates access control. B is not RBAC. C describes neither RBAC nor least privilege; it sounds like uncontrolled discretionary ownership.",
+    "relevantTheory": "Role Based Access Control manages permissions according to organizational roles. Users receive roles tied to responsibility, authority, and competency, making administration easier when people or duties change.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, page 18"
+  },
+  {
+    "id": 265,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "reference monitor",
+      "authorization module",
+      "policy store"
+    ],
+    "question": "A process asks to open a protected file. Which reference-monitor flow is most accurate?",
+    "options": {
+      "A": "Interface hook captures the security-sensitive request; the authorization module maps process, object, and operation into a query; the policy store returns a yes/no decision.",
+      "B": "The file owner directly edits the kernel address space and then the policy store records the result later.",
+      "C": "The shell checks whether the file name looks safe and skips kernel mediation if the user is already logged in.",
+      "D": "The TPM signs the file contents and the OS grants access if the signature is fresh."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is the lecture's reference-monitor chain. B bypasses tamperproof enforcement. C violates complete mediation. D imports TPM attestation into ordinary OS access control and does not describe the reference monitor.",
+    "relevantTheory": "The reference monitor is the enforcement concept for access control. Its interface catches security-sensitive operations, its authorization module translates identities and objects into policy queries, and the policy store holds protection, labeling, and transition state.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 19-24"
+  },
+  {
+    "id": 266,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "ACL",
+      "capabilities",
+      "filesystem security"
+    ],
+    "question": "Which statement best describes filesystem access control in the lecture?",
+    "options": {
+      "A": "The filesystem only maps sectors to files; it has no role in security.",
+      "B": "Filesystems protect integrity by restricting read, modify, execute, and related actions using ACLs or capability-based controls.",
+      "C": "Only optical media such as CDs and DVDs can enforce access permissions.",
+      "D": "File access is secure once backup exists, so permissions are optional."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the lecture says the filesystem maintains data integrity through access controls such as ACLs or capabilities. A ignores the security role. C confuses filesystem examples with security properties. D overstates backup; backup is secondary defense, not a replacement for access control.",
+    "relevantTheory": "A filesystem structures storage into files and directories, but it also contributes to security. It maintains indexes and enforces who may read, modify, execute, delete, or even detect resources, depending on the design.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 25-29"
+  },
+  {
+    "id": 267,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "isolation",
+      "separation methods"
+    ],
+    "question": "A system prevents two sensitive jobs from running concurrently by scheduling them at different times. Which OS security method does this illustrate?",
+    "options": {
+      "A": "Physical isolation.",
+      "B": "Temporal isolation.",
+      "C": "Logical isolation.",
+      "D": "Cryptographic isolation."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because temporal isolation separates processes by time. A would use dedicated hardware terminals or devices. C would provide separate abstract workspaces. D would hide data using encryption.",
+    "relevantTheory": "OS security often depends on separation. The lecture lists physical, temporal, logical, and cryptographic isolation as ways to keep components from interfering with one another or seeing protected data.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, page 35"
+  },
+  {
+    "id": 268,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "security kernel",
+      "performance",
+      "reference monitor"
+    ],
+    "question": "Which statement about a security kernel is most consistent with the lecture?",
+    "options": {
+      "A": "It is a user application that stores passwords but cannot affect OS enforcement.",
+      "B": "It is only a faster GUI for administrators and never affects file size or speed.",
+      "C": "It is the hardware/software combination representing the reference monitor concept, enforcing security protocols but possibly affecting speed or file size.",
+      "D": "It is a TPM command that signs PCR values during remote attestation."
+    },
+    "correctAnswer": "C",
+    "explanation": "C matches the slide definition and tradeoff. A understates its role. B contradicts the possible performance and size impact. D confuses an OS security-kernel concept with TPM quote operations.",
+    "relevantTheory": "A security kernel is the core enforcement component for OS security. It is intended to represent the reference monitor idea at the hardware/software boundary, which makes its correctness and compactness important.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, page 36"
+  },
+  {
+    "id": 269,
+    "deck": "slides",
+    "moduleId": "module-e-os-security",
+    "lectureId": "module-e-l2-os-security",
+    "section": "OS Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "Android",
+      "Verified Boot",
+      "dm-verity"
+    ],
+    "question": "What is the correct Android verified-boot idea from the lecture?",
+    "options": {
+      "A": "Android waits until all applications are running, then asks each app whether the system partition is safe.",
+      "B": "Android Verified Boot replaces filesystem permissions, so app sandboxing is unnecessary.",
+      "C": "Each startup phase cryptographically validates the next stage from a hardware root of trust through the system partition; compromised software can be prevented from completing boot.",
+      "D": "Verified Boot is only a backup mechanism used after a device has already been compromised."
+    },
+    "correctAnswer": "C",
+    "explanation": "C follows the slide: Android verified boot and device-mapper-verity validate authenticity and integrity through startup stages, with stricter enforcement from Android 7.0. A trusts already-running software. B confuses boot integrity with runtime sandbox permissions. D misstates the preventive boot role.",
+    "relevantTheory": "Android combines Linux-based app isolation, unique app identities, SELinux MAC, a read-only system partition, Safe Mode, and Verified Boot. Verified Boot protects the startup chain; filesystem permissions and sandboxing protect runtime app separation.",
+    "source": "Cyber/Material(5)/Module-E_OS-Security.pdf, pages 44-49"
+  },
+  {
+    "id": 270,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "secure vs trusted",
+      "data in use"
+    ],
+    "question": "Why does the lecture say classical mechanisms such as disk encryption and TLS do not fully solve the trust problem?",
+    "options": {
+      "A": "They protect data at rest and in transit, but the hard question remains whether the platform processing data during computation is in an expected, uncompromised state.",
+      "B": "They are obsolete because operating systems no longer isolate processes.",
+      "C": "They prove that a platform has no vulnerabilities once it boots.",
+      "D": "They replace the need for any trust evidence from hardware or firmware."
+    },
+    "correctAnswer": "A",
+    "explanation": "A matches the lecture's motivation: data in use and platform state remain hard. B is false; OS isolation is one layer of defense. C overclaims security. D is wrong because trusted computing exists precisely to provide evidence beyond software claims.",
+    "relevantTheory": "Trusted Computing begins from the observation that modern systems protect data at rest and in transit better than data during computation. A platform may be compromised even while using TLS and storage encryption, so a verifier needs evidence about its real state.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 3-8"
+  },
+  {
+    "id": 271,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "TC",
+      "TEE",
+      "confidential computing"
+    ],
+    "question": "Which comparison between Trusted Computing and Trusted Execution Environments is correct?",
+    "options": {
+      "A": "Trusted Computing protects one small computation from the OS, while TEEs only report boot PCRs.",
+      "B": "Trusted Computing asks whether the platform is in an expected state; TEEs protect selected code and data from the normal OS or hypervisor.",
+      "C": "Trusted Computing and TEEs are identical because both install arbitrary applications inside a TPM.",
+      "D": "TEEs are used only for data at rest, while Trusted Computing is used only for network encryption."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is the lecture's contrast. A swaps the concepts. C is wrong because a TPM is not a general-purpose co-processor for arbitrary applications. D confuses both with storage and transport protection.",
+    "relevantTheory": "Trusted Computing makes platform state verifiable, mainly through measurement and attestation. TEEs reduce trust in the normal execution environment by protecting selected code and data in use, often with hardware isolation and sometimes attestation.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 7-10, 41"
+  },
+  {
+    "id": 272,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "EMV",
+      "smart card",
+      "nonce"
+    ],
+    "question": "In the simplified EMV flow, which sequence best reflects the lecture?",
+    "options": {
+      "A": "Issuer first approves the transaction, then the card chooses a payment application and asks for a PIN after settlement.",
+      "B": "The terminal reads the magnetic stripe only, sends no challenge, and receives the payment keys in plaintext.",
+      "C": "The consumer signs the transaction with the phone OS, then the card verifies the issuer.",
+      "D": "Terminal and card select the payment application, authenticate the card with a nonce, verify the cardholder such as by PIN, then generate and verify transaction cryptograms with the issuer."
+    },
+    "correctAnswer": "D",
+    "explanation": "D follows the two EMV flow slides. A reverses the decision order. B contradicts the move from magnetic stripe to chip cryptographic authentication and secret protection. C invents an OS-signed flow and reverses roles.",
+    "relevantTheory": "Smart cards and EMV illustrate isolated hardware security: long-term secrets stay inside the card, operations are exposed through controlled commands, nonces prevent replay, and cryptographic responses are bound to transaction data.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 15-19"
+  },
+  {
+    "id": 273,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "secure element",
+      "GlobalPlatform",
+      "security domains"
+    ],
+    "question": "A phone secure element hosts payment credentials for a bank and SIM credentials for a mobile operator without exposing one stakeholder's secrets to the other. Which GlobalPlatform concept explains this?",
+    "options": {
+      "A": "Security Domains managed under an Issuer Security Domain, with protected Secure Channel Protocols and lifecycle management.",
+      "B": "A single DAC owner who grants every applet ownership of every secret.",
+      "C": "PCR extension into the same register for all applets.",
+      "D": "A GUI sandbox that replaces all cryptographic management commands."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: GlobalPlatform uses the ISD, stakeholder Security Domains, SCPs, and lifecycle operations. B would destroy separation. C is TPM measurement terminology, not secure-element stakeholder control. D ignores APDU/SCP management.",
+    "relevantTheory": "Secure Elements generalize smart-card technology inside devices. GlobalPlatform allows multiple stakeholders to manage separated applications and credentials using domains, protected management channels, and lifecycle controls such as install, update, delete, and lock.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 20-24"
+  },
+  {
+    "id": 274,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "RoT",
+      "certification",
+      "misbehavior"
+    ],
+    "question": "Which property is most characteristic of a Root of Trust in the lecture?",
+    "options": {
+      "A": "It is a large application that can be patched by any user at runtime.",
+      "B": "It is implicitly trusted, small and protected, difficult to check for misbehavior at runtime, and used as the starting point for other security mechanisms.",
+      "C": "It is trusted only if its measurements are overwritten after every boot.",
+      "D": "It is a log file stored outside the TPM with no integrity relationship to hardware."
+    },
+    "correctAnswer": "B",
+    "explanation": "B follows the RoT slide. A contradicts small protected implementation. C contradicts tamper-evident measurement. D describes an unprotected log, not a root.",
+    "relevantTheory": "A Root of Trust is the beginning of a trust chain. The system assumes it performs a security-critical function correctly, often supported by certification and secure integration, because later mechanisms depend on it.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 26-28, 47"
+  },
+  {
+    "id": 275,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "Common Criteria",
+      "FIPS",
+      "certification"
+    ],
+    "question": "Which certification statement is most accurate according to the lecture?",
+    "options": {
+      "A": "Common Criteria and FIPS prove that a product is invulnerable in all deployments.",
+      "B": "EAL means encryption algorithm level, and it applies only to TLS certificates.",
+      "C": "Common Criteria evaluates a Target of Evaluation against security requirements and assurance rigor; FIPS 140-3 focuses on cryptographic modules and their algorithms, keys, physical security, authentication, and validation.",
+      "D": "Certification replaces the need for roots of trust because certified software can always report its own state honestly."
+    },
+    "correctAnswer": "C",
+    "explanation": "C correctly distinguishes Common Criteria and FIPS 140-3. A overclaims certification. B misdefines EAL as Evaluation Assurance Level. D is wrong because software-only reports can be forged by compromised privileged software.",
+    "relevantTheory": "Certification gives structured assurance against defined requirements and threat models. Common Criteria uses TOE, PP, Security Target, SFRs, SARs, and EALs; FIPS 140-3 targets cryptographic modules and security levels.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 30-34"
+  },
+  {
+    "id": 276,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "trusted computing goal",
+      "conditional trust"
+    ],
+    "question": "Which sequence best describes the Trusted Computing goal before deciding whether a platform can be trusted?",
+    "options": {
+      "A": "Identify relevant components, measure them, protect measurements from software tampering, report evidence to a verifier, then compare with expected values or policy.",
+      "B": "Ask the operating system whether it is fine, accept the answer, then delete the event log.",
+      "C": "Encrypt the disk, assume the kernel is clean, and skip configuration measurements.",
+      "D": "Run a TEE application and conclude that the whole platform booted correctly."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is the lecture's Trusted Computing process. B is exactly the software-only weakness. C protects data at rest but not platform-state trust. D confuses protecting a selected computation with verifying the broader boot/configuration state.",
+    "relevantTheory": "Trusted Computing establishes conditional trust. It does not assert universal security; it collects evidence about firmware, bootloaders, kernels, drivers, configuration, and security policy so a verifier can decide for a specific purpose.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 36-40"
+  },
+  {
+    "id": 277,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "PCR usage",
+      "event log",
+      "PCR meaning"
+    ],
+    "question": "Why is it dangerous to treat a PCR value as self-explanatory?",
+    "options": {
+      "A": "Because PCRs are normal writable registers and any process can set them to readable labels.",
+      "B": "Because a PCR value is meaningful only when the verifier knows what events were extended into it, often by checking the event log and platform profile.",
+      "C": "Because PCRs contain plaintext copies of all measured files.",
+      "D": "Because TPM 2.0 has no PCR banks or hash algorithms."
+    },
+    "correctAnswer": "B",
+    "explanation": "B matches the PCR/event-log slides. A is false because PCRs are shielded and extended, not normally overwritten. C is false; PCRs contain aggregate hashes, not files. D is false; TPMs can have banks such as SHA-1 or SHA-256.",
+    "relevantTheory": "PCRs are tamper-evident aggregates. Different PCR indexes are used for different platform-state areas, but the final value alone may not reveal the sequence of measurements, especially when configuration or order varies.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 55-60"
+  },
+  {
+    "id": 278,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l1-trusted-computing",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "TSS",
+      "TPM commands",
+      "resource manager"
+    ],
+    "question": "Why do applications normally use the TPM Software Stack instead of raw TPM commands?",
+    "options": {
+      "A": "Because the TSS abstracts command encoding, sessions, authorization, response decoding, resource management, and access to local, virtual, simulator, or remote TPMs.",
+      "B": "Because raw TPM commands are impossible for firmware to send during boot.",
+      "C": "Because the TSS stores all private TPM keys in application memory for speed.",
+      "D": "Because TPM commands are ordinary shell commands and need a GUI wrapper."
+    },
+    "correctAnswer": "A",
+    "explanation": "A follows the TSS slides. B is too broad and not the reason for application APIs. C contradicts TPM key protection. D misunderstands TPM binary command/response interfaces.",
+    "relevantTheory": "TPM commands have binary formats and often require sessions, HMACs, encrypted parameters, object loading, and resource management. TSS layers such as FAPI, ESAPI, SAPI/MUAPI, TCTI, and resource managers make TPM use practical.",
+    "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf, pages 66-68"
+  },
+  {
+    "id": 279,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "RATS",
+      "roles",
+      "verifier"
+    ],
+    "question": "In the RATS architecture, which role appraises evidence and produces attestation results?",
+    "options": {
+      "A": "The Attester, because it should decide whether its own evidence is acceptable.",
+      "B": "The Verifier, using reference values, endorsements, and appraisal policy.",
+      "C": "The Relying Party Owner, by measuring PCRs on the remote machine directly.",
+      "D": "The Reference Value Provider, by granting or denying runtime access to services."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct. The Attester creates evidence, the Verifier appraises it, and the Relying Party uses the result for access/trust decisions. The Relying Party Owner configures policy for interpreting results, and the Reference Value Provider supplies known-good or acceptable values.",
+    "relevantTheory": "RATS separates roles so trust decisions are structured. Evidence comes from the Attester; endorsements and reference values support appraisal; the Verifier applies policy; the Relying Party consumes the Attestation Result.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 5-9"
+  },
+  {
+    "id": 280,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Evidence",
+      "Endorsements",
+      "Reference Values"
+    ],
+    "question": "A verifier receives a firmware hash in Evidence. Which RATS input tells it which firmware hashes are acceptable?",
+    "options": {
+      "A": "The nonce, because it lists all approved firmware versions.",
+      "B": "The Attestation Result, because it is created before evidence is evaluated.",
+      "C": "Reference Values, because they contain known-good or acceptable measurements.",
+      "D": "The Relying Party's network address, because it identifies the expected bootloader."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct: Reference Values answer whether a reported measurement is expected. A nonce provides freshness, not known-good hashes. B is the verifier output after appraisal. D is unrelated to software measurement appraisal.",
+    "relevantTheory": "Evidence contains claims about identity and state. Endorsements support authenticity of trust anchors or attestation keys. Reference Values define acceptable measurements, while Appraisal Policy says how to evaluate matches, mismatches, warnings, and failures.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 8-11"
+  },
+  {
+    "id": 281,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "Privacy CA",
+      "AK",
+      "ActivateCredential"
+    ],
+    "question": "Which sequence best describes Privacy CA certification of an Attestation Key?",
+    "options": {
+      "A": "The verifier sends a nonce, the AK overwrites the EK, and the Privacy CA accepts any recovered PCR value.",
+      "B": "The Attester sends only PCR values, and the Privacy CA signs them if the event log is long enough.",
+      "C": "The TPM exports the EK private key so the Privacy CA can compare it with the AK private key.",
+      "D": "The Attester sends AK public key and EK certificate; the Privacy CA verifies the EK certificate, sends a challenge encrypted to the EK and bound to the AK; ActivateCredential proves EK and AK are in the same TPM; the CA issues an AK certificate."
+    },
+    "correctAnswer": "D",
+    "explanation": "D follows the lecture's simplified protocol. A invents key overwriting. B omits EK/AK binding. C is impossible and insecure because TPM private keys should not be exported.",
+    "relevantTheory": "The EK anchors trust in a genuine TPM but is privacy-sensitive and not used as the everyday signing key. A certified AK acts as an operational attestation identity, letting verifiers check quotes without repeated EK exposure.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 15-18"
+  },
+  {
+    "id": 282,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "verifier pipeline",
+      "quote verification",
+      "logs"
+    ],
+    "question": "Which verifier-side appraisal pipeline is correct for TPM-based attestation?",
+    "options": {
+      "A": "Authenticate the AK, verify quote signature/freshness/PCR selection, validate logs against quoted PCRs, appraise measurements against policy, then produce an Attestation Result.",
+      "B": "Read the logs first, trust them immediately, then ask the attester whether the quote would have matched.",
+      "C": "Compare the nonce to reference values, delete unknown measurements, and release access if the PCR string is non-empty.",
+      "D": "Let the relying party verify raw PCR extensions and skip certificates because logs explain platform identity."
+    },
+    "correctAnswer": "A",
+    "explanation": "A matches the verifier pipeline. B trusts unvalidated logs. C confuses freshness, reference values, and appraisal. D skips AK authentication and wrongly assigns verifier work to the relying party.",
+    "relevantTheory": "A verifier transforms evidence into an attestation result by checking authenticity, freshness, PCR coverage, log consistency, and policy compliance. Any failure in these foundational checks should reject the evidence before trust is granted.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 22-28"
+  },
+  {
+    "id": 283,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "Measured Boot",
+      "Secure Boot",
+      "Trusted Boot"
+    ],
+    "question": "Which statement correctly distinguishes Measured Boot, Secure Boot, and Trusted Boot?",
+    "options": {
+      "A": "Measured Boot blocks unauthorized components, Secure Boot records evidence only, and Trusted Boot is unrelated to remote attestation.",
+      "B": "Measured Boot records what was loaded, Secure Boot blocks unauthorized boot components during boot, and Trusted Boot lets a remote verifier evaluate boot state after boot.",
+      "C": "All three mean the TPM releases secrets only when PCR 10 matches IMA logs.",
+      "D": "Secure Boot requires IMA, while Measured Boot requires a Privacy CA to certify every kernel module."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is the lecture's comparison. A swaps measured and secure boot and misstates Trusted Boot. C confuses boot concepts with sealing and IMA. D invents requirements not in the slides.",
+    "relevantTheory": "Measured Boot records evidence, Secure Boot enforces a local boot decision, and Trusted Boot uses remote attestation to evaluate how the system started. Boot-time trust still does not prove all later runtime behavior.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 29-32"
+  },
+  {
+    "id": 284,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "IMA policy",
+      "runtime integrity",
+      "limitations"
+    ],
+    "question": "Which runtime item is most naturally covered by IMA measurement according to the lecture?",
+    "options": {
+      "A": "A user's unpredictable network traffic after an application starts.",
+      "B": "A process's changing heap memory after it has loaded.",
+      "C": "Every future behavior of an already measured application.",
+      "D": "A shared library or script selected by the configured IMA policy before it is used."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: IMA measures selected structured files such as executables, libraries, scripts, modules, configuration files, and policies. A and B are listed as dynamic data or runtime memory not solved by IMA. C overclaims what file measurement proves.",
+    "relevantTheory": "IMA extends the chain of trust from boot into the running Linux OS by measuring selected files before use according to policy. It helps verify what files the system uses after boot, but it does not prove absence of vulnerabilities or complete runtime behavior.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 34-36, 45"
+  },
+  {
+    "id": 285,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": [
+      "IMA measurement",
+      "PCR 10",
+      "LSM hook"
+    ],
+    "question": "When a file selected by IMA policy is accessed, which measurement chain is correct?",
+    "options": {
+      "A": "The application signs the file path, sends it to the Privacy CA, and overwrites PCR 0.",
+      "B": "The bootloader validates the file after execution and then deletes the IMA log.",
+      "C": "The LSM/IMA hook triggers, IMA checks policy, hashes the file, creates and appends a measurement event, and extends the event digest into a TPM PCR such as PCR 10.",
+      "D": "The verifier creates the file digest remotely and asks the attester to trust it without TPM evidence."
+    },
+    "correctAnswer": "C",
+    "explanation": "C follows the IMA Measurement slide. A confuses Privacy CA and PCR selection. B is backwards and destroys evidence. D skips local measurement and TPM anchoring.",
+    "relevantTheory": "IMA measurement is kernel-mediated. It creates a runtime measurement log and extends event digests into a TPM PCR, typically PCR 10, so remote verifiers can later check that the log is consistent with protected TPM state.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 37-41"
+  },
+  {
+    "id": 286,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": [
+      "IMA appraisal",
+      "IMA audit",
+      "EVM"
+    ],
+    "question": "Which statement correctly separates IMA Measurement, IMA Appraisal, and IMA Audit?",
+    "options": {
+      "A": "Measurement records selected file events and extends PCRs; Appraisal checks local file integrity using security.ima metadata and can deny access; Audit records events in audit logs.",
+      "B": "Measurement denies access, Appraisal stores TPM keys, and Audit certifies AKs through the Privacy CA.",
+      "C": "Measurement is only for network packets, Appraisal is only for user passwords, and Audit replaces the TPM quote.",
+      "D": "All three are identical names for Secure Boot."
+    },
+    "correctAnswer": "A",
+    "explanation": "A correctly separates the three IMA components. B and C mix unrelated TPM/key/network concepts into IMA. D confuses runtime Linux integrity mechanisms with boot verification.",
+    "relevantTheory": "IMA can be configured through policy to measure, appraise, and audit. Appraisal compares current file measurements with trusted extended attributes such as security.ima hashes or signatures; EVM protects extended attributes used by appraisal.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, page 37"
+  },
+  {
+    "id": 287,
+    "deck": "slides",
+    "moduleId": "module-f-trusted-computing",
+    "lectureId": "module-f-l2-ima-remote-attestation",
+    "section": "Trusted Computing",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "Keylime",
+      "continuous monitoring",
+      "revocation"
+    ],
+    "question": "After initial attestation succeeds, Keylime periodically receives fresh quotes and logs. What should happen if later evidence fails policy validation?",
+    "options": {
+      "A": "The verifier should ignore the failure because boot-time trust is permanent.",
+      "B": "The agent should overwrite the old IMA log so the PCR becomes acceptable.",
+      "C": "The registrar should certify a new EK without checking the TPM.",
+      "D": "The verifier should trigger revocation so infrastructure can deny access, isolate the node, revoke credentials, or remediate."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct: the continuous monitoring loop triggers revocation events on trust failure. A contradicts the runtime-trust limitation. B is tampering, and PCR/log validation should catch inconsistency. C misuses registration and EK concepts.",
+    "relevantTheory": "Remote attestation can be continuous. A node that was trusted initially may later execute unapproved components, so frameworks like Keylime re-challenge agents and notify infrastructure when trust fails.",
+    "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf, pages 47-49, 53"
+  },
+  {
+    "id": 288,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "resource constraints",
+      "lightweight cryptography",
+      "TLS/IPsec"
+    ],
+    "question": "A battery-powered medical sensor has little memory and processing power, but still needs confidentiality and integrity for transmitted measurements. Which design choice best matches the lecture's IoT security reasoning?",
+    "options": {
+      "A": "Use lightweight cryptography designed for constrained devices, while recognizing that it is an engineering trade-off between security strength and operational efficiency.",
+      "B": "Avoid cryptography because constrained IoT devices cannot provide any robust security.",
+      "C": "Use only a human password, because passwords are the most suitable mechanism for automated sensor-to-platform communication.",
+      "D": "Move all protection to the cloud and send sensor data in cleartext because the device layer is outside the security framework."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture presents lightweight cryptography as cryptography tailored to limited devices such as sensors, RFID tags, contactless smart cards, and medical equipment. B is wrong because constrained devices can still use suitable security mechanisms. C contradicts the slide warning that passwords are poorly suited for automated machine-to-machine authentication. D is wrong because IoT security must protect communication and data across layers, including smart objects and edge devices.",
+    "relevantTheory": "IoT security cannot simply copy heavyweight enterprise controls onto every device. Many smart objects have limited CPU, memory, energy, and interface capabilities, so security mechanisms must fit the device. Lightweight cryptography adapts cryptographic protection to constrained environments and can support confidentiality and integrity, but designers still need to consider efficiency, key management, and where stronger mechanisms such as gateways, HSMs, PKI, or TEEs are feasible.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 13-14, 39-42"
+  },
+  {
+    "id": 289,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "process-chain",
+    "trapTags": [
+      "device lifecycle",
+      "end of support",
+      "orphaned devices"
+    ],
+    "question": "Which lifecycle risk is most characteristic of IoT devices according to the lecture?",
+    "options": {
+      "A": "IoT devices normally stop working before vendor support ends, so old deployments rarely create security exposure.",
+      "B": "IoT devices can remain operational for a long time after manufacturer support ends, leaving orphaned devices without ongoing security enhancements.",
+      "C": "IoT devices are secure as long as they are physically durable, because durability and security support are the same property.",
+      "D": "IoT lifecycle risk is limited to cloud servers because edge devices never require maintenance after deployment."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the lecture stresses extended device life and end of support, where durable devices keep functioning after updates and support stop. A reverses the risk. C confuses physical durability with security maintenance. D ignores the lecture's focus on edge devices becoming orphaned or abandoned.",
+    "relevantTheory": "A major IoT trap is that a device can remain useful physically while becoming insecure operationally. Long-lived sensors, appliances, industrial devices, and controllers may outlast the manufacturer's security support. Once updates, patches, and security enhancements stop, vulnerabilities accumulate and the device becomes an orphaned endpoint that may still be connected to networks and physical processes.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, page 30"
+  },
+  {
+    "id": 290,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "updates",
+      "security management",
+      "user neglect"
+    ],
+    "question": "A vendor says its IoT camera is secure because firmware updates exist, but updates must be downloaded manually from a hidden support page and many users never apply them. What is the best course-aligned criticism?",
+    "options": {
+      "A": "The update mechanism is irrelevant because IoT devices do not need software changes once installed.",
+      "B": "Manual updates are always stronger than remote updates because user effort proves legitimacy.",
+      "C": "The device still suffers from the lecture's lack-of-upgrade problem: updates may exist, but inconvenient update paths lead users to overlook or ignore them.",
+      "D": "The only issue is data center security; endpoint update usability does not affect IoT risk."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture notes that many IoT devices are not built for frequent upgrades, and even available updates may be inconvenient enough that users ignore them. A denies the need for updates. B invents a false security benefit from inconvenience. D ignores that vulnerable endpoints can expose users, networks, and connected systems.",
+    "relevantTheory": "Security management in IoT must account for deployment reality, not just the existence of a patch. Devices should support practical update and credential-management processes throughout their lifespan. If users cannot easily see, trust, and apply updates, known vulnerabilities may remain present at scale. Secure Elements can help manage lifecycle credentials and over-the-air updates, but update design must be usable and reliable.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 31, 47"
+  },
+  {
+    "id": 291,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "device identity",
+      "PKI",
+      "mutual authentication"
+    ],
+    "question": "In an IoT deployment where devices and the platform must verify each other before exchanging data, which mechanism best supports stronger device identity than simple passwords?",
+    "options": {
+      "A": "Unlogged device nicknames chosen by users during installation.",
+      "B": "A shared default password printed in the manual for every device model.",
+      "C": "Disabling authentication because device-to-device traffic is automated.",
+      "D": "PKI certificates managed through roles, policies, and procedures for issuing, using, storing, and revoking digital certificates."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture presents PKI as a way to confirm identities of communicating parties when simple password authentication is inadequate. A is only a label, not a strong identity mechanism. B is especially weak because shared defaults scale compromise. C contradicts the mutual authentication and authorization requirement.",
+    "relevantTheory": "IoT devices are identifiable things connected to networks, so identity is central to access control and trustworthy communication. The lecture lists mutual authentication and authorization as an IoT requirement: both the device or user and the IoT platform verify identity and permissions before access. PKI supports this by managing digital certificates and public-key encryption, enabling stronger authentication and integrity protection than human-entered passwords in automated exchanges.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 9, 18, 42, 49"
+  },
+  {
+    "id": 292,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "network exposure",
+      "core network",
+      "endpoint scale"
+    ],
+    "question": "Why does IoT amplify security complexity in core networks even though the core network faces familiar kinds of security challenges?",
+    "options": {
+      "A": "Because IoT removes endpoint management from the network and leaves only cloud database security.",
+      "B": "Because the high volume of endpoints requiring interaction and management greatly increases the scale of the security problem.",
+      "C": "Because core networks cannot use confidentiality or integrity protections between layers.",
+      "D": "Because smart objects never communicate with central hubs, so the core network has no real role."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the lecture says the core network links central hubs and IoT devices and that many endpoints amplify security complexity. A wrongly removes endpoint management. C contradicts the Internet Protocol Security capability that protects data between layers. D contradicts the core network's role in transmission between hubs and devices.",
+    "relevantTheory": "IoT does not necessarily invent a new type of core-network security problem, but it changes the scale. A conventional core network already needs confidentiality, integrity, access control, monitoring, and resilience. IoT adds huge numbers of devices, protocols, and management interactions. Each endpoint can become a path for misuse, data exposure, or attack propagation, so network defenses must handle both traditional security controls and massive endpoint coordination.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 23-24, 27, 37"
+  },
+  {
+    "id": 293,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "privacy",
+      "limited transparency",
+      "data collection"
+    ],
+    "question": "A home assistant vendor adds a firmware feature that collects additional behavioral data, but users cannot inspect the device's internal processes or disable the collection. Which IoT challenge does this best illustrate?",
+    "options": {
+      "A": "Device homogeneity only, because all privacy problems come from identical hardware.",
+      "B": "Absence of physical tamper detection only, because data collection is unrelated to privacy.",
+      "C": "Internet Protocol Security only, because privacy is solved once traffic is encrypted.",
+      "D": "Limited transparency, because users must rely on assumptions about device behavior and may lack control over unwanted features or data collection."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture defines limited transparency as users being unable to monitor or control internal processes, unwanted features, or data collection, including changes introduced by manufacturer updates. A is too narrow. B ignores the privacy and data-management issue. C is wrong because encryption in transit does not by itself explain or control what the device collects.",
+    "relevantTheory": "Privacy in IoT is not only about eavesdropping. IoT devices collect data from physical environments and may infer behavior, habits, presence, health, or other sensitive facts. The lecture links data security and privacy across all layers and warns that limited transparency makes users dependent on manufacturer behavior. A privacy-aware IoT design should minimize unnecessary collection, protect stored and transmitted data, and give meaningful control and auditability where possible.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 16, 26, 32, 36"
+  },
+  {
+    "id": 294,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "physical exposure",
+      "tamper detection",
+      "edge devices"
+    ],
+    "question": "A city deploys environmental sensors on street furniture where attackers may physically reach them. Which security capability is most directly motivated by this deployment condition?",
+    "options": {
+      "A": "Tamper resistance and detection at the device and fog layers, because components may sit outside the enterprise's secured perimeter.",
+      "B": "Ignoring the device layer and protecting only the data center, because physical access does not matter for IoT.",
+      "C": "Replacing all sensors with user passwords, because physical tampering is primarily an authentication-interface problem.",
+      "D": "Removing network connectivity, because any communicating thing is no longer an IoT device."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture explicitly says tamper resistance and detection are crucial mainly at the device and fog layers, where components may be outside secured perimeters. B denies the physical exposure problem. C does not address manipulation, extraction, or replacement of devices. D contradicts the definition that communication is essential for IoT participation.",
+    "relevantTheory": "IoT extends computation into unusual or easily accessible locations, so the attacker may not need to break into a server room. Physical exposure can enable device theft, modification, sensor manipulation, credential extraction, or actuator abuse. Tamper resistance and detection, hardware roots of trust, secure elements, and careful deployment design help preserve authenticity and integrity of sensor data and protect actuators against unauthorized access.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 21, 26, 29, 47"
+  },
+  {
+    "id": 295,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": [
+      "cyber attacks",
+      "weakest links",
+      "controlled access"
+    ],
+    "question": "A compromised smart appliance is used as a foothold to attack other systems on the same connected environment. Which defense approach best matches the lecture's treatment of IoT cyber attacks?",
+    "options": {
+      "A": "Treat the appliance as harmless because only traditional computers can open a network to cyber threats.",
+      "B": "Focus on securing the weakest links and tailoring defenses such as continuous monitoring and controlled access.",
+      "C": "Disable all security audits because visibility increases the chance of compromise.",
+      "D": "Rely only on physical durability because cyber attacks require device failure first."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct because the lecture says connected IoT devices can open networks and systems to cyber threats, and effective defenses include securing weakest links, continuous monitoring, and controlled access. A contradicts the smart oven and sprinkler examples. C reverses the audit requirement. D confuses device reliability with cyber compromise.",
+    "relevantTheory": "IoT attacks matter because devices bridge digital networks and physical environments. A weak appliance, sensor, gateway, or actuator can expose connected systems, enable unauthorized commands, leak data, or create safety and property consequences. Practical defenses combine built-in security, encryption, risk analysis, access control, monitoring, authentication, and auditing rather than assuming small devices are too simple to be useful to attackers.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 34-38"
+  },
+  {
+    "id": 296,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": [
+      "data erasure",
+      "decommissioning",
+      "privacy"
+    ],
+    "question": "An organization retires IoT devices that stored local sensor histories and credentials. Which countermeasure from the lecture is most relevant before disposal or reassignment?",
+    "options": {
+      "A": "Blockchain, because appending records to a shared ledger automatically removes local device data.",
+      "B": "MFA, because asking two factors during login overwrites storage.",
+      "C": "Data erasure, because clearing or wiping overwrites existing information and should confirm complete removal across the device.",
+      "D": "Role-Based Access Control, because assigning a new role deletes all previous data."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture defines data erasure or wiping as overwriting storage with binary data and verifying complete removal. A describes a ledger technology, not sanitization. B strengthens identity checks but does not remove stored data. D controls permissions but does not by itself sanitize retired storage.",
+    "relevantTheory": "IoT lifecycle security includes what happens when devices are replaced, transferred, repaired, or discarded. Devices may contain sensor data, configuration, certificates, keys, logs, or user information. Data erasure reduces privacy and credential-leak risk by overwriting stored information and confirming the process across the whole device. Access control and authentication are still useful, but they are not substitutes for sanitizing storage at end of use.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 36, 48"
+  },
+  {
+    "id": 297,
+    "deck": "slides",
+    "moduleId": "module-g-iot-security",
+    "lectureId": "module-g-l1-iot-security",
+    "section": "IoT Security",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "trap",
+    "trapTags": [
+      "hardware crypto",
+      "HSM",
+      "secure cryptoprocessor"
+    ],
+    "question": "Which statement best distinguishes the purpose of HSMs and secure cryptoprocessors in the IoT countermeasures section?",
+    "options": {
+      "A": "They are both only password managers, so neither performs cryptographic operations.",
+      "B": "They are useful only for blockchain and have no role in authentication or key handling.",
+      "C": "They replace the need for all other security because physical tamper resistance alone solves privacy, updates, and network exposure.",
+      "D": "They protect cryptographic material and operations in dedicated hardware; an HSM manages keys and performs crypto tasks, while a secure cryptoprocessor keeps decrypted data or instructions inside a protected environment."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture defines HSMs as dedicated devices for key generation, secure key storage, management, authentication, and cryptographic operations, and secure cryptoprocessors as protected chips that perform cryptographic functions without exposing decrypted data or instructions outside the protected environment. A and B ignore their cryptographic and authentication roles. C overstates hardware protection and ignores layered IoT security requirements.",
+    "relevantTheory": "Hardware-backed security is valuable in IoT because software-only secrets may be exposed by physical access, weak operating environments, or large-scale compromise. HSMs can generate, store, and manage cryptographic keys and offload symmetric or asymmetric operations. Secure cryptoprocessors place cryptographic functions inside tamper-resistant packages so sensitive material does not leave a protected boundary. These tools support stronger systems but still need access control, updates, auditing, and network protection.",
+    "source": "Cyber/Module-G_IoT-Security.pdf, pages 39, 43, 51"
+  }
+];

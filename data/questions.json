@@ -253,9 +253,9 @@
       "C": "A1",
       "D": "Acm"
     },
-    "correctAnswer": "C",
-    "explanation": "C is correct because the horizontal eutectoid/austenite-pearlite transformation temperature used in the TTT diagram is A1. A is wrong because A2 is related to magnetic transformation, not the eutectoid transformation line in the TTT diagram. B is wrong because A3 is the austenite/ferrite boundary for hypoeutectoid steels. D is wrong because Acm is the austenite/cementite solubility boundary for hypereutectoid steels.",
-    "relevantTheory": "A1 is the eutectoid critical temperature for austenite to pearlite transformation; A3 and Acm define the austenite boundaries on the Fe-C phase diagram.",
+    "correctAnswer": "D",
+    "explanation": "D is correct because the C leader line points to the upper critical reference for the hypereutectoid AISI 1095 TTT diagram, which corresponds to Acm. C is wrong because A1 is the lower eutectoid reference line where pearlite transformation becomes relevant, not the upper C-temperature marker. A is wrong because A2 is the magnetic/Curie transformation. B is wrong because A3 is the hypo-eutectoid austenite/ferrite boundary, while 1095 is hyper-eutectoid.",
+    "relevantTheory": "For TTT diagrams tied to a specific steel composition, choose A3 or Acm from the carbon side of the alloy. Hypo-eutectoid steels use A3 as the upper austenite boundary, while hyper-eutectoid steels such as AISI 1095 use Acm. A1 is the lower eutectoid reference line associated with pearlite transformation.",
     "source": "PAST_EXAMS/QUESTIONS_SET_1.txt, lines 44-48; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf, p. 3; slides&docs/Lecture 9 Steel Heat Treatment.pdf, pp. 1-2; exams_images/photo_2026-02-13 21.45.40.jpeg; assets/exam-graphs/ttt-c-r-source.jpg",
     "visual": {
       "type": "image",
@@ -19669,8 +19669,8 @@
       "D": "50%M + 50%TM + BL"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because the 1-4 stepped path is quenched rapidly down near the martensite range and then held at low temperatures. It never spends an isothermal hold inside the pearlite or upper-bainite start/finish fields, so the product is mainly martensite followed by tempered martensite/lower-bainitic product, with about 10% retained austenite. B is wrong because it invents pearlite and upper bainite that the shown path does not enter. C is wrong because it overstates fresh martensite and omits retained austenite. D is wrong because it omits the retained-austenite fraction and does not match the stepped path percentages.",
-    "relevantTheory": "For TTT path questions, follow the actual thermal path, not only the available phase labels. Diffusional products such as pearlite and bainite form only if the path reaches their start/finish regions for enough time. A rapid quench below Ms forms martensite athermally; later low-temperature holds can temper martensite and may allow lower-bainitic transformation of remaining austenite, while some austenite can remain retained.",
+    "explanation": "A is correct because the 1-4 stepped path is quenched rapidly into the martensite range and then stepped at low temperature. The first martensite fraction is read from the martensite line reached by cooling; later low-temperature holding tempers already formed martensite and, in the professor's option wording, is grouped with the low-temperature TM+BL product. It does not mean pearlite or upper bainite formed. B is wrong because it invents pearlite and upper bainite that the shown path never enters. C is wrong because it overstates fresh martensite and omits retained austenite. D is wrong because it omits the retained-austenite fraction and does not match the stepped path percentages.",
+    "relevantTheory": "For TTT path questions, follow the thermal path in order. Diffusional products such as pearlite and bainite form only when the path enters their start/finish regions and remains there long enough. Martensite forms athermally during cooling below Ms; its fraction is controlled by the lowest martensite line reached, so holding at a constant temperature does not create more fresh martensite. Later low-temperature holding can temper martensite already formed, while any austenite not transformed by the reached martensite line remains retained austenite unless a valid bainite field is crossed.",
     "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 160-164; exams_images/photo_2026-02-13 21.45.49.jpeg; assets/exam-graphs/qs3-1060-ttt-path14-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -19839,7 +19839,8 @@
     "cardType": "graph-interpretation",
     "trapTags": [
       "E domain",
-      "ferrite+austenite"
+      "pearlite+austenite",
+      "leader-line endpoint"
     ],
     "diagramRequired": false,
     "question": "In the 38NiCr15 TTT diagram, what is the domain name of E?",
@@ -19849,9 +19850,9 @@
       "C": "F+A",
       "D": "P+A"
     },
-    "correctAnswer": "C",
-    "explanation": "C is correct because E's leader line points into the high-temperature transformation domain below the upper critical boundary but above the pearlite range, where proeutectoid ferrite has started while austenite remains. A is wrong because the arrow tip is not in the untransformed-austenite-only region. B is wrong because Cem+A is a hyper-eutectoid Fe-C phase-field idea, while 38NiCr15 is about 0.38%C and the marked TTT field is not cementite plus austenite. D is wrong because P+A belongs to the pearlite transformation range below the eutectoid/A1-type line, not the upper ferrite-plus-austenite field marked by E.",
-    "relevantTheory": "For a hypoeutectoid steel TTT diagram, the upper transformation range between the austenite boundary and the eutectoid/A1-type line corresponds to proeutectoid ferrite forming from austenite, so the mixed domain is F+A. Below the eutectoid line, pearlite transformation gives P+A while it is incomplete. Always read the leader-line tip, not just the printed letter location.",
+    "correctAnswer": "D",
+    "explanation": "D is correct because the E leader-line endpoint lies inside the right-hand pearlite transformation lobe, below the T2/A1 reference line, where pearlite has started forming while some austenite remains. A is wrong because the endpoint is not in the untransformed-austenite-only field. B is wrong because Cem+A would be the proeutectoid-cementite field for a hyper-eutectoid steel, but 38NiCr15 is about 0.38%C and is hypoeutectoid. C is wrong because F+A belongs to the upper proeutectoid-ferrite range between A3/T1 and A1/T2; the E endpoint is lower than that range.",
+    "relevantTheory": "For a hypoeutectoid steel TTT diagram, proeutectoid ferrite plus austenite is expected only in the upper transformation range between A3/T1 and A1/T2. Once the marked point is below A1/T2 and inside the pearlite start/finish lobe, the incomplete transformation domain is pearlite plus remaining austenite, written P+A. Always read the leader-line endpoint or dot, not only the printed letter position.",
     "source": "PAST_EXAMS/QUESTION_SET_3.txt, lines 239-243; exams_images/photo_2026-02-13 21.45.43.jpeg; assets/exam-graphs/ttt-38nicr15-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
@@ -20083,10 +20084,11 @@
     "cardType": "graph-calculation",
     "trapTags": [
       "0.8%C",
-      "austenite composition"
+      "austenite composition",
+      "gamma symbol"
     ],
     "diagramRequired": false,
-    "question": "For 0.8%C steel at 760 deg C in the figure, estimate the carbon content of the T phase.",
+    "question": "For 0.8%C steel at 760 deg C in the figure, estimate the carbon content of the gamma/austenite phase.",
     "options": {
       "A": "0.76%",
       "B": "0.022%",
@@ -20094,14 +20096,14 @@
       "D": "0.0025%"
     },
     "correctAnswer": "A",
-    "explanation": "A is correct because near the eutectoid composition and just above A1, the austenite/T phase is read at about 0.76%C. B is wrong because 0.022% is the maximum ferrite carbon solubility near A1. C is wrong because 6.7% is cementite. D is wrong because 0.0025% is room-temperature ferrite solubility.",
-    "relevantTheory": "For Fe-C lever-rule questions, read the phase field first, then use the tie-line endpoints. Pearlite has the eutectoid carbon content, and pearlite itself is mostly ferrite with about ten percent cementite by mass. Eutectoid austenite has about 0.76-0.77%C; ferrite and cementite endpoints are very different and are common distractors.",
+    "explanation": "A is correct because the exam's printed symbol is the gamma/austenite phase, which can look like a T in the photo. For a near-eutectoid 0.8%C steel at about 760 deg C, the austenite composition is read close to the eutectoid value, about 0.76%C. B is wrong because 0.022%C is the ferrite-side solubility near A1. C is wrong because 6.7%C is cementite. D is wrong because 0.0025%C is the room-temperature ferrite solubility.",
+    "relevantTheory": "For Fe-C lever-rule questions, identify the labelled phase before reading carbon content. Gamma/austenite near the eutectoid reaction has about 0.76-0.77%C. Ferrite contains very little carbon, about 0.022%C near A1 and about 0.0025%C at room temperature, while cementite is Fe3C at 6.67%C. The photo can make the gamma symbol look like T, but the intended phase is austenite/gamma.",
     "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 103-107; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
       "title": "Jan 2025 Variant B Fe-C and TTT figure",
       "src": "assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg",
-      "alt": "Cropped exam figure with T phase."
+      "alt": "Cropped exam figure with the gamma/austenite phase question."
     }
   },
   {

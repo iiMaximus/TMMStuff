@@ -1,0 +1,199 @@
+window.CYBER_CONTENT_MAP = {
+  "exam": {
+    "title": "Cybersecurity exam",
+    "dateLabel": "June 26",
+    "monthIndex": 5,
+    "day": 26,
+    "hour": 0,
+    "minute": 0
+  },
+  "decks": [
+    {
+      "id": "all",
+      "title": "Mix everything",
+      "shortTitle": "Mix",
+      "description": "Adaptive practice across every Cyber card."
+    },
+    {
+      "id": "slides",
+      "title": "Lecture cards",
+      "shortTitle": "Lectures",
+      "description": "Course cards generated from the Cyber lecture PDFs."
+    },
+    {
+      "id": "due",
+      "title": "Review mistakes",
+      "shortTitle": "Review",
+      "description": "Cards you missed or have not locked in yet."
+    }
+  ],
+  "modules": [
+    {
+      "id": "module-a-foundations",
+      "deck": "slides",
+      "section": "Foundations",
+      "title": "Module A: Security foundations",
+      "description": "Why cybersecurity matters, risk thinking, security properties, privacy, attacks, and MITRE mapping.",
+      "lectures": [
+        {
+          "id": "module-a-l1-why-cybersecurity",
+          "title": "A1: Why cybersecurity",
+          "source": "Cyber/Material(1)/Module-A_L1_Why-Cybersecurity.pdf"
+        },
+        {
+          "id": "module-a-l2-systems-risk",
+          "title": "A2: Systems thinking and risk",
+          "source": "Cyber/Material(1)/Module-A_L2_Systems-Thinking-and-Risk.pdf"
+        },
+        {
+          "id": "module-a-l3-security-crypto",
+          "title": "A3: Security properties and crypto",
+          "source": "Cyber/Material(1)/Module-A_L3_Security-Properties-and-Crypto.pdf"
+        },
+        {
+          "id": "module-a-l4-privacy-data",
+          "title": "A4: Privacy, data protection, secrecy",
+          "source": "Cyber/Material(1)/Module-A_L4_Privacy-Data-protection-Secrecy.pdf"
+        },
+        {
+          "id": "module-a-l5-cyber-attacks",
+          "title": "A5: Cyber attacks",
+          "source": "Cyber/Material(1)/Module-A_L5_Cyber-Attacks.pdf"
+        },
+        {
+          "id": "module-a-l6-mitre-defensive-mapping",
+          "title": "A6: MITRE ATT&CK and defensive mapping",
+          "source": "Cyber/Material(1)/Module-A_L6_MITRE-ATT&CK-and- Defensive-Mapping.pdf"
+        }
+      ]
+    },
+    {
+      "id": "module-b-human-factor",
+      "deck": "slides",
+      "section": "Human Factor",
+      "title": "Module B: Human factor",
+      "description": "Human error, phishing, social engineering, and physical attacks.",
+      "lectures": [
+        {
+          "id": "module-b-l1-human-factor",
+          "title": "B1: Human factor",
+          "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf"
+        },
+        {
+          "id": "module-b-l2-phishing",
+          "title": "B2: Phishing",
+          "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf"
+        },
+        {
+          "id": "module-b-l3-physical-attacks",
+          "title": "B3: Physical attacks",
+          "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf"
+        }
+      ]
+    },
+    {
+      "id": "module-c-cryptography",
+      "deck": "slides",
+      "section": "Cryptography",
+      "title": "Module C: Cryptography",
+      "description": "Core cryptographic ideas, goals, mechanisms, and common traps.",
+      "lectures": [
+        {
+          "id": "module-c-l1-crypto-part-i",
+          "title": "C1: Cryptography part I",
+          "source": "Cyber/Material(3)/Crypto_PartI.pdf"
+        },
+        {
+          "id": "module-c-l2-crypto-part-ii",
+          "title": "C2: Cryptography part II",
+          "source": "Cyber/Material(3)/Crypto_PartII.pdf"
+        }
+      ]
+    },
+    {
+      "id": "module-d-secure-design-access",
+      "deck": "slides",
+      "section": "Secure Design",
+      "title": "Module D: Secure design and access",
+      "description": "Access control definitions and security-by-design principles.",
+      "lectures": [
+        {
+          "id": "module-d-l1-access-control",
+          "title": "D1: Access control definitions",
+          "source": "Cyber/Material(4)/01-Access_Control_Definitions.pdf"
+        },
+        {
+          "id": "module-d-l2-security-by-design",
+          "title": "D2: Security by design",
+          "source": "Cyber/Material(4)/Security_By_Design.pdf"
+        }
+      ]
+    },
+    {
+      "id": "module-e-os-security",
+      "deck": "slides",
+      "section": "OS Security",
+      "title": "Module E: Operating system security",
+      "description": "OS foundations, protection boundaries, permissions, and attacks on operating systems.",
+      "lectures": [
+        {
+          "id": "module-e-l1-os-introduction",
+          "title": "E1: OS introduction",
+          "source": "Cyber/Material(5)/Module-E_OS-Introduction.pdf"
+        },
+        {
+          "id": "module-e-l2-os-security",
+          "title": "E2: OS security",
+          "source": "Cyber/Material(5)/Module-E_OS-Security.pdf"
+        }
+      ]
+    },
+    {
+      "id": "module-f-trusted-computing",
+      "deck": "slides",
+      "section": "Trusted Computing",
+      "title": "Module F: Trusted computing",
+      "description": "Trusted platforms, TPM-style roots of trust, integrity measurement, and remote attestation.",
+      "lectures": [
+        {
+          "id": "module-f-l1-trusted-computing",
+          "title": "F1: Trusted computing",
+          "source": "Cyber/Material(6)/Module-F-L1_Trusted-Computing.pdf"
+        },
+        {
+          "id": "module-f-l2-ima-remote-attestation",
+          "title": "F2: IMA and remote attestation",
+          "source": "Cyber/Material(6)/Module-F-L2_IMA-and-Remote-Attestation.pdf"
+        }
+      ]
+    },
+    {
+      "id": "module-g-iot-security",
+      "deck": "slides",
+      "section": "IoT Security",
+      "title": "Module G: IoT security",
+      "description": "IoT threat surfaces, constraints, and practical security controls.",
+      "lectures": [
+        {
+          "id": "module-g-l1-iot-security",
+          "title": "G1: IoT security",
+          "source": "Cyber/Module-G_IoT-Security.pdf"
+        }
+      ]
+    },
+    {
+      "id": "module-h-crypto-national-defence",
+      "deck": "slides",
+      "section": "National Defence",
+      "title": "Module H: Cryptography as national defence",
+      "description": "Cryptography as strategic infrastructure, policy tool, and national-security capability.",
+      "lectures": [
+        {
+          "id": "module-h-l1-crypto-national-defence",
+          "title": "H1: Cryptography as national defence",
+          "source": "Cyber/Module-H-L1_Cryptography-as-National-Defence.pdf"
+        }
+      ]
+    }
+  ]
+};

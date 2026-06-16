@@ -1,0 +1,380 @@
+[
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": ["human factor", "weakest link", "social engineering"],
+    "question": "Which statement best captures why the human factor is treated as central in Module B social engineering?",
+    "options": {
+      "A": "Humans can be manipulated into actions that bypass technical protections, such as opening links, sending money, or revealing credentials.",
+      "B": "Humans are relevant only when they intentionally install backdoors in software or hardware.",
+      "C": "Humans are usually safer than computers because firewalls, antivirus, and encryption remove the need for user judgment.",
+      "D": "Humans are considered a minor risk because social engineering requires advanced programming skills."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because the lecture frames humans as the weakest link: attackers manipulate people into performing malicious operations against themselves. B is too narrow and confuses intentional technical backdoors with human manipulation. C is the opposite of the Mitnick quotation used in the lecture. D is wrong because the slides explicitly say social engineering often does not require being a hacker or programmer.",
+    "relevantTheory": "Technical defenses matter, but social engineering attacks the person who uses the system. If a victim can be persuaded to download software, visit a malicious website, send money, open a physical door, or disclose a password, the attacker may avoid finding a software vulnerability at all.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 6-8 and 24"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["vulnerability classification", "intentional", "unintentional"],
+    "question": "In the lecture's vulnerability classification, which pairing is the best example of confusing the nature of a vulnerability with its domain?",
+    "options": {
+      "A": "Calling a software bug an unintentional vulnerability.",
+      "B": "Calling a backdoor intentional while also recognizing it may appear in a technology domain.",
+      "C": "Treating every human vulnerability as a software specification flaw.",
+      "D": "Separating vulnerabilities by nature, such as unintentional and intentional, and by domain, such as technology, organization, and human."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is the confused statement: the classification separates nature from domain, so a human vulnerability should not be reduced to a software specification flaw. A fits the slide's unintentional side. B is compatible with the idea that a vulnerability can have a nature and a domain. D restates the classification correctly.",
+    "relevantTheory": "The slide distinguishes two axes. One axis is the nature of the vulnerability, such as unintentional bugs or intentional backdoors. Another axis is the domain, such as technology, organization, or human. Social engineering belongs to the human side because it exploits behavior, good faith, and cognitive bias rather than only code.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 5 and 13"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": ["social engineering", "persuasion", "sensitive information"],
+    "question": "Which option is the most complete definition of social engineering according to the lecture?",
+    "options": {
+      "A": "A combination of sociological, psychological, and information-gathering techniques used to manipulate people into disclosing information, violating security measures, or enabling unauthorized access.",
+      "B": "Any attack that uses malware rather than cryptography.",
+      "C": "Only the act of guessing passwords by looking at public information.",
+      "D": "Only physical impersonation, such as pretending to be an employee at a door."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because it includes manipulation, persuasion, information gathering, and the three outcomes stressed in the slides. B is generic and malware-centered. C is only one possible preparatory activity. D captures one possible form but misses email, websites, attachments, credential theft, and other non-physical channels.",
+    "relevantTheory": "The lecture presents social engineering as both an art and a science of making people do what the attacker wants. Its goal may be to obtain sensitive information, make the victim perform an unsafe action, or gain unauthorized access to systems, networks, data, devices, or physical spaces.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 9-11"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["dual process theory", "System 1", "System 2"],
+    "question": "An employee instantly obeys a message that appears to come from the CEO and only later notices the email address was slightly wrong. Which explanation best matches dual process theory?",
+    "options": {
+      "A": "System 2 made a slow logical decision and correctly prioritized authority over sender verification.",
+      "B": "System 1 produced a fast emotional compliance response before System 2 performed deliberate checks.",
+      "C": "Both systems are equally slow, so the problem is only lack of technical training.",
+      "D": "System 1 is used only for mathematical reasoning, while System 2 detects emotion and authority."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: System 1 is fast, instinctive, emotional, and always active, so it can trigger compliance quickly. A wrongly assigns the fast response to System 2 and calls it correct. C ignores the lecture's distinction between intuitive and analytical cognition. D reverses the examples: emotion detection is System 1, while deliberate calculation is System 2.",
+    "relevantTheory": "Dual process theory divides decision-making into System 1 and System 2. System 1 is automatic, fast, low-effort, and emotional. System 2 is deliberate, slow, logical, effortful, and easily exhausted. Social engineers try to keep victims in System 1 by using pressure, authority, and emotion.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 14-17 and 21"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": ["urgent wire transfer", "authority", "urgency", "loss risk"],
+    "question": "In the lecture's urgent wire transfer example, which chain correctly explains how the attacker manipulates the victim?",
+    "options": {
+      "A": "Technical exploit -> firewall bypass -> encrypted transfer -> credential dump.",
+      "B": "Typos in the email -> antivirus warning -> sandbox execution -> safe deletion.",
+      "C": "CEO authority cue -> ten-minute deadline -> fear of losing the deal -> System 1 compliance before System 2 verification.",
+      "D": "Open-source intelligence only -> no emotional pressure -> victim performs a purely rational financial analysis."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because it follows the lecture's three bias triggers: authority, urgency, and loss risk. A describes a technical intrusion, not this social engineering case. B mixes unrelated defenses with no account of persuasion. D is wrong because the example depends precisely on emotional pressure and suppression of slow verification.",
+    "relevantTheory": "The attacker is not mainly hacking the computer; the attacker is exploiting cognitive biases. Authority makes a CEO request feel legitimate, urgency creates stress and suppresses slow System 2 thinking, and loss risk makes the employee act impulsively to avoid a negative outcome.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 20-22"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l1-human-factor",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "trap",
+    "trapTags": ["target selection", "help desk", "support staff"],
+    "question": "Which statement about social engineering targets is FALSE according to the lecture?",
+    "options": {
+      "A": "Each of us can be the chosen victim.",
+      "B": "Help desk, secretarial, and support staff are typical primary targets.",
+      "C": "Attackers may prefer fraudulently obtaining a password over searching for a technical vulnerability.",
+      "D": "Only senior technical administrators can be useful targets because other employees have no exploitable access."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is false because the lecture explicitly says each of us can be the victim and highlights help desk, secretarial, and support staff. A, B, and C are all aligned with the slides. The trap is assuming that only highly technical or highly privileged people matter.",
+    "relevantTheory": "Social engineering target selection is practical. Attackers often choose people who can be pressured, trusted, or used as a stepping stone. Support roles are attractive because they interact with many people and may be asked to reset accounts, share procedures, open doors, or handle requests quickly.",
+    "source": "Cyber/Material(2)/Module-B_L1-Human_Factor.pdf, slides/pages 23-24"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": ["cyber hygiene", "precautionary measures"],
+    "question": "What does the lecture mean by cyber hygiene in the phishing context?",
+    "options": {
+      "A": "A set of precautionary measures by organizations and individuals to help keep sensitive data safe and secure.",
+      "B": "A legal rule that makes phishing technically impossible after an email is reported.",
+      "C": "A malware family that disinfects Office documents before they are opened.",
+      "D": "A one-time awareness test that replaces daily caution around links and attachments."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is the lecture definition. B is wrong because cyber hygiene is not a magic legal or technical prevention. C invents a malware/disinfection meaning. D is wrong because the lecture presents hygiene as ongoing behavior and best practices, not a one-time substitute for suspicion.",
+    "relevantTheory": "Cyber hygiene is the routine set of precautions that reduce risk: suspicion toward unexpected emails, checking senders and destinations, avoiding unsafe links and attachments, restricting macros, and isolating risky actions in virtual machines or sandboxes when unavoidable.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 4-5 and 30-37"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "easy",
+    "cardType": "definition",
+    "trapTags": ["phishing", "credentials", "malicious links", "attachments"],
+    "question": "Which action is NOT one of the main goals of phishing listed in the lecture?",
+    "options": {
+      "A": "Tricking a victim into providing login credentials or bank and credit card details.",
+      "B": "Tricking a victim into clicking malicious links.",
+      "C": "Tricking a victim into opening attachments containing malware.",
+      "D": "Forcing a victim's computer to disclose secrets without any user interaction or deception."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is not a phishing goal as presented: phishing depends on tricking the victim. A, B, and C are exactly the three outcomes listed on the phishing definition slide. The distinction matters because phishing is a social engineering vector, not merely an automatic technical exploit.",
+    "relevantTheory": "Phishing is internet fraud where the attacker tricks the victim into giving personal information, clicking a malicious link, or opening a malicious attachment. It can be broad or targeted, but deception and victim action are central.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slide/page 8"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["spear phishing", "whaling", "BEC"],
+    "question": "A tailored email appears to come from a known vendor and asks the finance office to pay a fake invoice to a new account. Which classification is most precise?",
+    "options": {
+      "A": "Whaling, because every finance-related email targets only CEOs and CFOs.",
+      "B": "Smishing, because fake invoices are always sent by SMS.",
+      "C": "Business Email Compromise, a spear-phishing style attack against organizations for money or sensitive information.",
+      "D": "Ordinary non-targeted phishing, because vendor impersonation cannot be targeted."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because BEC uses apparently trusted contacts such as colleagues, vendors, partners, or customers to trick organizations into payments or disclosure. A is too narrow: whaling is spear phishing for highest-value targets. B changes the channel to SMS without evidence. D ignores the vendor impersonation and organizational payment goal.",
+    "relevantTheory": "Spear phishing is targeted at a specific person or role and often uses personal or contextual details. Whaling is spear phishing against high-ranking, high-value targets. BEC is a spear-phishing type attack where trusted business identity is abused to obtain money or sensitive information, sometimes using a compromised sender account.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 11-13"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["vishing", "smishing", "social media", "password reuse"],
+    "question": "Which scenario best matches the lecture's definition of smishing rather than vishing or social-media phishing?",
+    "options": {
+      "A": "A phone call uses caller ID spoofing and claims there is legal trouble unless money is sent immediately.",
+      "B": "A text message impersonates a mobile carrier, promises a free gift, and asks the user to update credit card details.",
+      "C": "A fake profile impersonates a friend and asks for login details, later enabling account takeover.",
+      "D": "A targeted email pretends to be the user's boss and mentions the user's vacation plans."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is smishing because it is SMS phishing through a fraudulent text message. A is vishing because it uses a voice call and caller ID spoofing. C is social-media phishing and account takeover. D is spear phishing by email.",
+    "relevantTheory": "The lecture separates phishing variants by channel and target. Vishing uses voice calls, often with caller ID spoofing and alarming claims. Smishing uses fraudulent SMS messages. Social-media phishing uses impersonation on social platforms, and password reuse increases the damage if one account is captured.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 14-15"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["phishing recognition", "sender", "domain", "typosquatting"],
+    "question": "An email appears to come from a university address, but the button opens a login page on an external domain that resembles the original and contains small typos. What is the best assessment?",
+    "options": {
+      "A": "It is safe because the visible sender address belongs to the university.",
+      "B": "It is suspicious because sender appearance, link destination, and copied landing pages must all be checked.",
+      "C": "It is safe if the landing page logo is correct, because logos prove domain ownership.",
+      "D": "It is suspicious only if the message has spelling errors in the subject line."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and matches the PoliTo example: a sender can look legitimate while the link points outside the organization and the landing page only resembles the real one. A and C over-trust visible identity cues. D is too narrow; typos are a signal, but domain mismatch alone is already dangerous.",
+    "relevantTheory": "Recognition signals include unknown or suspect sender, typos and spelling errors, urgent requests for confidential data, and subtle domain differences such as rnicrosoft.com instead of microsoft.com. More advanced examples may copy a real brand while using typosquatting or an external domain.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 16-17 and 25 and 29"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l2-phishing",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": ["attachments", "macros", "DDE", "sandbox"],
+    "question": "A colleague sends an unexpected Office file by email and says it must be opened immediately. Which response best follows the lecture's cyber hygiene guidance?",
+    "options": {
+      "A": "Open it because Office files are safer than executable programs.",
+      "B": "Enable macros if the document requests it, because macros are the only risky Office mechanism.",
+      "C": "Forward it to others so more people can decide whether it is legitimate.",
+      "D": "Treat it as suspicious, avoid opening or saving it, and if opening is unavoidable use an isolated VM or sandbox while macro/VBA execution is prevented."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct because the lecture warns against opening or saving attachments at the slightest suspicion and recommends VMs or sandboxes if opening is unavoidable. A is wrong because images, PDFs, and Office files may still be dangerous. B ignores DDE exploits, which can execute embedded code without the macro authorization request. C spreads risk.",
+    "relevantTheory": "Office documents can contain malicious code in macros or through DDE exploits. DDE was designed for data exchange between Office applications and is retained for backwards compatibility, but it can be abused to execute embedded code. Defensive hygiene includes suspicion, macro/VBA prevention policies, not emailing Office source files, quality PDF readers, and isolation for risky files.",
+    "source": "Cyber/Material(2)/Module-B_L2-Phishing.pdf, slides/pages 31-37"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "application",
+    "trapTags": ["baiting", "USB", "HID", "drive-by"],
+    "question": "A branded USB gadget is left where employees can pick it up. When connected, it behaves like a keyboard and rapidly runs commands that install a payload. Which attack is this?",
+    "options": {
+      "A": "Baiting through a Human Interface Device or USB drive-by attack.",
+      "B": "Dumpster diving because the victim found an object in a public area.",
+      "C": "Smishing because the attack uses a short physical message.",
+      "D": "Degaussing because the USB device erases the hard disk magnetically."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct: the bait is the attractive device, and the technical mechanism is a USB device simulating keystrokes as an HID/drive-by attack. B is wrong because dumpster diving is about collecting discarded material. C is SMS phishing, not USB. D is a sanitizing technique for magnetic media, not this attack.",
+    "relevantTheory": "Baiting uses an attractive object to make the victim take an unsafe action. USB baiting is especially dangerous because any USB-connected device, not only a pendrive, can infect a PC. A programmable device can act as a keyboard and execute a preconfigured sequence of keystrokes to drop a malicious payload.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 7-14"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "process-chain",
+    "trapTags": ["baiting", "kill chain", "Google campaign"],
+    "question": "What is the most important lesson from the Google USB plasma globe campaign described in the lecture?",
+    "options": {
+      "A": "A baiting attack can be only a harmless awareness exercise if the first infected users are not the final target.",
+      "B": "A physical bait can become the first link of a kill chain, compromising identities and privileges that are then used to reach the real target.",
+      "C": "USB attacks require expensive custom hardware and are therefore unrealistic for ordinary organizations.",
+      "D": "Employees always raise alarms quickly once a suspicious USB device starts sending keystrokes."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct: the initial infected employees were not related to Google Glass, but their identities and privileges were used to send further malicious emails and reach the target. A is wrong because the attack still succeeded. C contradicts the slide on low cost and available tools. D contradicts the reported result: zero alarms were raised.",
+    "relevantTheory": "Physical attacks can chain into digital compromise. In the lecture example, a USB gift sent keystrokes, downloaded a payload, enabled remote access, let attackers impersonate victims, and eventually helped retrieve target fingerprints and files. The reported outcome included compromised accounts, stolen data, and no alarms.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 15-18"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["smartphone charging", "USB data pins", "cyber hygiene"],
+    "question": "When charging a smartphone in a hotel or public area, which practice best matches the lecture's guidance?",
+    "options": {
+      "A": "Plug directly into the public USB outlet because charging cables only carry power.",
+      "B": "Use any borrowed USB cable if the phone displays the normal charging icon.",
+      "C": "Use a wall charger connected to the electrical outlet, or insert a data-blocking device that connects only the power pins.",
+      "D": "Disable the screen lock, because charging attacks depend only on the screen being locked."
+    },
+    "correctAnswer": "C",
+    "explanation": "C is correct because the lecture says to connect the charger to an electrical outlet rather than directly to a USB outlet, or to use a device that leaves data pins disconnected. A is false because USB can carry data as well as power. B over-trusts the cable. D is unrelated and weakens physical security.",
+    "relevantTheory": "The baiting lesson extends to smartphones: any USB connection may expose a device to data transfer or attack. A charge-only adapter or data blocker reduces this by connecting only the power pins. The lecture also notes that even charging can leak information in research settings through power-consumption analysis.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 19-22"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "definition",
+    "trapTags": ["dumpster diving", "deletion", "sanitizing"],
+    "question": "Why is simply deleting files before disposing of a device insufficient against dumpster diving?",
+    "options": {
+      "A": "Because deleting a file always sends a full readable copy to the attacker by email.",
+      "B": "Because deletion normally tells the operating system the space may be reused, while the data can remain physically stored until overwritten.",
+      "C": "Because dumpster diving applies only to paper documents, not storage devices.",
+      "D": "Because GDPR requires keeping deleted files recoverable forever."
+    },
+    "correctAnswer": "B",
+    "explanation": "B is correct and follows the lecture's explanation of deletion. A is invented. C is false because discarded PCs, external HDDs, USB sticks, tablets, smartphones, printers, and other devices are explicitly listed. D reverses the point of secure deletion obligations.",
+    "relevantTheory": "Dumpster diving is collection and analysis of discarded material. Storage devices are dangerous because normal deletion often removes a reference rather than physically destroying the data. Sanitizing is the process of removing sensitive data so it cannot be recovered by any known technique before reuse, resale, donation, disposal, or return.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 24-28 and 33-35"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "medium",
+    "cardType": "trap",
+    "trapTags": ["degaussing", "wiping", "sanitizing"],
+    "question": "Which statement correctly distinguishes degaussing from wiping in the lecture's sanitizing approaches?",
+    "options": {
+      "A": "Degaussing writes new data over every bit, while wiping removes the magnetic field of a hard disk.",
+      "B": "Both terms mean deleting files through the operating system recycle bin.",
+      "C": "Degaussing is only for social-media accounts, while wiping is only for printed notebooks.",
+      "D": "Degaussing removes or reduces the magnetic field of suitable media, while wiping overwrites file data with new data."
+    },
+    "correctAnswer": "D",
+    "explanation": "D is correct. A reverses the definitions. B confuses sanitizing with ordinary deletion, which is insufficient. C is unrelated to the hardware/software distinction on the slides.",
+    "relevantTheory": "Sanitizing approaches depend on the required security level and the device type. Degaussing is a hardware-oriented technique for magnetic media and can render disks inoperable by erasing low-level formatting. Wiping, also called overwriting or shredding, writes new data over bits or blocks of file data.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 29-32"
+  },
+  {
+    "deck": "slides",
+    "moduleId": "module-b-human-factor",
+    "lectureId": "module-b-l3-physical-attacks",
+    "section": "Human Factor",
+    "sourceType": "slides",
+    "difficulty": "hard",
+    "cardType": "application",
+    "trapTags": ["keylogger", "piggybacking", "physical access", "man-in-the-video"],
+    "question": "Which defensive reasoning best combines the lecture's final physical-attack lessons?",
+    "options": {
+      "A": "Physical access can bypass strong digital defenses, so protect unattended devices, control office access, use screen locks/privacy filters, and distrust suspicious cables or peripherals.",
+      "B": "Cleaning staff should be allowed into sensitive unattended offices because keyloggers are only software.",
+      "C": "Privacy filters and screen locks are useful only against malware, not against people nearby.",
+      "D": "Encryption, firewalls, and 2FA make physical access irrelevant, so office procedures are secondary."
+    },
+    "correctAnswer": "A",
+    "explanation": "A is correct because it connects keylogger hygiene, piggybacking defenses, and the warning that physical access attacks the environment rather than only the network. B ignores hardware keyloggers and the warning about unattended sensitive offices. C reverses the purpose of privacy filters and screen locks. D contradicts the lecture's physical access slide.",
+    "relevantTheory": "Keyloggers can be hardware devices placed in keyboard paths or software at hypervisor, kernel, API, or form-grabbing level. Piggybacking or shoulder surfing uses proximity to gain access to restricted areas or information. Physical access can defeat otherwise strong digital controls, and even cables can be malicious, as in man-in-the-video attacks that manipulate HDMI output.",
+    "source": "Cyber/Material(2)/Module-B_L3-Physical_Attacks.pdf, slides/pages 37-49"
+  }
+]
