@@ -20145,7 +20145,8 @@ window.TMM_QUESTIONS = [
     "cardType": "graph-interpretation",
     "trapTags": [
       "G field",
-      "martensite+austenite"
+      "martensite+austenite",
+      "field vs final products"
     ],
     "diagramRequired": false,
     "question": "In the Jan 2025 Variant B TTT diagram, indicate the G-field name.",
@@ -20156,8 +20157,8 @@ window.TMM_QUESTIONS = [
       "D": "M+A"
     },
     "correctAnswer": "D",
-    "explanation": "D is correct because G lies in the martensite plus remaining-austenite region below the martensite-start line. A is wrong because single martensite omits the remaining austenite indicated by the field. B is wrong because ferrite plus cementite is an equilibrium phase pair, not this TTT field. C is wrong because tempered/lower-bainitic product is not the G field label here.",
-    "relevantTheory": "TTT diagrams show transformation products as a function of temperature and time. Read the named temperature line, the field label, and the path through start/finish or percentage curves before estimating final microstructure. Martensitic regions are not always 100% martensite; between Ms and completion, martensite coexists with retained austenite.",
+    "explanation": "D is correct because the question asks for the G-field name, not for the final product mixture along a cooling path. In the printed TTT map, G is the low-temperature martensitic field: after crossing below Ms, part of the austenite transforms athermally to martensite while some austenite is still untransformed, so the field is written M+A. A is wrong because single martensite omits the remaining austenite. B is wrong because ferrite plus cementite is an equilibrium phase pair, not the named low-temperature TTT field. C is tempting, but AR+TM-BL is a final-product/path bookkeeping answer after tempering or lower-bainitic transformation is considered; it is not the static G-field label here.",
+    "relevantTheory": "For these professor-style TTT questions, separate field naming from final product accounting. A field below Ms is commonly labelled M+A because fresh martensite forms diffusionlessly during cooling while untransformed austenite remains. AR, TM and BL are used when a specific thermal path has been followed: martensite may become tempered martensite during a hold, some remaining austenite may transform toward lower bainite, and any leftover austenite at the end is residual austenite. Therefore G-field name = M+A, while path-product mixtures may include TM-BL and AR.",
     "source": "PAST_EXAMS/QUESTION_SET_4.txt, lines 113-117; exams_images/photo_2026-02-13 21.46.08.jpeg; assets/exam-graphs/qs4-b-4140-fec-ttt-source.jpg; slides&docs/Lecture 6 Fe-Fe3C Phase Diagram.pdf; slides&docs/Lecture 9 Steel Heat Treatment.pdf",
     "visual": {
       "type": "image",
