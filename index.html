@@ -71,6 +71,11 @@
               <span id="dueCardCount">0 cards</span>
               <small>Only the cards still waiting to lock in.</small>
             </button>
+            <button class="mini-card oral-card" type="button" id="oralModeButton">
+              <strong>Oral exam mode</strong>
+              <span id="oralCardCount">0 cards</span>
+              <small>Answers and theory opened for fast speaking practice.</small>
+            </button>
           </aside>
         </section>
 
@@ -82,6 +87,19 @@
             </span>
           </summary>
           <div class="choice-grid lecture-grid" id="lectureGrid"></div>
+        </details>
+
+        <details class="home-section picker-section" id="summaryPicker" open>
+          <summary>
+            <span>
+              <strong>Lecture summaries</strong>
+              <small>Oral-exam bullet points for every lecture.</small>
+            </span>
+          </summary>
+          <div class="summary-shell">
+            <div class="summary-tabs" id="summaryTabs" aria-label="Lecture summaries"></div>
+            <article class="summary-card" id="summaryCard" aria-live="polite"></article>
+          </div>
         </details>
 
         <details class="home-section picker-section" id="graphPicker" open>
@@ -367,8 +385,8 @@
       </section>
     </main>
 
-    <script src="data/questions.js?v=20260616-epoint-fix"></script>
-    <script src="data/content-map.js?v=20260616-epoint-fix"></script>
-    <script src="app.js?v=20260616-epoint-fix"></script>
+    <script src="data/questions.js?v=20260619-oral-mode"></script>
+    <script src="data/content-map.js?v=20260619-oral-mode"></script>
+    <script src="app.js?v=20260619-oral-mode"></script>
   </body>
 </html>

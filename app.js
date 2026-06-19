@@ -131,6 +131,317 @@ const TTT_TUTORIAL_STEPS = [
   }
 ];
 
+const LECTURE_SUMMARIES = [
+  {
+    moduleId: "lecture-1-intro",
+    focus: "How metals are studied: structure, defects, diffusion and the link between processing and properties.",
+    core: [
+      "Use the processing -> structure -> properties -> performance chain when answering broad oral questions.",
+      "Know the observation scale: OM for micrometre grains/phases, SEM for surface and fine microstructure, TEM for nanoscale defects, XRD for crystal structure, phases, lattice spacing and residual stress.",
+      "Metallic bonding is non-directional; this explains ductility, electrical/thermal conductivity and why crystal defects can move.",
+      "Crystal structure matters: FCC is close packed and usually very ductile; BCC is less close packed and often has faster diffusion; HCP has fewer easy slip systems.",
+      "Point, line, surface and volume defects control real material behaviour: vacancies/interstitials, dislocations, grain boundaries and inclusions.",
+      "Do not confuse solubility with diffusivity: larger interstitial sites help solubility, while available jump paths and activation energy control diffusion."
+    ],
+    oral: [
+      "Start answers from length scale and instrument choice, then connect the observation to a property.",
+      "When asked why metals deform plastically, say dislocation motion rather than whole planes sliding at once.",
+      "If diffusion appears, mention temperature dependence and crystal structure before giving a one-line conclusion."
+    ],
+    traps: [
+      "XRD is not mainly an imaging microscope.",
+      "FCC having larger interstitial sites does not automatically mean faster diffusion than BCC.",
+      "Perfect crystals are teaching models; engineering properties come from defects and microstructure."
+    ]
+  },
+  {
+    moduleId: "lecture-2-metals",
+    focus: "Crystal structures, metallic properties, microstructure detection and why metals behave differently from ceramics and polymers.",
+    core: [
+      "BCC, FCC and HCP are the main metallic structures; packing, coordination and slip systems explain ductility and diffusion differences.",
+      "FCC metals generally deform easily because they have many close-packed slip systems; BCC slip can be temperature sensitive.",
+      "HCP metals can be less ductile at room temperature because fewer independent slip systems are available.",
+      "Microstructure contains grains, grain boundaries, phases, precipitates, inclusions and pores; it is not only the chemical composition.",
+      "Electrical and thermal conductivity come from mobile electrons; modulus and melting point come from bond strength and interatomic potential.",
+      "A phase is a physically and chemically uniform region; a grain is a crystal region with one orientation."
+    ],
+    oral: [
+      "For any structure question, answer using packing, slip, interstitial space and defect movement.",
+      "For microscopy questions, state what each tool sees and why that scale matters.",
+      "For property questions, connect atomic bonding to microstructure, then to macroscopic behaviour."
+    ],
+    traps: [
+      "Do not call SEM/TEM manufacturing processes.",
+      "Do not say optical microscopy reaches atomic spacing.",
+      "Do not mix up grain boundaries with phase boundaries; they can coincide but are not the same concept."
+    ]
+  },
+  {
+    moduleId: "lecture-3-condon-morse",
+    focus: "Atomic bonding, Condon-Morse potential, alloy formation and the Hume-Rothery rules.",
+    core: [
+      "The Condon-Morse curve links interatomic distance to potential energy; the minimum gives equilibrium spacing and bond energy.",
+      "A deeper, steeper potential well means higher modulus, higher melting tendency and lower thermal expansion.",
+      "Substitutional solid solutions replace solvent atoms; interstitial solid solutions put small atoms into interstitial sites.",
+      "The Hume-Rothery rules for extensive substitutional solubility are atomic size similarity, same crystal structure, similar electronegativity and favourable valency.",
+      "If atomic size mismatch is large, lattice strain increases and solubility decreases.",
+      "Alloys can be single-phase solid solutions or multiphase microstructures; the phase diagram tells which is expected at equilibrium."
+    ],
+    oral: [
+      "For Hume-Rothery, list all four rules and say what each one physically prevents.",
+      "For Condon-Morse, sketch the idea verbally: attraction, repulsion, equilibrium distance and well depth.",
+      "When explaining alloy formation, separate atomic-scale solubility from microstructure-scale phases."
+    ],
+    traps: [
+      "High melting point is not only atomic mass; bond strength is central.",
+      "Similar crystal structure helps substitutional solubility but does not guarantee unlimited solubility alone.",
+      "Interstitial alloying needs small atoms; normal-size metal atoms do not fit interstitially."
+    ]
+  },
+  {
+    moduleId: "lecture-4-microplasticity",
+    focus: "Dislocations, slip, twinning and the microscopic start of plastic deformation.",
+    core: [
+      "Plastic deformation in metals occurs mainly by dislocation motion on slip systems.",
+      "A slip system is a slip plane plus slip direction; close-packed planes and directions are usually easiest.",
+      "Schmid law uses resolved shear stress: tau = sigma cos(phi) cos(lambda); slip starts when tau reaches CRSS.",
+      "Edge and screw dislocations have different line/Burgers-vector geometry but both allow plastic strain at much lower stress than ideal shear.",
+      "Twinning reorients part of a crystal and becomes important when slip is limited, especially in some HCP metals.",
+      "Stacking fault energy influences cross-slip, twinning tendency, work hardening and deformation mode."
+    ],
+    oral: [
+      "If asked about yielding, describe resolved shear stress and CRSS rather than only macroscopic stress.",
+      "For ductility differences, compare available slip systems and obstacles to dislocation motion.",
+      "For twinning, say it changes orientation and can help deformation when ordinary slip is difficult."
+    ],
+    traps: [
+      "Do not say plasticity requires breaking all bonds across a whole plane at once.",
+      "Schmid factor is geometric; it is not a new material constant.",
+      "More dislocations can make further deformation harder because they interact and block each other."
+    ]
+  },
+  {
+    moduleId: "lecture-5-strengthening",
+    focus: "How metals are strengthened by blocking dislocation motion, and what is lost in return.",
+    core: [
+      "All main strengthening mechanisms work by making dislocation motion harder.",
+      "Cold work increases dislocation density, raising strength and hardness while reducing ductility.",
+      "Grain refinement strengthens by Hall-Petch: grain boundaries interrupt slip and shorten dislocation motion distance.",
+      "Solid solution strengthening comes from lattice strain fields around solute atoms.",
+      "Precipitation/age hardening uses fine particles that dislocations cut or bypass; overaging coarsens particles and lowers strength.",
+      "Recovery, recrystallization and grain growth progressively reduce stored cold-work energy and change strength/ductility."
+    ],
+    oral: [
+      "For any strengthening route, identify the obstacle to dislocations and the processing step that creates it.",
+      "Always mention the tradeoff: strength usually rises at the cost of ductility or toughness.",
+      "For precipitation hardening, say solution treatment, quench, age, then possible overaging."
+    ],
+    traps: [
+      "Bigger precipitates are not always stronger; fine coherent particles are often best before overaging.",
+      "Annealing after cold work can remove the strengthening you just created.",
+      "Hall-Petch is grain-size strengthening, not precipitation hardening."
+    ]
+  },
+  {
+    moduleId: "lecture-6-fe-c",
+    focus: "Fe-Fe3C equilibrium diagram, phases, invariant reactions and lever-rule style reasoning.",
+    core: [
+      "Key phases are ferrite alpha, austenite gamma, cementite Fe3C, liquid and mixtures such as pearlite and ledeburite.",
+      "The eutectoid reaction is about 0.76 wt% C at about 727 C: austenite transforms to ferrite plus cementite, seen as pearlite.",
+      "Hypoeutectoid steels form proeutectoid ferrite plus pearlite; hypereutectoid steels form proeutectoid cementite plus pearlite.",
+      "A1 is the eutectoid temperature; A3 bounds austenite plus ferrite on the low-carbon side; Acm bounds austenite plus cementite on the high-carbon side.",
+      "The lever rule estimates phase or microconstituent fractions by opposite tie-line lengths.",
+      "Carbon content of a phase is read from the phase boundary at that temperature, not from the overall alloy composition unless the alloy is single phase."
+    ],
+    oral: [
+      "First identify alloy carbon content, then locate the temperature region, then name phases and microconstituents.",
+      "Say clearly whether you are calculating phase fraction or microconstituent fraction.",
+      "For pearlite, say it is not a phase; it is a ferrite plus cementite lamellar microconstituent."
+    ],
+    traps: [
+      "Do not answer 6.67% C unless the question is about cementite composition.",
+      "Do not use A3 on the hypereutectoid side; use Acm there.",
+      "At eutectoid composition the final slow-cooled product is pearlite, not pure ferrite."
+    ]
+  },
+  {
+    moduleId: "lecture-7-steel-designation",
+    focus: "How steel names encode carbon, alloying and standard families in EN and AISI notation.",
+    core: [
+      "AISI/SAE plain-carbon and low-alloy steels use digit families; the last two digits usually indicate approximate carbon in hundredths of a percent.",
+      "Examples: 1040 is roughly 0.40% C plain carbon steel; 4140 is a Cr-Mo steel with roughly 0.40% C.",
+      "EN symbolic names distinguish non-alloy quality steels, alloy steels and high-alloy steels using prefixes such as C, X and element symbols.",
+      "In high-alloy EN names, X indicates high alloy content and numbers/elements encode carbon and alloying elements.",
+      "Steel designation is not a full recipe: heat treatment, cleanliness and processing still determine final properties.",
+      "Alloying elements are chosen for hardenability, strength, corrosion resistance, deoxidation, grain refinement or carbide formation."
+    ],
+    oral: [
+      "When given a steel code, decode carbon first, then the alloy family, then expected behaviour.",
+      "For EN names, say whether it is non-alloy, low-alloy or high-alloy before interpreting elements.",
+      "Connect designations to use: low carbon for forming/welding, medium carbon for heat treatment, high carbon for wear/hardness."
+    ],
+    traps: [
+      "Do not read every number in AISI as percent alloying.",
+      "Do not assume two steels with similar carbon have the same hardenability.",
+      "Do not call stainless stainless because of nickel; chromium passivation is the core reason."
+    ]
+  },
+  {
+    moduleId: "lecture-8-steel-production",
+    focus: "Industrial steelmaking route, refining and how processing controls cleanliness and final product.",
+    core: [
+      "Blast furnace produces hot metal/pig iron from iron ore, coke and flux; BOF converts hot metal into steel by oxidizing excess carbon and impurities.",
+      "EAF mainly melts scrap or direct-reduced iron and is flexible for alloy and recycling routes.",
+      "Secondary metallurgy adjusts composition, temperature, gases and inclusions before casting.",
+      "Deoxidation controls oxygen and inclusion type; elements such as Al, Si and Mn are common deoxidizers depending on the route.",
+      "Continuous casting solidifies steel into slabs, blooms or billets; rolling and controlled cooling then shape microstructure.",
+      "TMCP combines deformation and cooling to refine grains and improve strength/toughness without relying only on alloy content."
+    ],
+    oral: [
+      "For production-route questions, answer in sequence: ironmaking, steelmaking, refining, casting, rolling/heat treatment.",
+      "For defects, connect the process stage to inclusions, segregation, porosity, cracks or grain size.",
+      "For weldability, mention carbon equivalent and alloying/hardenability rather than only strength."
+    ],
+    traps: [
+      "BOF and EAF are steelmaking routes, not heat treatments.",
+      "Reducing iron ore and refining molten steel are different stages.",
+      "Cleaner steel is not only lower carbon; gases and inclusions matter."
+    ]
+  },
+  {
+    moduleId: "lecture-9-heat-treatment",
+    focus: "TTT/CCT reading, annealing, quenching, tempering, hardenability and transformation products.",
+    core: [
+      "Heat treatment changes microstructure by controlled heating, holding and cooling; composition sets what transformations are possible.",
+      "Annealing softens and improves ductility; normalizing refines structure; quenching aims for martensite; tempering reduces brittleness and forms tempered martensite.",
+      "TTT diagrams show isothermal transformation after rapid cooling to a chosen temperature; CCT diagrams show continuous cooling paths.",
+      "Pearlite forms at higher transformation temperatures, bainite at intermediate temperatures, martensite below Ms by diffusionless transformation.",
+      "Hardenability is ability to form martensite through section thickness; it is not the same as maximum hardness.",
+      "Residual austenite remains when not all austenite transforms before the final temperature or because Ms/Mf are low."
+    ],
+    oral: [
+      "For diagram paths, keep a balance of remaining austenite after each transformation step.",
+      "Say martensite amount depends on temperature drop below Ms, not time at a constant temperature.",
+      "For alloying effects, say many alloying elements shift TTT/CCT curves to longer times and increase hardenability."
+    ],
+    traps: [
+      "Do not create bainite or pearlite unless the path enters the relevant transformation region.",
+      "Do not convert already transformed pearlite/ferrite/bainite into martensite; only remaining austenite can transform.",
+      "Tempering requires martensite first, then reheating/holding below A1."
+    ]
+  },
+  {
+    moduleId: "lecture-10-surface-treatment",
+    focus: "Surface hardening and thermochemical treatments: hard case with a useful core.",
+    core: [
+      "Surface treatment aims to improve wear, fatigue or corrosion at the surface while keeping a tougher core.",
+      "Induction, flame and laser hardening transform only the surface by rapid heating and quenching; composition is mostly unchanged.",
+      "Carburizing adds carbon to low-carbon steel surface, then quenching creates a hard martensitic case.",
+      "Nitriding introduces nitrogen at lower temperature and can form hard nitrides with less distortion than carburizing.",
+      "Carbonitriding, boriding and other thermochemical routes depend on diffusing species, temperature, time and alloy chemistry.",
+      "Important outputs are case depth, surface hardness, residual compressive stress, distortion and core toughness."
+    ],
+    oral: [
+      "First say whether the process changes composition or only transforms existing composition.",
+      "For process choice, match the component need: wear, fatigue, distortion limit, case depth and steel chemistry.",
+      "For case hardening, explain why low-carbon core plus high-carbon/nitrogen surface is useful."
+    ],
+    traps: [
+      "Induction hardening needs enough carbon to harden; it does not magically add carbon.",
+      "Nitriding is not simply quenching; nitride formation and diffusion are key.",
+      "A harder case is not automatically better if it causes cracking, distortion or poor core toughness."
+    ]
+  },
+  {
+    moduleId: "lecture-11-corrosion",
+    focus: "Electrochemical corrosion mechanisms, galvanic effects, passivity and protection methods.",
+    core: [
+      "Corrosion is electrochemical: anodic metal dissolution is balanced by a cathodic reduction reaction.",
+      "In a galvanic couple the more active metal is the anode and corrodes preferentially; zinc protects iron by acting as sacrificial anode.",
+      "Passivation is formation of a protective surface film that lowers active corrosion if the film remains stable.",
+      "Common forms include uniform corrosion, galvanic corrosion, pitting, crevice corrosion, intergranular corrosion and stress corrosion cracking.",
+      "Pitting and crevice corrosion are dangerous because local chemistry breaks passivity and attack becomes localized.",
+      "Protection methods include coatings, cathodic protection, inhibitors, material selection, design against crevices and control of environment."
+    ],
+    oral: [
+      "For any corrosion cell, identify anode, cathode, electrolyte and electron/ion paths.",
+      "For stainless or aluminium, explain passivity and what breaks the passive film.",
+      "For prevention, choose a method that attacks the actual mechanism, not just a generic coating."
+    ],
+    traps: [
+      "The anode is where oxidation/corrosion occurs; do not label the nobler metal as anode in a galvanic pair.",
+      "Corrosion resistance is not just hardness or strength.",
+      "Localized corrosion can be worse than uniform corrosion even if total mass loss is small."
+    ]
+  },
+  {
+    moduleId: "lecture-12-stainless",
+    focus: "Why stainless steels are stainless and how stainless families differ.",
+    core: [
+      "Stainless behaviour comes mainly from sufficient chromium, about 11.5% in the course notes, forming a chromium oxide passive film.",
+      "Austenitic stainless steels are typically Cr-Ni, non-magnetic in annealed state, very formable and corrosion resistant.",
+      "Ferritic stainless steels are Cr-rich BCC, generally cheaper and less tough than austenitic grades but resistant in many environments.",
+      "Martensitic stainless steels can be hardened but usually sacrifice corrosion resistance compared with austenitic/ferritic grades.",
+      "Duplex stainless combines ferrite and austenite for strength and chloride resistance; Mo and N improve localized corrosion resistance.",
+      "Sensitization occurs when chromium carbides form at grain boundaries, depleting nearby Cr and enabling intergranular corrosion."
+    ],
+    oral: [
+      "Start with passivation: chromium oxide film protects the steel if it stays continuous and stable.",
+      "Then classify the family by structure and alloying: ferritic, austenitic, martensitic, duplex or precipitation hardening.",
+      "For failures, mention chlorides, sensitization, pitting/crevice corrosion and stress corrosion where relevant."
+    ],
+    traps: [
+      "Nickel stabilizes austenite; it is not the primary passive film former.",
+      "More carbon can help hardness but can damage corrosion resistance through carbide precipitation.",
+      "Stainless does not mean corrosion-proof in every environment."
+    ]
+  },
+  {
+    moduleId: "lecture-13-cast-irons",
+    focus: "Cast iron families, graphite morphology and why shape of carbon controls properties.",
+    core: [
+      "Cast irons are Fe-C-Si alloys with carbon high enough for excellent castability and graphite/carbide microstructures.",
+      "Grey cast iron contains graphite flakes; it machines well and damps vibration but is weak in tension because flakes act as cracks.",
+      "White cast iron contains cementite/carbides; it is hard and wear resistant but brittle.",
+      "Ductile/nodular cast iron uses Mg treatment to form graphite nodules, improving toughness and strength.",
+      "Malleable cast iron comes from heat treating white iron to form temper carbon aggregates.",
+      "Silicon promotes graphitization, while cooling rate and inoculation control graphite and matrix."
+    ],
+    oral: [
+      "For property questions, identify graphite shape first, then matrix, then mechanical consequence.",
+      "For processing, say how Mg treatment, inoculation or cooling rate shifts graphite morphology.",
+      "For applications, match damping/castability/wear/toughness to grey, white, ductile or malleable iron."
+    ],
+    traps: [
+      "Cast iron is not just high-carbon steel; graphite morphology dominates properties.",
+      "Cementite-rich white iron is hard but not ductile.",
+      "Nodular graphite is why ductile iron is ductile compared with grey iron."
+    ]
+  },
+  {
+    moduleId: "lecture-14-aluminum",
+    focus: "Aluminium alloy families, precipitation hardening, casting alloys and corrosion behaviour.",
+    core: [
+      "Aluminium is light, naturally passive by aluminium oxide and very useful where specific strength and corrosion resistance matter.",
+      "Wrought alloy series use main alloying families: 1xxx pure Al, 2xxx Al-Cu, 3xxx Al-Mn, 5xxx Al-Mg, 6xxx Al-Mg-Si and 7xxx Al-Zn-Mg.",
+      "Non-heat-treatable alloys strengthen mainly by solid solution and cold work; heat-treatable alloys strengthen by precipitation hardening.",
+      "Precipitation hardening sequence is solution treatment, quench, natural/artificial ageing, with peak age and overage conditions.",
+      "Al-Si casting alloys use silicon for fluidity and castability; modification/refinement improves eutectic shape and properties.",
+      "Aluminium corrosion resistance depends on passive oxide stability; galvanic coupling and chloride environments can still be problems."
+    ],
+    oral: [
+      "For any aluminium alloy, first say wrought/cast and heat-treatable/non-heat-treatable.",
+      "For 2xxx/6xxx/7xxx, connect alloying to precipitation strengthening and typical property tradeoffs.",
+      "For casting questions, mention fluidity, shrinkage, eutectic silicon morphology and heat treatment where relevant."
+    ],
+    traps: [
+      "Aluminium is not strong just because it is light; strengthening route matters.",
+      "Age hardening needs a supersaturated solid solution from quenching first.",
+      "Natural oxide helps corrosion resistance but does not prevent all galvanic or pitting corrosion."
+    ]
+  }
+];
+
 const state = {
   allQuestions: [],
   graphQuestions: [],
@@ -142,6 +453,8 @@ const state = {
   currentTitle: "Exam bank",
   currentSubtitle: "",
   shuffleQuestions: false,
+  oralMode: false,
+  summaryModuleId: null,
   correct: 0,
   wrong: 0,
   answered: false,
@@ -170,6 +483,7 @@ const els = {
   dueCardCount: document.querySelector("#dueCardCount"),
   selfCardCount: document.querySelector("#selfCardCount"),
   graphCardCount: document.querySelector("#graphCardCount"),
+  oralCardCount: document.querySelector("#oralCardCount"),
   dailyPlanBanner: document.querySelector("#dailyPlanBanner"),
   dailyBannerKicker: document.querySelector("#dailyBannerKicker"),
   dailyBannerTitle: document.querySelector("#dailyBannerTitle"),
@@ -177,8 +491,11 @@ const els = {
   dailyBannerButton: document.querySelector("#dailyBannerButton"),
   topicGrid: document.querySelector("#topicGrid"),
   lectureGrid: document.querySelector("#lectureGrid"),
+  summaryTabs: document.querySelector("#summaryTabs"),
+  summaryCard: document.querySelector("#summaryCard"),
   selfGrid: document.querySelector("#selfGrid"),
   lectureFocusButton: document.querySelector("#lectureFocusButton"),
+  oralModeButton: document.querySelector("#oralModeButton"),
   lecturePicker: document.querySelector("#lecturePicker"),
   tttTutorialButton: document.querySelector("#tttTutorialButton"),
   tutorialHomeButton: document.querySelector("#tutorialHomeButton"),
@@ -345,6 +662,10 @@ function moduleQuestions(moduleId) {
   return state.allQuestions.filter((question) => question.moduleId === moduleId);
 }
 
+function oralQuestionPool() {
+  return [...state.allQuestions, ...state.graphQuestions];
+}
+
 function masteredIn(questions) {
   return questions.filter((question) => cardProgress(question.id).mastered).length;
 }
@@ -417,6 +738,33 @@ function startLectureSession(item, subtitle = "Lecture practice") {
   });
 }
 
+function startLectureOralSession(item) {
+  startSession({
+    title: `Oral: ${item.lecture.title}`,
+    subtitle: "Oral exam mode",
+    questions: item.questions,
+    deck: "slides",
+    oralMode: true,
+    emptyDeck: {
+      deck: "slides",
+      moduleId: item.lecture.id,
+      source: item.lecture.source
+    }
+  });
+}
+
+function startGlobalOralMode() {
+  startSession({
+    title: "Oral exam mode",
+    subtitle: "Fast theory pass",
+    questions: oralQuestionPool(),
+    deck: "oral",
+    oralMode: true,
+    shuffleQuestions: false,
+    emptyDeck: { deck: "oral", moduleId: null }
+  });
+}
+
 function renderDailyPlanBanner() {
   const today = startOfDay(new Date()).getTime();
   const dueItems = lectureModules()
@@ -454,9 +802,11 @@ function updateHome() {
   els.dueCardCount.textContent = `${state.reviewIds.size} cards`;
   els.selfCardCount.textContent = `${deckQuestions("self-assessment").length} cards`;
   els.graphCardCount.textContent = `${deckQuestions(GRAPH_DECK).length} cards`;
+  els.oralCardCount.textContent = `${oralQuestionPool().length} cards`;
   renderDailyPlanBanner();
   renderTopics();
   renderLectures();
+  renderLectureSummaries();
   renderSelfAssessments();
 }
 
@@ -494,6 +844,102 @@ function renderLectures() {
     card.addEventListener("click", () => startLectureSession(item));
     els.lectureGrid.append(card);
   });
+}
+
+function summaryForLecture(moduleId) {
+  return LECTURE_SUMMARIES.find((summary) => summary.moduleId === moduleId);
+}
+
+function appendSummaryList(parent, title, items) {
+  const block = document.createElement("section");
+  block.className = "summary-block";
+  const heading = document.createElement("h4");
+  heading.textContent = title;
+  const list = document.createElement("ul");
+  items.forEach((text) => {
+    const item = document.createElement("li");
+    item.textContent = text;
+    list.append(item);
+  });
+  block.append(heading, list);
+  parent.append(block);
+}
+
+function renderLectureSummaryCard(lecture, index) {
+  const item = lecturePlanItem(lecture, index);
+  const summary = summaryForLecture(lecture.id);
+  els.summaryCard.replaceChildren();
+
+  if (!summary) {
+    const missing = document.createElement("p");
+    missing.textContent = "Summary not available yet.";
+    els.summaryCard.append(missing);
+    return;
+  }
+
+  const kicker = document.createElement("span");
+  kicker.className = "kicker";
+  kicker.textContent = `${item.mastered}/${item.questions.length} locked in`;
+
+  const title = document.createElement("h3");
+  title.textContent = lecture.title;
+
+  const focus = document.createElement("p");
+  focus.textContent = summary.focus;
+
+  const columns = document.createElement("div");
+  columns.className = "summary-columns";
+  appendSummaryList(columns, "Core points", summary.core);
+  appendSummaryList(columns, "Oral answer moves", summary.oral);
+  appendSummaryList(columns, "Watch-outs", summary.traps);
+
+  const actions = document.createElement("div");
+  actions.className = "summary-actions";
+
+  const oralButton = document.createElement("button");
+  oralButton.type = "button";
+  oralButton.textContent = "Oral drill this lecture";
+  oralButton.disabled = !item.questions.length;
+  oralButton.addEventListener("click", () => startLectureOralSession(item));
+
+  const practiceButton = document.createElement("button");
+  practiceButton.type = "button";
+  practiceButton.className = "secondary";
+  practiceButton.textContent = "Practice cards";
+  practiceButton.disabled = !item.questions.length;
+  practiceButton.addEventListener("click", () => startLectureSession(item));
+
+  actions.append(oralButton, practiceButton);
+  els.summaryCard.append(kicker, title, focus, columns, actions);
+}
+
+function renderLectureSummaries() {
+  const modules = lectureModules();
+  if (!modules.length) return;
+
+  if (!state.summaryModuleId || !modules.some((module) => module.id === state.summaryModuleId)) {
+    state.summaryModuleId = modules[0].id;
+  }
+
+  els.summaryTabs.replaceChildren();
+  modules.forEach((lecture, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "summary-tab";
+    button.textContent = `L${index + 1}`;
+    button.title = lecture.title;
+    const isActive = lecture.id === state.summaryModuleId;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+    button.addEventListener("click", () => {
+      state.summaryModuleId = lecture.id;
+      renderLectureSummaries();
+    });
+    els.summaryTabs.append(button);
+  });
+
+  const activeIndex = modules.findIndex((module) => module.id === state.summaryModuleId);
+  renderLectureSummaryCard(modules[activeIndex] || modules[0], activeIndex >= 0 ? activeIndex : 0);
 }
 
 function renderSelfAssessments() {
@@ -572,11 +1018,12 @@ function showTutorial(index = 0) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-function startSession({ title, subtitle, questions, emptyDeck = null, deck = null, shuffleQuestions = false }) {
+function startSession({ title, subtitle, questions, emptyDeck = null, deck = null, shuffleQuestions = false, oralMode = false }) {
   state.currentTitle = title;
   state.currentSubtitle = subtitle;
   state.currentDeck = deck;
   state.shuffleQuestions = shuffleQuestions;
+  state.oralMode = oralMode;
   state.activeQuestions = shuffleQuestions ? shuffledQuestions(questions) : questions;
   state.correct = 0;
   state.wrong = 0;
@@ -586,8 +1033,10 @@ function startSession({ title, subtitle, questions, emptyDeck = null, deck = nul
   els.homeScreen.hidden = true;
   els.tutorialScreen.hidden = true;
   els.quizScreen.hidden = false;
+  els.quizScreen.classList.toggle("oral-mode", oralMode);
   els.activePath.textContent = subtitle;
   els.quizTitle.textContent = title;
+  els.nextButton.textContent = oralMode ? "Next theory card" : "Next";
 
   if (!questions.length) {
     renderEmptyDeck(emptyDeck);
@@ -609,6 +1058,10 @@ function scoreCandidate(question) {
 }
 
 function chooseNextQuestion() {
+  if (state.oralMode) {
+    return state.activeQuestions.find((question) => !state.seenIds.has(question.id)) || null;
+  }
+
   const recent = new Set(state.recentIds.slice(-RECENT_CARD_GAP));
   const spaced = state.activeQuestions.filter((question) => !recent.has(question.id));
   const poolBase = spaced.length ? spaced : state.activeQuestions;
@@ -777,12 +1230,12 @@ function masteryLabel(question) {
 }
 
 function updateStats() {
-  const answered = state.correct + state.wrong;
+  const answered = state.oralMode ? state.seenIds.size : state.correct + state.wrong;
   const total = state.activeQuestions.length;
   const accuracy = answered ? Math.round((state.correct / answered) * 100) : 0;
   els.questionProgress.textContent = `${answered}/${total}`;
-  els.correctCount.textContent = state.correct;
-  els.wrongCount.textContent = state.wrong;
+  els.correctCount.textContent = state.oralMode ? "-" : state.correct;
+  els.wrongCount.textContent = state.oralMode ? "-" : state.wrong;
   els.reviewCount.textContent = state.activeQuestions.filter((question) => state.reviewIds.has(question.id)).length;
 
   const level = Math.floor(state.progress.xp / XP_PER_LEVEL) + 1;
@@ -792,15 +1245,18 @@ function updateStats() {
   els.xpMeter.style.width = `${Math.round((levelXp / XP_PER_LEVEL) * 100)}%`;
 
   const roundProgress = total ? Math.min(100, Math.round((answered / total) * 100)) : 0;
-  els.sectionTitle.textContent = "Round progress";
-  els.sectionGoal.textContent = `${roundProgress}% done`;
+  els.sectionTitle.textContent = state.oralMode ? "Oral pass" : "Round progress";
+  els.sectionGoal.textContent = state.oralMode ? `${roundProgress}% seen` : `${roundProgress}% done`;
   els.sectionMeter.style.width = `${roundProgress}%`;
   const mastered = masteredIn(state.activeQuestions);
-  els.masteryText.textContent = `This set: ${mastered}/${total} locked in. Accuracy: ${accuracy}%`;
+  els.masteryText.textContent = state.oralMode
+    ? `Theory pass: ${answered}/${total} cards viewed. Mastery stats stay unchanged.`
+    : `This set: ${mastered}/${total} locked in. Accuracy: ${accuracy}%`;
   els.coachTip.textContent = coachTip();
 }
 
 function coachTip() {
+  if (state.oralMode) return "Read the question, say the answer aloud, then use the explanation as the mini oral-exam answer.";
   const answered = state.correct + state.wrong;
   if (state.wrong > 0) return "Missed cards will return soon, after a few other cards give your memory room to work.";
   if (!answered) return "Choose an answer first. The explanation is the mini-lecture.";
@@ -844,6 +1300,8 @@ function renderQuestion() {
     button.addEventListener("click", () => answerQuestion(letter));
     els.options.append(button);
   });
+
+  if (state.oralMode) revealOralQuestion(question);
 }
 
 function answerQuestion(selected) {
@@ -887,6 +1345,25 @@ function answerQuestion(selected) {
   updateStats();
 }
 
+function revealOralQuestion(question) {
+  state.answered = true;
+  state.seenIds.add(question.id);
+  state.recentIds.push(question.id);
+  if (state.recentIds.length > RECENT_CARD_GAP * 2) state.recentIds.shift();
+  paintOralOptions(question.correctAnswer);
+  showOralFeedback(question);
+  updateStats();
+}
+
+function paintOralOptions(correct) {
+  document.querySelectorAll(".option-button").forEach((button) => {
+    const option = button.dataset.option;
+    button.disabled = true;
+    button.querySelector(".option-letter").textContent = option;
+    if (option === correct) button.classList.add("correct");
+  });
+}
+
 function paintAnsweredOptions(selected, correct, isCorrect) {
   document.querySelectorAll(".option-button").forEach((button) => {
     const option = button.dataset.option;
@@ -895,6 +1372,15 @@ function paintAnsweredOptions(selected, correct, isCorrect) {
     if (option === correct) button.classList.add("correct");
     if (option === selected && !isCorrect) button.classList.add("wrong");
   });
+}
+
+function showOralFeedback(question) {
+  els.resultLine.textContent = `Oral answer: ${question.correctAnswer}.`;
+  els.resultLine.className = "result-line oral";
+  els.explanation.textContent = question.explanation;
+  els.relevantTheory.textContent = question.relevantTheory;
+  els.feedback.hidden = false;
+  els.nextButton.disabled = false;
 }
 
 function showFeedback(question, isCorrect) {
@@ -987,26 +1473,35 @@ function launchEasyWrongEffect() {
 function renderEmptyDeck(emptyDeck) {
   state.answered = true;
   updateStats();
+  const isComplete = !emptyDeck && state.activeQuestions.length > 0 && state.seenIds.size >= state.activeQuestions.length;
   els.questionSource.textContent = emptyDeck?.source ? formatSource(emptyDeck.source) : "Content architecture ready";
   els.questionSection.textContent = state.currentSubtitle || "Study set";
-  els.questionMastery.textContent = "No cards yet";
+  els.questionMastery.textContent = isComplete ? "Complete" : "No cards yet";
   const isDueReview = state.currentTitle === "Due review";
-  els.questionText.textContent = isDueReview
+  els.questionText.textContent = isComplete
+    ? `${state.currentTitle} complete.`
+    : isDueReview
     ? "No review cards are due right now."
     : `${state.currentTitle} does not have generated cards yet.`;
   els.options.replaceChildren();
   renderQuestionVisual(null);
   els.feedback.hidden = false;
   els.resultLine.className = "result-line";
-  els.resultLine.textContent = isDueReview
+  els.resultLine.textContent = isComplete
+    ? "You reached the end of this set."
+    : isDueReview
     ? "Missed cards will appear here automatically after a practice session."
     : "This study set is ready for generated professor-style questions.";
-  els.explanation.textContent = isDueReview
+  els.explanation.textContent = isComplete
+    ? "Restart this session or go home and choose another lecture, summary or deck."
+    : isDueReview
     ? "Use Everything, Exam bank, a topic, or a lecture to keep studying. Any card answered incorrectly is saved here until you answer it correctly twice in a row."
     : emptyDeck
     ? `Future cards should use deck="${emptyDeck.deck}" and moduleId="${emptyDeck.moduleId}". The AI must create questions from the lecture theory; the slides do not contain the questions.`
     : "Future cards should be added to data/questions.json using the shared schema.";
-  els.relevantTheory.textContent = "For slide lectures, questions should be based on what the professor would ask after teaching the slide content. Notes are support material only, used to fill in missing explanation.";
+  els.relevantTheory.textContent = isComplete
+    ? "Oral mode is for fast recall and explanation practice; normal practice is still what updates spaced review and mastery."
+    : "For slide lectures, questions should be based on what the professor would ask after teaching the slide content. Notes are support material only, used to fill in missing explanation.";
   els.nextButton.disabled = true;
 }
 
@@ -1014,8 +1509,11 @@ function goHome() {
   els.quizScreen.hidden = true;
   els.tutorialScreen.hidden = true;
   els.homeScreen.hidden = false;
+  els.quizScreen.classList.remove("oral-mode");
+  els.nextButton.textContent = "Next";
   state.current = null;
   state.answered = false;
+  state.oralMode = false;
   updateHome();
 }
 
@@ -1065,11 +1563,13 @@ els.restartButton.addEventListener("click", () => startSession({
   subtitle: state.currentSubtitle,
   questions: state.activeQuestions,
   deck: state.currentDeck,
-  shuffleQuestions: state.shuffleQuestions
+  shuffleQuestions: state.shuffleQuestions,
+  oralMode: state.oralMode
 }));
 els.backHomeButton.addEventListener("click", goHome);
 els.tutorialHomeButton.addEventListener("click", goHome);
 els.tttTutorialButton.addEventListener("click", () => showTutorial());
+els.oralModeButton.addEventListener("click", startGlobalOralMode);
 els.tutorialStepButtons.forEach((button) => {
   button.addEventListener("click", () => renderTutorialStep(Number(button.dataset.tttStep)));
 });
