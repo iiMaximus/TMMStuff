@@ -1,0 +1,1198 @@
+                           Cybersecurity and National Defense (Grandi Sfide - Digital)
+
+                                                                             A.A. 2025 - 2026
+
+
+
+
+Module A – Cybersecurity
+Fundamentals
+A2 – Systems Thinking & Risk
+Silvia Sisinni
+silvia.sisinni@polito.it
+
+                                             TORSEC
+                                             Computer and Network Security Group
+  Acknowledgments
+    This lecture deck adapts and reorganizes selected teaching
+    material originally developed by Nicolò Maunero (CINI /
+    Cybersecurity National Lab). Portions of the content are reused
+    under the Creative Commons BY-NC license (see license slide). All
+    modifications, additions, re-organization, and any errors are the
+    responsibility of the course instructor.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                    2
+A.A. 2025 - 2026
+  License & Disclaimer
+              License Information                                            Disclaimer
+        This presentation is licensed under the               ➢ We disclaim any warranties or
+         Creative Commons BY-NC License                         representations as to the accuracy or
+                                                                completeness of this material.
+                                                              ➢ Materials are provided “as is” without
+                                                                warranty of any kind, either express or
+                                                                implied, including without limitation,
+                                                                warranties of merchantability, fitness for a
+                                                                particular purpose, and non-infringement.
+                                                              ➢ Under no circumstances shall we be liable
+                                                                for any loss, damage, liability or expense
+          To view a copy of the license, visit:
+                                                                incurred or suffered which is claimed to have
+  http://creativecommons.org/licenses/by-nc/3.0/legalcode
+                                                                resulted from use of this material.
+                                                              ➢ This material is used and adapted within the
+                                                                course “Cybersecurity and National
+                                                                Defense”.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                           3
+A.A. 2025 - 2026
+  Learning goals
+    Introducing the concept of
+    ➢ Danger
+    ➢ Threat
+    ➢ Asset
+    ➢ Risk
+    ➢ Safety
+    ➢ Security
+    ➢ Dependability
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              4
+A.A. 2025 - 2026
+  The concept of Security
+    In the following, we will introduce the concept of Security using
+    different definitions
+    ➢ different points of view with consequent different practical
+       implications
+
+    Remark for Italian attendees:
+    ➢ the Italian word Sicurezza has a broader meaning and includes,
+      as we shall see, several English terms
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                        5
+A.A. 2025 - 2026
+                                                              1
+  Security
+    ➢    The state of being free from dangers or threats.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                  6
+A.A. 2025 - 2026
+                                                                       1
+  Danger
+    ➢    Intrinsic property or quality accountable to a particular factor
+         (work environment, material, equipment, method, or process)
+         having the potential to generate a harmful event.
+
+
+
+    ➢    Example: a high-voltage cabinet is a “danger” regardless of who
+         interacts with it.
+
+    ➢    Danger is a property that exists even in the absence of
+         malicious actors.
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                            7
+A.A. 2025 - 2026
+                                                              2
+  Danger
+    ➢    The possibility of suffering harm or injury.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                  8
+A.A. 2025 - 2026
+                                                                        1
+  Threat
+    ➢    A statement of an intention to inflict pain, injury, damage, or other
+         hostile action on someone in retribution for something done or
+         not done.
+
+
+
+    ➢    Threat introduces intention (a hostile agent), unlike danger.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                            9
+A.A. 2025 - 2026
+                                                                     2
+  Threat
+    ➢    Any circumstance or event with the potential to adversely impact
+         organizational operations and assets, individuals, other
+         organizations, or the Nation through an information system via
+         unauthorized access, destruction, disclosure, or modification of
+         information, and/or denial of service.
+
+
+
+    ➢    This definition bridges general threats to cyber threats.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                         10
+A.A. 2025 - 2026
+  Remark
+    ➢    The nature and peculiarities of the concepts of danger and threat
+         strongly depend on the target context and application domain.
+
+    ➢    For example, consider a satellite navigation system (e.g., GPS
+         receiver)
+              ➢    In a civilian context, relevant threats could include
+                    •  Location privacy violations
+                    •  Manipulation of navigation data
+              ➢    In a military context, threats to be considered could be
+                    •  Satellite signal spoofing by an adversary
+                    •  Strategic denial of navigation signals
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                              11
+A.A. 2025 - 2026
+                                                                                         2
+  Security
+    ➢    The freedom from those conditions that can cause loss of
+         assets with unacceptable consequences.
+           [“Systems security engineering: Considerations for a multidisciplinary approach in the
+                                                   engineering of trustworthy secure systems,”
+                                     NIST, Tech. Rep. NIST.SP.800-160 Volume 1, Nov. 2016:
+                                                   https://doi.org/10.6028/NIST.SP.800-160v1]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                               12
+A.A. 2025 - 2026
+  Practical implications
+    ➢    Security requires an asset view: no assets → no meaningful
+         security discussion
+           • assets define consequences
+           • consequences define risk acceptance
+
+    ➢    It’s thus imperative that the specific scope of security must be
+         clearly defined by stakeholders in terms of:
+             • assets to which security applies
+             • consequences against which security is assessed
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                            13
+A.A. 2025 - 2026
+  Asset
+    ➢    Any item of value owned by an organization that can be
+         monetized.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                  14
+A.A. 2025 - 2026
+  Asset types
+    ➢    An asset may be:
+    • tangible (e.g., a physical item such as hardware, computing
+         platform, network device, technology component)
+    • intangible (e.g., data, information, software, trademark,
+         copyright, intellectual property, image, reputation).
+
+    ➢    Intangible assets are often the primary target of
+         cyberattacks.
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                    15
+A.A. 2025 - 2026
+  Impacts of asset loss
+    ➢    The loss of an asset always has an impact, the evaluation of
+         which must be done by analyzing, for that specific asset:
+
+                           Value                               Criticality
+
+
+                   Irreplaceability                           Mission Role
+
+    ➢ These dimensions define how severe a loss would be
+    ➢ Impact analysis turns “asset” into “decision priority”
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                             16
+A.A. 2025 - 2026
+  From Assets to Risk
+
+
+             Asset                          Impact (Severity S)    Risk
+
+
+
+                                                 Probability (P)
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                          17
+A.A. 2025 - 2026
+                                                                                           1
+  Risk
+    ➢    The possibility that human actions or events lead to
+         consequences that have an impact on what humans value.
+
+            [O. Renn, “The role of risk perception for risk management,” Reliability Engineering &
+                                                  System Safety, vol. 59, no. 1, pp. 49 – 62, 1998,
+                          http://www.sciencedirect.com/science/article/pii/S0951832097001191]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                 18
+A.A. 2025 - 2026
+                                                                       2
+  Risk
+    ➢    Probability (P) of reaching the potential level of Harm (S) under
+         the conditions of use or exposure to a given factor or agent or
+         their combination.
+                                                                 [Art. 2 del TU]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                              19
+A.A. 2025 - 2026
+                                                                                    3
+  Risk
+    ➢    Set of the possibility of an event and its consequences on
+         objectives.
+                                                              [UNI 11230 – Risk management]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                         20
+A.A. 2025 - 2026
+                                                                           4
+  Risk
+    ➢    Combination of the probability of occurrence of an injury and
+         the severity of that injury.
+                                                              [UNI EN ISO 12100-1]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                21
+A.A. 2025 - 2026
+                                                                         5
+  Risk
+    ➢    Combination of the probability and consequence of the
+         occurrence of a specific hazardous event.
+
+                                                              [OHSAS 18001, 3.4]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                              22
+A.A. 2025 - 2026
+  The Notion of Risk
+
+
+                                            Risk R = S x P
+  where:
+  ➢    S = Severity of the impact
+  ➢    P = Probability of occurrence
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              23
+A.A. 2025 - 2026
+  The NIST definition
+                                  ≈ Probability (P)           ≈ Severity (S)
+
+                                  Risk = Likelihood × Impact
+                                                                           [NIST SP 800-30]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                         24
+A.A. 2025 - 2026
+  Cyber Risk
+    ➢    Possibility of damage (financial loss, service interruption, or
+         reputational damage) suffered by an organization as a result of a
+         malfunction in its information systems.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                         25
+A.A. 2025 - 2026
+  Cyber Risk Examples
+         Example 1 -- Healthcare                                  Example 2 -- University
+                service                                            information system
+   ➢ Asset: clinical data and service                         ➢ Asset: personal data and
+     availability                                               academic records
+   ➢ Threat: ransomware attack                                ➢ Threat: unauthorized access / data
+   ➢ Impact: service disruption, patient                        breach
+     safety risk                                              ➢ Impact: privacy violations,
+   ➢ Cyber risk: unacceptable                                   reputational damage
+     disruption on essential healthcare                       ➢ Cyber risk: loss of trust and
+     services                                                   regulatory consequences
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                26
+  Practical implications
+    This is the operational loop of risk-based
+    security management:
+    1. Prepare a detailed asset inventory                     Asset Inventory
+    2. For each asset:
+          ➢ analyze the possible threats: these               Threats / Risks
+             are the risks that must be considered
+          ➢ prepare the appropriate protections                 Protection
+                                                                 controls
+             and the needed countermeasures
+          ➢ evaluate (and possibly insure) the
+                                                              Residual Risk
+             residual risks
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                27
+A.A. 2025 - 2026
+  Cyber Risk -- Insurance
+    ➢    Similarly to what happens for other risks, it is today possible to
+         sign insurance policies for the coverage of the residual Cyber
+         Risks.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                              28
+A.A. 2025 - 2026
+  Cyber Risk -- Implications
+    The Keynote Speech of Prof. Luciano FLORIDI at the ITASEC21
+    conference on the implications of risk analysis can be downloaded
+    from:
+    ➢ https://2021.itasec.it/scientific-technical/keynote-speech-luciano-
+       floridi/
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                        29
+A.A. 2025 - 2026
+  Cyber Risk -- Management
+    ➢ National agencies provide reference methods to standardize risk
+      treatment.
+    ➢ The Agency for Digital Italy (AgID) and the National
+      Cybersecurity Authority (ACN) make available a tool for
+      assessing and treating cyber risk, now accessible at:
+      https://rischiocyber.acn.gov.it/cyber/index.html
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                    30
+A.A. 2025 - 2026
+  The Italian Cyber Risk Management Tool
+    The tool allows organizations to:
+    ➢ carry out cyber risk assessment activities
+    ➢ define and document appropriate risk treatment plans
+    ➢ monitor over time the initiatives undertaken to reduce risk levels.
+    The tool is based on:
+    ➢ the principles and guidelines defined by ISO 31000 “Risk management --
+      Principles and guidelines” (Italian version: UNI ISO 31000 “Gestione del
+      rischio”)
+    ➢ the Information Risk Assessment Methodology 2 (IRAM2), developed by the
+      Information Security Forum (ISF)
+                                                [http://store.uni.com/catalogo/uni-iso-31000-2018]
+               [https://www.securityforum.org/solutions-and-insights/information-risk-assessment-
+                                                                               methodology-iram2]
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                31
+A.A. 2025 - 2026
+  Protecting what
+
+    ➢    People
+                                                    SAFETY
+    ➢    Environment
+    ➢    Objects
+    ➢    Computers
+    ➢    Information
+    ➢    Cyberspace
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              32
+A.A. 2025 - 2026
+                                                                       1
+  Safety
+    ➢    Property of a system that reflects the system’s ability to operate,
+         normally or abnormally, without danger of causing human injury
+         or death and without damage to the system’s environment.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                               33
+A.A. 2025 - 2026
+                                                                                      2
+  Safety
+    The probability that a system:
+    ➢ will either perform its function correctly
+    ➢ or will discontinue its function in a manner that:
+              • does not disrupt the operation of other systems
+              • or does not compromise the safety of any people associated with the
+                system.
+
+
+
+
+                            Safe systems may fail, but they must fail safely.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                          34
+A.A. 2025 - 2026
+  Safety Protection and Standards
+    ➢ Safety Critical Systems are governed by an extensive set of strict
+      international standards.
+    ➢ Standards encode the best known practices and the state of
+      the art.
+    ➢ Standard compliance demonstrates that everything reasonably
+      possible has been done:
+              ➢    even if incidents occur, compliance provides technical and legal
+                   protection.
+    ➢    Lack of compliance in safety-critical domains is a serious
+         engineering fault.
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                      35
+A.A. 2025 - 2026
+The multi-standard approach can be a model for the multi-concern standardization issues to be managed
+many domains and standardization areas/bodies in a coherent manner, in cooperation of AMASS with ot
+  Safety Standards
+related projects and initiatives – we may have just a look on the landscape of functional safety and secu
+standards in IEC, ISO, Aerospace and other areas (see Figure 2).
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                   36
+A.A. 2025 - 2026
+  Protecting what
+
+    ➢    People
+    ➢    Environment
+    ➢    Objects
+    ➢    Computers
+                                                    SECURITY
+    ➢    Information
+    ➢    Cyberspace
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                               37
+A.A. 2025 - 2026
+                                                                   1
+  Computer Security
+    ➢    Deals with the prevention and detection of unauthorized actions
+         by users of a computer system.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                           38
+A.A. 2025 - 2026
+  Computer Security
+    ➢ Authorization is the cornerstone of the definition.
+    ➢ Requires the adoption of proper security policies, stating who (or
+      what) is authorized to perform a given set actions (which and
+      when).
+
+    ➢ Security policy = the rule set that defines what is allowed
+      (who/what/which/when).
+    ➢ For example, in a university system:
+              •    professors can modify the grades of students in their own courses
+              •    students can only view their own grades but cannot modify them
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                       39
+A.A. 2025 - 2026
+                                                                                             2
+  Computer Security
+    ➢    Measures and controls that ensure confidentiality, integrity, and
+         availability of information system assets including hardware,
+         software, firmware, and information being processed, stored, and
+         communicated.
+                                                  [The NIST Internal/Interagency Report NISTIR 7298
+                                             - Glossary of Key Information Security Terms, May 2013
+                                        (NIST = U.S. National Institute of Standards and Technology)]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                   40
+A.A. 2025 - 2026
+  The CIA triad
+    ➢    Confidentiality, Integrity, Availability are considered the
+         security pillars and they form what is usually referred to as the
+         CIA triad.
+    ➢ Confidentiality: prevent unauthorized disclosure
+
+    ➢ Integrity: prevent unauthorized modification, or
+
+         being able to detect unauthorized modification
+    ➢ Availability: ensure timely access to
+
+                           services/data
+
+          They will be deeply analyzed in
+                       the lecture:
+         A3 – Core Security Concepts
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                             41
+A.A. 2025 - 2026
+  The Italian version - La triade RID
+
+    The Italian AgID defines the CIA Triad                    RID:
+    ➢     Riservatezza
+    ➢     Integrità
+    ➢     Disponibilità
+
+    RID is a linguistic mapping of CIA used in Italian public-sector
+    frameworks.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                       42
+A.A. 2025 - 2026
+  Computer security – Modalities
+    ➢    A system can be compromised physically or logically, both are
+         security-relevant.
+
+    ➢    Protection requires:
+           ➢ Physical Security: prevents unauthorized physical interaction
+
+              with systems.
+           ➢ Logical Security: prevents unauthorized logical actions on
+
+              systems and data.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                             43
+A.A. 2025 - 2026
+  Physical vs Logical Security
+                   Physical Security                                      Logical Security
+   ➢    Access control                                        ➢   Access and perimeter
+             ➢     access to Buildings                                ➢   perimeter protection
+             ➢     offices and desks                          ➢   System protection
+   ➢    Environmental protection                                      ➢   endpoint / server protection
+             ➢     fire protection system                     ➢   Operational continuity
+             ➢     protection against natural                         ➢   Business Continuity Plan
+                   events                                                 (BCP)
+   ➢    Infrastructure continuity                                     ➢   Backup & Disaster Recovery
+             ➢     electrical continuity                              ➢   Primary / backup links
+   ➢    …                                                     ➢   …
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                         44
+A.A. 2025 - 2026
+  Protecting what
+
+    ➢    People
+    ➢    Environment
+    ➢    Objects
+    ➢    Computers
+                                                   SECURITY
+    ➢    Information
+    ➢    Cyberspace
+
+                                            Covered in lecture:
+                                       A3 – Core Security Concepts
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                     45
+A.A. 2025 - 2026
+  Protecting what
+    ➢ People
+    ➢ Environment
+    ➢ Objects
+    ➢ Computers
+    ➢ Information
+    ➢ Cyberspace                       CYBERSECURITY
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              46
+A.A. 2025 - 2026
+  Cybersecurity
+    ➢    Cybersecurity deals with intentional, intelligent, and adaptive
+         threats acting through cyberspace.
+
+    ➢ What makes cybersecurity different is the environment in
+      which these threats operate.
+    ➢ In cyberspace:
+              • attacks can be executed remotely,
+              • they can spread very quickly across interconnected systems,
+              • and a single vulnerability may affect thousands or millions of systems
+                simultaneously.
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                         47
+A.A. 2025 - 2026
+  The concept of Failure
+    ➢ In general, failure is defined as the impossibility to meet a
+      specific requirement, objective, or performance measure.
+    ➢ Specifically, a failure is usually defined in terms of:
+              ➢    behaviour exhibited by the system
+              ➢    interactions between the elements that compose it
+              ➢    produced results
+
+
+    ➢    Example: an infusion pump delivers the wrong dosage due to a
+         sensor fault.
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                        48
+A.A. 2025 - 2026
+  Threat Chain – Different perceptions
+    ➢ The so-called threat chain describes how failures emerge (not
+      how attacks are executed), i.e., the set of steps that leads to
+      failures.
+    ➢ The threat chain is perceived differently within different
+      communities.
+    ➢ In the sequel, we briefly analyze how the threat chain is
+      perceived by:
+          ➢ the “Safety community”
+
+          ➢ the “Software community”
+
+          ➢ the “Security community”
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                        49
+A.A. 2025 - 2026
+  The “Safety community”
+    It usually refers to the so called 3-universe model to outline the
+    threat chain that can lead to a failure:
+                                                                                       Accidental
+                                                                                        causality
+
+                       Fault                          Error           Failure
+                      (Physical                   (Information         (User
+                       Domain)                       Domain)          Domain)
+
+
+
+
+                                              [A. Avižienis, J.-C. Laprie, B. Randell, C. Landwehr:
+                           “Basic Concepts and Taxonomy of Dependable and Secure Computing”,
+                                                      IEEE TDSC, 1 (1), pp. 11-33, Jan-Mar 2004]
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                 50
+A.A. 2025 - 2026
+  Threat Chain in Safety: example
+    ➢    Braking system of a car equipped with ABS (Anti-lock Braking
+         System)
+
+    ➢ Fault (Physical Domain): a wheel speed sensor becomes
+      damaged or disconnected
+    ➢ Error (Information Domain): incorrect measurements of the
+      wheel speed
+    ➢ Failure (User Domain): the ABS controller applies the wrong
+      braking logic => the user experiences an unsafe braking
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                    51
+A.A. 2025 - 2026
+  3-universe threat model
+    ➢    If, during the design phase, appropriate tolerance mechanisms
+         have not been foreseen and introduced in the system, a fault
+         may lead to an error which, in turn, may lead to a failure.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                     52
+A.A. 2025 - 2026
+  The “Software community”
+    It usually resort to other definitions:
+    ➢ Error: a human action that produces an incorrect result.
+    ➢ Bug: an error or a fault that causes a failure (used informally in
+        place of fault).
+    ➢ Fault: an incorrect step, process, or data definition in a computer
+        program.
+    ➢ Failure: the inability of software to perform its required functions
+        within specified performance requirements. A failure occurs at
+        runtime, when the system executes the faulty code.
+
+                                      [IEEE Standard Glossary of Software Engineering Terminology]
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                53
+A.A. 2025 - 2026
+  The “Security community”
+    It usually refers to the following threat chain:                          Adversarial
+                                                                               causality
+
+
+
+                        Weakness                     Vulnerability   Attack
+
+
+
+    ➢ Weakness: a flaw or a limitation in the design or in the
+      implementation of a system.
+    ➢ Vulnerability: when an attacker realize that a weakness can be
+      exploited, it becomes a vulnerability.
+    ➢ Attack: a concrete exploitation of a vulnerability.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                       54
+A.A. 2025 - 2026
+  Threat Chain in security: example
+    ➢    Let's consider a web application with a login system to
+         authenticate users.
+
+    ➢    Weakness: the web application does not properly validate user
+         input in the login form.
+
+    ➢    Vulnerability: the attacker discovers that the login form allows
+         SQL injection
+
+    ➢    Attack: the attacker injects a malicious query in order to bypass
+         authentication and logs in the system
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                             55
+A.A. 2025 - 2026
+  Comparing Threat Chains
+
+
+   Community                 Cause                       Chain
+
+   Safety                    Accidental                  Fault → Error → Failure
+
+   Software                  Human error                 Error → Bug / Fault → Failure
+
+   Security                  Adversary                   Weakness → Vulnerability → Attack
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                         56
+A.A. 2025 - 2026
+  Safety vs. Security
+    In addition to the previous considerations, we will compare safety
+    and security based on the following aspects:
+    ➢    Conflicting requirements
+    ➢    Threats: Accidentality vs Intentionality
+    ➢    Threats: Cardinality
+    ➢    Failure prevention
+    ➢    The role of standards
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                         57
+A.A. 2025 - 2026
+  Door opening mechanism
+  Safety Requirement
+     Doors shall open when car is flipped.
+
+
+  Solution
+     Install pressure sensor at the roof of the car.
+
+
+
+  Solution has serious security consequences
+     Unauthorized entry by jumping on the car.
+
+
+
+
+                       A system
+Cybersecurity and National          can be
+                           Defense (Grandi     safe
+                                           Sfide      and insecure at the same time.
+                                                 - Digital)
+                                                                                       58
+A.A. 2025 - 2026
+  The common answer
+    ➢    The answer MUST necessarily be just one:
+
+
+                         (Safety & Security)-by-Design
+
+  ➢     Security cannot be retrofitted once systems are deployed.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                    59
+A.A. 2025 - 2026
+  Safety vs. Security
+    In addition to the previous considerations, we will compare safety
+    and security based on the following aspects:
+    ➢    Conflicting requirements
+    ➢    Threats: Accidentality vs Intentionality
+    ➢    Threats: Cardinality
+    ➢    Failure prevention
+    ➢    The role of standards
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                         60
+A.A. 2025 - 2026
+  Threats: Accidentality vs Intentionality
+                         Safety                                           Security
+   The threat is always an                                    The threat is usually carried
+   accidental event that can be:                              intentionally by a malicious
+   ➢ Endogenous (e.g.,                                        agent (human or system).
+     component failure)
+   ➢ Exogenous (e.g.,
+     atmospheric event, or
+     electromagnetic noise)
+   ➢ Human, but unintentional
+     (e.g., error in design,
+     manufacturing, testing)
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                              61
+A.A. 2025 - 2026
+  Safety vs. Security
+    In addition to the previous considerations, we will compare safety
+    and security based on the following aspects:
+    ➢    Conflicting requirements
+    ➢    Threats: Accidentality vs Intentionality
+    ➢    Threats: Cardinality
+    ➢    Failure prevention
+    ➢    The role of standards
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                         62
+A.A. 2025 - 2026
+  Threats: Cardinality
+                         Safety                                            Security
+
+
+   ➢ Failures arise from limited                              ➢ Modern systems often share
+     combinations of accidental                                 common software
+     events                                                     components
+   ➢ Faults may exist in many                                      ➢ a single vulnerability may allow
+                                                                     attackers to compromise
+     systems, but manifest                                           thousands or millions of
+     sporadically                                                    systems very quickly
+   ➢ Only a small number of                                   ➢ Attackers can exploit them
+     systems experience the                                     simultaneously at large scale
+     failure at a given time
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                    63
+A.A. 2025 - 2026
+  Safety vs. Security
+    In addition to the previous considerations, we will compare safety
+    and security based on the following aspects:
+    ➢    Conflicting requirements
+    ➢    Threats: Accidentality vs Intentionality
+    ➢    Threats: Cardinality
+    ➢    Failure prevention
+    ➢    The role of standards
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                         64
+A.A. 2025 - 2026
+  Failure prevention
+    ➢    Different solutions are adopted depending on the objectives to
+         be pursued:
+            ➢ Safety engineering objective: preventing failures caused by
+
+               accidental faults
+            ➢ Security engineering: preventing failures caused by
+
+               malicious exploitation of vulnerabilities
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                            65
+A.A. 2025 - 2026
+  Failure prevention -- Safety
+                       Solution                                           Approach
+   ➢ Architectures that can tolerate                          ➢ A same operation is performed
+     the presence of faults and/or                              several times and the results
+     errors (Fault-Tolerant                                     are compared as they are
+     Architecture), usually exploiting                          obtained:
+     redundancy:                                                   ➢ If the results differ, the
+             ➢     Time Redundancy                                   system detects that
+                                                                     something went wrong.
+             ➢     Information Redundancy
+                                                              ➢ Example: spacecraft and
+             ➢     Functional Redundancy                        satellite onboard computers
+             ➢     Structural Redundancy                           ➢ Radiations can cause transient
+                                                                     faults
+                                                                   ➢ Single-event upsets
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                      66
+A.A. 2025 - 2026
+  Failure prevention -- Safety
+                       Solution                                          Approach
+   ➢ Architectures that can tolerate                          ➢ Extra bits added to the data
+     the presence of faults and/or                            ➢ Use of Error Detection And
+     errors (Fault-Tolerant                                     Correction (EDAC) codes.
+     Architecture), usually exploiting                        ➢ The code to be used is selected
+     redundancy:                                                based on the type and number
+             ➢     Time Redundancy                              of errors that are to be detected
+             ➢     Information Redundancy                       and corrected.
+                                                              ➢ Widely used in communication
+             ➢     Functional Redundancy
+                                                                systems, storage devices, and
+             ➢     Structural Redundancy                        spacecraft systems.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                67
+A.A. 2025 - 2026
+  Failure prevention -- Safety
+                       Solution                                          Approach
+   ➢ Architectures that can tolerate                          ➢ The same system function is
+     the presence of faults and/or                              implemented using different
+     errors (Fault-Tolerant                                     algorithms, models, or
+     Architecture), usually exploiting                          components.
+     redundancy:                                              ➢ Results are compared or used
+
+             ➢     Time Redundancy                              as backup solutions if one
+             ➢     Information Redundancy                       implementation fails.
+                                                              ➢ Diversity reduces the probability
+             ➢     Functional Redundancy
+                                                                that the same fault affects all
+             ➢     Structural Redundancy                        implementations
+                                                                simultaneously
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                               68
+A.A. 2025 - 2026
+  Failure prevention -- Safety
+                       Solution                                          Approach
+   ➢ Architectures that can tolerate                          ➢ Use multiple identical
+     the presence of faults and/or                              hardware or software
+     errors (Fault-Tolerant                                     modules executing the same
+     Architecture), usually exploiting                          function in parallel.
+     redundancy:                                              ➢ Outputs are combined through a
+             ➢     Time Redundancy                              voting mechanism to
+             ➢     Information Redundancy                       determine the correct result.
+                                                              ➢ Typical architecture: N-Modular
+             ➢     Functional Redundancy
+                                                                Redundancy (NMR)
+             ➢     Structural Redundancy                           ➢ Example: Triple Modular
+                                                                     Redundancy (TMR)
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                               69
+A.A. 2025 - 2026
+  Failure prevention -- Security
+                   General Solution                                      Approaches
+   ➢ Architectures that remain                                ➢ Defense in depth
+        secure even when                                      ➢ Isolation / sandboxing
+                                                              ➢ Least privilege
+        vulnerabilities exist
+                                                              ➢ Monitoring and intrusion detection
+        (Vulnerability-Tolerant                               ➢ Security Objectives (CIA Triad)
+        Architectures).                                             ➢ Confidentiality →
+                                                                       encryption, access control
+                                                                    ➢ Integrity → hashes, digital
+                                                                       signatures, message
+                                                                       authentication
+                                                                    ➢ Availability → redundancy,
+                                                                       replication, resilient
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+A.A. 2025 - 2026
+                                                                       architectures               70
+  Safety vs. Security
+    In addition to the previous considerations, we will analyze the
+    following aspects:
+    ➢    Conflicting requirements
+    ➢    Threats: Accidentality vs Intentionality
+    ➢    Threats: Cardinality
+    ➢    Failure prevention
+    ➢    The role of standards
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                      71
+A.A. 2025 - 2026
+   The role of AMASS
+               Standards                                                        Standardization Roadmap and Report          D8.11 V1.0
+
+
+
+                          The multi-standard approach can be a model for the multi-concern standardization issues to be managed for
+     ➢     A significant convergence of standards has already been
+                          many domains and standardization areas/bodies in a coherent manner, in cooperation of AMASS with other
+                          related projects and initiatives – we may have just a look on the landscape of functional safety and security
+           achieved…      standards in IEC, ISO, Aerospace and other areas (see Figure 2).
+
+
+
+
+                      Figure 2. A view of the International Standardization Framework of Safety & Security (Bertrand Rique, 2015)
+Cybersecurity and National   Defense (Grandi Sfide - Digital)
+                                                                                                                                          72
+A.A. 2025 - 2026
+related projects and initiatives – we may have just a look on the landscape of functional safety and secu
+standards in IEC, ISO, Aerospace and other areas (see Figure 2).
+
+
+  The role of Standards
+    ➢    A significant convergence of standards has already been
+         achieved…
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                   73
+A.A. 2025 - 2026
+  Protecting what
+
+    ➢    People
+                                                   SAFETY
+    ➢    Environment
+    ➢    Objects
+                                                               DEPENDABILITY
+    ➢    Computers
+                                                    SECURITY
+    ➢    Information
+    ➢    Cyberspace
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                           74
+A.A. 2025 - 2026
+  Dependability
+    ➢    Property of a system that allows reliance to be placed justifiably
+         on service it delivers.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                              75
+A.A. 2025 - 2026
+  Dependability Elements
+    Dependability can be broken down into three elements:
+    ➢ Attributes: the properties that characterize a dependable
+      system.
+    ➢ Threats: the events or conditions that can affect the
+      dependability of a system.
+    ➢ Means: mechanisms and techniques to increase a system’s
+      dependability.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                  76
+A.A. 2025 - 2026
+  Dependability Attributes
+    ➢ Set of properties that a dependable system should provide.
+    ➢ Properties that evaluate the quality of the service provided:
+              ➢ Reliability: the system performs its intended function consistently over
+                time
+              ➢ Safety: the system does not cause harm.
+              ➢ Security: ensures protection against malicious actions.
+                  ➢ Confidentiality
+                  ➢ Integrity
+                  ➢ Availability
+              ➢ Maintenability: the ability to repair and restore the system efficiently
+                when problems occur
+                   [A. Avižienis, J.-C. Laprie, B. Randell, C. Landwehr: “Basic Concepts and Taxonomy of
+                   Dependable and Secure Computing”, IEEE TDSC, 1 (1), pp. 11-33, Jan-Mar 2004]
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                           77
+A.A. 2025 - 2026
+  Resilience
+    ➢    Resilience is the ability of a system to:
+           • prepare for adverse events
+           • absorb disruption while maintaining essential functions
+           • recover within mission-acceptable time
+           • adapt to evolving threats and conditions
+
+                                                  [Adapted from NIST SP 800-39 and NIST SP 800-160]
+
+
+    ➢    It helps an organisation protect against cyber risks, defend
+         against and limit the severity of attacks, and ensure its continued
+         survival despite an attack.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                 78
+A.A. 2025 - 2026
+  Resilience
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              79
+A.A. 2025 - 2026
+

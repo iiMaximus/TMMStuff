@@ -1,0 +1,92 @@
+
+
+--- PAGE 1 ---
+STM Exercise 9
+Phase Diagrams(Fe-C)
+
+
+--- PAGE 2 ---
+
+
+
+--- PAGE 3 ---
+
+
+
+--- PAGE 4 ---
+Exercise 1: which transformation occurs in point I?
+
+
+--- PAGE 5 ---
+Exercise 1: which transformation occurs in point I?Point I is a PERITECTIC transformation+L  
+
+
+--- PAGE 6 ---
+0.34
+ABCDEFExercise 2: Determine the phase/s present theircompositions and relative amount in points A, B, C (at the beginning of the peritectic transformation), D(at the end of the peritectic transformation), E and F for a steel with 0.34%C.
+
+
+--- PAGE 7 ---
+0.34
+ABCDEF Point A:1 phase liquidComposition 0.34%CRelative amount 100% liquid
+
+
+--- PAGE 8 ---
+0.34
+ABCDEF Point B:2 phasesferrite (solid) and liquidCompositions (HORIZONTAL RULE)•Composition of ferrite : C =0.05%C•Composition of liquid: CL=0.4%CRelative amounts (LEVER RULE)•%ferrite = (0.4-0.34)/(0.4-0.05)*100=17%•%Liquid= (0.34-0.05)/(0.4-0.05)*100=83%CCL
+
+
+--- PAGE 9 ---
+0.34
+ABCDEF Point C:2 phasesferrite (solid) and liquidCompositions (HORIZONTAL RULE)•Composition of ferrite : C =0.1%C•Composition of liquid: CL=0.51%CRelative amounts (LEVER RULE)•%ferrite = (0.51-0.34)/(0.51-0.1)*100=41.5%•%Liquid= (0.34-0.1)/(0.51-0.1)*100=58.5%CCL
+
+
+--- PAGE 10 ---
+0.34
+ABCDEF Point D:2 phasesaustenite (solid) and liquidCompositions (HORIZONTAL RULE)•Composition of austenite : C =0.16%C•Composition of liquid: CL=0.51%CRelative amounts (LEVER RULE)•%austenite = (0.51-0.34)/(0.51-0.16)*100=48.5%•%Liquid= (0.34-0.16)/(0.51-0.16)*100=51.5%CCL
+
+
+--- PAGE 11 ---
+0.34
+ABCDEF Point E:2 phasesaustenite (solid) and liquidCompositions (HORIZONTAL RULE)•Composition of austenite : C =0.2%C•Composition of liquid: CL=0.6%CRelative amounts (LEVER RULE)•%austenite = (0.6-0.34)/(0.6-0.2)*100=65%•%Liquid= (0.34-0.2)/(0.6-0.2)*100=35%CCL
+
+
+--- PAGE 12 ---
+0.34
+ABCDEF Point F:1 phase austenite (solid)Composition: 0.34%CRelative amount 100% solidaustenite
+CCL
+
+
+--- PAGE 13 ---
+0.13
+ABCDF Exercise 3: Determine the phase/s present theircompositions and relative amount in points A, B, C (at the beginning of the peritectic transformation), D(at the end of the peritectic transformation), E and Ffor a steel with 0.13%C.E
+
+
+--- PAGE 14 ---
+0.13
+ABCDF Point A:1 phase liquidComposition 0.13%CRelative amount 100% liquidE
+
+
+--- PAGE 15 ---
+0.13
+ABCDF Point B:2 phasesferrite (solid) and liquidCompositions (HORIZONTAL RULE)•Composition of ferrite : C =0.05%C•Composition of liquid: CL=0.4%CRelative amounts (LEVER RULE)•%ferrite = (0.4-0.13)/(0.4-0.05)*100=77%•%Liquid= (0.13-0.05)/(0.4-0.05)*100=23% CCLE
+
+
+--- PAGE 16 ---
+0.13
+ABCDF Point C:2 phasesferrite (solid) and liquidCompositions (HORIZONTAL RULE)•Composition of ferrite : C =0.1%C•Composition of liquid: CL=0.51%CRelative amounts (LEVER RULE)•%ferrite = (0.51-0.13)/(0.51-0.1)*100=93%•%Liquid= (0.13-0.1)/(0.51-0.1)*100=7% CCLE
+
+
+--- PAGE 17 ---
+0.13
+ABCDF Point D:2 phasesferrite (solid) and austenite (solid)Compositions (HORIZONTAL RULE)•Composition of ferrite : C =0.1%C•Composition of austenite (solid): C=0.16%CRelative amounts (LEVER RULE)•%ferrite = (0.16-0.13)/(0.16-0.1)*100=50%•%austenite = (0.13-0.1)/(0.16-0.1)*100=50% CCE
+
+
+--- PAGE 18 ---
+0.13
+ABCDE Point E:2 phasesferrite (solid) and austenite (solid)Compositions (HORIZONTAL RULE)•Composition of ferrite : C =0.08%C•Composition of austenite (solid): C=0.14%CRelative amounts (LEVER RULE)•%ferrite = (0.14-0.13)/(0.14-0.08)*100=17%•% austenite = (0.13-0.08)/(0.14-0.08)*100=83% CCE
+
+
+--- PAGE 19 ---
+0.13
+ABCDF Point F:1 phase austenite (solid)Composition: 0.13%CRelative amount 100% solidausteniteE

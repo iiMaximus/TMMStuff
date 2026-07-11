@@ -1,0 +1,1067 @@
+
+
+--- PAGE 1 ---
+1
+MECHANICAL PROPERTIES 
+OF MATERIALS: 
+Additional details and testing 
+methods
+
+
+--- PAGE 2 ---
+2
+“True” engineering curve 
+necking Formation of pores 
+Pores coalescence 
+Crack propagation
+
+
+--- PAGE 3 ---
+3
+
+
+--- PAGE 4 ---
+4
+
+
+--- PAGE 5 ---
+5
+
+
+--- PAGE 6 ---
+Metallic samples 
+for tensile test 
+https://m.youtube.com/watch?v=D8 
+U4G5kcpcM 
+Excellent video on  
+tensile test
+
+
+--- PAGE 7 ---
+7
+Steel  Pure metals 
+a) Au and Pb at RT (100% necking), metals and polymer 
+at high T 
+b) Standard ductility 
+c) Brittle fracture (no necking)
+
+
+--- PAGE 8 ---
+Yield strength 
+(ss, sy, s0,2 )
+(ss, sP(0,2) )
+Yield strength or proportional 
+limit (R p0,2 ) 
+Yield Strength (YS, S y), 
+“Yield Strength (offset = 0.2 %)”
+
+
+--- PAGE 9 ---
+Upper and lower yield 
+strength 
+Upper Yield Strength (UYS) 
+and Lower Yield Strength 
+(LYS) 
+In steel we have the solute (Carbon atoms) in Fe as interstitials. 
+They cause the dislocations to pin. So it becomes difficult for 
+dislocation to move and we need higher load to make them move 
+(upper yield point). Then at some point the pinning is gone and 
+dislocations can move freely and we need smaller load to keep 
+them moving (plastic deformation going) and that would be the 
+lower yield point. 
+In the beginning the dislocation has to go through the 
+interstitial carbon atom and is struggling, once past 
+that point, it moves fast: video ! 
+https://youtu.be/zDjbJWlR4jM
+
+
+--- PAGE 10 ---
+(sMAX )
+(R m) 
+Tensile Strength (TS, S u, UTS)
+
+
+--- PAGE 11 ---
+elongation % 
+(A t)
+Maximum elongation (Elmax) 
+100
+0
+0 
+l
+l l
+Ductility
+
+
+--- PAGE 12 ---
+Typical stress-strain curves 
+failure 
+tensile strength 
+upper yield point 
+lower yield point 
+sy
+strain 
+stress 
+sample ‘necking’ 
+elastic 
+region 
+plastic 
+region 
+yield strain ultimate strain 
+ultimate strength 
+material may 
+follow either path 
+www.matcoinc.com/images/sem1a.jpg
+
+
+--- PAGE 13 ---
+http://www.ndt-ed.org/EducationResources/CommunityCollege/Materials/Mechanical/Tensile.htm
+
+
+--- PAGE 14 ---
+14 
+It is adopted for measuring the strength of materials used in compression 
+(the majority of structural materials for Architecture: br ick, concrete…) and 
+for calculating the forces required in manufacturing processing 
+It is useful for brittle material : pre-existing micro- or macro-defects are not 
+enlarged  higher strength and strain than in tensile test. However, th is test 
+overestimates the material resistance: the component can r each premature 
+failure (in comparison to compression data) under real oper ating conditions 
+if complex stresses (e.g. compression + torsion + bending) are present.
+Effect of 
+tensile test 
+on flaws 
+Effect of 
+compressive 
+test 
+on flaws 
+COMPRESSION TEST
+
+
+--- PAGE 15 ---
+15 
+Tension Tension 
+Compression 
+Same material!
+
+
+--- PAGE 16 ---
+16 
+ 
+Warning!
+https://www.instron.de/our-
+company/library/test-
+types/compression-test 
+«barrelling»
+
+
+--- PAGE 17 ---
+17 
+COMPRESSION TEST
+
+
+--- PAGE 18 ---
+18 
+Bending or flexural test
+
+
+--- PAGE 19 ---
+19 
+It is often used for measuring 
+the strength of 
+brittle 
+materials .
+There are compressive stress 
+on the top surface and tensile 
+forces on the bottom surface .
+The results of the bending test 
+are similar to the stress-strain 
+curves obtained by tension 
+test;
+the maximum stress at
+failure can be analytically 
+calculated .
+Example : 3-point flexural strength 
+Failure load (F) and sample dimensions 
+are known or ca be easily measured!!
+
+
+--- PAGE 20 ---
+20 
+3-point or 
+4-point bending test 
+Block of concrete 
+Highly crystalline polymer
+
+
+--- PAGE 21 ---
+21 
+Asymmetric 4 point bending for ceramic joined 
+materials 
+F
+le
+Fe FeFiFi
+F
+li
+Mf
+T
+T = F le - li
+le + l i
+
+
+--- PAGE 22 ---
+22 
+BENDING TEST on Al 2O3
+and  glass 
+s (MPa) 
+e
+BENDING TEST on materials 
+with plastic deformation
+
+
+--- PAGE 23 ---
+23 
+Flexural strength of ceramics
+
+
+--- PAGE 24 ---
+24 
+Condition of use!! T ????
+
+
+--- PAGE 25 ---
+25 
+TEST: 
+• Draw e versus t (strain vs time) when a material is 
+loaded at s = constant, in the elastic field, in two 
+conditions: 
+• Room temperature 
+• High temperature (e.g. 50% Tm)
+
+
+--- PAGE 26 ---
+26 
+TEST 
+• Draw e versus t (strain vs time) when a material is 
+loaded at s = constant, in the elastic field
+
+
+--- PAGE 27 ---
+27 
+TEST 
+• Draw e versus t (strain vs time) when a material is 
+loaded at s = constant, in the elastic field
+
+
+--- PAGE 28 ---
+28 
+CREEP 
+Plastic deformation even if stress is in the elastic 
+field 
+fracture 
+Elastic deformation 
+Creep I 
+Creep III 
+Creep II
+
+
+--- PAGE 29 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+29 
+CREEP 
+ 
+Constant load in the elastic field can g ive to a 
+plastic deformation, progressive to fracture.  
+ 
+•Thermally activated process 
+ 
+Metals T>0,3-0,4 T
+melting  
+Ceramics T> 0,6-0,7 T melting  
+Amorphous materials  T>T glass   
+ 
+creep test 
+: a constant load is applied at a 
+given T, strain is recorded versus time.
+
+
+--- PAGE 30 ---
+30 
+Creep test execution: a specimen is subjected to a
+constant load and strain is measured during a
+significant period of time while maintaining the 
+temperature high and constant .
+CONSTANT TEMPERATURE 
+(FURNACE) 
+SAMPLE 
+LOAD 
+(CONSTANT WEIGHT)
+
+
+--- PAGE 31 ---
+31 
+Tertiary creep: at grain boundaries some 
+microcracks and voids are formed 
+weakness points  cracks propagation 
+material rupture 
+Primary creep:
+we have elastic + plastic deformation; 
+the latter is favoured by dislocation 
+movement. The deformation rate 
+(dε/dt) progressively decreases. 
+Secondary creep:
+the deformation rate (dε/dt) is low in 
+comparison to that of primary creep 
+and remains constant (equilibrium 
+between work-hardening and 
+annealing).
+
+
+--- PAGE 32 ---
+32 
+(c)2003 Brooks/Cole, a division of Thomson Learning, Inc.  Thomson Learning ™ is a trademark used herein under 
+license. 
+Dislocations can climb (a) when atoms leave the dislocation line to create 
+interstitials or to fill vacancies or (b) when atoms are attached to the 
+dislocation line by creating vacancies or eliminating interstitials 
+Stage I: primary creep
+
+
+--- PAGE 33 ---
+33 
+Stage II : steady state 
+nCRn
+ss AT R
+ECdt
+d
+ 
+e
+e  
+
+
+
+
+
+    exp
+&
+C = costant depending on materials 
+ = applied stress 
+n = coefficient depending on materials  3 < n < 8 
+ECR  = activation Energy 
+R = perfect gas constant 
+    T = test Temperature
+
+
+--- PAGE 34 ---
+34 
+Stage III: tertiary creep
+
+
+--- PAGE 35 ---
+35
+
+
+--- PAGE 36 ---
+36 
+strain 
+tIME 
+increasing 
+load 
+Effect of the applied load
+
+
+--- PAGE 37 ---
+37 
+increasing 
+temperature 
+strain 
+tIME 
+Effect of the working temperature
+
+
+--- PAGE 38 ---
+38 
+°C
+Experimental creep curves for a borosilicate glass 
+at 200 and  420 °C, from 18 to 36 MPa)
+
+
+--- PAGE 39 ---
+39 
+How to increase creep resistance? 
+• High melting T and E materials 
+• Large grains or mono-crystals (small grains 
+increase grain motion at the grain boundaries) 
+• Solid solutions (to restrict dislocation glide) 
+• Precipitates (to restrict dislocation glide) 
+• Second phases (composites) (to restrict 
+dislocation glide) 
+Effect of grain size on yield strength???
+
+
+--- PAGE 40 ---
+Scienza e Tecnologia dei Materiali 
+M.Ferraris 
+40 
+Grain size effect on creep 
+dg (average grain 
+diameter= 170 microns 
+Time (hours) 
+Creep tests at 1000 °C, 
+10 hours, 17MPa
+
+
+--- PAGE 41 ---
+Scienza e Tecnologia dei Materiali 
+M.Ferraris 
+41 
+Crystalline structure effect on creep 
+-large grains can increase creep resistance because there is less grain boundary surface able to slide; several small 
+grains slide one on the other one; with a few large grains this is less evident; 
+-even longer creep life if you have a single crystal with no grains at all
+
+
+--- PAGE 42 ---
+42 
+TEST: 
+• Apply a tensile stress to a material in the elasti c 
+field. 
+• Can this material fail? 
+• Repeat the test several times.
+• Is it possible to have the material failure ? 
+• If yes, draw a graph with the applied stress 
+(s) versus the number of cycles (N) 
+necessary to achieve the material failure
+
+
+--- PAGE 43 ---
+43 
+S-N curves: stress (S) vs number of cycles 
+(N) to obtain failure 
+N
+S Fe, Ti, steels 
+Al, Cu 
+Dispersion range due 
+to experimental 
+measurement of fatigue 
+Fatigue limit 
+Wohler curves
+
+
+--- PAGE 44 ---
+44 
+Fatigue 
+• Failure of materials due to cyclic loading.
+• Main reason of mechanical failure of materials 
+• Failure happens at stress lower than sR or sY
+• Catastrophic failure of materials (ALSO FOR DUCTILE 
+MATERIALS !) 
+• Fatigue tests: materials are cyclically loaded at different 
+stresses up to failure.
+• Fatigue limit: when cyclically loaded below this limit, 
+materials do not fail (time considered by the graph)
+
+
+--- PAGE 45 ---
+45 
+Experimental measurement: fatigue testing 
+Rotating-bending test: the specimen is rotated and a load perpendicular to 
+the rotational axis is imposed.
+This test is very time-consuming  the specimens are tested under several 
+millions of stress cycles!
+
+
+--- PAGE 46 ---
+46 
+S-N curve 
+s a s max s min
+2
+S= 
+N
+S smax ,  smin : applied 
+stresses  during tests 
+Fracture zone 
+Safe zone 
+Fatigue limit
+
+
+--- PAGE 47 ---
+47 
+Materials and Fatigue 
+• Between 35-65% of their tensile strength most of 
+metals fail because of fatigue (e.g. Fe, Ti alloys, 
+intrinsical fatigue limit)
+• Other metals fail in any case after a given limit (e.g. A l, 
+no intrinsical fatigue limit)
+• Fatigue resistance: stress necessary to fracture the 
+material after a given number of cycles at this stress 
+• Fatigue life: number of cycles necessary to fracture 
+the materials at a given load .
+
+
+--- PAGE 48 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+48 
+A 78.5 mm2 
+Stress amplitude 127MPa 
+A cylindrical component (10 mm diameter)  is cyclically loaded  at 
+10 kN (compression, tensile stresses). Calculate its fatigue life if 
+the component is made of brass, aluminum alloy or steel
+
+
+--- PAGE 49 ---
+49 
+Fatigue: fracture surface 
+Starting point (macroscopic surface 
+defect) 
+Starting 
+point 
+Fatigue surface 
+(smooth) 
+Catastrophic failure, 
+rough surface
+
+
+--- PAGE 50 ---
+50 
+Fatigue: fracture surface 
+Fatigue surface, smooth 
+Catastrophic brittle failure, 
+also on ductile materials, 
+rough surface
+
+
+--- PAGE 51 ---
+51 
+Ductile and brittle fracture 
+• Ductile fracture: high plastic deformation at the 
+crack tip, slow crack propagation (i.e. stable 
+propagation) 
+• Brittle fracture: no (or low) plastic deformation at t he 
+crack tip, quick crack propagation (i.e. unstable 
+propagation), catastrophic failure
+
+
+--- PAGE 52 ---
+52 
+Static loads    Cyclic loads 
+Intrusion bands
+
+
+--- PAGE 53 ---
+53 
+Stress intensity factor 
+• Macro-defects (pores, cracks) in 
+all materials act as stress 
+concentration factors 
+• True stress on the material at the 
+tip of the crack (s m) is higher than 
+the nominal stress ( 
+s
+0)
+rt = radius of the crack 
+a = length of a crack on the 
+surface 
+• Critical Defects ( Griffith Theory, 
+Fracture mechanics )
+• Without defects, mechanical 
+strength  would be close to the 
+theoretical values (as it is for 
+monocrystalline materials or small 
+brittle materials)
+
+
+--- PAGE 54 ---
+54 
+Stress intensity factor for elliptical cracks with 
+length = 2a and small curvature radius: 
+s m  2s 0
+a rt
+
+
+
+
+1 2
+Callister 
+s0= nominal stress 
+sm= stress on material 
+K= sm/s0 = stress intensity 
+factor , K=2(a/ r)1/2
+
+
+--- PAGE 55 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+55 
+Crack propagation 
+Role of : rt = radius of the crack 
+a = length of a crack on the material surface 
+– If plastic deformation is possible,
+rt can increase 
+decrease of 
+sm
+– If plastic deformation is not possible  catastrophic failure. 
+– Griffith Theory (with subsequent Irwin modifications) 
+quantifies these issues 
+s m  2s 0
+a rt
+
+
+
+
+1 2
+https://ceramicsandglass.wordpress.com/2021/05/14/a-castle-of-glass-explanation-of-
+griffiths-fracture-theory/
+
+
+--- PAGE 56 ---
+56 
+KIc = Y sc (p a) 1/2   (MPa m 1/2 )
+Fracture thoughness 
+(mode I) 
+a = half length of the crack 
+Y = geometrical parameter 
+Crack propagation and critical parameters 
+sc = critical stress, crack propagation 
+for s > sc
+
+
+--- PAGE 57 ---
+57
+
+
+--- PAGE 58 ---
+58 
+KIC critical 
+parameters 
+(defect length and 
+stress) 
+above which there is 
+failure ( all materials )
+KIc = Y sc (p a) 1/2 
+(ASTM E 399) 
+PS-ZrO 2 8-12
+
+
+--- PAGE 59 ---
+59 
+Materials
+
+
+--- PAGE 60 ---
+60 
+The strength of materials (for allowing crack propagation) is given 
+by the combination of: 
+- fracture tiughness 
+- crack size 
+- sample geometry
+
+
+--- PAGE 61 ---
+WEIBULL STATISTICS 
+The PROBABILITY of fracture is linked to the 
+dimensional distribution of the defects in the material 
+volume and to the probability of finding cracks of 
+certain dimensions in a sample 
+Larger samples statistically fail under lower loads 
+greater probability of containing defects of critical size 
+SCALE EFFECT!
+
+
+--- PAGE 62 ---
+Mechanical strength – «chain analogy» 
+The resistance of a chain depends on the 
+weakest element 
+If the resistance of each element is 
+randomly distributed and the probability 
+of NOT BREAKING of a chain of length 
+L is P s (L) then the probability of not 
+breaking of a chain of length 2L will be:
+Ps(2L) = Ps(L)·P s(L) 
+Note on the scale effect (see previous slide):
+as P
+s(L) ranges between 0 and 1, then Ps(2L) < Ps(L))
+
+
+--- PAGE 63 ---
+Example: glass fibres 
+ Tensile strength of a glass 
+slab around 100 MPa 
+ For glass fibres  900-1000 
+MPa 
+ Scale or volume effect 
+Weibull statistics 
+ Tensile strength can reach 
+values comparable to the 
+compressive strength
+
+
+--- PAGE 64 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+64
+
+
+--- PAGE 65 ---
+65 
+How to increase materials fatigue 
+resistance? 
+• Surface strengthening 
+methods 
+• Environment (corrosion?) 
+coatings 
+• Suitable mechanical design 
+• Fatigue and fracture 
+mechanics to model and 
+predict components life ! 
+Strengthened surface 
+Normal surface
+
+
+--- PAGE 66 ---
+66 
+Notches in engineering components 
+How to solve?
+
+
+--- PAGE 67 ---
+Finite Element Analysis (FEA) 
+67
+
+
+--- PAGE 68 ---
+68 
+Examples of different r
+and stress concentration 
+by Finite Element 
+Analysis (FEA)
+
+
+--- PAGE 69 ---
+
+
+
+--- PAGE 70 ---
+
+
+
+--- PAGE 71 ---
+71 
+It is a measure of the material resistance to localized compressive 
+stress due to INDENTATION .
+The indenter is subjected to a load and causes a localized ela stic 
+deformation, followed by a plastic deformation which leads to an 
+indentation (imprint ).
+Resulting indentations are observed and measured.
+Different scales of hardness exist; the hardness 
+H can be expressed 
+as F/A , where A is the area of the indentation (note that H is formally 
+expressed in GPa ), or as the depth of the indentation (H is 
+expressed in μm or mm ).
+Shape of the indenter: 
+spherical or pyramidal 
+HARDNESS
+
+
+--- PAGE 72 ---
+72 
+Basis           
+Loads 
+(changeable weights)           
+Head of the machine    
+Lever for load application   
+Sample holder 
+Indenter 
+Sample 
+Handwheel 
+Test execution
+
+
+--- PAGE 73 ---
+73 
+Brinell test : spherical indenter 
+HB = F/( pDd) = load/indentation area 
+Vickers test: pyramidal indenter 
+HV = 1.854(F/L 2), where L is the imprint diagonal length 
+Indenter 
+Sample 
+surface 
+Indenter is above 
+sample surface 
+Indenter is subjected to a
+load and it penetrates 
+into sample surface 
+Indenter is removed from 
+sample surface and an 
+imprint is left 
+F
+Examples of hardness tests
+
+
+--- PAGE 74 ---
+74 
+Vickers 
+Brinell
+
+
+--- PAGE 75 ---
+75 
+Rockwell Hardness 
+measures penetration depth
+
+
+--- PAGE 76 ---
+76 
+example: 60 HR30W = superficial Rockwell hardness = 
+You measure 60 on a scale 30W, with a Rockwell hardness test
+
+
+--- PAGE 77 ---
+77 
+Example: 80 HRB= Rockwell hardness = 80 scale B 
+Values lower than 20 or higher than 100 are not acceptable
+
+
+--- PAGE 78 ---
+78 
+Correlation hardness/tensile properties 
+Steel TS: about= 3.45 HB 
+brass 
+Cast iron 
+steel 
+78 HB 
+σmax 
+This correlation is useful because 
+hardness test is easier to be 
+performed than tensile test and it does 
+not fracture the sample.
+This is the reason why the 
+hardness test is widely used as 
+quality control test, as well as 
+for a preliminary evaluation of the 
+mechanical properties of 
+materials.
+By knowing H, we can graphically 
+estimate the 
+tensile strength .
+
+
+--- PAGE 79 ---
+79
+
+
+--- PAGE 80 ---
+80 
+Vickers micro-hardness 
+on a brittle material 
+Quality of 
+joining
+
+
+--- PAGE 81 ---
+http://www.ndt-ed.org/EducationResources/CommunityCollege/Materials/Mechanical/Tensile.htm 
+AGAIN……..
+
+
+--- PAGE 82 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+82 
+Toughness and resilience 
+• Toughness =  energy absorbed up to fracture = area  of  se curve up 
+to fracture ) (J / m 3 )
+• Resilience = energy absorbed under mech. impact (notched samples) 
+Stress 
+strain 
+Brittle, low ∫ s de
+Ductile, tough, plastic…..large ∫ s de
+
+
+--- PAGE 83 ---
+83 
+Stress 
+Fracture elastic energy or resilience modulus (U r)
+Ur = ∫ s de( between e0 and 
+ey) (ELASTIC FIELD )
+s = E e e ysy / E 
+Ur = ½ sy ey  ½ sy
+2 /E 
+strain
+
+
+--- PAGE 84 ---
+84 
+Charpy test : 
+Assessment of the 
+resiliency  energy 
+necessary to 
+fracture a notched 
+sample 
+(impact of a 
+hammer) 
+Starting position 
+hammer 
+scale 
+final position 
+sample 
+Ruler
+
+
+--- PAGE 85 ---
+85 
+Absorbed impact energy vs. temperature for several steels: ductile to 
+brittle transition 
+Absorbed impact energy 
+Role of C and Fe 3C on dislocation motion and ductile to brittle transition
+
+
+--- PAGE 86 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+86 
+Effect of ductile to brittle transition... 
+• 4 °C
+• steel
+
+
+--- PAGE 87 ---
+Importance of Brittle to Ductile Transition Temperature 
+The Titanic 
+P/S too High ! 
+Mn too low ! 
+Courtesy of  L.L.Snead, ORNL, USA
+
+
+--- PAGE 88 ---
+Work of : Leihly, Braamfitt, and Lawrence. Practical Failure Analysis 1(2) 2001. 
+Importance of “Ductility ” for Engineering Materials 
+Ductile-to-brittle 
+transition temperature 
+0
+5 0 
+1 0 0 
+1 5 0 
+2 0 0 
+2 5 0 
+3 0 0 
+3 5 0 
+-1 0 0 -5 0 0 5 0 1 0 0 1 5 0 2 0 0 
+Absorbed Energy ( J)
+Test Temperature (°C)
+Modern Hull Plate 
+RMS Titanic 
+Longit udinal 
+Transverse 
+Longit udinal 
+Transverse 
+Leighly, Prac. Fail. Anal. 2 0 0 1 
+Courtesy of  L.L.Snead, ORNL, USA
+
+
+--- PAGE 89 ---
+Importance of Brittle to Ductile Transition Temperature 
+120 °C Test, Ductile -32 °C Test, Brittle 
+Titanic Hull Plate 
+Courtesy of  L.L.Snead, ORNL, USA
+
+
+--- PAGE 90 ---
+Fracture surfaces after Charpy test (V-
+notched) at given T
+Ductile to brittle transition
+
+
+--- PAGE 91 ---
+•  Increasing temperature... 
+-- increases % EL and KIC 
+•  Ductile-to-Brittle Transition Temperature (DBTT) ... 
+D  B transition temperature 
+BCC metals (e.g., iron at T < 914°C) 
+Impact Energy 
+Temperature 
+High strength materials ( sy > E/150) 
+polymers     
+More Ductile Brittle 
+Ductile-to-brittle 
+transition temperature 
+FCC metals (e.g., Cu, Ni)
+
+
+--- PAGE 92 ---
+92 
+Ex: Cu, Al, Ag, Au 
+Ex: Fe, W, Cr 
+Ex: Mg, Ti, Zn 
+HEXAGONAL 
+BCC FCC
+
+
+--- PAGE 93 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+93 
+– https://www.tec-
+science.com/material-
+science/ductility-of-
+metals/influence-of-the-
+lattice-structure-on-the-
+ductility/ 
+(Cu, Al, Ni, Ag, Au) 
+(Fe)
+
+
+--- PAGE 94 ---
+94 
+CHARPY tests on 
+steel at different T: 
+at room T  
+2.22 J/mm 2
+at -200 °C 
+0.04 J/mm 2
+CHARPY test on steels 
+with same composition 
+but different thermal 
+treatments: 
+C40 steel annealed 
+0.89 J/mm 2
+C40 steel quenched 
+0.07 J/mm 2
+
+
+--- PAGE 95 ---
+95 
+DUCTILITY TEST 
+o
+o f
+STRAIN
+l
+l l) ( 100%  o
+o
+necking
+A
+A Af ) ( 100%
+
+
+
+--- PAGE 96 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+96
+
+
+--- PAGE 97 ---
+97 
+T1 
+T2 
+T3 
+T4 
+T1<T2<T3<T4 
+Effect of T
+
+
+--- PAGE 98 ---
+98 
+Stress/strain curves vs Temperature 
+Fe Polymers (PMMA)

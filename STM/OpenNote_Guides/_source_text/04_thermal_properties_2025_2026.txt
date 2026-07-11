@@ -1,0 +1,613 @@
+
+
+--- PAGE 1 ---
+1
+THERMAL PROPERTIES 
+OF MATERIALS
+
+
+--- PAGE 2 ---
+2
+THERMAL PROPERTIES: knowledge of materials response to the 
+application of heat.
+The knowledge of materials behaviour at high temperatures and how  
+their properties change with temperature is fundamental for material 
+applications 
+MATERIAL 
+ Temperature rise 
+ Dimensions increase 
+ Energy transport to cooler regions 
+ Melting 
+HEAT 
+RELEVANT THERMAL PROPERTIES: 
+ Heat capacity 
+ Thermal conductivity 
+ Thermal expansion 
+ Thermal stresses
+
+
+--- PAGE 3 ---
+3
+Mechanisms of heat transfer in a solid material 
+If heat is supplied to a solid material:
+ atomic vibrational energy 
+increases 
+ atoms are not independent (
+due to 
+their chemical bonds ): heat is 
+transferred through the material 
+(crystalline lattice or amorphous 
+structure) by vibrational waves called 
+PHONONS 
+Thermal energy is transferred:
+- both by free electrons (for instance in metals , where there is an 
+“electronic cloud”) 
+- and by vibrational waves (for instance in 
+ceramics , where there 
+are no free electrons).
+
+
+--- PAGE 4 ---
+4
+The modes of vibration involve the entire crystal 
+volume.
+In real crystals, amplitude of vibration is typically 
+much smaller than the lattice spacing.
+
+
+--- PAGE 5 ---
+5https://www.youtube.com/watch?v=RgRwHL4P8tU
+
+
+--- PAGE 6 ---
+6
+The internal energy of a solid material increases as heat is provided to it.  
+Thermal vibration amplitude increases as heat is supplied to the material 
+temperature increases  the kinetic energy of electrons increases and 
+the interatomic distance increases  the solid changes its size 
+Thermal vibrations: 
+ Atomic, ionic and molecular vibrations around the 
+equilibrium positions of an atom/ion/molecule in the lattice 
+ Atomic vibration inside molecules 
+ Rotation of molecules 
+During  phase transformations (e.g. transitions of state of matter) 
+heat is spent to do the transformation 
+and there is no temperature increase
+
+
+--- PAGE 7 ---
+7
+The heat capacity , C (J/K), of a system is the ratio 
+between the heat added to a material (dQ) and the 
+resultant change in its temperature (dT):
+Practically, it is the ratio between the absorbed 
+thermal energy ΔE and the resultant increase in 
+temperature ΔT:
+HEAT MATERIAL 
+Heat capacity 
+This parameter denotes the material ability to absorb heat from the external 
+surroundings.
+dT
+dQC 
+T
+EC 
+
+
+
+--- PAGE 8 ---
+8
+To make a comparison of heat capacities of different materials, we introduce 
+a new parameter derived from C:
+the SPECIFIC HEAT (c) represents the heat capacity per unit mass (i.e. 1
+kg) to raise a material’s temperature by 1 degree (1 K) 
+ cp: measured with 
+constant external pressure 
+ cv: maintaining 
+specimen volume constant 
+cp > c v but the difference is 
+very small at room temperature, so we 
+can usually define a single value of 
+specific heat c.
+dT m
+dQc  (J/kg K) 
+We can define 2 types of specific heat measured according to d ifferent 
+conditions:
+
+
+--- PAGE 9 ---
+9
+The heat capacity C (and accordingly the specific heat c) increases as T
+increases (at relatively low temperature):
+ it is necessary to give a bigger amount of heat to raise temper ature of a
+former heated material 
+ above a certain temperature it becomes constant 
+DEBYE TEMPERATURE 
+(below room temperature for many solid materials)
+
+
+--- PAGE 10 ---
+10 
+If the specific heat, c, is referred to 1 mole of substance (instead of 1 kg we 
+consider a number of atoms or molecules equal to the Avogadro ’s number, 
+NA = 6×10 32 ), it is called ATOMIC OR MOLECULAR HEAT (J/mole K). This 
+parameter is preferably used in chemistry and materials science.
+For most of solid elements the ATOMIC HEAT is about 25 J/mol K.
+ atomic heat depends on 
+temperature at low T
+ at high T it is approximately 
+constant (or slightly over 25 J/mol 
+K) 
+Heat capacity and derived parameters 
+depend on the atomic weight.
+
+
+--- PAGE 11 ---
+Thermal conductivity is the ability of a material to transfer thermal energy 
+from a system at high temperature to another system at lower temperature.
+Thermal conductivity 
+HEAT 
+MATERIAL 
+We define the thermal power Q (W) as: 
+THERMAL CONDUCTIVITY 
+COEFFICIENT 
+1-D situation, e.g. in a wire 
+2 o m
+W        dx
+dTkA
+Qq  
+Thermal flow 
+Q=  ·  ·
+∆
+∆
+
+
+--- PAGE 12 ---
+Example 
+Calculate the heat flowed in 1 hour through a 2 mm thick polymeric sheet (1 m 2) when one 
+side is at 20 °C and the other side is at 50 °C.
+k = 0.58 W/m K
+Q = 1 × 0.58 × 30 / (2× 10 -3) = 8700 W
+Heat in 1 h = 8700 × 3600 = 3.1 10 7 J
+1 W=1 J / s
+
+
+--- PAGE 13 ---
+13 
+Mechanisms of heat conduction 
+ Lattice vibration waves ( PHONONS )
+ Free electrons 
+k = k l + k eTOTAL 
+CONDUCTIVITY 
+LATTICE VIBRATION 
+CONDUCTIVITY 
+Phonon net movement 
+ELECTRON 
+CONDUCTIVITY 
+Kinetic energy transfer
+
+
+--- PAGE 14 ---
+14 
+First mechanism ( free electrons ) is predominant in metals : it is 
+related to electrical conductivity (also in this case we hav e movement 
+of electrons) and it is very efficient  metals have high thermal 
+conductivity . It can also depend on impurities and alloying elements.
+Second mechanism ( phonons ) is predominant in ceramics and it is 
+less efficient  in fact ceramics are insulating materials 
+Thermal conductivity of glasses is lower than thermal conductivity 
+of ceramics  vibrational waves very hardly propagate without 
+crystalline lattice 
+Porous materials  low thermal conductivity (air entrapped inside 
+the pores is a bad heat conductor  desired thermal insultating effect )
+Thermal conductivity of polymers is lower than thermal 
+conductivity of ceramics (heat is partially dissipated by 
+vibration/rotation of polymeric chain molecules); it is as much lower if 
+polymers are amorphous
+
+
+--- PAGE 15 ---
+15 
+In general, thermal conductivity depends 
+on temperature. 
+Random thermal agitation increases with increasing 
+temperature  disturbing effect on propagation of phonons 
+(for instance kl decreases with the increase of T in the 
+case of ceramics ).
+Electrons motion does not change (significantly) with T 
+(practically, ke does not change with T in the case of 
+metals )
+However, remember that BOTH MECHANISMS are always present 
+in solid materials!
+
+
+--- PAGE 16 ---
+
+
+
+--- PAGE 17 ---
+17 
+METALS 
+CERAMICS 
+In most cases, metals exhibit higher thermal conductivity than ceramics. 
+k metals > kceramics >> kpolymers
+
+
+--- PAGE 18 ---
+18 
+Some practical effects of  heat capacity and thermal conductivity 
+A component made by using a material with high specific heat t akes 
+more time (in other words, more heat ) to increase its temperature in 
+comparison with a component made of a material showing a low 
+specific heat.
+Example:
+Why is steel cold to touch? 
+Because steel has high thermal conductivity and high specif ic heat;
+as a consequence, it is cold to the touch  heat flux from our body is 
+significant (high thermal conductivity) and a big amount of heat is 
+needed to raise steel’s temperature from room temperature ( 25 °C) 
+up to equilibrium with our hand (37 °C) (
+steel has high heat capacity ).
+
+
+--- PAGE 19 ---
+k vs Zn % in Cu-Zn alloys
+
+
+--- PAGE 20 ---
+POLYMERS 
+k ~ 0.3 W/m K
+Vibration and 
+rotation of 
+molecular chains 
+k increases with 
+the % of 
+crystalline 
+structure 
+Typical insulating 
+materials 
+Polymeric Foams:
+role of pores
+
+
+--- PAGE 21 ---
+Role of porosity on thermal 
+conductivity 
+•k (air) = 0.02 W/m K
+Foam glass,  k= 0.04 W/mK 
+Foam materials
+
+
+--- PAGE 22 ---
+Silica aerogel 
+• One of the lowest density material 
+(1.6-1.9 mg/cm 3)
+• 95% air, 5% SiO 2
+• pore size about 20 nm 
+http://www.cabot-corp.com/Aerogel/Building-Insulation/What-Is-Aerogel 
+20 nm
+
+
+--- PAGE 23 ---
+Thermal conductivity of Aerogels vs 
+other insulating materials 
+Air
+
+
+--- PAGE 24 ---
+k aerogel < k air: is it possible? 
+Pore size in aerogel (20 nm) is lower than free mean 
+path for air molecules: heat transmission  less effective in 
+aerogels than in air (convection)
+
+
+--- PAGE 25 ---
+Atoms with similar mass 
+High E (diamond E=700-1200GPa) 
+Low defects 
+Simple crystalline cell (e.g. cubic)
+Diamond       2000  (W .m-1. K-1)
+Graphite            anisotropic 
+ see next slide 
+BN (cubic)      1300 
+BeO 300 
+AlN 200 
+SiC 130 
+High-k ceramics
+
+
+--- PAGE 26 ---
+Graphite: anisotropy
+
+
+--- PAGE 27 ---
+Applications of high k ceramics: SiC heat exchangers 
+W.m-1. K-1
+
+
+--- PAGE 28 ---
+Thermal conductivity in ceramics: the 
+influence of grain size 
+• Effect of grain size:
+like in the case of mechanical resistance 
+(strength), the increase of thermal resistance, 
+k
+-1, is related to the grain size d, being 
+inversely proportional to √d :
+k -1  d -1/2
+• For ceramics to have high thermal 
+conductivity, MICROSTRUCTURES with 
+LARGE GRAINS are useful to minimize the 
+effect of phononoic deviation by grain 
+boundaries and the effect of phases/impurity 
+at grain boundaries.
+
+
+--- PAGE 29 ---
+29 
+Thermal expansion 
+In general, solids increase their 
+size when heated and decrease 
+their size when cooled .
+We heat the rod up to a temperature T > T0, and its length increases to L
+L L 0 T
+The rod is at a temperature T0 and has a length of L0.
+We shall call the change in temperature: 
+T T - T0
+and the corresponding change in length: 
+L L - L0
+HEAT
+
+
+--- PAGE 30 ---
+30 
+Tl
+lT Tl
+l l
+t    
+  
+0
+0
+0
+0 ) (
+Due to temperature increase ΔT, solids undergo thermal deformation that can 
+be defined as:
+Thermal expansion is reflected by an increase in the average 
+distance between the atoms with respect to their equilibrium positions 
+the increase of volume due to thermal expansion is due to the 
+increase of interatomic bond length 
+ is called THERMAL EXPANSION COEFFICIENT [K -1 or °C -1]: it indicates 
+how a material expands upon heating 
+Heating Increase in 
+thermal vibrations 
+Increase in the length 
+of chemical bondings 
+THERMAL 
+EXPANSION
+
+
+--- PAGE 31 ---
+31 
+ = 10×10 -6 C-1 means that, starting from about 
+room temperature, at 1000 °C elongation is 1%
+Note: actually,  Is not constant but (slightly) varies with T 
+Metals   5-25 10 -6 K-1
+Ceramics   0.5-15 10 -6 K-1
+Polimers   50-400 10 -6 K-1
+
+
+--- PAGE 32 ---
+32 
+CTE and bond 
+strength 
+Lower 
+Strongly 
+bonded 
+solids, 
+high E, 
+high melt T
+
+
+--- PAGE 33 ---
+33 
+Melting temperature (K) 
+Relationship between α at 25 °C and 
+melting temperature. Metals having 
+high melting point tend to show less 
+expansion 
+Strong chemical bond: high elastic modulus , high melting 
+point , low thermal expansion coefficient
+
+
+--- PAGE 34 ---
+CTE changes with the crystalline 
+structure 
+(example: Fe)
+
+
+--- PAGE 35 ---
+35 
+Examples:
+ to manufacture a metallic joint using polymer resins as joining 
+material, additives (glass fibers or ceramics) should be pu t in the polymer 
+with the aim of reducing its thermal expansion coefficient 
+ Fe/steel reinforcement in 
+concrete : coupling between concrete matrix 
+(“artificial ceramic”) and metal-
+Material design and choice should take into account the thermal 
+expansion of materials that are put in contact 
+Careful attention should be devoted to materials in compone nts working at 
+high temperature, used as a coating or subjected to sudden te mperature 
+changes   mismatch should be reduced and appropriate “voids” might 
+be foreseen inside components in order to allow thermal expansion 
+Importance of  in materials choice
+
+
+--- PAGE 36 ---
+CTE steel = 12 x 10 -6 °C -1
+CTE granite= 8 x 10 -6 °C -1
+CTE steel = 12 x 10 -6 °C -1
+CTE granite= 8 x 10 -6 °C -1
+
+
+--- PAGE 37 ---
+ = E   E  l /l o  E  T
+ Ductile materials 
+ Brittle materials 
+Thermally induced stresses 
+Tl
+l
+T Tl
+l l
+t
+t
+ 
+ 
+
+
+0
+0
+0
+0 ) () (
+
+
+--- PAGE 38 ---
+9
+ Brass cylinder (E= 100 GPa,  y= 172 MPa,  = 20 x 
+10 -6 /K ), no thermal expansion allowed, which is 
+the maximum T it can reach without plastic 
+deformation? (room T= 20 °C) 
+Troom
+Lroom
+T
+L
+compressive  keeps L = 0     E(thermal )  E(T  Troom )
+100 GPa 20 x 10 -6 /K 
+20 °CT=  106 °C172 MPa 
+Thermally induced stresses: example 
+ = E   E  l /l o  E  T
+
+
+--- PAGE 39 ---
+ B <  A  B >  A
+Joined materials with different thermal expansion 
+coefficients- Residual stresses during cooling 
+ If   α B > α A, during cooling to room T, material 
+A is in compression mode 
+ If  α B < α A , during cooling to room T, material 
+A is in tensile mode 
+RT RT 
+39 
+A
+BB
+A
+
+
+--- PAGE 40 ---
+40
+
+
+--- PAGE 41 ---
+Stress at the interface between two solids 
+having different CTE 
+ = Stress at the interface between two solids having different CTE 
+E = Young modulus (M=metal, C=ceramic) 
+T = temperature (Tb –Ta = 
+T) 
+ = CTE  (M=metal, C=ceramic)
+
+
+--- PAGE 42 ---
+• flexural strength, f
+• coefficient of thermal conductivity, k 
+• elastic modulus, E 
+• TEC, 
+
+E
+kTSR
+f
+
+ First approximation of temperature variation ( T) without 
+failure for a given material 
+Thermal shock resistance (TSR) 
+MPa 
+BEST (ideal) MATERIAL: high k and low 
+(but it does not exist!)
+
+
+--- PAGE 43 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+Al 
+Cu 
+Au 
+Fe 
+Ni 
+Ag 
+W
+Steel 
+Stainless steel 
+brass 
+Silica glass 
+Soda-lime glass 
+Boro-silicate glass
+
+
+--- PAGE 44 ---
+44 
+DUCTILE MATERIALS 
+(e.g. metals, polymers) 
+Thermal stresses can induce plastic 
+deformation (unavoidable) 
+BRITTLE MATERIALS 
+(e.g. ceramics, glasses) 
+Thermal stresses 
+often lead 
+to 
+fracture 
+Modification of material properties ( mainly ) by: 
+ changing chemical composition (e.g. adding other 
+oxides in glasses; 
+ fabrication of composites (second phases with 
+different TEC) 
+ pay attention to the presence of pores (crack 
+“stopper”, but 
+k and mechanical strength )
+avoidable!
+
+
+--- PAGE 45 ---
+45 
+THERMAL PROPERTY MEANING CORRELATION TO 
+MATERIAL 
+CHARACTERISTICS 
+THERMAL CAPACITY Material ability to 
+absorb heat from the 
+external surroundings 
+Depends on atomic weight 
+THERMAL 
+CONDUCTIVITY 
+Material ability to 
+transfer thermal energy 
+from a system at high 
+temperature to another 
+system at  lower 
+temperature 
+Related to the 
+presence/absence of free 
+electrons 
+and to the propagation of 
+phonons 
+THERMAL EXPANSION Material attitude to 
+increase its dimensions 
+upon heating 
+Depends on the strength of 
+the chemical bonds 
+THERMAL SHOCK 
+RESISTANCE 
+Material resistance to 
+repeated, high thermal 
+variations (stresses) 
+Depends on thermal 
+expansion coefficient and 
+thermal conductivity 
+SUMMARY

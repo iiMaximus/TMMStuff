@@ -1,0 +1,21 @@
+## Sheet: es 2
+	Dati			
+	l0 (m)	A (mm^2)	F (N)	
+	10	1	10	
+Materiale	E (Mpa)	σ (Mpa)	ε 	Δl (m)
+Copper	110000	=$D$4/$C$4	=C8/B8	=D8*$B$4
+Steel	210000	=$D$4/$C$4	=C9/B9	=D9*$B$4
+Aluminum	69000	=$D$4/$C$4	=C10/B10	=D10*$B$4
+Tungsten 	400000	=$D$4/$C$4	=C11/B11	=D11*$B$4
+Sn-Pb (welding)	30000	=$D$4/$C$4	=C12/B12	=D12*$B$4
+		Iniziale	Finale	
+Copper	ε 	0	=D8	
+	σ (Mpa)	0	=C8	
+Steel	ε 	0	=D9	
+	σ (Mpa)	0	=C9	
+Aluminum	ε 	0	=D10	
+	σ (Mpa)	0	=C10	
+Tungsten	ε 	0	=D11	
+	σ (Mpa)	0	=C11	
+Sn-Pb (welding)	ε 	0	=D12	
+	σ (Mpa)	0	=C12	

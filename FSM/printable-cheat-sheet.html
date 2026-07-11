@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FSM Exam Cheat Sheet</title>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <style>
+    :root {
+      --ink: #17202a;
+      --muted: #52606d;
+      --line: #c8d0d8;
+      --paper: #fbfaf7;
+      --panel: #ffffff;
+      --blue: #1f5f8b;
+      --green: #2f6f5e;
+      --red: #9a3f35;
+      --amber: #8a6418;
+      --violet: #654f8f;
+      --code: #111827;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #e9edf0;
+      font: 13px/1.35 Arial, Helvetica, sans-serif;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 18px;
+      color: #fff;
+      background: #1d2730;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+    }
+
+    .toolbar strong {
+      font-size: 15px;
+      letter-spacing: 0.02em;
+    }
+
+    .toolbar button {
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 6px;
+      padding: 7px 11px;
+      color: #fff;
+      background: transparent;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .page {
+      width: 297mm;
+      min-height: 210mm;
+      margin: 16px auto;
+      padding: 8mm;
+      background: var(--paper);
+      box-shadow: 0 16px 40px rgba(24, 36, 50, 0.2);
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1.2fr 2fr;
+      gap: 12px;
+      align-items: stretch;
+      margin-bottom: 8px;
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 8px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 27px;
+      line-height: 1;
+      letter-spacing: 0.01em;
+    }
+
+    .subtitle {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .exam-flow {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 5px;
+    }
+
+    .flow-step {
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 5px;
+      background: #fff;
+      font-size: 10.5px;
+    }
+
+    .flow-step b {
+      display: block;
+      color: var(--blue);
+      font-size: 12px;
+    }
+
+    .sheet-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 7px;
+      align-items: start;
+    }
+
+    section {
+      break-inside: avoid;
+      break-inside: avoid-page;
+      page-break-inside: avoid;
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--blue);
+      border-radius: 7px;
+      background: var(--panel);
+      overflow: hidden;
+    }
+
+    section.green { border-top-color: var(--green); }
+    section.red { border-top-color: var(--red); }
+    section.amber { border-top-color: var(--amber); }
+    section.violet { border-top-color: var(--violet); }
+    section.wide { grid-column: span 2; }
+
+    h2 {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      margin: 0;
+      padding: 5px 7px 4px;
+      border-bottom: 1px solid var(--line);
+      background: #f5f7f8;
+      font-size: 14px;
+      line-height: 1.1;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    h2 span {
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    h3 {
+      margin: 8px 0 3px;
+      color: var(--blue);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .content {
+      padding: 6px 7px 7px;
+    }
+
+    .formula {
+      margin: 4px 0;
+      border-left: 3px solid var(--blue);
+      border-radius: 4px;
+      padding: 4px 5px;
+      color: var(--code);
+      background: #f1f4f6;
+      font: 11.2px/1.28 Georgia, "Times New Roman", serif;
+      white-space: normal;
+      overflow-x: auto;
+    }
+
+    .formula.tight {
+      font-size: 9.6px;
+      line-height: 1.22;
+    }
+
+    mjx-container[jax="SVG"] {
+      font-size: 0.86em !important;
+    }
+
+    .formula mjx-container {
+      margin: 0 !important;
+      min-width: 0 !important;
+      overflow: visible !important;
+    }
+
+    .formula mjx-container[display="true"] {
+      display: block !important;
+      text-align: left !important;
+      padding: 0 !important;
+    }
+
+    .formula.tight mjx-container[jax="SVG"] {
+      font-size: 0.78em !important;
+    }
+
+    table mjx-container[jax="SVG"],
+    li mjx-container[jax="SVG"],
+    .note mjx-container[jax="SVG"] {
+      font-size: 0.82em !important;
+    }
+
+    mjx-container[jax="SVG"] > svg {
+      display: inline-block;
+      width: auto !important;
+      max-width: 100%;
+      height: auto;
+      vertical-align: -0.18em;
+    }
+
+
+    .formula-label {
+      margin: 0 0 2px;
+      color: var(--muted);
+      font: 700 9.4px/1.15 Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    ul,
+    ol {
+      margin: 4px 0 4px 18px;
+      padding: 0;
+    }
+
+    li {
+      margin: 1px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 5px 0;
+      font-size: 10.4px;
+    }
+
+    th,
+    td {
+      border: 1px solid var(--line);
+      padding: 3px 4px;
+      vertical-align: top;
+    }
+
+    th {
+      color: #0f2230;
+      background: #edf2f4;
+      text-align: left;
+    }
+
+    .note {
+      margin: 5px 0;
+      border: 1px solid #e3d39a;
+      border-left: 4px solid var(--amber);
+      border-radius: 5px;
+      padding: 4px 5px;
+      background: #fff8df;
+      font-size: 10.7px;
+    }
+
+    .trap {
+      border-color: #e2b9b5;
+      border-left-color: var(--red);
+      background: #fff0ed;
+    }
+
+    .mini {
+      color: var(--muted);
+      font-size: 10.4px;
+    }
+
+    .mono {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 0.95em;
+    }
+
+    .diagram-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5px;
+      margin: 4px 0;
+    }
+
+    .diagram {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 3px;
+      background: #fbfcfd;
+      min-height: 74px;
+    }
+
+    .diagram svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .kicker {
+      display: inline-block;
+      margin-right: 3px;
+      color: var(--red);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .footer {
+      margin-top: 8px;
+      border-top: 1px solid var(--line);
+      padding-top: 5px;
+      color: var(--muted);
+      font-size: 10px;
+      text-align: right;
+    }
+
+    @media (max-width: 1100px) {
+      .page {
+        width: auto;
+        min-height: 0;
+        margin: 0;
+        padding: 12px;
+      }
+
+      header,
+      .sheet-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .exam-flow {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      section.wide {
+        grid-column: auto;
+      }
+    }
+
+    @page {
+      size: A4 landscape;
+      margin: 7mm;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        font-size: 11px;
+      }
+
+      .toolbar {
+        display: none;
+      }
+
+      .page {
+        width: auto;
+        min-height: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        background: #fff;
+      }
+
+      header {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      h2 {
+        padding: 4px 5px 3px;
+        font-size: 12px;
+      }
+
+      h3 {
+        margin-top: 5px;
+        font-size: 9.5px;
+      }
+
+      .sheet-grid {
+        gap: 4px;
+      }
+
+      section {
+        border-radius: 4px;
+      }
+
+      .content {
+        padding: 4px 5px;
+      }
+
+      .formula {
+        margin: 3px 0;
+        padding: 3px 4px;
+        font-size: 8.9px;
+      }
+
+      .formula.tight,
+      table {
+        font-size: 8.5px;
+      }
+
+      .formula-label {
+        font-size: 7.7px;
+      }
+
+      .flow-step,
+      .note,
+      .mini {
+        font-size: 8.5px;
+      }
+
+      th,
+      td {
+        padding: 2px 3px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <strong>FSM Exam Cheat Sheet</strong>
+    <button type="button" onclick="window.print()">Print</button>
+  </div>
+
+  <main class="page">
+    <header>
+      <div>
+        <h1>FSM Exam Cheat Sheet</h1>
+        <div class="subtitle">Reactions, diagrams, stress, failure, deflection, torsion, buckling</div>
+        <div class="note">
+          Main rule: draw the free-body diagram first. Formula hunting before reactions is how good answers go sideways.
+        </div>
+      </div>
+      <div class="exam-flow" aria-label="Exam workflow">
+        <div class="flow-step"><b>1</b>FBD + constraints</div>
+        <div class="flow-step"><b>2</b>Determinacy</div>
+        <div class="flow-step"><b>3</b>External reactions</div>
+        <div class="flow-step"><b>4</b>Internal actions</div>
+        <div class="flow-step"><b>5</b>Stress / deflection</div>
+        <div class="flow-step"><b>6</b>Safety factor</div>
+      </div>
+    </header>
+
+    <div class="sheet-grid">
+      <section class="wide">
+        <h2>Problem Map <span>pick the method</span></h2>
+        <div class="content">
+          <table>
+            <thead>
+              <tr><th>Problem phrase</th><th>Use</th><th>Core unknowns</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Truss, rods, pin joints</td><td>Method of joints</td><td>\(N\) only</td></tr>
+              <tr><td>Frame, bent member, internal hinge</td><td>Separate bodies</td><td>\(N,\ T_y,\ M_x\)</td></tr>
+              <tr><td>Shaft, shoulder, torque</td><td>Nominal/local stress + failure criterion</td><td>\(M,\ T,\ N,\ K_t\)</td></tr>
+              <tr><td>T/L/C section</td><td>Centroid, inertia, principal axes</td><td>\(x_G,\ y_G,\ I_{xx},\ I_{yy},\ I_{xy}\)</td></tr>
+              <tr><td>Compression member</td><td>Euler buckling</td><td>\(P_{cr},\ L_0,\ I_{min}\)</td></tr>
+              <tr><td>Ductile/brittle failure</td><td>Tresca/Von Mises/Rankine</td><td>\(\sigma_{eq},\ n\)</td></tr>
+              <tr><td>Gear or 3D shaft</td><td>Two bending planes + torsion</td><td>\(M_x,\ M_y,\ T,\ N\)</td></tr>
+            </tbody>
+          </table>
+          <div class="diagram-row">
+            <div class="diagram">
+              <svg viewBox="0 0 260 95" role="img" aria-label="Truss and support sketch">
+                <line x1="22" y1="74" x2="238" y2="74" stroke="#17202a" stroke-width="3"/>
+                <line x1="22" y1="74" x2="90" y2="20" stroke="#1f5f8b" stroke-width="4"/>
+                <line x1="90" y1="20" x2="158" y2="74" stroke="#1f5f8b" stroke-width="4"/>
+                <line x1="90" y1="20" x2="238" y2="74" stroke="#1f5f8b" stroke-width="4"/>
+                <circle cx="22" cy="74" r="5" fill="#9a3f35"/>
+                <circle cx="90" cy="20" r="5" fill="#9a3f35"/>
+                <circle cx="158" cy="74" r="5" fill="#9a3f35"/>
+                <circle cx="238" cy="74" r="5" fill="#9a3f35"/>
+                <path d="M90 25 L90 52" stroke="#9a3f35" stroke-width="3" marker-end="url(#arrow)"/>
+                <defs>
+                  <marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+                    <path d="M0,0 L7,3.5 L0,7 Z" fill="#9a3f35"/>
+                  </marker>
+                </defs>
+                <text x="76" y="67" font-size="12" fill="#17202a">F</text>
+                <text x="8" y="90" font-size="11" fill="#52606d">pin</text>
+                <text x="211" y="90" font-size="11" fill="#52606d">roller</text>
+              </svg>
+            </div>
+            <div class="diagram">
+              <svg viewBox="0 0 260 95" role="img" aria-label="Shaft shoulder stress sketch">
+                <rect x="22" y="37" width="78" height="22" rx="11" fill="#dfe7eb" stroke="#17202a"/>
+                <rect x="100" y="30" width="62" height="36" rx="18" fill="#dfe7eb" stroke="#17202a"/>
+                <rect x="162" y="37" width="76" height="22" rx="11" fill="#dfe7eb" stroke="#17202a"/>
+                <path d="M84 23 C98 30 98 65 84 72" fill="none" stroke="#9a3f35" stroke-width="2"/>
+                <path d="M176 23 C162 30 162 65 176 72" fill="none" stroke="#9a3f35" stroke-width="2"/>
+                <text x="111" y="23" font-size="12" fill="#17202a">D</text>
+                <text x="54" y="73" font-size="12" fill="#17202a">d</text>
+                <text x="80" y="18" font-size="11" fill="#9a3f35">use K_t</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Reactions <span>statics</span></h2>
+        <div class="content">
+          <div class="formula">\[
+\sum F_x = 0,\qquad \sum F_y = 0,\qquad \sum M = 0
+\]</div>
+          <table>
+            <tr><th>Support</th><th>Reactions</th></tr>
+            <tr><td>Pin</td><td><span class="mono">H + V</span></td></tr>
+            <tr><td>Roller on floor</td><td><span class="mono">V</span></td></tr>
+            <tr><td>Roller on vertical wall</td><td><span class="mono">H</span></td></tr>
+            <tr><td>Clamp</td><td><span class="mono">H + V + M</span></td></tr>
+            <tr><td>Internal hinge</td><td><span class="mono">H + V</span>, equal/opposite</td></tr>
+          </table>
+          <div class="formula"><div class="formula-label">Truss determinacy</div>\[
+h = m + r - 2j
+\]
+\[
+h=0\ \text{isostatic},\quad h&gt;0\ \text{indeterminate},\quad h&lt;0\ \text{unstable}
+\]</div>
+          <div class="formula"><div class="formula-label">Rigid bodies</div>\[
+n_{\mathrm{eq}} = 3\,n_{\mathrm{bodies}}
+\]</div>
+        </div>
+      </section>
+
+      <section class="green">
+        <h2>Trusses <span>joints</span></h2>
+        <div class="content">
+          <div class="formula"><div class="formula-label">Ideal truss member</div>\[
+N\neq 0,\qquad T_y = 0,\qquad M_z = 0
+\]</div>
+          <ol>
+            <li>Solve reactions.</li>
+            <li>Pick a joint with max two unknown rods.</li>
+            <li>Assume rods pull away from joint.</li>
+            <li>Use \(\sum F_x=0\), \(\sum F_y=0\).</li>
+          </ol>
+          <div class="formula"><div class="formula-label">45 degree member</div>\[
+N_x = N\cos45^\circ = \frac{N}{\sqrt{2}},\qquad
+N_y = N\sin45^\circ = \frac{N}{\sqrt{2}}
+\]</div>
+          <div class="note trap"><span class="kicker">Trap</span>Positive <span class="mono">N</span> = tension. Negative <span class="mono">N</span> = compression, so check buckling.</div>
+        </div>
+      </section>
+
+      <section class="amber">
+        <h2>Diagrams <span>N, T, M</span></h2>
+        <div class="content">
+          <ul>
+            <li>Use the local axes on each member.</li>
+            <li>At a corner, axial/shear directions rotate.</li>
+            <li>At a hinge, moment is zero for an ideal hinge.</li>
+          </ul>
+          <table>
+            <tr><th>Event</th><th>Diagram effect</th></tr>
+            <tr><td>Axial force</td><td>jump in <span class="mono">N</span></td></tr>
+            <tr><td>Transverse force</td><td>jump in <span class="mono">T_y</span>, slope change in <span class="mono">M_x</span></td></tr>
+            <tr><td>Point moment</td><td>jump in <span class="mono">M_x</span></td></tr>
+            <tr><td>Distributed load</td><td>linear shear, curved moment</td></tr>
+          </table>
+          <div class="note">Free ends are often the easiest place to start diagrams.</div>
+        </div>
+      </section>
+
+      <section class="red">
+        <h2>Buckling <span>compression</span></h2>
+        <div class="content">
+          <div class="formula">\[
+P_{cr}=\frac{\pi^2 E I_{min}}{L_0^2},\qquad
+n_{buckling}=\frac{P_{cr}}{\left|N_{compression}\right|}
+\]</div>
+          <table>
+            <tr><th>Ends</th><th>\(L_0\)</th></tr>
+            <tr><td>Pin-Pin</td><td>\(L\)</td></tr>
+            <tr><td>Clamped-Free</td><td>\(2L\)</td></tr>
+            <tr><td>Clamped-Clamped</td><td>\(0.5L\)</td></tr>
+            <tr><td>Clamped-Pin</td><td>\(0.7L\)</td></tr>
+          </table>
+          <div class="note trap"><span class="kicker">Trap</span>Diagonal rod length can be \(L\sqrt{2}\). Use weak-axis \(I_{min}\).</div>
+        </div>
+      </section>
+
+      <section class="wide">
+        <h2>Cross-Sections <span>centroid, inertia, principal axes</span></h2>
+        <div class="content">
+          <div class="formula tight">\[
+\begin{aligned}
+A&=\sum A_i\\
+x_G&=\frac{\sum A_i x_i}{A},\qquad
+y_G=\frac{\sum A_i y_i}{A}\\
+I_{xx}&=\sum\left(I_{xx,i}+A_i d_{y,i}^{2}\right)\\
+I_{yy}&=\sum\left(I_{yy,i}+A_i d_{x,i}^{2}\right)\\
+I_{xy}&=\sum\left(I_{xy,i}+A_i d_{x,i}d_{y,i}\right)
+\end{aligned}
+\]</div>
+          <div class="formula tight">\[
+I_{1,2}=\frac{I_{xx}+I_{yy}}{2}\pm
+\sqrt{\left(\frac{I_{xx}-I_{yy}}{2}\right)^2+I_{xy}^2}
+\]
+\[
+\tan(2\alpha)=\frac{-2I_{xy}}{I_{xx}-I_{yy}}
+\]</div>
+          <table>
+            <tr><th>Shape</th><th>Area / inertia</th></tr>
+            <tr><td>Rectangle</td><td>\(A=bh,\ I_{xx}=\frac{bh^3}{12},\ I_{yy}=\frac{hb^3}{12}\)</td></tr>
+            <tr><td>Solid circle</td><td>\(A=\frac{\pi d^2}{4},\ I=\frac{\pi d^4}{64},\ J=\frac{\pi d^4}{32}\)</td></tr>
+            <tr><td>Hollow circle</td><td>\(A=\frac{\pi(D^2-d^2)}{4},\ I=\frac{\pi(D^4-d^4)}{64},\ J=\frac{\pi(D^4-d^4)}{32}\)</td></tr>
+          </table>
+          <div class="note">Holes are negative areas, including their first moments and parallel-axis terms.</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Bending <span>stress</span></h2>
+        <div class="content">
+          <div class="formula">\[
+\sigma = \frac{N}{A}+\frac{My}{I}
+\]</div>
+          <div class="formula tight"><div class="formula-label">T/L/C section</div>\[
+y_{top}=H-y_G,\qquad y_{bottom}=y_G
+\]
+\[
+n=\frac{S_y}{\max\left(\left|\sigma_{top}\right|,\left|\sigma_{bottom}\right|\right)}
+\]</div>
+          <h3>Unsymmetric bending</h3>
+          <div class="formula tight"><div class="formula-label">Principal axes</div>\[
+\sigma_z=\frac{N}{A}+\frac{M_1y_1}{I_1}-\frac{M_2x_1}{I_2}
+\]
+\[
+\text{neutral axis:}\qquad \sigma_z=0
+\]</div>
+          <div class="note trap"><span class="kicker">Trap</span>For L/C sections, the most stressed point may not be obvious until you check corners in principal axes.</div>
+        </div>
+      </section>
+
+      <section class="green">
+        <h2>Deflection <span>elastic line</span></h2>
+        <div class="content">
+          <div class="formula">\[
+EI\,v''(z)=M(z),\qquad \alpha(z)=v'(z)
+\]</div>
+          <ol>
+            <li>Write <span class="mono">M(z)</span> by region.</li>
+            <li>Integrate to rotation.</li>
+            <li>Integrate to displacement.</li>
+            <li>Apply boundary/continuity conditions.</li>
+          </ol>
+          <div class="formula tight">\[
+\text{clamp: }v=0,\ \alpha=0;\qquad
+\text{simple support: }v=0
+\]
+\[
+v_L=v_R,\qquad \alpha_L=\alpha_R
+\]</div>
+          <div class="formula tight"><div class="formula-label">Cantilever</div>\[
+\theta_F=\frac{FL^2}{2EI},\qquad v_F=\frac{FL^3}{3EI}
+\]
+\[
+\theta_q=\frac{qL^3}{6EI},\qquad v_q=\frac{qL^4}{8EI}
+\]
+\[
+v_C=\frac{q a^3(4L-a)}{24EI}\quad\text{partial UDL from wall over }a
+\]</div>
+        </div>
+      </section>
+
+      <section class="wide red">
+        <h2>Shafts <span>initial vs complete yielding</span></h2>
+        <div class="content">
+          <div class="formula tight"><div class="formula-label">At a shoulder, use small \(d\)</div>\[
+A=\frac{\pi d^2}{4},\qquad
+I=\frac{\pi d^4}{64},\qquad
+J=\frac{\pi d^4}{32}
+\]
+\[
+\sigma_{nom,b}=\frac{32M}{\pi d^3},\qquad
+\tau_{nom}=\frac{16T}{\pi d^3},\qquad
+\sigma_{nom,a}=\frac{4N}{\pi d^2}
+\]</div>
+          <table>
+            <tr><th>Check</th><th>Formula</th><th>Meaning</th></tr>
+            <tr>
+              <td>Initial</td>
+              <td>\(\sigma=K_{t,b}\sigma_b+K_{t,a}\sigma_a\)<br>\(\tau=K_{t,s}\tau_t\)</td>
+              <td>Local notch / first yield</td>
+            </tr>
+            <tr>
+              <td>Complete</td>
+              <td>\(\sigma=\sigma_b+\sigma_a\)<br>\(\tau=\tau_t\)</td>
+              <td>Whole section yield, use \(K_t=1\)</td>
+            </tr>
+          </table>
+          <div class="formula"><div class="formula-label">Von Mises</div>\[
+\sigma_{VM}=\sqrt{\sigma^2+3\tau^2},\qquad
+n=\frac{S_y}{\sigma_{VM}}
+\]</div>
+          <h3>3D gear shaft</h3>
+          <div class="formula tight">\[
+T=F_tR,\qquad M_b=\sqrt{M_x^2+M_y^2}
+\]
+\[
+\sigma_b=\frac{32M_b}{\pi d^3},\qquad
+\tau_t=\frac{16T}{\pi d^3},\qquad
+\sigma_a=\frac{4N}{\pi d^2}
+\]</div>
+          <div class="note trap"><span class="kicker">Trap</span>Read separate \(K_t\) for bending, axial, torsion using \(D/d\) and \(r/d\).</div>
+        </div>
+      </section>
+
+      <section class="violet wide">
+        <h2>Failure Criteria <span>ductile vs brittle</span></h2>
+        <div class="content">
+          <div class="formula tight"><div class="formula-label">Ductile, principal stresses</div>\[
+\sigma_{eq}^{T}=\max\left(|\sigma_1-\sigma_2|,\ |\sigma_2-\sigma_3|,\ |\sigma_3-\sigma_1|\right)
+\]
+\[
+\sigma_{eq}^{VM}=\frac{1}{\sqrt{2}}
+\sqrt{(\sigma_1-\sigma_2)^2+(\sigma_2-\sigma_3)^2+(\sigma_3-\sigma_1)^2}
+\]</div>
+          <div class="formula tight"><div class="formula-label">Plane stress</div>\[
+\sigma_{VM}=\sqrt{\sigma_x^2+\sigma_y^2-\sigma_x\sigma_y+3\tau_{xy}^2}
+\]
+\[
+\sigma_{1,2}=\frac{\sigma_x+\sigma_y}{2}\pm
+\sqrt{\left(\frac{\sigma_x-\sigma_y}{2}\right)^2+\tau_{xy}^2}
+\]</div>
+          <div class="formula tight"><div class="formula-label">Simple normal + shear</div>\[
+\sigma_T=\sqrt{\sigma^2+4\tau^2},\qquad
+\sigma_{VM}=\sqrt{\sigma^2+3\tau^2}
+\]
+\[
+\text{pure shear:}\qquad \sigma_T=2\tau,\qquad \sigma_{VM}=\sqrt{3}\tau
+\]</div>
+          <div class="formula tight"><div class="formula-label">Brittle, Rankine</div>\[
+\sigma_{eq}=\max(\text{principal tensile stresses}),\qquad
+n=\frac{S_U}{\sigma_{eq}}
+\]</div>
+          <div class="formula tight"><div class="formula-label">Strain gauge, plane stress</div>\[
+G=\frac{E}{2(1+\nu)}
+\]
+\[
+\sigma_x=\frac{E}{1-\nu^2}(\varepsilon_x+\nu\varepsilon_y),\qquad
+\sigma_y=\frac{E}{1-\nu^2}(\varepsilon_y+\nu\varepsilon_x),\qquad
+\tau_{xy}=G\gamma_{xy}
+\]</div>
+          <div class="note">Microstrain: \(1000\ \mu\mathrm{m}/\mathrm{m}=1000\times10^{-6}=0.001\).</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Shear Stress <span>VQ/Ib</span></h2>
+        <div class="content">
+          <div class="formula">\[
+\tau=\frac{VQ}{Ib}
+\]</div>
+          <ul>
+            <li><span class="mono">V</span>: shear force at section.</li>
+            <li><span class="mono">Q</span>: first moment of area above/below the point.</li>
+            <li><span class="mono">b</span>: local width.</li>
+          </ul>
+          <div class="formula"><div class="formula-label">Thin wall</div>\[
+q_s=\frac{VS}{I},\qquad \tau=\frac{q_s}{t}
+\]</div>
+          <div class="formula"><div class="formula-label">Checks</div>\[
+\tau_{max,rect}=\frac{3V}{2A},\qquad
+\tau_{max,circle}=\frac{4V}{3A}
+\]</div>
+          <div class="note trap"><span class="kicker">Trap</span>Open sections can twist if load is not through shear centre.</div>
+        </div>
+      </section>
+
+      <section class="amber">
+        <h2>Torsion <span>twist</span></h2>
+        <div class="content">
+          <div class="formula">\[
+\tau=\frac{Tr}{J},\qquad
+\tau_{max}=\frac{TR}{J},\qquad
+\varphi=\frac{TL}{GJ},\qquad
+G=\frac{E}{2(1+\nu)}
+\]</div>
+          <h3>Thin-walled closed</h3>
+          <div class="formula"><div class="formula-label">Bredt</div>\[
+q=\frac{T}{2A_m},\qquad
+\tau=\frac{q}{t}=\frac{T}{2A_m t}
+\]</div>
+          <h3>Thin-walled open</h3>
+          <div class="formula tight">\[
+J_t\approx\sum_i \frac{b_i t_i^3}{3},\qquad
+\tau_{i,max}\approx\frac{Tt_i}{J_t}
+\]</div>
+          <div class="note">Closed thin-walled sections are much stronger in torsion than open sections.</div>
+        </div>
+      </section>
+
+      <section class="red">
+        <h2>Final Traps <span>do not lose easy points</span></h2>
+        <div class="content">
+          <ul>
+            <li>Use <span class="mono">N</span> and <span class="mono">mm</span>; stress is MPa.</li>
+            <li>Use small diameter at a shaft shoulder.</li>
+            <li>Use <span class="mono">J</span> for torsion, not <span class="mono">I</span>.</li>
+            <li>For brittle cast iron, use Rankine unless told otherwise.</li>
+            <li>For trusses, shear and bending are zero.</li>
+            <li>For compression rods, check buckling before relaxing.</li>
+            <li>For partial UDL, \(Q_{tot}=qa\), not \(qL\).</li>
+            <li>For open sections, centroid is not necessarily shear centre.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div class="footer">
+      Source: FSM photographed cheat sheet cleaned against tutorial PDFs. Print setting: A4 landscape, actual size or fit to page.
+    </div>
+  </main>
+</body>
+</html>

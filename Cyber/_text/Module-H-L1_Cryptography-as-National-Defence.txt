@@ -1,0 +1,1570 @@
+                   Cybersecurity and National Defence (Grandi Sfide - Digital)
+
+                                                                     A.Y. 2025 - 2026
+
+
+                                                       Silvia Sisinni
+                                              silvia.sisinni@polito.it
+
+
+Module H – Cybersecurity and
+National Defence
+L1 - Cryptographic Sovereignty:
+ Secrecy, Intelligence and State
+ Power
+                                     TORSEC
+                                     Computer and Network Security Group
+  License & Disclaimer
+          License Information                                              Disclaimer
+        This presentation is licensed under the               ➢ We disclaim any warranties or
+         Creative Commons BY-NC License                         representations as to the accuracy or
+                                                                completeness of this material.
+                                                              ➢ Materials are provided “as is” without
+                                                                warranty of any kind, either express or
+                                                                implied, including without limitation,
+                                                                warranties of merchantability, fitness for a
+                                                                particular purpose, and non-infringement.
+                                                              ➢ Under no circumstances shall we be liable
+                                                                for any loss, damage, liability or expense
+          To view a copy of the license, visit:                 incurred or suffered which is claimed to have
+  http://creativecommons.org/licenses/by-nc/3.0/legalcode
+                                                                resulted from use of this material.
+                                                              ➢ This material is used and adapted within the
+                                                                course “Cybersecurity and National
+                                                                Defense”.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                           2
+A.Y. 2025 - 2026
+  If a system is secure publicly, is it secure
+  against a state?
+                   Public security ≠ security against state-level
+                                    capabilities
+    Cryptography as national capability is divided into three aspects:
+    ➢ Defensive capability: Protect state, military, diplomatic, and
+      industrial secrets.
+    ➢ Offensive/intelligence capability: Read, alter, or exploit other
+      people's secrets.
+    ➢ Sovereign capability: Do not blindly depend on uncontrollable
+      algorithms, products, standards, hardware, firmware, or
+      suppliers.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                         3
+A.Y. 2025 - 2026
+          Learning objectives
+    By the end of this lecture, you should be able to explain:
+
+    1. Why cryptography is a national defence capability
+    2. How cryptanalysis becomes strategic intelligence
+    3. Why secrecy around capabilities matters
+    4. Why dependence on uncontrollable algorithms, products,
+       hardware, or suppliers compromises part of a state's
+       sovereignty
+    5. How historical cases anticipate modern cyber defence
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                 4
+A.Y. 2025 - 2026
+  Cybsec protects systems. National defence protects state power.
+
+
+          Cybersecurity focus                                     National defence focus
+   ➢ Systems                                                  ➢ Sovereignty
+   ➢ Data                                                     ➢ Command
+   ➢ Users                                                    ➢ Intelligence
+   ➢ Networks                                                 ➢ Military operations
+   ➢ Services                                                 ➢ Critical functions
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                           5
+A.Y. 2025 - 2026
+  Cryptography is an evolutionary arms race
+ The history of cryptography is not linear progress. It is a
+ continuous competition.
+ ➢ Code-makers design systems to protect secrets.
+ ➢ Code-breakers search for weaknesses and exploit them.
+ When a system is broken, it must evolve, or become useless.
+
+   Code-makers                                                Code-breakers
+   Protect secrets
+                                                              Break protection
+   Design stronger systems
+                                                              Find new weaknesses
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                    6
+A.Y. 2025 - 2026
+  What changes the balance between
+  secrecy and exposure?
+    The balance between code-makers and code-breakers changes
+    when new capabilities appear:
+
+                   1. Mathematics                                      2. Machines
+       Frequency analysis, probability,                       Telegraph, radio, rotor machines,
+       number theory, computational                           computers, quantum computers
+       theory
+
+                   3. Organizations                              4. War and political
+                                                                       pressure
+       Cryptanalysis is a state function:
+       cipher bureaus, black chambers,                        War accelerates innovation and
+       intelligence agencies                                  rewards secrecy
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                  7
+A.Y. 2025 - 2026
+  Why cryptography becomes national defence
+    ➢  Cryptography enables the state to keep secrets at scale.
+    Cryptography becomes national defence when it protects: military
+    orders and command chains, diplomatic negotiations, intelligence
+    sources and methods, operational plans, strategic infrastructure,
+    the credibility of state institutions.
+    ➢ Breaking cryptography can therefore produce strategic effects.
+
+
+        Command                                                        Intelligence
+                                               Cryptography             collection
+        and control
+
+
+                                                              Public      Military
+     Diplomatic                            Critical
+                                                               trust     operations
+       secrecy
+Cybersecurity                        infrastructure
+              and National Defence (Grandi Sfide - Digital)
+                                                                                      8
+A.Y. 2025 - 2026
+  Knowing how to break secrecy is itself secret
+
+                          The paradox of cryptanalysis
+
+    If you reveal that you can break a system,
+    the adversary changes the system.
+    So the capability must remain hidden.
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              9
+A.Y. 2025 - 2026
+  States may be decades ahead of the public domain
+
+    Public domain
+                                                                Public domain
+    Academic papers, standards,
+    civil technology
+
+    Classified domain
+    Signals intelligence, military research,
+    national laboratories                                     Classified domain
+
+    Question
+    What do States know that the
+    public does not?
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                  10
+A.Y. 2025 - 2026
+  What historical cases teach us about state behaviour
+
+    We are not studying history for curiosity.
+    We are looking for recurring patterns in how states use
+    cryptography and cryptanalysis.
+
+    Three questions:
+    1. How do states exploit weak cryptography?
+    2. How do states hide cryptanalytic breakthroughs?
+    3. Why does cryptographic sovereignty matter?
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              11
+A.Y. 2025 - 2026
+          Case 0: Mary
+          Stuart and the
+          Babington Plot
+            Excessive trust in a cryptographic tool can be
+            risky when very high interests are at stake
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              12
+A.Y. 2025 - 2026
+  Why Mary Stuart was a national security threat
+
+    England, late 16th century
+    Mary Stuart, Queen of Scots, was
+                                                                            Mary Stuart
+    imprisoned in England and seen as a
+    Catholic rival to Queen Elizabeth I.
+    Babington Plot, 1586
+    A group of conspirators planned to:
+    1. assassinate Elizabeth I;
+    2. free Mary Stuart;
+    3. place Mary on the English throne.
+                                                              Elizabeth I
+    The conspirators used encrypted
+    letters to communicate with Mary.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                   13
+A.Y. 2025 - 2026
+  The communication channel was already
+  compromised
+    Mary’s encrypted correspondence did not travel through a secure
+    channel.
+    Walsingham’s network controlled the route:
+    ➢ the courier channel was infiltrated;
+    ➢ letters were hidden and smuggled;
+    ➢ messages were secretly copied;
+    ➢ originals were resealed and delivered;
+    ➢ Mary did not know the channel was compromised.
+
+                       Encryption does not secure a compromised
+                                communication system.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                      14
+A.Y. 2025 - 2026
+  Mary’s cipher looked secure … but it was
+  breakable
+   Mary’s system was a nomenclator:
+   ➢ symbols replaced letters;
+   ➢ some symbols represented common words or phrases;
+   ➢ null symbols were added to confuse analysis;
+   ➢ the system looked sophisticated to its users …
+   … but it still leaked structure: it preserved linguistic regularities,
+   repetitions and contextual clues
+   Weakness:
+   A skilled cryptanalyst could exploit linguistic patterns and context.
+   Thomas Phelippes, working for Walsingham, reconstructed the
+   plaintext
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        15
+A.Y. 2025 - 2026
+  Mary Stuart’s nomenclator
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              16
+A.Y. 2025 - 2026
+  From decryption to deception
+    ➢ Once Walsingham could read the correspondence, he did not immediately
+         stop the plot. He waited because he wanted stronger evidence and the names
+         of the wider network.
+              •    Forged postscripts were inserted into the correspondence to confirm Mary’s
+                   involvement and identify additional conspirators.
+    ➢ The decrypted letters became political and legal evidence.
+              •    Babington and the conspirators were arrested and executed.
+              •    Mary Stuart was tried for treason.
+              •    Mary was executed in 1587.
+    ➢ The episode removed a Catholic claimant to the English throne and helped
+      protect Elizabeth I’s Protestant regime.
+    ➢ Without this cryptanalytic success, England’s religious and political trajectory
+      might have been very different.
+
+                    Cryptanalysis
+Cybersecurity and National              became
+                           Defence (Grandi           an active instrument of state power.
+                                           Sfide - Digital)
+                                                                                                17
+A.Y. 2025 - 2026
+  Weak encryption may be worse than no encryption
+
+    Mary and Babington trusted the cipher. Because they trusted it,
+    they wrote explicitly. Because they wrote explicitly, the decrypted
+    letters became evidence.
+    National defence lesson:
+    ➢ Weak cryptography (or compromised communication channel
+       deemed secure) can change behaviour in ways that help the
+       adversary.
+              •    No encryption: Users may self-censor.
+              •    Strong encryption: Users can communicate securely if implementation
+                   and procedures are sound.
+              •    Weak encryption believed to be strong: Users speak openly while
+                   the adversary reads silently.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                    18
+A.Y. 2025 - 2026
+  Cryptanalysis works best when combined
+  with intelligence operations
+    In the Babington Plot, the state did not merely “break a cipher”.
+    It combined:
+    ➢    human intelligence
+    ➢    covert interception
+    ➢    document copying and resealing
+    ➢    cryptanalysis
+    ➢    deception
+    ➢    legal-political exploitation
+    The adversary did not only break confidentiality. It also achieved persistence in
+    the communication channel and used the compromised channel for active
+    manipulation.
+                      Secure communication is not only about the algorithm.
+                It is about the entire communication ecosystem (people, trusted
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                         endpoints, procedures, and operational discipline.)            19
+A.Y. 2025 - 2026
+  A cryptanalytic breakthrough is a
+  strategic asset
+                   Breakthrough + secrecy = intelligence advantage
+                   Breakthrough + disclosure = adversary adaptation
+
+    Once a state can break a system, it faces a choice:
+    ➢ publish the discovery ⟹ not convenient
+      to the interests of the state
+    ➢ use it secretly, to preserve the advantage
+      and prevent the adversary from adapting
+    This is where cryptography becomes statecraft.
+    This creates a structural tension between science and intelligence:
+    ➢ public science rewards disclosure
+    ➢ intelligence rewards silence
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                          20
+A.Y. 2025 - 2026
+  Every communication revolution creates a
+  security crisis
+                                                              Telegraph
+    New communication technologies increase:
+    ➢ speed
+                                                               Radio
+    ➢ scale
+    ➢ distance                                                 Rotor
+    ➢ dependency                                              machines
+    ➢ interception opportunities
+    The more strategic communication                          Computers
+    becomes, the more strategic
+    cryptography (and in general,                              Internet
+    secure communication) becomes.
+Cybersecurity and National Defence (Grandi Sfide - Digital)   Quantum era   21
+A.Y. 2025 - 2026
+          Case 1: The
+          Zimmermann
+          Telegram
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              22
+A.Y. 2025 - 2026
+  World War I: Britain needed the United States in the
+  war                                    Germany
+    Europe, early 1917                                            unrestricted
+                                                                   submarine
+    Britain and the Allies                                          warfare
+    Wanted the United States to enter the war.
+    Germany                                                      1917
+    Planned unrestricted submarine warfare                    World War I
+    to cut British supply lines.                              stalemate
+
+    United States                                     Britain                  United
+    Was still officially neutral, but increasingly   Needs U.S.                States
+    under pressure.                                   support                Still neutral
+   Strategic problem
+   Germany needed to win quickly before U.S. intervention could change the
+   balance.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                         23
+A.Y. 2025 - 2026
+  The Zimmermann Telegram: when
+  cryptanalysis enters grand strategy
+    January 1917: German diplomatic message to Mexico
+    Germany proposed that, if the United States entered the war, Mexico should join
+    Germany against the U.S.
+    In return, Germany suggested support for Mexico to recover:
+    ➢ Texas
+    ➢ New Mexico
+    ➢ Arizona
+    From a German perspective, the logic was strategic distraction: if the United
+    States had to worry about a war on its southern border, it would be much harder
+    for Washington to send forces to Europe quickly.
+    British intelligence intercepted and decrypted the message.
+    Its disclosure helped shift U.S. public opinion and policy.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                  24
+A.Y. 2025 - 2026
+  The Zimmermann Telegram decoded
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              25
+A.Y. 2025 - 2026
+  Why the message was vulnerable: encrypted content,
+  exposed infrastructure
+    ➢ The telegram was vulnerable because diplomatic communication
+    depended on infrastructure the sender did not fully control.
+    Strategic dependency:
+    If your communication path crosses adversary-controlled or third-
+    party infrastructure, secrecy depends on more than encryption.
+
+                                               British relay /
+                                               cable route
+                                                                     Berlin
+                          Washington
+
+                                                     Transatlantic
+Cybersecurity andMexico      City(Grandi Sfide - Digital) cables
+                 National Defence
+                                                                              26
+A.Y. 2025 - 2026
+  The communication environment
+    Germany’s own Atlantic cables had been cut earlier in the war. To
+    reach Mexico, Germany relied on diplomatic/neutral infrastructure:
+                   German diplomatic code 0075
+       Berlin                                    U.S. diplomatic cable route
+                   Coded message delivered to
+                   U.S. Embassy in Berlin
+
+  London / British cable relay                          Copenhagen
+                                                                   British interception
+
+         Transatlantic cable                              Washington
+                                       Re-encoded / forwarded by   German diplomatic
+                                              German Embassy       code 13040
+               Mexico City                       Commercial telegraph route
+                                                                                  27
+A.Y. 2025 - 2026
+28
+  From intercepted signal to usable
+  intelligence
+    A ciphertext is not yet intelligence. To become intelligence, it
+    needs:
+    1. Intercepted ciphertext
+    2. Cryptanalytic work for decryption
+    3. Partial reconstruction / interpretation
+    4. Confidence assessment
+    5. decision-maker trust / political use
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                       29
+A.Y. 2025 - 2026
+  Use the intelligence … or protect the source?
+    Cryptanalytic intelligence creates a dilemma:
+    ➢ If used publicly: it may shape events.
+    ➢ If used too visibly: it may burn the source.
+
+
+                                            Should we reveal
+                                             the telegram?
+                        Reveal                                     Protect
+
+      • Influence U.S. policy                                 • Preserve access
+      • Risk exposing British                                 • Lose strategic
+        codebreaking                                            opportunity
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                  30
+A.Y. 2025 - 2026
+  Cryptographic sovereignty: who controls
+  the tools that protect state secrets?
+    Cryptographic sovereignty is not only about using encryption.
+    For national defence, a state must be able to trust and govern:
+    ➢ which algorithms and standards are used;
+    ➢ who implements and verifies them;
+    ➢ how keys are generated, stored, rotated and destroyed;
+    ➢ which hardware and firmware execute cryptographic operations;
+    ➢ who owns, updates and maintains the products;
+    ➢ how operators use the system (do they reuse keys, bypass procedures, use
+         predictable configurations?).
+    Cryptographic sovereignty is the ability to protect state
+    secrets without blind dependence on actors outside national
+    control.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                 31
+A.Y. 2025 - 2026
+          Case 2: Crypto
+          AG / Operation
+          Rubicon
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              32
+A.Y. 2025 - 2026
+  Crypto AG: when the supplier became the
+  intelligence operation
+    Crypto AG was a Swiss supplier of encryption machines used by governments
+    for diplomatic, military and intelligence communications.
+    What happened
+    •    1950s–1960s: Crypto AG becomes a trusted global supplier of cipher machines.
+    •    1970: CIA and West German BND secretly acquire control of the company.
+    •    1970s–1990s: Manipulated products are sold to foreign governments.
+    •    1993: BND leaves the operation; CIA reportedly continues.
+    •    2018: Crypto AG is dismantled / assets sold.
+    •    2020: The operation is publicly exposed by investigative reporting (Washington Post,
+         ZDF and SRF), followed by Swiss investigations.
+    How the CIA used Crypto AG encryption devices to spy on countries for decades - Washington Post
+    The CIA's ‘Minerva’ Secret | National Security Archive
+    Governments bought “secure” encryption devices. Some devices were allegedly
+    designed so that U.S. and German intelligence could read the traffic.
+                                                                                                      33
+A.Y. 2025 - 2026
+  The strategic damage scales with the
+  customer base
+    Reported exposed customers included (the full target list remains partly opaque.):
+    ➢    Middle East: Iran, Egypt, Saudi Arabia, Libya
+    ➢    South Asia: India, Pakistan
+    ➢    Europe: Italy, Vatican
+    ➢    Latin America: Mexico, Argentina, Brazil, Chile, Uruguay, Peru,
+         Colombia, Venezuela, Nicaragua
+    The Crypto AG case shows that a supplier-level compromise can scale across
+    states. Why this matters:
+    • one vendor can serve dozens of governments
+    • one hidden design weakness can expose many networks
+    • diplomatic and military communications reveal intentions, alliances and crises.
+    • a compromised product can operate silently for decades.
+
+    In national defence, cryptographic procurement is not only a technical decision.
+Cybersecurity and
+                ItNational Defence (Grandi
+                  is a strategic           Sfide -about
+                                     decision     Digital) whom the state is willing to trust.
+                                                                                               34
+A.Y. 2025 - 2026
+          Case 3: Enigma,
+          Bletchley Park
+          and        Ultra
+          When a trusted cryptographic infrastructure
+          becomes an intelligence source
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              35
+A.Y. 2025 - 2026
+  Enigma was not just a machine: it was
+  military infrastructure
+    World War II, 1939–1945
+    Germany relied on Enigma to protect large
+    volumes of military communication:
+    ➢ army operations, naval movements,
+      and air force coordination;
+    ➢ operational orders and logistics;
+    ➢ weather reports;
+    ➢ submarine warfare;
+    ➢ coordination of rapid military
+      operations.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              36
+A.Y. 2025 - 2026
+  Inside Enigma: one keypress, many
+  transformations
+    When an operator pressed a key, the signal passed through several layers.
+    Rotors step after keypress:
+    ➢ After each keypress,
+      at least the rightmost rotor
+      advanced
+    ➢ After enough keypresses,
+      the next rotor moved
+      as well, and so on
+    ⟹ the cipher
+    changes dynamically
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                37
+A.Y. 2025 - 2026
+ Why Enigma looked secure
+         Dynamic                      Combinatorial               Operational keying
+        encryption                      explosion                     Operators used key
+    The rotors moved                      Security depended on        sheets to configure
+                                          several settings:           Enigma, i.e., secret
+    as the operator
+                                          • rotor order;              documents distributed in
+    typed.                                • rotor starting positions; advance to the units:
+    The same plaintext                    • ring settings;            • daily key: shared by
+                                          • plugboard connections.       the communication
+    letter could produce
+                                          Even simplified                network for that day;
+    different ciphertext
+                                          configurations produced     • message key:
+    letters.                              an enormous search             chosen for a specific
+                                          space.                         message.
+      German assumption: Complex machine + huge key space + daily procedures
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+      ⟹ Brute force was infeasible, so intercepted traffic would remain unreadable. 38
+A.Y. 2025 - 2026
+  Before Bletchley: the Polish breakthrough
+    The first major breakthrough against military Enigma
+    came from Poland. Why Poland?
+    ➢ Germany adopted Enigma for military communications
+      in the 1920s.
+    ➢ Britain and France initially failed to break it.
+    ➢ Poland faced a direct strategic threat from Germany.
+    ➢ For Poland, German encrypted traffic was a
+      national survival problem.                              Marian Rejewski
+    Polish cryptanalysts treated Enigma not as a language puzzle,
+    but as a mathematical machine.
+    Marian Rejewski, together with Jerzy Różycki and Henryk Zygalski,
+    brought mathematics into the centre of cryptanalysis.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                          39
+A.Y. 2025 - 2026
+ How Poland started to break Enigma
+  The Polish breakthrough combined four elements:
+  1. Intelligence input: French intelligence obtained German Enigma material
+     from Hans-Thilo Schmidt and shared it with Poland.
+  2. Procedural weakness: German operators encrypted the message key twice.
+     Example:
+     Message key: P G H
+     Repeated message key: P G H P G H (after encrypting it with the daily settings)
+     Ciphertext indicator:    K I VBJ E
+         •   position 1 and 4 are the same plaintext letter: P;
+         •   position 2 and position 5 are the same plaintext letter: G;
+         •   position 3 and position 6 are the same plaintext letter: H.
+     3. Mathematical modelling: Rejewski used the repeated structure to build
+           relationships between letters.
+     4. Mechanized search: The Polish built catalogues and early “bomba”
+                                                                                  40
+           machines to find daily settings faster.
+A.Y. 2025 - 2026
+From Poland to Bletchley: a breakthrough
+transferred before the war
+1920s–1930s         July 1939        Sept. 1939         1940s
+
+
+  Polish work     Polish disclosure to     German       British scaling
+                   Britain and France      invasion
+The British did not start from zero. Polish contribution:
+➢ Rejewski modelled Enigma mathematically.
+➢ Polish analysts exploited German message-key procedures.
+➢ They reconstructed machine behaviour.
+➢ They built early mechanized aids: the Polish bomba.
+➢ In July 1939, Poland shared its work with Britain and France.
+Strategic significance
+Poland transformed Enigma from an “impossible” problem into an attackable
+                                                                            41
+system.
+  Bletchley Park: from cryptanalysis to
+  intelligence production        Y-stations
+   Bletchley Park turned cryptanalysis                            radio interception
+
+   into organized production.
+                                                                  Bletchley Park
+   It required:                                          cryptanalysis and machine search
+   ➢     radio interception networks;
+     ➢ mathematicians and cryptanalysts;
+                                                              Translation and intelligence
+     ➢ engineers and machine operators;
+                                                                        analysis
+     ➢ linguists and translators;
+     ➢ traffic and intelligence analysts;
+                                                                     Ultra reports
+     ➢ usable intelligence, known under Ultra
+         classification;                                       Commanders and decision -
+     ➢ secure dissemination to commanders.                               makers
+                             Breaking Enigma was not a single event.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026          It was a continuous national defence process.                   42
+Bletchley Park, 1939–1946
+Chosen as Britain’s secret codebreaking centre
+just before World War II, Bletchley Park became
+home to “Government Code and Cypher School”
+GC&CS. During 1940–42, Bletchley changed
+from a small secret unit into an industrial-scale
+intelligence operation. Intercepted enemy
+wireless traffic came from “Y stations,” was
+processed in huts and blocks around the estate,
+and became Ultra intelligence.
+By 1943 - 44, Bletchley had expanded massively.
+ Staff peaked at over 9,000, many of them women, and the work moved beyond Enigma to systems
+ such as the German Lorenz cipher. The need to attack Lorenz led to Colossus, delivered to
+ Bletchley in early 1944, one of the landmark machines in the birth of modern electronic computing.
+ At the end of the war in 1945, much of the workforce was released, and staff remained bound by
+ secrecy. GCHQ records note that some wartime staff were told, after hostilities ceased, that there
+ was “no further work” for them in the organisation.
+ Bletchley Park’s life as the main codebreaking centre effectively ended in 1946, when the post-war
+ signals-intelligence organisation moved to Eastcote; GC&CS evolved into what became GCHQ.
+ The site later had various government and educational uses, declined badly, and was eventually43
+ preserved as the Bletchley Park museum.
+  Turing’s problem: reduce the impossible
+  search
+    The problem: Trying every Enigma setting directly was infeasible.
+    The insight: Do not search blindly.
+    Use constraints.Turing’s approach exploited:
+    ➢ guessed plaintext fragments, called cribs, i.e., guessed
+         fragments of plaintext
+              •    for example, if a message is a weather report,
+                   it may contain predictable words
+              •    if a German report has a standard format,
+                   certain words may appear in certain positions.
+    ➢ known machine properties;
+    ➢ logical relations between plaintext and ciphertext;
+    ➢ automated elimination of impossible settings.                Alan Turing
+    Goal: Find candidate daily settings fast enough for intelligence to be useful.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                44
+A.Y. 2025 - 2026
+  The Bombe: making cryptanalysis
+                               Crib
+  operationally fast
+     The British Bombe automated the search for                          Logical menu
+     possible Enigma settings. It did not                     relationships between plaintext and
+     “magically decrypt” messages. It tested                  ciphertext under Enigma’s behavior
+     logical constraints derived from cribs and
+     machine structure.                                                  Bombe search
+                                                            Test possible rotor settings to find configs
+     Why it mattered
+                                                               consistent with those relationships
+     ➢ reduced search time;
+     ➢ produced candidate daily settings;
+                                                                      Candidate Enigma
+     ➢ made decryption operationally useful;
+                                                                   Settings worth checking
+     ➢ turned cryptanalysis into repeatable
+         production.                                             Human operators / additional
+     Speed mattered: intelligence had to arrive                    machine verify the result
+     before it expired.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026                                                        Decrypted traffic            45
+  Alan Turing Bombe
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              46
+A.Y. 2025 - 2026
+  Ultra: when decrypted traffic becomes
+  strategic intelligence
+   Ultra was the strategic intelligence advantage created from decrypted
+   enemy communications
+   ➢ German commanders believed Enigma protected their military
+      communications.
+   ➢ Allied intelligence could read selected parts of that communication system and
+      turn them into operational advantage.
+   Where it mattered
+   ➢ Battle of the Atlantic: U-boat activity and convoy protection
+   ➢ North Africa and Mediterranean: supply lines and operational planning
+   ➢ D-Day: German deployments and deception assessment
+     Ultra was powerful, but not omniscient. Not every message was read. Not every
+     message was read in time. And intelligence still had to be interpreted correctly.
+                The strategic asset was the information asymmetry: one side
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                       47
+A.Y. 2025 - 2026    trusted the system, the other side secretly exploited it.
+  If you act too perfectly, the adversary
+  learns
+    Using intelligence can reveal that you have intelligence.
+    Ultra created an operational dilemma:
+    ➢ Direct action: tactical advantage / risk exposing the source if act too visibly
+    ➢ Covered action: plausible explanation / source preserved
+    ➢ No action: tactical cost / long-term access preserved
+    If every Allied action was too accurate, Germany could infer that
+    Enigma was compromised. Ultra often had to be used indirectly:
+    • sent reconnaissance aircraft to simulate visual observation;
+    • false sightings;
+    • attack only some targets, not all of them;
+    • sometimes delayed or avoided action.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026
+                   The source may be more valuable than a single target.                48
+  Machines are strong; procedures are
+  fragile
+    Enigma did not fail only as a machine. It failed as a system.
+    Technical strength:                         Implementation
+    ➢ huge key space;
+    ➢ rotors and plugboard;
+    ➢ daily keys and message keys;
+    ➢ dynamic encryption.
+                                                              Security
+    Operational weaknesses:
+    •    repeated message-key procedures;
+    •    predictable operator choices, called cillies;
+    •    stereotyped messages, such as weather reports;
+    •    captured key sheets and codebooks;
+    •    rules that accidentally reduced randomness.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+        A strong algorithm cannot compensate for weak operational discipline.
+A.Y. 2025 - 2026
+                                                                                49
+  After the war: Ultra remained a state secret
+    A broken cryptographic system can remain an intelligence asset after the war.
+    After 1945:
+    ➢ Bletchley Park’s success against Enigma remained secret.
+    ➢ Thousands of captured Enigma machines were distributed to former British colonies
+      and Commonwealth countries.
+    ➢ These countries believed Enigma was secure; Britain did not correct that belief.
+    ➢ For years, British intelligence could continue reading some confidential traffic.
+    The human cost of secrecy:
+    •  Bletchley Park was closed.The Bombes were dismantled.
+    •  Documents were destroyed or locked away.
+    •  Many cryptanalysts returned to civilian life.
+    •  They were bound by secrecy and could not explain their wartime contribution. Key
+       Example: Alan Turing. Turing’s work was central to breaking Enigma at scale. His
+       wartime contribution remained classified. He died before public recognition of
+       Bletchley’s role became possible.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                          50
+A.Y. 2025 - 2026
+          DES and the
+          Politics of
+          Cryptographic
+          Standards
+            When cryptography moved from secret
+            machines to public infrastructure
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              51
+A.Y. 2025 - 2026
+  From wartime secrecy to digital infrastructure
+    After World War II, cryptography moved from secret machines
+    to networked computers.
+    ➢ Wartime cryptanalysis accelerated the development of computing.
+    ➢ Computers became faster, cheaper and more widely available.
+    ➢ In the 1950s and 1960s, business computing started to grow.
+    ➢ Companies began to store and process sensitive digital information:
+       financial transactions, business records, contracts and sensitive
+       data.
+    ➢ Early networks, such as ARPANET, connected remote computers.
+    ➢ Secure communication became a civilian and commercial
+       need.
+                       How do we protect sensitive data when computers
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026         and networks become shared infrastructure?      52
+  Why a public encryption standard was needed
+    Civilian cryptography needed interoperability. If every
+    organization used a different encryption system:
+    ➢ encrypted data could not easily be exchanged;
+    ➢ products would not interoperate;
+    ➢ banks and companies would need custom solutions;
+    ➢ trust would depend on private, incompatible designs.
+    The U.S. National Bureau of Standards looked for a common
+    encryption standard.
+    IBM proposed a cipher derived from Lucifer, developed by Horst
+    Feistel.
+    Lucifer became the basis for Data Encryption Standard (DES).
+                        When cryptography becomes infrastructure,
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026          standardization becomes strategic.         53
+  DES: a public standard under classified
+  influence
+    DES was published as the federal standard FIPS PUB 46 on January 15,
+    1977. But its design reflected national-security intervention.
+    DES was based on IBM’s Lucifer, but the final standard was controversial. Why?
+    ➢ The U.S. National Security Agency (NSA) was involved in the evaluation and
+      modification process.
+    ➢ The key length was limited to 56 bits.
+    ➢ Public researchers worried that this made brute-force attack feasible for
+      powerful actors, like state-level actors with advanced computing resources.
+    ➢ The internal design choices were not fully explained publicly.
+    ➢ This created suspicion about whether the algorithm had been weakened.
+    NSA influence created a public trust problem because some design
+    decisions were classified or opaque.
+                           A public cryptographic standard can still
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026               depend on classified choices.                     54
+  DES did not solve the key-distribution
+  problem
+    DES was symmetric: Alice and Bob still needed the same
+    secret key.
+    DES helped solve:
+    ➢ interoperability through a common algorithm;
+    ➢ commercial use of encryption;
+    ➢ protection of stored and transmitted data.
+    But DES did not solve:
+    •    how Alice and Bob securely obtain the same secret key;
+    •    how banks distribute keys to thousands of customers;
+    •    how organizations rotate and revoke keys;
+    •    how large networks avoid courier-based key logistics.
+                               The algorithm was standardized, but
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026                the key still had to travel securely.   55
+Key distribution becomes a strategic bottleneck
+     Traditional model                 Networked world problem
+Secure communication required:         More users + more remote
+• secret keys;                         communication = more keys to
+• secure delivery;                     distribute.
+• trusted couriers;                    • 5 users → 10 key relationships
+• key storage;                         • 1000 users → key-management
+• key rotation;                           explosion
+• destruction of expired keys.         Can two parties establish secure
+This was manageable for states, but    communication without first pre-
+difficult for civilian networks.       sharing a secret?
+Governments could invest in large      This question became urgent because
+communication-security logistics.      of networks.
+Commercial and public networks could
+not scale the same model easily.                                        56
+          Case 4: GCHQ and
+          public-key
+          cryptography
+            When the public revolution had a
+            classified prehistory
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              57
+A.Y. 2025 - 2026
+  The revolutionary question
+    Can secrecy be established over a public channel?
+    Traditional symmetric cryptography:
+    • Alice and Bob use the same secret key.
+    • The key must be shared before communication.
+    • If Eve intercepts the key, the system fails.
+    Can Alice and Bob communicate securely without first sharing
+    a secret?
+    Why this mattered:
+    ➢ computer networks were growing;
+    ➢ remote users needed secure communication;
+                                                              Alice         Bob
+    ➢ courier-based key distribution could not scale;
+    ➢ civilian cryptography needed a new model.
+Cybersecurity and National Defence (Grandi Sfide - Digital)           Eve
+                                                                              58
+A.Y. 2025 - 2026
+  The public breakthrough: Diffie-Hellman-
+  Merkle
+    A shared secret from public information
+    Diffie, Hellman and Merkle showed that:
+    ➢ Alice and Bob can exchange public information.
+    ➢ Each keeps private information secret.
+                                                                        Withfield Diffie
+    ➢ Both derive the same shared key.
+    ➢ Eve sees the public exchange, but cannot derive the key efficiently.
+    What this solved
+    •    no pre-shared secret required;
+    •    no courier required;
+    •    suitable for open networks;
+    •    key distribution becomes a protocol, not a logistics operation.Martin Hellman
+                          The public channel becomes part of the
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026                   security mechanism.                              59
+  Public-key encryption: split the key
+    One key can be public; the other must remain private.
+    Symmetric model
+    ➢ same key encrypts and decrypts
+    ➢ the key must stay secret
+    ➢ needs key distribution
+    Public-key model
+    • Public key can be distributed to everyone.
+    • Bob, or anyone else can use Alice’s public key to encrypt a
+      message for her. But the public key cannot decrypt the message.
+    • Only Alice’s private key can do that.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                    60
+A.Y. 2025 - 2026
+  RSA: making public-key encryption from
+  an idea to a practical system
+    A mathematical trapdoor made the idea usable.
+    RSA was developed by:
+    ➢ Ronald Rivest (R)
+    ➢ Adi Shamir (S)
+    ➢ Leonard Adleman (A)
+    Core intuition
+    •    Multiplying two large prime numbers is easy.       Rivest   Shamir   Adleman
+    •    Factoring the product back into the primes is hard.
+    •    The product can be public.
+    •    The original primes remain private.
+    Result: Anyone can encrypt using public information. Only the
+    holder of the private information can decrypt.                                 61
+A.Y. 2025 - 2026
+The public history everybody knew
+ Stanford and MIT changed modern cryptography.
+
+ 1975              1976              1977             Late ‘70s onward
+
+
+Diffie publishes   Diffie, Hellman   Rivest, Shamir      public-key cryptography
+the idea of        and Merkle        and Adleman         becomes the foundation
+asymmetric         present public    develop RSA.        for secure digital
+encryption.        key exchange.                         communication.
+ Public impact:
+ •   secure key establishment;
+ •   encrypted communication over open networks;
+ •   foundations for online banking, e-commerce, secure web protocols and digital
+                                                                                62
+     signatures.
+ The classified prehistory: GCHQ
+  The same revolution had already begun inside British
+  intelligence (GCHQ):
+  •   late 1960s: British defence planners worried about key distribution, in a world
+      in which radio communication would become cheaper, smaller and more
+      widespread; If every soldier or unit needed secure communication, then
+      distributing secret keys to everyone would become almost impossible;
+  •   James Ellis proposed the idea of “non-secret encryption”;
+  •   Clifford Cocks developed a mathematical RSA-like method in 1973;
+  •   Malcolm Williamson developed a Diffie-Hellman-like key exchange in 1974;
+  •   the work remained classified.
+     The public-key revolution happened twice: once in secret, once in
+     public.
+                        The classified domain may be ahead of the
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026
+                              public domain, sometimes by years.      63
+ James Ellis: the idea of non-secret
+ encryption
+  James Ellis asked a radical question: Do we really need to send
+  the secret key at all?
+  His contribution:
+  •   identified the key-distribution problem as the central obstacle;
+  •   imagined “non-secret encryption”;
+  •   separated the idea of encryption from the physical delivery of a secret key;
+  •   showed that public-key cryptography was conceptually possible.
+  Limitation
+  Ellis had the idea, but not yet the mathematical function needed to
+  implement it.
+                  Strategic innovation often begins by challenging
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026
+                          the assumption everyone else accepts.                      64
+ Cocks and Williamson: the missing
+ mathematics
+     GCHQ found both pieces of the public-key revolution.
+     Clifford Cocks, 1973
+     • joined GCHQ after Cambridge;
+     • used number theory;
+     • developed an RSA-like public-key encryption method;
+     • discovered the idea years before RSA became public.
+     Malcolm Williamson, 1974
+     • tried to find a flaw in Cocks’s idea;
+     • instead developed a key-exchange method;
+     • independently reached a Diffie-Hellman-like solution.
+                              Pure mathematics can become a
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                   65
+A.Y. 2025 - 2026                   national-security capability.
+  Why the discovery remained secret
+    In intelligence, discovery does not automatically become
+    publication.
+    Why secrecy made sense to GCHQ
+    •    cryptography was linked to military and diplomatic communications;
+    •    revealing the work could reveal state capability;
+    •    publication was incompatible with intelligence culture;
+    •    patenting would have required disclosure;
+    •    public-key methods were computationally heavy for early-1970s machines.
+    But secrecy had costs
+    ➢ no publication, no public recognition, no patent advantage;
+    ➢ no early civilian diffusion;
+    ➢ the public story developed without GCHQ.
+                             Classified advantage can become strategic
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                   66
+A.Y. 2025 - 2026            opportunity … or strategic missed opportunity.
+  Public science vs classified intelligence
+    Knowledge flows differently in open and secret communities.
+    Public science
+    • publishes discoveries;
+    • rewards priority and citation;
+    • enables verification and adoption;
+    • accelerates innovation.
+    Classified intelligence
+    ➢ restricts disclosure;
+    ➢ protects capabilities;
+    ➢ limits adversary learning;
+    ➢ may hide discoveries for decades.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                   In cryptography, the public frontier may not be the real frontier.   67
+A.Y. 2025 - 2026
+  Recognition delayed: the 1997 disclosure
+    The classified history became public almost three decades
+    later.
+    What happened
+    •    GCHQ considered disclosure in the 1980s.
+    •    Disclosure was delayed.
+    •    In 1997 Clifford Cocks publicly described the GCHQ contribution.
+    •    Ellis, Cocks and Williamson finally received recognition.
+    •    James Ellis died shortly before the public recognition.
+    Historical pattern
+    ➢ Babbage and Vigenère cryptanalysis;
+    ➢ Turing and Enigma;
+    ➢ Ellis, Cocks and Williamson and public-key cryptography.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                            68
+A.Y. 2025 - 2026
+  Cryptographic knowledge is itself a
+  strategic asset
+    Cryptographic knowledge is itself a strategic asset.
+    These cases teaches that states can exercise cryptographic power
+    by controlling:
+    ➢ research agendas;
+    ➢ classification;
+    ➢ disclosure timing;
+    ➢ standardization influence;
+    ➢ patents and economic exploitation;
+    ➢ recognition and historical narrative.
+    A state may be ahead in cryptography even when the public
+    world does not know it.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                   69
+A.Y. 2025 - 2026
+          Case 5: PGP
+          and the Crypto
+          Wars
+          What happens when strong cryptography
+          leaves the state?
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              70
+A.Y. 2025 - 2026
+  The new battlefield: strong cryptography
+  leaves the state
+    PGP changed the political meaning of cryptography.
+    Before the digital age
+    •    Strong cryptography was mainly a state, military and diplomatic capability.
+    •    Secure systems were expensive, specialized and organizationally controlled.
+    •    Access to advanced cryptography was limited.
+    With personal computers and the Internet
+    ➢ strong cryptography could run on ordinary machines;
+    ➢ software could be copied globally;
+    ➢ users could encrypt without asking the state;
+    ➢ encryption became a mass technology.
+    Should everyone be allowed to use strong cryptography?
+                               The Crypto Wars began when cryptographic
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026
+                                     power became decentralized.                       71
+  Phil Zimmermann: bringing strong
+  cryptography to ordinary users
+    A software engineer turned public-key cryptography into a tool
+    for citizens.
+    Who was Phil Zimmermann?
+    •    An American software engineer and privacy
+         advocate.
+    •    He believed that digital communication needed
+         strong privacy protections.
+    •    He saw public-key cryptography as too important
+         to remain only in institutional or expert hands.   Phil Zimmermann
+    •    In 1991, he released Pretty Good Privacy (PGP).
+    •    PGP made strong encryption usable for ordinary e-mail users.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                              72
+A.Y. 2025 - 2026
+  Why Zimmermann cared about digital privacy
+    Digital communication made surveillance easier to automate.
+    Zimmermann’s concern: Digital communication was convenient, but also
+    easier to monitor at scale.
+    Traditional communication
+    • paper letters were harder to search automatically;
+    • interception was costly and selective;
+    • surveillance required people, access and time.
+    Digital communication
+    ➢ e-mails pass through servers;
+    ➢ messages can be copied silently;
+    ➢ filtering can be automated;
+    ➢ surveillance can scale.
+    For Zimmermann, PGP was not only software. It was a defence
+    against scalable surveillance.                            73
+A.Y. 2025 - 2026
+  Zimmermann’s idea: PGP as usable
+  cryptography
+    PGP packaged strong cryptography into software people could
+    actually use.
+                          PGP = Pretty Good Privacy
+    Zimmermann combined:
+    •    public-key cryptography;
+    •    symmetric encryption;
+    •    digital signatures;
+    •    key management;
+    •    an e-mail-oriented workflow.
+    Why this mattered
+    ➢ no special hardware; no state infrastructure; no institutional
+      permission; software could be copied globally.                   74
+A.Y. 2025 - 2026
+  How PGP worked: hybrid encryption
+    PGP combined speed and scalable key distribution.
+    Problem: RSA was powerful but slow for long messages.
+    PGP solution
+    1. Generate a random session key for that message.
+    2. Encrypt the message with a fast symmetric cipher using the
+       session key.
+    3. Encrypt the session key with the recipient’s public RSA key.
+    4. Send both: encrypted message; encrypted session key.
+    Why it mattered
+    • fast enough for personal computers;
+    • secure enough for strong privacy
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                      75
+A.Y. 2025 - 2026
+  PGP also provided digital signatures
+    Confidentiality was not enough: users also needed authenticity.
+    Digital communication creates a second problem: How does Bob
+    know the message really came from Alice?
+    PGP supported digital signatures
+    •    Alice signs using her private key.
+    •    Bob verifies using Alice’s public key.
+    •    The signature helps prove origin and integrity.
+    Security goals
+    ➢ Confidentiality: only Bob can read;
+    ➢ Integrity: Bob knows it was not modified;
+    ➢ Authenticity: Bob knows Alice sent it.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                      76
+A.Y. 2025 - 2026
+  PGP goes online: software becomes
+  uncontrollable
+    Once released on the Internet, strong cryptography became
+    hard to contain.
+    1991
+    •  Zimmermann released PGP through online distribution.
+    • Users could download, copy and redistribute the software.
+    • PGP spread beyond the United States.
+    • Human-rights groups, activists and ordinary users adopted it.
+    Strategic effect
+    The state could regulate companies and hardware, but software on
+    the Internet was much harder to control.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                   77
+A.Y. 2025 - 2026
+  Why the U.S. government reacted: export
+  control
+    Strong cryptography was treated like a strategic technology.
+    U.S. policy treated strong cryptographic software as export-
+    controlled.
+    For the government, uncontrolled spread of PGP could:
+    •    reduce intelligence collection;
+    •    protect foreign adversaries;
+    •    help criminal or terrorist networks;
+    •    weaken lawful interception;
+    •    reduce state visibility over communications.
+    Zimmermann was investigated because PGP
+    had spread outside the U.S.: PGP was software,
+    but the state treated its export as a national-security issue.   78
+A.Y. 2025 - 2026
+  Zimmermann investigated, then PGP
+  became legitimate
+    Trying to suppress PGP increased its symbolic power.
+    Timeline:
+    • 1991: PGP released online.
+    • 1993: Zimmermann investigated for alleged illegal export.
+    • 1996: investigation ends without indictment.
+    • Later: PGP becomes a legitimate privacy and commercial tool.
+    Why the investigation mattered:
+    ➢ software, speech, publication and export overlapped;
+    ➢ civil-liberties groups rallied around the case;
+    ➢ PGP became more famous;
+    ➢ legal control became harder once software was globally distributed.
+
+                        Once strong cryptography is globally distributed,
+                               suppression
+Cybersecurity and National Defence (Grandi Sfide -may   accelerate diffusion.
+                                                  Digital)
+                                                                                79
+A.Y. 2025 - 2026
+  Export control did not stay in law books
+    Legal limits became technical limits. Export controls affected
+    three layers:
+    1. Distribution: Who may receive strong cryptography?
+    2. Products: What strength may vendors ship internationally?
+    3. Architecture: What cryptographic functions are exposed by
+        software, hardware and standards?
+    Two concrete examples:
+    • Browsers: export-grade encryption for foreign users.
+    • TPM: hardware/standard design choices constrained what
+       cryptographic functions were exposed.
+
+                            Cryptographic policy can become product design.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                              80
+A.Y. 2025 - 2026
+  Use case A: export-grade browsers
+    The same Internet did not mean the same security.
+    Export-grade browser cryptography:
+    • U.S. domestic users could receive stronger encryption.
+    • Foreign users often received weaker export-grade encryption.
+    • International e-commerce therefore depended on weaker protection.
+    • This created trust and competitiveness problems.
+    • Weak legacy modes could remain in protocols and products even after policy
+      changed.
+
+
+
+                     Bob in the U.S.                                   Alice abroad
+                   Stronger encryption                            Export-grade encryption
+
+               Export
+Cybersecurity and Nationalpolicy
+                           Defencecreated    different
+                                   (Grandi Sfide - Digital) security classes for different users.
+                                                                                                    81
+A.Y. 2025 - 2026
+  Use case B: TPM and export-sensitive
+  architecture
+    A hidden example: policy constraints can shape hardware
+    boundaries.
+                         TPM 1.2                                               TPM 2.0
+
+   centered mainly on RSA and SHA-1                           introduced algorithm agility
+   did not expose symmetric operations
+                                           supports symmetric cryptography,
+   for general message encryption, or bulk
+                                           including AES
+   symmetric encryption capabilities
+                                                              still serves mainly as a root of trust, not
+   reflected cost and export-control
+                                                              as a high-speed general-purpose data-
+   constraints
+                                                              encryption accelerator
+                           The boundary of a cryptographic product is also
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026
+                                 a policy and sovereignty question.                                         82
+  Why export controls became hard to sustain
+    The Internet broke the old border-control model.
+    Export restrictions became unstable because:
+    ➢    software could be copied globally;
+    ➢    source code could be published, printed and mirrored;
+    ➢    strong cryptography became available outside the United States;
+    ➢    U.S. companies needed global competitiveness;
+    ➢    e-commerce required strong cryptography;
+    ➢    civil-liberties groups challenged restrictions on code and publication.
+    Policy shift:
+    • 1991: PGP goes online;
+    • 1990s: export-grade cryptography problem;
+    • 1996: commercial encryption control shifts toward Commerce Department
+      management;
+    • 2000: major liberalization for many commercial encryption products;
+    • … but encryption controls do not disappear completely.                       83
+A.Y. 2025 - 2026
+  The battlefield changes: from export
+  control to access control
+    If strong cryptography cannot be stopped, can access still be
+    preserved?
+    Export control question: Can we stop strong crypto from spreading?
+    New access question: If it spreads, can we still access plaintext?
+             State concerns:                        Civilian and business concerns:
+             • lawful interception;                 • privacy;
+             • criminal investigations;             • protection of journalist sources;
+             • counterterrorism;                    • secure commerce;
+             • counterintelligence;                 • freedom of expression;
+             • signals intelligence;                • protection from abuse;
+             • strategic visibility.                • trust in digital infrastructure.
+       Theand
+Cybersecurity Crypto  Wars
+                National      shift
+                         Defence     from
+                                 (Grandi     controlling distribution to controlling access.
+                                         Sfide - Digital)
+                                                                                               84
+A.Y. 2025 - 2026
+  Key escrow: the proposed compromise
+    Strong encryption, but with recoverable access.
+    Key escrow idea: Users may use strong encryption, but recovery access exists.
+        Goal:                                                      User key
+    • users get strong cryptography;
+    • law enforcement can recover keys
+       with legal authorization;
+    • the state preserves exceptional access.
+    Core trust problem:                              Key half A:          Key half B:
+    Who holds the recovery capability?            escrow authority 1 escrow authority 2
+    Risks: abuse by authorities;
+    insider compromise; systemic vulnerability;        recombine
+    loss of public trust; international distrust.
+                                                             Legal authorization
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026
+                   Key escrow tries to solve the Crypto Wars by centralizing trust.   85
+  Clipper and Capstone: state-designed
+  exceptional access
+    The U.S. government tried to standardize escrowed
+    encryption. American Escrowed Encryption Standard, 1994:
+    ➢ Clipper: telephone communications;
+    ➢ Capstone: computer communications;
+    ➢ encryption implemented in chips;
+    ➢ key material split and escrowed;
+    ➢ access possible under legal conditions.
+    Policy objective:                                 Clipper –chip photo
+    Strong encryption without losing lawful access.
+    Engineering and civil-liberties objection: Exceptional access
+    becomes part of the attack surface. It must never be abused.
+   A security
+Cybersecurity     standard
+              and National     cannot
+                           Defence (Grandisucceed      if the trust model is politically unacceptable.
+                                           Sfide - Digital)
+                                                                                                         86
+A.Y. 2025 - 2026
+  Why escrow failed: the trust model collapsed
+    Why key escrow was rejected?
+                                       Technologists
+                              • new systemic vulnerabilities;
+                              • larger attack surface;
+                              • difficult governance.
+         Businesses
+                                                                           Civil-liberties
+    • customers may not
+                                                                              groups
+      trust products with
+      built-in access;                      Escrowed                    • government-held
+                                             access                       access threatens
+    • foreign markets
+                                                                          privacy;
+      may reject U.S.-
+                                                                        • risk of abuse.
+      designed access
+      mechanisms.                             International problem
+                                      • why should other states trust
+                                          U.S.-controlled access
+Cybersecurity and National Defence (Grandiinfrastructure?
+                                           Sfide - Digital)
+                                                                                         87
+A.Y. 2025 - 2026
+  Clipper died, but exceptional access returns
+    The standard failed, but the political demand did not disappear.
+    What happened to Clipper / EES?
+    • 1994: Escrowed Encryption Standard, FIPS 185.
+    • mid-1990s: Clipper/key escrow failed to gain trust and adoption.
+    • 2015: FIPS 185 formally withdrawn as obsolete.
+    But the idea returned in new forms: Modern debates often ask
+    similar questions:
+    •    Can a company be compelled to help unlock a device?
+    •    Can cloud encryption be designed to allow lawful access?
+    •    Can encrypted services be required to detect illegal content?
+    •    Can scanning happen before encryption, on the client side?
+                        Exceptional access was not abandoned; it was
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                     renamed, redesigned and repeatedly reintroduced.    88
+A.Y. 2025 - 2026
+  Apple 2016
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              89
+A.Y. 2025 - 2026
+  Apple/iCloud 2025
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              90
+A.Y. 2025 - 2026
+  European Parliamentary Research Service
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              91
+A.Y. 2025 - 2026
+  Beyond Clipper: who controls trust
+  infrastructure?
+    Cryptography depends not only on algorithms, but also on the
+    infrastructure that makes algorithms usable and trusted.
+    Public-key cryptography solved one problem:
+    ➢ Alice can use Bob’s public key.
+    ➢ No pre-shared secret is needed.
+    But it created governance questions:
+    • Who certifies that the key belongs to Bob?
+    • Who controls certificate authorities?
+    • Who manages recovery mechanisms?
+    • Who can compel, regulate or pressure these actors?
+    Trust infrastructure includes: Certificate Authorities (CAs); key recovery systems;
+    hardware roots of trust; standards bodies; cloud identity systems.
+                        Cryptographic sovereignty includes control over
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                      92
+A.Y. 2025 - 2026           the infrastructure that defines digital trust.
+  AES: rebuilding trust after DES
+    After DES, the standardization process itself had to become
+    trustworthy.
+                                               AES changed the process:
+    DES created a trust problem:                • open international competition;
+    • NSA involvement was opaque;               • public analysis by the
+    • the 56-bit key length was controversial;    cryptographic community;
+    • hidden design choices created suspicion; • 15 candidate algorithms;
+    • the standard was technically useful       • Rijndael selected in 2000;
+      but politically contested.                • AES (Rijndael) standardized as
+                                                  FIPS 197 in 2001.
+    ➢    Rijndael was officially selected for security, performance, efficiency,
+         implementability and flexibility. But its Belgian origin and the open
+         process helped credibility.
+                       ForDefence
+Cybersecurity and National cryptographic
+                                  (Grandi Sfidestandards,
+                                               - Digital) transparency is part of trust.
+                                                                                           93
+A.Y. 2025 - 2026
+                                                              Joan Daemen
+
+
+
+
+                                                              Vincent Rijmen
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                               94
+A.Y. 2025 - 2026
+  Sovereign alternatives: China’s SM standards
+    Not every state wants to rely on the same cryptographic trust stack.
+    China has developed its own commercial cryptographic standards, often called
+    SM or ShangMi (meaning “commercial cryptography”) algorithms:
+    ➢ SM2: elliptic-curve public-key cryptography;
+    ➢ SM3: cryptographic hash function;
+    ➢ SM4: block cipher for symmetric encryption;
+    ➢ ZUC: stream cipher, used in mobile-communication contexts;
+    ➢ SM9: identity-based cryptography.
+    Why develop national standards? Reduce dependence on foreign algorithms;
+    support domestic certification and regulation; protect national information
+    infrastructure; strengthen industrial and technological sovereignty; avoid blind
+    trust in foreign standardization ecosystems. China does not live outside global
+    cryptography. It uses, adapts and participates in international standards, but also
+    promotes domestic algorithms for regulated and sovereignty-sensitive contexts.
+                                                                                      95
+A.Y. 2025 - 2026
+  Final lesson: cryptography is a national-
+  defence layer
+    Cryptographic sovereignty means controlling what can be
+    trusted. States shape cryptography through:
+    •    export controls;
+    •    product capabilities;
+    •    exceptional-access proposals;
+    •    hardware and APIs;
+    •    certificate authorities;
+    •    key recovery systems;
+    •    standards and certification.
+    Cryptographic sovereignty means the ability to choose, verify,
+    implement, certify and replace standards and products that protect
+    national infrastructure.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                         96
+A.Y. 2025 - 2026
+  References
+    General history of cryptography
+    • Kahn, D. (1996). The Codebreakers: The Comprehensive History
+      of Secret Communication from Ancient Times to the Internet.
+    • Singh, S. (1999). The Code Book: The Science of Secrecy from
+      Ancient Egypt to Quantum Cryptography.
+    Wartime cryptanalysis and intelligence
+    • Budiansky, S. (2000). Battle of Wits: The Complete Story of
+      Codebreaking in World War II.
+    • Hinsley, F. H., & Stripp, A. (eds.) (1993). Codebreakers: The
+      Inside Story of Bletchley Park.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                 97
+A.Y. 2025 - 2026
+  References
+    DES, standards and public-key cryptography
+    ➢ NIST. (1977). FIPS PUB 46: Data Encryption Standard.
+    ➢ Coppersmith, D. (1994). “The Data Encryption Standard (DES)
+      and Its Strength Against Attacks.”
+    ➢ Diffie, W., & Hellman, M. (1976). “New Directions in
+      Cryptography.”
+    ➢ Rivest, R., Shamir, A., & Adleman, L. (1978). “A Method for
+      Obtaining Digital Signatures and Public-Key Cryptosystems.”
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                    98
+A.Y. 2025 - 2026
+  References
+    State power, Crypto AG, GCHQ and Crypto Wars
+    ➢ NSA. “Clifford Cocks, James Ellis, and Malcolm Williamson.”
+    ➢ Miller, G. et al. (2020). “The intelligence coup of the century.”
+      The Washington Post.
+    ➢ National Security Archive. (2020). “The CIA’s ‘Minerva’ Secret.”
+    ➢ Levy, S. (2001). Crypto: How the Code Rebels Beat the
+      Government -Saving Privacy in the Digital Age.
+    ➢ Garfinkel, S. (1995). PGP: Pretty Good Privacy.
+    ➢ Callas, J. et al. (2007). RFC 4880: OpenPGP Message Format.
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                          99
+A.Y. 2025 - 2026
+

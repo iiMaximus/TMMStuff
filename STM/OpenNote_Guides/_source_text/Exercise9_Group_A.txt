@@ -1,0 +1,122 @@
+
+
+--- PAGE 1 ---
+STM Exercise 9
+Phase Diagrams
+(Fe-C)
+
+
+--- PAGE 2 ---
+
+
+
+--- PAGE 3 ---
+
+
+
+--- PAGE 4 ---
+Exercise 1: which transformation occurs in point I?
+
+
+--- PAGE 5 ---
+Exercise 1: which transformation occurs in point I?
+Point I is a PERITECTIC transformation
++L  
+
+
+--- PAGE 6 ---
+Exercise 1: which transformation occurs in point I?
+Point I is a PERITECTIC transformation
++L  
+
+
+--- PAGE 7 ---
+0.34
+A
+B
+C
+DE
+F
+Exercise 2: Determine the phase/s present their compositions and 
+relative amount in points A, B, C (at the beginning of the peritectic
+transformation), D (at the end of the peritectic transformation), E 
+and F for a steel with 0.34%C.
+
+
+--- PAGE 8 ---
+0.34
+A
+B
+C
+DE
+F
+Exercise 2: Determine the phase/s present their compositions and 
+relative amount in points A, B, C (at the beginning of the peritectic
+transformation), D (at the end of the peritectic transformation), E 
+and F for a steel with 0.34%C.
+Point (A)
+Composition
+Relative amount
+Point (B)
+Composition
+Relative amount
+Point (C)
+Composition
+Relative amount
+Point (D)
+Composition
+Relative amount
+
+
+--- PAGE 9 ---
+Point (E) γ L
+Composition
+Relative amount
+Point (F) γ
+Composition
+Relative amount
+
+
+--- PAGE 10 ---
+0.13
+A
+B
+C
+D
+F
+Exercise 3: Determine the phase/s present their compositions and 
+relative amount in points A, B, C (at the beginning of the peritectic
+transformation), D(at the end of the peritectic transformation), E 
+and F for a steel with 0.13%C.
+
+
+--- PAGE 11 ---
+0.13
+A
+B
+C
+D
+F
+Exercise 3: Determine the phase/s present their compositions and 
+relative amount in points A, B, C (at the beginning of the peritectic
+transformation), D(at the end of the peritectic transformation), E 
+and F for a steel with 0.13%C.
+Point (B) δ L
+Composition
+Relative amount
+Point (C) δ L
+Composition
+Relative amount
+Point (D) δ γ
+Composition
+Relative amount
+Point (F) γ
+Composition
+
+
+--- PAGE 12 ---
+END !
+Questions ?
+
+
+--- PAGE 13 ---

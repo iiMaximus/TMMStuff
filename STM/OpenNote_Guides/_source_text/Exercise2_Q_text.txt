@@ -1,0 +1,54 @@
+
+
+--- PAGE 1 ---
+STM Exercise 2
+
+
+--- PAGE 2 ---
+
+
+
+--- PAGE 3 ---
+Exercise 1: You have a cylindrical component made of an Al alloy (10 mm diameter, YS= 150 MPa): which is the maximum load 
+you can apply on this component without having plastic deformation? Consider a safety factor of n = 2.
+
+
+--- PAGE 4 ---
+
+
+
+--- PAGE 5 ---
+Exercise 2: You have a cylindrical aluminum component (diameter =10 mm,  𝒗=0.34, E=70 GPa): calculate the tensile load you 
+need to apply to have a 2 micron smaller diameter component.
+
+
+--- PAGE 6 ---
+Exercise 3: Which is the diameter you need for a 380 mm long Cu component (E=110 GPa) to be loaded at 6600N, if
+you can accept an elongation of 0.5 mm.
+
+
+--- PAGE 7 ---
+Exercise 4: The elastic modulus of a steel is 193 GPa, of a bronze  is 100 GPa, and of a polymer  is 0,17 GPa ;  calculate the 
+elastic elongation of a  10 meter long wire  made of steel, bronze or polymer , cross section is  1 mm2, the applied load is F= 
+10 N.
+
+
+--- PAGE 8 ---
+Exercise 5: A wire 10 m long with a cross section of 1mm2 underwent tensile loading of 10N. Determine stress, strain and 
+elongation if the wire is made of Copper (E=110 Gpa) or steel (E=210 Gpa).
+Compare different material on the available excel file.
+
+
+--- PAGE 9 ---
+Exercise 6
+Consider an aluminium cylindrical sample with a diameter of 1cm.
+the significant values for applied force underlined in traction test are:
+• 4600 N (yield),
+• 8450 N (maximum)
+• 5700 N (rupture) .
+When rupture occurs sample diameter is 1/3 of the initial one
+Determine:
+• Yield strength
+• Tensile strength
+• Seemly fracture strength
+• True fracture strength

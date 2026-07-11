@@ -1,0 +1,404 @@
+
+
+--- PAGE 1 ---
+STM Exercise 7
+Sara Ferraris
+sara.ferraris@polito.it
+Phase Diagrams
+(partial solubility in the solid state)
+
+
+--- PAGE 2 ---
+Complete solubility in the liquid state, 
+partial solubility in the solid state
+
+
+--- PAGE 3 ---
+Exercise 1: determine the phase present, their composition and relative amounts in the points A, B, C (at the beginning of 
+the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the phase diagram. 
+Schematize the microstructure in each point.
+A
+BC
+D
+E
+
+
+--- PAGE 4 ---
+Point A:
+Phases: 1 phase liquid
+Composition: 90%Ag, 10%Cu
+Relative amount: 100% liquid phase
+L
+A
+B
+C
+D
+E
+
+
+--- PAGE 5 ---
+A
+B
+C
+D
+E
+Point B:
+Phases: 2 pahses solid () +liquid (L)
+Composition: 2 phases region → horizontal
+rule
+Composition of liquid (L): CL= 86% Ag, 
+14%Cu
+Composition of solid (): C= 95%Ag, 5%Cu
+Relative amount: 2 phases region → lever
+rule
+% = (90-86)/(95-86)*100=44%
+%L=(95-90)/(95-86)*100=56%
+ 
+
+
+CCL
+
+
+--- PAGE 6 ---
+A
+B
+C
+D
+E
+CCL
+Point C:
+Phases: 2 pahses solid () +liquid (L)
+Composition: 2 phases region → horizontal
+rule
+Composition of liquid (L): CL= 71.9% Ag, 
+28.1%Cu
+Composition of solid (): C= 91.2%Ag, 
+8.8%Cu
+Relative amount: 2 phases region → lever
+rule
+% = (90-71.9)/(91.2-71.9)*100=93.8%
+%L=(91.2-90)/(91.2-71.9)*100=6.2%
+ 
+
+
+
+
+
+
+--- PAGE 7 ---
+A
+B
+C
+D
+E
+CC
+Point D:
+Phases: 2 pahses solid () +solid ()
+Composition: 2 phases region → horizontal
+rule
+Composition of solid (): C= 8%Ag, 92%Cu
+Composition of solid (): C= 91.2%Ag, 
+8.8%Cu
+Relative amount: 2 phases region → lever
+rule
+% = (91.2-90)/(91.2-8)*100=1.4%
+%=(90-8)/(91.2-8)*100=98.6%
+Eutectic 
+Eutectic 
+Primary/pro-eutectic 
+ 
+
+
+
+
+
+
+--- PAGE 8 ---
+A
+B
+C
+D
+E
+CC
+Point E:
+Phases: 2 pahses solid () +solid ()
+Composition: 2 phases region → horizontal
+rule
+Composition of solid (): C= 2%Ag, 98%Cu
+Composition of solid (): C= 98%Ag, 2%Cu
+Relative amount: 2 phases region → lever
+rule
+% = (98-90)/(98-2)*100=8.3%
+%=(90-2)/(98-2)*100=91.7%
+Eutectic 
+Eutectic 
+Primary/pro-eutectic 
+ 
+
+
+
+
+
+
+--- PAGE 9 ---
+ 
+ 
+A
+B
+C
+D
+E
+F
++L
++L
+Exercise 2: determine the phase present, their composition and relative amounts in the points A, B, C, D, E and F indicated
+in the phase diagram. Schematize the microstructure in each point.
+
+
+--- PAGE 10 ---
+Point A:
+Phases: 1 phase liquid
+Composition: 10% Sn, 90% Pb
+Relative amount: 100% liquid phase
+L
+
+
+--- PAGE 11 ---
+Point B:
+Phases: 2 pahses solid () 
++liquid (L)
+Composition: 2 phases region
+→ horizontal rule
+Composition of liquid (L): CL= 
+17%Sn, 83%Pb
+Composition of solid (): C= 
+7% Sn, 93%Pb
+Relative amount: 2 phases
+region → lever rule
+% = (17-10)/(17-7)*100=70%
+%L=(10-7)/(17-7)*100=30%
+ 
+
+
+C CL
+
+
+--- PAGE 12 ---
+
+Point C:
+Phases: 1 phase solid ()
+Composition: 10% Sn, 90% Pb
+Relative amount: 100% solid phase 
+
+
+--- PAGE 13 ---
+
+Point D:
+Phases: 1 phase solid ()
+Composition: 10% Sn, 90% Pb
+Relative amount: 100% solid phase 
+
+
+--- PAGE 14 ---
+C C
+Point E:
+Phases: 2 pahses solid () 
++solid ()
+Composition: 2 phases region
+→ horizontal rule
+Composition of solid (): C= 
+7%Sn, 93%Pb
+Composition of solid (): C= 
+98%Sn, 2%Pb
+Relative amount: 2 phases
+region → lever rule
+% = (98-10)/(98-7)*100=96.7%
+%=(10-7)/(98-7)*100=3.3%
+
+
+
+
+--- PAGE 15 ---
+C C
+Point F:
+Phases: 2 pahses solid () 
++solid ()
+Composition: 2 phases region
+→ horizontal rule
+Composition of solid (): C= 
+2%Sn, 98%Pb
+Composition of solid (): C= 
+99%Sn, 1%Pb
+Relative amount: 2 phases
+region → lever rule
+% = (99-10)/(99-2)*100=91.7%
+%=(10-2)/(99-2)*100=8.3%
+
+
+
+
+--- PAGE 16 ---
+
+
+
+--- PAGE 17 ---
+Point 1
+1 phase liquid, composition 40%Sn, 
+60% Pb
+Temperature 300°C
+
+
+--- PAGE 18 ---
+Pb60%Sn@250°CPb20%Sn@250°C 1 phase liquid2 phases +L
+
+
+--- PAGE 19 ---
+240
+Alloy 1:
+• 300°C – only liquid
+• 240°C - solidification of the first  crystal
+• 183°C - all the liquid undergoes eutectic
+transformation producing - lamellar
+microstructure
+Point 2: 2 phases  (solid rich in Pb) and Liquid (L)
+Point 3: 2 phases  (solid rich in Pb) and  (solid
+rich in Sn)
+
+
+--- PAGE 20 ---
+Alloy 4:
+Start – 250°C,  (solid phase rich in Pb), 
+composition : 5%Sn, 95%Pb
+125°C precipitation of  solid phase (rich in Sn) 
+due to reduction of the solubility of Sn in Pb at that
+temperature
+From 125°C to room temperature no other phase 
+changes occur, the microstructure is solid phase 
+(rich in Pb) with small  crystals
+125
+
+
+
+
+--- PAGE 21 ---
+(a) The constitution point for a Pb-25wt% Sn alloy at 250 oC lies in a two-phase field. Construct a tie-line on the figure and 
+read off the two phases and their compositions.
+(b) The alloy is slowly cooled to 200 oC. At this temperature, identify the phases and their compositions 
+(c) The alloy is cooled further to 150 oC. At this temperature, identify the phases and their compositions. 
+(d) Indicate with arrows on the figure the lines along which the compositions of phase 1 and phase 2 move
+during slow cooling from 250oC to 200oC.
+
+
+--- PAGE 22 ---
++L
+C
+CL
+Alloy 25%Sn 75%Pb @ 250°C
+ (solid phase rich in Pb) and 
+liquid (L)
+Composition of =12%Sn, 
+88%Pb
+Composition of liquid: 33%Sn, 
+67%Pb
+
+
+--- PAGE 23 ---
++L
+C CL
+Alloy 25%Sn 75%Pb @ 200°C
+ (solid phase rich in Pb) and 
+liquid (L)
+Composition of =18%Sn, 
+82%Pb
+Composition of liquid: 58%Sn, 
+42%Pb
+
+
+--- PAGE 24 ---
++L
+C CL
+Alloy 25%Sn 75%Pb @ 150°C
+ (solid phase rich in Pb) and 
+ (solid rich in Sn)
+Composition of =10%Sn, 
+90%Pb
+Composition of : 99%Sn, 
+1%Pb
+
+
+--- PAGE 25 ---
++L
+C CL
+Alloy 25%Sn 75%Pb @ 250°C
+ (solid phase rich in Pb) and liquid
+(L)
+Composition of =12%Sn, 88%Pb
+Composition of liquid: 33%Sn, 67%Pb
+Alloy 25%Sn 75%Pb @ 200°C
+ (solid phase rich in Pb) and liquid
+(L)
+Composition of =18%Sn, 82%Pb
+Composition of liquid: 58%Sn, 42%Pb
+Variation of 
+composition reducing
+temperature from 250 to 
+200 °C
+Variation of L composition
+reducing temperature 
+from 250 to 200 °C
+
+
+--- PAGE 26 ---
+Consider Pb-20wt% Sn at 250 oC in Figure 
+A constitution point in the two-phase field: liquid plus Pb-rich solid. 
+Find the proportions of each phase
+
+
+--- PAGE 27 ---
+Consider Pb-20wt% Sn at 250 oC in Figure 
+A constitution point in the two-phase field: liquid plus Pb-rich solid. 
+To find the proportions of each phase 
+First construct a tie-line through the constitution point and 
+read off the compositions of the phases: 
+The tie-line is of length l , while the lengths of the segments to either side of the constitution point are a and b respectively 
+For the example alloy of composition W Sn = 20%
+
+
+--- PAGE 28 ---
+Determine the phase/s present, the composition/s and relative 
+amount/s for an alloy with 50%Ti at 1100°C.
+
+
+--- PAGE 29 ---
+Determine the phase/s present, the composition/s and relative 
+amount/s for an alloy with 50%Ti at 1100°C.
+Phases: solid phase  (intermediate solid solution) and 
+liquid L
+Compositions:
+Composition of : 45%Ti
+Composition of Liquid: 58%Ti
+Relative amounts
+% = (58-50)/(58-45)*100= 61.5%
+%L= (50-45)/(58-45)*100=38.5%
+C CL
+
+
+--- PAGE 30 ---
+Complete the following diagram
+
+
+--- PAGE 31 ---
+L+V
+HfV2+VHf+HfV2
+Hf+HfV2
+L+HfV2
+Hf+L
+Hf+ 
+Hf
+
+
+--- PAGE 32 ---
+Complete the following diagram
+
+
+--- PAGE 33 ---

@@ -1,0 +1,237 @@
+
+
+--- PAGE 1 ---
+STM - Exercise 1
+Sara Ferraris – sara.ferraris@polito.it
+
+
+--- PAGE 2 ---
+Exercises: let’s post your results on the Padlet for the discussion
+Post also your doubts!
+https://padlet.com/polito/exercise-1-team-2-ww3fplotu45s5vbm
+
+
+--- PAGE 3 ---
+Exercise 1
+Use figure 1 to:
+a) define which test and which class of materials is referred to 
+and why;  
+b) calculate elastic modulus, 
+c) Calculate the yield strength (0.2 % offset) and the tensile 
+strength, 
+d) Calculate the elongation at fracture for a 50 mm long 
+specimen (write on curves data you use).
+e) Calculate the length of the specimen when you keep it loaded 
+in A.
+
+
+--- PAGE 4 ---
+Exercise 1a: Use figure 1 to define which test and which class of materials is referred to and why
+Typical stress-strain curve from tensile test
+Ductile behavior and stress-strain values typical of 
+metallic materials
+
+
+--- PAGE 5 ---
+Exercise 1b: Calculate elastic modulus
+0.001
+E= 100MPa/0.001=
+100000 Mpa= 100 GPa
+
+
+--- PAGE 6 ---
+Exercise 1c: calculate yield strength (0.2 % offset) and  tensile strength
+250
+450
+0.002
+yield strength (0,2 % 
+offset) =250 MPa  from 
+the graph
+tensile strength =450 
+MPa maximum of the 
+curve, from the graph
+
+
+--- PAGE 7 ---
+Exercise 1d: Calculate elongation at fracture for a 50 mm long specimen (write on curves data you use). 
+0.375
+F=0.375
+F=lF/l0
+lF= F * l0 = 0.375*50= 18.75 mm
+
+
+--- PAGE 8 ---
+Exercise 1e- Calculate the length of the specimen when you keep it loaded in A.
+0.07
+A=0.07
+A=lA/l0
+lA= A * l0 = 0.07*50= 3.5 mm
+lA=l0+ lA= 50+3.5=53.5 mm
+If you keep the sample loaded no 
+recovery of elastic deformation 
+occurs
+
+
+--- PAGE 9 ---
+Exercise 2: Use the graph below to define 
+a) which test and which class of materials is referred to and why;  
+b) to calculate elastic modulus, 
+c) To calculate the yield strength (0,2 % strain) and the tensile strength, 
+d) To calculate the elongation at fracture for a 50 mm long specimen; 
+e) To calculate the elongation of this sample when loaded at 200 MPa, then unloaded. 
+(write on graph stress and strain
+you use to calculate).
+
+
+--- PAGE 10 ---
+Exercise 2a: Define which test and which class of materials is referred to and why
+Typical stress-strain curve from tensile test
+Ductile behavior and stress-strain values typical
+of metallic materials
+
+
+--- PAGE 11 ---
+Exercise 2b: calculate elastic modulus
+0.1
+=0.1%=0.001
+E=/=
+56/0.001=56000MPa=56GPa
+
+
+--- PAGE 12 ---
+Exercise 2c: calculate yield strength (0,2 % strain) and tensile strength
+0.2
+196
+yield strength (0,2 % 
+strain) =196 MPa  from 
+the graph
+tensile strength =220 
+MPa maximum of the 
+curve, from the graph
+yield 
+strength 
+(0,2 % 
+strain)
+220
+Tensile strength
+
+
+--- PAGE 13 ---
+Exercise 2d: Calculate elongation at fracture for a 50 mm long specimen
+8.8
+F=8.8%=0.088
+F=lF/l0
+lF= F * l0 = 0.088*50= 4.4 mm
+
+
+--- PAGE 14 ---
+Exercise 2e: Calculate the elongation of this sample when loaded at 200 MPa, then unloaded. (write on graph stress 
+and strain you use to calculate).
+200
+0.7
+Loading and unloading → elastic
+deformation recovered, only
+permanent deformation present
+=0.7%=0.007
+l=*l0= 0.007*50=0.35mm
+
+
+--- PAGE 15 ---
+Exercise 3: Determine the Elastic Modulus of Aluminum and High Density Polyethylene (HDPE) from the graphs
+below. Comment the obtained results.
+
+
+--- PAGE 16 ---
+Elastic modulus (E) = slope of the linear (elastic) tract of the - curve
+0,1
+67,5
+% = 0,1% →  = 0,001
+E= /  = 67,5 MPa/0,001= 
+67500 Mpa → 67,5 GPa
+Exercise 3 – case 1: Aluminum
+
+
+--- PAGE 17 ---
+7,5
+1
+% = 1% →  = 0,01
+E= /  = 7,5 MPa/0,01= 
+750 Mpa → 0,75 GPa
+Elastic modulus (E) = slope of the linear (elastic) tract of the - curve
+Exercise 3 – case 2: HDPE
+
+
+--- PAGE 18 ---
+Exercise 3 comparison Aluminum – HDPE
+EAl=67.5 Gpa
+E HDPE= 0.75 Gpa
+1 order of magnitude difference
+Elastic modulus depends on the bonding strenght: metallic bond vs van der Waals interactions
+
+
+--- PAGE 19 ---
+Consider the - curve reported in the figure. 
+The yield strength (0.2 % offset) is: 
+a) 230 Mpa
+b) 220 Mpa
+c) 185 MPa
+Quiz 1
+
+
+--- PAGE 20 ---
+Consider the - curve reported in 
+the figure. The yield strength (0.2 % 
+offset) is: 
+a) 230 Mpa
+b) 220 Mpa
+c) 185 MPa
+Quiz 1
+
+
+--- PAGE 21 ---
+The - curve in figure comes from the 
+tensile test of an aluminum specimen. 
+Select the right sentence (only one):
+a) The specimen underwent plastic
+deformation
+b) The specimen underwent fragile fracture
+c) The specimen did not have permanent
+deformations
+Quiz 2
+
+
+--- PAGE 22 ---
+The - curve in figure comes from the 
+tensile test of an aluminum specimen. 
+Select the right sentence (only one):
+a) The specimen underwent plastic
+deformation
+b) The specimen underwent fragile fracture
+c) The specimen did not have permanent
+deformations
+Quiz 2
+
+
+--- PAGE 23 ---
+The - curve in figure comes from 
+the tensile test of an aluminum
+specimen. Select the right sentence
+(only one):
+a) The specimen had only elastic
+deformation
+a) The specimen underwent necking
+a) The yield strenght was not
+reached in the test
+Quiz 3
+
+
+--- PAGE 24 ---
+The - curve in figure comes from the 
+tensile test of an aluminum specimen. 
+Select the right sentence (only one):
+a) The specimen had only elastic
+deformation
+a) The specimen underwent necking
+a) The yield strenght was not reached
+in the test
+Quiz 3

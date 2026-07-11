@@ -1,0 +1,202 @@
+
+
+--- PAGE 1 ---
+STM Exercise 2
+Sara Ferraris
+sara.ferraris@polito.it
+
+
+--- PAGE 2 ---
+
+
+
+--- PAGE 3 ---
+Exercise 1: You have a cylindrical component made of an Al alloy (10 mm diameter, YS= 150 MPa): which is the maximum load 
+you can apply on this component without having plastic deformation? Consider a safety factor of n = 2.
+
+
+--- PAGE 4 ---
+1-You have a cylindrical component made of an Al alloy (10 mm diameter, YS= 150 MPa): which is the maximum load you can 
+apply on this component without having plastic deformation? Consider a safety factor of n = 2. 
+F=?
+F
+F
+d0 = 10 mm
+Yeld strength YS (y)=150 Mpa
+Safety factor =2
+No plastic deformation → <=y
+Safety factor=2 → <=y/2 
+max= y/2=150/2=75 Mpa
+A=r2=78.5 mm2
+Fmax= max*A= 75*78.5=5890 N
+
+
+--- PAGE 5 ---
+
+
+
+--- PAGE 6 ---
+Exercise 2: You have a cylindrical aluminum component (diameter =10 mm,  𝒗=0.34, E=70 GPa): calculate the tensile load you 
+need to apply to have a 2 micron smaller diameter component.
+
+
+--- PAGE 7 ---
+2- You have a cylindrical aluminum component (diameter =10 mm,  𝒗=0.34, E=70 GPa): calculate the tensile load you need to 
+apply to have a 2 micron smaller diameter component.
+F=? N
+F
+F
+d0 = 10 mm
+d=2 µm=2*10-3 mm
+z
+x
+When a load F is applied the component elongates along z and 
+reduce its diameter along x. 
+(negative deformation for diameter reduction)
+𝜀𝑥 = Δ𝑑
+𝑑0
+= −2 × 10−3𝑚𝑚
+10𝑚𝑚 = −2 × 10−4
+Poisson (ν) = - εx/ εz
+𝜀𝑧 = − 𝜀𝑥
+𝜐 = − −2 × 10−4
+0.34 = 5.8 × 10−4
+=zE= (5.8 × 10-4) (70 × 103 MPa) = 40.6 Mpa
+A=r2=78.5 mm2
+F= *A= 40.6*78.5= 3187 N
+x
+
+
+--- PAGE 8 ---
+Exercise 3: Which is the diameter you need for a 380 mm long Cu component (E=110 GPa) to be loaded at 6600N, if
+you can accept an elongation of 0.5 mm.
+
+
+--- PAGE 9 ---
+3- Which is the diameter you need for a 380 mm long Cu component (E=110 GPa) to be loaded at 6600N, if you can
+accept an elongation of 0.5 mm.
+l0 = 380 mm
+F=6600 N
+F
+F
+d0 = ?
+l=0,5 mm
+=l/l0=0.5/380=0.0013
+=E*=110000*0.0013=144.7 Mpa
+=F/A
+A=F/ =6600/144.7=45.6 mm2
+A=*r2
+r=
+𝐴
+𝜋=3.8mm
+D=2*r=7.6mm
+
+
+--- PAGE 10 ---
+Exercise 4: The elastic modulus of a steel is 193 GPa, of a bronze  is 100 GPa, and of a polymer  is 0,17 GPa ;  calculate the 
+elastic elongation of a  10 meter long wire  made of steel, bronze or polymer , cross section is  1 mm2, the applied load is F= 
+10 N.
+
+
+--- PAGE 11 ---
+The elastic modulus of a steel is 193 GPa, of a bronze  is 100 GPa, and of a polymer  is 0,17 GPa ;  calculate the elastic 
+elongation of a  10 meter long wire  made of steel, bronze or polymer , cross section is  1 mm2, the applied load is F= 10 N.
+l0 = 10m
+F=10 N
+F
+F
+d0 = 3,8 mm
+l=?
+A=1 mm2
+=l/l0
+l= *l0
+=/E
+=F/A=10/1=10 Mpa it is the same for all the materials
+=/E depends on the Elastic Modulus (E), different for each material
+steel=10/193000=5.18*10-5 → lsteel= 5.18*10-5*10000=0.518mm
+bronze=10/100000=0.0001 → lbronze= 0.0001*10000= 1mm
+polymer=10/170=0.06 → lpolymer= 0.06*10000=600mm
+
+
+--- PAGE 12 ---
+Exercise 5: A wire 10 m long with a cross section of 1mm2 underwent tensile loading of 10N. Determine stress, strain and 
+elongation if the wire is made of Copper (E=110 Gpa) or steel (E=210 Gpa).
+Compare different material on the available excel file.
+
+
+--- PAGE 13 ---
+= F/A= 10 [N]/1 [mm2] = 10 MPa
+If the wire is made of copper (E= 110 GPa) the 
+elastic deformation is:
+ = E* cioe'  = / E
+= 10 [MPa]/110 000 [MPa] = 0.00009 = 0.009 %
+ =Δl/lo     Δl=  *l0
+The total elongation on 10 m is
+0.00009 x 10 m=0.0009 m= 0.9 mm
+A=1 mm2
+l0 = 10 m
+F=10 N
+F
+F
+
+
+--- PAGE 14 ---
+If the wire is made of steel (E=210 GPa): 
+= 10 /210 000=0.000048
+The total elongation on 10 m is
+0.000048 x 10 m = 0.00048 m=0.48 mm
+Since the elastic modulus of steel is almost
+double of the one of copper, the elastic
+deformation, in the same conditions, is
+almost a half. 
+A=1 mm2
+l0 = 10 m
+F=10 N
+F
+F
+
+
+--- PAGE 15 ---
+
+[Mpa]
+
+Steel
+Copper
+10
+ acciaio  rame
+
+
+--- PAGE 16 ---
+Exercise 6
+Consider an aluminium cylindrical sample with a diameter of 1cm.
+the significant values for applied force underlined in traction test are:
+• 4600 N (yield),
+• 8450 N (maximum)
+• 5700 N (rupture) .
+When rupture occurs sample diameter is 1/3 of the initial one
+Determine:
+• Yield strength
+• Tensile strength
+• Seemly fracture strength
+• True fracture strength
+
+
+--- PAGE 17 ---
+Initial section: (0,5)2 .  cm 2 = 0,785 .10 -4 m2. 
+Yield strength:
+ y=4600/0,785 .10 -4 = 5,86 . 107 N/m2 =  58.6 MPa
+Tensile strength:
+ m=8450/0,785 .10 -4 = 10,76 . 107 N/m2 = 107.6 MPa
+Seemly fracture strength:
+ R=5700/0,785 .10 -4 = 7,26 . 107 N/m2 = 72.6 MPa
+
+
+--- PAGE 18 ---
+If at the rupture sample present a diameter of 1/3 of the initial one,
+so 0.33cm, the real section that support the load is only:
+(0,165)2 .  cm 2  0,086 .10 -4 m2
+So the true fracture strength is:
+ R=5700/0,086 .10 -4 = 66,3 . 107 N/m2 = 663 MPa
+
+
+--- PAGE 19 ---

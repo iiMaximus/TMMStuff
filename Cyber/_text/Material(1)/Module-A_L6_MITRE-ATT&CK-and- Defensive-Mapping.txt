@@ -1,0 +1,788 @@
+                 Cybersecurity and National Defense (Grandi Sfide - Digital)
+
+
+
+
+                                                     Silvia Sisinni
+                                            silvia.sisinni@polito.it
+
+
+Module A – Cybersecurity
+Fundamentals
+A6 - Adversary Behavior and
+ Defensive Mapping
+
+                                   TORSEC
+                                   Computer and Network Security Group
+  License & Disclaimer
+              License Information                                            Disclaimer
+        This presentation is licensed under the               ➢ We disclaim any warranties or
+         Creative Commons BY-NC License                         representations as to the accuracy or
+                                                                completeness of this material.
+                                                              ➢ Materials are provided “as is” without
+                                                                warranty of any kind, either express or
+                                                                implied, including without limitation,
+                                                                warranties of merchantability, fitness for a
+                                                                particular purpose, and non-infringement.
+                                                              ➢ Under no circumstances shall we be liable
+          To view a copy of the license, visit:
+                                                                for any loss, damage, liability or expense
+  http://creativecommons.org/licenses/by-nc/3.0/legalcode
+                                                                incurred or suffered which is claimed to have
+                                                                resulted from use of this material.
+                                                              ➢ This material is used and adapted within the
+                                                                course “Cybersecurity and National
+                                                                Defense”.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                           2
+A.Y. 2025 - 2026
+   Learning goals
+    By the end of this lecture, students should be able to:
+    1. Explain why sequential attack models are often insufficient to
+       describe real adversary behavior.
+    2. Interpret MITRE ATT&CK as a behavioral framework,
+       distinguishing:
+           •       tactics as adversary objectives
+           •       techniques as reusable methods
+           •       procedures as campaign-specific implementations
+    3.     Map an observed intrusion path to ATT&CK techniques in a
+           way that supports defensive reasoning.
+    4.     Analyze Stuxnet as a cyber-physical campaign using both:
+           •       Kill Chain for structural progression
+           •       ATT&CK for detailed behavioral analysis.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                        3
+A.Y. 2025 - 2026
+   Roadmap
+
+     ➢    From sequential
+               sequentialmodels
+                          modelstoto
+                                   behavioral ontologies
+                                     behavioral  ontologies
+     ➢    Introducing MITRE ATT&CK
+     ➢    Defensive Mapping
+     ➢    Case Study: Stuxnet
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              4
+A.Y. 2025 - 2026
+   How do we systematically describe an adversary?
+
+     ➢ Cyber defense requires a structured description of attack
+       behavior.
+     ➢ To defend effectively, we must answer three distinct questions:
+
+
+
+                   What objective is the adversary pursuing?
+                                  What technique is being used?
+             What observable evidence does this behavior
+                                                              produce?
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                         5
+A.Y. 2025 - 2026
+   Recap: What the Cyber Kill Chain gives us
+     ➢ The Cyber Kill Chain models                                         RECONNAISSANCE
+       intrusions as a sequence of                                                1
+                                                              ACTIONS ON
+       stages.                                                OBJECTIVE                  WEAPONIZATION
+     ➢ It is useful because it helps
+       defenders reason about:                                                 CYBER
+                                                                                KILL
+            •    attack progression                           COMMAND
+                                                                               CHAIN
+            •    possible interruption points                   AND
+                                                              CONTROL                        DELIVERY
+            •    where controls may stop or
+                 slow the attacker
+     ➢ But it has an important                                     INSTALLATION        EXPLOITATION
+         limitation:
+            •    it assumes a relatively
+                 linear view of intrusion
+                 development
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                      6
+A.Y. 2025 - 2026
+   Why sequential models are not enough
+     ➢ Real-world adversaries do not always follow a clean linear path.
+     ➢ They often:
+            •     pivot between hosts,
+            •     repeat steps
+            •     retry failed actions,
+            •     reuse the same technique in different contexts,
+            •     combine human and technical actions opportunistically.
+     ➢ A defender may therefore observe:
+             •    credential theft before obvious malware installation,
+             •    lateral movement without a clear exploit phase,
+             •    persistence re-established after containment,
+             •    multiple techniques serving the same tactical goal.
+     ➢ So if defense is to be measurable, it must be expressed in terms of observable
+          behavior, not only in terms of phases.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+
+A.Y. 2025 - 2026
+                                     ⟹ We need a behavioural ontology.              7
+A conceptual shift
+    Cyber Kill Chain asks:                  Behavioral frameworks ask:
+   “Where are we in the intrusion            “What is the adversary doing?”
+           sequence?”
+
+This is useful for:                       This is useful for:
+• progression,                            • detection engineering,
+• interruption,                           • telemetry design,
+• campaign structure.                     • capability assessment,
+                                          • threat-informed defense.
+
+
+
+
+      Defense engineering requires the second question, not only the first.
+
+                                                                              8
+   Roadmap
+
+     ➢    From sequential models to behavioral ontologies
+     ➢ Introducing
+       IntroducingMITRE
+                   MITREATT&CK
+                        ATT&CK
+     ➢    Defensive Mapping
+     ➢    Case Study: Stuxnet
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              9
+A.Y. 2025 - 2026
+   What MITRE ATT&CK is - and what it is not
+     ➢ MITRE ATT&CK is a curated, continuously updated knowledge base of real-
+       world adversary behavior.
+     ➢ It is built from documented observations of intrusion campaigns and
+       operational tradecraft.
+     ➢ ATT&CK does not primarily catalog:
+         •   malware families,
+         •   vulnerabilities,
+         •   specific tools.
+     ➢ Instead, it catalogs behavioral patterns used by adversaries.
+     ➢ ATT&CK organizes that behavior at three levels:
+         ➢ Tactics = why the action is performed
+            ➢     Techniques = how the objective is achieved
+            ➢     Procedures = how a technique is concretely implemented in a specific campaign
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                   ATT&CK models actions, not merely software.                10
+A.Y. 2025 - 2026
+ATT&CK is not another Kill Chain
+ATT&CK is not a fixed attack sequence.
+It does not say: first do A, then do B, then do C.
+Instead, it provides a behavioral space:
+• multiple techniques can support the same tactic;
+• the same technique can appear in very different campaigns;
+• attackers can move through the matrix in many different ways.
+Example: for Credential Access, an adversary might use:
+•   brute force
+•   Phishing
+•   credential dumping
+•   password store access
+•   adversary-in-the-middle
+Same objective, different behaviors.
+                                                                  11
+ ATT&CK matrix overview                                                 Tactics (adversary objectives)
+
+
+                    Resource    Initial                                      Privilege      Defense
+Reconnaissance                                   Execution    Persistence
+                    Development Access                                       Escalation     Evasion
+  11 techniques         8 tech.      11 tech.     17 tech.        23 tech.       14 tech.       47 tech.
+                                                                           Abuse            Abuse
+                                                 Cloud
+Active Scanning
+                    Acquire          Content
+                                                 Admin
+                                                                 Techniques
+                                                              Account      Elevation        Elevation
+                    Access           Injection                Manipulation
+                                                                 (methodsControl
+                                                                            used to         Control
+                                                 Command
+                                                                           Mechanisms       Mechanisms
+                                                                   achieve the
+                                     Drive-by
+Gather Victim       Acquire                      Deploy            objective)Access         Access
+                                     Compro                   BITS Jobs      Tocken         Tocken
+Host Information    Infrastructure               Container
+                                     mise                                    Manipulation   Manipulation
+Gather Victim                        HW                       Cloud
+                    Compromise                   Input                       Account
+Network                              Addition                 Application                   BITS Jobs
+                    Accounts                     Injection                   Manipulation
+Information                          s                        Integration
+
+Gather Victim Org   Develop                                   Create         Escape to      Build Image
+                                     Phishing    Native API
+Information         Capabilities                              Account        Host           on Host
+
+…                   …                …           …            …              …              …
+                                                                                                       12
+ ATT&CK matrix overview
+Credential                          Lateral                     Command
+                   Discovery                       Collection                 Exfiltration   Impact
+Access                              Movement                    and Control
+ 17 techniques        34 tech.        9 tech.       17 tech.      18 tech.       9 tech.       15 tech.
+                                    Exploitation   Adversary- Application                    Account
+Adversary-in-      Account                                                    Automated
+                                    of Remote      in-the-    Layer                          Access
+the-Middle         Discovery                                                  Exfiltration
+                                    Services       Middle     Protocol                       Removal
+                   Application      Internal       Archive                    Data
+                                                                Content                      Data
+Brute Force        Window           Spearphishi    Collected                  Transfer
+                                                                Injection                    Destruction
+                   Discovery        ng             Data                       Size Limits
+                                                                              Exfiltration
+                 Browser                                                                     Data
+Credentials from                    Lateral Tool   Audio        Data          Over
+                 Information                                                                 Encrypted for
+Password Stores                     Transfer       Capture      Encoding      Alternative
+                 Discovery                                                                   Impact
+                                                                              Protocol
+Exploitation for   Cloud                                                      Exfiltration
+                                    Remote         Automated Data                            Data
+Credential         Infrastructure                                             Over C2
+                                    Services       Collection Obfuscation                    Manipulation
+Access             Discovery                                                  Channel
+…             …           …          …
+     Analyst workflow: observe behavior → map …
+                                              to technique…→ infer objective
+                                                                      …
+                                                                                                       13
+   How to read the ATT&CK matrix
+     1. Columns = Tactics
+
+          This represent adversary objectives
+     2. Cells = Techniques
+
+          These are general behavioral methods used to achieve those objectives
+     3. Sub-techniques = finer-grained operational variants
+
+       These make analysis more specific and more useful for detection.
+     ➢ Read columns as goals. Select techniques based on observed behavior.
+
+     Important:
+     ➢ ATT&CK is not read left-to-right as a mandatory sequence.
+     ➢ Analysts select techniques based on observed behavior, not on abstract
+       campaign phases.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                  14
+A.Y. 2025 - 2026
+   Tactic, Technique, Procedure: three analytical
+   levels
+
+              Strategic                                        Operational              Concrete
+              Objective                                          Method              Implementation
+               (Tactic)                                        (Technique)             (Procedure)
+
+      Tactic = the                                           Technique = the          Procedure = the
+      adversary’s                                         reusable method used             concrete
+   immediate objective                                    to reach that objective   implementation used
+                                                                                     in a real operation
+    Example:
+    ➢ Tactic: Credential Access
+    ➢ Technique: OS Credential Dumping
+    ➢ Procedure: dumping LSASS memory with a specific tool
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                           15
+A.Y. 2025 - 2026
+   The ATT&CK as a behavioral search space
+     ➢ The ATT&CK matrix can be interpreted as a multidimensional space of
+       adversary behavior.
+     ➢ This means:
+            •     an attack can be modeled as a path through tactics and techniques;
+            •     different adversaries may follow different paths toward similar objectives;
+            •     different campaigns may overlap behaviorally without being the same campaign.
+     ➢ Therefore: behavioral overlap is informative, but it is not enough by itself for
+          attribution.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                  16
+A.Y. 2025 - 2026
+The ATT&CK Matrix as Behavioral Space
+
+
+
+
+                                        17
+Example: one intrusion path through ATT&CK
+ Scenario: A phishing email tricks a user into running malware. The attacker gains a foothold, may establish
+ persistence, may escalate privileges, may steal credentials, may move to other systems, and may exfiltrate data.
+ This is only one possible path through ATT&CK techniques.
+
+ATT&CK tactic           Example technique                   What it means
+Initial Access          Phishing                            The attacker gains the first foothold by deceiving a user
+                                                            Malicious code runs because the user opens the file or
+Execution               User Execution
+                                                            link
+                        Scheduled Task / Registry Run
+Persistence                                                 Malware is configured to start again automatically
+                        Key
+                        Exploitation for Privilege
+Privilege Escalation                                        The attacker gains higher permissions
+                        Escalation
+Credential Access       OS Credential Dumping               Passwords or authentication secrets are extracted
+                                                            The attacker uses one compromised machine to reach
+Lateral Movement        Remote Services / SMB
+                                                            others
+Command and                                                 The malware communicates with the attacker over web-
+                        Application Layer Protocol
+Control                                                     like traffic
+Exfiltration            Data Theft                          Sensitive data is sent out of the organization
+
+                                                                                                                    18
+   Tactics: adversary objectives
+     ➢ Tactics represent the adversary’s immediate objective at a given point, such
+       as:
+     • Initial Access
+     • Persistence
+     • Privilege Escalation
+     • Lateral Movement
+     • Command and Control
+     • Impact
+     ➢ They describe why a behavior is being performed.
+
+     Important:
+     ➢ tactics are not a strict chronology;
+     ➢ the same tactic may recur more than once in an operation;
+     ➢ different techniques may support the same tactic.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                      19
+A.Y. 2025 - 2026
+   Techniques: reusable methods of adversary
+   behavior
+     ➢ Techniques describe how adversaries achieve tactical objectives.
+     ➢ A good ATT&CK technique is:
+     •    observable,
+     •    reusable across campaigns,
+     •    not tied to one specific malware family,
+     •    mappable to telemetry and defensive controls.
+
+     ➢    That is why techniques are useful for:
+     •    detection engineering,
+     •    coverage analysis,
+     •    threat-informed defense.
+
+     Technique: OS Credential Dumping
+     May appear in very different campaigns, regardless of malware family.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                             20
+A.Y. 2025 - 2026
+   Procedures: campaign-specific implementations
+
+     A procedure is the concrete implementation of a technique used in
+     a specific attack campaign.
+     Examples
+     ➢ Enterprise IT:
+     • Tactic: Credential Access
+     • Technique: OS Credential Dumping
+     • Procedure: Dump LSASS (Local Security Authority Subsystem Service)
+       memory using a specific tool
+     ➢ Industrial Control System (ICS) Context:
+     • Tactic: Initial Access
+     • Technique: Replication Through Removable Media
+     • Procedure: Infected USB introduced into an engineering workstation in an air-
+       gapped environment
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                  21
+A.Y. 2025 - 2026
+   Roadmap
+
+     ➢    From sequential models to behavioral ontologies
+     ➢    Introducing MITRE ATT&CK
+     ➢    DefensiveMapping
+          Defensive Mapping
+     ➢    Case Study: Stuxnet
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              22
+A.Y. 2025 - 2026
+   A technique is defensible only if it is observable
+
+     ➢ A behavioral technique becomes defensible only if:
+     • it leaves artifacts
+     • those artifacts generate telemetry
+     • the telemetry can be modeled analytically
+     • the model can support detection and response
+     ➢ So the defensive chain is:
+
+         Technique ⟶ Artifact ⟶ Telemetry ⟶ Detection Logic ⟶ Response
+     ➢    Example:
+     •    Technique: OS Credential Dumping
+     •    Artifact: abnormal access to LSASS memory
+     •    Telemetry: endpoint process monitoring
+     •    Detection logic: suspicious non-system process reading LSASS
+     •    Response: isolate host, acquire forensic evidence
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                         23
+A.Y. 2025 - 2026
+   Artifacts and telemetry
+     ➢ An artifact is a trace left by an action:
+     • process creation,
+     • registry modification,
+     • file change,
+     • network connection,
+     • authentication event,
+     • configuration change.
+     ➢ Telemetry is the mechanism that captures that trace:
+     • operating system logs,
+     • endpoint sensors,
+     • network monitoring,
+     • application logs,
+     • industrial monitoring data.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                 Without telemetry, artifacts exist but remain invisible to defenders.   24
+A.Y. 2025 - 2026
+   Detection is analytical interpretation
+     Detection is not mere logging. Detection requires:
+     • a behavioral hypothesis,
+     • a baseline of normal activity,
+     • collection of relevant telemetry,
+     • correlation across data sources,
+     • reduction of false positives,
+     • prioritization of operationally meaningful alerts.
+
+
+     So detection logic answers:
+     “Given this telemetry, is there enough evidence to infer the presence of a technique?”
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                              25
+A.Y. 2025 - 2026
+   Defensive mapping as an analytical workflow
+
+     Defensive mapping consists of four analytical steps:
+     1. Select relevant techniques
+        Which ATT&CK techniques matter for our threat model?
+     2. Assess visibility
+        What telemetry do we collect that could reveal those techniques?
+     3. Assess detection capability
+        Do we actually detect them reliably and with acceptable false
+        positives?
+     4. Assess mitigation and residual risk
+        If detection fails or arrives late, what controls still limit damage?
+     ⟹ ATT&CK becomes operational only when it is connected to
+     telemetry and control decisions.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                26
+A.Y. 2025 - 2026
+   Coverage is not one thing
+     ➢ Coverage must be evaluated along three dimensions:
+     1.     Visibility coverage
+            Do we collect telemetry relevant to the technique?
+     2.     Detection coverage
+            Do we identify the technique with sufficient reliability?
+     3.     Mitigation coverage
+            If the technique succeeds, do we have controls that reduce impact?
+
+
+     ⟹ Coverage is therefore not binary. It is a layered measurement of defensive
+     posture.
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                    28
+A.Y. 2025 - 2026
+   Detection alone does not eliminate risk
+     ➢ A technique may be:
+     •    visible but not detected
+     •    detected but too late to matter
+     •    detected but not mitigated
+     •    mitigated but still partially exploitable
+
+     ➢ Therefore, defensive maturity requires explicit recognition of:
+     •    detection limits,
+     •    response latency,
+     •    remaining exposure,
+     •    residual risk.
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                         29
+A.Y. 2025 - 2026
+   Residual Risk ATT&CK-based defense
+     Residual risk is the portion of adversary behavior that remains
+     unobserved, undetected, insufficiently mitigated, or still
+     operationally damaging despite controls.
+
+     In ATT&CK-based reasoning, residual risk often arises from:
+     ➢ telemetry blind spots,
+     ➢ weak analytical coverage,
+     ➢ delayed response,
+     ➢ incomplete mitigation,
+     ➢ attacker adaptation.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                       30
+A.Y. 2025 - 2026
+   Behavioral models and security properties
+     Each ATT&CK technique ultimately threatens one or more security
+     properties:
+     ➢ Confidentiality
+       Example: credential dumping, collection, exfiltration
+     ➢ Integrity
+       Example: controller logic modification, data manipulation
+     ➢ Availability
+       Example: data destruction, service interruption, sabotage
+     ➢ Authenticity / Trustworthiness
+       Example: masquerading, malicious commands executed,
+       deceptive reporting
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                       31
+A.Y. 2025 - 2026
+   Why ATT&CK matters in national defense
+     ➢    In national defense and national cyber architectures, ATT&CK
+          supports:
+     •    shared operational vocabulary across agencies and teams
+     •    standardized threat reporting
+     •    comparability of defensive posture
+     •    threat-informed capability planning
+     •    cross-organizational coordination in complex incidents
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                         32
+A.Y. 2025 - 2026
+   Roadmap
+
+     ➢    From sequential models to behavioral ontologies
+     ➢    Introducing MITRE ATT&CK
+     ➢    Defensive Mapping
+     ➢    Case Study:
+               Study:Stuxnet
+                      Stuxnet
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              33
+A.Y. 2025 - 2026
+  Stuxnet: a landmark cyber-physical operation
+    ➢ Discovered in 2010, Stuxnet is the first widely recognized cyber operation that
+      caused physical sabotage of industrial equipment through software
+      manipulation.
+    ➢ It targeted uranium enrichment centrifuges by manipulating Programmable
+      Logic Controller (PLC) logic.
+    ➢ Stuxnet is not just malware. It is a model case of integrated IT + OT + physical
+      effects, with consequences at a strategic/geopolitical level
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                     34
+A.Y. 2025 - 2026
+  Stuxnet in one minute: what happened
+
+    ➢ Natanz was Iran’s primary uranium-enrichment complex, built around
+      cascades of gas centrifuges used to enrich uranium. Parts of the enrichment
+      infrastructure were underground and heavily physical protected.
+    ➢ A facility like Natanz was expected to be difficult to reach remotely, so the
+      operational environment relied heavily on segmentation and air-gapping to
+      reduce exposure
+              ➢    weak or absent security measures were applied within the environment, most of
+                   the plant's protection was relied on physical isolation.
+    ➢ But Stuxnet’s designers planned for exactly that constraint: the malware was
+         built to spread through infected removable media and then propagate locally
+         once inside the environment, counting on the weakness of the cyber defenses
+         once they managed to get inside.
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                              35
+A.Y. 2025 - 2026
+Stuxnet in one minute: what happened
+➢ The best-supported public reconstruction is that Stuxnet entered the restricted
+  environment through human-carried removable media, most plausibly via a maintenance
+  engineer sent by Siemens to update the systems, with legitimate access in the
+  environment.
+➢ Once inside, Stuxnet used multiple Windows zero-days (i.e., unknown) vulnerabilities,
+  propagated across local systems, checked for specific Siemens Step7 and PLC
+  conditions, and activated its payload only when the target matched the intended industrial
+  configuration.
+➢ Once the right environment was found, it modified PLC logic related to centrifuge
+  operation.
+➢ The malicious logic changed operating behavior in ways
+  designed to place stress on the equipment rather than cause
+  an immediate obvious failure.
+➢ At the same time, Stuxnet replayed or presented misleading
+  normal readings to operators, masking the abnormal process
+  behavior.
+                                                                                          36
+  Why Stuxnet matters strategically
+    Stuxnet matters because it demonstrates that cyber operations can combine:
+    • highly targeted intrusion
+    • deep ICS / process knowledge
+    • tailored payload engineering
+    • stealth and deception
+    • physical sabotage
+    It is also historically important because it showed that:
+    • air-gapped environments are not immune,
+    • IT compromise can become OT manipulation,
+    • software can produce strategic physical effects,
+    • cyber operations can support national strategic objectives.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                 37
+A.Y. 2025 - 2026
+Stuxnet through the Kill Chain: structural progression
+
+                                                        Defensive Interruption
+Phase              What Happened
+                                                        Point
+                   Adversaries gathered
+                                                        Limit public exposure of
+                   intelligence on: the target
+                                                        technical details; control supply-
+Reconnaissance     environment, Siemens PLC
+                                                        chain leakage; insider threat
+                   families, process characteristics,
+                                                        monitoring.
+                   centrifuge operating profiles.
+                   Malware engineered with:
+                   multiple Windows zero-days           Vulnerability management;
+Weaponization      vulnerabilities, and custom PLC      secure development lifecycle for
+                   payload targeting specific           ICS components.
+                   centrifuge speeds.
+                   The malware entered the
+                   environment through infected         Strict removable media controls,
+Delivery           removable media reaching an          media scanning, device control,
+                   engineering workstation in an        procedural barriers.
+                   air-gapped setting.
+                                                                                        38
+Stuxnet through the Kill Chain: structural progression
+                                                            Defensive Interruption
+ Phase                  What Happened
+                                                            Point
+                        Windows vulnerabilities enabled
+                                                            Timely patching; endpoint
+ Exploitation           code execution and propagation
+                                                            detection systems.
+                        in the local environment.
+                        Persistence was established on
+                                                            Application whitelisting; integrity
+                        Windows systems, while
+ Installation           malicious logic was injected into
+                                                            monitoring; PLC firmware
+                                                            validation.
+                        PLC-related components.
+                        Malware propagated and              Network segmentation;
+ Command and Control    infected all hosts to update PLC    detection of manipulated
+                        configuration.                      configuration.
+                                                            Independent safety monitoring
+                        Malicious PLC logic altered         systems; process anomaly
+                        centrifuge rotation speed while     detection; trusted validation of
+ Actions on Objective   reporting fake normal readings      OT state; separation between
+                        to operators.                       operational control and operator
+                                                            view.                            39
+Stuxnet through ATT&CK: behavioral decomposition
+
+Tactic           Technique                 Procedure                        Analytical value
+                                           An infected USB drive was        Shows that air-gapping
+                 Replication Through       physically introduced into an    changes network
+Initial Access   Removable Media           engineering workstation          exposure, not all access
+                                           inside the air-gapped.           paths
+                                           Stuxnet used previously
+                                           unknown Windows                  User action and zero-
+                 Exploitation for Client   vulnerabilities (zero-days) to   days vulnerabilities logic
+Execution        Execution                 execute its code                 combine to create
+                                           automatically when the USB       execution
+                                           was accessed.
+                                           Stuxnet copied its files into
+                                           Windows system directories       Infection survives
+                 Boot or Logon Autostart
+Persistence      Execution
+                                           and created registry entries     reboot and maintains
+                                           so that it would start every     foothold
+                                           time the system rebooted.
+                                                                                                   40
+Stuxnet through ATT&CK: behavioral decomposition
+
+Tactic       Technique            Procedure                          Analytical value
+                                                                     Full control over the
+                                  It exploited Windows               infected machine
+Privilege    Exploitation for
+                                  vulnerabilities to obtain          increases stealth,
+Escalation   Privilege Escalation
+                                  SYSTEM-level privileges.           persistence, and staging
+                                                                     capacity
+                                  It spread to other computers       The infection propagated
+                                  using shared network folders       inside the facility. Local
+Lateral      Exploitation of
+                                  and by exploiting a                compromise becomes
+Movement     Remote Services
+                                  vulnerability in the Windows       facility-wide operational
+                                  Print Spooler service.             exposure
+                                  It installed a Windows rootkit
+                                  to hide its files and processes,
+                                                                     Defenders lose trustworthy
+Defense                           and hide the malicious PLC
+             Rootkit                                                 visibility into both IT and
+Evasion                           code while sending false
+                                                                     OT layers
+                                  normal readings to monitoring
+                                  systems.
+                                                                                                41
+Stuxnet through ATT&CK: behavioral decomposition
+
+Tactic        Technique           Procedure                   Analytical value
+
+                                  When Internet               Partial external
+                                  connectivity was            connectivity can still
+Command       Application Layer   available, infected         matter in
+and Control   Protocol            machines contacted          environments
+                                  external command-and-       thought to be
+                                  control servers via HTTP.   restricted.
+                                  It modified Siemens PLC
+                                  code controlling
+                                  centrifuge rotation         Impact in OT is not
+              Modify Controller   speeds, periodically        only data loss: it can
+Impact
+              Logic               changing speed patterns,    be controlled
+                                  in ways designed to         physical damage
+                                  induce physical
+                                  degradation.
+                                                                                   42
+   What this case teaches
+    Stuxnet teaches five enduring lessons:
+    1. Air-gapping reduces exposure but does not remove attack
+       paths.
+
+    2. IT and OT security cannot be separated in modern industrial
+       defense.
+
+    3. If telemetry is incomplete, visibility is structurally weak.
+
+    4. Behavioral monitoring is essential in industrial environments.
+
+    5. Cyber operations can produce strategic physical effects.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                        43
+A.Y. 2025 - 2026
+

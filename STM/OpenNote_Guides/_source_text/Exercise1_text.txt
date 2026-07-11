@@ -1,0 +1,68 @@
+
+
+--- PAGE 1 ---
+STM - Exercise 1
+
+
+--- PAGE 2 ---
+Exercise 1
+Use figure 1 to:
+a) define which test and which class of materials is referred to 
+and why;  
+b) calculate elastic modulus, 
+c) Calculate the yield strength (0.2 % offset) and the tensile 
+strength, 
+d) Calculate the elongation at fracture for a 50 mm long 
+specimen (write on curves data you use).
+e) Calculate the length of the specimen when you keep it loaded 
+in A.
+
+
+--- PAGE 3 ---
+Exercise 2: Use the graph below to define 
+a) which test and which class of materials is referred to and why;  
+b) to calculate elastic modulus, 
+c) To calculate the yield strength (0,2 % strain) and the tensile strength, 
+d) To calculate the elongation at fracture for a 50 mm long specimen; 
+e) To calculate the elongation of this sample when loaded at 200 MPa, then unloaded. 
+(write on graph stress and strain
+you use to calculate).
+
+
+--- PAGE 4 ---
+Exercise 3: Determine the Elastic Modulus of Aluminum and High Density Polyethylene (HDPE) from the graphs
+below. Comment the obtained results.
+
+
+--- PAGE 5 ---
+Consider the - curve reported in the figure. 
+The yield strength (0.2 % offset) is: 
+a) 230 Mpa
+b) 220 Mpa
+c) 185 MPa
+Quiz 1
+
+
+--- PAGE 6 ---
+The - curve in figure comes from the 
+tensile test of an aluminum specimen. 
+Select the right sentence (only one):
+a) The specimen underwent plastic
+deformation
+b) The specimen underwent fragile fracture
+c) The specimen did not have permanent
+deformations
+Quiz 2
+
+
+--- PAGE 7 ---
+The - curve in figure comes from 
+the tensile test of an aluminum
+specimen. Select the right sentence
+(only one):
+a) The specimen had only elastic
+deformation
+a) The specimen underwent necking
+a) The yield strenght was not
+reached in the test
+Quiz 3

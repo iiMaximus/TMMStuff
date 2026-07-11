@@ -1,0 +1,60 @@
+
+
+--- PAGE 1 ---
+STM Exercise 6
+Phase Diagrams
+(no solubility in the solid state)
+(partial solubility in the solid state)
+
+
+--- PAGE 2 ---
+Exercise 1: determine the phase present, their composition and relative amounts in the point A, B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+A
+B
+C
+D
+E
+Composition wt%B
+
+
+--- PAGE 3 ---
+Exercise 2: determine the phase present, their composition and relative amounts in the points B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+B
+C
+D
+E
+
+
+--- PAGE 4 ---
+Exercise 3: Draw a phase diagram (for generic components A and B), with complete solubility in the liquid state 
+and partial solubility in the solid state. Also indicate the phase/phases present(s) in each region of the phase 
+diagram
+
+
+--- PAGE 5 ---
+
+L
++
+L++L
+Exercise 4: describe the 
+solidification of alloys with 
+compositions xB’, xB’’, xB’’’ ans
+xB
+eut by drawing schematic
+microstructures in significant
+points.
+
+
+--- PAGE 6 ---
+Exercise 5: determine the phase present, their composition and relative amounts in the points A, B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+A
+B
+C
+D
+E

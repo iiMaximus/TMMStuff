@@ -1,0 +1,192 @@
+
+
+--- PAGE 1 ---
+STM Exercise 4
+➢ Thermal Properties
+
+
+--- PAGE 2 ---
+Overview on Thermal Properties
+Thermal conductivity
+Materials attitude to transfer thermal energy from one system at
+higher Temperature to another one at lower Temperature. (phonons)
+Coefficient
+ of 
+thermal
+ conductivity
+ (k, W/
+mK
+) : energy (Q, J) 
+flowing in one second (t, 1 second) through one surface (A, 1 m2), 
+one meter thick (x, 1 m), when the T difference between the two
+surfaces is 1 K.
+x
+TktA
+Q
+
+=.
+
+
+--- PAGE 3 ---
+Define the coefficient of thermal conductivity (k), its units and list k of polymers, metal, and ceramics. Explain the list order.
+
+
+--- PAGE 4 ---
+2001 Materiali per l’Ingegneria 
+M.Ferraris
+Coefficient of thermal conductivity 
+k (W/m K)
+Al 247 Al2O3       30 polyethylene 0.4
+Cu 398 MgO 38        nylon 0.24
+Fe 81 SiO2(glass)   2 PTFE 0.25
+Steel       52 soda-lime glass 1.7
+Stainless steel 16 MgAl2O4 15
+k metals> kceramics>>kpolymers
+
+
+--- PAGE 5 ---
+x
+TktA
+Q
+
+=.
+T1 = 50°C T2 = 20°C
+Q
+
+
+--- PAGE 6 ---
+x
+TktA
+Q
+
+=.
+T1 = 50°C T2 = 20°C
+Q
+
+
+--- PAGE 7 ---
+CTE and bond 
+strength
+Lower 
+Strongly 
+bonded 
+solids, 
+high E, 
+high melt T
+
+
+--- PAGE 8 ---
+Define the coefficient of thermal expansion (CTE), its units and list the CTE of polymers, metal, glasses and ceramics. Explain the 
+list order.
+
+
+--- PAGE 9 ---
+Define the coefficient of thermal expansion (CTE), its units and list the CTE of polymers, metal, glasses and ceramics. Explain the 
+list order. 
+Linear expansion
+➢ Polymers: 100  x 10-6 K-1
+➢ Metal: 15-30  x 10-6 K-1
+➢ Glasses: 0,5-20  x 10-6 K-1
+➢  Ceramics: 3-7  x 10-6 K-1
+The relative expansion (also called strain) divided by the change in temperature is 
+called the material's coefficient of linear thermal expansion (CTE)
+Stronger is the atomic bonding strength lower is the thermal expansion coefficient.
+
+
+--- PAGE 10 ---
+ Ceramics <  metals <<  polymers  silica glass= 0.5 x 10-6 K-1
+ glasses= 0.5- 20 x 10-6 K-1
+CTE of different materials
+Steel
+Stainless steel
+Brass (Cu-Zn)
+Amorphous silica
+
+
+--- PAGE 11 ---
+The CTE of a steel is (14 x 10-6 °C-1): calculate the elongation of a steel rod of 50 m, when temperature increases from 20 to 50 °C.
+
+
+--- PAGE 12 ---
+The CTE of a steel is (14 x 10-6 °C-1): calculate the elongation of a steel rod of 50 m, when temperature increases from 20 to 50 °C.
+
+
+--- PAGE 13 ---
+Es 1.
+An Al bar, 10 m long, is cooled from 38 to -10°C. Knowing that =23.6 *10-6 °C-1, 
+how does its length change?
+
+
+--- PAGE 14 ---
+Es 1.
+An Al bar, 10 m long, is cooled from 38 to -10°C. Knowing that =23.6 *10-6 °C-1, 
+how does its length change?
+
+
+--- PAGE 15 ---
+Es 2. A steel bar is heated from 20 to 80°C with the ends constrained. Knowing that:
+E= 207 GPa
+= 12 *10-6 °C-1
+Determine the developed tension
+
+
+--- PAGE 16 ---
+Es 2. A steel bar is heated from 20 to 80°C with the ends constrained. Knowing that:
+E= 207 GPa
+= 12 *10-6 °C-1
+Determine the developed tension
+
+
+--- PAGE 17 ---
+Conventionally compressive stress are considered negative while tensile ones as
+positive. For this reason frequently, for thermally induced stresses, T is considered as
+T0-T1 in order to obtain negative stress in case of elongation (compression of the
+component heated with constrained ends) and positive in case of contraction (tensile
+stress on the component cooled with constrained ends). If we consider T as T1-T0, as
+before, in the stress calculation we should remember that in heating we have
+elongation (positive) which results, in case of constrained ends, in a compressive stress
+on the component, which is negative. In cooling we have a contraction of the material
+(negative) which results, in case of constrained ends, in a tensile stress on the
+component (positive).
+Heating (T1>T0)
+T=T1-T0 >0
+>0 (elongation)
+Constrained ends→ 
+compression (-)
+Cooling (T1<T0)
+T=T1-T0 <0
+<0 (contraction)
+Constrained ends → 
+tensile (+)
+T T
+
+
+--- PAGE 18 ---
+Es 3. A brass bar constrained at the ends, and stress-free at 20°C, must be heated without 
+exceeding a compressive stress of 172 MPa. 
+Up to what temperature can it be heated?
+E= 100 GPa
+= 20 *10-6 °C-1
+
+
+--- PAGE 19 ---
+Es 3. A brass bar constrained at the ends, and stress-free at 20°C, must be heated without 
+exceeding a compressive stress of 172 MPa. 
+Up to what temperature can it be heated?
+E= 100 GPa
+= 20 *10-6 °C-1
+
+
+--- PAGE 20 ---
+Es 4. At what T must a cylindrical bar of W having d = 10 mm, and a stainless steel plate with a 
+hole of d=9.988 mm, be heated to make the bar assume the same diameter as the hole?
+T1= 25°C
+(W) = 4.5 *10-6 °C-1
+(inox) = 16* 10-6 °C-1
+
+
+--- PAGE 21 ---
+Es 6.
+Calculate the coefficient of thermal conductivity k of copper knowing that from the two sides of a 
+sheet 5 mm thick and with a square surface equal to 10 x 10 cm2 the temperatures are 20 ° C and 
+90 ° C and that in 5 minutes 16716 kJ are transmitted.

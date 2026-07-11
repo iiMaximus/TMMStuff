@@ -1,0 +1,421 @@
+
+
+--- PAGE 1 ---
+POLYMERIC MATERIALS
+
+
+--- PAGE 2 ---
+Terminology:
+• Polymer – “Poly” meaning “many” and “mer” meaning “unit”.
+• Monomers – Basic building blocks of a polymer.
+• Macromolecule – extremely large collections of molecules to form one 
+polymeric chain .
+• Plastics – a synonym for polymers.
+Polymers – basic concepts 
+• The word “plastic” comes from the Greek word “plastikos”, m eaning 
+capable of being molded and shaped.
+• Polymers can be natural or synthetic (man-made) 
+• The earliest polymers, such as cellulose, were mad e from natural organic 
+materials from animals and vegetable products 
+Most commonly, polymers are constituted by a hydrocarbon backbone 
+(chains formed by C and H) to which different functional groups may be 
+inserted. However, other structures exist, too; for exampl e, silicon (Si) can 
+form polysiloxanes (silicones ), based on –Si-O-Si-O-Si- chains; they are 
+widely used as sealants.
+
+
+--- PAGE 3 ---
+
+
+
+--- PAGE 4 ---
+
+
+
+--- PAGE 5 ---
+Advantages of using polymers: 
+• low cost 
+• low electrical and thermal conductivity (insulation) 
+• low density 
+• high strength-to-weight ratio 
+• resistance to chemical corrosion 
+• noise reduction 
+• assortment of colors (aesthetics) 
+• ease of manufacturing 
+• minimal additional surface treatments 
+• forms of availability such as: tubes, films, sheets, plates, rods, etc. 
+Limitations 
+• Low mechanical properties 
+• Low thermal resistance 
+• Flammability 
+• Damage due to visible light and UV 
+Additives can be used:
+fillers, lubricants, pigments…
+Ex.: carbon black (in tires) 
+secondary bonding
+
+
+--- PAGE 6 ---
+Polymerization is the process of combining many monomers into a
+covalently bonded chain or network.
+Polymerization 
+ADDITION POLYMERS 
+All the monomers from which addition polymers are made are al kenes or 
+functionally substituted alkenes (alkenes have at least on e C = C bond).
+Example: polyethylene, derived from the ethylene (H 
+2C = CH 2).
+Many of poly-addition reactions are known to proceed in a ste pwise fashion by 
+way of reactive intermediates. A general diagram illustrat ing this assembly of 
+linear macromolecules (chain growth polymers ) is shown below.
+Note that an initiating species, i.e. a catalyst (indicated as Z*), is necessary so 
+that the reaction can run.
+
+
+--- PAGE 7 ---
+CONDENSED POLYMERS 
+In polycondensation, polymerization proceeds by functional group 
+transformations ; it typically involves the loss of a small by-product , such 
+as water, and combines two different monomers in an alternating 
+structure. Example: polyethylenterephtalate (PET):
+Condensation polymers form more slowly than addition polym ers, often 
+requiring heat. The terminal functional groups on a chain re main active, so 
+that groups of shorter chains combine into longer chains in t he late stages of 
+polymerization. The presence of polar functional groups on the chains often 
+enhances chain-chain attractions, particularly if these i nvolve hydrogen 
+bonding, and thereby crystallinity and tensile strength are increased.
+terephthalic acid Ethylen glycol
+
+
+--- PAGE 8 ---
+• Molecular Weight Distribution (MWD), is the sum of the mole cular weights 
+of the mers in a macromolecule (polymer chain) 
+• Degree of Polymerization (DP) is the size (length) of the polymer chain 
+Molecular weight 
+MWD and DP strongly affect the 
+mechanical properties and viscosity of 
+polymers
+
+
+--- PAGE 9 ---
+Composition
+
+
+--- PAGE 10 ---
+
+
+
+--- PAGE 11 ---
+• Linear Polymers 
+ Sequential structures 
+• Branched Polymers 
+ Increased resistance to 
+deformation and applied loads. 
+• Cross-Linked Polymers 
+(Thermosets) higher hardness, 
+strength, stiffness, brittleness, and 
+better dimensional stability. 
+• Networked Polymers 
+(highly cross-linked), have a higher 
+resistance when exposed to high 
+energy radiation, UV light, X-rays, or 
+electron beams, as well as higher 
+mechanical properties . 
+THERMOSETS                                THERMOPLASTICS 
+Structure
+
+
+--- PAGE 12 ---
+• Copolymers contain two types of polymers 
+ Ex: Styrene-butadiene, used in making tires 
+• Terpolymers contains three types of polymers 
+ Ex: Acrylonitrile-butadiene-styrene, used to make helmets 
+Purposes:
+- Take the «best» from the constituing polyemers 
+- Modulation of properties
+
+
+--- PAGE 13 ---
+Polymers can be:
+• Amorphous , the polymer chains exist without order (e.g. PVC).
+• Semi-crystalline  crystallites: the regions arrange themselves in an 
+orderly manner. PTFE can reach 98% crystallinity 
+Crystallinity can be increased by controlling (decreasing ) the rate of 
+solidification during the cooling process 
+Crystallinity
+
+
+--- PAGE 14 ---
+Folded-chain model
+
+
+--- PAGE 15 ---
+Spherulite, 
+natural rubber 
+Polymer crystalline structure 
+in 3D: spherulites
+
+
+--- PAGE 16 ---
+
+
+
+--- PAGE 17 ---
+
+
+
+--- PAGE 18 ---
+Kevlar
+
+
+--- PAGE 19 ---
+Density 
+E
+TS 
+Deformation at 
+fracture 
+Specific 
+strength
+
+
+--- PAGE 20 ---
+
+
+
+--- PAGE 21 ---
+
+
+
+--- PAGE 22 ---
+THERMOPLASTICS 
+Polymers that can undergo shaping upon heating, return to th eir original 
+state and be reformed indefinitely 
+They are recyclable.
+Ex: Acrylics, Nylons, Polyethylenes 
+THERMOSETS 
+When long chain molecules in a polymer become one giant molecule with 
+strong covalent bonds (cross-links)  the polymer is permanently set. 
+These polymers can be formed only the first time; e.g.: resins, adhesives 
+The curing reaction of a thermoset is irreversible (unlike thermoplastics) 
+No T
+g value 
+Types of polymers
+
+
+--- PAGE 23 ---
+ELASTOMERS 
+Linear polymers in which a low number of bridging bonds are in troduced, 
+which give the material a three-dimensional structure and e nsure very high 
+elastic properties (up to 800% elastic deformation). These bonds are 
+introduced after the molding of the material, through a chemical reaction
+
+
+--- PAGE 24 ---
+
+
+
+--- PAGE 25 ---
+Effect of glass transition temperature (T g)
+A = termosets or 
+termoplastics below Tg
+B = termoplastics above Tg
+C = elastomer
+
+
+--- PAGE 26 ---
+The tensile stress-strain curve for semicrystalline polymers at T > Tg :
+Upper and lower yield points of the curve are followed by a nea r horizontal 
+region.
+Upper yield point: a small neck forms within the gauge section.
+Within this neck the chains become oriented which leads to lo calized 
+strengthening. There is a resistance to continued deformat ion at this point 
+and specimen elongation proceeds by the propagation of this neck region 
+along the gauge length.
+At T < T g (rigid polymer)
+
+
+--- PAGE 27 ---
+Thermoplastic polymers
+
+
+--- PAGE 28 ---
+
+
+
+--- PAGE 29 ---
+0 10 20 30 40 50 60 70 80 90 100 
+0
+10 
+20 
+30 
+40 
+50 
+60 
+70  polistirene 
+ ABS 
+ policarbonato 
+Carico [MPa] 
+allungamento [%]
+
+
+--- PAGE 30 ---
+Effect of temperature 
+PMMA
+
+
+--- PAGE 31 ---
+
+
+
+--- PAGE 32 ---
+Silicone-based polymers
+
+
+--- PAGE 33 ---
+Thermoplastic materials processing 
+technologies: 
+• Molding, injection 
+• Thermoforming 
+• Extrusion 
+• Calendaring 
+• Blowing 
+Processing technologies of 
+thermosetting materials: 
+• Injection molding + transfer 
+(for polymer-matrix 
+composites) 
+• Compression 
+• Pultrusion (for polymer-matrix 
+composites) 
+• Rotational molding 
+Processing of polymeric materials
+
+
+--- PAGE 34 ---
+34 
+Moulding
+
+
+--- PAGE 35 ---
+35 
+Injection moulding
+
+
+--- PAGE 36 ---
+36 
+Extrusion
+
+
+--- PAGE 37 ---
+37 
+Calendaring (polymer lamination)
+
+
+--- PAGE 38 ---
+38 
+Blowing 
+Mould 
+Pressurized air
+
+
+--- PAGE 39 ---
+RESIN TRANSFER MOLDING (for polymer-matrix composites bas ed on 
+thermosetting polymers) 
+- Resin transfer molding is a manufacturing method that is qu ite similar to 
+injection molding where plastic is injected into a closed mold 
+- In the RTM process the preform (precut piece(s) of reinforc ement) is placed 
+in the mold, the mold is closed and the thermoset plastic matr ix is injected into 
+the mold, once the matrix is cured the part is ejected
+
+
+--- PAGE 40 ---
+PULTRUSION (for polymer-matrix composites based on thermo setting 
+polymers) 
+- Similar to extrusion of metallic parts 
+- Pultrusion involves pulling resin-impregnated glass strands through a die 
+- Standard extruded shapes can easily be produced such as pip es, channels, 
+I-beams, etc.
+
+
+--- PAGE 41 ---
+Degradation of polymers 
+Breakage of chemical bonds due to the effect (also combined) of: 
+• Temperature 
+• Photo-oxidation and UV radiation 
+• Micro-organisms 
+• Contact with low MW substances (liquid solvents) 
+Among the materials used in engineering, 
+polymeric materials are the 
+most sensitive to T .
+Over time, polymers can undergo changes in their structure and properties 
+that can limit/compromise their use.
+
+
+--- PAGE 42 ---
+Macroscopic effects of degradation:
+• Colour alteration (opaque polymers change their colour an d optically-
+transparent polymers turn yellowish) 
+• Loss of flexibility 
+• Loss of toughness 
+Note that degradation can be caused by:
+- environmental agents 
+- loss of substances with low MW (plasticizers, stabilizers etc.)  exudation
+
+
+--- PAGE 43 ---
+Oxygen 
+Organic solvents 
+Moisture 
+Biological agents 
+- Thermal transitions (T g, Tm)
+- Aging 
+- Interactions with liquids (e.g. water) 
+- Environmental stress crazing (surface micro-cracking) 
+- Thermal degradation 
+- Oxidation and UV oxidation 
+- Interaction with liquids 
+- Degradation by microorganisms
+
+
+--- PAGE 44 ---
+Polymer 
+Volatiles 
+Flame 
+Oxygen 
+Heat 
+Products 
+(CO 2, CO…) 
+Dispersion 
+Condensed Phase 
+Gas Phase 
+Char 
+Fire 
+Risks related to the fire:
+• reaction to fire 
+• release of toxic gases (= fumes) 
+Polymers are flammable materials  thermal degradation 
+Pyrolysis zone: macromolecules 
+are degraded producing volatile 
+substances; some components 
+(e.g. fillers) do not burn and leave a
+solid deposit of C residues.
+Transfer zone of:
+- heat downward 
+- volatile substances upward 
+Zone of combustion of volatile gases by reaction 
+with O 2, the combustion products and any 
+volatile gases that do not react are released as 
+fumes
+
+
+--- PAGE 45 ---
+Flame retardants are additives that aim at:
+- increasing the resistance of the material to ignition and/ or 
+- reducing the flame propagation speed.
+• Inorganic fillers or additives that do not burn and increas e the amount of 
+carbon residues on the surface in order to:
+- separate the material from the flame, 
+- reduce the heat that reaches the polymer 
+- ultimately retard its thermal degradation 
+• Substances that give endothermic reactions or hydrated co mpounds in 
+which the evaporation of water takes heat away from the material.
+(nanoceramics, CNTs)

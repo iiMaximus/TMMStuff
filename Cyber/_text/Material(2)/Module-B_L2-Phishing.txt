@@ -1,0 +1,526 @@
+                 Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                 A.Y. 2025 - 2026
+
+
+                                                     Enrico Bravi
+                                           enrico.bravi@polito.it
+
+
+Module B – Social Engineering
+and Digital Identity
+B2 – Phishing
+
+
+                                  TORSEC
+                                  Computer and Network Security Group
+   Acknowledgments
+    This lecture deck adapts and reorganizes selected teaching
+    material originally developed by Nicolò Maunero (CINI /
+    Cybersecurity National Lab). Portions of the content are reused
+    under the Creative Commons BY-NC license (see license slide). All
+    modifications, additions, re-organization, and any errors are the
+    responsibility of the course instructor.​
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                    2
+A.Y. 2025 - 2026
+  License & Disclaimer
+              License Information                                            Disclaimer
+        This presentation is licensed under the               ➢ We disclaim any warranties or
+         Creative Commons BY-NC License                         representations as to the accuracy or
+                                                                completeness of this material.
+                                                              ➢ Materials are provided “as is” without
+                                                                warranty of any kind, either express or
+                                                                implied, including without limitation,
+                                                                warranties of merchantability, fitness for a
+                                                                particular purpose, and non-infringement.
+                                                              ➢ Under no circumstances shall we be liable
+                                                                for any loss, damage, liability or expense
+          To view a copy of the license, visit:
+                                                                incurred or suffered which is claimed to have
+   http://creativecommons.org/licenses/by-nc/3.0/legalcode
+                                                                resulted from use of this material.
+                                                              ➢ This material is used and adapted within the
+                                                                course “Cybersecurity and National
+                                                                Defense”.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                           3
+A.Y. 2025 - 2026
+   Learning Goals
+    ➢ analyzing in detail the attack vectors attributable to so-called
+      Phishing
+    ➢ proposing possible countermeasures, identified as best practices
+      of the so-called Cyber Hygiene
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                     4
+A.Y. 2025 - 2026
+   Cyber Hygiene
+    ➢    it is the set of precautionary measures organisations and
+         individuals do in order to help keep sensitive data safe and
+         secure.
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        5
+A.Y. 2025 - 2026
+   Social Engineering – Attack Vectors
+    ➢ various types of phishing
+    ➢ posing as others
+    ➢ physical attacks
+    ➢ cognitive type attacks
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              6
+A.Y. 2025 - 2026
+   Social Engineering – Attack Vectors
+    ➢ various types of phishing                               ➢ phishing
+    ➢ posing as others                                             ➢ spear phishing
+
+    ➢ physical attacks                                             ➢ whaling
+
+    ➢ cognitive type attacks                                       ➢ Business Email
+
+                                                                      Compromise (BEC)
+                                                              ➢ vishing
+                                                              ➢ smishing
+                                                              ➢ via social
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                         7
+A.Y. 2025 - 2026
+   Phishing
+    ➢    internet fraud in which the attacker attempts to trick the victim
+         into:​
+            ➢ provide personal information, such as login credentials, bank
+
+                account and credit card details​
+            ➢ click on malicious links
+
+            ➢ open attachments that contain malware
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                          8
+A.Y. 2025 - 2026
+   The Size of the Phenomenon
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              9
+A.Y. 2025 - 2026
+   Phishing – How It Is Realized
+    ➢ typically by sending e-mails messages, more or less targeted,
+      that mimic in graphics and settings, bank or postal sites that
+      require to send personal data
+    ➢ scammers often craft email subject lines to trigger strong
+      emotions or create urgency
+    ➢ more sophisticated ones make their messages seem legitimate
+      by using subjects the impersonated sender would realistically
+      use, such as “Problem with your order” or “Your invoice is
+      attached.”
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                       10
+A.Y. 2025 - 2026
+   Spear Phishing
+    ➢ it is a highly targeted form of phishing aimed at a specific
+      individual, often someone with access to sensitive information
+      or special authority, like a finance manager who can transfer
+      company funds
+    ➢ using insights, attackers create messages filled with personal
+      details that make them appear authentic
+    ➢ they might pretend to be the target’s boss and send a message
+      like: “I know you’re heading on vacation tonight, but could you
+      take care of this invoice before the end of the day?”
+
+
+                                              [https://www.ibm.com/think/topics/social-engineering#732739700]
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                                11
+A.Y. 2025 - 2026
+   Whaling
+    ➢ spear phishing but adopted for the highest-value targets
+    ➢ whaling focuses on high-ranking individuals such as C-level
+      executives (CEOs, CFOs, COOs), senior leaders, political
+      figures, and others with the authority to approve large payments,
+      wire transfers, or the release of sensitive information without
+      needing additional approval
+    ➢ these individuals are called “whales”, having access to
+      significantly more money than the average person
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                      12
+A.Y. 2025 - 2026
+   Business Email Compromise (BEC)
+    ➢ BEC is a type of spear-phishing attack that aims to trick
+      organizations into handing over money or sensitive information
+    ➢ a cybercriminal or group of attackers sends emails to employees
+      that appear to come from a colleague, vendor, partner, customer,
+      or another trusted contact
+    ➢ these messages are designed to deceive recipients into paying
+      fake invoices, transferring funds to fraudulent accounts, or
+      revealing sensitive information such as customer data,
+      intellectual property, or financial records.
+    ➢ scammers can gain unauthorized access to the sender’s email
+      account, making their fraudulent messages appear more
+      authentic.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                    13
+A.Y. 2025 - 2026
+   Other Forms of Phishing (I)
+    ➢    vishing
+            ➢ scammers frequently use caller ID spoofing to make their
+
+               calls look like they’re coming from trusted organizations or
+               local numbers
+            ➢ these vishing calls often alarm recipients with claims of
+
+               credit card issues, unpaid bills, or legal trouble, prompting
+               them to share sensitive information or send money to “fix”
+               the problem
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                               14
+A.Y. 2025 - 2026
+   Other Forms of Phishing (II)
+    ➢ smishing
+         ➢ SMS phishing (smishing) relies on fraudulent text messages
+
+            to deceive victims
+         ➢ scammers often impersonate mobile carriers, sending
+
+            messages that promise a “free gift” or prompt users to
+            update their credit card details.
+    ➢ via social media
+         ➢ scammers may impersonate others to trick victims into
+
+            sharing login credentials, enabling account takeover
+         ➢ the risk is greater for people who reuse passwords across
+
+            multiple accounts.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        15
+A.Y. 2025 - 2026
+   Phishing – How to Recognize It
+    ➢ Unknown or suspect sender​
+    ➢ Typos & Spelling errors
+    ➢ Urgent request for confidential data​
+
+
+    ➢ spot the difference:
+
+
+                            no-reply@microsoft.com
+                            no-reply@rnicrosoft.com
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              16
+A.Y. 2025 - 2026
+   Phishing – How to Recognize It
+    ➢ Unknown or suspect sender​
+    ➢ Typos & Spelling errors
+    ➢ Urgent request for confidential data​
+
+
+    ➢ spot the difference:
+
+
+                            no-reply@microsoft.com
+                            no-reply@rnicrosoft.com
+
+                                                              r+n
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                    17
+A.Y. 2025 - 2026
+   Phishing – How to Recognize It
+    ➢ Unknown or suspect sender​
+    ➢ Typos & Spelling errors
+    ➢ Urgent request for confidential data​
+
+
+    ➢ spot the difference:
+
+
+                            no-reply@microsoft.com
+                            no-reply@rnicrosoft.com
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              18
+A.Y. 2025 - 2026
+   Phishing – A Trivial Example (I)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              19
+A.Y. 2025 - 2026
+   Phishing – A Trivial Example (II)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              20
+A.Y. 2025 - 2026
+   Phishing – A Trivial Example (III)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              21
+A.Y. 2025 - 2026
+   Phishing (I)
+    ➢    much less trivial
+         example
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              22
+A.Y. 2025 - 2026
+   Phishing (II)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              23
+A.Y. 2025 - 2026
+   Phishing (III)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              24
+A.Y. 2025 - 2026
+   An Example Targeting PoliTo
+
+
+
+
+    ➢ sender looks legitimate (from @polito.it)
+    ➢ link points to a domain outside PoliTo
+    ➢ landing page resemble original, but with
+      some typos
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              25
+A.Y. 2025 - 2026
+   Very Sophisticated Example (I)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              26
+A.Y. 2025 - 2026
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              27
+A.Y. 2025 - 2026
+                           https://agenzaentrate.com/...
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              28
+A.Y. 2025 - 2026
+   Very Sophisticated Example (IV)
+    ➢ the link does not point to the real domain, but to a different one
+    ➢ the attackers used a typosquatting technique​
+    ➢ registration of a common misspelling of another organization’s
+      domain
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                           29
+A.Y. 2025 - 2026
+   Email – Cyber Hygiene
+    ➢ ALWAYS be suspicious of emails you receive​
+    ➢ ALWAYS be suspicious of emails that slightly surprise you, or
+      not solicited or expected
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                      30
+A.Y. 2025 - 2026
+   Email – Cyber Hygiene
+    ➢    At the slightest suspicion:
+            ➢ try to understand:
+
+                ➢ from whom it comes
+
+                ➢ on which sites you would go if you click on the indicated
+
+                   links
+            ➢ never click on the links
+
+            ➢ never open of save attachments, even if they are in
+
+               formats that you might consider safe (e.g., images, PDF
+               files, Office files)
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                          31
+A.Y. 2025 - 2026
+   Microsoft Office Documents
+    ➢    an attacker can insert malicious code:
+           ➢ within macros
+
+           ➢ inside the documents without using macros, but exploiting
+
+              the so-called DDE Exploits
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                         32
+A.Y. 2025 - 2026
+   Microsoft’s DDE (I)
+    ➢ Microsoft’s Dynamic Data Exchange (DDE) is a protocol
+      designed to allow the transportation of data between MS Office
+      applications
+    ➢ It was introduced as early as Windows 2.0 back in 1987 and
+      provides what Microsoft once considered core functionality to the
+      Office suite of tools
+    ➢ Although DDE has now been superseded by the Object Linking
+      and Embedding (OLE) toolkit, DDE is still supported by Office
+      applications for backwards-compatibility
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                      33
+A.Y. 2025 - 2026
+   Microsoft’s DDE (II)
+    ➢ while that is certainly a benefit for legitimate users and uses of
+      the protocol, the unfortunate side-effect of DDE is that it provides
+      an avenue for attackers to exploit
+    ➢ DDE allows the execution of embedded code once a victim
+      opens such a file, without the authorization request associated
+      with macros
+
+
+
+
+    [https://www.sentinelone.com/blog/malware-embedded-microsoft-office-documents-dde-
+    exploit-macroless]
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                         34
+A.Y. 2025 - 2026
+   Email – Cyber Hygiene
+    ➢ remember that no serious organization will ever ask you to
+      submit passwords or click on a link included in an email
+    ➢ adopt policies that prevent the execution of macros or VBA
+      (Visual Basic for Applications) code present in Office source files
+      (Word, Excel, Powerpoint)
+    ➢ do not email Office source files
+    ➢ install only “quality” PDF readers
+    ➢ if you really must open an attachment to an Email, do so within
+      Virtual Machines or Sandboxes, only
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        35
+A.Y. 2025 - 2026
+   Virtual Machines
+    ➢ a program that, through a virtualization process, creates a virtual
+      environment that emulates the behaviour of a physical machine
+      (PC, client or server) thanks to the allocation of hardware
+      resources (portions of disk, RAM and computing resources) and
+      in which it is possible to run applications as if they were
+      interacting with that machine
+    ➢ even if the Operating System running on the virtual machine gets
+      compromised, the Operating System of the hosting machine
+      would be neither affected nor damaged
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        36
+A.Y. 2025 - 2026
+   Sandbox
+    ➢ virtual environment, “isolated” from the rest of the computer, that
+      allows you to run non-certified applications, download files, and
+      visit suspicious websites without exposing the system on which
+      the sandbox is running to risks and threats
+    ➢ some examples:
+          ➢ Windows Sandbox (WSB)
+
+          ➢ Linux sandboxing (namespaces, chroot)
+
+             ➢ App sandboxing
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        37
+A.Y. 2025 - 2026
+   The XZ Backdoor Case
+    ➢ the XZ package is used for data compression
+    ➢ it is widely used
+          ➢ adopted in the OpenSSH remote access software
+
+    ➢ a contributor called “Jia Tan” was able to obtain maintainer-level
+      access to the project
+    ➢ exploiting the privilege Tan introduces a backdoor in the code
+      that allowed to run arbitrary code on the victim machine when the
+      XZ was loaded into an OpenSSH server
+    ➢ it has been discovered before getting into release distributions
+
+                                                                                          [https://lwn.net/Articles/967866/]
+                                  [https://lwn.net/ml/oss-security/20240329155126.kjjfduxw2yrlxgzm@awork3.anarazel.de/]
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                                         38
+A.Y. 2025 - 2026
+

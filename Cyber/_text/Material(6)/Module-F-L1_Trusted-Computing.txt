@@ -1,0 +1,1241 @@
+                 Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                    A.Y. 2025 - 2026
+
+
+                                                       Silvia Sisinni
+                                              silvia.sisinni@polito.it
+
+
+Module F - Trusted Computing
+and Remote Attestation
+
+L1 - Introduction to Trusted
+ Computing
+                                      TORSEC
+                                      Computer and Network Security Group
+  License & Disclaimer
+          License Information                                              Disclaimer
+        This presentation is licensed under the               ➢ We disclaim any warranties or
+         Creative Commons BY-NC License                         representations as to the accuracy or
+                                                                completeness of this material.
+                                                              ➢ Materials are provided “as is” without
+                                                                warranty of any kind, either express or
+                                                                implied, including without limitation,
+                                                                warranties of merchantability, fitness for a
+                                                                particular purpose, and non-infringement.
+                                                              ➢ Under no circumstances shall we be liable
+                                                                for any loss, damage, liability or expense
+          To view a copy of the license, visit:                 incurred or suffered which is claimed to have
+  http://creativecommons.org/licenses/by-nc/3.0/legalcode
+                                                                resulted from use of this material.
+                                                              ➢ This material is used and adapted within the
+                                                                course “Cybersecurity and National
+                                                                Defense”.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                           2
+A.A. 2025 - 2026
+  Why trust became a system-level problem
+   ➢ Modern platforms process large volumes of sensitive data
+   ➢ Data is increasingly shared across devices, clouds, and organisations
+   ➢ Security failures affect confidentiality, integrity, availability, and
+     accountability
+   ➢ Classical security mechanisms have historically focused on two important
+     states of data:
+         •  Data at rest (stored on a disk, in a database, or in a file system) ⟹ full-
+            disk encryption, file-based encryption, database encryption, and access-
+            control policies
+         •  Data in transit (data moving over a network) ⟹ TLS, IPsec, …
+   ➢ The hard problem is protecting data during computation
+
+                      Can we trust the platform that is processing the data?
+                       Has this platform been compromised by an attacker?
+                               How is
+Cybersecurity and National Defence      it Sfide
+                                   (Grandi possible      to verify its real status?
+                                                 - Digital)
+                                                                                      3
+A.Y. 2025 - 2026
+  Layered security helps, but it expands the
+  trust assumptions
+   ➢ Modern systems use many layers of
+                                                                                Application
+        protection (Defence in Depth):
+             ➢     TLS for data in transit                                   Containerisation
+             ➢     encryption for stored data
+             ➢     Operative Systems isolate processes                       Operating System
+             ➢     Sandboxing (e.g. containers) better
+                   isolates processes
+             ➢     access control mechanisms (SELinux,
+                                                                                Hypervisor
+                                                              Privileged
+                   AppArmor)                                  components =
+             ➢     Virtual Machines                           high-level        Firmware
+   ➢ If one control fails, another may still limit            targets
+     the damage ..                                                              Hardware
+   ➢ But most layers still depend on privileged
+     software behaving correctly.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                4
+A.Y. 2025 - 2026
+  The operating system is powerful ⟹ it is
+  dangerous when compromised
+   ➢ The operating system has extensive control over:
+             ➢     user separation
+             ➢     process scheduling and isolation
+             ➢     virtual memory and page tables
+             ➢     file systems and storage
+             ➢     network interfaces
+             ➢     device drivers and I/O
+   ➢ A kernel-level attacker may observe memory of all user-space processes,
+     modify page tables, or interfere with system calls, read-write files, control
+     network interfaces, communicate with peripheral devices, …
+   ➢ Large operating systems have large attack surfaces (millions lines of code)
+   ➢ Modern attacks exploit hardware- and microarchitectural behaviour (e.g.,
+     cache, speculative execution, optimization mechanisms), not only softw bugs
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                     5
+A.Y. 2025 - 2026
+  The trust problem
+   ➢ Secure ≠ Trusted
+   ➢ A secure system enforces a defined security policy under a defined threat
+        model
+            strong claims of security require strong assurance
+             •
+         •  this may involve formal verification, systematic testing, or certification.
+   ➢ In practice, modern systems are too large to be fully verified …
+   ➢ A trusted system is expected to behave in a predictable way
+         •  requires assumptions and evidence
+             •     trust does not imply absence of vulnerabilities.
+   ➢ Example: we expect a bank to behave like a bank by offering financial
+        services, and a thief to behave like a thief by stealing
+        ⇒ trustworthy behavior ≠ correct or secure behavior
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                          6
+A.Y. 2025 - 2026
+  Two complementary responses: verify the
+  platform or isolate the computation
+   ➢ Trusted Computing (TC): verify whether a platform is in an expected state.
+             •     Detects unexpected software components and configuration
+             •     Main primitive: Remote Attestation
+             •     Question: “Is this platform in an expected state?”
+
+   ➢ Trusted Execution Environments (TEEs): protect sensitive code and data
+        from the rest of the platform.
+           •   Protects code and data in use
+           •   Main primitive: protected execution
+           •   Question: “Can this computation remain protected from privileged code
+               (OS and hypervisor)?”
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                       7
+A.Y. 2025 - 2026
+  Trusted Computing: making platform state
+  verifiable
+   Question: “Is this platform in an expected state?”
+   Trusted Computing provides mechanisms to:
+   1. Measure software and configuration state
+             •     a measurement is typically a cryptographic hash of a software component or
+                   configuration
+             •     Example: the firmware may measure the bootloader, the bootloader may measure the
+                   kernel, and the kernel may measure additional components.
+   2. Protect measurements in hardware
+             •     ensure that compromised software cannot simply rewrite the history of measurements to
+                   make the system appear clean after loading malicious code
+   3. Report measurements to a verifier
+             •     produce a signed statement about system integrity measurements
+   4. Decide on the platform state:
+             •     bind secrets and sensitive data to an approved platform state
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                       8
+A.Y. 2025 - 2026
+  Confidential Computing: protecting data in
+  use
+   Question: “Can this computation remain protected from privileged code (OS and
+   hypervisor)?”
+   ➢ Encryption protects data at rest
+   ➢ TLS protects data in transit
+   ➢ The hard problem is protecting data during computation
+   ➢ Confidential Computing aims to provide mechanisms for secure computation
+      even when the surrounding platform, service provider, or other parties are not
+      fully trusted.
+   ➢ Confidential Computing encompasses three main families:
+          1. Trusted Execution Environments (TEEs)
+          2. Fully Homomorphic Encryption (FHE)
+          3. Secure Multi-Party Computation (MPC)
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                  9
+A.Y. 2025 - 2026
+  TEEs: reducing trust in the normal
+  execution environment
+   ➢ A TEE protects selected code and data from the normal execution
+        environment, also called Rich Execution Environment (REE).
+             •     It reduces dependence on the normal OS or hypervisor.
+   ➢ Typical security goals:
+             •     confidentiality of sensitive data in use
+             •     integrity of code and data in use
+             •     isolation from the normal OS/hypervisor
+             •     attestation in some TEE designs
+             •     trusted I/O in some implementations
+
+                      The TEE objective is not to secure the whole platform,
+           but to protect a small execution environment under a specific threat model
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                        10
+A.Y. 2025 - 2026
+  FHE:computation without decrypting data
+   ➢ Fully Homomorphic Encryption (FHE) allows computation directly over
+     encrypted data
+   ➢ A server can evaluate a function without seeing plaintext inputs
+   ➢ Only the data owner and key holder can decrypt the final result
+   ➢ Example idea:
+                                        Enc(3) + Enc(5) → Enc(8)
+
+   ➢ Trust model: trust the cryptographic scheme, not the computing platform
+   ➢ Main cost: very high computation overhead compared with native execution,
+        not practical for workloads requiring low latency, high throughput, or limited
+        power consumption
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                         11
+A.Y. 2025 - 2026
+  SMPC: collaboration without revealing
+  private inputs
+   ➢ Secure Multi-Party Computation (SMPC/MPC) lets several parties to
+     compute a result together by using cryptographic protocols, without revealing
+     their private inputs to the others.
+   ➢ Each party keeps its own input private
+   ➢ No single party needs to receive all raw data
+   ➢ Examples: several organisations compute a shared statistic, detect fraud, or
+     perform collaborative analysis without sharing datasets
+             •     with ordinary computation, this would require one party to reveal data to another
+                   party, or all parties to send their data to a central trusted entity
+   ➢ Useful when parties do not fully trust each other
+   ➢ Trust model: trust the protocol, not a central data holder or the participants
+   ➢ Main cost: several rounds of communication, protocol complexity, and higher
+        computational and network overhead than ordinary computation
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                  12
+A.Y. 2025 - 2026
+  Comparing Confidential Computing approaches
+
+                    How it protects
+   Approach                                       Strength                Limitations
+                    computation
+                                                                          Different TEEs provide
+                    Isolate execution                                     different security
+                                                  High-performance
+   TEE              using hardware                                        guarantees; portability
+                                                  protected computation
+                    support                                               issues of trusted
+                                                                          applications between TEEs
+
+                    Compute directly on           Strong cryptographic
+   FHE                                                                    Computation overhead
+                    encrypted data                privacy
+
+                                                  Joint computation
+                    Split computation                                     Protocol complexity; difficult
+   SMPC                                           without sharing raw
+                    among parties                                         to deploy at scale
+                                                  inputs
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                       13
+A.Y. 2025 - 2026
+          Isolated Hardware
+          Execution
+          Platforms
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              14
+A.Y. 2025 - 2026
+  Smart Cards: the classical isolated
+  security platform                                                               85 mm
+
+   ➢ Embedded microprocessor + memory inside a card                      Integrated        Plastic
+                                                                           Circuit           layer
+   ➢ Standardised physical and communication interface
+             •     contact: ISO/IEC 7816                         54 mm
+             •     contactless: ISO/IEC 14443 / NFC
+   ➢ Contactless cards can be powered by the
+                                                                                          Antenna
+     electromagnetic field generated by the reader,
+     so the card does not need its own battery
+   ➢ Used for: payments and transport ticketing, SIM authentication,
+        electronic identity documents, physical access control
+   ➢ Stores keys, identifiers, and application data internally
+   ➢ Performs cryptographic operations inside the card
+   ➢ Exposes only controlled command interface to the outside
+        world, not raw secrets
+                                                                                               15
+A.Y. 2025 - 2026
+  EMV: smart cards for payment security
+   ➢ Europay, Mastercard, and Visa (EMV) defines how chip-based payment
+     cards interact with terminals
+   ➢ Motivation: replace magnetic-stripe cards with stronger cryptographic
+     authentication
+   ➢ In an EMV transaction, the smart card participates actively in
+     the payment protocol: it stores cryptographic keys,
+        processes commands from the terminal, verifies data, and generates
+        cryptographically protected messages that prove its participation in the
+        transaction
+   ➢ A payment card acts as a secure execution environment for:
+     card authentication, cardholder verification, transaction cryptogram generation,
+     protection of payment keys
+   ➢ The terminal: selects a payment app, sends challenge, sends transaction data;
+   ➢ The card: authenticates, checks PIN, generates cryptograms
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+   ➢ The issuer: verifies transaction and authorises or rejects it
+A.Y. 2025 - 2026
+                                                                                        16
+  Simplified EMV transaction flow (I)
+        Issuer                     Terminal                                Card                   Consumer
+
+                                                1. Initialisation
+                                                                                  The terminal and the
+                                                1PAY.SYS.DDF01                    card agree on which
+                                                                                  payment application
+                                                  𝐴𝐼𝐷1 , 𝐴𝐼𝐷2 , … , 𝐴𝐼𝐷𝑛
+                                                                                      will be used
+                                                    Select 𝐴𝐼𝐷𝑥
+
+                                                   Read Record
+
+                                                   Signed Records
+
+
+
+                                            2. Card Authentication                   Determine whether the
+                                             Internal Authenticate, nonce              card is genuine and
+                                                                                      whether its data has
+                                          Signed nonces and auxiliary data
+                                                                                     not been tampered with
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                              17
+A.Y. 2025 - 2026
+  Simplified EMV transaction flow (II)
+        Issuer                         Terminal                        Card                       Consumer
+
+                                                             3. Cardholder verification
+  Is the person (consumer)                                                          PIN request
+        using the card
+                                                                                     PIN entry
+     authorized to use it?
+    A common method is                               PIN: XXXX
+        PIN verification
+                                                    PIN OK / Failed
+
+
+                       4. Transaction authorisation
+                                            Generate Application                     The issuer (financial
+                                            Cryptogram, Transaction Data        organization that produced the
+               Transaction Data,                                                   payment card) decides
+               Authorisation request       Authorisation request cryptogram     whether to approve or decline
+               cryptogram                                                              the transaction
+                                              Response
+
+                                           Transaction Certificate
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                                 18
+A.Y. 2025 - 2026
+  What EMV teaches us about hardware security
+
+   1.     Keep long-term secrets inside isolated hardware
+   2.     Expose operations only though a controlled command interface, not keys
+   3.     Use challenges/nonces to prevent replay attacks
+   4.     Bind cryptographic responses to transaction data
+   5.     Standardise protocols for global interoperability
+   6.     Certify platforms when high assurance is required
+            • payment cards operate in adversarial environments and protect high-
+                 value assets
+            • for this reason, smart cards and secure elements are usually evaluated
+                 under formal certification schemes such as Common Criteria or FIPS-
+                 related frameworks
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                   19
+A.Y. 2025 - 2026
+  Secure elements: smart-card technology
+  embedded into devices
+   ➢ Secure Elements (SEs) generalise smart-card technology
+   ➢ They generalise the smart-card model beyond plastic cards
+   ➢ Main form factors:
+           physical smart card
+             •
+        •  SIM / UICC
+        •  embedded Secure Element (eSE)
+        •  secure microSD
+   ➢ Used in smartphones, embedded systems and mobile services
+   ➢ Protect: subscriber identities in mobile networks, payment credentials for
+     contactless transactions, authentication keys, security-sensitive applications
+   ➢ A SE is a separate hardware component, with its own processor / memory: it
+     guarantees stronger physical attack resistance than ordinary software isolation
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                  20
+A.Y. 2025 - 2026
+  SE vs Host-based Card Emulation (HCE)
+      Secure Element-based NFC                                       HCE-based NFC
+                            Device                                           Device
+
+                   Application       Secure                        Application
+                   Processor         Element                       Processor
+
+      Controls         Operating System                       Controls   Operating System
+
+                         NFC Controller                                   NFC Controller
+
+                                    NFC Transaction                                NFC Transaction
+                                         Data                                           Data
+                    NFC                                             NFC
+                   Reader                                          Reader
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                21
+A.Y. 2025 - 2026
+  GlobalPlatform SE: who controls what
+  inside the Secure Element?
+   Problem: several stakeholders may need the same Secure Element for storing
+   sensitive applications and credentials
+   Example: one stakeholder may be the device manufacturer, another may be a mobile
+   network operator, another may be a payment provider, and another may be an electronic
+   identity provider.
+   GlobalPlatform addresses this using the concept of Security Domains:
+   1. Issuer Security Domain (ISD): issuer of the SE, main authority over the SE
+             •     control high-level management operations and can authorise the creation or
+                   management of other domains
+   2. Security Domains (SDs): separated areas for service providers
+             •     for example: a payment provider may manage a payment application and its
+                   keys, while a mobile operator may manage SIM-related credentials
+             •     each SD manages the applications / secrets that belong to a given stakeholder
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                22
+A.Y. 2025 - 2026
+  GlobalPlatform SE: who controls what
+  inside the Secure Element?
+   3. Secure Channel Protocols (SCPs): protected remote management
+             • provide confidentiality, integrity, authentication, and data-origin protection for
+               management operations
+             • if a provider installs an applet in the SE, or update a key, those commands must
+               be protected
+   4. Lifecycle management: install, personalise, update, delete, lock
+
+   Result: applications and credentials can coexist without exposing each other’s
+   secrets.
+
+
+
+
+                                                                                                23
+A.Y. 2025 - 2026
+  GlobalPlatform SE
+ Device              Application Processor Unit
+
+                     SE access service / middleware                           Remote Stakeholder
+                                                                                (bank / operator /
+                    Forwards Application Protocol Data         Encrypted +      identity provider)
+                        Unite (APDU) commands                 authenticated
+                        Does not terminate SCP                SCP session
+                                                                                  SCP endpoint
+                   Secure Element
+                        Issuer Security Domain (ISD)
+                          main authority / lifecycle ctrl.
+
+
+                    Payment Security Domain app + keys        SCP endpoint
+
+                       Identity Security Domain app +
+                                  credentials
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                              24
+A.Y. 2025 - 2026
+          Roots of Trust and
+          Security Platform
+          Certification
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              25
+A.Y. 2025 - 2026
+  Roots of Trust: the starting point of
+  platform trust
+   A Root of Trust (RoT) is a component (hardware, firmware, or software) that is
+   trusted to perform one or more security-critical functions correctly.
+   Typical properties:
+   ➢ it is implicitly trusted
+   ➢ it has a small and protected implementation
+   ➢ its misbehaviour is impossible to detect during runtime, when it is deployed on
+      a platform
+   ➢ the correct implementation of its security functionalities are typically certified by
+      certification bodies
+   ➢ other security mechanisms rely on it as a foundation
+
+
+                            A Root of Trust is where the trust chain begins.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                        26
+A.Y. 2025 - 2026
+  What can a Root of Trust do?
+   A Root of Trust may provide different security services:
+
+
+   Function                                               Purpose
+                                                          Compute evidence (e.g., cryptographic hashes)
+   Root of Trust for Measurement (RTM)
+                                                          about software or configuration state
+                                                          Protect keys, secrets, or measurements from
+   Root of Trust for Storage (RTS)
+                                                          unauthorized access or modification
+                                                          Produce authenticated evidence about the
+   Root of Trust for Reporting (RTR)
+                                                          platform or component state for a verifier
+                                                          Check whether code or data is authorized,
+   Root of Trust for Detection (RTD)
+                                                          before allowing execution
+
+   Root of Trust for Update (RTU)                         Protect firmware or security-critical updates
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                          27
+A.Y. 2025 - 2026
+  Hardware Security Modules as RoTs
+   A Hardware Security Module (HSM) can act as a Root of Trust when it provides
+   protected, security-critical functions that the rest of the system relies on.
+
+   Typical RoT services in HSM modules:
+   ➢ Key generation and storage inside protected hardware, without exporting
+     the private key material to the host operating system
+   ➢ Cryptographic operations
+   ➢ Device or user authentication
+   ➢ Integrity-protected internal state
+   ➢ Small command interface exposed to the host
+
+
+   The host can request operations, but the HSM protects the trust anchor.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                               28
+A.Y. 2025 - 2026
+  Host system – HSM communication
+        Host system
+                                                              What the host requests:
+                                                              •   sign(data)
+                                                              •   decrypt(blob)
+                   OS / Applications
+                                                              •   verify(PIN)
+                                                              •   read status
+                                                              •   ….
+         Command                   Command
+         request                    response
+                                                              What the host does not see:
+                                                              • private keys
+               HSM / Secure module                            • master secrets
+               Keys + crypto engine +                         • internal state
+                  protected state
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                            29
+A.Y. 2025 - 2026
+  Certifying a security platform
+   High-assurance platforms are often evaluated against explicit requirements, threat
+   models, and certification schemes.
+   Certification provides structured assurance that a platform was evaluated
+   against a defined set of security requirements.
+   Why it matters for HSMs / SEs / smart cards:
+   ➢ security claims must be tested against a defined threat model
+   ➢ customers need evidence beyond vendor promises
+   ➢ certification supports high-assurance domains:
+             •     payments
+             •     identity documents
+             •     government systems
+             •     telecommunications
+   ➢ certification helps compare products with similar security goals
+      Important:
+Cybersecurity          certification
+              and National             is Sfide
+                           Defence (Grandi not a- Digital)
+                                                   proof of absolute security. It certifies correct
+                                                                                 30
+ implementations of the threat protection mechanisms considered in the threat model
+A.Y. 2025 - 2026
+  Common Criteria: evaluating security
+  claims
+   Common Criteria is an international framework for evaluating IT security
+   products, formalised as ISO/IEC 15408.
+ Term                               Meaning
+                                                                      Protection Profile
+                                    Product/system being
+ Target of Evaluation (TOE)
+                                    evaluated
+                                    Generic security requirements     Security Target
+ Protection Profile (PP)
+                                    for a class of products
+                                    Implementation-specific
+ Security Target                    security requirements defined   Evaluation Laboratory
+                                    in a PP
+ Security Functional Requirements   What security functions must
+ (SFRs)                             do                                 Certificate / EAL
+ Security Assurance Requirements    How deeply and rigorously
+ (SARs)                             SFRs are evaluated
+ Evaluation Assurance Level (EAL)   Evaluation depth and rigour                            31
+A.Y. 2025 - 2026
+EALs: how much assurance?
+Level   Meaning
+        Functionally Tested: This is the lowest Evaluation Assurance Level (EAL). It provides basic confidence
+EAL 1   that the TOE works as described in its documentation and can withstand basic, predefined threats.
+        Structurally Tested: This level gives low-to-moderate assurance that the TOE follows reasonable
+EAL 2   security practices, even when full development history is unavailable. It is often used for older or legacy
+        systems where evidence such as test results and design documentation may be limited.
+        Methodically Tested and Checked: This level provides moderate assurance that the TOE has been
+EAL 3   carefully examined and tested, without requiring the higher costs associated with extensive security
+        engineering.
+        Methodically Designed, Tested, and Reviewed: This level provides moderate-to-high assurance that
+EAL 4   security has been built into the TOE through systematic design, testing, and review, requiring a
+        significant engineering effort from the organisation.
+        Semi-formally Designed and Tested: This level provides high assurance through a rigorous and well-
+EAL 5   planned development process, although it does not necessarily require advanced specialist security
+        engineering techniques.
+        Semi-formally Verified Design and Tested: This level provides additional assurance for TOEs used in
+EAL 6   high-risk environments, where strong protection of valuable assets is required and significant security-
+        related costs are justified.
+        Formally Verified Design and Tested: This is the highest EAL, used for TOEs operating in extremely
+EAL 7   high-risk environments where very high-value or critical assets must be protected.                 32
+  FIPS: certification for cryptographic
+  modules
+   FIPS standards are developed by the US National Institute of Standards and
+   Technology (NIST) and are widely used for cryptographic security.
+
+   FIPS 140-3 focuses on cryptographic modules (hardware modules, software
+   libraries, firmware, or hybrid implementations that performs cryptographic
+   operations):
+   ➢ approved cryptographic algorithms
+   ➢ key generation and key management
+   ➢ physical security requirements
+   ➢ authentication and access control
+   ➢ testing and validation
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                33
+A.Y. 2025 - 2026
+  FIPS Security Levels
+  Level            Meaning
+
+                   This is the lowest security level, intended for environments where stronger security
+                   would be too costly or unnecessary. Cryptographic modules at this level must support
+  Level 1          at least one approved cryptographic algorithm and provide basic protections, such as
+                   role-based authentication and simple key generation and management.
+                   This level is intended for environments where sensitive information needs protection,
+                   but the risk is not critical. Cryptographic modules at this level must support at least one
+  Level 2          approved cryptographic algorithm and include stronger security measures, such as
+                   physical protection controls and improved key generation and management.
+                   This level is intended for environments where protecting sensitive information is
+                   especially important. Cryptographic modules at this level must support at least one
+  Level 3          approved cryptographic algorithm and include stronger safeguards, such as tamper-
+                   evident packaging and logical access controls.
+                   This is the highest security level, intended for environments where extremely sensitive
+                   information must be protected. Cryptographic modules at this level must support at
+  Level 4          least one approved cryptographic algorithm and include the strongest safeguards, such
+                   as physical security controls, logical access controls, and tamper-resistant packaging.
+                                                                                                            34
+A.Y. 2025 - 2026
+          Trusted Computing
+          Foundations: TPM
+          and Platform State
+          How can a computer provide reliable evidence
+          about the software and configuration state
+          in which it started?
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              35
+A.Y. 2025 - 2026
+  The Trusted Computing problem
+
+               Can I know whether this platform is in the expected state
+
+
+     What is running?                          What was loaded?     Has any config
+                                                                      changed?
+       Runtime Firmware                          Bootloader           Configuration
+       Kernel                                    Expected Drivers     Boot Policy
+       User Applications                         Services             Security Settings
+
+
+
+                               Software can report “I am fine”
+                         even when it has already been compromised.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                      36
+A.Y. 2025 - 2026
+  Why software-only verification is not enough
+              Compromised platform                                    Attacker capabilities
+
+   Verifier               Are you trusted
+                                                              A privileged attacker may:
+                                                              ➢ intercept verification requests
+                                Yes, sure!
+                                                              ➢ forge status reports
+                                                              ➢ hide modified files or processes
+                   Tampered Application                       ➢ alter logs before they are read
+                                                              ➢ disable security tools
+                     Operative System                         ➢ replay old “healthy” evidence
+
+
+              Kernel malware / Rootkit                        ⟹ If the verifier depends only on
+                                                              compromised software, the
+                   Firmware / Bootloader                      evidence is not reliable.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                   37
+A.Y. 2025 - 2026
+The TPM: the TCG answer to platform trust
+1980s                                          The Trusted Platform Module (TPM)
+Trusted systems and the Trusted Computing
+Base (TCB) idea                                was proposed as a small, low-cost
+                                               security component, attached to the
+1990s
+PCs + Internet expose software-only security   motherboard to:
+limits                                         ➢ anchor trust in hardware
+                                               ➢ protect cryptographic keys and integrity
+1999
+Trusted Computing Platform Alliance (TCPA)       measurements
+                                               ➢ support measurement of the boot process
+ 2003                                          ➢ report platform state to external verifiers
+ Trusted Computing Group (TCG)                 ➢ provide a common, interoperable
+                                                 standard
+2004                                           The TPM was designed to make
+Trusted Platform Module (TPM) 1.2
+                                               platform state verifiable, even when
+2014                                           high-privileged software may be
+Trusted Platform Module (TPM) 2.0              compromised.                         38
+  Trusted Computing goal
+   Trusted Computing addresses platform-state trust:
+   1. identify the platform components relevant for the trust decision
+             •     firmware, bootloader, kernel, drivers, configuration, and security policy
+   2. measure security-relevant components
+             •     a measurement is normally a cryptographic hash of a component or
+                   configuration value
+             •     if the component changes (i.e., its identity changes), the hash changes
+   3. protect the measurements from software tampering
+   4. report integrity evidence to a verifier
+             •     Remote Attestation
+   5. compare the evidence with expected values or policies and decide whether
+      the platform can be trusted
+   Identify and                                                                       Establish
+                                  Protect                    Report
+     Measure                                                                         Conditional
+                                Measurements                Evidence
+   Components                                                                           Trust    39
+A.Y. 2025 - 2026
+  From HSMs to TPMs: what changes?
+     Hardware Security Module (HSM)                           Trusted Platform Module (TPM)
+
+     Protects keys and secrets                                Protects keys and platform measurements
+
+                                                              Performs cryptographic operations and
+     Performs cryptographic operations
+                                                              platform-state reporting
+
+     May be removable or external                             Bound to the platform
+
+     Not necessarily present during boot                      Available from the earliest boot phases
+
+     It does not represent platform identity                  It can represent platform identity
+
+                                                              Designed to support platform
+     ⇒ Does not typically know platform state
+                                                              measurement and attestation
+
+           A TPM is not just a cryptographic module. It is a platform trust anchor.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                        40
+A.Y. 2025 - 2026
+  What is a TPM?
+   The TPM 2.0 specification defines the Trusted Platform Module as a device that
+   enables trust in computing platforms.
+   Trusted Platform Module
+   Technical interpretation:
+   A TPM is a standardized security component that provides protected functions for:
+   ➢ storing and operating on protected security state
+   ➢ protecting keys, seeds, authorization values, and measurements
+   ➢ maintaining Platform Configuration Registers (PCRs)
+   ➢ executing TPM commands through a command/response interface
+   ➢ producing authenticated evidence about selected TPM state
+
+             A TPM is not a general-purpose co-processor. We cannot install
+              arbitrary applications inside a TPM . It is a controlled security
+            component that exposes protected capabilities to a host platform.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                    41
+A.Y. 2025 - 2026
+  TPM
+                   Host platform
+
+
+                                            OS / firmware / applications
+
+                                           commands                 responses
+
+                                                  TPM Command Interface
+
+                                            -   Protected capabilities
+                                            -   Shielded memory locations
+                                            -   PCRs
+                                            -   Keys / seeds
+                          TPM               -   Attestation functions
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                42
+A.Y. 2025 - 2026
+  TPM implementation types
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              43
+A.Y. 2025 - 2026
+  From TPM 1.2 to TPM 2.0
+   TPM 2.0 introduced important architectural improvements:
+   ➢ algorithm agility: support for multiple cryptographic algorithms
+   ➢ separate key hierarchies: platform, storage, endorsement, null
+   ➢ enhanced authorization: passwords, HMAC sessions, and policies
+   ➢ cryptographic object names: stronger binding between objects and identity
+
+  TPM 1.2                                          TPM 2.0
+  tightly linked to RSA and SHA-1                  algorithm agility
+                                                   multiple key hierarchies (Platform hierarchy,
+  one main storage hierarchy                       Storage hierarchy, Endorsement hierarchy, and
+                                                   Null hierarchy)
+  less flexible authorization                      enhanced authorization mechanism
+  resources identified mainly by
+                                                   resources identified by cryptographic names
+  handles
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+  mostly PC-oriented design
+A.Y. 2025 - 2026                                   broader platform flexibility                  44
+  What is a Trusted Platform?
+   In the TCG sense, a platform is trusted if it behaves as expected
+   for a specific purpose.
+
+   Important clarification: Trusted ≠ Secure
+   ➢ Secure: enforces a defined security policy under a defined threat model.
+   ➢ Trusted: behaves in a predictable or expected way.
+
+
+   Examples:
+   • a bank is trusted to provide financial services
+   • a thief may also be “trusted” to steal
+   ⟹ Predictable behavior is not necessarily secure or desirable
+   behavior.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                45
+A.Y. 2025 - 2026
+  Trusted ≠ Secure
+   SECURE SYSTEM                                              TRUSTED PLATFORM
+
+   ➢ enforces a security policy under a                       ➢ behaves as expected for a specific
+     threat model                                               purpose
+   ➢ Question: “Is the policy enforced?”                      ➢ Question: “Is this the platform state
+                                                                I expected?”
+
+                                                              To decide whether a platform is
+                                                              trusted, we need evidence about:
+                                                              • hardware components
+                                                              • firmware and boot code
+                                                              • operating system and drivers
+                                                              • security configuration
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                    46
+A.Y. 2025 - 2026
+  Roots of Trust in a Trusted Platform
+   A Root of Trust is a component that must always behave in the
+   expected manner because its misbehavior cannot be detected.
+   ➢ A RoT provides a security function the system relies on, whose correct
+     behaviour is assumed by design, certification, and secure integration
+   ➢ However, trust is not blind: a RoT can be certified / validated according to
+     Common Criteria and/or FIPS frameworks
+             •     e.g., CC EAL4+, FIPS 140 Level 1/Level 2
+   ➢ According to the TCG model, a Trusted Platform must provide a minimum set
+      of Roots of Trust:
+   1. Root of Trust for Measurement (RTM)
+   2. Root of Trust for Storage (RTS)
+   3. Root of Trust for Reporting (RTR)
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                    47
+A.Y. 2025 - 2026
+  Roots of Trust in a Trusted Platform
+                                                                       In a TPM-based
+   Root of Trust Definition
+                                                                       platform
+                          Component that measures platform             Usually firmware / boot
+                          components or security-relevant events       code, starting from the Core
+           RTM
+                          and sends the resulting measurement          Root of Trust for
+                          data to protected storage.                   Measurement (CRTM).
+                          Component that protects security-            Implemented by the TPM
+                          relevant state in shielded locations, such   through shielded locations,
+           RTS
+                          as measurements, keys, seeds, and            including PCRs and
+                          authorization values.                        protected objects.
+                                                                     Implemented by the TPM
+                          Component that reports protected state
+                                                                     through attestation
+           RTR            in an authenticated way, so that another
+                                                                     functions, such as quotes
+                          entity can verify platform state evidence.
+                                                                     over PCR values.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                      48
+A.Y. 2025 - 2026
+  TPM, RoTs, and the TCB: what the TPM is not
+   What the TPM implements                                    What is outside the TPM
+
+   In a TPM-based platform, the TPM                           ➢ RTM: platform code that calculates
+   implements:                                                  digests over configuration data and
+   ➢ RTS: protects keys, seeds, PCRs,                           program code, and sends them to
+      and internal TPM state                                    the RTS.
+   ➢ RTR: reports selected TPM state
+      through signed attestations (TPM
+      quote operation)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                 49
+A.Y. 2025 - 2026
+  CRTM, and Chain of Trust for Measurement
+   ➢ Core Root of Trust for Measurement (CRTM):
+     the first immutable component that takes control of the platform after reset. Its
+     role is to measure the first mutable code and store the measurement in the
+     TPM before transferring control to the measured component.
+   ➢ Chain of Trust for Measurement (CoTM):
+     a transitive measurement chain in which each component measures the next
+     component before passing control to it:
+             •     the CRTM measures the next component that takes control of the platform at
+                   boot
+             •     if that component is considered trusted (i.e., its measurement is as expected),
+                   we can trust the measurements that it will take on the following components
+             •     and so on …
+             •     example: CRTM measures firmware → firmware measures bootloader →
+                   bootloader measures kernel → kernel may measure later components.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                     50
+A.Y. 2025 - 2026
+  Trusted Computing Base (TCB)
+   The collection of system resources responsible for enforcing and
+   maintaining the system security policy.
+   ➢ The TCB may include hardware, firmware, bootloaders, kernel, hypervisor,
+     drivers, and security services.
+   ➢ These components enforce the security policy: isolate processes, manage
+     memory, control access to files and devices, mediate system calls and
+     hardware access
+   The TPM is not the TCB of the host system; rather, it is a
+   component used to help determine whether the host TCB has been
+   instantiated correctly or has been compromised.
+   ➢ In some uses, the TPM may help prevent the system from starting if the TCB
+        cannot be properly instantiated.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                  51
+A.Y. 2025 - 2026
+  Measured Boot
+   Measured Boot is the process by which security-relevant
+   components loaded during platform start-up are measured and their
+   measurements are stored in TPM PCRs.
+   ➢    During boot, the platform records evidence about:
+   •    firmware and platform initialization code
+   •    boot managers and bootloaders
+   •    boot configuration and security policies
+   •    operating system kernel and early drivers
+   ➢ A measurement is normally a cryptographic hash of the component, or of
+     relevant configuration data
+   ➢ that measurement is then sent to the TPM and accumulated inside a PCR
+   ➢ Measured Boot records what was loaded. It does not prevent a modified
+     component from executing.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+           The goal is to make the boot state verifiable after the platform has started.   52
+A.Y. 2025 - 2026
+  Measured Boot: measure before execute
+                                                                          Measured Boot follows a
+             Services                                                     measure-before-execute
+                                      Measure                             principle:
+                                                                          1.  measure the next
+           OS kernel                                             PCRs         component
+                                      Measure                             2. extend the measurement
+                                                                   PCR1
+                                                                              into a PCR
+          Bootloader                                               PCR2
+                                                                          3. transfer control to the
+                                       Measure
+                                                                    …         measured component
+                                                                          Each subsequent component
+      Firmware / UEFI
+                                                                          repeats the process.
+   3. execute                         1. Measure                          Result: final PCR values
+                                                          2. Extend PCR
+              CRTM                                                        depend on the sequence of
+                                                                          measured boot
+Cybersecurity and National Defence (Grandi Sfide - Digital)               components.
+                                                                                                 53
+A.Y. 2025 - 2026
+PCR Extend Operation: accumulating
+measurement history
+➢ A PCR is not overwritten with the latest measurement
+• if that were possible, a compromised platform could erase bad measurements and replace them with good ones
+➢ Instead, the TPM updates it through the extend operation:
+
+               𝑃𝐶𝑅𝑛𝑒𝑤 = 𝐻𝑎𝑠ℎ(𝑃𝐶𝑅𝑜𝑙𝑑 ∥ 𝑚𝑒𝑎𝑠𝑢𝑟𝑒𝑚𝑒𝑛𝑡)
+Where:
+• 𝑃𝐶𝑅𝑜𝑙𝑑 : current PCR value
+• 𝑚𝑒𝑎𝑠𝑢𝑟𝑒𝑚𝑒𝑛𝑡: hash of a measured component or event
+• 𝐻𝑎𝑠ℎ: cryptographic hash function
+• ∥ : concatenation
+Key consequence: The final PCR value depends on:
+1. all measurements extended into it;
+2. their exact order.
+            PCRs behave like a tamper-evident summary of
+                                                                                                           54
+             measurement history, not like normal registers.
+Typical PCR usage during PC boot
+➢ The TPM PCRs are divided into banks; a bank represents the set of PCRs all
+  extended with the same hash algorithm
+      •   For example: a TPM can have the SHA-1 bank, SHA-256 bank, and so on
+➢ Each bank typically contains 24 PCRs, indexed from PCR[0] to PCR[23]
+➢ Different PCRs are normally used to store measurements of different parts of
+  platform state
+➢ Typical PC Client usage of TPM PCRs:
+• PCR 0–7: firmware, platform configuration, boot manager, secure boot policy
+• PCR 8–15: static operating-system boot measurements
+• PCR 16: debug
+• PCR 17–23: application support
+➢ Important: a PCR value is meaningful only if we know what was extended into
+  it.
+                                                                                 55
+  Typical PCR usage during PC boot
+ PCR index              Typical usage
+ 0                      CRTM, BIOS/UEFI platform code, host platform extensions
+ 1                      Host platform configuration
+ 2                      UEFI driver and application code
+ 3                      UEFI driver configuration and data
+ 4                      UEFI Boot Manager code and boot attempts
+ 5                      Boot Manager configuration and partition table data
+ 6                      Host platform manufacturer-specific data
+ 7                      Secure Boot policy
+ 8 – 15                 Static OS use, bootloader/kernel-related measurements
+ 16                     Debug
+ 23                     Application support
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+            PCR meaning is defined by platform profiles and system configuration.
+A.Y. 2025 - 2026
+                                                                                    56
+  Measurement Event Log: why PCRs are
+  not enough
+   PCR[4] = a3f95dd...07c21
+   Question: What exactly caused this value?
+   ➢ If only one measurement (or a small predetermined set of measurements) is
+     extended in a PCR, its value is descriptive, as we can compare the final value
+     with the expected value.
+   ➢ If the PCR value results from a sequence of extensions depending on highly
+     variable configuration parameters, or whose order is not deterministic, the final
+     value cannot be used alone to understand if all components are as expected.
+   ➢ The Integrity Measurement Log, or Event Log, records each Measurement
+     Event (ME) occurred in the system: which PCR was extended, what type of
+     event occurred, which digest was extended, what data describes the event.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                     57
+A.Y. 2025 - 2026
+Measurement Event Log: why PCRs are
+not enough
+
+
+
+
+            TPM PCR: protected aggregate of measurement events
+Event Log: detailed explanation of the measurement events occurred in the system
+                                                                               58
+  Event Log recording during Measured Boot
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              59
+A.Y. 2025 - 2026
+  Verifying an Event Log
+   The event log is outside the TPM, so its integrity must be checked against the
+   protected PCR value. This is needed to detect whether a malicious component
+   was trying to hide its presence in the system.
+   Verification procedure:
+   1. start from the PCR reset value
+   2. read the first event-log entry
+   3. recompute its measurement
+   4. recompute the PCR extend operation
+   5. repeat for all log entries
+   6. compare the recomputed PCR with the TPM-reported PCR:
+             ○     if the two values match, the log is consistent with the TPM-protected PCR state ⇒ it
+                   has not been tampered with, it’s authentic ⇒ each individual entry can be inspected in
+                   order to decide whether all components are acceptable
+             ○     if the two values do not match, something is wrong, the event log may have been
+                   modified, truncated, reordered, or it may simply not correspond to the current PCR state60
+A.Y. 2025 - 2026
+  Secure Boot
+   Secure Boot verifies that a boot component is authorized before
+   allowing it to execute.
+   For checking authenticity and integrity, Secure Boot uses:
+   • trusted public keys or certificates
+   • digital signatures or trusted hashes
+   • boot policy
+   • a Root of Trust for Detection / Verification (RTD / RTV)
+
+             RTD                    First-Stage bootloader                       Final bootloader
+
+         Public key                                 Public key                            Public key
+                                    Signature                         …       Signature
+         certificate                                certificate                           certificate
+
+
+CybersecurityAuthenticate
+             and National Defence
+                            then (Grandi
+                                  executeSfide - Digital)   Authenticate then execute                   61
+A.Y. 2025 - 2026
+  Secure Boot: verify before execute
+   ➢ Secure Boot follows a verify-before-execute principle: before a boot
+     component is executed, the current stage checks whether the next component
+     is authorized.
+   ➢ Its objective is to prevent unauthorized components from running.
+   ➢ Verification is usually based on digital signatures, trusted public keys,
+     certificates, or trusted hashes
+         •   if verification succeeds, the next component is executed.
+         •   if verification fails, the boot process stops, or the platform enters a
+             recovery (immediate protection)
+   ➢ The verify-before-execute procedure starts in the RTD, which possibly
+     delegates next stages verification to a Chain of Trust for Detection (CTD).
+   ➢ Secure Boot typically protects firmware and bootloader, optionally kernel and
+     drivers.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                   62
+A.Y. 2025 - 2026
+  Secure Boot vs Measured Boot
+                   Secure Boot                                Measured Boot
+
+                           Fail
+
+
+                           Fail
+
+
+
+
+                            Fail                                           TPM
+
+                            Fail
+
+
+                         Measured Boot records evidence (detect later)
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026
+                        Secure Boot enforces a boot decision (block now)         63
+  TPM Endorsement Key and Attestation Key
+   ➢    Endorsement Key (EK):                                                  Key hierarchy diagram
+   •    represents the TPM identity
+   •    identity key on which the TPM RTR is founded
+                                                                    Endorsement Primary Seed
+   •    derived from the Endorsement Primary Seed (EPS)
+                                                                             (EPS)
+   •    typically associated with EK Certificate, issued by the
+        TPM manufacturer                                                        derives
+   •    typically never used for signing operations (it is normally
+                                                                      Endorsement Key (EK)
+        used as a decryption key)
+             o     this protect privacy, when the device on which the TPM is
+                                                                                (TPM identity / RTR identity)
+                   attached belongs to a human user
+             o     this protects the private part of the EK
+                                                                                               supports creation of
+   ➢ Attestation Key (AK):
+                                                                                   Attestation Key (EK)
+   • TPM-resident key used to sign attestation evidence                             (signs TPM quotes)
+   • The TPM command to sign selected PCR values (with
+        freshness data) is called TPM quote
+   •    an AK can be certified through the EK
+   •    avoids exposing the EK in every attestation                                                             64
+A.Y. 2025 - 2026
+  Sealing: binding secrets to platform state
+   Sealing means protecting data with a TPM policy.
+   A sealed object can be released only if:
+   ➢ it is accessed on a platform having the correct TPM (TPM binding concept),
+       and
+   ➢ the current platform state (represented by PCR values) satisfies the required
+       PCR policy (i.e., PCRs must match a given value) (TPM sealing concept)
+   Example:
+   Release the disk encryption key only if firmware, bootloader, and Secure Boot
+   policy match the approved state.
+   Typical use cases:
+   Disk encryption keys, VPN credentials, device identity keys, application secrets
+   Warning: Sealing is powerful, but PCR policies must be designed carefully:
+   firmware/bootloader/kernel updates may change PCR values involved in the
+   sealing policy ⇒ legitimate updates may prevent unsealing.                       65
+A.Y. 2025 - 2026
+  TPM Software Stack: how applications use
+  the TPM
+   Applications usually do not interact with the TPM through raw commands, it would
+   be too difficult and error-prone.
+   ➢ TPM commands have specific binary formats
+   ➢ parameters must be marshaled into command byte streams and unmarshaled from
+        response byte streams
+   ➢ many commands require sessions, authorization values, HMACs, encryption of
+      command parameters, and management of TPM objects
+   ➢ also, TPM internal memory is limited, so objects may need to be loaded,
+      evicted, and restored.
+   The TPM Software Stack (TSS), provides layered software APIs for: easier TPM
+   programming; session and authorization handling; command encoding and
+   response decoding; TPM resource management; safe access by multiple
+   applications; support for local, virtual, simulator, and remote TPMs.
+                                                                                   66
+A.Y. 2025 - 2026
+  TSS 2.0: how applications use the TPM
+   TSS 2.0 is a software bridge between applications and the TPM.
+   From application to TPM:
+   ➢ Application / tools – request TPM services: keys, sealing, quotes, attestation.
+   ➢ Feature API (FAPI) – easiest interface: high-level functions for common TPM
+      use cases.
+   ➢ Enhanced System API (ESAPI): full TPM access, with sessions, HMACs and
+      encryption handled by the library.
+   ➢ System API (SAPI) + Marshaling/Unmarshaling API (MUAPI): low-level
+      command mapping and marshaling/unmarshaling of TPM data.
+   ➢ TPM Command Transmission Interface (TCTI) – transport layer: sends TPM
+      commands to a local TPM chip, TPM simulator, vTPM or daemon.
+   ➢ TPM Access Broker (TAB) / Resource Manager (RM) + OS driver: serialize
+      access and manage scarce TPM resources.
+                                                                                  67
+A.Y. 2025 - 2026
+  TSS 2.0 overview
+
+
+
+NOTE: This is the logical
+TSS 2.0 model. In modern
+Linux, the Resource
+Manager is often
+implemented in the kernel
+through /dev/tpmrm0;
+tpm2-abrmd is still
+available as an optional
+user-space TPM Access
+Broker / Resource
+Manager.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              68
+A.Y. 2025 - 2026
+

@@ -1,0 +1,886 @@
+                           Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                              A.Y. 2025 - 2026
+
+
+
+
+Module F - Trusted Computing
+and Remote Attestation
+L2 – Remote Attestation and IMA
+Silvia Sisinni
+silvia.sisinni@polito.it
+
+                                                TORSEC
+                                                Computer and Network Security Group
+  License & Disclaimer
+          License Information                                              Disclaimer
+        This presentation is licensed under the               ➢ We disclaim any warranties or
+         Creative Commons BY-NC License                         representations as to the accuracy or
+                                                                completeness of this material.
+                                                              ➢ Materials are provided “as is” without
+                                                                warranty of any kind, either express or
+                                                                implied, including without limitation,
+                                                                warranties of merchantability, fitness for a
+                                                                particular purpose, and non-infringement.
+                                                              ➢ Under no circumstances shall we be liable
+                                                                for any loss, damage, liability or expense
+          To view a copy of the license, visit:                 incurred or suffered which is claimed to have
+  http://creativecommons.org/licenses/by-nc/3.0/legalcode
+                                                                resulted from use of this material.
+                                                              ➢ This material is used and adapted within the
+                                                                course “Cybersecurity and National
+                                                                Defense”.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                           2
+A.A. 2025 - 2026
+  From local measurements to remote trust decisions
+   What we already know                                       New question
+
+   ➢ The platform can measure security-                       How can a remote entity use this
+     relevant components, starting from                       evidence?
+     a CRTM                                                   A remote verifier needs to know:
+   ➢ Measurements are extended into                           ➢ Is the evidence authentic?
+     TPM PCRs, shielded memory                                ➢ Is it fresh?
+     locations updatable only through                         ➢ Does it describe an expected
+     the extend operation                                        platform state?
+   ➢ PCRs provide a tamper-evident                            ➢ Should this platform be trusted for a
+     summary of platform state                                   specific operation?
+   ➢ Event logs explain what was
+     measured and extended in the
+     PCRs
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                   3
+A.Y. 2025 - 2026
+  What problem does Remote Attestation solve?
+   In distributed systems, trust is remote.
+   A service may need to know:
+   ➢ Is this node genuine?
+   ➢ Did it boot with expected firmware and kernel?
+   ➢ Is Secure Boot enabled and correctly
+       configured?
+   ➢ Are runtime components still trusted?
+   ➢ Has the platform been tampered with?
+   Remote Attestation provides:
+   ➢ cryptographic evidence of platform state
+   ➢ freshness against replay attacks
+   ➢ binding to a hardware or firmware trust anchor
+   ➢ policy-based trust decisions
+   ➢ support for Zero-Trust architectures
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              4
+A.Y. 2025 - 2026
+ Remote Attestation: basic intuition
+   Remote Attestation is a process in which a platform provides
+   evidence about its identity and state to another entity, which
+   evaluates whether the platform should be trusted.
+                                                                                   Appraises
+             Attester /                                                            Attestation
+                                                              Verifier             Evidence
+              Prover                1   Attestation
+                                        Evidence
+                                                                    2    Attestation Result
+ Platform to be
+    checked
+                                                              Relying
+                                        Makes access /         Party
+                                       trust decision on
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+A.Y. 2025 - 2026
+                                           the Attester                                       5
+Remote Attestation in the RATS architecture
+The IETF Remote ATtestation procedureS (RATS) architecture generalises
+Remote Attestation using roles and information flows.
+
+
+
+
+                                                                         6
+  RATS roles: who does what?
+ Role                       Main responsibility
+ Attester                   Creates Evidence about itself and sends it to a Verifier
+                            Appraises Evidence, relying on Reference Values,
+ Verifier                   Endorsements and an Appraisal Policies, and produces
+                            Attestation Results
+ Relying Party              Uses Attestation Results to make an access/trust decision
+                            Provides Endorsements for trust anchors or attestation
+ Endorser
+                            keys
+                            Provides known-good or acceptable values (e.g., expected
+ Reference Value Provider   measurements of firmware, boot components, software, or
+                            configuration)
+                            Configures appraisal policy for Evidence, which
+ Verifier Owner
+                            determines how Evidence should be evaluated
+ Relying Party Owner        Configures policy used to interpret Attestation Results    7
+A.Y. 2025 - 2026
+  RATS conceptual messages (I)
+   ➢ Evidence: claims about the Attester’s identity and integrity state
+             •     For example, it may include information about which software is running, which
+                   firmware was loaded, which configuration is active, or which hardware root of
+                   trust is being used.
+   ➢ Endorsements: statements (e.g., certificates) supporting the authenticity of
+        attestation keys or trust anchors
+             •     They help answer the question: “Is this really a valid attestation-capable
+                   platform?”
+   ➢ Reference Values: known-good or acceptable measurements
+             •     They help answer the question: “Is the state reported by the Attester the state
+                   that I expected?”
+             •     For example, if the Evidence contains a firmware hash, the Reference Value
+                   tells the Verifier which firmware hashes are acceptable (e.g., Accepted
+                   bootloader hash: A1B2C3, Accepted kernel hash: D4E5F6, …)
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                     8
+A.Y. 2025 - 2026
+  RATS conceptual messages (II)
+   ➢ Appraisal Policy: rules used by the Verifier to interpret the Evidence
+             •     The policy defines what should be accepted, what should be rejected, and
+                   possibly what should be treated as a warning or degraded state
+             •     For example: Accept the device only if:
+                    o the bootloader hash matches an accepted Reference Value;
+                    o the kernel hash matches an accepted Reference Value;
+                    o Secure Boot is enabled;
+                    o debug mode is disabled.
+             •     the Appraisal Policy answers questions like: “Is a mismatch fatal, or only a
+                   warning?”, “Can an old firmware version still be accepted?”, “Should the device
+                   be denied if debug mode is enabled?”, “Is Secure Boot mandatory for this
+                   device?”, …
+   ➢ Attestation Results: verifier output consumed by a Relying Party, which uses
+        them to make decisions, e.g., granting access, denying access, or applying
+        some restriction
+                                                                                                 9
+A.Y. 2025 - 2026
+          TPM-based Remote
+          Attestation
+
+          How can a TPM-equipped platform
+          prove its measured state to a remote
+          Verifier?
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              10
+A.Y. 2025 - 2026
+  From RATS to TPM-based attestation
+   RATS concept                     TPM-based attestation example
+
+   Attester                         Remote platform equipped with a TPM
+
+   Evidence                         TPM quote + PCR values + measurement logs
+
+                                    EK certificate, AK certificate, TPM manufacturer / Attestation CA
+   Endorsements
+                                    certificates
+                                    Expected PCR values, golden measurements, approved
+   Reference Values
+                                    software digests
+                                    Rules defining what is acceptable, e.g., which PCRs must be
+   Appraisal Policy
+                                    quoted, what to do when an unknown component is found, …
+
+   Attestation Result               Trusted / untrusted / warning / remediation required
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                    11
+A.Y. 2025 - 2026
+  TPM-based integrity challenge protocol
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              12
+A.Y. 2025 - 2026
+  TPM-based integrity challenge protocol
+   Protocol steps:
+   1. Verifier sends an integrity challenge with a nonce (to ensure freshness of the
+       response)
+   2. Attestation Agent requests a TPM quote, specifying to the TPM the received
+       nonce, the AK to be used and the list of PCRs to be signed
+   3. TPM signs selected PCRs with the AK, and returns the obtained signature
+   4. Attestation Agent reads selected PCR values
+   5. Attestation Agent retrieves measurement logs
+   6. Attestation Agent sends to the Verifier the collected Integrity Evidence,
+       which contains:
+             •     TPM quote
+             •     PCR values signed with the quote
+             •     Measurement logs
+            •      AK certificate
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                   13
+A.Y. 2025 - 2026
+  Why is the nonce needed?
+   Without freshness, an attacker could replay old “healthy” evidence.
+
+  Replay attack idea:                                         Nonce-based protection:
+
+  1. Platform is trusted at time 𝑡1                           ➢ Verifier sends a fresh unpredictable
+  2. Attacker stores a valid quote                              nonce
+  3. Platform becomes compromised at                          ➢ TPM includes the nonce in the
+     time 𝑡2                                                    signed quote
+  4. Attacker replays the old quote                           ➢ Verifier accepts only quotes
+                                                                containing its nonce
+
+
+                   Freshness means: this Evidence was produced for this challenge,
+                                     not copied from the past.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                 14
+A.Y. 2025 - 2026
+  Why do we need an Attestation Key?
+   Endorsement Key (EK)                              Attestation Key (AK)
+
+   ➢ long-term TPM identity key                      ➢ TPM-generated signing key
+   ➢ certified by TPM manufacturer                   ➢ Non-migratable key, private part
+   ➢ proves that the TPM embedded in                   never leaves the TPM
+     the platform is genuine                         ➢ certified as belonging to a genuine
+   ➢ privacy-sensitive if used directly                TPM
+   ➢ it is never used as “everyday”                  ➢ used to sign TPM quotes
+     signing key for repeated attestation            ➢ operational attestation identity,
+     operations, in order not to expose a              certified as TPM-resident
+     permanent manufacturer-backed
+     identity
+
+                                   The EK anchors trust in the TPM.
+Cybersecurity and NationalThe  AK(Grandi
+                           Defence is theSfide
+                                          key- Digital)
+                                               used repeatedly for attestation.           15
+A.Y. 2025 - 2026
+  How does a Privacy CA certify an AK?
+   Goal: Certify that an AK is resident in the same TPM as the EK representing a
+   genuine TPM, so that the AK can be used as an identity alias for the TPM.
+   Simplified protocol:
+   1.     Attester sends to the Privacy CA:
+             •   AK public key
+             •   EK certificate
+   2.     Privacy CA verifies the EK certificate, making sure it was issued by trusted TPM
+          manufacturers
+   3.     Privacy CA creates a secret challenge encrypted with the 𝐸𝐾𝑝𝑢𝑏 and bound to the AK
+   4.     TPM runs ActivateCredential and recovers the secret only if:
+             •     it owns the EK private key
+             •     the AK is loaded/resident in the same TPM
+   5.     Privacy CA receives the secret back and issues an AK certificate
+
+            The Privacy CA certifies the AK is resident in a genuine TPM, so future
+           quotes can be verified using the AK certificate instead of exposing the EK.     16
+A.Y. 2025 - 2026
+  ActivateCredential protocol
+                      Attester                                       Privacy CA
+
+                                   1. 𝐴𝐾𝑝𝑢𝑏 + 𝐸𝐾 𝑐𝑒𝑟𝑡𝑖𝑓𝑖𝑐𝑎𝑡𝑒
+
+                                                                            Verify 𝐸𝐾 𝑐𝑒𝑟𝑡𝑖𝑓𝑖𝑐𝑎𝑡𝑒
+                                 2. Encrypted credential challenge
+TPM:
+ActivateCredential
+Requires:                             3. Recovered secret
+EK + AK resident in                                                          Check that recovered
+the same TPM                                                                 secret corresponds to
+                                       4. AK certificate
+                                                                             the generated
+                                                                             challenge
+
+
+                                                                                              17
+A.Y. 2025 - 2026
+  Why “Privacy CA”?
+   If the EK were used directly                With AK + Privacy CA
+
+   ➢      same long-term TPM identity          ➢ EK is used only during AK
+          appears repeatedly                     certification
+   ➢      different services could correlate   ➢ AKs become the attestation signing
+          platform activity                      keys
+   ➢      EK would be exposed to frequent      ➢ different AKs can be used for
+          operational use                        different contexts
+   ➢      poor privacy and poor key-           ➢ verifiers check AK certificates, not
+          separation practice                    the EK directly
+
+
+
+
+                                                                                   18
+A.Y. 2025 - 2026
+  The TPM quote
+   A TPM quote is a TPM-produced signature over selected PCR state
+   and freshness data.
+
+   Inputs:
+   ➢ selected PCRs
+   ➢ nonce from the Verifier
+   ➢ Attestation Key handle/name
+   Output:
+   ➢ signed attestation structure:
+    𝑄𝑢𝑜𝑡𝑒 = 𝑆𝑖𝑔𝑛𝐴𝐾𝑝𝑟𝑖𝑣 (𝑠𝑒𝑙𝑒𝑐𝑡𝑒𝑑 𝑃𝐶𝑅 𝑣𝑎𝑙𝑢𝑒𝑠 ∥ 𝑛𝑜𝑛𝑐𝑒 ∥ 𝑜𝑝𝑡𝑖𝑜𝑛𝑎𝑙 𝑚𝑒𝑡𝑎𝑑𝑎𝑡𝑎)
+   1.     proves that selected PCR values is authentic
+   2.     binds the response to the Verifier’s challenge
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                           19
+A.Y. 2025 - 2026
+  Why the quote alone is not enough
+   In TPM 2.0, the quote is the TPM-produced signature over attestation data.
+   ➢ It authenticates selected PCR state and binds it to the nonce sent by the
+      Verifier. This gives authenticity and freshness.
+   ➢ The Verifier also needs the selected raw PCR values, retrieved separately,
+      e.g., with: TPM2_PCR_Read
+   ➢ But PCR values are only aggregates, they could be not enough to understand
+      the platform state:
+       𝑃𝐶𝑅𝑓𝑖𝑛𝑎𝑙 = 𝐻𝑎𝑠ℎ(… 𝐻𝑎𝑠ℎ 𝐻𝑎𝑠ℎ 𝑃𝐶𝑅𝑖𝑛𝑖𝑡𝑖𝑎𝑙 ∥ 𝑀1 ∥ 𝑀2 … ∥ 𝑀𝑛)
+   ➢ So the Verifier also needs the measurement log, containing the detailed
+        history of measurement events, to know:
+             •     what was measured; in which order measurements were extended;
+             •     which component generated each measurement; which component caused a
+                   mismatch; whether each event is acceptable under policy.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+  Quote authenticates PCR values. PCRs authenticate the logs. Logs explain history.
+A.Y. 2025 - 2026
+                                                                                 20
+          Verifier-side appraisal
+
+
+          How does the Verifier transform TPM-based
+          Attestation Evidence into an Attestation
+          Result?
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              21
+A.Y. 2025 - 2026
+  Verifier appraisal pipeline
+   1. Authenticate AK
+
+   2. Verify quote
+
+   3. Validate measurement logs
+
+   4. Appraise measurements
+
+   5. Produce Attestation Result
+
+   Goal:
+   Decide whether the Attester is acceptable for a specific purpose, under a specific
+   policy, at this time.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                    22
+A.Y. 2025 - 2026
+  Step 1: Authenticate the Attestation Key
+   Goal: The Verifier checks whether the quote-signing key is a legitimate attestation
+   key from the attesting platform, not an arbitrary software-generated key.
+   Checks may include:
+   ➢ Does this AK certificate identify the platform I want to attest?
+   ➢ Was the AK certified as TPM-resident?
+   ➢ Is the certificate-chain trusted? That is:
+             •     do I trust the Privacy CA (or Attestation CA) that issued the AK certificate?
+             •     do I trust the Root CA that certified the Privacy CA, and so on?
+             •     or (if I’m not using the Privacy CA), do I trust the EK certificate and the TPM
+                   manufacturer?
+   ➢ Is the AK certificate still valid or has it been revoked?
+   Why this matters:
+   Without AK authentication, any software key could sign fake evidence, or any
+   platform can impersonate the attesting platform.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                     23
+A.Y. 2025 - 2026
+  Step 2: Verify the quote
+   The Verifier checks:
+
+   1. Signature
+        •  quote signed by the trusted AK (verified at the previous step)
+   2. Freshness
+        •  nonce in quote matches the nonce sent in the challenge
+   3. PCR selection
+        • quote covers the PCRs required by policy (e.g., boot PCRs, runtime
+          PCRs, …)
+   4. PCR values
+        •  received PCR values match the quoted PCR state
+
+   If any check fails: reject the Evidence.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                               24
+A.Y. 2025 - 2026
+  Step 3: Validate the measurement logs
+   The measurement log is outside the TPM, in system memory. Therefore, the
+   Verifier must check that it has not been tampered with, so that it matches the
+   TPM-protected PCR values.
+   Verifier replay:
+   𝑃𝐶𝑅𝑟𝑒𝑐𝑜𝑚𝑝𝑢𝑡𝑒𝑑 = 𝐸𝑥𝑡𝑒𝑛𝑑(𝐸𝑥𝑡𝑒𝑛𝑑 𝐸𝑥𝑡𝑒𝑛𝑑 𝑃𝐶𝑅𝑖𝑛𝑖𝑡𝑖𝑎𝑙 ∥ 𝑀1 ∥ 𝑀2 … ∥ 𝑀𝑛)
+
+   Then compare:
+   𝑃𝐶𝑅𝑟𝑒𝑐𝑜𝑚𝑝𝑢𝑡𝑒𝑑 == 𝑃𝐶𝑅𝑞𝑢𝑜𝑡𝑒𝑑
+   ➢ If values match: log is consistent with the quoted PCR, so it is authentic and
+     can be used for appraisal.
+   ➢ If values do not match: log was modified, truncated, reordered, or does not
+     correspond to the quoted TPM state. ⟹ In this case, the Evidence must be
+     rejected.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                      25
+A.Y. 2025 - 2026
+  Step 4: Appraise measurements against policy
+   After log validation, the Verifier checks individual measurement events.
+
+   Reference Values answer:
+   ➢ Is this firmware measurement known-good?
+   ➢ Is this bootloader approved?
+   ➢ Is this kernel version acceptable?
+   ➢ Is this configuration expected?
+   Appraisal Policy answers:
+   ➢ Which PCRs/logs are mandatory?
+   ➢ Which components are allowed?
+   ➢ Are unknown components rejected?
+   ➢ Are debug/test modes acceptable?
+   ➢ What action follows a failure?
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                              26
+A.Y. 2025 - 2026
+  Step 5: Produce the Attestation Result
+   The Verifier produces an Attestation Result for the Relying Party.
+   The result may include:
+   ➢ trust decision: trusted / untrusted
+   ➢ validated claims
+   ➢ reason for failure (e.g., unknown component detected, or component with known
+     vulnerability detected)
+   ➢ timestamp / freshness context
+   ➢ policy used
+   ➢ recommended action
+   Example decisions:
+   o If trusted: allow access / deploy workload / release secret
+   o If untrusted: deny connection / quarantine node, trigger remediation (e.g., update
+        vulnerable components, remove / redeploy workload, restart node to restore trusted
+        state, isolate the node and perform in-depth analysis)
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                             27
+A.Y. 2025 - 2026
+ Verifier assessment                                  Integrity
+ procedure: complete view                            Evidence
+
+            Endorsements
+                                                                  •   Verify AK cert
+                                                                  •   Validate quote signature
+                                                     Check
+                                                                  •   Confirm nonce
+        Root TPM   AK                              authenticity
+                                                                  •   Validate Logs
+         CA vendor cert                                               authenticity
+
+        Reference Values                                          • PCRs vs Reference
+                                                    Compare         Values
+                                                    Evidence      • Measurement event
+                                                                    digests vs known-good
+                                                                    digests
+                                                     Produce
+                                                    Attestation
+                                                      Result
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                          28
+A.Y. 2025 - 2026
+          Trusted Boot
+          verification
+            Using Remote Attestation to verify how the
+            platform booted.
+            Question:
+            Did the platform start in a trusted environment?
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                               29
+A.Y. 2025 - 2026
+  Measured Boot, Secure Boot, Trusted Boot
+
+    Concept                    Main idea                                  Decision point
+
+    Measured Boot              Records what was loaded                    N/A
+
+                               Blocks unauthorised boot components.       During boot, on the
+    Secure Boot
+                               It does not need a TPM.                    platform itself
+                                                                          After system booted,
+    Trusted Boot               Lets a remote Verifier evaluate boot state during remote attestation
+                                                                          with a remote entity
+
+
+
+                           Measured Boot records. Secure Boot enforces.
+                             Trusted Boot enables remote verification.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                  30
+A.Y. 2025 - 2026
+  What does the Verifier check during Trusted Boot?
+
+   The Verifier may check whether the platform booted with expected:
+   ➢ firmware / UEFI components
+   ➢ platform configuration
+   ➢ boot manager / bootloader
+   ➢ Secure Boot policy (i.e., was Secure Boot enabled or disabled on the remote
+     platform?)
+   ➢ kernel and kernel command line
+   ➢ early drivers / init components
+
+
+   Evidence used:
+   • boot PCRs (typically PCR[0] – PCR[9])
+   • measured boot event log
+   • quote over boot PCRs
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                   31
+A.Y. 2025 - 2026
+  Limitation: boot-time trust is not runtime trust
+   Question:
+   If a machine booted correctly at 09:00, can we still trust it at 14:00?
+
+   A platform may boot in an expected state, but later:
+   ➢ execute malicious binaries
+   ➢ load unexpected libraries
+   ➢ load kernel untrusted modules
+   ➢ run altered scripts
+   ➢ use modified configuration files
+   ➢ start unapproved services
+
+
+                              Trusted Boot verifies how the system started.
+                           It does not fully describe what happens after boot.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                 32
+A.Y. 2025 - 2026
+          Runtime integrity
+          with IMA
+            Question:
+            If a platform booted in a trusted state, how can
+            we check what happens after boot?
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                               33
+A.Y. 2025 - 2026
+  IMA: Integrity Measurement Architecture
+   What is IMA?                                        What does IMA add?
+
+   ➢ IMA stands for Integrity                          IMA extends the Chain of Trust (CoT)
+       Measurement Architecture                        from boot to runtime by measuring:
+   ➢ Linux kernel module, part of the                  ➢ kernel modules
+       Linux Integrity Subsystem                       ➢ Executables
+   ➢ Introduced in Linux kernel 2.6.30                 ➢ shared libraries
+   ➢ Extends the TCG integrity                         ➢ Scripts
+       measurement model into the                      ➢ configuration files
+       running Operating System                        ➢ security policies
+   ➢ Measures selected files before they
+       are used, according to an IMA
+       policy
+                            Measured Boot tells us how the system started.
+                     IMADefence
+Cybersecurity and National helps(Grandi
+                                 us verify
+                                        Sfide what
+                                              - Digital)the Linux system uses after boot.
+                                                                                            34
+A.Y. 2025 - 2026
+  CoT from the boot up to the application layer
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              35
+A.Y. 2025 - 2026
+  What does IMA measure?
+   High-integrity / structured data           Low-integrity / dynamic data
+
+   IMA can measure structured security-      IMA does not solve all runtime integrity
+   relevant files:                           problems:
+   ➢ Executables / scripts                   ➢ user input
+   ➢ shared libraries                        ➢ network traffic
+   ➢ kernel modules                          ➢ dynamic application data
+   ➢ configuration files                     ➢ runtime application memory after
+   ➢ security policies                          loading
+   The files measured by IMA match a         ➢ behaviour not represented by
+   configured IMA policy:                       measured files
+   • configured through a file in the
+      security file system
+   • or specified through a kernel boot param
+                                                                                   36
+A.Y. 2025 - 2026
+  IMA components
+   IMA could be conceptually divided into three related components, that can be activated
+   through the IMA policy.
+   1. IMA Measurement
+             ○     measures selected files and stores measurement events in the IMA Measurement Log
+             ○     extends event digests into a TPM PCR
+   2.     IMA Appraisal
+             ○     checks file integrity locally before allowing access
+             ○     compares the current file measurement with trusted metadata stored in security.ima file’s
+                   extended attributes
+             ○     security.ima may contain: a reference hash of the file, or a digital signature over the file
+                   hash
+             ○     public keys used to verify signatures are stored in trusted kernel keyrings
+             ○     deny access if appraisal fails
+   3.     IMA Audit
+             ○     records measurement/appraisal events in audit logs
+   Extended Verification Module (EVM): protects file extended attributes used by IMA
+       Appraisal                                                                                             37
+A.Y. 2025 - 2026
+  IMA Measurement: from file access to PCR extension
+                                                                          User
+   When a file selected by the IMA policy           Process              space
+                                            opens/executes/maps file
+   is accessed:
+   1. Linux Security Module (LSM) /
+                                                                         kernel
+       IMA hook is triggered                       IMA Hook              space
+   2. IMA checks the configured policy
+   3. IMA computes a file digest               IMA policy check
+   4. IMA creates a measurement event
+       (typically, the event contains the          Hash file
+       file digest and the file path)
+                                             Create measurement
+   5. IMA appends the measurement                   event
+       event to the IMA Measurement
+                                                Append event to
+       Log                                         IMA Log
+   6. IMA extends the event digest into                  Extend PCR 10
+       a TPM PCR (typically PCR 10)                                         38
+A.Y. 2025 - 2026
+  The IMA Measurement Log
+   ➢ The IMA Measurement Log records runtime measurement events. The
+     metadata recorded for each event depends on the configured IMA template.
+   ➢ The following is an excerpt from an IMA log created with the “ima-ng” template:
+       PCR         template-        template-   event data-hash        event name-hint
+                     hash             name
+        10         9cab91[...]ab     ima-ng     sha1:c28a[...]8dde      boot_aggregate
+        10         767f39[...]88     ima-ng     sha1:f29ff4[...]40bf      /usr/bin/kmod
+        10         4f9fea[...]ec9    ima-ng     sha1:6912d[...]bd8     /usr/lib.../ld-2.31.so
+        …               …              …                …                       …
+   •    PCR index: by default PCR 10
+   •    template hash: hash computed over the fields after template-name (hash
+        extended in the TPM PCR)
+   •    template name: entry format used for the event
+   •    event data hash: digest of measured file or event data
+   •    event name: file path or event identifier                                               39
+A.Y. 2025 - 2026
+  Remote attestation with IMA
+   Verifier challenges the Attester for    Verifier checks:
+   obtaining Attestation Evidence, which   1. quote authenticity and freshness
+   includes:                               2. PCR 10 authenticity
+   • TPM quote over IMA PCR (PCR 10)       3. resetCount/restartCount in the
+      and boot PCRs (if boot check needed)     quote (needed to detect
+   • IMA Measurement Log                       discontinuities between attestations)
+   • boot event log (if boot state is also 4. IMA log consistency with PCR 10
+      checked)                             5. individual IMA events against
+                                               reference values
+                   Attester
+                                           Attestation Request
+        IMA              Attestation             (nonce)
+     Measurement                                                    Verifier
+                           Agent
+         Log
+                                           Attestation Evidence
+    Extend                     TPM quote                                Reference
+      PCR                                                                Values 40
+A.Y. 2025 - 2026
+  Verifier-side validation of the IMA log
+   The IMA log is outside the TPM, so the Verifier must validate it.
+
+   Validation procedure:
+   1. receive quoted PCR 10 value
+   2. receive IMA Measurement Log
+   3. start from PCR initial value (typically all zeros)
+   4. Replay extend operation on all IMA log entries in order
+   5. recompute PCR 10
+   6. compare recomputed PCR 10 with quoted PCR 10
+
+                             𝑃𝐶𝑅10 𝑟𝑒𝑐𝑜𝑚𝑝𝑢𝑡𝑒𝑑 == 𝑃𝐶𝑅10 𝑞𝑢𝑜𝑡𝑒𝑑
+   If equal: log is authentic, consistent with TPM state.
+   If different: log may be modified, truncated, reordered, or incomplete.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                             41
+A.Y. 2025 - 2026
+IMA log validation process
+
+
+
+
+                             42
+  Appraising IMA events against reference values
+   After validating the authenticity of the IMA log, the Verifier checks each event.
+
+  IMA Measurement Event                            Reference values / allowlist
+   event name + file digest                             expected digest(s) for
+                                       match               approved files
+   Possible outcomes:
+   • file digest matches approved value ⟶ trusted
+   • known file but wrong digest ⟶ untrusted
+   • unexpected file ⟶ warning / untrusted
+
+
+
+                   PCR validation proves IMA log integrity; reference-value
+                comparison of each measurement event evaluates platform
+                                               trustworthiness.
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                       43
+A.Y. 2025 - 2026
+  IMA measurement events assessment
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              44
+A.Y. 2025 - 2026
+  IMA: strengths and limitations
+   IMA provides                                               IMA does not guarantee
+
+   ➢ measurements of files loaded                             •   absence of vulnerabilities
+     during system runtime                                    •   correctness of measured software
+   ➢ TPM-anchored integrity evidence of                       •   integrity verification of process
+     platform after boot                                          memory after loading
+   ➢ remote verification of platform                          •   integrity of unstructured dynamic
+     integrity state after boot                                   data
+   ➢ detection of unexpected binaries,                        •   complete coverage of system
+     libraries, scripts, policies,                                status unless IMA policy is well
+     configurations                                               configured
+   ➢ integration with TPM-based                               •   prevention of execution of
+     Remote Attestation challenge-                                tampered files unless IMA
+     response protocol                                            Appraisal is enforced
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                      45
+A.Y. 2025 - 2026
+          Remote Attestation
+          frameworks
+
+            From mechanisms to systems
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              46
+A.Y. 2025 - 2026
+  Keylime: TPM-based attestation in practice
+   What is Keylime?                                   What does Keylime use?
+
+   ➢ open-source Remote Attestation                   •   TPM 2.0 as hardware Root of Trust
+     framework                                        •   TPM quotes over selected PCRs
+   ➢ CNCF-hosted project                              •   measured boot / UEFI event logs
+   ➢ originally developed from research                   for boot-state verification
+     at MIT Lincoln Laboratory                        •   Linux IMA Measurement Logs for
+   ➢ designed for scalable remote boot                    runtime monitoring
+     attestation and runtime integrity                •   tenant policies for providing list of
+     monitoring                                           PCRs requested in the quote,
+                                                          allowlists/reference values
+
+
+                                 Keylime turns TPM and IMA evidence building
+                                blocks
+Cybersecurity and National Defence (Grandiinto
+                                           Sfide continuous
+                                                 - Digital) infrastructure monitoring.       47
+A.Y. 2025 - 2026
+  Keylime architecture
+   Keylime mainly consists of:
+   1. Agent
+             ○     runs on the attested node
+             ○     communicates with the TPM
+             ○     collects quotes, PCRs, UEFI logs, and IMA logs
+   2. Registrar
+             ○     manages agent enrolment
+             ○     stores agent identities and TPM-related public key material
+             ○     verifies AK/EK binding during agent registration
+   3. Verifier
+             ○     continuously attests registered agents
+             ○     validates quotes and logs
+             ○     sends revocation events if trust fails
+   4. Tenant
+             ○     command-line tool / management interface
+             ○     register agents with the verifier, providing the attestation policy
+                                                                                                          48
+              ○
+A.Y. 2025 - 2026   manages secure payloads provided to the agents only after first successful attestation
+  Keylime architecture
+                                                                              Registrar
+
+                                                                                  𝐴𝐾𝑝𝑢𝑏      𝐴𝐾𝑝𝑢𝑏 ,
+   UEFI                                                                                      𝐸𝐾𝑐𝑒𝑟𝑡
+   Log       IMA                 Agent                                         Verifier
+             Log                                    TPM quote + PCRs + logs
+
+
+                                    quote                                         Register node /
+                                                                                  configure policy
+
+                   TPM 2.0
+                                                                              Tenant
+             Attester node
+                                                                              Trusted domain
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                     49
+A.Y. 2025 - 2026
+  Secure payload release after first
+  successful attestation
+   Goal: Release security-sensitive contents only to a node that
+   proves it is in an acceptable state.
+   Keylime idea: encrypted payload + split decryption key
+   1. Tenant creates a payload for the remote platform
+             ○     e.g., key, certificate, password, configuration file, bootstrap script for deploying
+                   workloads
+   2. Tenant encrypts the payload
+             ○     generates a random encryption key and uses it to encrypt the payload
+             ○     splits the encryption key into two parts: U and V
+             Encryption_Key = random_32_bytes()
+             V = random_32_bytes()                                   Encryption_Key = U XOR V
+             U = Encryption_Key XOR V
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                      50
+A.Y. 2025 - 2026
+  Secure payload release after first
+  successful attestation
+   3. Before payload provisioning
+        ○ Tenant checks the Agent/TPM identity
+        ○ e.g., verifies TPM-quote and EK certificate against trusted TPM
+            manufacturers
+        ○ this is an identity/trust-anchor check, not yet platform-integrity appraisal
+   4. Provisioning
+        ○ after TPM genuinity verification, Tenant sends to the Agent encrypted
+            payload + U
+        ○ Tenant sends to the Verifier V, together with the attestation policy (e.g.,
+            reference values, list of PCRs to be checked)
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                    51
+A.Y. 2025 - 2026
+  Secure payload release after first
+  successful attestation
+   5. After registration of the Agent by the Tenant, the Verifier performs the
+      first real integrity attestation
+         ○ Verifier challenges the Agent
+         ○ checks TPM quote, PCRs, logs, and configured policy
+         ○ If the node is trusted (platform state satisfies the configured policy):
+             ■ Verifier sends V to the Agent
+             ■ Agent has both key halves and can combine them to recreate the
+                  encryption key: Encryption_Key = U XOR V
+             ■ Agent decrypts the payload by using the reconstructed encryption
+                  key
+             ■ if payload contains a script, Agent executes the script
+         ○ If the node is untrusted, V is not released and the payload remains
+              unusable                                                              52
+A.Y. 2025 - 2026
+  Runtime monitoring and revocation
+   After the first successful attestation, the node             Initial Attestation
+   enters the continuous monitoring loop:                                  trusted
+   1. Verifier periodically challenges the Agent for
+                                                                 Release U / V /
+      obtaining a fresh attestation evidence                        payload
+   2. Agent returns fresh evidence: quote, PCRs, boot
+      log, IMA log                                                 Continuous
+   3. Verifier validates evidence and policy                        monitor
+   4. If evidence remains valid → continue monitoring                      fresh quote + logs
+   5. If evidence fails → trigger revocation framework
+   Revocation framework                                             Policy still
+   • Notifies other infrastructure nodes that the Agent is           valid?            yes
+     untrusted                                                               no
+   • allows external systems to react: deny access,
+     isolate node, revoke credentials, remediate                Revocation event
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              Isolate / revoke / fix            53
+A.Y. 2025 - 2026
+

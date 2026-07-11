@@ -1,0 +1,197 @@
+
+
+--- PAGE 1 ---
+STM - Exercise 1
+Stefano De La Pierre
+
+
+--- PAGE 2 ---
+Exercise 1
+Use figure 1 to:
+a) define which test and which class of materials is referred to 
+and why;  
+b) calculate elastic modulus, 
+c) Calculate the yield strength (0.2 % offset) and the tensile 
+strength, 
+d) Calculate the elongation at fracture for a 50 mm long 
+specimen (write on curves data you use).
+e) Calculate the length of the specimen when you keep it loaded 
+in A.
+
+
+--- PAGE 3 ---
+Exercise 1a: Use figure 1 to define which test and which class of materials is referred to and why
+Typical stress-strain curve from tensile test
+Ductile behavior and stress-strain values typical of 
+metallic materials
+
+
+--- PAGE 4 ---
+Exercise 1b: Calculate elastic modulus
+0.001
+
+
+--- PAGE 5 ---
+Exercise 1c: calculate yield strength (0.2 % offset) and  tensile strength
+250
+450
+0.002
+
+
+--- PAGE 6 ---
+Exercise 1d: Calculate elongation at fracture for a 50 mm long specimen (write on curves data you use). 
+0.375
+
+
+--- PAGE 7 ---
+Exercise 1e- Calculate the length of the specimen when you keep it loaded in A.
+0.07
+If you keep the sample loaded no 
+recovery of elastic deformation 
+occurs
+
+
+--- PAGE 8 ---
+Exercise 2: Use the graph below to define 
+a) which test and which class of materials is referred to and why;  
+b) to calculate elastic modulus, 
+c) To calculate the yield strength (0,2 % strain) and the tensile strength, 
+d) To calculate the elongation at fracture for a 50 mm long specimen; 
+e) To calculate the elongation of this sample when loaded at 200 MPa, then unloaded. 
+(write on graph stress and strain
+ you use to calculate).
+
+
+--- PAGE 9 ---
+Exercise 2a: Define which test and which class of materials is referred to and why
+Typical stress-strain curve from tensile test
+Ductile behavior and stress-strain values typical
+of metallic materials
+
+
+--- PAGE 10 ---
+Exercise 2b: calculate elastic modulus
+0.1
+
+
+--- PAGE 11 ---
+Exercise 2c: calculate yield strength (0,2 % strain) and tensile strength
+0.2
+196
+yield 
+strength 
+(0,2 % 
+strain)
+220
+Tensile strength
+
+
+--- PAGE 12 ---
+Exercise 2d: Calculate elongation at fracture for a 50 mm long specimen
+8.8
+
+
+--- PAGE 13 ---
+Exercise 2e: Calculate the elongation of this sample when loaded at 200 MPa, then unloaded. (write on graph stress 
+and strain you use to calculate).
+200
+0.7
+Loading and unloading →
+elastic deformation recovered, 
+only permanent deformation
+present
+
+
+--- PAGE 14 ---
+Exercise 3: Determine the Elastic Modulus of Aluminum and High Density Polyethylene (HDPE) from the graphs
+below. Comment the obtained results.
+
+
+--- PAGE 15 ---
+Elastic modulus (E) = slope of the linear (elastic) tract of the - curve
+0,1
+67,5
+Exercise 3 – case 1: Aluminum
+
+
+--- PAGE 16 ---
+7,5
+1
+Elastic modulus (E) = slope of the linear (elastic) tract of the - curve
+Exercise 3 – case 2: HDPE
+
+
+--- PAGE 17 ---
+Exercise 3 comparison Aluminum – HDPE
+E (Al) = 67.5 GPa
+E (HDPE) = 0.75 GPa
+1 order of magnitude difference
+Elastic modulus depends on the bonding strenght: metallic bond vs van der Waals interactions
+
+
+--- PAGE 18 ---
+Consider the - curve reported in the figure. 
+The yield strength (0.2 % offset) is: 
+a) 230 Mpa
+b) 220 Mpa
+c) 185 MPa
+Quiz 1
+
+
+--- PAGE 19 ---
+Consider the - curve reported in 
+the figure. The yield strength (0.2 % 
+offset) is: 
+a) 230 Mpa
+b) 220 Mpa
+c) 185 MPa
+Quiz 1
+
+
+--- PAGE 20 ---
+The - curve in figure comes from the 
+tensile test of an aluminum specimen. 
+Select the right sentence (only one):
+a) The specimen underwent plastic
+deformation
+b) The specimen underwent fragile fracture
+c) The specimen did not have permanent
+deformations
+Quiz 2
+
+
+--- PAGE 21 ---
+The - curve in figure comes from the 
+tensile test of an aluminum specimen. 
+Select the right sentence (only one):
+a) The specimen underwent plastic
+deformation
+b) The specimen underwent fragile fracture
+c) The specimen did not have permanent
+deformations
+Quiz 2
+
+
+--- PAGE 22 ---
+The - curve in figure comes from 
+the tensile test of an aluminum
+specimen. Select the right sentence
+(only one):
+a) The specimen had only elastic
+deformation
+a) The specimen underwent necking
+a) The yield strenght was not
+reached in the test
+Quiz 3
+
+
+--- PAGE 23 ---
+The - curve in figure comes from the 
+tensile test of an aluminum specimen. 
+Select the right sentence (only one):
+a) The specimen had only elastic
+deformation
+a) The specimen underwent necking
+a) The yield strenght was not reached
+in the test
+Quiz 3

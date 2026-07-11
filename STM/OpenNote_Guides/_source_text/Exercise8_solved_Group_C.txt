@@ -1,0 +1,144 @@
+
+
+--- PAGE 1 ---
+STM Exercise 8
+Phase Diagrams
+(Fe-C)
+
+
+--- PAGE 2 ---
+
+
+
+--- PAGE 3 ---
+Describe the solidification (evidencing
+developed microstructures) of a 
+0.25%C steel
+
+
+--- PAGE 4 ---
+ Proeutectoid alpha(ferrite)
+727°C Eutectoid reaction: Austenite -> Ferrite + Cementite 
+Pearlite
+Main Phases
+Ferrite (α) → Solid solution of carbon in α-iron (body-centered 
+cubic, BCC).
+•Carbon content (maximum 0.022 wt% C).
+Austenite (γ) → Solid solution of carbon in γ-iron (face-
+centered cubic, FCC).
+•Can contain up to 2.14 wt% C.
+•Stable between approximately 727°C and 1493°C.
+Cementite (Fe₃C) → Hard and brittle intermetallic compound.
+•Contains 6.67 wt% C
+
+
+--- PAGE 5 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) ferrite for a 0,2 % C 
+steel
+
+
+--- PAGE 6 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) ferrite for a 0,2 % C 
+steel
+0.2%
+0.2 0.760.022
+Lever rule on the eutectoidic tie line (blue line in figure):
+%= (0.76-0.2)/(0.76-0.022)*100= 76%
+
+
+--- PAGE 7 ---
+Use the Fe-Fe3C phase diagram to 
+calculate:
+-the percentage of pearlite for a 
+0,2 % C steel
+
+
+--- PAGE 8 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of pearlite for a 
+0,2 % C steel
+0.2%
+0.2 0.760.022
+Lever rule on the eutectoidic tie line (blue line in figure):
+%= (0.2-0.022)/(0.76-0.022)*100= 24%
+The % of pearlite is equal to the one of austenite just before the eutectoid
+At 727°C, austenite (γ) of eutectoid composition (0.76 wt% C) transforms into 
+ferrite (α) and cementite (Fe₃C) according to:
+𝛾 → 𝛼 + 𝐹𝑒3𝐶 we are into the reaction
+
+
+--- PAGE 9 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of pearlite for a 
+0,2 % C steel
+0.2%
+0.2 0.760.022
+1.Composition:
+1. Go to the x-axis (wt% C).
+2. Find 0.2 wt% C and draw a vertical line up from there.
+Pearlite occurs at eutectoid temperature, about 727 °C.
+1. So draw a horizontal line at 727 °C 
+2.Intersection:
+1. The point where 0.2 wt% C and 727 °C meet is where you apply the lever rule.
+2. Just below 727 °C the structure is:
+proeutectoid ferrite + pearlite.
+
+
+--- PAGE 10 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of pearlite for a 
+1,2 % C steel
+1.2%
+
+
+--- PAGE 11 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of pearlite for a 
+1,2 % C steel
+1.2%
+During eutectoidic 
+transformation all the austenite 
+() is transformed in +Fe3C 
+pearlitic structure.
+So, the % of pearlite is equal to 
+the % of  at the beginning of 
+the eutectoidic transformation
+%  (723°C)= (6.70-1.2)/(6.70-
+0.76)*100=92.5%
+
+
+--- PAGE 12 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) cementite for a 1,2 % 
+C steel
+
+
+--- PAGE 13 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) cementite for a 1,2 % 
+C steel
+1.2%
+We find the cementite 
+primary → so we need to 
+go at 727°C
+Lever rule at 727°C
+%Fe3C (pro-eutectoid)= 
+(1.2-0.76)/(6.70-
+0.76)*100= 7.4%
+
+
+--- PAGE 14 ---

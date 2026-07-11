@@ -1,0 +1,742 @@
+                           Cybersecurity and National Defense (Grandi Sfide - Digital)
+
+                                                                             A.A. 2025 - 2026
+
+
+
+
+Module A – Cybersecurity
+Fundamentals
+A1 – Why Cybersecurity Exists
+Silvia Sisinni
+silvia.sisinni@polito.it
+
+                                             TORSEC
+                                             Computer and Network Security Group
+  Acknowledgments
+    This lecture deck adapts and reorganizes selected teaching
+    material originally developed by Nicolò Maunero (CINI /
+    Cybersecurity National Lab). Portions of the content are reused
+    under the Creative Commons BY-NC license (see license slide). All
+    modifications, additions, re-organization, and any errors are the
+    responsibility of the course instructor.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                    2
+A.A. 2025 - 2026
+  License & Disclaimer
+          License Information                                              Disclaimer
+        This presentation is licensed under the               ➢ We disclaim any warranties or
+         Creative Commons BY-NC License                         representations as to the accuracy or
+                                                                completeness of this material.
+                                                              ➢ Materials are provided “as is” without
+                                                                warranty of any kind, either express or
+                                                                implied, including without limitation,
+                                                                warranties of merchantability, fitness for a
+                                                                particular purpose, and non-infringement.
+                                                              ➢ Under no circumstances shall we be liable
+                                                                for any loss, damage, liability or expense
+          To view a copy of the license, visit:                 incurred or suffered which is claimed to have
+  http://creativecommons.org/licenses/by-nc/3.0/legalcode
+                                                                resulted from use of this material.
+                                                              ➢ This material is used and adapted within the
+                                                                course “Cybersecurity and National
+                                                                Defense”.
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                           3
+A.A. 2025 - 2026
+  Learning goals
+    After this lecture, you should be able to:
+    ➢ Explain why cybersecurity became a necessity
+    ➢ Describe how connectivity reshaped risk
+    ➢ Understand cybersecurity as a systemic issue
+    ➢ Recognize why cyber incidents can scale to national relevance
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                  4
+A.A. 2025 - 2026
+  One click can unlock convenience… or unleash chaos
+
+                   Convenience                                            Chaos
+   Digital services scale                                     The same infrastructure also
+   convenience, speed, and reach:                             scales failures, attacks, and
+   ➢ Online banking                                           disruption:
+
+   ➢ Online shopping                                          ➢ fraud
+
+   ➢ Chat applications                                        ➢ ransomware
+
+   ➢ Healthcare portals                                       ➢ outages
+
+   ➢ Smart devices                                            ➢ leaked data
+
+   ➢…                                                         ➢ deep fake
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+A.A. 2025 - 2026
+                                                              ➢…                              5
+  From isolated systems to pervasive cyberspace
+   1945
+
+
+
+                                               Isolated Computing (1940s–1960s)
+                                              ➢ Early computers were isolated, centralized
+                                                machines
+                                              ➢ Physical access was required to interact with the
+                                                system
+The huge ENIAC (Electronic Numerical          ➢ Users were few, trusted, and co-located
+Integrator and Computer) aka "the Giant
+Brain”(1945) filled a room and required six   ➢ Failures and misuses were local and contained
+programmers.
+
+
+                            Security
+Cybersecurity and National Defense     assumptions
+                                   (Grandi Sfide - Digital) were physical, not digital
+                                                                                               6
+A.A. 2025 - 2026
+  From isolated systems to pervasive cyberspace
+         1948
+
+
+   1945
+                                                 The Stored-Program Concept
+                                               ➢ Programs and data are stored in the same
+                                                  memory
+                                               ➢ Instructions become modifiable digital objects
+                                               ➢ This abstraction enables:
+ The Manchester Baby (1948), the first
+ computer to store programs digitally.                    —   software flexibility, reusable logic
+                                                          —   reprogrammable machines, innovation
+                                                       software exploitation
+                                                          —
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+A.A. 2025 - 2026
+                     Flexibility is the root of both innovation and vulnerability                    7
+  From isolated systems to pervasive cyberspace
+          1948            1969
+
+
+   1945
+                                        Networking Changes the Game
+
+                                        ➢ Networking enables remote collaboration
+                                        ➢ ARPANET introduced packet switching
+                                        ➢ Trust assumptions expand beyond a single
+                                            room
+                                        ➢ Distance stops being protection
+ARPANET map (1973)
+
+
+                             Connectivity
+Cybersecurity and National Defense             introduces remote attack paths
+                                   (Grandi Sfide - Digital)
+                                                                                     8
+A.A. 2025 - 2026
+  From isolated systems to pervasive cyberspace
+          1948                    1971
+
+
+   1945                          1969      Creeper: the first self-propagating
+                                           program
+                                          ➢ Developed by Bob Thomas at BBN
+                                          ➢ Ran on ARPANET
+Screenshot of Creeper message.
+                                          ➢ Self-propagating program
+                                          ➢ Not malicious, but demonstrated a new
+                                            capability
+                                          ➢ Showed that code could move autonomously
+                                            across a network
+                   Bob Thomas
+
+
+                                Code
+Cybersecurity and National Defense      mobility
+                                   (Grandi Sfide     is a security problem
+                                                 - Digital)
+                                                                                       9
+A.A. 2025 - 2026
+   From isolated systems to pervasive cyberspace
+          1948                      1969 1972
+
+
+   1945                               1971
+
+                                                Reaper: the first defensive response
+
+                                             ➢ Developed by Ray Tomlinson to locate and
+                                                 remove Creeper
+                                             ➢ First example of active defense
+                                             ➢ Introduced the idea of “defensive software”
+                                             ➢ Attack and defense start to co-evolve
+Ray Tomlinson (inventor of email)
+
+                                Defense
+Cybersecurity and National Defense          exists
+                                   (Grandi Sfide       because threats scale
+                                                 - Digital)
+                                                                                             10
+A.A. 2025 - 2026
+   From isolated systems to pervasive cyberspace
+          1948               1969 1972 1980s
+
+
+    1945                         1971
+
+                                            The 1980s: the birth of commercial
+                                            defense
+                                           ➢ Personal computers become widespread
+                                           ➢ Viruses spread via floppy disks
+                                           ➢ First commercial antivirus products appear
+Jhon David McAfee,                         ➢ Security becomes a market
+developer of one of
+the first antivirus
+programs for home
+users
+                                      Security
+Cybersecurity and National Defense (Grandi          follows adoption
+                                           Sfide - Digital)
+                                                                                          11
+A.A. 2025 - 2026
+  From isolated systems to pervasive cyberspace
+          1948                     1969 1972               1991
+
+
+   1945                                1971       1980s
+
+
+                                              The Birth of the World Wide Web
+                                              ➢ Web makes the Internet usable by everyone
+                                              ➢ Browsers, URLs, HTTP lower the entry barrier
+                                              ➢ Mass adoption begins
+Tim Berners-Lee, the inventor of the          ➢ Digital identity starts to matter
+World Wide Web, HTML, the URL
+system, and HTTP
+
+
+                            Usability
+Cybersecurity and National Defense      enables
+                                   (Grandi Sfide      adoption … and mass exposure
+                                                 - Digital)
+                                                                                            12
+A.A. 2025 - 2026
+  From isolated systems to pervasive cyberspace
+                                                            1990s
+          1948                1969 1972
+
+
+   1945                           1971           1980s      1991
+
+                                                 The 1990s: the world goes online
+                                                 ➢ Internet becomes public and commercial
+                                                 ➢ Internet supports: commerce,
+                                                   communication, information exchange
+                                                 ➢ Personal data moves online
+                                                 ➢ Identity theft and cybercrime emerge
+                                                 ➢ Attacks become economically motivated
+                                                 ➢ Firewalls and antivirus become standard
+
+
+                              When
+Cybersecurity and National Defense     value
+                                   (Grandi Sfidemoves
+                                                - Digital) online, crime follows
+                                                                                             13
+A.A. 2025 - 2026
+  From isolated systems to pervasive cyberspace
+          1948              1969 1972                   1990s          2000s
+
+
+   1945                          1971         1980s       1991
+
+                                              The 2000s: threats diversify and
+                                              professionalize
+                                              ➢ Organized cybercrime
+                                              ➢ Crime-as-a-Service
+                                              ➢ Governments start reacting
+                                              ➢ Security becomes strategic
+
+
+                            Cybersecurity
+Cybersecurity and National Defense (Grandi Sfide becomes
+                                                 - Digital) a national concern   14
+A.A. 2025 - 2026
+   From isolated systems to pervasive cyberspace
+          1948                    1969 1972            1990s          2007 ⟶ today
+
+
+   1945                             1971       1980s    1991     2000s
+
+
+                                                Pervasive Connectivity
+                                                ➢ Internet becomes:
+                                                       -- mobile
+                                                       -- always-on
+                                                       -- embedded in physical systems
+                                    Cloud       ➢ Attack surface explodes
+iPhone 1st generation, released    Computing
+in the United States on June
+29, 2007
+
+
+                            Cybersecurity
+Cybersecurity and National Defense (Grandi Sfide becomes
+                                                 - Digital) a systemic problem           15
+A.A. 2025 - 2026
+  From isolated systems to pervasive cyberspace
+          1948             1969 1972                  1990s               2007     today
+
+
+   1945                         1971         1980s      1991     2000s
+
+
+                                               Cyberspace
+                                               ➢ Cyberspace is a socio-technical
+                                                   environment
+                                               ➢ Interdependencies dominate
+                                               ➢ Failures propagate
+
+
+
+                       Cybersecurity
+Cybersecurity and National                   exists
+                           Defense (Grandi Sfide       because cyberspace exists
+                                                 - Digital)
+                                                                                      16
+A.A. 2025 - 2026
+  How much is the Internet growing in the world?
+
+                                                 Internet accesses (millions of people)
+             6000
+
+
+             5000
+                                         Today almost 2 out
+             4000                         of 3 people in the
+                                         world have access
+             3000
+                                           to the Internet!
+             2000
+
+
+             1000
+
+
+                   0
+                       1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021
+
+
+                                                                                                     [Nunzia Ciardi,
+                                             Vice Direttore Generale CAN - Agenzia per la Cybersicurezza Nazionale]
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                                                                                17
+A.A. 2025 - 2026
+  The use of technology in Italy
+                                                       In 2009 in relation to the population:
+                                                              only 15% were using smartphones
+
+                                                       In 2022 in relation to the population:
+
+                                                       129,7% has a mobile device connected
+                                                               84,3% uses internet
+                                                                    71,6% uses social media
+                                                                                                     [Nunzia Ciardi,
+                                             Vice Direttore Generale ACN - Agenzia per la Cybersicurezza Nazionale]
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                                  18
+A.A. 2025 - 2026
+  What do we mean by “system”?
+    Security is no longer local, it is systemic, but … what do we mean
+    by “system”?
+    A system is not just a single device or application. A system is a
+    set of interacting components that:
+    •    perform a function
+    •    exchange information
+    •    and depend on each other to deliver a service                Hardware
+                                                                                 Software
+    In cybersecurity, the system includes:
+    •    hardware and software
+    •    networks and data                                    Procedures
+    •    users and operators
+    •    procedures and dependencies                                                 People
+                                                                           Network
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                    Data
+                                                                                            19
+A.A. 2025 - 2026
+  IT systems and OT systems
+    • IT (Information Technology) systems manage data,
+      computation, and communication (e.g., servers, databases,
+      cloud services)
+    • OT (Operational Technology) systems control physical
+      processes (e.g., industrial controllers, sensors, actuators)
+    Modern infrastructures combine IT and OT, creating new
+    dependencies, new attack paths, real-world physical consequences
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                   20
+A.A. 2025 - 2026
+  Cybersecurity
+    • The computerization of our society and the digitization of goods
+      and services, in both the public and private sectors, force us to
+      pay a greater and greater attention to the security of both IT and
+      OT assets
+    • Several definitions can be found in the literature
+    • Here we are going to focus just on three of them, highlighting
+      different aspects:
+                          user → system → nation
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                           21
+A.A. 2025 - 2026
+                                                                                                1
+  Cybersecurity -- definition 1 (operational)
+    Example of an operational, user-centric definition (UK NCSC):
+              ➢    Cybersecurity is how individuals and organisations reduce the risk of
+                   cyber attack.
+              ➢    Cybersecurity's core function is to protect the devices we all use
+                   (smartphones, laptops, tablets and computers), and the services we
+                   access - both online and at work - from theft or damage.
+              ➢    It's also about preventing unauthorised access to the vast amounts
+                   of personal information we store on these devices, and online.
+                                 [https://www.ncsc.gov.uk/section/about-ncsc/what-is-cyber-security]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                    22
+A.A. 2025 - 2026
+                                                                             2
+  Cybersecurity -- Definition 2 (system-level)
+    Set of activities necessary to:
+    ➢ protect networks, information systems, computer services, and
+      electronic communications from cyber threats
+    ➢ ensure their confidentiality, integrity, and availability (CIA), and
+      also ensure their resilience.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                             23
+A.A. 2025 - 2026
+                                                                                                3
+  Cybersecurity -- Definition 3 (national-scale)
+    Practice that allows an entity (organization, citizen, nation, ...) to
+    protect:
+       ➢ its physical assets
+
+       ➢ confidentiality, integrity and availability of its information
+
+    from threats that come from cyberspace.
+                                                 [standard ISO/IEC 27000:2014 & ISO/IEC 27032:2012]
+
+
+    This definition connects cybersecurity to national-scale assets and
+    cyber-physical impact.
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                    24
+A.A. 2025 - 2026
+  Common core across definitions
+    ➢ Despite different scopes and formulations, cybersecurity
+      definitions converge on a shared core:
+         ➢ confidentiality, integrity, and availability (CIA)
+
+         ➢ resilience
+
+         ➢ risk reduction
+
+    ➢ These concepts will be revisited and formalized in the next
+      lecture
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                    25
+A.A. 2025 - 2026
+  Cyberspace
+    Cyberspace is the complex environment resulting from the
+    interaction of people, software, services, and networks connected
+    to the Internet.
+    It is:
+    • dynamic and evolving
+    • shaped by human behavior and automation
+    • governed by technical, legal, and social rules
+
+
+    [standard ISO/IEC 27000:2014 e ISO/IEC 27032:2012]
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                        26
+A.A. 2025 - 2026
+  Cyberspace
+
+ A dynamic
+ socio-technical
+ environment
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              27
+A.A. 2025 - 2026
+  National Cyberspace
+    ➢ The segment of the global network that falls within the nation’s
+      legal and administrative purview.
+    ➢ Interlinked with the cyberspace, is distinct in its governance,
+      under the jurisdiction of national laws and regulations, and is
+      shaped by the country’s unique economic, cultural, and political
+      context.
+                   [R.Baldoni - CHARTING DIGITAL SOVEREIGNTY: A SURVIVAL PLAYBOOK ]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                 28
+A.A. 2025 - 2026
+  National Cyberspace
+    • Can be seen as a portion of the cyberspace, defined by the
+      digital infrastructures within a nation’s geographical boundaries
+      and by its interconnected citizen, businesses and government.
+    • It includes all devices operating within the nation; the software
+      running on these devices; the data generated, stored, or
+      transiting through this infrastructure.
+    • National cyberspace is where security becomes a matter of
+      sovereignty, law, and coordinated response.
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                          29
+A.A. 2025 - 2026
+  Cyberspace – Complexity
+   The most complex thing that man has ever
+   built:
+                                                              Human interaction
+   ➢ networks of networks
+   ➢ software/protocol stratification                          Cloud / Services
+   ➢ heterogeneity of devices and terminals
+                                                                Applications
+   ➢ …
+                                                                 Middleware
+   Security consequences:
+                                                              Operating System
+   ➢ Complexity creates hidden dependencies
+   ➢ Small changes can have systemic effects                      Firmware
+   ➢ Security failures often emerge gradually,
+                                                                  Hardware
+     until they become visible
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                  30
+A.A. 2025 - 2026
+  Software – Complexity
+    ➢ The Linux kernel exceeds 30 million Lines of Code (LoC)
+    ➢ Linux distributions exceed 100 million LoC
+    ➢ Microsoft Windows systems range between 30 and 45 million
+      LoC
+    ➢ Large enterprise platforms contain hundreds millions LoC
+    ➢ Entire computing ecosystems can reach billions LoC
+    ➢ Comprehensive formal verification is infeasible
+    ⟹ Systems are vulnerable
+    ➢ More than 2,800 security vulnerabilities have been discovered in
+      the Linux kernel alone
+              ➢    approximately 900 are of “high” or “critical” severity
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                            31
+A.A. 2025 - 2026
+  Cyberspace – Pervasiveness
+    ➢ Cyberspace is no longer confined to computers and networks: it
+      pervades physical environments, daily life, and critical services
+
+
+
+
+          Robotics
+                                                                  5G
+                                                               Always on
+
+
+                       Pervasiveness
+Cybersecurity and National                  is a- Digital)
+                           Defense (Grandi Sfide  key driver of attack surface explosion   32
+A.A. 2025 - 2026
+  Why Cybersecurity Became a Necessity
+    ➢ Digitalization made connectivity the default condition
+    ➢ Connectivity transformed systems into interdependent
+      ecosystems
+    ➢ Interdependence amplified both failures and attacks
+    ➢ Security moved from a technical issue to a systemic necessity
+
+
+
+
+                          Cybersecurity is a response to systemic digital risk
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                 33
+A.A. 2025 - 2026
+  Some “symptomatic” examples
+    ➢    The following examples illustrate how cybersecurity issues
+         manifest in everyday and critical contexts
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                      34
+A.A. 2025 - 2026
+  Some “symptomatic” examples
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              35
+A.A. 2025 - 2026
+  Some “symptomatic” examples
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              36
+A.A. 2025 - 2026
+  Everything is under attack… always …
+    ➢ Cyber Attack Map: real time maps:
+        • https://threatmap.checkpoint.com
+        • https://cybermap.kaspersky.com
+        • …
+    ➢ The most popular ones are summarized here:
+        • https://norse-corp.com/map/
+
+    Attack maps are visualization tools, not measurements of risk or
+    impact.
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                       37
+A.A. 2025 - 2026
+  Some significant attacks
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                              38
+A.A. 2025 - 2026
+  Recent trends
+
+    ➢    +27% severe incidents globally in 2024 vs 2023
+    ➢    Italy accounts ~10% of global attacks (Rapporto CLUSIT 2025)
+    [https://clusit.it/wp-content/uploads/area_stampa/2025/Anteprima_Rapporto_Clusit_2025.pdf]
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                                 39
+A.A. 2025 - 2026
+  Who is affected
+    ➢ Cybersecurity problems scale with interdependence and
+      governance scope
+    ➢ They need to be addressed at ALL levels:
+        ➢ Individual
+
+        ➢ Organization
+
+        ➢ National
+
+        ➢ International
+
+    ➢ The higher the interdependence, the higher the systemic impact
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                       40
+A.A. 2025 - 2026
+  Cybersecurity is a coordination problem across
+  layers
+                                             Global Ecosystem
+                               (International Supply Chains, Internet Routing)
+
+                                                National Level
+                                          (Defense, Governance, Law)
+
+
+
+                                               Organizational Level
+                                              (Businesses, Operators)
+
+
+
+                                                Human Level
+                                           (Users, Workers, Admins)
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                 41
+A.A. 2025 - 2026
+  Cybersecurity – Market Global Trends
+    ➢ Market value 2026: 248 Billion
+    ➢ Forecast in 2034: 699 Billion
+    ➢ https://www.fortunebusinessinsights.com/industry-reports/cyber-security-market-101165
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                              42
+A.A. 2025 - 2026
+  Cybersecurity – Market Global Trends
+    ➢ Market value 2025: 227 Billion
+    ➢ Forecast in 2030: 351 Billion
+    ➢ https://www.marketsandmarkets.com/Market-Reports/cyber-security-market-505.html
+
+
+
+
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                                        43
+A.A. 2025 - 2026
+  The limitations of the European context
+    ➢ UE Market is heavily fragmented
+              • Companies tend to focus on national market and have difficulties in
+                scaling
+    ➢ 67 in 500 companies with the highest growth in Cybersecurity
+      are European
+    ➢ In 2021 EU investment on cybersecurity was 814 million €
+              • In the US, same year, was 15 billion €
+              • Source: EIB / ECIP report (2022) – VC investments in 2021
+                   https://www.eib.org/attachments/lucalli/20220206-european-cybersecurity-investment-
+                   platform-en.pdf
+    ➢ This fragmentation and underinvestment translate into strategic
+      dependency, and reduced technological sovereignty
+                                                                https://ecs-org.eu/activities/european-
+Cybersecurity and National Defense (Grandi Sfide - Digital)
+                                                                cybersecurity-investment-platform/ 44
+A.A. 2025 - 2026
+

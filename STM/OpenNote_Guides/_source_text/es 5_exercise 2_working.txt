@@ -1,0 +1,21 @@
+## Sheet: es 2
+	Dati			
+	l0 (m)	A (mm^2)	F (N)	
+	10	1	10	
+Materiale	E (Mpa)	σ (Mpa)	ε 	Δl (m)
+Copper	110000			
+Steel	210000			
+Aluminum	69000			
+Tungsten	400000			
+Sn-Pb (welding)	30000			
+		Iniziale	Finale	
+copper	ε 	0	=D8	
+	σ (Mpa)	0	=C8	
+steel	ε 	0	=D9	
+	σ (Mpa)	0	=C9	
+aluminum	ε 	0	=D10	
+	σ (Mpa)	0	=C10	
+Tungsten	ε 	0	=D11	
+	σ (Mpa)	0	=C11	
+Sn-Pb (welding)	ε 	0	=D12	
+	σ (Mpa)	0	=C12	

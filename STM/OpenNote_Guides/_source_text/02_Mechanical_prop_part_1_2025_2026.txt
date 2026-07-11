@@ -1,0 +1,863 @@
+
+
+--- PAGE 1 ---
+1
+MECHANICAL PROPERTIES 
+OF MATERIALS: 
+Fundamentals, elastic and plastic 
+behaviour
+
+
+--- PAGE 2 ---
+2
+Mechanical properties of 
+materials 
+• Materials choice 
+• Design issues 
+• Correlation requested properties/class of material
+• Mechanical properties independent of time 
+• Mechanical properties dependent on time 
+• Mechanical properties dependent on temperature
+
+
+--- PAGE 3 ---
+3
+ (STRESS) and e (STRAIN ) : definition 
+ (STRESS) = F (force, Newton, N) / A (surface, m 2) 
+ = F/A     ( N/m 2 = Pa) ( N/mm 2 = MPa ) 
+DEFORMATION or STRAIN :
+(dimensionless or %) 
+e = (l – l0)/l 0 = l/l 0
+sample length = l 
+initial sample length = l 0  
+tensile stress, compressive stress, bending stress, shear stress
+
+
+--- PAGE 4 ---
+4
+Tensile and compression 
+stress/strain 
+A0
+F
+F
+ll0
+l0
+F
+F
+l
+A0
+Tension Compression 
+Stress,  = F/A 0
+Strain, e = (l – l0)/l 0
+= l/l 0
+
+
+--- PAGE 5 ---
+5
+Shear 
+A0
+F
+F
+ (Shear stress),  = F/A 0
+(Shear strain),  = tan 
+
+
+--- PAGE 6 ---
+6
+Torsion 
+T
+T
+
+Torsion  = T/A 0
+Shear strain,  = tan 
+Ao
+
+
+--- PAGE 7 ---
+7
+Stress-strain curves (tensile test) 
+• Standard tests! 
+gauge length, 2 in. 
+reduced section, 2.25 in. 
+diameter, 0.5 in. 
+diameter, 0.75 in. 
+radius 3/8 in. 
+ASTM (American Society for Testing and 
+Materials) 
+ISO 
+UNI EN
+
+
+--- PAGE 8 ---
+Standard circular cross-section for tensile tests 
+Metallic 
+specimens
+
+
+--- PAGE 9 ---
+9
+For most of materials, low stresses correspond to 
+proportionally low deformations (direct 
+proportionality) 
+ = E e (Hooke law, E=Young modulus or 
+elastic modulus) 
+ = F/A 
+e = l/l o [E] = MPa or GPa 
+F/A = E l/l o
+
+
+--- PAGE 10 ---
+10 
+Tensile test curve on a metal 
+Max. tensile strength 
+Elastic field 
+Plastic field 
+ = E e
+
+
+--- PAGE 11 ---
+11 
+Elastic behaviour 
+• Small stress corresponds to small deformation 
+having a direct proportionality between them. 
+• Small deformations are immediately recovered 
+when stress is removed 
+• E =  / e = [N/mm 2] = [MPa] 
+Young’s modulus or Elastic Modulus E 
+(Hooke law)
+
+
+--- PAGE 12 ---
+12 
+Elastic modulus and atomic bond 
+• E ceramics > E metals >> E polymers 
+• Elastic modulus is directly proportional to the 
+energy of the atomic bond (and melting 
+temperature) 
+• No fracture of bonds in the elastic field 
+• Increasing of the bond length when stress is 
+applied.
+• Immediate recovering of the bond equilibrium 
+length after stress removal
+
+
+--- PAGE 13 ---
+13 
+EQUILIBRIUM STATE 
+NO APPLIED LOAD 
+THE DISTANCE 
+BETWEEN ATOMS IS 
+THAT OF THE STABLE 
+CHEMICAL BOND 
+LOADING 
+(in the elastic 
+range) 
+DURING ELASTIC 
+DEFORMATION THE 
+BONDS BECOME 
+LONGER IN THE 
+DIRECTION OF LOAD 
+APPLICATION 
+(much longer as weaker the 
+bonds are) 
+UNLOADING 
+(Load removal) 
+WHEN THE 
+LOAD IS 
+REMOVED THE 
+ATOMS COME 
+BACK TO THEIR 
+EQUILIBRIUM 
+DISTANCE 
+F
+F
+
+
+--- PAGE 14 ---
+14 
+Callister 
+How atomic 
+bonds are 
+responsible of 
+materials 
+properties 
+Condon-Morse curves
+
+
+--- PAGE 15 ---
+15 
+Elastic modulus and bond strength 
+E is directly 
+proportional to 
+(dF/dr) ro 
+Strong bonds: 
+ceramics 
+Weak bonds: polymers
+
+
+--- PAGE 16 ---
+16 
+Elastic modulus and melting 
+temperature 
+Material  Temp 
+melting [° C]  
+E 
+(GPa) 
+TiC  3160 310 
+Al 2O3  2045 370 
+W 3410 393 
+Fe 1536 207 
+Cu 1083 111 
+Al 660 70 
+Pb 327 14 
+Polyetilene  130 1 
+glasses - 60-90 
+ 
+70-90 
+E Tm
+
+
+--- PAGE 17 ---
+17 
+Diamond 
+WC 
+SiC 
+Al 2O3
+TiC 
+Ni 
+Steel 
+CFRP** 
+Copper and its alloy 
+Ti and its alloy 
+Zn and its alloy 
+Al and its alloy 
+Mg and its alloy 
+GFRP 
+Wood║ to fibers 
+Wood┴ to fibers 
+Plastics 
+Expanded plastic 
+*Glass fiber reinforced polymers 
+**C fiber reinforced polymer 
+(GPa) 
+E
+Polymers Metals Ceramics 
+*
++
+
+
+--- PAGE 18 ---
+18 
+More than 4 orders of magnitude between E of diamond and E of polymers! 
+SOLIDI COVALENTI 
+VETRI 
+Young’s modulus depends 
+on some parameters: 
+- Bonding energy 
+Stronger chemical bonds 
+ higher bonding energy 
+ higher E
+- Amorphous vs. 
+crystalline structure 
+Amorphous materials show 
+lower E than crystalline 
+ones 
+COVALENT SOLIDS 
+CRYSTALLINE OXIDES 
+GLASSES 
+METALS 
+POLYMERS 
+(ionic bonds) 
+(covalent bonds) 
+Which of these materials is «BRITTLE»? 
+Which is «FRAGILE»? 
+Why?
+
+
+--- PAGE 19 ---
+19 
+The elastic modulus E is assumed to be 
+(almost) independent of alloying 
+elements (e.g. interstitial atoms)  E = 
+210 GPa 
+Low amount of alloying elements 
+the mean energy of the bond remains 
+constant  E = cost 
+High amount of alloying elements  E 
+= 190-230 GPa 
+THE ELASTIC MODULUS IS NOT 
+RELATED TO THE MOVEMENT 
+OF DISLOCATIONS!
+
+
+--- PAGE 20 ---
+20 
+How to measure the elastic 
+modulus: from tensile curve 
+steel 
+Al 
+stress 
+strain
+
+
+--- PAGE 21 ---
+21 
+How to measure the elastic 
+modulus 
+– Drawbacks of tensile tests :
+Sample preparation 
+Destructive test 
+Unsuitable for brittle materials 
+• Measurement of the elastic 
+modulus by compression or 
+bending tests, indentations… 
+• Non destructive tests
+
+
+--- PAGE 22 ---
+22 
+Elastic modulus by sonic test 
+• E= 0.9465 * (  2L4/t 2)
+•  = costant depending on material shape 
+•  = sonic wave frequency; 
+• L= sample length; 
+•  = material density;
+• t = sample thickness.
+For photos and technical specifications pleas visit: www.imce.net/presentation
+
+
+--- PAGE 23 ---
+23
+
+
+--- PAGE 24 ---
+24
+
+
+--- PAGE 25 ---
+25 
+Measuring elastic 
+modulus (E) 
+by 
+GrindoSonic 
+ Useful for highly 
+porous samples 
+ Very useful for quality 
+control! 
+ No limtiations on size 
+ Limitations on 
+geometry
+
+
+--- PAGE 26 ---
+26 
+Elastic modulus vs T 
+W
+steel Al 
+Elastic modulus, GPa
+
+
+--- PAGE 27 ---
+Mixture rule : elastic modulus is a weighted average, based on the 
+volumetric fraction, of the elastic moduli of the components:
+Ec = E 1·f v1 + E 2·f v2 + … E n·f vn 
+Composite with 50% vol. C fibres + 50% vol. polymeric matrix 
+Carbon fibers: E  200 GPa 
+Polymer: E  0.6 GPa 
+Composite E  (200*0.5+0.6*0.5)  100 GPa 
+Composite 30% vol. C fibres + 70% vol. polymeric matrix 
+Composite E (200*0.3 + 0.6*0.7)  60 GPa 
+ELASTIC MODULUS IN COMPOSITES
+
+
+--- PAGE 28 ---
+28 
+Elastic modulus of a steel vs T
+
+
+--- PAGE 29 ---
+29 
+lz/2 
+l0x 
+lx/2 
+l0z 
+
+
+ 
+z
+y
+z
+x
+eeee
+
+ 
+ 
+Poisson coefficient ( )
+• ex, ey and ez have opposite sign 
+Metals: about 0.33 
+Ceramics: 0.17 - 0.27 
+Polymers: 0.33 - 0.5
+The Poisson coeff. is always < 0.5
+
+
+--- PAGE 30 ---
+30 
+Non linear elastic behaviour 
+• Some polymers, cast iron, concrete,…. 
+• E calculated locally 
+Strain 
+Stress 
+1
+2
+e1 e2
+Secant modulus at 1 = 1/e1
+Tangent modulus at 2 = d /d e
+
+
+--- PAGE 31 ---
+31 
+Summary 
+Linear elastic 
+Behaviour 
+(most materials) 
+Non linear elastic 
+behaviour 
+(some polymers, 
+cast iron, 
+concrete,…) 
+Anelastic behaviour 
+Time is required to 
+recover deformation 
+after stress removal 
+(some polymers)
+
+
+--- PAGE 32 ---
+32 
+Plastic deformation and chemical bond 
+• When applied stresses increases and corresponding 
+deformations are higher than about 0.002, the 
+Hooke law does not work any more. 
+• Bonds start breaking and, if possible , other bonds 
+are formed in different positions 
+• If the load is removed, the sample recovers only t he 
+elastic deformation, but a plastic, permanent 
+deformation is evident. 
+• The frontier between elastic and plastic deformati on is 
+defined yield strength or limit of proportionality
+
+
+--- PAGE 33 ---
+33 
+ELASTIC 
+DEFORMATION 
+PLASTIC 
+DEFORMATION 
+BRITTLE 
+FRACTURE 
+(CLEA V AGE)
+
+
+--- PAGE 34 ---
+34 
+e curve for metals 
+fracture 
+Tensile 
+strength 
+Upper 
+lower 
+y
+strain 
+stress 
+necking 
+Elastic field Plastic field 
+Strain at fracture 
+Metals follow one 
+of the two curves
+
+
+--- PAGE 35 ---
+35 
+In steel we have interstitial C, 
+causing the dislocations to pin (to 
+stop). 
+Thus, it becomes difficult for 
+dislocation to move and we need 
+higher load to make them to move 
+(upper yield point). 
+Then, the pinning will be gone and 
+dislocations can move freely and 
+we need smaller load to keep them 
+moving (plastic deformation going) 
+ lower yield point.
+
+
+--- PAGE 36 ---
+36 
+Yield strength at 0.2 % 
+strain (0.002) 
+This type of monotonic 
+curve is observed, for 
+example, in pure metals, 
+FCC alloys, Al alloys.
+
+
+--- PAGE 37 ---
+37 
+Yield strength for different 
+materials 
+  y [MPa] 
+steels 250 -1400  
+Ni alloys 200 -1600  
+Ti  alloys  200 -1300  
+Cu  alloys  60 -950  
+Al  alloys  100 -650  
+Mg  alloys  80 -300  
+Epoxy resins  30 -100  
+nylon  50 -90  
+poly stirene  35 -70  
+ABS  50  
+poly et hy lene  6-30
+
+
+--- PAGE 38 ---
+38 
+Dislocations explain the 
+3 orders of magnitute 
+between theorethical 
+and experimental 
+yield strength 
+Without dislocations, 
+the yield strength would 
+be about E/8 (GPa) 
+Yield strength and dislocations
+
+
+--- PAGE 39 ---
+39 
+Material         Tensile Yield Stress (psi) 
+pure (99.45%) annealed Al  4 x 10 3 
+pure (99.45%) cold drawn Al  24 x 10 3 
+Al alloy - precipitated, hardened 50 x 10 3 
+a "perfect" single crystal of pure Al           ca. 10 6  
+When you have slipping of crystalline planes in a real crystal (with 
+dislocation), a lower amount of chemical bonds will break compared to 
+a perfect crystal (without dislocations)  lower yield stress 
+Technological implications? 
+(1 MPa = 145 psi)
+
+
+--- PAGE 40 ---
+40
+
+
+--- PAGE 41 ---
+41 
+Sliding plane 
+Shear stress 
+Dislocations provide an effective way for bonds to break and re-
+form in another place, when load is applied. 
+Dislocation motion is favoured on 
+high density sliding planes
+
+
+--- PAGE 42 ---
+42 
+Es: Cu, Al, Ag, Au 
+Es: Fe, W, Cr 
+Es: Mg, Ti, Zn 
+Hexagonal compact 
+BCC FCC
+
+
+--- PAGE 43 ---
+43 
+• BCC e FCC have at least 12 sliding planes 
+• HCP has a maximum of 6 sliding planes 
+• FCC metals (Cu, Al, Ni, Ag, Au) and BCC (Fe) 
+are ductile, with large plastic deformation 
+• HCP metals (Ti, Zn) are more brittle 
+plane (111) for CFC, 
+with three sliding 
+directions <110>
+
+
+--- PAGE 44 ---
+44 
+• Number of preferred slip 
+systems 
+– https://www.tec-
+science.com/material-
+science/ductility-of-
+metals/influence-of-the-
+lattice-structure-on-the-
+ductility/ 
+– FCC (Cu, Al, Ni, Ag, Au) 
+and BCC (Fe) metals 
+have large plastic 
+deformation 
+– HCP (Ti, Zn) metals 
+have smaller plastic 
+deformations
+
+
+--- PAGE 45 ---
+45 
+BCC 
+FCC
+
+
+--- PAGE 46 ---
+46 
+• Plastic deformation of grains in a stainless steel after lamination 
+from Callister 
+After deformation
+
+
+--- PAGE 47 ---
+47 
+Stress-strain curve for Al 
+Max. tensile strength
+
+
+--- PAGE 48 ---
+48 
+If we stop loading here a residual plastic deformation ( e res ) is still present
+
+
+--- PAGE 49 ---
+49 
+Plastic (residual, 
+permanent) 
+deformation
+
+
+--- PAGE 50 ---
+50
+
+
+--- PAGE 51 ---
+51 
+Metal specimens of steel 
+(left) and bronze (right) 
+before and after the test 
+NECKING :
+reduction of the 
+resistant section 
+(lateral contraction) 
+due to a 
+rearrangements of the 
+material structure
+
+
+--- PAGE 52 ---
+52 
+Ductile fracture 
+Necking Formation of pores 
+pore coalescence’ 
+Propagation 
+Coarse surface due to 
+plastic deformation 
+Orientation 45°
+
+
+--- PAGE 53 ---
+53 
+Tensile strength 
+behaviour for 
+different 
+materials
+
+
+--- PAGE 54 ---
+54 
+Stress-strain curves for brittle 
+materials 
+ceramics, glasses; 
+brittle alloys, brittle 
+polymers (below Tg), 
+brittle composites 
+No (or limited) plastic 
+deformation
+
+
+--- PAGE 55 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+55 
+Brittle fracture 
+• Without plastic deformation 
+– Flat fracture surfaces 
+– Along crystalline planes for mono-crystalline materials 
+(cleavage) 
+– Intergranular fracture for poly-crystalline materials
+
+
+--- PAGE 56 ---
+56 
+Ductile and brittle fracture 
+surfaces 
+• Ductile fracture: plastic deformation at the crack  
+edge, slow crack propagation 
+• Brittle fracture: no plastic deformation at the cr ack 
+edge, quick crack propagation (catastrophic failure)
+
+
+--- PAGE 57 ---
+57 
+Tensile strength ( ) and % e
+deformation at fracture 
+• Material  (MPa) e (%) 
+• steel 400-2500 40-12 
+• Al alloys 300-770 8-16 
+• Al 2O3 sint. 200-340 negligible 
+• SiO 2 glass 110 negligible 
+• ZrO 2 sint. 80 negligible 
+• Polyesthers 40-80 1-2
+• Nylon 70-160 50-200 
+• Epoxy 30-120 3-6
+
+
+--- PAGE 58 ---
+58 
+How to modify plastic 
+properties of materials 
+• Make dislocation motion more difficult = increase 
+materials mechanical strength (and hardness) 
+• Grain size 
+• Solid solutions 
+• Precipitates and second phases 
+• Work hardening 
+• Perfect crystals/monocrystals
+
+
+--- PAGE 59 ---
+59 
+grain boundary grain boundary 
+ y  0  kyd1 2
+Hall-Petch law 
+d = grain diameter (avg) 
+
+y = yield strength 
+Materials related costant 
+Grain size can be modified by 
+thermal treatment 
+Grain size reduction
+
+
+--- PAGE 60 ---
+60 
+Need for nucleating agents 
+(fine ceramic powders in the melt)
+
+
+--- PAGE 61 ---
+61
+
+
+--- PAGE 62 ---
+62 
+Solid solutions 
+Dislocations motion slowed 
+Tensile stresses Compression stresses 
+• Metallic solid 
+solutions 
+(alloys) have 
+superior 
+mechanical 
+strength than 
+pure metals
+
+
+--- PAGE 63 ---
+Materiali per l’Ingegneria 
+M.Ferraris 
+63 
+Role of alloying elements on 
+mechanical properties
+
+
+--- PAGE 64 ---
+64 
+1 MPa = 145 psi; 20000 
+psi = 137.9 MPa 
+The efficacy in increasing the 
+yield strength is related to the 
+solute/solvent size ratio
+
+
+--- PAGE 65 ---
+65 
+Second phases
+
+
+--- PAGE 66 ---
+66 
+Orowan mechanism  ring dislocation around rigid inclusions 
+The efficacy of the mechanism is related to the number of particles 
+rather than the total mass of particles.
+
+
+--- PAGE 67 ---
+67 
+Work hardening 
+Dislocation density: little-deformed 
+metals: 10 6 cm/cm 3 (10,000 m/cm 3);
+highly-deformed metals: 10 12 cm/cm 3
+(10,000,000 km/cm 3)
+The material undergoes successive loading-unloading cylces (“cold working”) 
+ formation of new dislocations  accumulation of dislocations  barrier to further 
+deformation  strengthening of the material  increase of σy (and hardness).
+
+
+--- PAGE 68 ---
+68 
+Ramberg-Osgood law 
+(plastic field): 
+σ = H×εn
+H and n = constant 
+n is called work-hardening exponent
+
+
+--- PAGE 69 ---
+69 
+COLD WORKING OF STEELS 
+Increase of σy
+•REVERSIBLE PROCESS: 
+•COLD WORKING/ANNEALING
+
+
+--- PAGE 70 ---
+70 
+Mechanism of multiplication 
+of dislocations («forest») 
+Frank-Read mechanism
+
+
+--- PAGE 71 ---
+71 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6)
+
+
+--- PAGE 72 ---
+Work-hardening on metals and alloys 
+72
+
+
+--- PAGE 73 ---
+73 
+1. Visualize different mechanism of hardening in stress-strain 
+curves: 
+https://www.tec-science.com/material-science/ductility-of-
+metals/deformation-process-in-real-crystal-structures/ 
+1. Visualize difference between Elastic deformation and 
+plastic deformation: 
+https://www.tec-science.com/material-science/ductility-of-
+metals/deformation-process-in-real-crystal-structures/ 
+https://www.tec-science.com/material-science/ductility-of-
+metals/fundamentals-of-deformation/

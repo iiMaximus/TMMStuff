@@ -1,0 +1,85 @@
+
+
+--- PAGE 1 ---
+Name and surname………………………………………………   Matricular number…………… 
+ 
+ 
+Simulation of the Exam “Science and technology of materials” 
+ 
+ 
+Important notes: Exam duration: 45 min (9 questions). In multiple choice questions: wrong answer penalty: –
+0.25 points: answer not given: 0 points. Write the answers to the open questions and the resolutions o f the 
+exercises, numbering them, on the attached sheets. Write in an understandable way. 
+ 
+1) Complete the Cu-Ag state diagram shown in the figure indicating the phases in the various regions.  
+Consider an alloy containing 80 wt.% of Ag: 
+a) indicate which phases are present at 1000 ° C, t heir composition, the relative amounts and the 
+variance of the system; 
+b) indicate which phases are present at 600 ° C, th eir compositions, the relative amounts and the 
+variance of the system. 
+[5 points] 
+ 
+ 
+2) Explain the mechanisms of heat conduction in solids. Define the coefficient of thermal conductivity 
+(k), its units and list k of polymers, metals, glasses and crystalline ceramics; also explain the list order. 
+Why diamond is a good thermal conductor? 
+[points 5] 
+ 
+3) Describe the process of sintering, also explaining to which materials is applied and why.  
+[points 3] 
+ 
+4) Calculate the elongation (in mm) of a 2 m long s teel rod (CTE =14 × 10 
+-6 °C -1) when the 
+temperature increases from 20 to 100 °C. 
+If the same rod is bound at its ends, calculate the  thermal stress developed in it, specifying the typ e 
+(tension, compression, torsion…). The elastic modulus of steel is E = 210 GPa. 
+[points 3]
+
+
+--- PAGE 2 ---
+5) Calculate the primary (pro-eutectoid) cementite (wt.%) at 400°C for a steel with 1.5% C. 
+What is pearlite and where can you find it in the phase diagram (if possible)? 
+What is martensite and where can you it in the phase diagram (if possible)? 
+[points 5] 
+ 
+ 
+ 
+6) Porosities in ceramic materials (only 1 correct item): 
+ (a) reduce the tensile strength if they are open a nd interconnected, while they have no effect on the  
+mechanical properties if the pores are closed 
+ (b) are useful for increasing the compressive strength 
+ (c) are formed during the sintering process 
+ (d) reduce the tensile strength if their characteristic size is less than 1 nm 
+ (e) contribute to increasing thermal insulation  
+[points 1] 
+ 
+7) If an interstitial atom is added into a crystall ine lattice above its solubility limit, we have the  
+formation of (only 1 correct item): 
+(a) a solid substitution solution 
+(b) an interstitial solid solution and a substitutional solid solution 
+(c) an interstitial solid solution and a low-melting liquid phase 
+(d) an interstitial solid solution and a glassy phase at the grain boundaries 
+(e) none of the previous responses 
+[points 1]
+
+
+--- PAGE 3 ---
+8) A specimen made of an unknown material (initial diameter 16 mm, initial length 75 mm) is 
+subjected to a tensile test; the resulting force-el ongation curve is shown in the figure below. At the  
+end of the test, the diameter is equal to 11 mm. 
+You are required to: 
+a) determine the stress at break; 
+b) determine the yield strength at 0.2% offset; 
+b) determine the elastic modulus; 
+c) identify the class of material (metal, ceramic, polymer, composite) and hypothesize its type, 
+justifying the response; 
+d) determine the deformation at break; 
+e) quantify the necking and describe this phenomenon. 
+[points 6] 
+ 
+ 
+ 
+ 
+9) Which one of the following tensile stress/strain curves corresponds to a thermoset polymer? 
+What are the main differences between thermoplastic and thermoset polymers? 
+[points 3]

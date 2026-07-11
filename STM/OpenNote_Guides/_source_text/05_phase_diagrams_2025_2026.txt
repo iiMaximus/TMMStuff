@@ -1,0 +1,324 @@
+
+
+--- PAGE 1 ---
+PHASE DIAGRAMS
+
+
+--- PAGE 2 ---
+Some definitions…
+Component: element or chemical compound whose presence is 
+necessary and sufficient to make a system.
+Alloy: mixture of two or more elements having metallic properties.
+Binary systems 
+ two components.
+
+
+--- PAGE 3 ---
+Phase:
+A phase is a homogeneous portion of a system with uniform 
+chemical and physical characteristics (therefore, both in terms of 
+structure and composition).
+A single phase has the same behavior in all its parts when subjected 
+to physical or chemical stresses 
+A phase can consist of more than one chemical component (such as 
+water or metallic solid solutions in which some atoms (solutes) are 
+placed within the crystalline structure of te other (in interstit ial or 
+substitutional positions) 
+A chemical element or compound can exist as different phases 
+(liquid water, water vapor and ice, Feα, Feγ)
+
+
+--- PAGE 4 ---
+MONOPHASIC SYSTEMS 
+W ATER liquid ICE solid W ATER vapour 
+OIL liquid Fe FCC solid 
+ONLY ONE PHASE
+
+
+--- PAGE 5 ---
+Water 
+and oil 
+Water and 
+ice 
+Solid solution + 
+second phase 
+BIPHASIC SYSTEMS 
+They are made of TWO different phases that differ in terms of: 
+• Aggregation state (e,g. liquid vs. solid) and/or 
+• Composition and/or 
+• Crystalline structure
+
+
+--- PAGE 6 ---
+Properties of materials depend on microstructure  it 
+depends on composition, T, p
+Equilibrium diagrams or phase diagrams are graphical 
+representations of the various phases (microstructures) i n a
+system depending on composition and temperature 
+All the phase diagrams have:
+- T on the y-axis 
+- composition (wt.%) on the x-axis
+
+
+--- PAGE 7 ---
+A phase diagram is:
+a graph describing how many and which phases of a system are 
+present when the intensive parameters (pressure, temperature) of the 
+system itself vary.
+Phase diagrams are valid when the thermodynamic equilibrium is 
+reached (slow cooling).
+Phase diagrams can be obtained experimentally or by calculations.
+In 1-component phase diagrams, we consider both T and p.
+In binary phase diagrams, we consider only the condensed phases 
+(solid and liquid)  p is considered not significant (constant).
+
+
+--- PAGE 8 ---
+Phase diagrams are very useful for different applications; for 
+example, thanks to them you can:
+- Determine the number and type of phases as temperature and 
+composition vary;
+- Calculate the relative quantities of the phases present at the 
+equilibrium;
+- Determine the maximum solubility, in equilibrium conditions, of 
+one component in another;
+- Know the melting temperature of the various phases;
+- Determine the temperature at which phase transformations occur.
+
+
+--- PAGE 9 ---
+Gibbs’ rule or phases rule 
+Gibbs’ rule (phases rule) establishes mathematically the relati onship 
+between the number of variables that can change (V), the number of 
+components (C), the number of phases (f) and the number of 
+physical parameters (p, T):
+V = C – f + n 
+Since p = cost, then the Gibbs’ rule can be rewritten as: 
+V = C – f + 1 
+In binary systems C = 2, thus: 
+V = 3 – f
+
+
+--- PAGE 10 ---
+
+
+
+--- PAGE 11 ---
+
+
+
+--- PAGE 12 ---
+Classification of phase diagrams 
+- Full solubility in the solid state 
+- No solubility in the solid state (eutectic)
+- Partial solubility in the solid state (eutectic)
+- Peritectic 
+- Presence of congruent/non-congruent melting
+
+
+--- PAGE 13 ---
+Complete solubility in liquid 
+and solid state 
+e.g. Cu-Ni or Ag-Au. 
+V=C-f+n 
+Curve of liquidus 
+Curve of solidus
+
+
+--- PAGE 14 ---
+How to read composition of phases
+
+
+--- PAGE 15 ---
+How to read % of phases
+
+
+--- PAGE 16 ---
+How to read the structure morphology
+
+
+--- PAGE 17 ---
+
+
+
+--- PAGE 18 ---
+Effect of solid solution strengthening on: 
+Tensile strength ( TS ) Ductility ( %EL )
+Adapted from Fig. 9.6(a), 
+Callister & Rethwisch 8e. 
+Tensile Strength (MPa) 
+Composition, wt% Ni 
+Cu Ni 
+0 20 40 60 80 100 200 
+300 
+400 
+TS for 
+pure Ni 
+TS for pure Cu 
+Elongation (%EL) 
+Composition, wt% Ni 
+Cu Ni 
+0 20 40 60 80 100 20 
+30 
+40 
+50 
+60 
+%EL for 
+pure Ni 
+%EL for pure Cu 
+Adapted from Fig. 9.6(b), 
+Callister & Rethwisch 8e.
+
+
+--- PAGE 19 ---
+“Eutectic” (from Greek) = “eu”, which means something easy or 
+good, and “tactic”, which is the process of melting. So the general 
+meaning in Greek is something that melts in a good manner .
+L  α + β L  A + B     or
+
+
+--- PAGE 20 ---
+Complete solubility in the liquid state, no 
+solubility in the solid state
+
+
+--- PAGE 21 ---
+Complete solubility in the liquid state, 
+partial solubility in the solid state
+
+
+--- PAGE 22 ---
+
+
+
+--- PAGE 23 ---
+Formation of a compound with congruent melting 
+In this case: complete solubility in the liquid state, no solubility in the 
+solid state
+
+
+--- PAGE 24 ---
+
+
+
+--- PAGE 25 ---
+Formation of a compound with non-congruent melting 
+In this case: complete solubility in the liquid state, no solubility in the 
+solid state
+
+
+--- PAGE 26 ---
+Peritectic 
+transformation 
+L + d  g
+
+
+--- PAGE 27 ---
+
+
+
+--- PAGE 28 ---
+
+
+
+--- PAGE 29 ---
+
+
+
+--- PAGE 30 ---
+
+
+
+--- PAGE 31 ---
+
+
+
+--- PAGE 32 ---
+
+
+
+--- PAGE 33 ---
+
+
+
+--- PAGE 34 ---
+Supero il limite di 
+solubilità: 
+Compare la seconda 
+fase β
+
+
+--- PAGE 35 ---
+
+
+
+--- PAGE 36 ---
+B E
+X Z
+l and m are just above and 
+below the euctectic T 
+A
+D
+
+
+--- PAGE 37 ---
+
+
+
+--- PAGE 38 ---
+
+
+
+--- PAGE 39 ---
+
+
+
+--- PAGE 40 ---
+
+
+
+--- PAGE 41 ---
+Eutectic structure (Pb-Sn)
+
+
+--- PAGE 42 ---
+RAFFREDDAMENTO DI LEGHE EUTETTICHE 2
+
+
+--- PAGE 43 ---
+RAFFREDDAMENTO DI LEGHE EUTETTICHE 3
+
+
+--- PAGE 44 ---
+RAFFREDDAMENTO DI LEGHE EUTETTICHE 3 
+Abbassando la 
+Temperatura al di sotto 
+di T E le fasi restano alfa 
+e beta, ma cambiano di 
+composizione e in 
+rapporto quantitativo 
+seguendo le curve di 
+solvus
+
+
+--- PAGE 45 ---
+RAFFREDDAMENTO DI LEGHE IPEREUTETTICHE
+
+
+--- PAGE 46 ---
+RAFFREDDAMENTO DI LEGHE IPEREUTETTICHE 2
+
+
+--- PAGE 47 ---
+RAFFREDDAMENTO DI LEGHE IPEREUTETTICHE 3
+
+
+--- PAGE 48 ---
+
+
+
+--- PAGE 49 ---
+
+
+
+--- PAGE 50 ---

@@ -1,0 +1,70 @@
+
+
+--- PAGE 1 ---
+STM Exercise 7
+Sara Ferraris
+sara.ferraris@polito.it
+Phase Diagrams
+(partial solubility in the solid state)
+
+
+--- PAGE 2 ---
+Complete solubility in the liquid state, 
+partial solubility in the solid state
+
+
+--- PAGE 3 ---
+Exercise 1: determine the phase present, their composition and relative amounts in the points A, B, C (at the beginning of 
+the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the phase diagram. 
+Schematize the microstructure in each point.
+A
+BC
+D
+E
+
+
+--- PAGE 4 ---
+ 
+ 
+A
+B
+C
+D
+E
+F
++L
++L
+Exercise 2: determine the phase present, their composition and relative amounts in the points A, B, C, D, E and F indicated
+in the phase diagram. Schematize the microstructure in each point.
+
+
+--- PAGE 5 ---
+
+
+
+--- PAGE 6 ---
+(a) The constitution point for a Pb-25wt% Sn alloy at 250 oC lies in a two-phase field. Construct a tie-line on the figure and 
+read off the two phases and their compositions.
+(b) The alloy is slowly cooled to 200 oC. At this temperature, identify the phases and their compositions 
+(c) The alloy is cooled further to 150 oC. At this temperature, identify the phases and their compositions. 
+(d) Indicate with arrows on the figure the lines along which the compositions of phase 1 and phase 2 move
+during slow cooling from 250oC to 200oC.
+
+
+--- PAGE 7 ---
+Consider Pb-20wt% Sn at 250 oC in Figure 
+A constitution point in the two-phase field: liquid plus Pb-rich solid. 
+Find the proportions of each phase
+
+
+--- PAGE 8 ---
+Determine the phase/s present, the composition/s and relative 
+amount/s for an alloy with 50%Ti at 1100°C.
+
+
+--- PAGE 9 ---
+Complete the following diagram
+
+
+--- PAGE 10 ---
+Complete the following diagram

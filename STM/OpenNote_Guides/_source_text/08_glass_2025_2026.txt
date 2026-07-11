@@ -1,0 +1,579 @@
+
+
+--- PAGE 1 ---
+1
+GLASS 
+and related products
+
+
+--- PAGE 2 ---
+2
+Glasses exhibit an AMORPHOUS STRUCTURE :
+ they have a disordered structure (non-crystalline); 
+ there is no long-range atomic order; 
+ there is short-range atomic order.
+Glass structure 
+SiO 2 Non-crystalline 
+(silica glass) 
+Crystalline 
+(quartz) 
+Note that in silica glass the short-range order is only represented by the [SiO 4]4-
+tetrahedral unit (1 atom of Si surrounded by 4 atoms of O, forming a “pyramid”)  
+ Si atom 
+o O atom
+
+
+--- PAGE 3 ---
+http://ceramics.org/ceramic-tech-
+today/new-energy-landscapes-
+reveal-glass-states-have-rough-
+fractal-basins 
+Glass is a mystery. 
+That’s because glasses are amorphous and lack the 
+degree of order achieved in crystalline structures. In a 
+glass, molecules are held in place by their neighbor 
+molecules in less predictable and disordered 
+configurations. 
+Because of these interesting features, the 
+thermodynamics of glass states are not described by a 
+simple model. But research from Duke University offers 
+insights that may be help to unlock these mysteries by 
+providing a new 
+energy landscape of glasses. The 
+work shows that the landscape, which maps all possible 
+energy positions of the glass molecules, is much 
+rougher than previously believed. 
+According to a Duke 
+press release , lead 
+author Patrick Charbonneau says, “There have been 
+beautiful mathematical models, but with sometimes 
+tenuous connection to real, structural glasses. Now we 
+have a model that’s much closer to real glasses.” 
+Charbonneau, a professor of chemistry and physics at 
+Duke, and a team of scientists used mathematical 
+models and theory to analyze how glass molecules 
+behave,
+
+
+--- PAGE 4 ---
+4
+Glass solidification Crystal solidification 
+Glasses do not solidify in the same sense of crystalline materials: u pon cooling, 
+glasses become more and more viscous and there is no definite temperature at 
+which the liquid transforms into solid as for crystalline materials.
+GLASSES: 
+glass transition temperature T g
+above which glass 
+progressively softens 
+Tg
+CRYSTALLINE SOLIDS: 
+melting temperature T m
+
+
+--- PAGE 5 ---
+5
+Bonds in amorphous solids (e.g.
+glasses) do not break all 
+together at a certain 
+temperature T
+m: an exact 
+melting point cannot be defined, 
+but the amorphous solids 
+soften step by step .
+Tg can be practically viewed as the temperature at which glass s tarts to 
+change from a rigid state to a “rubber-like state”.
+In glasses, we can define T m as “liquid temperature”, i.e. the temperature 
+above which the material becomes a stable liquid (it complet ely changes 
+from a “rubber-like” state to a liquid state).
+
+
+--- PAGE 6 ---
+Specific volume 
+temperature 
+glass 
+Crystalline material 
+liquid 
+Undercooled liquid 
+two options here !
+Tg Tm
+Glass: internal «friction» 
+among molecules!
+
+
+--- PAGE 7 ---
+Glass transition temperature 
+1.7
+Most commercial glasses are obtained by rapid cooling of a 
+viscous liquid below a typical “freezing” temperature, known as 
+glass transition temperature , Tg.
+Such T is fundamental to define the properties of a certain 
+glass: 
+- It is in general around 2/3 of the melting T  Tg = 2/3 Tm
+- above Tg the glass has a rubber-like behaviour 
+- below Tg the glass is a rigid and brittle material
+
+
+--- PAGE 8 ---
+1. Ceramics: - inorganic oxides  traditional glasses (SiO 2, TeO 2, etc.) 
+- inorganic fluorides  fluoride glasses 
+- inorganic chalcogenides  chalcogenide glasses 
+2. Metals: amorphous metals (obtained by casting molten metal on thin 
+tapes with cooling speed of 10 7 °C/s) 
+3. Organic compounds: glycerin, glucose (caramel) 
+4. Polymers: in polymers amorphous zones are always present (PET), 
+some polymers are almost completely amorphous (e.g. PMMA) 
+5. Some native elements like S, Se, P 
+General definition of “glass” : any substance that, under suitable 
+conditions, can turn into the amorphous state 
+Types of amorphous materials
+
+
+--- PAGE 9 ---
+9
+Glass-forming liquids : upon cooling, viscous molten material (mixtures of 
+inorganic oxides such as SiO 2, CaO, Na 2O, MgO…) reaches a temperature 
+below the solidification temperature without crystalliza tion  there is no time 
+for crystalline structure formation during conventional c ooling of a glass-
+forming liquid.
+This occurs as atomic arrangement in liquid material 
+is blocked by high 
+viscosity : the random atomic structure of the liquid is “frozen” in the solid state 
+out of thermodynamic equilibrium.
+Example : viscosity of SiO 
+2 fused at 1720 °C is about 10 8 times higher that 
+that of H2O at 20 °C!!! 
+Amorphous structures are thermodynamically metastable (they do not 
+represent the configuration at the lowest energy) ; therefore, they 
+progressively will move into crystalline structures accor ding to 
+thermodynamic and kinetic conditions ( DEVITRIFICATION can take several 
+thousands of years at room temperature, but this process can be accelerated 
+by thermal treatment below Tm).
+Glass formation
+
+
+--- PAGE 10 ---
+10 
+Note that glasses formally belong to the class of CERAMIC 
+MATERIALS .
+In fact, we can divide ceramics into 3 sub-families:
+ FULLY CRYSTALLINE CERAMICS (e.g. most of 
+rocks and stone 
+materials used in construction, that can be considered as “natural 
+ceramics”; cements , that can be considered “artificial ceramics”;
+advanced or technical ceramics such as alumina and zirconia );
+ GLASSES (completely amorphous, non-crystalline materials);
+ GLASS-CERAMICS , in which one or more crystalline phases are 
+embedded in an amorphous matrix of residual glass; devitrification can 
+be deliberately carried out on starting glasses by thermal t reatment to 
+impart better properties to the material (for instance, gla ss-ceramics 
+exhibit superior mechanical properties, such as strength, hardness and 
+stiffness, in comparison to their parent glasses).
+Glasses vs. ceramics?
+
+
+--- PAGE 11 ---
+11 
+NETWORK 
+FORMERS: 
+(e.g. SiO 2, B 2O3): 
+oxides able to form 
+glassy structure 
+NETWORK 
+MODIFIERS: 
+(e.g. CaO, Na 2O): 
+oxides that are not able 
+to form glassy 
+(polyhedral) networks 
+but their cations are 
+incorporated into the 
+glass network (e.g. in 
+the SiO 2-based one) 
+INTERMEDIATES: 
+(e.g. TiO 2, Al 2O3): oxides 
+that do not form the network 
+but can substitute atoms of 
+the forming network, thereby 
+becoming part of the network 
+and stabilizing it 
+Glass constituents (inorganic oxides)
+
+
+--- PAGE 12 ---
+12 
+NETWORK FORMERS 
+NETWORK MODIFIERS
+
+
+--- PAGE 13 ---
++Na 2O
+Glass structure: effect of alkali oxide 
+ Si ─ O ─ Si  + Na 2O →  Si ─ O -Na + + +Na -O ─ Si 
+NBO: Non-Bridging Oxygen 
+BO: Bridging Oxygen
+
+
+--- PAGE 14 ---
+14 
+Network of a 
+quaternary (4-oxide) glass 
+belonging to the 
+SiO 2-Al 2O3-NaO-CaO 
+system
+
+
+--- PAGE 15 ---
+15 
+Pouring in moulds (e.g. 
+for windows) or in water 
+for very rapid cooling 
+Reagents mixing in a 
+crucible (e.g. SiO 2, 
+carbonates of Na and 
+Ca, Al 2O3…) 
+Melting in high-
+temperature furnaces 
+(typically above 1000 °C) 
+Glass synthesis 
+The most commonly used method used for making glasses is the 
+melting-quenching route 
+Furthermore, upon cooling, soft glass can undergo pressing and/or air blowing (for 
+instance to produce bottles) or be drawn in fibres (for instance to be used as 
+reinforcing phase in polymer-matrix composites).
+
+
+--- PAGE 16 ---
+Strain point < T g < Annealing point 
+Conventional 
+values of viscosity
+
+
+--- PAGE 17 ---
+17 
+Float glass production  use of a melted TIN bath
+
+
+--- PAGE 18 ---
+18 
+Coloured glasses 
+We can add chromophore ions in form of small quantities of special metal oxides 
+to the basic glass composition
+
+
+--- PAGE 19 ---
+19 
+Mechanical behaviour of glasses 
+Usually glasses are not used as structural materials, but th ey can sustain 
+loads (windscreen and glass windows are exposed to wind, imp acts…)
+Glasses are brittle materials! 
+Stress concentration near pores or 
+macroscopic defects (cracks, flaws) 
+ brittle materials show better 
+strength under compressive load 
+Mechanical properties of glasses, together with other 
+physical properties (e.g. optical properties, transparency…) 
+STRONGLY depend on GLASS COMPOSITION (= the type 
+and amount of the oxides we use for making the glasses)
+
+
+--- PAGE 20 ---
+20 
+Density : 2.2-6.3 g/cm 3; for common glasses 2.5 g/cm 3
+Hardness : 5.5-6.5 Mohs (for instance higher than metals, but lower than 
+quartz and granite) 
+Elastic (Young’s) modulus : E = 75 GPa 
+Compressive strength :  = 1000 MPa 
+Tensile/flexural strength :  = 40 MPa for common glasses; up to 200 
+MPa for special glasses 
+Thermal expansion coefficient: 9×10 -6 K-1 (lower than metals but quite 
+high: for instance, a 2-m long glass fiber shows elongation o f 0.72 mm 
+because of heating of 40 °C) 
+Thermal conductivity : very low 
+Thermal shock resistance : low for common glass, good for silica glass 
+Refractive index : n = 1.5 for common glasses 
+Typical features of glasses
+
+
+--- PAGE 21 ---
+21 
+The most common glasses are silica-soda-lime (SiO 2-
+Na 2O-CaO system) glasses:
+ Low cost 
+ Easy processing and forming 
+ Good resistance to devitrification and stability in water 
+ Al 2O3 addition increases glass durability 
+ Uses: house windows, car/train windows, windscreens, 
+light bulb…
+ Poor resistance to heat and to sudden changes of 
+temperature
+
+
+--- PAGE 22 ---
+22 
+KIC critical 
+parameters 
+(defect length and 
+stress) 
+above which there is 
+failure ( all materials )
+KIc = Y c (p a) 1/2 
+(ASTM E 399)
+
+
+--- PAGE 23 ---
+23 
+Safety glasses 
+Designers must choose glasses taking into account some seve re 
+rules.
+Glass sheets can be subjected to:
+ Dynamic loads (wind, pressure of the crowd) 
+ Static loads (own weight, snow, hydrostatic pressure) 
+ Accidental loads (hail, vibrations, torsion, seismic phenomena) 
+ Impact with soft body (people and animals, usually accident al and 
+with low intensity) 
+ Impact with hard body (stones, burglary tools) 
+ Impact with projectile (fire-arms) 
+ Thermal shocks (fire)
+
+
+--- PAGE 24 ---
+24 
+ARMOURED GLASS 
+Glass containing inside a metallic 
+network.
+Mechanical strength is not particularly 
+enhanced (slight increase of bending 
+resistance) but there is 
+flame 
+propagation delay in case of fire 
+if glass softens or breaks, metallic 
+network allows to maintain glass in its 
+position for certain period.
+TEMPERED GLASS 
+Using physical (thermal  fast 
+solidification of the surface) or 
+chemical processes, 
+permanent 
+compressive stress on the surface 
+and tensile stress in the core are 
+induced  superior resistance to 
+mechanical impacts in windows
+
+
+--- PAGE 25 ---
+25 
+http://www.corning.com/gorillaglass/chemical_strengthening.aspx 
+K+ ions are larger than 
+Na + ones and induce a 
+compressive state of 
+stress on the glass ion-
+exchanged surface. 
+Chemically 
+tempered glass
+
+
+--- PAGE 26 ---
+26 
+Float glass 
+Tempered glass 
+Multilayered glass 
+- Good shock resistance 
+- Rupture is localized 
+- Glass fragments remain attached to the 
+polymeric sheet 
+MULTILAYERED GLASS
+
+
+--- PAGE 27 ---
+27 
+Foamed glass (or cellular glass) 
+Used for thermal and acoustic insulation, it has a cellular, 
+water-proof and gas-proof structure .
+Main features: good insulation ability, low density, high chemical 
+stability, satisfactory mechanical performances (adequate 
+compressive strength).
+It is characterized by a high amount of small, closed ( non-
+interconnected ) PORES  suitable for thermal and acoustic 
+insulation (
+air is a bad heat and sound conductor ).
+It is used for civil building (load-bearing substructures for roof , 
+paving, walls) and industrial use (high- or low-temperature 
+plants, gas tanks, chimneys, tunnels).
+
+
+--- PAGE 28 ---
+28 
+cell 
+strut 
+Commercial name: 
+FOAMGLAS ®
+Major constituents: 
+SiO 2 65.77 %wt. 
+Na 2O 13.44 %wt. 
+CaO 5.83 %wt. 
+Al 
+2O3 5.58 %wt. 
+Minor constituents: 
+Fe 2O3 , MnO, K 2O, SO 3, 
+BaO, TiO 2 , SrO, carbon 
+< 9.38 %wt. 
+SiO 2
+Others
+
+
+--- PAGE 29 ---
+29 
+Attractive properties of FOAMGLAS ®: cheap, ease of 
+processing, eco-friendly 
+FOMAGLAS ® is an excellent material for civil construction and insulat ion 
+purposes. It is a lightweight, extremely fine-pored expand ed glass with 
+millions of hermetically sealed pores . Since no diffusion can take place, 
+the material is watertight and achieves an efficient barrie r against soil 
+humidity, vapour and aggressive agents from outside.
+Besides the outstanding mechanical and thermal properties of the product, 
+foamed glass manufacture is an exemplary process for 
+WASTE 
+RECYCLING on an industrial basis. Foam glass can be manufactured fully
+out of waste glass, with only a minimum of virgin additives.
+Foamed is especially suitable for thin-walled thermal insu lations, such as 
+for 
+window frames, cement bricks and insulating plasters (FOAM GLAS ® is 
+often joined to another “traditional” material) .
+
+
+--- PAGE 30 ---
+30 
+Foamed glass is prepared by gas 
+blowing in a glass melt upon cooling, 
+or by introducing in the starting glass 
+composition particular components 
+that, upon heating (reagents melting) 
+can decompose developing gas .
+Foamed glass processing is 
+eco-
+friendly : the majority of the starting 
+raw material is constituted by glass 
+from broken windscreen, recycled 
+glass and silica sandstone.
+Starting glass scraps are molten, and 
+the produced glass is ground and 
+milled with coal powder.
+This glass/coal blend is then 
+introduced in appropriate moulds that 
+are only partially filled; the moulds are 
+sealed and thermally-treated in a
+temperature range within 600-800 °C.
+Upon heating, glass powders 
+sinter and gas bubbles develop 
+(coal burning-out), thus the mass 
+occupy the whole mould volume.
+
+
+--- PAGE 31 ---
+31 
+• FOAMGLAS ® is mainly fabricated in form of plates or panels (= 
+assembled plates), but can be also modelled in complex shapes.
+• The plates and panels are normally put in place with the aid o f 
+molten bitumen (= blend of petroleum-derived natural 
+hydrocarbons) or by means of synthetic adhesives.
+• FOAMGLAS ® is manually cut and requires no special tools for 
+installation or for the protection of the operator.
+
+
+--- PAGE 32 ---
+Properties 
+and Uses of 
+Some 
+Glasses 
+and Glass-
+Ceramics 
+Composition Property Use 
+Glasses 
+Al 2O3, MgO, CaO, 
+SiO 2
+Translucent, chemicall 
+y
+resistant 
+Window glass, 
+bottles 
+PbO, SiO 2 High refractive index Lead crystal 
+B2O3, SiO 2, Na 2O Acid resistant, low 
+expansion on heating Pyrex 
+Glass Ceramics 
+MgO, Al 2O3, SiO 2
+Insulator with high 
+mechanical strength 
+at 
+high temperatures 
+Spark plug 
+insulators 
+CaSiO 3, 
+CaMgSi 2O6,
+CaAl 2Si 2O8
+Wear resistant Building 
+materials 
+Li 2Si 2O5
+Resistant to thermal 
+shock 
+Nose cones on 
+rockets, 
+cookware 
+Properties are dictated by: 
+- composition (e.g. for E: ↑ SiO 
+2, Al 2O3 ↑ E; for CTE: ↑ modifiers ↑ CTE)
+- post-processing treatments (e.g. tempering, thermal  devetrification)
+
+
+--- PAGE 33 ---
+Mechanical resistance of glass over time 
+The mechanical strength of glasses 
+and many ceramics tends to 
+progressively decrease over time 
+• After a certain time, glass breaks 
+due to a static stress which is lower 
+than the expected one.
+• Thus: the defect population evolves 
+with time 
+This is a phenomenon known as 
+static fatigue .
+
+
+--- PAGE 34 ---
+Effects of time need to be taken into account 
+Mech. 
+strenght 
+depends 
+on: 
+Stress-corrosion phenomena 
+(
+static fatigue )
+presence of defects  statistics 
+(e.g. Weibull)
+Time-depending loads 
+(
+dynamic fatigue )
+
+
+--- PAGE 35 ---
+In glasses and silicon oxide-based 
+ceramics, water molecules break the 
+deformed bonds at the tip of the crack.
+• There is an energy barrier to overcome 
+(threshold) in order to break the bonds 
+• Synergistic effects of stress and 
+chemical attack on bonds 
+• Crack propagation is limited by the 
+diffusion rate of the water (or aggressive 
+species) at the tip of the crack.
+Crack tip 
+If the bridging oxygen (see crack tip) is removed  crack extension 
+Moist environment  crack propagation even if K < K IC
+
+
+--- PAGE 36 ---
+Where the bridging oxygen Si–O–Si is removed, the glass netw ork is 
+interrupted (as it is interrupted along the crack)  corrosion and removal of 
+the bridging oxygen involves the extension of the crack (sub critical 
+propagation of crack).
+If a load is applied that opens the crack 
+accelerated propagation 
+-Si-O-Si- + (H +,OH -)water  -Si-OH + HO -Si-

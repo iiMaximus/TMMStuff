@@ -1,0 +1,231 @@
+
+
+--- PAGE 1 ---
+Phase diagrams: examples
+
+
+--- PAGE 2 ---
+
+
+
+--- PAGE 3 ---
+A3
+
+
+--- PAGE 4 ---
+4
+Steel microstructure at room 
+temperature 
+• Hypo-eutectoidic 
+(C<0,8%): ferrite 
+and pearlite 
+• eutectoidic 
+(C=0,8%): pearlite 
+• Hyper-eutectoidic 
+(C>0,8%): 
+cementite and 
+pearlite
+
+
+--- PAGE 5 ---
+Hypo-eutectoidic Hyper-eutectoidic 
+Tensile 
+strength 
+Yield 
+strength 
+Mechanical strength 
+wt%      carbon                                             
+Mechanical 
+properties of 
+steel 
+vs. 
+microstructure
+
+
+--- PAGE 6 ---
+Trattamenti termici per gli 
+acciai 
+Materiali per l’Ingegneria 
+M.Ferraris 6
+Mechanical properties of steel vs. microstructure
+
+
+--- PAGE 7 ---
+7
+
+
+--- PAGE 8 ---
+655 °C 600 °C                      534 °C                      487 °C
+Microstructure of pearlite formed at different isothermal T: 
+If > T  coarse pearlite (> diffusion)
+If < T  fine pearlite (< diffusion)
+
+
+--- PAGE 9 ---
+If a steel with pearlitic microstructure is heated just below 
+eutectoidic T for long time (e.g. 700 °C 18-24 h)  globular 
+pearlite or spheroidite .
+Driving force  minimizing the interfacial surface area 
+between ferrite and cementite.
+
+
+--- PAGE 10 ---
+Spheroidite  < interfacial area  < density of GBs 
+easier plastic deformation
+
+
+--- PAGE 11 ---
+11 
+Martensite 
+Austenite  Martensite 
+Fast cooling from A3 to RT (quenching)
+A3: point of austenitization (mobile point!) 
+Martensite: polymorphic transformation of austenite to 
+martensite (single phase)  it can host a higher amount of 
+C  solid solution effect against motion of dislocations.
+
+
+--- PAGE 12 ---
+12 
+Microstructure and mechanical properties of steels
+
+
+--- PAGE 13 ---
+Tempering 
+Increase of ductility and toughness of martensite  heat treatment at 
+250-650 °C
+Phase transformation: 
+martensite  ferrite + cementite 
+Tempered martensite: fine particles of cementite in a matrix of ferrite 
+ sorbite (similar to spheroidite)
+
+
+--- PAGE 14 ---
+For tempered martensite: 
+ > tempering T 
+ > rate of particle 
+growth 
+ residual ferrite with low 
+C 
+ > ductility but < yield 
+strenght and hardness
+
+
+--- PAGE 15 ---
+Heating to 
+complete 
+austenitization 
+Increase 
+dislocations…. 
+quenching
+
+
+--- PAGE 16 ---
+Leghe di allumino Materiali per l’Ingegneria 
+M.Ferraris 16
+
+
+--- PAGE 17 ---
+17 
+Al-Cu 
+Precipitation hardening for Al-Cu alloys 
+CuAl 2
+intermetallic
+
+
+--- PAGE 18 ---
+18 
+a
+Al-Cu 
+Precipitation hardening for Al-Cu alloys
+
+
+--- PAGE 19 ---
+19 
+a
+Al-Cu 
+Precipitation hardening for Al-Cu alloys
+
+
+--- PAGE 20 ---
+20 
+• Example of 
+precipitation 
+hardening: Al-Cu, Cu-
+Sn (bronze), Mg-Al, 
+…. 
+o invecchiamento
+
+
+--- PAGE 21 ---
+21 
+Here to maximize mechanical strength 
+Guinier-Preston zones
+
+
+--- PAGE 22 ---
+
+
+
+--- PAGE 23 ---
+23 
+Mechanical 
+properties vs. 
+microstructure of Al 
+alloys and thermal 
+treatments 
+Higher amount of Cu  higher reinforcing 
+effect  higher density of precipitates
+
+
+--- PAGE 24 ---
+Practical examples of the use of 
+phase diagrams in materials design
+
+
+--- PAGE 25 ---
+
+
+
+--- PAGE 26 ---
+230 
+a b c
+At 205 °C  (ab/ac)×100 = 65%
+
+
+--- PAGE 27 ---
+P
+
+
+--- PAGE 28 ---
+
+
+
+--- PAGE 29 ---
+Historical example 
+In 1958, at the beginning of the US space project, an 
+engineer proposed to use tungsten (W) with a purity of 
+99.9% as the material for the exhaust nozzles of the 
+engines.
+The choice was based on a few points:
+• tungsten has a melting temperature of 3410 °C, about 
+400 °C above the temperature of the exhaust gases;
+• tungsten is hard and can resist abrasion due to hot 
+exhaust gases 
+• tungsten was not too expensive ($ 25,000 per nozzle) as 
+compared to advanced ceramics at that time
+
+
+--- PAGE 30 ---
+Three prototypes are produced and tests started.
+The first nozzle only resisted a few seconds at about 3000 
+°C and then melted 
+The second and third nozzles melted even before reaching 
+3000 °C
+The residues of the two destroyed nozzles were analyzed;
+the composition of the material was, in both cases, W =
+98.5% and C = 1.5%
+
+
+--- PAGE 31 ---
+~ 0,1% C

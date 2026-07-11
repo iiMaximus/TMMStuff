@@ -1,0 +1,466 @@
+
+
+--- PAGE 1 ---
+STM Exercise 6
+Phase Diagrams
+(no solubility in the solid state)
+(partial solubility in the solid state)
+
+
+--- PAGE 2 ---
+Exercise 1: determine the phase present, their composition and relative amounts in the point A, B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+A
+B
+C
+D
+E
+Composition wt%B
+
+
+--- PAGE 3 ---
+A
+B
+C
+D
+E
+Point A:
+Phases: 1 phase liquid
+Composition: 35%B, 65%A
+Relative amount: 100% liquid phase
+Composition wt%B
+L
+
+
+--- PAGE 4 ---
+A
+B
+C
+D
+E
+Composition wt%B
+Point B:
+Phases: 2 pahses solid (A) +liquid (L)
+Composition: 2 phases region →
+horizontal rule
+Composition of liquid (L): CL= 45% B, 
+55%A
+Composition of solid (A): CA= 100%A
+Relative amount: 2 phases region →
+lever rule
+% A= (45-35)/(45-0)*100=22%
+%L=(35-0)/(45-0)*100=78%
+CLCA
+A A
+A
+A
+
+
+--- PAGE 5 ---
+A
+B
+C
+D
+E
+Composition wt%B
+Point C:
+Phases: 2 pahses solid (A) +liquid (L)
+Composition: 2 phases region →
+horizontal rule
+Composition of liquid (L): CL= 60% B, 
+40%A
+Composition of solid (A): CA= 100%A
+Relative amount: 2 phases region →
+lever rule
+% A= (60-35)/(60-0)*100=42%
+%L=(35-0)/(60-0)*100=58%
+CLCA
+A A
+A
+AA
+A
+A
+A
+
+
+--- PAGE 6 ---
+A
+B
+C
+D
+E
+Composition wt%B
+Point D:
+Phases: 2 pahses solid (A) + solid (B)
+Composition: 2 phases region →
+horizontal rule
+Composition of Solid (A): CA= 100%A
+Composition of solid (B): CB= 100%B
+Relative amount: 2 phases region →
+lever rule
+% ATOT= (100-35)/(100-0)*100=65%
+%B=(35-0)/(100-0)*100=35%
+CA
+A A
+A
+AA
+A
+A
+A
+Eutectic A
+Eutectic B
+Primary/pro-eutectic A
+Primary/pro-eutectic A (As in point C  but no formed anymore after eutectic ): % Aprimary= (60-35)/(60-0)*100=42%
+%AEUT= 65-42=23% in (a+b)
+%αprimary​=(CEut​−CD)(CEut​−CA)​×100 lever rule →CEut composition at eutectic reaction the last point 
+where the primary solidification is finished. Using this value into the lever rule to find the primary A solid phase:
+CEut
+CD
+
+
+--- PAGE 7 ---
+A
+B
+C
+D
+E
+Composition wt%B
+Point E:
+Phases: 2 pahses solid (A) + solid (B)
+Composition: 2 phases region →
+horizontal rule
+Composition of Solid (A): CA= 100%A
+Composition of solid (B): CB= 100%B
+Relative amount: 2 phases region →
+lever rule
+% A= (100-35)/(100-0)*100=65%
+%B=(35-0)/(100-0)*100=35%
+CA
+A A
+A
+AA
+A
+A
+A
+Eutectic A
+Eutectic B
+Primary/pro-eutectic A
+
+
+--- PAGE 8 ---
+Exercise 2: determine the phase present, their composition and relative amounts in the points B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+B
+C
+D
+E
+
+
+--- PAGE 9 ---
+Exercise 2: determine the phase present, their composition and relative amounts in the points B, C 
+(at the beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E
+indicated in the phase diagram. Schematize the microstructure in each point.
+B
+C
+D
+E
+Point B:
+Phases: 2 pahses solid (Al2O3) +liquid
+(L)
+Composition: 2 phases region →
+horizontal rule
+Composition of liquid (L): = 40% 
+SnO2, 60%Al2O3
+Composition of solid: = 100% Al2O3
+Relative amount: 2 phases region →
+lever rule
+% Al2O3= (40-20)/(40-0)*100=50%
+%L=(20-0)/(40-0)*100=50%
+A A
+A
+A A=Al2O3
+
+
+--- PAGE 10 ---
+Exercise 2: determine the phase present, their composition and relative amounts in the points B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+B
+C
+D
+E
+Point C:
+Phases: 2 pahses solid (Al2O3) +liquid
+(L)
+Composition: 2 phases region →
+horizontal rule
+Composition of liquid (L): = 92% 
+SnO2, 8%Al2O3
+Composition of solid: = 100% Al2O3
+Relative amount: 2 phases region →
+lever rule
+% Al2O3= (92-20)/(92-0)*100=78%
+%L=(20-0)/(92-0)*100=22%
+A=Al2O3
+A A
+A
+AA
+A
+A
+A
+
+
+--- PAGE 11 ---
+Point D:
+Phases: 2 pahses solid (Al2O3) + solid
+(SnO2)
+Composition: 2 phases region → horizontal
+rule
+Composition of Solid A = 100%Al2O3
+Composition of solid (B): CB= 100%SnO2
+Relative amount: 2 phases region → lever
+rule
+% Al2O3 TOT= (100-20)/(100-0)*100=80%
+%SnO2=(20-0)/(100-0)*100=20%
+A A
+A
+AA
+A
+A
+A
+Eutectic A
+Eutectic B
+Primary/pro-eutectic A
+B
+C
+D
+E
+A=Al2O3
+B=SnO2
+Primary/pro-eutectic Al2O3 (As calculated in C, no more formed later): % 
+Al2O3 PRIM= (92-20)/(92-0)*100=78%
+%AEUT= 80-78=2%
+
+
+--- PAGE 12 ---
+Point E:
+Phases: 2 pahses solid (Al2O3) + solid
+(SnO2)
+Composition: 2 phases region → horizontal
+rule
+Composition of Solid A = 100%Al2O3
+Composition of solid (B): CB= 100%SnO2
+Relative amount: 2 phases region → lever
+rule
+% Al2O3 TOT= (100-20)/(100-0)*100=80%
+%SnO2=(20-0)/(100-0)*100=20%
+A A
+A
+AA
+A
+A
+A
+Eutectic A
+Eutectic B
+Primary/pro-eutectic A
+B
+C
+D
+E
+A=Al2O3
+B=SnO2
+
+
+--- PAGE 13 ---
+Exercise 3: Draw a phase diagram (for generic components A and B), with complete solubility in the liquid state 
+and partial solubility in the solid state. Also indicate the phase/phases present(s) in each region of the phase 
+diagram
+
+
+--- PAGE 14 ---
+Complete solubility in the liquid state, 
+partial solubility in the solid state
+In the liquid state, A and B 
+mixing→ the system always forms 
+single liquid phase (L).
+In the solid state, A and B do not 
+completely dissolve into each 
+other
+
+
+--- PAGE 15 ---
+Complete solubility in the liquid state, 
+partial solubility in the solid state
+The solvus curve separates the region where a single 
+solid solution exists
+α Phase on the left
+It is a solid solution rich in A
+β PHASE :
+• It is a solid solution rich in B
+
+
+--- PAGE 16 ---
+Complete solubility in the liquid state, 
+partial solubility in the solid state
+Because of this limited solid solubility, 
+the phase diagram shows two different 
+solid phases:
+•one solid phase rich in A
+•one solid phase rich in B
+L + α Liquid + α
+L + β Liquid + β
+
+
+--- PAGE 17 ---
+Exercise 4: describe the 
+solidification of alloys with 
+compositions xB’, xB’’, xB’’’ and 
+xB
+eut by drawing schematic 
+microstructures in significant 
+points.
+
+L
++
+L++L
+
+
+--- PAGE 18 ---
+
+
+
+--- PAGE 19 ---
+Exercise 5: determine the phase present, their composition and relative amounts in the points A, B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+A
+B
+C
+D
+E
+
+
+--- PAGE 20 ---
+A
+B
+C
+D
+E
+Point A:
+Phases: 1 phase liquid
+Composition: 30%Ag, 70%Cu
+Relative amount: 100% liquid phase
+L
+
+
+--- PAGE 21 ---
+Point B:
+Phases: 2 pahses solid () +liquid (L)
+Composition: 2 phases region → horizontal
+rule
+Composition of liquid (L): CL= 42% Ag, 
+58%Cu
+Composition of solid (): C= 8%Ag, 
+92%Cu
+Relative amount: 2 phases region → lever
+rule
+% = (42-30)/(42-8)*100=35%
+%L=(30-8)/(42-8)*100=65%
+ 
+
+
+A
+B
+C
+D
+E
+C CL
+
+
+--- PAGE 22 ---
+Point C:
+Phases: 2 phases solid () +liquid (L)
+Composition: 2 phases region → horizontal
+rule
+Composition of liquid (L): CL= 71.9% Ag, 
+28.1%Cu
+Composition of solid (): C= 8%Ag, 
+92%Cu
+Relative amount: 2 phases region → lever
+rule
+% = (71.9-30)/(71.9-8)*100=65.6%
+%L=(30-8)/(71.9-8)*100=34.4%
+ 
+
+
+A
+B
+C
+D
+E
+C CL
+
+
+
+
+
+--- PAGE 23 ---
+Point D:
+Phases: 2 pahses solid () +solid ()
+Composition: 2 phases region → horizontal
+rule
+Composition of solid (): C= 8%Ag, 92%Cu
+Composition of solid (): C= 91.2%Ag, 
+8.8%Cu
+Relative amount: 2 phases region → lever
+rule
+% = (91.2-30)/(91.2-8)*100=73.5%
+%=(30-8)/(91.2-8)*100=26.5%
+A
+B
+C
+D
+E
+C C
+ 
+
+
+
+
+
+Eutectic 
+Eutectic 
+Primary/pro-eutectic 
+
+
+--- PAGE 24 ---
+Point D:
+Phases: 2 pahses solid () +solid ()
+Composition: 2 phases region → horizontal
+rule
+Composition of solid (): C= 2%Ag, 98%Cu
+Composition of solid (): C= 98%Ag, 2%Cu
+Relative amount: 2 phases region → lever
+rule
+% = (98-30)/(98-2)*100=71%
+%=(30-2)/(98-2)*100=29%
+A
+B
+C
+D
+E
+C C
+ 
+
+
+
+
+
+Eutectic 
+Eutectic 
+Primary/pro-eutectic 
+
+
+--- PAGE 25 ---

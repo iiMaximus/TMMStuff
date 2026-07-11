@@ -1,0 +1,662 @@
+                 Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                 A.Y. 2025 - 2026
+
+
+                                                     Enrico Bravi
+                                           enrico.bravi@polito.it
+
+
+Module B – Social Engineering
+and Digital Identity
+B3 – Physical Attacks
+
+
+                                  TORSEC
+                                  Computer and Network Security Group
+   Acknowledgments
+    This lecture deck adapts and reorganizes selected teaching
+    material originally developed by Nicolò Maunero (CINI /
+    Cybersecurity National Lab). Portions of the content are reused
+    under the Creative Commons BY-NC license (see license slide). All
+    modifications, additions, re-organization, and any errors are the
+    responsibility of the course instructor.​
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                    2
+A.Y. 2025 - 2026
+  License & Disclaimer
+              License Information                                            Disclaimer
+        This presentation is licensed under the               ➢ We disclaim any warranties or
+         Creative Commons BY-NC License                         representations as to the accuracy or
+                                                                completeness of this material.
+                                                              ➢ Materials are provided “as is” without
+                                                                warranty of any kind, either express or
+                                                                implied, including without limitation,
+                                                                warranties of merchantability, fitness for a
+                                                                particular purpose, and non-infringement.
+                                                              ➢ Under no circumstances shall we be liable
+                                                                for any loss, damage, liability or expense
+          To view a copy of the license, visit:
+                                                                incurred or suffered which is claimed to have
+   http://creativecommons.org/licenses/by-nc/3.0/legalcode
+                                                                resulted from use of this material.
+                                                              ➢ This material is used and adapted within the
+                                                                course “Cybersecurity and National
+                                                                Defense”.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                           3
+A.Y. 2025 - 2026
+   Learning Goals
+    ➢ analyzing in detail the so called Physical attacks
+    ➢ proposing possible countermeasures, identified as best practices
+      of the so-called Cyber Hygiene
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                     4
+A.Y. 2025 - 2026
+   Social Engineering – Attack Verctors
+    ➢ various types of phishing
+    ➢ posing as others
+    ➢ physical attacks
+    ➢ cognitive type attacks
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              5
+A.Y. 2025 - 2026
+   Social Engineering – Attack Vectors
+    ➢ various types of phishing                               ➢ baiting
+    ➢ posing as others                                        ➢ dumpster diving
+    ➢ physical attacks                                        ➢ key logging
+    ➢ cognitive type attacks                                  ➢ piggybacking or shoulder
+                                                                surfing
+                                                              ➢ physical access
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                           6
+A.Y. 2025 - 2026
+   Baiting
+    ➢    it involves the use of a bait to attract the victim
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                               7
+A.Y. 2025 - 2026
+   Baiting - Example
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              8
+A.Y. 2025 - 2026
+   USB Pendrives
+    ➢    left by the attacker in a place where it can be taken and used by
+         the victim
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                             9
+A.Y. 2025 - 2026
+   Baiting - Example
+    ➢    not only pendrives, but any
+         device connected to the USB
+         port could infect the PC
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              10
+A.Y. 2025 - 2026
+   Attacks Through USB Devices
+    ➢ the attacker creates a USB device that, when connected to a
+      computer, simulates a predefined set of commands (keystrokes)
+      that can install a malicious program (payload) on the computer
+    ➢ they exploit so-called Human Interface Device (HID) or USB
+      drive-by attacks​
+
+
+
+
+                                  [https://www.cyberpointllc.com/posts/cp-human-interface-device-attack.html]
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                            11
+A.Y. 2025 - 2026
+   HID Attacks (I)
+    ➢    an attacker takes:
+           ➢ a programmable embedded
+
+              development platform such as
+              the Teensy 4.0
+           ➢ an associated software package
+
+              such as Peensy or the Social
+              Engineering Toolkit (SET)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              12
+A.Y. 2025 - 2026
+   HID Attacks (II)
+    ➢    then he creates a USB                                ➢   the actual payloads that
+         device which when plugged                                are dropped and executed
+         into a computer will                                     are highly configurable and
+         execute a pre-configured                                 this approach will work on
+         set of keystrokes to drop a                              Linux, Windows and Mac
+         malicious payload onto the                               OS X
+         target computer
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                13
+A.Y. 2025 - 2026
+   Costs
+    ➢ the Teensy 4.0 can be purchased for approximately 24 USD
+    ➢ installing keystrokes and payloads can be very simple due to the
+      highly availability of pre-developed tools online
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                     14
+A.Y. 2025 - 2026
+   Google Security Campaign (I)
+    ➢ the Red Team of Google performed a test to
+      verify the awareness of the company
+      employees on Baiting attacks
+    ➢ the employees were gifted with a USB plasma
+      globe
+    ➢ the globe was loaded with malicious software
+    ➢ When the globe was plugged in it started to
+      send a series of keystrokes to the computer
+      that download the payload to allow remote
+      access to the target machines
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              15
+A.Y. 2025 - 2026
+   Google Security Campaign (II)
+    ➢ this was actually the first link of the kill chain
+    ➢ the target was to steal the plans for Google Glass
+    ➢ some employees got infected (but they were not related with
+      Google Glass) and the attackers were able to use their identity
+      and privilege
+    ➢ they sent malicious emails (to Google Glass employees)
+      impersonating the victims attaching an image (downloaded by a
+      malicious website)
+    ➢ the website allowed the attackers to retrieve the target’s digital
+      fingerprints
+    ➢ the attackers were able to authenticate and download the
+      Google Glass files
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                      16
+A.Y. 2025 - 2026
+   Google Security Campaign (III)
+    ➢ the test ended successfully for the attackers
+    ➢ 17 Google employees’ account were compromised
+    ➢ 257.9 GB of data was stolen
+    ➢ mostly important: 0 alarms were raised
+
+
+
+
+                                                     [https://www.youtube.com/watch?v=TusQWn2TQxQ&t=495s]
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                        17
+A.Y. 2025 - 2026
+   Baiting – Cyber Hygiene
+    ➢ do not connect anything to the USB port of your PC unless it
+      comes from a reliable and trusted source
+    ➢ access USB sticks that are not yours only through Virtual
+      Machines or Sandboxes
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                     18
+A.Y. 2025 - 2026
+   Baiting Example
+    ➢    any device you
+         connect to via a USB
+         port could infect your
+         PC or smartphone
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              19
+A.Y. 2025 - 2026
+   Smartphone Charging (I)
+    ➢    When using a public charge
+         point or the one available in
+         your hotel room, always
+         connect your charger to the
+         electrical outlet: never plug
+         the cable directly into the
+         USB outlet: this could infect
+         your smartphone!
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              20
+A.Y. 2025 - 2026
+   Smartphone Charging (II)
+    ➢    alternatively, between the cable and the USB socket you can
+         insert a special device characterized by connecting only the
+         power pins, leaving those used for data transmission
+         disconnected
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        21
+A.Y. 2025 - 2026
+   Even Charging Can Be Dangerous
+
+
+
+
+    ➢    in this paper the authors demonstrated that it is possible to infer
+         user behavior (e.g., services used) analyzing the power
+         consumption of a device connected to the electrical network
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                               22
+A.Y. 2025 - 2026
+   Social Engineering – Attack Vectors
+    ➢ various types of phishing                               ➢ baiting
+    ➢ posing as others                                        ➢ dumpster diving
+    ➢ physical attacks                                        ➢ key logging
+    ➢ cognitive type attacks                                  ➢ piggybacking or shoulder
+                                                                surfing
+                                                              ➢ physical access
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                           23
+A.Y. 2025 - 2026
+   Dumpster Diving
+    ➢    it refers to the collection and analysis of scrapped items or
+         materials thrown by the victim
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                         24
+A.Y. 2025 - 2026
+   Dumpster Diving - Examples
+    ➢ an attacker can find a lot of personal data or sensitive company
+      information on:
+    ➢ dismissed:
+         ➢ devices with storage capability (e.g., PCs, external HDD,
+
+           USB sticks, tablets, smart phones, virtual assistants)
+         ➢ paper documents (e.g., diaries, calendars, notebooks)
+
+         ➢ accounts (e.g., e-mail, social, cloud)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                         25
+A.Y. 2025 - 2026
+   The Issue
+    ➢ unfortunately, unlike what you might think, in a computing
+      system, when you “delete” a file, you don't actually physically
+      delete anything, you simply ask the Operating System to delete
+      that file…or, more precisely, you inform it that you are not going
+      to use that file any longer
+    ➢ thereinafter, the Operating System assumes that the space
+      previously occupied by the deleted file is available and therefore
+      it can “rewrite” it, when needed
+    ➢ however, the file is still physically stored on the disk and as long
+      as it is not overwritten, it can easily be recovered
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                         26
+A.Y. 2025 - 2026
+   Dumpster Diving – Cyber Hygiene
+    ➢    ALWAYS perform sanitizing operations before disposing of any
+         device with memory (smartphones, tablets, PCs, external HD,
+         pendrives, printers, smartTVs, ...)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        27
+A.Y. 2025 - 2026
+   Sanitizing
+    ➢    Is the process of removing sensitive data from a system or
+         storage device with the intent that the data cannot be recovered
+         by any known technique
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                            28
+A.Y. 2025 - 2026
+   Sanitizing - Approaches
+    ➢ different solutions (hardware or software) are adopted depending
+      on:
+          ➢ security level required
+
+          ➢ type of device to be sanitized
+
+    ➢ hardware
+          ➢ degaussing
+
+    ➢ software
+          ➢ wiping
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                     29
+A.Y. 2025 - 2026
+   Degaussing
+    ➢    Is the removal or reduction of a magnetic field of a hard disk or
+         drive, using a device called a degausser that has been
+         specifically designed for the media being erased
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                             30
+A.Y. 2025 - 2026
+   Degaussing Side Effects
+    ➢ applied to magnetic media, degaussing may purge an entire
+      media element quickly and effectively
+    ➢ degaussing often renders hard disks inoperable, as it erases
+      low-level formatting that is only done at the factory during
+      manufacturing
+    ➢ in some high-security environments, one may be required to use
+      a degausser that has been approved for the task
+         ➢ for example, in US government and military jurisdictions,
+
+            one may be required to use a degausser from the NSA’s
+            “Evaluated Products List”
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                   31
+A.Y. 2025 - 2026
+   Wiping
+    ➢    Wiping, aka Overwriting or Shredding, writes new data over each
+         bit or block of file data
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                       32
+A.Y. 2025 - 2026
+   Sanitizing – Regulations
+    ➢    the EU Regulation 2016/679 - GDPR - imposes on organizations:
+            ➢ a new sensitivity to the problem (penalties are very
+
+              severe)
+            ➢ the implementation of tools that allow to easily manage
+
+              procedures for secure deletion of data from computers and
+              other devices, in order not to leave traces of personal data
+              at the time of reuse of the systems or their disposal (e.g.,
+              resale as used, donations, disposal, return at the end of
+              rental/leasing contracts)
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        33
+A.Y. 2025 - 2026
+   Sanitizing – Standards
+    ➢    several standards have been established regarding procedures
+         to be followed for sanitation, including:
+            ➢ RCMP TSSIT OPS-II
+
+            ➢ ISO/IEC 17799
+
+            ➢ DoD 5220.22-M, National Industrial Security Program
+
+              Operating Manual (NISPOM), February 2006
+            ➢ NIST Special Publication 800-88, Guidelines for Media
+
+              Sanitization, September 2006
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        34
+A.Y. 2025 - 2026
+   Sanitizing – Regulations
+    ➢    In Italy, the Provvedimento Garante Privacy del 13 ottobre 2008
+         (G.U. n.287 del 9.12.2008), named ”Rifiuti di apparecchiature
+         elettriche ed elettroniche (Raee) e misure di sicurezza dei dati
+         personali” draws attention to the need to erase personal data
+         from electronic devices intended for reuse, recycling, disposal
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                            35
+A.Y. 2025 - 2026
+   Social Engineering – Attack Vectors
+    ➢ various types of phishing                               ➢ baiting
+    ➢ posing as others                                        ➢ dumpster diving
+    ➢ physical attacks                                        ➢ key logging
+    ➢ cognitive type attacks                                  ➢ piggybacking or shoulder
+                                                                surfing
+                                                              ➢ physical access
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                           36
+A.Y. 2025 - 2026
+   Keylogger
+    ➢    tool capable of intercepting and secretly recording or transmitting
+         everything typed on the keyboard, without the user being aware
+         of it
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                           37
+A.Y. 2025 - 2026
+   Keylogger – Possible Implementations
+     Hardware                                                 Software
+     ➢    The device is connected                             ➢   A malicious program
+          either to the                                           checks and saves the
+          communication cable                                     keystroke sequence that
+          between the keyboard                                    is typed by a user on the
+          and the computer or                                     keyboard
+          inserted inside the
+          keyboard
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                              38
+A.Y. 2025 - 2026
+   Hardware Keylogger Example (I)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              39
+A.Y. 2025 - 2026
+   Hardware Keylogger Example (II)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              40
+A.Y. 2025 - 2026
+   Keylogger – Cyber Hygiene
+    ➢    do not allow cleaning staff access to the sensitive offices when
+         they are unattended
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                            41
+A.Y. 2025 - 2026
+   Software Keylogger (I)
+    ➢ Hypervisor
+      malicious hypervisor running below the Operating System, which
+      is not tampered with in any way
+    ➢ Kernel
+      a malicious driver within the Operating System, starting to
+      intercept signals from keystrokes on the keyboard that flow
+      through the kernel
+    ➢ API
+      keyboard APIs within a running application log events from the
+      keyboard, behaving as components of a legitimate application
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                   42
+A.Y. 2025 - 2026
+   Software Keylogger (II)
+    ➢    Form Grabbing
+         malware stores information entered into a form on a web page
+         when it is submitted, with the information that is stored before it
+         is sent by the browser
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                               43
+A.Y. 2025 - 2026
+   Social Engineering – Attack Vectors
+    ➢ various types of phishing                               ➢ baiting
+    ➢ posing as others                                        ➢ dumpster diving
+    ➢ physical attacks                                        ➢ key logging
+    ➢ cognitive type attacks                                  ➢ piggybacking or shoulder
+                                                                surfing
+                                                              ➢ physical access
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                           44
+A.Y. 2025 - 2026
+   Piggybacking (or Shoulder Surfing)
+    ➢    ability of an attacker to gain illicit access to a restricted area or
+         information by following at close range someone who does have
+         the authorization and ability to access it
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                             45
+A.Y. 2025 - 2026
+   Piggybacking – Cyber Hygiene
+    ➢ if you find yourself working in crowded places, protect your
+      screens with Privacy Filters
+    ➢ never leave your smartphone or PC unattended: when you walk
+      away, always use the screen lock
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                     46
+A.Y. 2025 - 2026
+   Social Engineering – Attack Vectors
+    ➢ various types of phishing                               ➢ baiting
+    ➢ posing as others                                        ➢ dumpster diving
+    ➢ physical attacks                                        ➢ key logging
+    ➢ cognitive type attacks                                  ➢ piggybacking or shoulder
+                                                                surfing
+                                                              ➢ physical access
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                           47
+A.Y. 2025 - 2026
+   Physical Access Attacks
+    ➢ the attacker has physical access to the target system
+    ➢ physical access bypasses the strongest digital defenses
+      (encryption, firewalls, and 2FA) by attacking the environment
+      rather than the network
+    ➢ attackers exploit social norms (politeness, authority, and
+      urgency) to walk through the front door
+    ➢ once inside, an attacker only needs a few seconds of “hands-on”
+      time to compromise a system permanently
+
+                    “If a bad actor has unrestricted physical access to
+                    your computer, it's not your computer anymore.”
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                          48
+A.Y. 2025 - 2026
+   Man-in-the-Video Attacks
+
+
+
+
+    ➢ the authors perform a man-in-the-middle attacks substituting the
+      HDMI cable with a malicious one
+    ➢ this cable intercepts the video output and manipulates it
+         ➢ for example it change the URL showed to the user with a
+
+            legitim one instead of showing the phishing replica
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                     49
+A.Y. 2025 - 2026
+

@@ -1,3 +1,10 @@
 .DS_Store
 **/.DS_Store
 
+# dependencies & build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# the Polito Tools app lives in its own repo: https://github.com/iiMaximus/politools
+polito/

@@ -1,0 +1,53 @@
+
+
+--- PAGE 1 ---
+STM Exercise 8
+Sara Ferraris
+sara.ferraris@polito.it
+Phase Diagrams
+(Fe-C)
+
+
+--- PAGE 2 ---
+
+
+
+--- PAGE 3 ---
+
+
+
+--- PAGE 4 ---
+Describe the solidification (evidencing
+developed microstructures) of a 
+0.25%C steel
+
+
+--- PAGE 5 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) ferrite for a 0,2 % C 
+steel
+
+
+--- PAGE 6 ---
+Use the Fe-Fe3C phase diagram to 
+calculate:
+-the percentage of pearlite for a 
+0,2 % C steel
+
+
+--- PAGE 7 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of pearlite for a 
+1,2 % C steel
+1.2%
+
+
+--- PAGE 8 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) cementite for a 1,2 % 
+C steel

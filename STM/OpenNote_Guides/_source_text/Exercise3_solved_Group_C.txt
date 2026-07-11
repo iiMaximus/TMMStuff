@@ -1,0 +1,301 @@
+
+
+--- PAGE 1 ---
+STM Exercise 3
+➢ Creep
+➢ Fatigue
+
+
+--- PAGE 2 ---
+CREEP
+Creep test: a constant load is applied at a given T, 
+observing a strain versus time where rupture occurs.
+Constant load in the elastic field can give to a plastic 
+deformation, progressive to fracture. 
+1. Thermally activated process (High T Process)
+Metals T>0,3-0,4 Tmelting
+Ceramics T> 0,6-0,7 Tmelting
+Amorphous materials T>Tglass
+
+
+--- PAGE 3 ---
+Ex.1 Draw tensile and creep curves of a given metal  with the following microstructures and Briefly explain the 
+differences: mono-crystalline, polycrystalline with large grains, polycrystalline with small grains.
+
+
+--- PAGE 4 ---
+Ex.1 Draw tensile and creep curves of a given metal  with the following microstructures and Briefly explain the 
+differences: mono-crystalline, polycrystalline with large grains, polycrystalline with small grains.
+Monocrystalline (M) Polycrystalline with Large 
+grains (PL)
+Polycrystalline with 
+Small grains (PS)
+
+
+--- PAGE 5 ---
+
+
+M (real crystal)
+PL
+PS
+Monocrystal (M real): 
+→no reinforcing mechanisms →lowest yield 
+strength
+Policrystalline large grains (PL): 
+→few grain boundaries, poor reinforcing 
+mechanism, intermediate yield strength
+Polycrystalline small grains (PS): many grain 
+boundaries, strong obstacle to dislocation motion, 
+highest yield strength
+The elastic modulus (E)is the same because the 
+metal is the same
+Even though the grain size changes, the atomic 
+bonding remains the same, because the chemical 
+composition is identical
+
+
+--- PAGE 6 ---
+PS
+PL
+M
+
+t
+Same istantaneous
+elastic deformation
+The elastic modulus (E) is the same. Same 
+istantaneous elastic deformation! 
+It’s a metal in any case.
+PS with small grains→ many grain 
+boundaries, which are more “open” and 
+disordered regions→Atoms can diffuse 
+more easily along these boundaries→ 
+so the material deforms faster
+This compared to one with PL large 
+grains→fewer boundaries → 
+intermediate rate of deformation
+M (no grain boundaries) → more slowly 
+deformation at creep and fracture.
+
+
+--- PAGE 7 ---
+Ex.2 Draw the creep curve of materials and briefly discuss the three phases of creep in term of materials micro-
+structural modification.  Draw the creep curves of the same material at 
+ 1 > 
+ 2 and at T1>T2. Explain differences.
+
+
+--- PAGE 8 ---
+During creep, work hardening initially higher due to 
+dislocations accumulate. Creep rate decrease (Primary creep)
+In the steady-state stage, work hardening is balanced by 
+recovery processes →resulting in a constant creep rate. 
+(secondary creep)
+In the tertiary stage, microcavities and macro defects at grain 
+boundary dominate. (tertiary creep)
+
+
+--- PAGE 9 ---
+Increasing stress () the whole 
+curve is shifted up → more 
+stress more faster dislocation 
+motion and conseguently 
+deformation 
+Increase of the instantaneous deformation
+Increase of the 
+stationary creep rate
+Reduction of the 
+time to fracture
+Increase
+stress
+
+t
+1
+2
+3
+
+
+--- PAGE 10 ---
+Increase
+temperature
+3. Consequently 
+Reduction time fracture
+2. Increase of the 
+stationary creep rate
+1.Increase of the instantaneous deformation
+
+t
+2. Increase stationary creep 
+rate: Dislocations move more 
+easily 
+1.Instantaneous deformation increase 
+→ (you see by the stress strain 
+curve:ex.4) given by the E decreases 
+with temperature
+Increasing temperature → more 
+oscillations and distance between 
+atoms 
+→lower resistance of bonding strength 
+to deformation
+
+
+--- PAGE 11 ---
+Ex.3 Indicate on the creep curve below the plastic and elastic deformation of a sample loaded at stress=155 MPa after  
+3000 hours.
+
+
+--- PAGE 12 ---
+Def elastic
+%=0,45%=0.0045
+Def
+plastic%=0,4%=0.004
+0,85%
+Total 
+deformation
+%
+
+
+--- PAGE 13 ---
+Ex.4 Draw the stress/strain curves after tensile tests of a metal at room temperature (RT) and  at T1 > RT. Briefly 
+explain the difference.
+
+
+--- PAGE 14 ---
+Ex.4 Draw the stress/strain curves after tensile tests of a metal at room temperature (RT) and  at T1 > RT. Briefly 
+explain the difference.
+
+
+E decreases with temperature, 
+increasing temperature 
+oscillations of atoms increases 
+as well as the distance 
+between themselves
+the interaction between atoms 
+is lower (lower bonding 
+strength → lower elastic 
+modulus)
+RT
+T1>RT
+
+
+--- PAGE 15 ---
+Fatigue
+• Failure of materials due to cyclic loading.
+• Main reason of mechanical failure of materials
+• Failure happens at stress lower than R or Y
+• Catastrophic failure of materials (also for 
+ductile materials !)
+• Fatigue tests: materials are cyclically loaded at
+different stresses up to failure.
+• Fatigue limit: when cyclically loaded below this
+limit, materials do not fail (time considered by 
+the graph)
+
+
+--- PAGE 16 ---
+More cycles
+Fatigue Oscillation about the constant 
+amplitude stress→bring to the 
+defect always higher
+
+
+--- PAGE 17 ---
+Ex.5 A Brass cylinder (8 mm diameter) is cyclically loaded at +7500 N e -7500 N along its axis. Use curves below to 
+calculate its fatigue life.
+
+
+--- PAGE 18 ---
+A=r2=3,14*16=50,24 mm2
+σmax=Fmax/A= 7500 N/ 50,24 mm2 = 
+149 MPa
+σmin=F/A= - 7500 N/ 50,24 mm2 =        
+-149 MPa
+σm= (σmax – σmin)/2= 149 MPa
+The fatigue life is 105 cycles
+149
+
+
+--- PAGE 19 ---
+Ex.6 A steel rod is cyclically loaded at S= 22 kN along its axis. Use curves above to calculate the minimum diameter 
+for this component to avoid fatigue fracture. Use a safety coefficient 2.
+
+
+--- PAGE 20 ---
+The fatigue limit of the steel is 310 MPa= lim
+310
+To find minimum diameter:
+=F/A
+F=22kN=22000N
+A= (d/2)2
+=F/( (d/2)2)= 4F/ d2
+F=  / N = N safety factor=2 
+d=(4F/((/N))= 
+ ((4*22000)/( *(310 
+Mpa/2))) = 13 mm
+
+
+--- PAGE 21 ---
+Ex.7 The data obtained from a series of fatigue tests for a material are as follows:
+After constructing the Wöhler curve, determine:
+a) The fatigue limit
+b) The number of cycles to failure at 230 and 175 MPa
+c) The fatigue strength at 2.105 and 6.106 cycles
+σ (MPa) N°
+248 1.105
+236 3.105
+224 1.106
+213 3.106
+201 1.107
+193 3.107
+193 1.108
+193 3.108
+
+
+--- PAGE 22 ---
+180
+190
+200
+210
+220
+230
+240
+250
+260
+4.5 4.8 5.1 5.4 5.7 6 6.3 6.6 6.9 7.2 7.5 7.8 8.1 8.4 8.7
+σ (MPa)
+log N
+Wöhler curve
+193
+a) Fatigue limit : 193 MPa
+b) Number of cycles to failure at 230 MPa: 501 187; N=5*105
+Number of cycles to failure at 175 MPa: ∞
+c) Fatigue strength at 2.105 cycles, log(2.105)=5.3 → 240 MPa;
+Fatigue strength at 6.106 cycles, log(6.106 )=6.8 → 205 MPa
+175
+205
+
+
+--- PAGE 23 ---
+Ex.8 Draw the curve (S/N) of a metal  having the following surface characteristics: polished surface; sand-blasted 
+surface; U-notches surface; V-notched surface. Explain differences.
+1- Polished
+2- Sand-blasted
+3- U-notch
+4- V-notch
+
+
+--- PAGE 24 ---
+1- Polished→ smooth 
+surface →no stress 
+concentrators→ best 
+fatigue strentgh
+2- Sand-blasted→ 
+Rough surface → 
+small surface defects 
+act as micro-notches
+3- U-notch→rounded 
+notch→lower fatigue 
+strength but higher 
+than V
+4- V-notch, high 
+concentration→ lowest 
+fatigue strength

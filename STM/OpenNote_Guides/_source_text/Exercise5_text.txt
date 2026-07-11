@@ -1,0 +1,111 @@
+
+
+--- PAGE 1 ---
+STM Exercise 5
+Phase Diagrams
+(full solubility in the solid state)
+(no solubility in the solid state)
+
+
+--- PAGE 2 ---
+Determination of the compositions of phases in equilibrium in a 
+biphasic zone: 
+HORIZONTAL RULE
+L
+L+S
+S
+Liquid 
+composition
+Solid 
+composition
+➢Draw the tie line    - - - - - -
+➢Individuate intersections with liquidus (•) and 
+solidus ( ) lines
+➢ The composition of the liquid is the value on the 
+x axix correspondent to the intersection between the 
+tie line and the liquidus line. 
+➢ The composition of the solid is the value on the x 
+axis correspondent to the intersection of the tie line 
+with the solidus line. 
+LIQUIDUS CURVE = above it only liquid is present
+SOLIDUS CURVE = below it only solid is present
+
+
+--- PAGE 3 ---
+Phases relative amounts determination in a biphasic zone, at equilibrium:
+LEVER RULE
+L
+L+S
+S
+c de
+➢Draw the tie line - - - - - -
+➢Individuate the intersection between tie line 
+and liquidus line (• c) and solidus line (   d)
+➢The % of phases in a point of the biphasic 
+region (e) is defined as:
+%L = (ed/cd)*100
+%S = (ce/cd)*100
+
+
+--- PAGE 4 ---
+The lever rule
+If an alloy consists of more than one phase, the amount of each phase present can be found by applying the lever rule to the 
+phase diagram.
+The lever rule can be explained by considering a simple balance. 
+The composition of the alloy is represented by the fulcrum C, and the compositions of the two phases by the ends of a bar (C1 
+and C2).
+Each phase are determined by the weights needed to balance the system.
+Fraction of phase 1 = (C2 - C) / (C2 - C1)
+Fraction of phase 2 = (C - C1) / (C2 - C1).
+
+
+--- PAGE 5 ---
+Exercise 1: Draw a phase diagram (for generic components A and B), with complete solubility in the 
+liquid state and complete solubility in the solid state. Also indicate the phase/phases present(s) in 
+each region of the phase diagram
+
+
+--- PAGE 6 ---
+Exercise 2: determine the phases present, their composition and relative amounts in the point A, B 
+and C indicated in the phase diagram. Schematize the microstructure in each point.
+C
+
+
+--- PAGE 7 ---
+Exercise 3: determine the phase present, their composition and relative amounts in the point D, E 
+and F indicated in the phase diagram. Schematize the microstructure in each point.
+D
+E
+F
+
+
+--- PAGE 8 ---
+
+
+
+--- PAGE 9 ---
+
+
+
+--- PAGE 10 ---
+Exercise 4: determine the phase present, their composition and relative amounts in the point A, B 
+and C indicated in the phase diagram. 
+A
+C
+B
+
+
+--- PAGE 11 ---
+Exercise 5: Draw a phase diagram (for generic components A and B), with complete solubility in 
+the liquid state and no solubility in the solid state. Also indicate the phase/phases present(s) in 
+each region of the phase diagram
+
+
+--- PAGE 12 ---
+Exercise 6: determine the phases present, their compositions and relative amounts in the point X.
+X
+
+
+--- PAGE 13 ---
+Exercise 7: determine the phases present, their compositions and relative amounts in the point X.
+X

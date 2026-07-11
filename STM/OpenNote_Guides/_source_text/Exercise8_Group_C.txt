@@ -1,0 +1,144 @@
+
+
+--- PAGE 1 ---
+STM Exercise 8
+Phase Diagrams
+(Fe-C)
+
+
+--- PAGE 2 ---
+
+
+
+--- PAGE 3 ---
+
+
+
+--- PAGE 4 ---
+
+
+
+--- PAGE 5 ---
+Describe the solidification (evidencing
+developed microstructures) of a 
+0.25%C steel
+
+
+--- PAGE 6 ---
+ Proeutectoid alpha(ferrite)
+Eutectoid reaction: Austenite -> Ferrite + Cementite 
+Pearlite
+
+
+--- PAGE 7 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) ferrite for a 0,2 % C 
+steel
+0.2%
+
+
+--- PAGE 8 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) ferrite for a 0,2 % C 
+steel
+0.2%
+0.2 0.760.022
+Lever rule on the eutectoidic tie line (blue line in figure):
+%= (0.76-0.2)/(0.76-0.022)*100= 76%
+
+
+--- PAGE 9 ---
+Use the Fe-Fe3C phase diagram to 
+calculate:
+-the percentage of pearlite for a 
+0,2 % C steel
+0.2%
+
+
+--- PAGE 10 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of pearlite for a 
+0,2 % C steel
+0.2%
+0.2 0.760.022
+Lever rule on the eutectoidic tie line (blue line in figure):
+%= (0.2-0.022)/(0.76-0.022)*100= 24%
+The % of pearlite is equal to the one of austenite just before the 
+autectoid
+
+
+--- PAGE 11 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of pearlite for a 
+1,2 % C steel
+1.2%
+
+
+--- PAGE 12 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of pearlite for a 
+1,2 % C steel
+1.2%
+During eutectoidic
+transformation all the austenite
+() is transformed in +Fe3C 
+pearlitic structure.
+So, the % of pearlite is equal to 
+the % of  at the beginning of 
+the eutectoidic transformation
+%  (723°C)= (6.70-1.2)/(6.70-
+0.76)*100=92.5%
+
+
+--- PAGE 13 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) cementite for a 1,2 % 
+C steel
+1.2%
+
+
+--- PAGE 14 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) cementite for a 1,2 % 
+C steel
+1.2%
+Lever rule at 727°C
+%Fe3C (primary)= (1.2-
+0.76)/(6.70-0.76)*100= 
+7.4%
+
+
+--- PAGE 15 ---
+
+
+
+--- PAGE 16 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) ferrite for a 0,2 % C 
+steel
+0.2%
+
+
+--- PAGE 17 ---
+Use the Fe-Fe3C phase diagram 
+to calculate:
+-the percentage of primary (pro-
+eutectoid) ferrite for a 0,2 % C 
+steel
+0.2%
+
+
+--- PAGE 18 ---

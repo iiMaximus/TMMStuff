@@ -1,0 +1,280 @@
+
+
+--- PAGE 1 ---
+STM Exercise 5
+Phase Diagrams
+(full solubility in the solid state)
+(no solubility in the solid state)
+
+
+--- PAGE 2 ---
+Phase Diagram
+it shows the equilibrium states of a mixture, so that given 
+a temperature and composition, it is possible to calculate 
+which phases will be formed, and in what quantities.
+Where L stands for liquid, and A and B are the two 
+components and α and β are two solid phases rich in A and B 
+respectively.
+The blue lines represent the liquidus and solidus lines
+The red lines involve a solid-to-solid transition (solvus lines)
+
+
+--- PAGE 3 ---
+Determination of the compositions of phases in equilibrium in a 
+biphasic zone: 
+HORIZONTAL RULE
+L
+L+S
+S
+Liquid 
+composition
+Solid 
+composition
+➢Draw the tie line    - - - - - -
+➢Individuate intersections with liquidus (•) and 
+solidus ( ) lines
+➢ The composition of the liquid is the value on the 
+x axix correspondent to the intersection between the 
+tie line and the liquidus line. 
+➢ The composition of the solid is the value on the x 
+axis correspondent to the intersection of the tie line 
+with the solidus line. 
+LIQUIDUS CURVE = above it only liquid is present
+SOLIDUS CURVE = below it only solid is present
+
+
+--- PAGE 4 ---
+Phases relative amounts determination in a biphasic zone, at equilibrium:
+LEVER RULE
+L
+L+S
+S
+c de
+➢Draw the tie line - - - - - -
+➢Individuate the intersection between tie line 
+and liquidus line (• c) and solidus line (   d)
+➢The % of phases in a point of the biphasic 
+region (e) is defined as:
+%L = (ed/cd)*100
+%S = (ce/cd)*100
+
+
+--- PAGE 5 ---
+The lever rule
+If an alloy consists of more than one phase, the amount of each phase present can be found by applying the lever rule to the 
+phase diagram.
+The lever rule can be explained by considering a simple balance. 
+The composition of the alloy is represented by the fulcrum C, and the compositions of the two phases by the ends of a bar (C1 
+and C2).
+Each phase are determined by the weights needed to balance the system.
+Fraction of phase 1 = (C2 - C) / (C2 - C1)
+Fraction of phase 2 = (C - C1) / (C2 - C1).
+
+
+--- PAGE 6 ---
+Exercise 1: Draw a phase diagram (for generic components A and B), with complete solubility in the liquid state and 
+complete solubility in the solid state. Also indicate the phase/phases present(s) in each region of the phase 
+diagram
+
+
+--- PAGE 7 ---
+Exercise 1: Draw a phase diagram (for generic components A and B), with complete solubility in the liquid state and 
+complete solubility in the solid state. Also indicate the phase/phases present(s) in each region of the phase 
+diagram
+
+
+--- PAGE 8 ---
+L=Liquid
+L+S
+S=Solid
+TfB
+TfA
+A (100%) B (100%)
+FULL SOLUBILITY IN THE SOLID AND LIQUID STATE
+Liquidus 
+curve   
+Solidus 
+curve
+
+
+--- PAGE 9 ---
+Exercise 1: full solubility in the solid state
+
+
+--- PAGE 10 ---
+Exercise 2: determine the phases present, their composition and relative amounts in the point A, B 
+and C indicated in the phase diagram. Schematize the microstructure in each point.
+C
+
+
+--- PAGE 11 ---
+Exercise 2: determine the phases present, their composition and relative amounts in the point A, B 
+and C indicated in the phase diagram. Schematize the microstructure in each point.
+C
+
+
+--- PAGE 12 ---
+C
+
+
+--- PAGE 13 ---
+C
+Point C:
+Phases: 1 phase liquid
+Composition: 20%Ni, 80% Cu
+Relative amount: 100% liquid phase
+
+
+--- PAGE 14 ---
+Exercise 3: determine the phase present, their composition and relative amounts in the point D, E 
+and F indicated in the phase diagram. Schematize the microstructure in each point.
+D
+F
+E
+
+
+--- PAGE 15 ---
+D
+E
+F
+
+
+--- PAGE 16 ---
+C
+E
+CLE CE
+E
+
+
+--- PAGE 17 ---
+C
+ D
+E
+F
+
+
+--- PAGE 18 ---
+
+
+
+--- PAGE 19 ---
+
+
+
+--- PAGE 20 ---
+Exercise 4: determine the phase present, their composition and relative amounts in the point A, B 
+and C indicated in the phase diagram. 
+A
+C
+B
+
+
+--- PAGE 21 ---
+A
+C
+B Point A:
+Phases: 1 phase liquid
+Composition: 80%Cr2O3, 20% Al2O3
+Relative amount: 100% liquid phase
+
+
+--- PAGE 22 ---
+A
+C
+B
+CL C
+Point B:
+Phases: 2 pahses solid () +liquid (L)
+Composition:
+2 phases region → horizontal rule
+Composition of liquid (L):
+CL= 68% Cr2O3, 32% Al2O3
+Composition of solid ():
+C= 90% Cr2O3, 10% Al2O3
+Relative amount:
+2 phases region → lever rule
+%  = (80-68)/(90-68)*100 = 54.5%
+%L =(90-80)/(90-68)*100 = 45.5%
+
+
+--- PAGE 23 ---
+A
+C
+B
+Point C:
+Phases: 1 phase solid
+Composition: 80%Cr2O3, 20% Al2O3
+Relative amount: 100% solid phase
+
+
+--- PAGE 24 ---
+Exercise 5: Draw a phase diagram (for generic components A and B), with complete solubility in the liquid 
+state and no solubility in the solid state. Also indicate the phase/phases present(s) in each region of the 
+phase diagram
+
+
+--- PAGE 25 ---
+Exercise 5: Draw a phase diagram (for generic components A and B), with complete solubility in the liquid 
+state and no solubility in the solid state. Also indicate the phase/phases present(s) in each region of the 
+phase diagram
+
+
+--- PAGE 26 ---
+
+
+
+--- PAGE 27 ---
+A+L
+L
+A+B
+B+L
+COMPLETE SOLUBILITY IN THE LIQUID STATE AND NO SOLUBILITY IN 
+THE SOLID STATE, EUTECTIC
+TfB
+TfA
+A (100%) B (100%)
+Liquidus
+EUTECTIC 
+TRANSFORMATION
+L  A+B
+Solidus
+Solvus
+
+
+--- PAGE 28 ---
+Exercise 6: determine the phases present, their compositions and relative amounts in the point X.
+X
+y
+z
+
+
+--- PAGE 29 ---
+Exercise 6: determine the phases present, their compositions and relative amounts in the point X.
+X
+y
+z
+
+
+--- PAGE 30 ---
+Exercise 7: determine the phases present, their compositions and relative amounts in the point X.
+X
+
+
+--- PAGE 31 ---
+Exercise 7: determine the phases present, their compositions and relative amounts in the point X.
+Xy z
+Point X
+Phases: solid B+ Liquid L
+Compositions:
+2 phases region → horizontal rule
+CB: 100% B
+CL= 80%B, 20%A
+Relative amounts
+%B = (Xy)/(yz)*100 = (85-80)/(100-80)*100 
+=25%
+%L = (Xz)/(yz)*100 = (100-85)/(100-80)*100 
+= 75%
+CL
+
+
+--- PAGE 32 ---

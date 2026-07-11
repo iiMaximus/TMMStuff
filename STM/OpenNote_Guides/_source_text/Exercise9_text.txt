@@ -1,0 +1,49 @@
+
+
+--- PAGE 1 ---
+STM Exercise 9
+Phase Diagrams
+(Fe-C)
+Sara Ferraris
+sara.ferraris@polito.it
+
+
+--- PAGE 2 ---
+
+
+
+--- PAGE 3 ---
+
+
+
+--- PAGE 4 ---
+Exercise 1: which transformation occurs in point I?
+
+
+--- PAGE 5 ---
+0.34
+A
+B
+C
+DE
+F
+Exercise 2: Determine the phase/s present their
+compositions and relative amount in points A, B, C (at the 
+beginning of the peritectic transformation), D(at the end of 
+the peritectic transformation), E and F for a steel with 
+0.34%C.
+
+
+--- PAGE 6 ---
+0.13
+A
+B
+C
+D
+F
+Exercise 3: Determine the phase/s present their
+compositions and relative amount in points A, B, C (at the 
+beginning of the peritectic transformation), D(at the end of 
+the peritectic transformation), E and F for a steel with 
+0.13%C.
+E

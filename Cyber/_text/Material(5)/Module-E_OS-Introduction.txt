@@ -1,0 +1,493 @@
+                 Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                 A.Y. 2025 - 2026
+
+
+                                                      Enrico Bravi
+                                            enrico.bravi@polito.it
+
+
+Module E – OS Security
+E1 – OS Introduction
+
+
+                                 TORSEC
+                                 Computer and Network Security Group
+   Acknowledgments
+    This lecture deck adapts and reorganizes selected teaching
+    material originally developed by Nicolò Maunero (CINI /
+    Cybersecurity National Lab). The presentation includes material
+    from different sources (OSTEP, MIT, FreeRTOS, Usha Barad,
+    Linux Manpage) including the material provided by Silberschatz,
+    Galvin and Gagne, whose valuable help is here acknowledged and
+    highly appreciated. Portions of the content are reused under the
+    Creative Commons BY-NC license (see license slide). All
+    modifications, additions, re-organization, and any errors are the
+    responsibility of the course instructor.​
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                    2
+A.Y. 2025 - 2026
+  License & Disclaimer
+              License Information                                            Disclaimer
+        This presentation is licensed under the               ➢ We disclaim any warranties or
+         Creative Commons BY-NC License                         representations as to the accuracy or
+                                                                completeness of this material.
+                                                              ➢ Materials are provided “as is” without
+                                                                warranty of any kind, either express or
+                                                                implied, including without limitation,
+                                                                warranties of merchantability, fitness for a
+                                                                particular purpose, and non-infringement.
+                                                              ➢ Under no circumstances shall we be liable
+                                                                for any loss, damage, liability or expense
+          To view a copy of the license, visit:
+                                                                incurred or suffered which is claimed to have
+   http://creativecommons.org/licenses/by-nc/3.0/legalcode
+                                                                resulted from use of this material.
+                                                              ➢ This material is used and adapted within the
+                                                                course “Cybersecurity and National
+                                                                Defense”.
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                                           3
+A.Y. 2025 - 2026
+   Introduction
+    ➢ what is an operating system (OS)?​
+    ➢ an organized collection of software extensions of hardware that
+      serve as:
+         ➢ control routines for operating a computer (for example, to
+
+           gain access to computer resources (like file I/O))
+         ➢ an environment for execution of programs
+
+         ➢ an OS is an interface between the end user and the
+
+           hardware
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        4
+A.Y. 2025 - 2026
+   von Neumann Architecture
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              5
+A.Y. 2025 - 2026
+   Software Execution (I)
+    ➢      instructions reside in main memory (RAM)
+    ➢      the CPU fetches each instruction and execute it
+    ➢      instructions (aka software) need to be moved from persistent
+           storage (e.g., HDD, SSD) to main memory
+    ➢      on simple devices that execute only one application (e.g., IoT),
+           only the executed application needs to be loaded in RAM
+    ➢      when the device starts, a special component called bootloader
+           moves the application in RAM where the CPU will be able to
+           fetch the instructions and execute them
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                              6
+A.Y. 2025 - 2026
+   Software Execution (II)
+    ➢      on general purpose machines, the OS substitute the bootloader
+           for user applications
+    ➢      the OS runs at a higher privileged level, in order to load
+           applications in RAM and allocate the main memory when
+           requested
+    ➢      this hides several specific hardware aspects to developers and
+           users
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        7
+A.Y. 2025 - 2026
+   Example - Arduino
+    ➢ running a single task
+    ➢ NO operating system running
+    ➢ single memory space
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              8
+A.Y. 2025 - 2026
+   Example - FreeBSD
+    ➢ full OS (UNIX variant)
+    ➢ multi-tasking execution
+    ➢ multi-user
+    ➢ process lifecycle
+      management
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              9
+A.Y. 2025 - 2026
+   OS – Layer of Abstraction
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              10
+A.Y. 2025 - 2026
+   OS – General Purpose Computer
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              11
+A.Y. 2025 - 2026
+   Operating Systems Purposes
+    ➢ manages the memory
+    ➢ manages the processes (services and applications)
+    ➢ manages the connected devices (external and internal)
+    ➢ manages files
+    ➢ security
+    ➢ …
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              12
+A.Y. 2025 - 2026
+   Operating System Services (I)
+    ➢ the OS provide an execution environment for executing
+      programs and services
+    ➢ the main services provided are:
+         ➢ user interface: it can be based on Command-Line (CLI),
+
+           Graphics User Interface (GUI)
+         ➢ program execution: the OS load a program in the main
+
+           memory and run it, handling errors during execution
+         ➢ I/O operations: it manages the input/output from storage
+
+           devices
+         ➢ filesystem manipulation: it manages the creation and
+
+           manipulation of files, in particular managing permissions
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                       13
+A.Y. 2025 - 2026
+   Operating System Services (II)
+              ➢ communications: the OS manages the communication
+                between the several programs running
+              ➢ error detection: it needs to be aware of possible errors
+
+                during execution and handle them
+              ➢ resource allocation: the OS needs to manage multi
+
+                user/program scenario, where different entities request
+                system resources
+              ➢ logging: keeping track of the event happened on the system
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                        14
+A.Y. 2025 - 2026
+   Operating System Services (III)
+              ➢    protection and security:
+                   ➢ protection: the access to all resources of the system is
+
+                      controlled
+                   ➢ security: it concerns access attempts from outsiders of
+
+                      the system (user authentication)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                15
+A.Y. 2025 - 2026
+   OS General View
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              16
+A.Y. 2025 - 2026
+   Command Line Interface
+    ➢ the CLI acts as the first interface with the system permitting to
+      directly send commands
+    ➢ it can be implemented in the core of the OS (kernel) or as a
+      system program
+    ➢ it fetches commands from the user (program names, built-in) and
+      execute them
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                      17
+A.Y. 2025 - 2026
+   Shell Command Interpreter
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              18
+A.Y. 2025 - 2026
+   Graphical User Interface (GUI)
+    ➢ It’s a more user-friendly interface
+          ➢ it exploits mouse, keyboard and monitor
+
+          ➢ it uses icons, representing files, programs, actions, etc.
+
+          ➢ more intuitive actions for common operations (program
+
+             execution, file creation, etc.)
+    ➢ main commercial OS include GUI
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                         19
+A.Y. 2025 - 2026
+   System Calls
+    ➢ programming interface provided by the OS to access its services
+    ➢ typically written in an high-level language (C, C++, Rust)
+    ➢ they are mainly accessed by programs through higher level
+      Application Programming Interface (API)
+    ➢ several API standards:
+         ➢ Win32 for Windows
+
+         ➢ POSIX for POSIX-based systems (Linux, macOS, Solaris)
+
+         ➢ Java API for the Java Virtual Machine (JVM)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                    20
+A.Y. 2025 - 2026
+   System Call - Example
+    ➢    sequence of system calls to copy the content of a file in another
+         one
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                             21
+A.Y. 2025 - 2026
+   Standard API - Example
+    #include <unistd.h>
+
+    ssize_t read(int fd, void *buf, size_t count)
+
+        Return type        name                                    parameters
+
+
+
+
+    ➢    it permits to read the content of a file
+              ➢    int fd: file to read
+              ➢    void *buf: buffer where to save the read data
+              ➢    size_t count: maximum data to be read
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                                22
+A.Y. 2025 - 2026
+   Example – open()
+ #include <fcntl.h>
+ …
+ int fd;
+ mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH;
+ char *filename = “/tmp/file”;
+ …
+ fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC,
+           mode);
+ …
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              23
+A.Y. 2025 - 2026
+   Example - read()
+    #include <sys/types.h>
+    #include <unistd.h>
+    …
+    char buf[20];
+    size_t nbytes;
+    ssizte_t bytes_read;
+    int fd;
+    …
+    nbytes = sizeof(buf);
+    bytes_read = read(fd, buf, nbytes);
+    …
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              24
+A.Y. 2025 - 2026
+   System Call Implementation
+    ➢ each system call is typically associated with a number
+         ➢ the OS maintains a table following these numbers
+
+    ➢ the system call interface calls the requested system call and
+      returns the results
+    ➢ the caller (user) does not need to know how the system calls are
+      implemented, it just needs to follow the API rules
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                     25
+A.Y. 2025 - 2026
+   API Flow
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              26
+A.Y. 2025 - 2026
+   System Call Types (I)
+    ➢    Process Control
+           ➢ creation, termination
+
+           ➢ loading, execution
+
+           ➢ getting/setting process attributes
+
+           ➢ waiting for time or for event
+
+           ➢ allocating and freeing memory
+
+           ➢ debugging
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              27
+A.Y. 2025 - 2026
+   System Call Types (II)
+    ➢    management of files
+           ➢ creation, deletion
+
+           ➢ opening, closing
+
+           ➢ reading, writing
+
+
+
+    ➢    management of devices
+           ➢ reading, writing
+
+           ➢ requesting, releasing
+
+           ➢ getting/setting device attributes
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              28
+A.Y. 2025 - 2026
+   System Call Types (III)
+    ➢    protection
+            ➢ access control to resources
+
+            ➢ getting and setting permissions
+
+            ➢ allowing and denying user access
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              29
+A.Y. 2025 - 2026
+   Example – Standard C Library (I)
+    ➢ in UNIX and Linux systems, the standard C library acts as a
+      bridge between user applications and the operating system's
+      kernel
+    ➢ rather than requiring programs to communicate with the
+      hardware directly, the library handles the complexities of the
+      system-call interface.
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                       30
+A.Y. 2025 - 2026
+   Example – Standard C Library (II)
+    ➢    for example, when a C program executes a printf()
+         statement:
+            ➢ the C library catches this request.
+
+            ➢ it translates the request into the appropriate system-level
+
+               command, such as the write() system call.
+            ➢ the kernel processes the request and returns a result to the
+
+               library.
+            ➢ the library then relays that return value back to the original
+
+               user program.
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                           31
+A.Y. 2025 - 2026
+   Example – Standard C Library (III)
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              32
+A.Y. 2025 - 2026
+   Policy vs Mechanism (I)
+    ➢ OS abstracts implementation details
+    ➢ user can describe the desired behavior
+    ➢ policy: represents what needs to be done
+    ➢ mechanism: represents how something needs to be done
+    ➢ the mechanism is transparent to the policy
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                              33
+A.Y. 2025 - 2026
+   Policy vs Mechanism (II)
+    ➢ typically the user does not want to implement, for example
+      security, but wants to “state” what has to be behavior of the
+      system
+    ➢ the user defines its policy, defining a set of rules that the system
+      needs to follow in order to enforce the user requirements
+    ➢ the system is in charge of following the rules (policy) and
+      implement the mechanism to follow them
+    ➢ there can be different implementation the enforce the same rule
+
+
+
+
+Cybersecurity and National Defence (Grandi Sfide - Digital)
+                                                                             34
+A.Y. 2025 - 2026
+

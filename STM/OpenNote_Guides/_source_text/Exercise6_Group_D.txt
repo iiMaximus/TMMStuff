@@ -1,0 +1,384 @@
+
+
+--- PAGE 1 ---
+STM Exercise 6
+Phase Diagrams
+(no solubility in the solid state)
+(partial solubility in the solid state)
+
+
+--- PAGE 2 ---
+Exercise 1: determine the phase present, their composition and relative amounts in the point A, B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+A
+B
+C
+D
+E
+Composition wt%B
+
+
+--- PAGE 3 ---
+Exercise 1: determine the phase present, their composition and relative amounts in the point A, B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+A
+B
+C
+D
+E
+Composition wt%B
+
+
+--- PAGE 4 ---
+A
+B
+C
+D
+E
+Composition wt%B
+L
+
+
+--- PAGE 5 ---
+A
+B
+C
+D
+E
+Composition wt%B
+CLCA
+A A
+A
+A
+
+
+--- PAGE 6 ---
+A
+B
+C
+D
+E
+Composition wt%B
+CA
+
+
+--- PAGE 7 ---
+A
+B
+C
+D
+E
+Composition wt%B
+CLCA
+A A
+A
+AA
+A
+A
+A
+
+
+--- PAGE 8 ---
+A
+B
+C
+D
+E
+Composition wt%B
+CA
+A A
+A
+AA
+A
+A
+A
+Eutectic A
+Eutectic B
+Primary/pro-eutectic A
+
+
+--- PAGE 9 ---
+A
+B
+C
+D
+E
+Composition wt%B
+CA
+A A
+A
+AA
+A
+A
+A
+Eutectic A
+Eutectic B
+Primary/pro-eutectic A
+Primary/pro-eutectic A (As calculated in C, no more formed later):
+% A= (60-35)/(60-0)*100=42%
+%AEUT= 65-42=23%
+
+
+--- PAGE 10 ---
+A
+B
+C
+D
+E
+Composition wt%B
+CA
+A A
+A
+AA
+A
+A
+A
+Eutectic A
+Eutectic B
+Primary/pro-eutectic A
+
+
+--- PAGE 11 ---
+Exercise 2: determine the phase present, their composition and relative amounts in the points B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+B
+C
+D
+E
+
+
+--- PAGE 12 ---
+Exercise 2: determine the phase present, their composition and relative amounts in the points B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+B
+C
+D
+E
+
+
+--- PAGE 13 ---
+Exercise 2: determine the phase present, their composition and relative amounts in the points B, C 
+(at the beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E
+indicated in the phase diagram. Schematize the microstructure in each point.
+B
+C
+D
+E
+A A
+A
+A A=Al2O3
+
+
+--- PAGE 14 ---
+Exercise 2: determine the phase present, their composition and relative amounts in the points B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+B
+C
+D
+E
+A=Al2O3
+A A
+A
+AA
+A
+A
+A
+
+
+--- PAGE 15 ---
+A A
+A
+AA
+A
+A
+A
+Eutectic A
+Eutectic B
+Primary/pro-eutectic A
+B
+C
+D
+E
+A=Al2O3
+B=SnO2
+
+
+--- PAGE 16 ---
+A A
+A
+AA
+A
+A
+A
+Eutectic A
+Eutectic B
+Primary/pro-eutectic A
+B
+C
+D
+E
+A=Al2O3
+B=SnO2
+Primary/pro-eutectic Al2O3 (As calculated in C, no more formed later): % 
+Al2O3 PRIM= (92-20)/(92-0)*100=78%
+%AEUT= 80-78=2%
+
+
+--- PAGE 17 ---
+A A
+A
+AA
+A
+A
+A
+Eutectic A
+Eutectic B
+Primary/pro-eutectic A
+B
+C
+D
+E
+A=Al2O3
+B=SnO2
+
+
+--- PAGE 18 ---
+Exercise 3: Draw a phase diagram (for generic components A and B), with complete solubility in the liquid state 
+and partial solubility in the solid state. Also indicate the phase/phases present(s) in each region of the phase 
+diagram
+
+
+--- PAGE 19 ---
+Complete solubility in the liquid state, 
+partial solubility in the solid state
+
+
+--- PAGE 20 ---
+
+L
++
+L++L
+Exercise 4: describe the 
+solidification of alloys with 
+compositions xB’, xB’’, xB’’’ ans
+xB
+eut by drawing schematic
+microstructures in significant
+points.
+
+
+--- PAGE 21 ---
+
+
+
+--- PAGE 22 ---
+Exercise 5: determine the phase present, their composition and relative amounts in the points A, B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+A
+B
+C
+D
+E
+
+
+--- PAGE 23 ---
+Exercise 5: determine the phase present, their composition and relative amounts in the points A, B, C (at the 
+beginning of the eutectic transformation), D (at the end of the eutectic transformation) and E indicated in the 
+phase diagram. Schematize the microstructure in each point.
+A
+B
+C
+D
+E
+
+
+--- PAGE 24 ---
+A
+B
+C
+D
+E
+L
+
+
+--- PAGE 25 ---
+ 
+
+
+A
+B
+C
+D
+E
+C CL
+
+
+--- PAGE 26 ---
+ 
+
+
+A
+B
+C
+D
+E
+C CL
+
+
+
+
+
+--- PAGE 27 ---
+A
+B
+C
+D
+E
+C C
+ 
+
+
+
+
+
+Eutectic 
+Eutectic 
+Primary/pro-eutectic 
+
+
+--- PAGE 28 ---
+A
+B
+C
+D
+E
+C C
+ 
+
+
+
+
+
+Eutectic 
+Eutectic 
+Primary/pro-eutectic 
+
+
+--- PAGE 29 ---
+A
+B
+C
+D
+
+
+--- PAGE 30 ---
+
+
+
+--- PAGE 31 ---
