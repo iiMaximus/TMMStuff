@@ -1,5 +1,16 @@
 # TMM Study Site Agent Instructions
 
+## Scope and current Polito Tools authorization (2026-09-08)
+
+The TMM-specific source restrictions, card schema, deck workflow and validation commands below
+apply to the original TMM study site only. They do not govern the separate `polito/` application
+or its Manufacturing Processes, Industrial Plants and Safety, or other new courses.
+For `polito/`, follow `polito/AGENTS.md` and the current user's course brief. The user explicitly
+authorizes authoritative internet research and useful internet images to supplement sparse materials.
+Prefer official course material for assessment scope and terminology, but independently verify
+student notes and answers. Cite external teaching sources, respect image licenses, and distinguish
+authored practice from actual supplied exam questions. No additional research approval is needed.
+
 This project is a local adaptive study website for the Technology of Metallic Materials exam. Multiple agents may work in parallel, each owning one source family or lecture/module. Do not edit another agent's assigned module unless asked.
 
 ## Source Priorities
